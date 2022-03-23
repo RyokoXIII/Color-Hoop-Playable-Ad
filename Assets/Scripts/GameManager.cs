@@ -57,6 +57,14 @@ public class GameManager : MonoBehaviour
     public CountDown countDown;
     public bool hasPassRound1 = false;
 
+    public GameObject levelText;
+
+    [LunaPlaygroundField("hoop type", 0, "Hoop Config")]
+    public HoopType hoopType;
+    public List<GameObject> hoopList;
+
+    int turn = 15;
+
 
     void Awake()
     {
@@ -66,14 +74,14 @@ public class GameManager : MonoBehaviour
         }
 
         Application.targetFrameRate = 60;
-        ReadData();
+        //ReadData();
     }
 
     void Start()
     {
         // Khởi tạo Pool
         SimplePool.Preload(config.hopPrefab, config.initHop);
-        SimplePool.Preload(config.hoop2Prefab, config.initHoop2);
+        //SimplePool.Preload(config.hoop2Prefab, config.initHoop2);
         SimplePool.Preload(config.stickPrefab, config.initStick);
 
         currentLevel = Database.instance.GetLevel();
@@ -83,7 +91,70 @@ public class GameManager : MonoBehaviour
 
         uiManager.CheckTutorial();
 
+        CheckModel();
+
         InitLevel();
+    }
+
+    void CheckModel()
+    {
+        switch (hoopType)
+        {
+            case HoopType.Ring:
+                config.hopPrefab = hoopList[0];
+                break;
+            case HoopType.Donut:
+                config.hopPrefab = hoopList[1];
+                break;
+            case HoopType.Round:
+                config.hopPrefab = hoopList[2];
+                break;
+            case HoopType.ThinRound:
+                config.hopPrefab = hoopList[3];
+                break;
+            case HoopType.Square:
+                config.hopPrefab = hoopList[4];
+                break;
+            case HoopType.ThinSquare:
+                config.hopPrefab = hoopList[5];
+                break;
+            case HoopType.Wheel:
+                config.hopPrefab = hoopList[6];
+                break;
+            case HoopType.Screw:
+                config.hopPrefab = hoopList[7];
+                break;
+            case HoopType.DogBowl:
+                config.hopPrefab = hoopList[8];
+                break;
+            default:
+                config.hopPrefab = hoopList[0];
+                break;
+        }
+    }
+
+
+    bool hasChangePortrait = false;
+    bool hasChangeLandscape = false;
+
+    private void Update()
+    {
+        SortSticks();
+        float screenRatio = (Screen.width / Screen.height);
+        if (screenRatio >= 1 && hasChangeLandscape == false)
+        {
+            // landscape
+            SortHops();
+            hasChangeLandscape = true;
+            hasChangePortrait = false;
+        }
+        else if (screenRatio < 1 && hasChangePortrait == false)
+        {
+            // portrait
+            SortHops();
+            hasChangePortrait = true;
+            hasChangeLandscape = false;
+        }
     }
 
     public void TapToStart()
@@ -93,13 +164,14 @@ public class GameManager : MonoBehaviour
 
     void InitLevel()
     {
-        if (currentLevel == 1)
-        {
-            uiManager.textHint.SetActive(true);
-            uiManager.textHint.GetComponent<Text>().text = "Solve puzzle before time runs out";
+        //if (currentLevel == 1)
+        //{
+        //    uiManager.textHint.gameObject.SetActive(true);
+        //    uiManager.textHint.GetComponent<Text>().text = "Solve puzzle before time runs out";
 
-            uiManager.timerUI.SetActive(true);
-        }
+        //    uiManager.timerUI.SetActive(true);
+        //}
+
         //reset
         for (int i = 0; i < sticks.Count; i++)
         {
@@ -110,86 +182,140 @@ public class GameManager : MonoBehaviour
 
         gameState = GameState.IDLE;
         cacheIndexTap1 = -1;
-        countHop = levelData.levels[currentLevel].data[0].stick.Length;
-        countStick = levelData.levels[currentLevel].data.Length;
-
+        countHop = levelData.levels[0].data[0].stick.Length;
+        countStick = levelData.levels[0].data.Length;
+        Debug.Log("stick count: " + levelData.levels[0].data.Length.ToString());
         //
         heightMoveFirst = config.heightMoveFirst[countHop - 3];
 
         //Sinh stick theo tọa độ dựa vào số Stick, nếu là số lẻ thì sinh từ giữa ra 2 bên, max 1 hàng = 4, nếu lớn hơn thì đẩy xuống 1 hàng
-        Vector3 vector = Vector3.zero;
-        vector.y = -0.3f;
-        if (countStick <= 4)
-        {
-            if (countStick % 2 == 1)
-            {
-                vector.x = (config.distanceXStick / 2) + (1 - countStick / 2) * config.distanceXStick;
-            }
-            else
-            {
-                vector.x = (1 - countStick / 2) * config.distanceXStick + config.distanceXStick;
-            }
-            vector.z = config.distanceZStick / 2;
+        //Vector3 vector = Vector3.zero;
+        //vector.y = -0.3f;
+        //if (countStick <= 4)
+        //{
+        //    if (countStick % 2 == 1)
+        //    {
+        //        vector.x = (config.distanceXStick / 2) + (1 - countStick / 2) * config.distanceXStick;
+        //    }
+        //    else
+        //    {
+        //        vector.x = (1 - countStick / 2) * config.distanceXStick + config.distanceXStick;
+        //    }
+        //    vector.z = config.distanceZStick / 2;
 
-            for (int i = 0; i < countStick; i++)
-            {
-                InitStick(vector, i);
-                vector.x += config.distanceXStick;
-            }
-        }
-        else
-        {
-            int countStick1 = 0;
-            if (countStick % 2 == 0)
-                countStick1 = countStick / 2;
-            else
-                countStick1 = countStick / 2 + 1;
+        //    for (int i = 0; i < countStick; i++)
+        //    {
+        //        InitStick(vector, i);
+        //        vector.x += config.distanceXStick;
+        //    }
+        //}
+        //else
+        //{
+        //    int countStick1 = 0;
+        //    if (countStick % 2 == 0)
+        //        countStick1 = countStick / 2;
+        //    else
+        //        countStick1 = countStick / 2 + 1;
 
-            int countStick2 = countStick - countStick1;
+        //    int countStick2 = countStick - countStick1;
 
-            if (countStick1 % 2 == 1)
-            {
-                vector.x = (config.distanceXStick / 2) + (1 - countStick1 / 2) * config.distanceXStick;
-            }
-            else
-            {
-                vector.x = (1 - countStick1 / 2) * config.distanceXStick + config.distanceXStick;
-            }
+        //    if (countStick1 % 2 == 1)
+        //    {
+        //        vector.x = (config.distanceXStick / 2) + (1 - countStick1 / 2) * config.distanceXStick;
+        //    }
+        //    else
+        //    {
+        //        vector.x = (1 - countStick1 / 2) * config.distanceXStick + config.distanceXStick;
+        //    }
 
-            vector.z = 0;
+        //    vector.z = 0;
 
-            for (int i = 0; i < countStick1; i++)
-            {
-                InitStick(vector, i);
-                vector.x += config.distanceXStick;
-            }
+        //    for (int i = 0; i < countStick1; i++)
+        //    {
+        //        InitStick(vector, i);
+        //        vector.x += config.distanceXStick;
+        //    }
 
-            if (countStick2 % 2 == 1)
-            {
-                vector.x = (config.distanceXStick / 2) + (1 - countStick2 / 2) * config.distanceXStick;
-            }
-            else
-            {
-                vector.x = (1 - countStick2 / 2) * config.distanceXStick + config.distanceXStick;
-            }
+        //    if (countStick2 % 2 == 1)
+        //    {
+        //        vector.x = (config.distanceXStick / 2) + (1 - countStick2 / 2) * config.distanceXStick;
+        //    }
+        //    else
+        //    {
+        //        vector.x = (1 - countStick2 / 2) * config.distanceXStick + config.distanceXStick;
+        //    }
 
-            vector.z = config.distanceZStick;
+        //    vector.z = config.distanceZStick;
 
-            for (int i = 0; i < countStick2; i++)
-            {
-                InitStick(vector, i + countStick1);
-                vector.x += config.distanceXStick;
-            }
-        }
+        //    for (int i = 0; i < countStick2; i++)
+        //    {
+        //        InitStick(vector, i + countStick1);
+        //        vector.x += config.distanceXStick;
+        //    }
+        //}
+
+        //for (int i = 0; i < countStick; i++)
+        //{
+        //    int randomCount = 0;
+        //    for (int k = 0; k < levelData.levels[currentLevel].data[i].stick.Length; k++)
+        //    {
+        //        if (levelData.levels[currentLevel].data[i].stick[k] != 0)
+        //        {
+        //            randomCount++;
+        //        }
+        //        else
+        //        {
+        //            break;
+        //        }
+        //    }
+
+        //    Vector3 stickPos = sticks[i].transform.position;
+        //    Vector3 hopPos = new Vector3(stickPos.x, 0, stickPos.z);
+
+        //    for (int j = 0; j < randomCount; j++)
+        //    {
+        //        HopManager hopManager;
+
+        //        if (currentLevel == 0)
+        //        {
+        //            hopManager = SimplePool.Spawn(config.hopPrefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
+        //        }
+        //        else
+        //        {
+        //            hopManager = SimplePool.Spawn(config.hoop2Prefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
+        //        }
+
+        //        int colorHop = levelData.levels[currentLevel].data[i].stick[j] - 1;
+
+        //        hopManager.ChangeColor(colorConfig.hopColor[colorHop]);
+        //        sticks[i].hops.Add(hopManager);
+
+        //        hopPos.y += config.distanceHop;
+        //    }
+        //}        
 
         for (int i = 0; i < countStick; i++)
         {
-            int randomCount = 0;
-            for (int k = 0; k < levelData.levels[currentLevel].data[i].stick.Length; k++)
+            InitStick(i);
+        }
+
+        SortSticks();
+
+        InitHops();
+
+        SortHops();
+    }
+
+    void InitHops()
+    {
+        for (int i = 0; i < countStick; i++)
+        {
+            int countHopStick = 0;
+            for (int k = 0; k < levelData.levels[0].data[i].stick.Length; k++)
             {
-                if (levelData.levels[currentLevel].data[i].stick[k] != 0)
+                if (levelData.levels[0].data[i].stick[k] != 0)
                 {
-                    randomCount++;
+                    countHopStick++;
                 }
                 else
                 {
@@ -197,43 +323,90 @@ public class GameManager : MonoBehaviour
                 }
             }
 
-            Vector3 stickPos = sticks[i].transform.position;
-            Vector3 hopPos = new Vector3(stickPos.x, 0, stickPos.z);
-
-            for (int j = 0; j < randomCount; j++)
+            for (int j = 0; j < countHopStick; j++)
             {
-                HopManager hopManager;
-
-                if (currentLevel == 0)
-                {
-                    hopManager = SimplePool.Spawn(config.hopPrefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
-                }
-                else
-                {
-                    hopManager = SimplePool.Spawn(config.hoop2Prefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
-                }
-
-                int colorHop = levelData.levels[currentLevel].data[i].stick[j] - 1;
+                HopManager hopManager = SimplePool.Spawn(config.hopPrefab, Vector3.zero, Quaternion.identity).GetComponent<HopManager>();
+                int colorHop = levelData.levels[0].data[i].stick[j] - 1;
 
                 hopManager.ChangeColor(colorConfig.hopColor[colorHop]);
                 sticks[i].hops.Add(hopManager);
+            }
+        }
+    }
+
+    void SortHops()
+    {
+        for (int i = 0; i < countStick; i++)
+        {
+            Vector3 stickPos = sticks[i].transform.position;
+            Vector3 hopPos = new Vector3(stickPos.x, 0, stickPos.z);
+
+            for (int j = 0; j < sticks[i].hops.Count; j++)
+            {
+                sticks[i].hops[j].transform.position = hopPos;
 
                 hopPos.y += config.distanceHop;
             }
         }
     }
 
-    void InitStick(Vector3 pos, int index)
+    void SortSticks()
     {
-        StickManager stick = SimplePool.Spawn(config.stickPrefab, pos, Quaternion.identity).GetComponent<StickManager>();
+        countStick = sticks.Count;
+
+        // chỉnh hiện số hàng, số cột,  (bắt đầu từ phần tử bn, hiển thị mấy cột), (bắt đầu từ phần tử cuối cùng ở phía trên đc hiển thị,...)
+
+        float screenRatio = (Screen.width / Screen.height);
+        if (screenRatio >= 1)
+        {
+            // landscape
+            SortByRow(0, 7, -config.distanceZStick * 1.5f);
+            SortByRow(7, 7, -config.distanceZStick * 0.5f);
+            SortByRow(14, 6, config.distanceZStick * 0.5f);
+        }
+        else if (screenRatio < 1)
+        {
+            // portrait
+            SortByRow(0, 5, -config.distanceZStick * 1.5f);
+            SortByRow(5, 5, -config.distanceZStick * 0.5f);
+            SortByRow(10, 5, config.distanceZStick * 0.5f);
+            SortByRow(15, 5, config.distanceZStick * 1.5f);
+        }
+    }
+
+    void SortByRow(int start, int count, float zPos)
+    {
+        Vector3 vector = Vector3.zero;
+        vector.y = -0.3f;
+        vector.z = zPos;
+
+        if (count % 2 == 1)
+        {
+            vector.x = (config.distanceXStick / 2) + (1 - count / 2) * config.distanceXStick;
+        }
+        else
+        {
+            vector.x = (1 - count / 2) * config.distanceXStick + config.distanceXStick;
+        }
+
+        for (int i = start; i < start + count; i++)
+        {
+            sticks[i].transform.position = vector;
+            vector.x += config.distanceXStick;
+        }
+    }
+
+    void InitStick(int index)
+    {
+        StickManager stick = SimplePool.Spawn(config.stickPrefab, Vector3.zero, Quaternion.identity).GetComponent<StickManager>();
         stick.Initialize(countHop, index);
         sticks.Add(stick);
     }
 
-    void ReadData()
-    {
-        levelData = JsonConvert.DeserializeObject<LevelData>(Resources.Load<TextAsset>("Levels").ToString());
-    }
+    //void ReadData()
+    //{
+    //    levelData = JsonConvert.DeserializeObject<LevelData>(Resources.Load<TextAsset>("NewLevels").ToString());
+    //}
 
     public void ResetTapWithoutMove()
     {
@@ -247,36 +420,60 @@ public class GameManager : MonoBehaviour
         SoundManager.instance.PlayHopDrop();
     }
 
+    int stickFinish = 0;
+
     public void MoveStickAToStickB(int indexTarget)
     {
-        // currentFirstHop = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
-        HopManager hopManager = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
-        sticks[cacheIndexTap1].hops.Remove(hopManager);
-        sticks[indexTarget].hops.Add(hopManager);
-
-        Vector3 endTarget = sticks[indexTarget].GetLastPosition();
-        Vector3 cache = endTarget; ;
-        endTarget.y = heightMoveFirst;
-
-        SoundManager.instance.PlayHopFly();
-        hopManager.transform.DOMove(endTarget, config.timeMoveTarget).OnComplete(() =>
+        if (turn > 0)
         {
-            hopManager.transform.DOMove(cache, config.timeMoveSecond).SetEase(Ease.OutBounce).OnComplete(() =>
+            // currentFirstHop = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
+            HopManager hopManager = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
+            sticks[cacheIndexTap1].hops.Remove(hopManager);
+            sticks[indexTarget].hops.Add(hopManager);
+
+            Vector3 endTarget = sticks[indexTarget].GetLastPosition();
+            Vector3 cache = endTarget; ;
+            endTarget.y = heightMoveFirst;
+
+            SoundManager.instance.PlayHopFly();
+
+            // Player play turns
+            turn--;
+            Debug.Log("remain turns: " + turn.ToString());
+
+
+            hopManager.transform.DOMove(endTarget, config.timeMoveTarget).OnComplete(() =>
             {
-                if (sticks[indexTarget].CheckEndStick())
+                hopManager.transform.DOMove(cache, config.timeMoveSecond).SetEase(Ease.OutBounce).OnComplete(() =>
                 {
-                    SoundManager.instance.PlayStickFinish();
-                    if (CheckCompleted())
+                    if (sticks[indexTarget].CheckEndStick())
                     {
-                        EndGame();
+                        stickFinish++;
+                        SoundManager.instance.PlayStickFinish();                        
+                        if (CheckCompleted())
+                        {
+                            Luna.Unity.LifeCycle.GameEnded();
+                            EndGame();
+                        }
+                        else if(stickFinish >= 2)
+                        {
+                            Luna.Unity.LifeCycle.GameEnded();
+                            EndGame();
+                        }
                     }
-                }
+                });
             });
-        });
 
-        //currentFirstHop.transform.position = sticks[indexTarget].GetLastPosition();
+            //currentFirstHop.transform.position = sticks[indexTarget].GetLastPosition();
 
-        ResetTapWithoutMove();
+            ResetTapWithoutMove();
+        }
+        else
+        {
+            StartCoroutine(ShowRewardCallBack());
+            Luna.Unity.LifeCycle.GameEnded();
+            Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+        }
     }
 
     void EndGame()
@@ -285,29 +482,33 @@ public class GameManager : MonoBehaviour
         SoundManager.instance.PlayWin();
 
 
-        currentLevel++;
+        if (uiManager.ctaUI.activeInHierarchy == false)
+        {
+            uiManager.ctaUI.SetActive(true);
+            Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+        }
 
 
-        StartCoroutine(ShowRewardCallBack());
+        //StartCoroutine(ShowRewardCallBack());
     }
 
     IEnumerator ShowRewardCallBack()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
-        if (currentLevel == 1 || hasPassRound1 == true)
-        {
-            uiManager.CompleteRound1();
-            hasPassRound1 = false;
-            currentLevel = 1;
-        }
-        else if (currentLevel == 2)
-        {
-            TurnOffDownloadBtn();
+        //if (currentLevel == 1 || hasPassRound1 == true)
+        //{
+        //    uiManager.CompleteRound1();
+        //    hasPassRound1 = false;
+        //    currentLevel = 1;
+        //}
+        //else if (currentLevel == 2)
+        //{
+        TurnOffDownloadBtn();
 
-            yield return new WaitForSeconds(0.5f);
-            Time.timeScale = 0f;
-        }
+        yield return new WaitForSeconds(0.5f);
+        Time.timeScale = 0f;
+        //}
     }
 
     public void NewLevel()
@@ -349,7 +550,7 @@ public class GameManager : MonoBehaviour
         currentFirstHop = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
         HopManager hop2 = sticks[indexTarget].hops[sticks[indexTarget].hops.Count - 1];
 
-        return currentFirstHop.typeHop == hop2.typeHop;
+        return currentFirstHop.hoopColor == hop2.hoopColor;
     }
 
     public void StickHopMoveFirst()
@@ -363,10 +564,12 @@ public class GameManager : MonoBehaviour
     public void TurnOffDownloadBtn()
     {
         uiManager.downloadButton.SetActive(false);
+        levelText.SetActive(false);
 
         if (uiManager.ctaUI.activeInHierarchy == false)
         {
             uiManager.ctaUI.SetActive(true);
+            Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
         }
     }
 }
@@ -381,19 +584,36 @@ public struct ColorHop
 [Serializable]
 public struct Hop
 {
-    public TypeHop typeHop;
+    public HoopColor hoopColor;
     public Material colorHop;
 }
 
-public enum TypeHop
+public enum HoopColor
 {
     BLUE,
     ORANGE,
     RED,
     GREEN,
     PINK,
+    DARKPINK,
     PURPLE,
-    BLACK
+    BLACK,
+    CYAN,
+    YELLOW,
+    DARKYELLOW
+}
+
+public enum HoopType
+{
+    Ring,
+    Donut,
+    Round,
+    ThinRound,
+    Square,
+    ThinSquare,
+    Wheel,
+    Screw,
+    DogBowl
 }
 
 public enum GameState

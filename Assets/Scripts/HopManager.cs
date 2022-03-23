@@ -2,8 +2,17 @@
 
 public class HopManager : MonoBehaviour
 {
-    public GameManager manager;
-    public TypeHop typeHop;
+    //public HoopColor typeHop;
+    //public MeshRenderer meshRenderer;
+
+    //public void ChangeColor(Hop hop)
+    //{
+    //    //Material material = meshRenderer.material;
+    //    meshRenderer.material = hop.colorHop;
+    //    typeHop = hop.hoopColor;
+    //}
+
+    public HoopColor hoopColor;    
     public MeshRenderer meshRenderer;
     public GameObject obj;
 
@@ -19,6 +28,6 @@ public class HopManager : MonoBehaviour
         {
             meshRenderer.material = hop.colorHop;
         }
-        typeHop = hop.typeHop;
+        hoopColor = hop.hoopColor;
     }
 }

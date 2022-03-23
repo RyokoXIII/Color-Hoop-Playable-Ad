@@ -34,13 +34,16 @@ public class StickManager : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+
     void OnMouseDown()
     {
         if (GameManager.instance.currentLevel == 0)
+        {
             UIManager.instance.ButtonGuide();
+        }
         
-        if(UIManager.instance.textHint.activeInHierarchy == true)
-            UIManager.instance.textHint.SetActive(false);
+        if(UIManager.instance.textHint.gameObject.activeInHierarchy == true)
+            UIManager.instance.textHint.gameObject.SetActive(false);
 
 
         if (GameManager.instance.gameState != GameState.WIN && isDone == false)
@@ -88,7 +91,7 @@ public class StickManager : MonoBehaviour
         position.y = (hops.Count - 1) * GameManager.instance.config.distanceHop;
 
         return position;
-    }
+    }    
 
     public bool CheckEndStick()
     {
@@ -96,11 +99,11 @@ public class StickManager : MonoBehaviour
         {
             for (int i = 1; i < hops.Count; i++)
             {
-                if (hops[i].typeHop != hops[0].typeHop)
+                if (hops[i].hoopColor != hops[0].hoopColor)
                 {
                     return false;
                 }
-            }
+            }            
             victoryEffect.Play();
             isDone = true;
 

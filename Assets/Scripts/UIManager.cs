@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,13 +12,38 @@ public class UIManager : MonoBehaviour
     //Tutorial
     [SerializeField] GameObject guideHand1;
     [SerializeField] GameObject guideHand2;
-    public GameObject textHint;
+    public TextMeshProUGUI textHint;
     public GameObject timerUI;
     public GameObject ctaUI;
     public GameObject downloadButton;
+    public RawImage downloadBtn;
 
-    //[SerializeField] GameObject uiTextTapToStart;
-    //[SerializeField] GameObject uiTextGuide;
+    [Header("Luna Settings")]
+    [Space(10f)]
+    [LunaPlaygroundAsset("Button Image", 1, "Game UI")]
+    public Texture2D buttonImage;
+
+    [LunaPlaygroundField("Download Button Text", 2, "Game UI")]
+    public string downloadText = "DOWNLOAD";
+
+    [LunaPlaygroundField("Level Text", 3, "Game UI")]
+    public string levelText = "Level 1069";
+
+    [LunaPlaygroundField("text hint", 0, "Game UI")]
+    public string hintText = "SAME COLOR hoop can be placed on top each other";
+
+    [LunaPlaygroundAsset("Background", 4, "Game UI")]
+    public Texture2D backgroundImg;
+
+    public SpriteRenderer background;
+    public Text downloadTxt;
+    public TextMeshProUGUI levelTxt;
+
+    public GameObject mask, mask2;
+
+
+    int installClick = 0;
+    int ctaClick = 0;
 
 
     void Awake()
@@ -25,6 +52,23 @@ public class UIManager : MonoBehaviour
         {
             instance = this;
         }
+    }
+
+    private void Start()
+    {
+        // Assign assets
+        downloadBtn.texture = buttonImage;
+        downloadTxt.text = downloadText;
+        levelTxt.text = levelText;
+        textHint.text = hintText;
+        //background.texture = backgroundImg;
+        background.sprite = Sprite.Create(backgroundImg, new Rect(0, 0, backgroundImg.width, backgroundImg.height), new Vector2(0.5f, 0.5f));
+
+        //gameIcon.texture = gameIconImg;
+        //ctaButton1.texture = buttonImage;
+        //ctaButton2.texture = buttonImage;
+        //ctaBtn1Txt.text = ctaBtn1Text;
+        //ctaBtn2Txt.text = ctaBtn2Text;
     }
 
 
@@ -42,23 +86,21 @@ public class UIManager : MonoBehaviour
         {
             guideHand1.SetActive(false);
             guideHand2.SetActive(true);
+            mask.SetActive(false);
+            mask2.SetActive(true);
         }
         else
         {
-            guideHand2.SetActive(false);            
+            guideHand2.SetActive(false);
+            mask2.SetActive(false);
         }
     }
 
     public void ButtonDirectToStore()
     {
-        Luna.Unity.LifeCycle.GameEnded();
+        ctaClick++;
         Luna.Unity.Playable.InstallFullGame();
-    }
-
-    public void ButtonRestart()
-    {
-        Luna.Unity.LifeCycle.GameEnded();
-        Luna.Unity.Playable.InstallFullGame();
+        Luna.Unity.Analytics.LogEvent("cta_click", ctaClick);
     }
 
     public void CompleteRound1()
@@ -80,7 +122,8 @@ public class UIManager : MonoBehaviour
 
     public void ButtonDownload()
     {
-        Luna.Unity.LifeCycle.GameEnded();
+        installClick++;
         Luna.Unity.Playable.InstallFullGame();
+        Luna.Unity.Analytics.LogEvent("download_click", installClick);
     }
 }

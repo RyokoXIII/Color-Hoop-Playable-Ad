@@ -53,8 +53,8 @@ public class CountDown : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         uiManager.downloadButton.SetActive(false);
 
-        if (uiManager.textHint.activeInHierarchy == true)
-            uiManager.textHint.SetActive(false);
+        if (uiManager.textHint.gameObject.activeInHierarchy == true)
+            uiManager.textHint.gameObject.SetActive(false);
 
         if(uiManager.ctaUI.activeInHierarchy == false)
             uiManager.ctaUI.SetActive(true);

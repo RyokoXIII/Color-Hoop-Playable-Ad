@@ -1,0 +1,84 @@
+{
+    "BuildID": "fc94a7c9-a6a3-4411-8f8a-2b0486056404",
+    "Command": "project:deploy",
+    "ProjectID": "",
+    "ProjectStateHash": "04ea5434c974cf20cf881694b436b70e2146b106b65f208c0ded002a4ab8caae",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1637893560120,
+    "EndTime": 1637893579483,
+    "PlaygroundUserID": 861,
+    "OperatingSystem": "win32",
+    "UnityVersion": "2020.3.22f1",
+    "LunaVersion": "2.6.0",
+    "LogCount": 3,
+    "Logs": [
+        {
+            "LogID": "c1e13001-ac0a-4114-9cc2-ee4ed3c49910",
+            "Order": 0,
+            "Timestamp": 1637893564467,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 7,
+            "ErrorSubType": 8,
+            "ErrorCode": "LP1004",
+            "Description": "No Luna.shadervariants asset found",
+            "Details": [
+                "No Assets/Luna.shadervariants asset was found. This might bloat your build with excessive shader variants."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "9a896a25-cb12-43bb-bf69-cb0e87b411d7",
+            "Order": 1,
+            "Timestamp": 1637893575595,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 7,
+            "ErrorSubType": 8,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Code > Runtime Analysis tab and hit \"Start Analysis\""
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "27679fd4-1a25-4c7c-a72c-b8a625272dee",
+            "Order": 2,
+            "Timestamp": 1637893575597,
+            "Stage": 1,
+            "Severity": 1,
+            "ErrorType": 7,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1002",
+            "Description": "Non-repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Background",
+                "circle1",
+                "layout_purchaseitem",
+                "CH_claim",
+                "layout_popup_purchaseitem"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 5,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        }
+    ]
+}

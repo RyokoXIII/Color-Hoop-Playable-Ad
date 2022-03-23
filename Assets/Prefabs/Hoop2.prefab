@@ -44,8 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ae95c48a03d7c42873e43c493a6ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  typeHop: 0
+  hoopColor: 0
   meshRenderer: {fileID: 3372837866904688053}
   obj: {fileID: 3372837866904688051}
 --- !u!1 &3372837865681858390
@@ -171,6 +170,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 451632cf38424ea4ba09ead4052e2c49, type: 2}
   - {fileID: 2100000, guid: dee7fe3a028cf094c8079f915cb3e7e3, type: 2}
+  - {fileID: 2100000, guid: c2cd3fae444dd1e4c8cce708a03d3ad0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

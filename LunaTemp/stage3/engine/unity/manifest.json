@@ -17,6 +17,10 @@
     "priority": 2
   },
   {
+    "src": "bin/UnityEngine.UniversalRenderPipeline.js",
+    "priority": 2
+  },
+  {
     "src": "bin/TextMeshPro.js",
     "priority": 2,
     "optional": true
