@@ -1,3 +1,4 @@
+if ( TRACE ) { TRACE( JSON.parse( '["UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init","UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.12-luna
  */
@@ -179,6 +180,8 @@ Bridge.assembly("UnityEngine.UniversalRenderPipeline", function ($asm, globals) 
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init", this ); }
+
                     this.k_MinLutSize = 16;
                     this.k_MaxLutSize = 65;
                 }
@@ -212,6 +215,8 @@ Bridge.assembly("UnityEngine.UniversalRenderPipeline", function ($asm, globals) 
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset#init", this ); }
+
                 this.cascade4Split = new UnityEngine.Vector3();
                 this.maxAdditionalLightsCount = 4;
                 this.additionalLightsRenderingMode = UnityEngine.Rendering.Universal.LightRenderingMode.PerPixel;

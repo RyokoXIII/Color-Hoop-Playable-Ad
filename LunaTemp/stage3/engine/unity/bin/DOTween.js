@@ -1,3 +1,4 @@
+if ( TRACE ) { TRACE( JSON.parse( '["DG.Tweening.Color2#op_Addition","DG.Tweening.Color2#op_Subtraction","DG.Tweening.Color2#op_Multiply","DG.Tweening.Color2#getDefaultValue","DG.Tweening.Color2#init","DG.Tweening.Color2#$ctor1","DG.Tweening.Color2#ctor","DG.Tweening.Color2#getHashCode","DG.Tweening.Color2#equals","DG.Tweening.Color2#$clone","DG.Tweening.Core.Debugger#logPriority#get","DG.Tweening.Core.Debugger#init","DG.Tweening.Core.Debugger#Log","DG.Tweening.Core.Debugger#LogWarning","DG.Tweening.Core.Debugger#LogError","DG.Tweening.Core.Debugger#LogSafeModeCapturedError","DG.Tweening.Core.Debugger#LogReport","DG.Tweening.Core.Debugger#LogSafeModeReport","DG.Tweening.Core.Debugger#LogInvalidTween","DG.Tweening.Core.Debugger#LogNestedTween","DG.Tweening.Core.Debugger#LogNullTween","DG.Tweening.Core.Debugger#LogNonPathTween","DG.Tweening.Core.Debugger#LogMissingMaterialProperty$1","DG.Tweening.Core.Debugger#LogMissingMaterialProperty","DG.Tweening.Core.Debugger#LogRemoveActiveTweenError","DG.Tweening.Core.Debugger#LogAddActiveTweenError","DG.Tweening.Core.Debugger#SetLogPriority","DG.Tweening.Core.Debugger#ShouldLogSafeModeCapturedError","DG.Tweening.Core.Debugger#GetDebugDataMessage","DG.Tweening.Core.Debugger#AddDebugDataToMessage","DG.Tweening.Core.DOTweenExternalCommand#Dispatch_SetOrientationOnPath","DG.Tweening.Core.DOTweenSettings#init","DG.Tweening.Core.DOTweenSettings#init","DG.Tweening.Core.DOTweenSettings.ModulesSetup#init","DG.Tweening.Core.DOTweenSettings.SafeModeOptions#init","DG.Tweening.Core.DOTweenUtils#init","DG.Tweening.Core.DOTweenUtils#Vector3FromAngle","DG.Tweening.Core.DOTweenUtils#Angle2D","DG.Tweening.Core.DOTweenUtils#RotateAroundPivot","DG.Tweening.Core.DOTweenUtils#GetPointOnCircle","DG.Tweening.Core.DOTweenUtils#Vector3AreApproximatelyEqual","DG.Tweening.Core.DOTweenUtils#GetLooseScriptType","DG.Tweening.Core.Easing.Bounce#EaseIn","DG.Tweening.Core.Easing.Bounce#EaseOut","DG.Tweening.Core.Easing.Bounce#EaseInOut","DG.Tweening.Core.Easing.EaseCurve#ctor","DG.Tweening.Core.Easing.EaseCurve#Evaluate","DG.Tweening.Core.Easing.EaseManager#init","DG.Tweening.Core.Easing.EaseManager#Evaluate$1","DG.Tweening.Core.Easing.EaseManager#Evaluate","DG.Tweening.Core.Easing.EaseManager#ToEaseFunction","DG.Tweening.Core.Easing.EaseManager#IsFlashEase","DG.Tweening.Core.Easing.Flash#Ease","DG.Tweening.Core.Easing.Flash#EaseIn","DG.Tweening.Core.Easing.Flash#EaseOut","DG.Tweening.Core.Easing.Flash#EaseInOut","DG.Tweening.Core.Easing.Flash#WeightedEase","DG.Tweening.Core.Extensions#SetSpecialStartupMode","DG.Tweening.Core.Extensions#Blendable","DG.Tweening.Core.Extensions#NoFrom","DG.Tweening.Core.SafeModeReport#getDefaultValue","DG.Tweening.Core.SafeModeReport#ctor","DG.Tweening.Core.SafeModeReport#Add","DG.Tweening.Core.SafeModeReport#GetTotErrors","DG.Tweening.Core.SafeModeReport#getHashCode","DG.Tweening.Core.SafeModeReport#equals","DG.Tweening.Core.SafeModeReport#$clone","DG.Tweening.Core.TweenLink#ctor","DG.Tweening.Core.TweenManager#init","DG.Tweening.Core.TweenManager#ctor","DG.Tweening.Core.TweenManager#GetTweener","DG.Tweening.Core.TweenManager#GetSequence","DG.Tweening.Core.TweenManager#SetUpdateType","DG.Tweening.Core.TweenManager#AddActiveTweenToSequence","DG.Tweening.Core.TweenManager#DespawnAll","DG.Tweening.Core.TweenManager#Despawn","DG.Tweening.Core.TweenManager#PurgeAll","DG.Tweening.Core.TweenManager#PurgePools","DG.Tweening.Core.TweenManager#AddTweenLink","DG.Tweening.Core.TweenManager#RemoveTweenLink","DG.Tweening.Core.TweenManager#ResetCapacities","DG.Tweening.Core.TweenManager#SetCapacities","DG.Tweening.Core.TweenManager#Validate","DG.Tweening.Core.TweenManager#Update$1","DG.Tweening.Core.TweenManager#Update","DG.Tweening.Core.TweenManager#FilteredOperation","DG.Tweening.Core.TweenManager#Complete","DG.Tweening.Core.TweenManager#Flip","DG.Tweening.Core.TweenManager#ForceInit","DG.Tweening.Core.TweenManager#Goto","DG.Tweening.Core.TweenManager#Pause","DG.Tweening.Core.TweenManager#Play","DG.Tweening.Core.TweenManager#PlayBackwards","DG.Tweening.Core.TweenManager#PlayForward","DG.Tweening.Core.TweenManager#Restart","DG.Tweening.Core.TweenManager#Rewind","DG.Tweening.Core.TweenManager#SmoothRewind","DG.Tweening.Core.TweenManager#TogglePause","DG.Tweening.Core.TweenManager#TotalPooledTweens","DG.Tweening.Core.TweenManager#TotalPlayingTweens","DG.Tweening.Core.TweenManager#GetActiveTweens","DG.Tweening.Core.TweenManager#GetTweensById","DG.Tweening.Core.TweenManager#GetTweensByTarget","DG.Tweening.Core.TweenManager#MarkForKilling","DG.Tweening.Core.TweenManager#EvaluateTweenLink","DG.Tweening.Core.TweenManager#AddActiveTween","DG.Tweening.Core.TweenManager#ReorganizeActiveTweens","DG.Tweening.Core.TweenManager#DespawnActiveTweens","DG.Tweening.Core.TweenManager#RemoveActiveTween","DG.Tweening.Core.TweenManager#ClearTweenArray","DG.Tweening.Core.TweenManager#IncreaseCapacities","DG.Tweening.Core.TweenManager#ManageOnRewindCallbackWhenAlreadyRewinded","DG.Tweening.Core.Utils#init","DG.Tweening.Core.Utils#Vector3FromAngle","DG.Tweening.Core.Utils#Angle2D","DG.Tweening.Core.Utils#RotateAroundPivot","DG.Tweening.Core.Utils#Vector3AreApproximatelyEqual","DG.Tweening.Core.Utils#GetLooseScriptType","DG.Tweening.DOCurve.CubicBezier#GetPointOnSegment","DG.Tweening.DOCurve.CubicBezier#GetSegmentPointCloud$1","DG.Tweening.DOCurve.CubicBezier#GetSegmentPointCloud","DG.Tweening.DOTween#logBehaviour#get","DG.Tweening.DOTween#logBehaviour#set","DG.Tweening.DOTween#debugStoreTargetId#get","DG.Tweening.DOTween#debugStoreTargetId#set","DG.Tweening.DOTween#isQuitting#get","DG.Tweening.DOTween#isQuitting#set","DG.Tweening.DOTween#init","DG.Tweening.DOTween#Init","DG.Tweening.DOTween#Init$1","DG.Tweening.DOTween#AutoInit","DG.Tweening.DOTween#SetTweensCapacity","DG.Tweening.DOTween#Clear","DG.Tweening.DOTween#Clear$1","DG.Tweening.DOTween#ClearCachedTweens","DG.Tweening.DOTween#Validate","DG.Tweening.DOTween#ManualUpdate","DG.Tweening.DOTween#To$4","DG.Tweening.DOTween#To$1","DG.Tweening.DOTween#To$2","DG.Tweening.DOTween#To$6","DG.Tweening.DOTween#To$3","DG.Tweening.DOTween#To$7","DG.Tweening.DOTween#To$5","DG.Tweening.DOTween#To$11","DG.Tweening.DOTween#To$12","DG.Tweening.DOTween#To$13","DG.Tweening.DOTween#To$9","DG.Tweening.DOTween#To$8","DG.Tweening.DOTween#To$10","DG.Tweening.DOTween#To$14","DG.Tweening.DOTween#To","DG.Tweening.DOTween#To$15","DG.Tweening.DOTween#To$16","DG.Tweening.DOTween#ToAxis","DG.Tweening.DOTween#ToAlpha","DG.Tweening.DOTween#Punch","DG.Tweening.DOTween#Shake","DG.Tweening.DOTween#Shake$1","DG.Tweening.DOTween#Shake$2","DG.Tweening.DOTween#ToArray","DG.Tweening.DOTween#Sequence","DG.Tweening.DOTween#Sequence$1","DG.Tweening.DOTween#CompleteAll","DG.Tweening.DOTween#Complete","DG.Tweening.DOTween#CompleteAndReturnKilledTot","DG.Tweening.DOTween#CompleteAndReturnKilledTot$1","DG.Tweening.DOTween#CompleteAndReturnKilledTot$2","DG.Tweening.DOTween#CompleteAndReturnKilledTotExceptFor","DG.Tweening.DOTween#FlipAll","DG.Tweening.DOTween#Flip","DG.Tweening.DOTween#GotoAll","DG.Tweening.DOTween#Goto","DG.Tweening.DOTween#KillAll","DG.Tweening.DOTween#KillAll$1","DG.Tweening.DOTween#Kill","DG.Tweening.DOTween#Kill$1","DG.Tweening.DOTween#PauseAll","DG.Tweening.DOTween#Pause","DG.Tweening.DOTween#PlayAll","DG.Tweening.DOTween#Play","DG.Tweening.DOTween#Play$1","DG.Tweening.DOTween#PlayBackwardsAll","DG.Tweening.DOTween#PlayBackwards","DG.Tweening.DOTween#PlayBackwards$1","DG.Tweening.DOTween#PlayForwardAll","DG.Tweening.DOTween#PlayForward","DG.Tweening.DOTween#PlayForward$1","DG.Tweening.DOTween#RestartAll","DG.Tweening.DOTween#Restart","DG.Tweening.DOTween#Restart$1","DG.Tweening.DOTween#RewindAll","DG.Tweening.DOTween#Rewind","DG.Tweening.DOTween#SmoothRewindAll","DG.Tweening.DOTween#SmoothRewind","DG.Tweening.DOTween#TogglePauseAll","DG.Tweening.DOTween#TogglePause","DG.Tweening.DOTween#IsTweening","DG.Tweening.DOTween#TotalPlayingTweens","DG.Tweening.DOTween#PlayingTweens","DG.Tweening.DOTween#PausedTweens","DG.Tweening.DOTween#TweensById","DG.Tweening.DOTween#TweensByTarget","DG.Tweening.DOTween#InitCheck","DG.Tweening.DOTween#ApplyTo","DG.Tweening.DOVirtual#Float","DG.Tweening.DOVirtual#Int","DG.Tweening.DOVirtual#Vector3","DG.Tweening.DOVirtual#Color","DG.Tweening.DOVirtual#EasedValue","DG.Tweening.DOVirtual#EasedValue$1","DG.Tweening.DOVirtual#EasedValue$2","DG.Tweening.DOVirtual#EasedValue$3","DG.Tweening.DOVirtual#DelayedCall","DG.Tweening.EaseFactory#StopMotion$1","DG.Tweening.EaseFactory#StopMotion$2","DG.Tweening.EaseFactory#StopMotion","DG.Tweening.Plugins.Core.PathCore.ControlPoint#op_Addition","DG.Tweening.Plugins.Core.PathCore.ControlPoint#getDefaultValue","DG.Tweening.Plugins.Core.PathCore.ControlPoint#init","DG.Tweening.Plugins.Core.PathCore.ControlPoint#$ctor1","DG.Tweening.Plugins.Core.PathCore.ControlPoint#ctor","DG.Tweening.Plugins.Core.PathCore.ControlPoint#toString","DG.Tweening.Plugins.Core.PathCore.ControlPoint#getHashCode","DG.Tweening.Plugins.Core.PathCore.ControlPoint#equals","DG.Tweening.Plugins.Core.PathCore.ControlPoint#$clone","DG.Tweening.Plugins.Core.PathCore.Path#GetDrawPoints","DG.Tweening.Plugins.Core.PathCore.Path#RefreshNonLinearDrawWps","DG.Tweening.Plugins.Core.PathCore.Path#Draw","DG.Tweening.Plugins.Core.PathCore.Path#init","DG.Tweening.Plugins.Core.PathCore.Path#$ctor1","DG.Tweening.Plugins.Core.PathCore.Path#ctor","DG.Tweening.Plugins.Core.PathCore.Path#FinalizePath","DG.Tweening.Plugins.Core.PathCore.Path#GetPoint","DG.Tweening.Plugins.Core.PathCore.Path#ConvertToConstantPathPerc","DG.Tweening.Plugins.Core.PathCore.Path#GetWaypointIndexFromPerc","DG.Tweening.Plugins.Core.PathCore.Path#Destroy","DG.Tweening.Plugins.Core.PathCore.Path#CloneIncremental","DG.Tweening.Plugins.Core.PathCore.Path#AssignWaypoints","DG.Tweening.Plugins.Core.PathCore.Path#AssignDecoder","DG.Tweening.Plugins.Core.PathCore.Path#Draw","DG.Tweening.Plugins.Core.PluginsManager#init","DG.Tweening.Plugins.Core.PluginsManager#GetDefaultPlugin","DG.Tweening.Plugins.Core.PluginsManager#GetCustomPlugin","DG.Tweening.Plugins.Core.PluginsManager#PurgeAll","DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetLookAt","DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetPunch","DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetShake","DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetCameraShakePosition","DG.Tweening.Plugins.StringPluginExtensions#init","DG.Tweening.Plugins.StringPluginExtensions#ctor","DG.Tweening.Plugins.StringPluginExtensions#ScrambleChars","DG.Tweening.Plugins.StringPluginExtensions#AppendScrambledChars","DG.Tweening.ShortcutExtensions#DOAspect","DG.Tweening.ShortcutExtensions#DOColor","DG.Tweening.ShortcutExtensions#DOColor$1","DG.Tweening.ShortcutExtensions#DOColor$5","DG.Tweening.ShortcutExtensions#DOColor$3","DG.Tweening.ShortcutExtensions#DOColor$4","DG.Tweening.ShortcutExtensions#DOColor$2","DG.Tweening.ShortcutExtensions#DOFarClipPlane","DG.Tweening.ShortcutExtensions#DOFieldOfView","DG.Tweening.ShortcutExtensions#DONearClipPlane","DG.Tweening.ShortcutExtensions#DOOrthoSize","DG.Tweening.ShortcutExtensions#DOPixelRect","DG.Tweening.ShortcutExtensions#DORect","DG.Tweening.ShortcutExtensions#DOShakePosition","DG.Tweening.ShortcutExtensions#DOShakePosition$1","DG.Tweening.ShortcutExtensions#DOShakePosition$2","DG.Tweening.ShortcutExtensions#DOShakePosition$3","DG.Tweening.ShortcutExtensions#DOShakeRotation","DG.Tweening.ShortcutExtensions#DOShakeRotation$1","DG.Tweening.ShortcutExtensions#DOShakeRotation$2","DG.Tweening.ShortcutExtensions#DOShakeRotation$3","DG.Tweening.ShortcutExtensions#DOIntensity","DG.Tweening.ShortcutExtensions#DOShadowStrength","DG.Tweening.ShortcutExtensions#DOFade$1","DG.Tweening.ShortcutExtensions#DOFade$2","DG.Tweening.ShortcutExtensions#DOFade","DG.Tweening.ShortcutExtensions#DOFloat$1","DG.Tweening.ShortcutExtensions#DOFloat","DG.Tweening.ShortcutExtensions#DOOffset","DG.Tweening.ShortcutExtensions#DOOffset$1","DG.Tweening.ShortcutExtensions#DOTiling","DG.Tweening.ShortcutExtensions#DOTiling$1","DG.Tweening.ShortcutExtensions#DOVector$1","DG.Tweening.ShortcutExtensions#DOVector","DG.Tweening.ShortcutExtensions#DOResize","DG.Tweening.ShortcutExtensions#DOTime","DG.Tweening.ShortcutExtensions#DOMove","DG.Tweening.ShortcutExtensions#DOMoveX","DG.Tweening.ShortcutExtensions#DOMoveY","DG.Tweening.ShortcutExtensions#DOMoveZ","DG.Tweening.ShortcutExtensions#DOLocalMove","DG.Tweening.ShortcutExtensions#DOLocalMoveX","DG.Tweening.ShortcutExtensions#DOLocalMoveY","DG.Tweening.ShortcutExtensions#DOLocalMoveZ","DG.Tweening.ShortcutExtensions#DORotate","DG.Tweening.ShortcutExtensions#DORotateQuaternion","DG.Tweening.ShortcutExtensions#DOLocalRotate","DG.Tweening.ShortcutExtensions#DOLocalRotateQuaternion","DG.Tweening.ShortcutExtensions#DOScale$1","DG.Tweening.ShortcutExtensions#DOScale","DG.Tweening.ShortcutExtensions#DOScaleX","DG.Tweening.ShortcutExtensions#DOScaleY","DG.Tweening.ShortcutExtensions#DOScaleZ","DG.Tweening.ShortcutExtensions#DOLookAt","DG.Tweening.ShortcutExtensions#DOPunchPosition","DG.Tweening.ShortcutExtensions#DOPunchScale","DG.Tweening.ShortcutExtensions#DOPunchRotation","DG.Tweening.ShortcutExtensions#DOShakeScale","DG.Tweening.ShortcutExtensions#DOShakeScale$1","DG.Tweening.ShortcutExtensions#DOJump","DG.Tweening.ShortcutExtensions#DOLocalJump","DG.Tweening.ShortcutExtensions#DOPath$1","DG.Tweening.ShortcutExtensions#DOPath","DG.Tweening.ShortcutExtensions#DOLocalPath$1","DG.Tweening.ShortcutExtensions#DOLocalPath","DG.Tweening.ShortcutExtensions#DOTimeScale","DG.Tweening.ShortcutExtensions#DOBlendableColor","DG.Tweening.ShortcutExtensions#DOBlendableColor$2","DG.Tweening.ShortcutExtensions#DOBlendableColor$3","DG.Tweening.ShortcutExtensions#DOBlendableColor$1","DG.Tweening.ShortcutExtensions#DOBlendableMoveBy","DG.Tweening.ShortcutExtensions#DOBlendableLocalMoveBy","DG.Tweening.ShortcutExtensions#DOBlendableRotateBy","DG.Tweening.ShortcutExtensions#DOBlendableLocalRotateBy","DG.Tweening.ShortcutExtensions#DOBlendablePunchRotation","DG.Tweening.ShortcutExtensions#DOBlendableScaleBy","DG.Tweening.ShortcutExtensions#DOComplete","DG.Tweening.ShortcutExtensions#DOComplete$1","DG.Tweening.ShortcutExtensions#DOKill","DG.Tweening.ShortcutExtensions#DOKill$1","DG.Tweening.ShortcutExtensions#DOFlip","DG.Tweening.ShortcutExtensions#DOFlip$1","DG.Tweening.ShortcutExtensions#DOGoto","DG.Tweening.ShortcutExtensions#DOGoto$1","DG.Tweening.ShortcutExtensions#DOPause","DG.Tweening.ShortcutExtensions#DOPause$1","DG.Tweening.ShortcutExtensions#DOPlay","DG.Tweening.ShortcutExtensions#DOPlay$1","DG.Tweening.ShortcutExtensions#DOPlayBackwards","DG.Tweening.ShortcutExtensions#DOPlayBackwards$1","DG.Tweening.ShortcutExtensions#DOPlayForward","DG.Tweening.ShortcutExtensions#DOPlayForward$1","DG.Tweening.ShortcutExtensions#DORestart","DG.Tweening.ShortcutExtensions#DORestart$1","DG.Tweening.ShortcutExtensions#DORewind","DG.Tweening.ShortcutExtensions#DORewind$1","DG.Tweening.ShortcutExtensions#DOSmoothRewind","DG.Tweening.ShortcutExtensions#DOSmoothRewind$1","DG.Tweening.ShortcutExtensions#DOTogglePause","DG.Tweening.ShortcutExtensions#DOTogglePause$1","DG.Tweening.TweenExtensions#Complete","DG.Tweening.TweenExtensions#Complete$1","DG.Tweening.TweenExtensions#Flip","DG.Tweening.TweenExtensions#ForceInit","DG.Tweening.TweenExtensions#Goto","DG.Tweening.TweenExtensions#GotoWithCallbacks","DG.Tweening.TweenExtensions#DoGoto","DG.Tweening.TweenExtensions#Kill","DG.Tweening.TweenExtensions#ManualUpdate","DG.Tweening.TweenExtensions#Pause","DG.Tweening.TweenExtensions#Play","DG.Tweening.TweenExtensions#PlayBackwards","DG.Tweening.TweenExtensions#PlayForward","DG.Tweening.TweenExtensions#Restart","DG.Tweening.TweenExtensions#Rewind","DG.Tweening.TweenExtensions#SmoothRewind","DG.Tweening.TweenExtensions#TogglePause","DG.Tweening.TweenExtensions#GotoWaypoint","DG.Tweening.TweenExtensions#WaitForCompletion","DG.Tweening.TweenExtensions#WaitForRewind","DG.Tweening.TweenExtensions#WaitForKill","DG.Tweening.TweenExtensions#WaitForElapsedLoops","DG.Tweening.TweenExtensions#WaitForPosition","DG.Tweening.TweenExtensions#WaitForStart","DG.Tweening.TweenExtensions#CompletedLoops","DG.Tweening.TweenExtensions#Delay","DG.Tweening.TweenExtensions#ElapsedDelay","DG.Tweening.TweenExtensions#Duration","DG.Tweening.TweenExtensions#Elapsed","DG.Tweening.TweenExtensions#ElapsedPercentage","DG.Tweening.TweenExtensions#ElapsedDirectionalPercentage","DG.Tweening.TweenExtensions#IsActive","DG.Tweening.TweenExtensions#IsBackwards","DG.Tweening.TweenExtensions#IsComplete","DG.Tweening.TweenExtensions#IsInitialized","DG.Tweening.TweenExtensions#IsPlaying","DG.Tweening.TweenExtensions#Loops","DG.Tweening.TweenExtensions#PathGetPoint","DG.Tweening.TweenExtensions#PathGetDrawPoints","DG.Tweening.TweenExtensions#PathLength","DG.Tweening.TweenParams#init","DG.Tweening.TweenParams#ctor","DG.Tweening.TweenParams#Clear","DG.Tweening.TweenParams#SetAutoKill","DG.Tweening.TweenParams#SetId","DG.Tweening.TweenParams#SetTarget","DG.Tweening.TweenParams#SetLoops","DG.Tweening.TweenParams#SetEase","DG.Tweening.TweenParams#SetEase$2","DG.Tweening.TweenParams#SetEase$1","DG.Tweening.TweenParams#SetRecyclable","DG.Tweening.TweenParams#SetUpdate$1","DG.Tweening.TweenParams#SetUpdate","DG.Tweening.TweenParams#OnStart","DG.Tweening.TweenParams#OnPlay","DG.Tweening.TweenParams#OnRewind","DG.Tweening.TweenParams#OnUpdate","DG.Tweening.TweenParams#OnStepComplete","DG.Tweening.TweenParams#OnComplete","DG.Tweening.TweenParams#OnKill","DG.Tweening.TweenParams#OnWaypointChange","DG.Tweening.TweenParams#SetDelay","DG.Tweening.TweenParams#SetRelative","DG.Tweening.TweenParams#SetSpeedBased","DG.Tweening.TweenSettingsExtensions#SetAutoKill","DG.Tweening.TweenSettingsExtensions#SetAutoKill$1","DG.Tweening.TweenSettingsExtensions#SetId$1","DG.Tweening.TweenSettingsExtensions#SetId$2","DG.Tweening.TweenSettingsExtensions#SetId","DG.Tweening.TweenSettingsExtensions#SetLink","DG.Tweening.TweenSettingsExtensions#SetLink$1","DG.Tweening.TweenSettingsExtensions#SetTarget","DG.Tweening.TweenSettingsExtensions#SetLoops","DG.Tweening.TweenSettingsExtensions#SetLoops$1","DG.Tweening.TweenSettingsExtensions#SetEase$2","DG.Tweening.TweenSettingsExtensions#SetEase$4","DG.Tweening.TweenSettingsExtensions#SetEase$3","DG.Tweening.TweenSettingsExtensions#SetEase","DG.Tweening.TweenSettingsExtensions#SetEase$1","DG.Tweening.TweenSettingsExtensions#SetRecyclable","DG.Tweening.TweenSettingsExtensions#SetRecyclable$1","DG.Tweening.TweenSettingsExtensions#SetUpdate","DG.Tweening.TweenSettingsExtensions#SetUpdate$1","DG.Tweening.TweenSettingsExtensions#SetUpdate$2","DG.Tweening.TweenSettingsExtensions#SetInverted","DG.Tweening.TweenSettingsExtensions#SetInverted$1","DG.Tweening.TweenSettingsExtensions#OnStart","DG.Tweening.TweenSettingsExtensions#OnPlay","DG.Tweening.TweenSettingsExtensions#OnPause","DG.Tweening.TweenSettingsExtensions#OnRewind","DG.Tweening.TweenSettingsExtensions#OnUpdate","DG.Tweening.TweenSettingsExtensions#OnStepComplete","DG.Tweening.TweenSettingsExtensions#OnComplete","DG.Tweening.TweenSettingsExtensions#OnKill","DG.Tweening.TweenSettingsExtensions#OnWaypointChange","DG.Tweening.TweenSettingsExtensions#SetAs","DG.Tweening.TweenSettingsExtensions#SetAs$1","DG.Tweening.TweenSettingsExtensions#Append","DG.Tweening.TweenSettingsExtensions#Prepend","DG.Tweening.TweenSettingsExtensions#Join","DG.Tweening.TweenSettingsExtensions#Insert","DG.Tweening.TweenSettingsExtensions#AppendInterval","DG.Tweening.TweenSettingsExtensions#PrependInterval","DG.Tweening.TweenSettingsExtensions#AppendCallback","DG.Tweening.TweenSettingsExtensions#PrependCallback","DG.Tweening.TweenSettingsExtensions#InsertCallback","DG.Tweening.TweenSettingsExtensions#From","DG.Tweening.TweenSettingsExtensions#From$1","DG.Tweening.TweenSettingsExtensions#From$2","DG.Tweening.TweenSettingsExtensions#From$3","DG.Tweening.TweenSettingsExtensions#From$4","DG.Tweening.TweenSettingsExtensions#From$6","DG.Tweening.TweenSettingsExtensions#From$5","DG.Tweening.TweenSettingsExtensions#SetDelay","DG.Tweening.TweenSettingsExtensions#SetDelay$1","DG.Tweening.TweenSettingsExtensions#SetRelative","DG.Tweening.TweenSettingsExtensions#SetRelative$1","DG.Tweening.TweenSettingsExtensions#SetSpeedBased","DG.Tweening.TweenSettingsExtensions#SetSpeedBased$1","DG.Tweening.TweenSettingsExtensions#SetOptions$2","DG.Tweening.TweenSettingsExtensions#SetOptions$9","DG.Tweening.TweenSettingsExtensions#SetOptions$8","DG.Tweening.TweenSettingsExtensions#SetOptions$13","DG.Tweening.TweenSettingsExtensions#SetOptions$12","DG.Tweening.TweenSettingsExtensions#SetOptions$15","DG.Tweening.TweenSettingsExtensions#SetOptions$14","DG.Tweening.TweenSettingsExtensions#SetOptions$5","DG.Tweening.TweenSettingsExtensions#SetOptions$4","DG.Tweening.TweenSettingsExtensions#SetOptions$6","DG.Tweening.TweenSettingsExtensions#SetOptions$3","DG.Tweening.TweenSettingsExtensions#SetOptions$11","DG.Tweening.TweenSettingsExtensions#SetOptions$10","DG.Tweening.TweenSettingsExtensions#SetOptions$7","DG.Tweening.TweenSettingsExtensions#SetOptions","DG.Tweening.TweenSettingsExtensions#SetOptions$1","DG.Tweening.TweenSettingsExtensions#SetLookAt$5","DG.Tweening.TweenSettingsExtensions#SetLookAt$4","DG.Tweening.TweenSettingsExtensions#SetLookAt$3","DG.Tweening.TweenSettingsExtensions#SetLookAt$2","DG.Tweening.TweenSettingsExtensions#SetLookAt$1","DG.Tweening.TweenSettingsExtensions#SetLookAt","DG.Tweening.TweenSettingsExtensions#SetLookAt$6","DG.Tweening.TweenSettingsExtensions#SetPathForwardDirection","DG.Tweening.Core.DOTweenComponent#Create","DG.Tweening.Core.DOTweenComponent#DestroyInstance","DG.Tweening.Core.DOTweenComponent#Awake","DG.Tweening.Core.DOTweenComponent#Start","DG.Tweening.Core.DOTweenComponent#Update","DG.Tweening.Core.DOTweenComponent#LateUpdate","DG.Tweening.Core.DOTweenComponent#FixedUpdate","DG.Tweening.Core.DOTweenComponent#OnDrawGizmos","DG.Tweening.Core.DOTweenComponent#OnDestroy","DG.Tweening.Core.DOTweenComponent#OnApplicationPause","DG.Tweening.Core.DOTweenComponent#OnApplicationQuit","DG.Tweening.Core.DOTweenComponent#SetCapacity","DG.Tweening.Core.DOTweenComponent#WaitForCompletion","DG.Tweening.Core.DOTweenComponent#WaitForRewind","DG.Tweening.Core.DOTweenComponent#WaitForKill","DG.Tweening.Core.DOTweenComponent#WaitForElapsedLoops","DG.Tweening.Core.DOTweenComponent#WaitForPosition","DG.Tweening.Core.DOTweenComponent#WaitForStart","DG.Tweening.Core.SequenceCallback#ctor","DG.Tweening.Tween#DoGoto","DG.Tweening.Tween#OnTweenCallback","DG.Tweening.Tween#OnTweenCallback$1","DG.Tweening.Tween#fullPosition#get","DG.Tweening.Tween#fullPosition#set","DG.Tweening.Tween#hasLoops#get","DG.Tweening.Tween#init","DG.Tweening.Tween#Reset","DG.Tweening.Tween#UpdateDelay","DG.Tweening.Plugins.CircleOptions#getDefaultValue","DG.Tweening.Plugins.CircleOptions#init","DG.Tweening.Plugins.CircleOptions#ctor","DG.Tweening.Plugins.CircleOptions#Reset","DG.Tweening.Plugins.CircleOptions#Initialize","DG.Tweening.Plugins.CircleOptions#getHashCode","DG.Tweening.Plugins.CircleOptions#equals","DG.Tweening.Plugins.CircleOptions#$clone","DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#init","DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#FinalizePath","DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#GetPoint","DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#SetTimeToLengthTables","DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#SetWaypointsLengths","DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#init","DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#FinalizePath","DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#GetPoint","DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#SetTimeToLengthTables","DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#SetWaypointsLengths","DG.Tweening.Plugins.Core.PathCore.LinearDecoder#FinalizePath","DG.Tweening.Plugins.Core.PathCore.LinearDecoder#GetPoint","DG.Tweening.Plugins.Core.PathCore.LinearDecoder#SetTimeToLengthTables","DG.Tweening.Plugins.Core.PathCore.LinearDecoder#SetWaypointsLengths","DG.Tweening.Plugins.Options.PathOptions#getDefaultValue","DG.Tweening.Plugins.Options.PathOptions#init","DG.Tweening.Plugins.Options.PathOptions#ctor","DG.Tweening.Plugins.Options.PathOptions#Reset","DG.Tweening.Plugins.Options.PathOptions#getHashCode","DG.Tweening.Plugins.Options.PathOptions#equals","DG.Tweening.Plugins.Options.PathOptions#$clone","DG.Tweening.Plugins.Options.QuaternionOptions#getDefaultValue","DG.Tweening.Plugins.Options.QuaternionOptions#init","DG.Tweening.Plugins.Options.QuaternionOptions#ctor","DG.Tweening.Plugins.Options.QuaternionOptions#Reset","DG.Tweening.Plugins.Options.QuaternionOptions#getHashCode","DG.Tweening.Plugins.Options.QuaternionOptions#equals","DG.Tweening.Plugins.Options.QuaternionOptions#$clone","DG.Tweening.Plugins.Options.RectOptions#getDefaultValue","DG.Tweening.Plugins.Options.RectOptions#ctor","DG.Tweening.Plugins.Options.RectOptions#Reset","DG.Tweening.Plugins.Options.RectOptions#getHashCode","DG.Tweening.Plugins.Options.RectOptions#equals","DG.Tweening.Plugins.Options.RectOptions#$clone","DG.Tweening.Plugins.Options.StringOptions#getDefaultValue","DG.Tweening.Plugins.Options.StringOptions#ctor","DG.Tweening.Plugins.Options.StringOptions#Reset","DG.Tweening.Plugins.Options.StringOptions#getHashCode","DG.Tweening.Plugins.Options.StringOptions#equals","DG.Tweening.Plugins.Options.StringOptions#$clone","DG.Tweening.Plugins.Options.UintOptions#getDefaultValue","DG.Tweening.Plugins.Options.UintOptions#ctor","DG.Tweening.Plugins.Options.UintOptions#Reset","DG.Tweening.Plugins.Options.UintOptions#getHashCode","DG.Tweening.Plugins.Options.UintOptions#equals","DG.Tweening.Plugins.Options.UintOptions#$clone","DG.Tweening.Plugins.Options.Vector3ArrayOptions#getDefaultValue","DG.Tweening.Plugins.Options.Vector3ArrayOptions#ctor","DG.Tweening.Plugins.Options.Vector3ArrayOptions#Reset","DG.Tweening.Plugins.Options.Vector3ArrayOptions#getHashCode","DG.Tweening.Plugins.Options.Vector3ArrayOptions#equals","DG.Tweening.Plugins.Options.Vector3ArrayOptions#$clone","DG.Tweening.Plugins.Options.VectorOptions#getDefaultValue","DG.Tweening.Plugins.Options.VectorOptions#ctor","DG.Tweening.Plugins.Options.VectorOptions#Reset","DG.Tweening.Plugins.Options.VectorOptions#getHashCode","DG.Tweening.Plugins.Options.VectorOptions#equals","DG.Tweening.Plugins.Options.VectorOptions#$clone","DG.Tweening.Plugins.SpiralOptions#getDefaultValue","DG.Tweening.Plugins.SpiralOptions#init","DG.Tweening.Plugins.SpiralOptions#ctor","DG.Tweening.Plugins.SpiralOptions#Reset","DG.Tweening.Plugins.SpiralOptions#getHashCode","DG.Tweening.Plugins.SpiralOptions#equals","DG.Tweening.Plugins.SpiralOptions#$clone","DG.Tweening.Tweener#Setup","DG.Tweening.Tweener#DoUpdateDelay","DG.Tweening.Tweener#DoStartup","DG.Tweening.Tweener#DoChangeStartValue","DG.Tweening.Tweener#DoChangeEndValue","DG.Tweening.Tweener#DoChangeValues","DG.Tweening.Tweener#DOStartupSpecials","DG.Tweening.Tweener#DOStartupDurationBased","DG.Tweening.Tweener#init","DG.Tweening.Tweener#ctor","DG.Tweening.Plugins.Options.NoOptions#getDefaultValue","DG.Tweening.Plugins.Options.NoOptions#ctor","DG.Tweening.Plugins.Options.NoOptions#Reset","DG.Tweening.Plugins.Options.NoOptions#$clone","DG.Tweening.Plugins.CirclePlugin#Get","DG.Tweening.Plugins.CirclePlugin#Reset","DG.Tweening.Plugins.CirclePlugin#SetFrom$1","DG.Tweening.Plugins.CirclePlugin#SetFrom","DG.Tweening.Plugins.CirclePlugin#ConvertToStartValue","DG.Tweening.Plugins.CirclePlugin#SetRelativeEndValue","DG.Tweening.Plugins.CirclePlugin#SetChangeValue","DG.Tweening.Plugins.CirclePlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.CirclePlugin#EvaluateAndApply","DG.Tweening.Plugins.CirclePlugin#GetPositionOnCircle","DG.Tweening.Plugins.Options.ColorOptions#getDefaultValue","DG.Tweening.Plugins.Options.ColorOptions#ctor","DG.Tweening.Plugins.Options.ColorOptions#Reset","DG.Tweening.Plugins.Options.ColorOptions#getHashCode","DG.Tweening.Plugins.Options.ColorOptions#equals","DG.Tweening.Plugins.Options.ColorOptions#$clone","DG.Tweening.Plugins.Options.FloatOptions#getDefaultValue","DG.Tweening.Plugins.Options.FloatOptions#ctor","DG.Tweening.Plugins.Options.FloatOptions#Reset","DG.Tweening.Plugins.Options.FloatOptions#getHashCode","DG.Tweening.Plugins.Options.FloatOptions#equals","DG.Tweening.Plugins.Options.FloatOptions#$clone","DG.Tweening.Plugins.PathPlugin#init","DG.Tweening.Plugins.PathPlugin#Get","DG.Tweening.Plugins.PathPlugin#Reset","DG.Tweening.Plugins.PathPlugin#SetFrom$1","DG.Tweening.Plugins.PathPlugin#SetFrom","DG.Tweening.Plugins.PathPlugin#ConvertToStartValue","DG.Tweening.Plugins.PathPlugin#SetRelativeEndValue","DG.Tweening.Plugins.PathPlugin#SetChangeValue","DG.Tweening.Plugins.PathPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.PathPlugin#EvaluateAndApply","DG.Tweening.Plugins.PathPlugin#SetOrientation","DG.Tweening.Plugins.QuaternionPlugin#Reset","DG.Tweening.Plugins.QuaternionPlugin#SetFrom$1","DG.Tweening.Plugins.QuaternionPlugin#SetFrom","DG.Tweening.Plugins.QuaternionPlugin#ConvertToStartValue","DG.Tweening.Plugins.QuaternionPlugin#SetRelativeEndValue","DG.Tweening.Plugins.QuaternionPlugin#SetChangeValue","DG.Tweening.Plugins.QuaternionPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.QuaternionPlugin#EvaluateAndApply","DG.Tweening.Plugins.RectPlugin#Reset","DG.Tweening.Plugins.RectPlugin#SetFrom$1","DG.Tweening.Plugins.RectPlugin#SetFrom","DG.Tweening.Plugins.RectPlugin#ConvertToStartValue","DG.Tweening.Plugins.RectPlugin#SetRelativeEndValue","DG.Tweening.Plugins.RectPlugin#SetChangeValue","DG.Tweening.Plugins.RectPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.RectPlugin#EvaluateAndApply","DG.Tweening.Plugins.SpiralPlugin#init","DG.Tweening.Plugins.SpiralPlugin#Get","DG.Tweening.Plugins.SpiralPlugin#Reset","DG.Tweening.Plugins.SpiralPlugin#SetFrom$1","DG.Tweening.Plugins.SpiralPlugin#SetFrom","DG.Tweening.Plugins.SpiralPlugin#ConvertToStartValue","DG.Tweening.Plugins.SpiralPlugin#SetRelativeEndValue","DG.Tweening.Plugins.SpiralPlugin#SetChangeValue","DG.Tweening.Plugins.SpiralPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.SpiralPlugin#EvaluateAndApply","DG.Tweening.Plugins.StringPlugin#init","DG.Tweening.Plugins.StringPlugin#SetFrom$1","DG.Tweening.Plugins.StringPlugin#SetFrom","DG.Tweening.Plugins.StringPlugin#Reset","DG.Tweening.Plugins.StringPlugin#ConvertToStartValue","DG.Tweening.Plugins.StringPlugin#SetRelativeEndValue","DG.Tweening.Plugins.StringPlugin#SetChangeValue","DG.Tweening.Plugins.StringPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.StringPlugin#EvaluateAndApply","DG.Tweening.Plugins.StringPlugin#Append","DG.Tweening.Plugins.StringPlugin#ScrambledCharsToUse","DG.Tweening.Plugins.UintPlugin#Reset","DG.Tweening.Plugins.UintPlugin#SetFrom$1","DG.Tweening.Plugins.UintPlugin#SetFrom","DG.Tweening.Plugins.UintPlugin#ConvertToStartValue","DG.Tweening.Plugins.UintPlugin#SetRelativeEndValue","DG.Tweening.Plugins.UintPlugin#SetChangeValue","DG.Tweening.Plugins.UintPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.UintPlugin#EvaluateAndApply","DG.Tweening.Plugins.Vector2Plugin#Reset","DG.Tweening.Plugins.Vector2Plugin#SetFrom$1","DG.Tweening.Plugins.Vector2Plugin#SetFrom","DG.Tweening.Plugins.Vector2Plugin#ConvertToStartValue","DG.Tweening.Plugins.Vector2Plugin#SetRelativeEndValue","DG.Tweening.Plugins.Vector2Plugin#SetChangeValue","DG.Tweening.Plugins.Vector2Plugin#GetSpeedBasedDuration","DG.Tweening.Plugins.Vector2Plugin#EvaluateAndApply","DG.Tweening.Plugins.Vector3ArrayPlugin#Reset","DG.Tweening.Plugins.Vector3ArrayPlugin#SetFrom$1","DG.Tweening.Plugins.Vector3ArrayPlugin#SetFrom","DG.Tweening.Plugins.Vector3ArrayPlugin#ConvertToStartValue","DG.Tweening.Plugins.Vector3ArrayPlugin#SetRelativeEndValue","DG.Tweening.Plugins.Vector3ArrayPlugin#SetChangeValue","DG.Tweening.Plugins.Vector3ArrayPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.Vector3ArrayPlugin#EvaluateAndApply","DG.Tweening.Plugins.Vector3Plugin#Reset","DG.Tweening.Plugins.Vector3Plugin#SetFrom$1","DG.Tweening.Plugins.Vector3Plugin#SetFrom","DG.Tweening.Plugins.Vector3Plugin#ConvertToStartValue","DG.Tweening.Plugins.Vector3Plugin#SetRelativeEndValue","DG.Tweening.Plugins.Vector3Plugin#SetChangeValue","DG.Tweening.Plugins.Vector3Plugin#GetSpeedBasedDuration","DG.Tweening.Plugins.Vector3Plugin#EvaluateAndApply","DG.Tweening.Plugins.Vector4Plugin#Reset","DG.Tweening.Plugins.Vector4Plugin#SetFrom$1","DG.Tweening.Plugins.Vector4Plugin#SetFrom","DG.Tweening.Plugins.Vector4Plugin#ConvertToStartValue","DG.Tweening.Plugins.Vector4Plugin#SetRelativeEndValue","DG.Tweening.Plugins.Vector4Plugin#SetChangeValue","DG.Tweening.Plugins.Vector4Plugin#GetSpeedBasedDuration","DG.Tweening.Plugins.Vector4Plugin#EvaluateAndApply","DG.Tweening.Sequence#DoPrepend","DG.Tweening.Sequence#DoInsert","DG.Tweening.Sequence#DoAppendInterval","DG.Tweening.Sequence#DoPrependInterval","DG.Tweening.Sequence#DoInsertCallback","DG.Tweening.Sequence#Setup","DG.Tweening.Sequence#DoStartup","DG.Tweening.Sequence#DoApplyTween","DG.Tweening.Sequence#ApplyInternalCycle","DG.Tweening.Sequence#StableSortSequencedObjs","DG.Tweening.Sequence#IsAnyCallbackSet","DG.Tweening.Sequence#init","DG.Tweening.Sequence#ctor","DG.Tweening.Sequence#UpdateDelay","DG.Tweening.Sequence#Reset","DG.Tweening.Sequence#Validate","DG.Tweening.Sequence#Startup","DG.Tweening.Sequence#ApplyTween","DG.Tweening.Core.TweenerCore$3#init","DG.Tweening.Core.TweenerCore$3#init","DG.Tweening.Core.TweenerCore$3#ctor","DG.Tweening.Core.TweenerCore$3#ChangeStartValue","DG.Tweening.Core.TweenerCore$3#ChangeStartValue$1","DG.Tweening.Core.TweenerCore$3#ChangeEndValue","DG.Tweening.Core.TweenerCore$3#ChangeEndValue$1","DG.Tweening.Core.TweenerCore$3#ChangeEndValue$2","DG.Tweening.Core.TweenerCore$3#ChangeEndValue$3","DG.Tweening.Core.TweenerCore$3#ChangeValues","DG.Tweening.Core.TweenerCore$3#ChangeValues$1","DG.Tweening.Core.TweenerCore$3#SetFrom","DG.Tweening.Core.TweenerCore$3#SetFrom$1","DG.Tweening.Core.TweenerCore$3#Reset","DG.Tweening.Core.TweenerCore$3#Validate","DG.Tweening.Core.TweenerCore$3#ValidateChangeValueType","DG.Tweening.Core.TweenerCore$3#UpdateDelay","DG.Tweening.Core.TweenerCore$3#Startup","DG.Tweening.Core.TweenerCore$3#ApplyTween","DG.Tweening.CustomPlugins.PureQuaternionPlugin#Plug","DG.Tweening.CustomPlugins.PureQuaternionPlugin#Reset","DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetFrom$1","DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetFrom","DG.Tweening.CustomPlugins.PureQuaternionPlugin#ConvertToStartValue","DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetRelativeEndValue","DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetChangeValue","DG.Tweening.CustomPlugins.PureQuaternionPlugin#GetSpeedBasedDuration","DG.Tweening.CustomPlugins.PureQuaternionPlugin#EvaluateAndApply","DG.Tweening.Plugins.Color2Plugin#Reset","DG.Tweening.Plugins.Color2Plugin#SetFrom$1","DG.Tweening.Plugins.Color2Plugin#SetFrom","DG.Tweening.Plugins.Color2Plugin#ConvertToStartValue","DG.Tweening.Plugins.Color2Plugin#SetRelativeEndValue","DG.Tweening.Plugins.Color2Plugin#SetChangeValue","DG.Tweening.Plugins.Color2Plugin#GetSpeedBasedDuration","DG.Tweening.Plugins.Color2Plugin#EvaluateAndApply","DG.Tweening.Plugins.ColorPlugin#Reset","DG.Tweening.Plugins.ColorPlugin#SetFrom$1","DG.Tweening.Plugins.ColorPlugin#SetFrom","DG.Tweening.Plugins.ColorPlugin#ConvertToStartValue","DG.Tweening.Plugins.ColorPlugin#SetRelativeEndValue","DG.Tweening.Plugins.ColorPlugin#SetChangeValue","DG.Tweening.Plugins.ColorPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.ColorPlugin#EvaluateAndApply","DG.Tweening.Plugins.DoublePlugin#Reset","DG.Tweening.Plugins.DoublePlugin#SetFrom$1","DG.Tweening.Plugins.DoublePlugin#SetFrom","DG.Tweening.Plugins.DoublePlugin#ConvertToStartValue","DG.Tweening.Plugins.DoublePlugin#SetRelativeEndValue","DG.Tweening.Plugins.DoublePlugin#SetChangeValue","DG.Tweening.Plugins.DoublePlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.DoublePlugin#EvaluateAndApply","DG.Tweening.Plugins.FloatPlugin#Reset","DG.Tweening.Plugins.FloatPlugin#SetFrom$1","DG.Tweening.Plugins.FloatPlugin#SetFrom","DG.Tweening.Plugins.FloatPlugin#ConvertToStartValue","DG.Tweening.Plugins.FloatPlugin#SetRelativeEndValue","DG.Tweening.Plugins.FloatPlugin#SetChangeValue","DG.Tweening.Plugins.FloatPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.FloatPlugin#EvaluateAndApply","DG.Tweening.Plugins.IntPlugin#Reset","DG.Tweening.Plugins.IntPlugin#SetFrom$1","DG.Tweening.Plugins.IntPlugin#SetFrom","DG.Tweening.Plugins.IntPlugin#ConvertToStartValue","DG.Tweening.Plugins.IntPlugin#SetRelativeEndValue","DG.Tweening.Plugins.IntPlugin#SetChangeValue","DG.Tweening.Plugins.IntPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.IntPlugin#EvaluateAndApply","DG.Tweening.Plugins.LongPlugin#Reset","DG.Tweening.Plugins.LongPlugin#SetFrom$1","DG.Tweening.Plugins.LongPlugin#SetFrom","DG.Tweening.Plugins.LongPlugin#ConvertToStartValue","DG.Tweening.Plugins.LongPlugin#SetRelativeEndValue","DG.Tweening.Plugins.LongPlugin#SetChangeValue","DG.Tweening.Plugins.LongPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.LongPlugin#EvaluateAndApply","DG.Tweening.Plugins.RectOffsetPlugin#init","DG.Tweening.Plugins.RectOffsetPlugin#Reset","DG.Tweening.Plugins.RectOffsetPlugin#SetFrom$1","DG.Tweening.Plugins.RectOffsetPlugin#SetFrom","DG.Tweening.Plugins.RectOffsetPlugin#ConvertToStartValue","DG.Tweening.Plugins.RectOffsetPlugin#SetRelativeEndValue","DG.Tweening.Plugins.RectOffsetPlugin#SetChangeValue","DG.Tweening.Plugins.RectOffsetPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.RectOffsetPlugin#EvaluateAndApply","DG.Tweening.Plugins.UlongPlugin#Reset","DG.Tweening.Plugins.UlongPlugin#SetFrom$1","DG.Tweening.Plugins.UlongPlugin#SetFrom","DG.Tweening.Plugins.UlongPlugin#ConvertToStartValue","DG.Tweening.Plugins.UlongPlugin#SetRelativeEndValue","DG.Tweening.Plugins.UlongPlugin#SetChangeValue","DG.Tweening.Plugins.UlongPlugin#GetSpeedBasedDuration","DG.Tweening.Plugins.UlongPlugin#EvaluateAndApply"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.11-luna
  */
@@ -100,15 +101,23 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         statics: {
             methods: {
                 op_Addition: function (c1, c2) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#op_Addition", this ); }
+
                     return new DG.Tweening.Color2.$ctor1(new pc.Color( c1.ca.r + c2.ca.r, c1.ca.g + c2.ca.g, c1.ca.b + c2.ca.b, c1.ca.a + c2.ca.a ), new pc.Color( c1.cb.r + c2.cb.r, c1.cb.g + c2.cb.g, c1.cb.b + c2.cb.b, c1.cb.a + c2.cb.a ));
                 },
                 op_Subtraction: function (c1, c2) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#op_Subtraction", this ); }
+
                     return new DG.Tweening.Color2.$ctor1(new pc.Color( c1.ca.r - c2.ca.r, c1.ca.g - c2.ca.g, c1.ca.b - c2.ca.b, c1.ca.a - c2.ca.a ), new pc.Color( c1.cb.r - c2.cb.r, c1.cb.g - c2.cb.g, c1.cb.b - c2.cb.b, c1.cb.a - c2.cb.a ));
                 },
                 op_Multiply: function (c1, f) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#op_Multiply", this ); }
+
                     return new DG.Tweening.Color2.$ctor1(new pc.Color( c1.ca.r * f, c1.ca.g * f, c1.ca.b * f, c1.ca.a * f ), new pc.Color( c1.cb.r * f, c1.cb.g * f, c1.cb.b * f, c1.cb.a * f ));
                 },
-                getDefaultValue: function () { return new DG.Tweening.Color2(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#getDefaultValue", this ); }
+ return new DG.Tweening.Color2(); }
             }
         },
         fields: {
@@ -117,30 +126,42 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#init", this ); }
+
                 this.ca = new UnityEngine.Color();
                 this.cb = new UnityEngine.Color();
             },
             $ctor1: function (ca, cb) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#$ctor1", this ); }
+
                 this.$initialize();
                 this.ca = ca.$clone();
                 this.cb = cb.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#getHashCode", this ); }
+
                 var h = Bridge.addHash([1869390261, this.ca, this.cb]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Color2)) {
                     return false;
                 }
                 return Bridge.equals(this.ca, o.ca) && Bridge.equals(this.cb, o.cb);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Color2#$clone", this ); }
+
                 var s = to || new DG.Tweening.Color2();
                 s.ca = this.ca.$clone();
                 s.cb = this.cb.$clone();
@@ -219,18 +240,24 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             props: {
                 logPriority: {
                     get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#logPriority#get", this ); }
+
                         return DG.Tweening.Core.Debugger._logPriority;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#init", this ); }
+
                     this._LogPrefix = "<color=#0099bc><b>DOTWEEN \u25ba </b></color>";
                 }
             },
             methods: {
                 /*DG.Tweening.Core.Debugger.Log:static start.*/
                 Log: function (message) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#Log", this ); }
+
                     var txt = System.String.concat(DG.Tweening.Core.Debugger._LogPrefix, message);
                     if (!Bridge.staticEquals(DG.Tweening.DOTween.onWillLog, null) && !DG.Tweening.DOTween.onWillLog(UnityEngine.LogType.Log, txt)) {
                         return;
@@ -242,6 +269,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogWarning:static start.*/
                 LogWarning: function (message, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogWarning", this ); }
+
                     if (t === void 0) { t = null; }
                     var txt;
                     if (DG.Tweening.DOTween.debugMode) {
@@ -260,6 +289,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogError:static start.*/
                 LogError: function (message, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogError", this ); }
+
                     if (t === void 0) { t = null; }
                     var txt;
                     if (DG.Tweening.DOTween.debugMode) {
@@ -278,6 +309,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogSafeModeCapturedError:static start.*/
                 LogSafeModeCapturedError: function (message, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogSafeModeCapturedError", this ); }
+
                     if (t === void 0) { t = null; }
                     var txt;
                     if (DG.Tweening.DOTween.debugMode) {
@@ -306,6 +339,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogReport:static start.*/
                 LogReport: function (message) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogReport", this ); }
+
                     var txt = System.String.format("<color=#00B500FF>{0} REPORT \u25ba</color> {1}", DG.Tweening.Core.Debugger._LogPrefix, message);
                     if (!Bridge.staticEquals(DG.Tweening.DOTween.onWillLog, null) && !DG.Tweening.DOTween.onWillLog(UnityEngine.LogType.Log, txt)) {
                         return;
@@ -317,6 +352,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogSafeModeReport:static start.*/
                 LogSafeModeReport: function (message) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogSafeModeReport", this ); }
+
                     var txt = System.String.format("<color=#ff7337>{0} SAFE MODE \u25ba</color> {1}", DG.Tweening.Core.Debugger._LogPrefix, message);
                     if (!Bridge.staticEquals(DG.Tweening.DOTween.onWillLog, null) && !DG.Tweening.DOTween.onWillLog(UnityEngine.LogType.Log, txt)) {
                         return;
@@ -328,54 +365,72 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.LogInvalidTween:static start.*/
                 LogInvalidTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogInvalidTween", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning("This Tween has been killed and is now invalid");
                 },
                 /*DG.Tweening.Core.Debugger.LogInvalidTween:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogNestedTween:static start.*/
                 LogNestedTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogNestedTween", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning("This Tween was added to a Sequence and can't be controlled directly", t);
                 },
                 /*DG.Tweening.Core.Debugger.LogNestedTween:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogNullTween:static start.*/
                 LogNullTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogNullTween", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning("Null Tween");
                 },
                 /*DG.Tweening.Core.Debugger.LogNullTween:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogNonPathTween:static start.*/
                 LogNonPathTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogNonPathTween", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning("This Tween is not a path tween", t);
                 },
                 /*DG.Tweening.Core.Debugger.LogNonPathTween:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1:static start.*/
                 LogMissingMaterialProperty$1: function (propertyName) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogMissingMaterialProperty$1", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning(System.String.format("This material doesn't have a {0} property", [propertyName]));
                 },
                 /*DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogMissingMaterialProperty:static start.*/
                 LogMissingMaterialProperty: function (propertyId) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogMissingMaterialProperty", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning(System.String.format("This material doesn't have a {0} property ID", [propertyId]));
                 },
                 /*DG.Tweening.Core.Debugger.LogMissingMaterialProperty:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogRemoveActiveTweenError:static start.*/
                 LogRemoveActiveTweenError: function (errorInfo, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogRemoveActiveTweenError", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning(System.String.format("Error in RemoveActiveTween ({0}). It's been taken care of so no problems, but Daniele (DOTween's author) is trying to pinpoint it (it's very rare and he can't reproduce it) so it would be awesome if you could reproduce this log in a sample project and send it to him. Or even just write him the complete log that was generated by this message. Fixing this would make DOTween slightly faster. Thanks.", [errorInfo]), t);
                 },
                 /*DG.Tweening.Core.Debugger.LogRemoveActiveTweenError:static end.*/
 
                 /*DG.Tweening.Core.Debugger.LogAddActiveTweenError:static start.*/
                 LogAddActiveTweenError: function (errorInfo, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#LogAddActiveTweenError", this ); }
+
                     DG.Tweening.Core.Debugger.LogWarning(System.String.format("Error in AddActiveTween ({0}). It's been taken care of so no problems, but Daniele (DOTween's author) is trying to pinpoint it (it's very rare and he can't reproduce it) so it would be awesome if you could reproduce this log in a sample project and send it to him. Or even just write him the complete log that was generated by this message. Fixing this would make DOTween slightly faster. Thanks.", [errorInfo]), t);
                 },
                 /*DG.Tweening.Core.Debugger.LogAddActiveTweenError:static end.*/
 
                 /*DG.Tweening.Core.Debugger.SetLogPriority:static start.*/
                 SetLogPriority: function (logBehaviour) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#SetLogPriority", this ); }
+
                     switch (logBehaviour) {
                         case DG.Tweening.LogBehaviour.Default: 
                             DG.Tweening.Core.Debugger._logPriority = 1;
@@ -392,6 +447,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.ShouldLogSafeModeCapturedError:static start.*/
                 ShouldLogSafeModeCapturedError: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#ShouldLogSafeModeCapturedError", this ); }
+
                     switch (DG.Tweening.DOTween.safeModeLogBehaviour) {
                         case DG.Tweening.Core.Enums.SafeModeLogBehaviour.None: 
                             return false;
@@ -406,6 +463,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.GetDebugDataMessage:static start.*/
                 GetDebugDataMessage: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#GetDebugDataMessage", this ); }
+
                     var txt = { v : "" };
                     DG.Tweening.Core.Debugger.AddDebugDataToMessage(txt, t);
                     return txt.v;
@@ -414,6 +473,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Debugger.AddDebugDataToMessage:static start.*/
                 AddDebugDataToMessage: function (message, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Debugger#AddDebugDataToMessage", this ); }
+
                     if (t == null) {
                         return;
                     }
@@ -508,6 +569,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             methods: {
                 /*DG.Tweening.Core.DOTweenExternalCommand.Dispatch_SetOrientationOnPath:static start.*/
                 Dispatch_SetOrientationOnPath: function (options, t, newRot, trans) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenExternalCommand#Dispatch_SetOrientationOnPath", this ); }
+
                     if (!Bridge.staticEquals(DG.Tweening.Core.DOTweenExternalCommand.SetOrientationOnPath, null)) {
                         DG.Tweening.Core.DOTweenExternalCommand.SetOrientationOnPath(options.$clone(), t, newRot.$clone(), trans);
                     }
@@ -530,6 +593,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenSettings#init", this ); }
+
                     this.AssetName = "DOTweenSettings";
                     this.AssetFullFilename = "DOTweenSettings.asset";
                 }
@@ -565,6 +630,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenSettings#init", this ); }
+
                 this.useSafeMode = true;
                 this.safeModeOptions = new DG.Tweening.Core.DOTweenSettings.SafeModeOptions();
                 this.timeScale = 1;
@@ -607,6 +674,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenSettings.ModulesSetup#init", this ); }
+
                 this.audioEnabled = true;
                 this.physicsEnabled = true;
                 this.physics2DEnabled = true;
@@ -626,6 +695,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenSettings.SafeModeOptions#init", this ); }
+
                 this.logBehaviour = DG.Tweening.Core.Enums.SafeModeLogBehaviour.Warning;
                 this.nestedTweenFailureBehaviour = DG.Tweening.Core.Enums.NestedTweenFailureBehaviour.TryToPreserveSequence;
             }
@@ -655,6 +726,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#init", this ); }
+
                     this._defAssembliesToQuery = System.Array.init(["DOTween.Modules", "Assembly-CSharp", "Assembly-CSharp-firstpass"], System.String);
                 }
             },
@@ -671,6 +744,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {UnityEngine.Vector3}
                  */
                 Vector3FromAngle: function (degrees, magnitude) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#Vector3FromAngle", this ); }
+
                     var radians = degrees * UnityEngine.Mathf.Deg2Rad;
                     return new pc.Vec3( magnitude * Math.cos(radians), magnitude * Math.sin(radians), 0 );
                 },
@@ -688,6 +763,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}
                  */
                 Angle2D: function (from, to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#Angle2D", this ); }
+
                     var baseDir = pc.Vec2.RIGHT.clone();
                     to = to.$clone().sub( from.$clone() );
                     var ang = pc.Vec2.angle( baseDir, UnityEngine.Vector2.FromVector3(to) );
@@ -703,6 +780,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.DOTweenUtils.RotateAroundPivot:static start.*/
                 RotateAroundPivot: function (point, pivot, rotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#RotateAroundPivot", this ); }
+
                     return rotation.transformVector( (point.$clone().sub( pivot )) ).add( pivot );
                 },
                 /*DG.Tweening.Core.DOTweenUtils.RotateAroundPivot:static end.*/
@@ -722,6 +801,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {UnityEngine.Vector2}
                  */
                 GetPointOnCircle: function (center, radius, degrees) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#GetPointOnCircle", this ); }
+
                     // Adapt to Unity's circle coordinates
                     // (Unity's circle 0° points up and increases clockwise, unit circle 0° points right and rotates counter-clockwise)
                     degrees = 90 - degrees;
@@ -744,6 +825,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 Vector3AreApproximatelyEqual: function (a, b) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#Vector3AreApproximatelyEqual", this ); }
+
                     return UnityEngine.Mathf.Approximately(a.x, b.x) && UnityEngine.Mathf.Approximately(a.y, b.y) && UnityEngine.Mathf.Approximately(a.z, b.z);
                 },
                 /*DG.Tweening.Core.DOTweenUtils.Vector3AreApproximatelyEqual:static end.*/
@@ -759,6 +842,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {System.Type}
                  */
                 GetLooseScriptType: function (typeName) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenUtils#GetLooseScriptType", this ); }
+
                     // Check in default assemblies (Unity 2017 and later)
                     for (var i = 0; i < DG.Tweening.Core.DOTweenUtils._defAssembliesToQuery.length; ++i) {
                         var result = Bridge.Reflection.getType(System.String.format("{0}, {1}", typeName, DG.Tweening.Core.DOTweenUtils._defAssembliesToQuery[i]));
@@ -822,6 +907,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}                                  The eased value.
                  */
                 EaseIn: function (time, duration, unusedOvershootOrAmplitude, unusedPeriod) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Bounce#EaseIn", this ); }
+
                     return 1 - DG.Tweening.Core.Easing.Bounce.EaseOut(duration - time, duration, -1, -1);
                 },
                 /*DG.Tweening.Core.Easing.Bounce.EaseIn:static end.*/
@@ -841,6 +928,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}                                  The eased value.
                  */
                 EaseOut: function (time, duration, unusedOvershootOrAmplitude, unusedPeriod) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Bounce#EaseOut", this ); }
+
                     if (((time = time / duration)) < 0.363636374) {
                         return 7.5625 * time * time;
                     }
@@ -872,6 +961,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}                                  The eased value.
                  */
                 EaseInOut: function (time, duration, unusedOvershootOrAmplitude, unusedPeriod) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Bounce#EaseInOut", this ); }
+
                     if (time < duration * 0.5) {
                         return DG.Tweening.Core.Easing.Bounce.EaseIn(time * 2, duration, -1, -1) * 0.5;
                     }
@@ -900,6 +991,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         },
         ctors: {
             ctor: function (animCurve) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseCurve#ctor", this ); }
+
                 this.$initialize();
                 this._animCurve = animCurve;
             }
@@ -907,6 +1000,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
         methods: {
             /*DG.Tweening.Core.Easing.EaseCurve.Evaluate start.*/
             Evaluate: function (time, duration, unusedOvershoot, unusedPeriod) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseCurve#Evaluate", this ); }
+
                 var curveLen = this._animCurve.keys[this._animCurve.keys.length - 1].time;
                 var timePerc = time / duration;
                 var $eval = this._animCurve.value(timePerc * curveLen);
@@ -938,6 +1033,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseManager#init", this ); }
+
                     this._PiOver2 = 1.57079637;
                     this._TwoPi = 6.28318548;
                 }
@@ -959,6 +1056,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}
                  */
                 Evaluate$1: function (t, time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseManager#Evaluate$1", this ); }
+
                     // Overload used only to allow custom user plugins to avoid calling t.easeType and t.customEase since they're internal
                     return DG.Tweening.Core.Easing.EaseManager.Evaluate(t.easeType, t.customEase, time, duration, overshootOrAmplitude, period);
                 },
@@ -981,6 +1080,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {number}
                  */
                 Evaluate: function (easeType, customEase, time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseManager#Evaluate", this ); }
+
                     switch (easeType) {
                         case DG.Tweening.Ease.Linear: 
                             return time / duration;
@@ -1147,6 +1248,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.EaseManager.ToEaseFunction:static start.*/
                 ToEaseFunction: function (ease) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseManager#ToEaseFunction", this ); }
+
                     switch (ease) {
                         case DG.Tweening.Ease.Linear: 
                             return function (time, duration, overshootOrAmplitude, period) {
@@ -1403,6 +1506,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.EaseManager.IsFlashEase:static start.*/
                 IsFlashEase: function (ease) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.EaseManager#IsFlashEase", this ); }
+
                     switch (ease) {
                         case DG.Tweening.Ease.Flash: 
                         case DG.Tweening.Ease.InFlash: 
@@ -1427,6 +1532,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
             methods: {
                 /*DG.Tweening.Core.Easing.Flash.Ease:static start.*/
                 Ease: function (time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Flash#Ease", this ); }
+
                     var stepIndex = Math.ceil(time / duration * overshootOrAmplitude); // 1 to overshootOrAmplitude
                     var stepDuration = duration / overshootOrAmplitude;
                     time -= stepDuration * (stepIndex - 1);
@@ -1442,6 +1549,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.Flash.EaseIn:static start.*/
                 EaseIn: function (time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Flash#EaseIn", this ); }
+
                     var stepIndex = Math.ceil(time / duration * overshootOrAmplitude); // 1 to overshootOrAmplitude
                     var stepDuration = duration / overshootOrAmplitude;
                     time -= stepDuration * (stepIndex - 1);
@@ -1458,6 +1567,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.Flash.EaseOut:static start.*/
                 EaseOut: function (time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Flash#EaseOut", this ); }
+
                     var stepIndex = Math.ceil(time / duration * overshootOrAmplitude); // 1 to overshootOrAmplitude
                     var stepDuration = duration / overshootOrAmplitude;
                     time -= stepDuration * (stepIndex - 1);
@@ -1474,6 +1585,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.Flash.EaseInOut:static start.*/
                 EaseInOut: function (time, duration, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Flash#EaseInOut", this ); }
+
                     var stepIndex = Math.ceil(time / duration * overshootOrAmplitude); // 1 to overshootOrAmplitude
                     var stepDuration = duration / overshootOrAmplitude;
                     time -= stepDuration * (stepIndex - 1);
@@ -1490,6 +1603,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
 
                 /*DG.Tweening.Core.Easing.Flash.WeightedEase:static start.*/
                 WeightedEase: function (overshootOrAmplitude, period, stepIndex, stepDuration, dir, res) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Easing.Flash#WeightedEase", this ); }
+
                     var easedRes = 0;
                     var finalDecimals = 0;
                     // Use previous stepIndex in case of odd ones, so that back ease is not clamped
@@ -1811,6 +1926,8 @@ Bridge.assembly("DOTween", function ($asm, globals) {
                  * @return  {T}
                  */
                 SetSpecialStartupMode: function (T, t, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Extensions#SetSpecialStartupMode", this ); }
+
 Bridge.rValue(                    t).specialStartupMode = mode;
                     return Bridge.rValue(t);
                 },
@@ -1831,6 +1948,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 Blendable: function (T1, T2, TPlugOptions, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Extensions#Blendable", this ); }
+
                     t.isBlendable = true;
                     return t;
                 },
@@ -1851,6 +1970,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 NoFrom: function (T1, T2, TPlugOptions, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Extensions#NoFrom", this ); }
+
                     t.isFromAllowed = false;
                     return t;
                 },
@@ -1867,7 +1988,9 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Core.SafeModeReport(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#getDefaultValue", this ); }
+ return new DG.Tweening.Core.SafeModeReport(); }
             }
         },
         fields: {
@@ -1878,12 +2001,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Core.SafeModeReport.Add start.*/
             Add: function (type) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#Add", this ); }
+
                 switch (type) {
                     case DG.Tweening.Core.SafeModeReport.SafeModeReportType.TargetOrFieldMissing: 
                         this.totMissingTargetOrFieldErrors++;
@@ -1903,21 +2030,29 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Core.SafeModeReport.GetTotErrors start.*/
             GetTotErrors: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#GetTotErrors", this ); }
+
                 return this.totMissingTargetOrFieldErrors + this.totCallbackErrors + this.totStartupErrors + this.totUnsetErrors;
             },
             /*DG.Tweening.Core.SafeModeReport.GetTotErrors end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#getHashCode", this ); }
+
                 var h = Bridge.addHash([5271956068, this.totMissingTargetOrFieldErrors, this.totCallbackErrors, this.totStartupErrors, this.totUnsetErrors]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Core.SafeModeReport)) {
                     return false;
                 }
                 return Bridge.equals(this.totMissingTargetOrFieldErrors, o.totMissingTargetOrFieldErrors) && Bridge.equals(this.totCallbackErrors, o.totCallbackErrors) && Bridge.equals(this.totStartupErrors, o.totStartupErrors) && Bridge.equals(this.totUnsetErrors, o.totUnsetErrors);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SafeModeReport#$clone", this ); }
+
                 var s = to || new DG.Tweening.Core.SafeModeReport();
                 s.totMissingTargetOrFieldErrors = this.totMissingTargetOrFieldErrors;
                 s.totCallbackErrors = this.totCallbackErrors;
@@ -1993,6 +2128,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         },
         ctors: {
             ctor: function (target, behaviour) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenLink#ctor", this ); }
+
                 this.$initialize();
                 this.target = target;
                 this.behaviour = behaviour;
@@ -2047,6 +2184,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#init", this ); }
+
                     this._DefaultMaxTweeners = 200;
                     this._DefaultMaxSequences = 50;
                     this._MaxTweensReached = "Max Tweens reached: capacity has automatically been increased from #0 to #1. Use DOTween.SetTweensCapacity to set it manually at startup";
@@ -2065,12 +2204,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                     this._maxPooledTweenerId = -1;
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ctor", this ); }
+
                     DG.Tweening.Core.TweenManager.isUnityEditor = UnityEngine.Application.isEditor;
                 }
             },
             methods: {
                 /*DG.Tweening.Core.TweenManager.GetTweener:static start.*/
                 GetTweener: function (T1, T2, TPlugOptions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#GetTweener", this ); }
+
                     var t;
                     // Search inside pool
                     if (DG.Tweening.Core.TweenManager.totPooledTweeners > 0) {
@@ -2126,6 +2269,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.GetSequence:static start.*/
                 GetSequence: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#GetSequence", this ); }
+
                     var s;
                     if (DG.Tweening.Core.TweenManager.totPooledSequences > 0) {
                         s = Bridge.cast(DG.Tweening.Core.TweenManager._PooledSequences.Pop(), DG.Tweening.Sequence);
@@ -2154,6 +2299,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.SetUpdateType:static start.*/
                 SetUpdateType: function (t, updateType, isIndependentUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#SetUpdateType", this ); }
+
                     if (!t.active || t.updateType === updateType) {
                         t.updateType = updateType;
                         t.isIndependentUpdate = isIndependentUpdate;
@@ -2208,12 +2355,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.AddActiveTweenToSequence:static start.*/
                 AddActiveTweenToSequence: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#AddActiveTweenToSequence", this ); }
+
                     DG.Tweening.Core.TweenManager.RemoveActiveTween(t);
                 },
                 /*DG.Tweening.Core.TweenManager.AddActiveTweenToSequence:static end.*/
 
                 /*DG.Tweening.Core.TweenManager.DespawnAll:static start.*/
                 DespawnAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#DespawnAll", this ); }
+
                     var $t, $t1, $t2, $t3, $t4, $t5;
                     var totDespawned = DG.Tweening.Core.TweenManager.totActiveTweens;
                     for (var i = 0; i < DG.Tweening.Core.TweenManager._maxActiveLookupId + 1; ++i) {
@@ -2242,6 +2393,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Despawn:static start.*/
                 Despawn: function (t, modifyActiveLists) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Despawn", this ); }
+
                     if (modifyActiveLists === void 0) { modifyActiveLists = true; }
                     // Callbacks
                     if (!Bridge.staticEquals(t.onKill, null)) {
@@ -2323,6 +2476,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.PurgeAll:static start.*/
                 PurgeAll: function (isApplicationQuitting) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#PurgeAll", this ); }
+
                     var $t, $t1, $t2, $t3, $t4, $t5;
                     if (!isApplicationQuitting) {
                         // Fire eventual onKill callbacks
@@ -2351,6 +2506,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.PurgePools:static start.*/
                 PurgePools: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#PurgePools", this ); }
+
                     DG.Tweening.Core.TweenManager.totTweeners -= DG.Tweening.Core.TweenManager.totPooledTweeners;
                     DG.Tweening.Core.TweenManager.totSequences -= DG.Tweening.Core.TweenManager.totPooledSequences;
                     DG.Tweening.Core.TweenManager.ClearTweenArray(DG.Tweening.Core.TweenManager._pooledTweeners);
@@ -2362,6 +2519,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.AddTweenLink:static start.*/
                 AddTweenLink: function (t, tweenLink) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#AddTweenLink", this ); }
+
                     DG.Tweening.Core.TweenManager._totTweenLinks++;
                     if (DG.Tweening.Core.TweenManager._TweenLinks.containsKey(t)) {
                         DG.Tweening.Core.TweenManager._TweenLinks.setItem(t, tweenLink);
@@ -2393,6 +2552,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.RemoveTweenLink:static start.*/
                 RemoveTweenLink: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#RemoveTweenLink", this ); }
+
                     if (!DG.Tweening.Core.TweenManager._TweenLinks.containsKey(t)) {
                         return;
                     }
@@ -2404,12 +2565,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.ResetCapacities:static start.*/
                 ResetCapacities: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ResetCapacities", this ); }
+
                     DG.Tweening.Core.TweenManager.SetCapacities(DG.Tweening.Core.TweenManager._DefaultMaxTweeners, DG.Tweening.Core.TweenManager._DefaultMaxSequences);
                 },
                 /*DG.Tweening.Core.TweenManager.ResetCapacities:static end.*/
 
                 /*DG.Tweening.Core.TweenManager.SetCapacities:static start.*/
                 SetCapacities: function (tweenersCapacity, sequencesCapacity) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#SetCapacities", this ); }
+
                     if (tweenersCapacity < sequencesCapacity) {
                         tweenersCapacity = sequencesCapacity;
                     }
@@ -2426,6 +2591,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Validate:static start.*/
                 Validate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Validate", this ); }
+
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
                     }
@@ -2451,6 +2618,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Update$1:static start.*/
                 Update$1: function (updateType, deltaTime, independentTime) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Update$1", this ); }
+
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
                     }
@@ -2560,6 +2729,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Update:static start.*/
                 Update: function (t, deltaTime, independentTime, isSingleTweenManualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Update", this ); }
+
                     if (DG.Tweening.Core.TweenManager._totTweenLinks > 0) {
                         DG.Tweening.Core.TweenManager.EvaluateTweenLink(t); // TweenLinks
                     }
@@ -2658,6 +2829,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.FilteredOperation:static start.*/
                 FilteredOperation: function (operationType, filterType, id, optionalBool, optionalFloat, optionalObj, optionalArray) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#FilteredOperation", this ); }
+
                     if (optionalObj === void 0) { optionalObj = null; }
                     if (optionalArray === void 0) { optionalArray = null; }
                     var totInvolved = 0;
@@ -2850,6 +3023,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Complete:static start.*/
                 Complete: function (t, modifyActiveLists, updateMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Complete", this ); }
+
                     if (modifyActiveLists === void 0) { modifyActiveLists = true; }
                     if (updateMode === void 0) { updateMode = 1; }
                     if (t.loops === -1) {
@@ -2877,6 +3052,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Flip:static start.*/
                 Flip: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Flip", this ); }
+
                     t.isBackwards = !t.isBackwards;
                     return true;
                 },
@@ -2884,6 +3061,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.ForceInit:static start.*/
                 ForceInit: function (t, isSequenced) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ForceInit", this ); }
+
                     if (isSequenced === void 0) { isSequenced = false; }
                     if (t.startupDone) {
                         return;
@@ -2902,6 +3081,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Goto:static start.*/
                 Goto: function (t, to, andPlay, updateMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Goto", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     if (updateMode === void 0) { updateMode = 1; }
                     var wasPlaying = t.isPlaying;
@@ -2931,6 +3112,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Pause:static start.*/
                 Pause: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Pause", this ); }
+
                     if (t.isPlaying) {
                         t.isPlaying = false;
                         if (!Bridge.staticEquals(t.onPause, null)) {
@@ -2946,6 +3129,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Play:static start.*/
                 Play: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Play", this ); }
+
                     if (!t.isPlaying && (!t.isBackwards && !t.isComplete || t.isBackwards && (t.completedLoops > 0 || t.position > 0))) {
                         t.isPlaying = true;
                         if (t.playedOnce && t.delayComplete && !Bridge.staticEquals(t.onPlay, null)) {
@@ -2962,6 +3147,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.PlayBackwards:static start.*/
                 PlayBackwards: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#PlayBackwards", this ); }
+
                     if (t.completedLoops === 0 && t.position <= 0) {
                         // Already rewinded, manage OnRewind callback
                         DG.Tweening.Core.TweenManager.ManageOnRewindCallbackWhenAlreadyRewinded(t, true);
@@ -2982,6 +3169,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.PlayForward:static start.*/
                 PlayForward: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#PlayForward", this ); }
+
                     if (t.isComplete) {
                         t.isBackwards = false;
                         t.isPlaying = false;
@@ -3000,6 +3189,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Restart:static start.*/
                 Restart: function (t, includeDelay, changeDelayTo) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Restart", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (changeDelayTo === void 0) { changeDelayTo = -1.0; }
                     var wasPaused = !t.isPlaying;
@@ -3021,6 +3212,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.Rewind:static start.*/
                 Rewind: function (t, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#Rewind", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     var wasPlaying = t.isPlaying; // Manage onPause from this method because DoGoto won't detect it
                     t.isPlaying = false;
@@ -3054,6 +3247,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.SmoothRewind:static start.*/
                 SmoothRewind: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#SmoothRewind", this ); }
+
                     var rewinded = false;
                     if (t.delay > 0) {
                         rewinded = t.elapsedDelay < t.delay;
@@ -3081,6 +3276,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.TogglePause:static start.*/
                 TogglePause: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#TogglePause", this ); }
+
                     if (t.isPlaying) {
                         return DG.Tweening.Core.TweenManager.Pause(t);
                     }
@@ -3091,12 +3288,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.TotalPooledTweens:static start.*/
                 TotalPooledTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#TotalPooledTweens", this ); }
+
                     return DG.Tweening.Core.TweenManager.totPooledTweeners + DG.Tweening.Core.TweenManager.totPooledSequences;
                 },
                 /*DG.Tweening.Core.TweenManager.TotalPooledTweens:static end.*/
 
                 /*DG.Tweening.Core.TweenManager.TotalPlayingTweens:static start.*/
                 TotalPlayingTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#TotalPlayingTweens", this ); }
+
                     if (!DG.Tweening.Core.TweenManager.hasActiveTweens) {
                         return 0;
                     }
@@ -3119,6 +3320,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.GetActiveTweens:static start.*/
                 GetActiveTweens: function (playing, fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#GetActiveTweens", this ); }
+
                     if (fillableList === void 0) { fillableList = null; }
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
@@ -3150,6 +3353,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.GetTweensById:static start.*/
                 GetTweensById: function (id, playingOnly, fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#GetTweensById", this ); }
+
                     if (fillableList === void 0) { fillableList = null; }
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
@@ -3211,6 +3416,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.GetTweensByTarget:static start.*/
                 GetTweensByTarget: function (target, playingOnly, fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#GetTweensByTarget", this ); }
+
                     if (fillableList === void 0) { fillableList = null; }
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
@@ -3246,6 +3453,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.MarkForKilling:static start.*/
                 MarkForKilling: function (t, isSingleTweenManualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#MarkForKilling", this ); }
+
                     if (isSingleTweenManualUpdate === void 0) { isSingleTweenManualUpdate = false; }
                     if (isSingleTweenManualUpdate && !DG.Tweening.Core.TweenManager.isUpdateLoop) {
                         // Kill immediately
@@ -3259,6 +3468,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.EvaluateTweenLink:static start.*/
                 EvaluateTweenLink: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#EvaluateTweenLink", this ); }
+
                     // Check tween links
                     var tLink = { };
                     if (!DG.Tweening.Core.TweenManager._TweenLinks.tryGetValue(t, tLink)) {
@@ -3340,6 +3551,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.AddActiveTween:static start.*/
                 AddActiveTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#AddActiveTween", this ); }
+
                     var $t;
                     if (DG.Tweening.Core.TweenManager._requiresActiveReorganization) {
                         DG.Tweening.Core.TweenManager.ReorganizeActiveTweens();
@@ -3393,6 +3606,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.ReorganizeActiveTweens:static start.*/
                 ReorganizeActiveTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ReorganizeActiveTweens", this ); }
+
                     var $t;
                     if (DG.Tweening.Core.TweenManager.totActiveTweens <= 0) {
                         DG.Tweening.Core.TweenManager._maxActiveLookupId = -1;
@@ -3428,6 +3643,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.DespawnActiveTweens:static start.*/
                 DespawnActiveTweens: function (tweens) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#DespawnActiveTweens", this ); }
+
                     var count = tweens.Count - 1;
                     for (var i = count; i > -1; --i) {
                         DG.Tweening.Core.TweenManager.Despawn(tweens.getItem(i));
@@ -3437,6 +3654,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.RemoveActiveTween:static start.*/
                 RemoveActiveTween: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#RemoveActiveTween", this ); }
+
                     var index = t.activeId;
 
                     if (DG.Tweening.Core.TweenManager._totTweenLinks > 0) {
@@ -3521,6 +3740,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.ClearTweenArray:static start.*/
                 ClearTweenArray: function (tweens) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ClearTweenArray", this ); }
+
                     var len = tweens.length;
                     for (var i = 0; i < len; i++) {
                         tweens[i] = null;
@@ -3530,6 +3751,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.IncreaseCapacities:static start.*/
                 IncreaseCapacities: function (increaseMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#IncreaseCapacities", this ); }
+
                     var $t;
                     var killAdd = 0;
                     //            int increaseTweenersBy = _DefaultMaxTweeners;
@@ -3566,6 +3789,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.TweenManager.ManageOnRewindCallbackWhenAlreadyRewinded:static start.*/
                 ManageOnRewindCallbackWhenAlreadyRewinded: function (t, isPlayBackwardsOrSmoothRewind) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenManager#ManageOnRewindCallbackWhenAlreadyRewinded", this ); }
+
                     if (Bridge.staticEquals(t.onRewind, null)) {
                         return;
                     }
@@ -3612,6 +3837,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#init", this ); }
+
                     this._defAssembliesToQuery = System.Array.init(["DOTween.Modules", "Assembly-CSharp", "Assembly-CSharp-firstpass"], System.String);
                 }
             },
@@ -3628,6 +3855,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.Vector3}
                  */
                 Vector3FromAngle: function (degrees, magnitude) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#Vector3FromAngle", this ); }
+
                     var radians = degrees * UnityEngine.Mathf.Deg2Rad;
                     return new pc.Vec3( magnitude * Math.cos(radians), magnitude * Math.sin(radians), 0 );
                 },
@@ -3645,6 +3874,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Angle2D: function (from, to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#Angle2D", this ); }
+
                     var baseDir = pc.Vec2.RIGHT.clone();
                     to = to.$clone().sub( from.$clone() );
                     var ang = pc.Vec2.angle( baseDir, UnityEngine.Vector2.FromVector3(to) );
@@ -3660,6 +3891,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Core.Utils.RotateAroundPivot:static start.*/
                 RotateAroundPivot: function (point, pivot, rotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#RotateAroundPivot", this ); }
+
                     return rotation.transformVector( (point.$clone().sub( pivot )) ).add( pivot );
                 },
                 /*DG.Tweening.Core.Utils.RotateAroundPivot:static end.*/
@@ -3677,6 +3910,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 Vector3AreApproximatelyEqual: function (a, b) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#Vector3AreApproximatelyEqual", this ); }
+
                     return UnityEngine.Mathf.Approximately(a.x, b.x) && UnityEngine.Mathf.Approximately(a.y, b.y) && UnityEngine.Mathf.Approximately(a.z, b.z);
                 },
                 /*DG.Tweening.Core.Utils.Vector3AreApproximatelyEqual:static end.*/
@@ -3692,6 +3927,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {System.Type}
                  */
                 GetLooseScriptType: function (typeName) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.Utils#GetLooseScriptType", this ); }
+
                     // Check in default assemblies (Unity 2017 and later)
                     for (var i = 0; i < DG.Tweening.Core.Utils._defAssembliesToQuery.length; ++i) {
                         var result = Bridge.Reflection.getType(System.String.format("{0}, {1}", typeName, DG.Tweening.Core.Utils._defAssembliesToQuery[i]));
@@ -3773,6 +4010,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.Vector3}
                  */
                 GetPointOnSegment: function (startPoint, startControlPoint, endPoint, endControlPoint, factor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOCurve.CubicBezier#GetPointOnSegment", this ); }
+
                     var u = 1 - factor;
                     var tt = factor * factor;
                     var uu = u * u;
@@ -3799,6 +4038,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {Array.<UnityEngine.Vector3>}
                  */
                 GetSegmentPointCloud$1: function (startPoint, startControlPoint, endPoint, endControlPoint, resolution) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOCurve.CubicBezier#GetSegmentPointCloud$1", this ); }
+
                     if (resolution === void 0) { resolution = 10; }
                     if (resolution < 2) {
                         resolution = 2;
@@ -3833,6 +4074,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 GetSegmentPointCloud: function (addToList, startPoint, startControlPoint, endPoint, endControlPoint, resolution) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOCurve.CubicBezier#GetSegmentPointCloud", this ); }
+
                     if (resolution === void 0) { resolution = 10; }
                     if (resolution < 2) {
                         resolution = 2;
@@ -4136,9 +4379,13 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  */
                 logBehaviour: {
                     get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#logBehaviour#get", this ); }
+
                         return DG.Tweening.DOTween._logBehaviour;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#logBehaviour#set", this ); }
+
                         DG.Tweening.DOTween._logBehaviour = value;
                         DG.Tweening.Core.Debugger.SetLogPriority(DG.Tweening.DOTween._logBehaviour);
                     }
@@ -4155,14 +4402,20 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  */
                 debugStoreTargetId: {
                     get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#debugStoreTargetId#get", this ); }
+
                         return DG.Tweening.DOTween.debugMode && DG.Tweening.DOTween.useSafeMode && DG.Tweening.DOTween._fooDebugStoreTargetId;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#debugStoreTargetId#set", this ); }
+
                         DG.Tweening.DOTween._fooDebugStoreTargetId = value;
                     }
                 },
                 isQuitting: {
                     get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#isQuitting#get", this ); }
+
                         if (!DG.Tweening.DOTween._foo_isQuitting) {
                             return false;
                         }
@@ -4175,6 +4428,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                         return true;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#isQuitting#set", this ); }
+
                         DG.Tweening.DOTween._foo_isQuitting = value;
                         if (value) {
                             DG.Tweening.DOTween._isQuittingFrame = UnityEngine.Time.frameCount;
@@ -4184,6 +4439,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#init", this ); }
+
                     this.safeModeReport = new DG.Tweening.Core.SafeModeReport();
                     this.Version = "1.2.560";
                     this.useSafeMode = true;
@@ -4238,6 +4495,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.IDOTweenInit}
                  */
                 Init: function (recycleAllByDefault, useSafeMode, logBehaviour) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Init", this ); }
+
                     if (recycleAllByDefault === void 0) { recycleAllByDefault = null; }
                     if (useSafeMode === void 0) { useSafeMode = null; }
                     if (logBehaviour === void 0) { logBehaviour = null; }
@@ -4256,6 +4515,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.Init$1:static start.*/
                 Init$1: function (settings, recycleAllByDefault, useSafeMode, logBehaviour) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Init$1", this ); }
+
                     DG.Tweening.DOTween.initialized = true;
                     // Options
                     if (recycleAllByDefault != null) {
@@ -4319,6 +4580,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.AutoInit:static start.*/
                 AutoInit: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#AutoInit", this ); }
+
                     if (!UnityEngine.Application.isPlaying || DG.Tweening.DOTween.isQuitting) {
                         return;
                     }
@@ -4349,6 +4612,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 SetTweensCapacity: function (tweenersCapacity, sequencesCapacity) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#SetTweensCapacity", this ); }
+
                     DG.Tweening.Core.TweenManager.SetCapacities(tweenersCapacity, sequencesCapacity);
                 },
                 /*DG.Tweening.DOTween.SetTweensCapacity:static end.*/
@@ -4366,6 +4631,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Clear: function (destroy) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Clear", this ); }
+
                     if (destroy === void 0) { destroy = false; }
                     DG.Tweening.DOTween.Clear$1(destroy, false);
                 },
@@ -4373,6 +4640,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.Clear$1:static start.*/
                 Clear$1: function (destroy, isApplicationQuitting) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Clear$1", this ); }
+
                     DG.Tweening.Core.TweenManager.PurgeAll(isApplicationQuitting);
                     DG.Tweening.Plugins.Core.PluginsManager.PurgeAll();
                     if (!destroy) {
@@ -4418,6 +4687,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 ClearCachedTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ClearCachedTweens", this ); }
+
                     DG.Tweening.Core.TweenManager.PurgePools();
                 },
                 /*DG.Tweening.DOTween.ClearCachedTweens:static end.*/
@@ -4436,6 +4707,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Validate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Validate", this ); }
+
                     return DG.Tweening.Core.TweenManager.Validate();
                 },
                 /*DG.Tweening.DOTween.Validate:static end.*/
@@ -4453,6 +4726,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 ManualUpdate: function (deltaTime, unscaledDeltaTime) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ManualUpdate", this ); }
+
                     DG.Tweening.DOTween.InitCheck();
                     //            instance.ManualUpdate(deltaTime, unscaledDeltaTime);
                     if (DG.Tweening.Core.TweenManager.hasActiveManualTweens) {
@@ -4478,6 +4753,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$4: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$4", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.Single, System.Single, DG.Tweening.Plugins.Options.FloatOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$4:static end.*/
@@ -4499,6 +4776,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$1: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$1", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.Double, System.Double, DG.Tweening.Plugins.Options.NoOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$1:static end.*/
@@ -4520,6 +4799,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$2: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$2", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.Int32, System.Int32, DG.Tweening.Plugins.Options.NoOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$2:static end.*/
@@ -4541,6 +4822,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$6: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$6", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.UInt32, System.UInt32, DG.Tweening.Plugins.Options.UintOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$6:static end.*/
@@ -4562,6 +4845,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$3: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$3", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.Int64, System.Int64, DG.Tweening.Plugins.Options.NoOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$3:static end.*/
@@ -4583,6 +4868,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$7: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$7", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.UInt64, System.UInt64, DG.Tweening.Plugins.Options.NoOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$7:static end.*/
@@ -4604,6 +4891,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$5: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$5", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(System.String, System.String, DG.Tweening.Plugins.Options.StringOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$5:static end.*/
@@ -4625,6 +4914,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$11: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$11", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.Options.VectorOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$11:static end.*/
@@ -4646,6 +4937,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$12: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$12", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$12:static end.*/
@@ -4667,6 +4960,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$13: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$13", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Vector4, UnityEngine.Vector4, DG.Tweening.Plugins.Options.VectorOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$13:static end.*/
@@ -4688,6 +4983,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$9: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$9", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Quaternion, UnityEngine.Vector3, DG.Tweening.Plugins.Options.QuaternionOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$9:static end.*/
@@ -4709,6 +5006,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$8: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$8", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$8:static end.*/
@@ -4730,6 +5029,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To$10: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$10", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.Rect, UnityEngine.Rect, DG.Tweening.Plugins.Options.RectOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$10:static end.*/
@@ -4751,6 +5052,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 To$14: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$14", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(UnityEngine.RectOffset, UnityEngine.RectOffset, DG.Tweening.Plugins.Options.NoOptions, getter, setter, endValue, duration);
                 },
                 /*DG.Tweening.DOTween.To$14:static end.*/
@@ -4778,6 +5081,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 To: function (T1, T2, TPlugOptions, plugin, getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(T1, T2, TPlugOptions, getter, setter, Bridge.rValue(endValue), duration, plugin);
                 },
                 /*DG.Tweening.DOTween.To:static end.*/
@@ -4799,6 +5104,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 To$15: function (setter, startValue, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$15", this ); }
+
                     var v = startValue;
                     return DG.Tweening.Core.Extensions.NoFrom(System.Single, System.Single, DG.Tweening.Plugins.Options.FloatOptions, DG.Tweening.DOTween.To$4(function () {
                         return v;
@@ -4811,6 +5118,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.To$16:static start.*/
                 To$16: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#To$16", this ); }
+
                     return DG.Tweening.DOTween.ApplyTo(DG.Tweening.Color2, DG.Tweening.Color2, DG.Tweening.Plugins.Options.ColorOptions, getter, setter, endValue.$clone(), duration);
                 },
                 /*DG.Tweening.DOTween.To$16:static end.*/
@@ -4833,6 +5142,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 ToAxis: function (getter, setter, endValue, duration, axisConstraint) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ToAxis", this ); }
+
                     if (axisConstraint === void 0) { axisConstraint = 2; }
                     var t = DG.Tweening.DOTween.ApplyTo(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions, getter, setter, new pc.Vec3( endValue, endValue, endValue ), duration);
                     t.plugOptions.axisConstraint = axisConstraint;
@@ -4857,6 +5168,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 ToAlpha: function (getter, setter, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ToAlpha", this ); }
+
                     var t = DG.Tweening.DOTween.ApplyTo(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, getter, setter, new pc.Color( 0, 0, 0, endValue ), duration);
                     DG.Tweening.TweenSettingsExtensions.SetOptions$4(t, true);
                     return t;
@@ -4886,6 +5199,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 Punch: function (getter, setter, direction, duration, vibrato, elasticity) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Punch", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (elasticity > 1) {
@@ -4962,6 +5277,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 Shake: function (getter, setter, duration, strength, vibrato, randomness, ignoreZAxis, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Shake", this ); }
+
                     if (strength === void 0) { strength = 3.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -4992,6 +5309,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 Shake$1: function (getter, setter, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Shake$1", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (fadeOut === void 0) { fadeOut = true; }
@@ -5001,6 +5320,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.Shake$2:static start.*/
                 Shake$2: function (getter, setter, duration, strength, vibrato, randomness, ignoreZAxis, vectorBased, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Shake$2", this ); }
+
                     var shakeMagnitude = vectorBased ? strength.length() : strength.x;
                     var totIterations = Math.floor(vibrato * duration);
                     if (totIterations < 2) {
@@ -5086,6 +5407,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 ToArray: function (getter, setter, endValues, durations) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ToArray", this ); }
+
                     var len = durations.length;
                     if (len !== endValues.length) {
                         DG.Tweening.Core.Debugger.LogError("To Vector3 array tween: endValues and durations arrays must have the same length");
@@ -5127,6 +5450,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Sequence: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Sequence", this ); }
+
                     DG.Tweening.DOTween.InitCheck();
                     var sequence = DG.Tweening.Core.TweenManager.GetSequence();
                     DG.Tweening.Sequence.Setup(sequence);
@@ -5149,6 +5474,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Sequence$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Sequence$1", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, DG.Tweening.DOTween.Sequence(), target);
                 },
                 /*DG.Tweening.DOTween.Sequence$1:static end.*/
@@ -5167,6 +5494,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 CompleteAll: function (withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#CompleteAll", this ); }
+
                     if (withCallbacks === void 0) { withCallbacks = false; }
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Complete, DG.Tweening.Core.Enums.FilterType.All, null, false, withCallbacks ? 1 : 0);
                 },
@@ -5187,6 +5516,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Complete: function (targetOrId, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Complete", this ); }
+
                     if (withCallbacks === void 0) { withCallbacks = false; }
                     if (targetOrId == null) {
                         return 0;
@@ -5198,12 +5529,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.CompleteAndReturnKilledTot:static start.*/
                 CompleteAndReturnKilledTot: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#CompleteAndReturnKilledTot", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Complete, DG.Tweening.Core.Enums.FilterType.All, null, true, 0);
                 },
                 /*DG.Tweening.DOTween.CompleteAndReturnKilledTot:static end.*/
 
                 /*DG.Tweening.DOTween.CompleteAndReturnKilledTot$1:static start.*/
                 CompleteAndReturnKilledTot$1: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#CompleteAndReturnKilledTot$1", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5214,6 +5549,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.CompleteAndReturnKilledTot$2:static start.*/
                 CompleteAndReturnKilledTot$2: function (target, id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#CompleteAndReturnKilledTot$2", this ); }
+
                     if (target == null || id == null) {
                         return 0;
                     }
@@ -5224,6 +5561,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.CompleteAndReturnKilledTotExceptFor:static start.*/
                 CompleteAndReturnKilledTotExceptFor: function (excludeTargetsOrIds) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#CompleteAndReturnKilledTotExceptFor", this ); }
+
                     if (excludeTargetsOrIds === void 0) { excludeTargetsOrIds = []; }
                     // excludeTargetsOrIds is never NULL (checked by DOTween.KillAll)
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Complete, DG.Tweening.Core.Enums.FilterType.AllExceptTargetsOrIds, null, true, 0, null, excludeTargetsOrIds);
@@ -5242,6 +5581,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 FlipAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#FlipAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Flip, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.FlipAll:static end.*/
@@ -5259,6 +5600,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Flip: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Flip", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5280,6 +5623,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 GotoAll: function (to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#GotoAll", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Goto, DG.Tweening.Core.Enums.FilterType.All, null, andPlay, to);
                 },
@@ -5300,6 +5645,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Goto: function (targetOrId, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Goto", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     if (targetOrId == null) {
                         return 0;
@@ -5321,6 +5668,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 KillAll: function (complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#KillAll", this ); }
+
                     if (complete === void 0) { complete = false; }
                     var tot = complete ? DG.Tweening.DOTween.CompleteAndReturnKilledTot() : 0;
                     return tot + DG.Tweening.Core.TweenManager.DespawnAll();
@@ -5340,6 +5689,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 KillAll$1: function (complete, idsOrTargetsToExclude) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#KillAll$1", this ); }
+
                     if (idsOrTargetsToExclude === void 0) { idsOrTargetsToExclude = []; }
                     var tot;
                     if (idsOrTargetsToExclude == null) {
@@ -5365,6 +5716,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Kill: function (targetOrId, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Kill", this ); }
+
                     if (complete === void 0) { complete = false; }
                     if (targetOrId == null) {
                         return 0;
@@ -5389,6 +5742,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Kill$1: function (target, id, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Kill$1", this ); }
+
                     if (complete === void 0) { complete = false; }
                     if (target == null || id == null) {
                         return 0;
@@ -5410,6 +5765,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PauseAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PauseAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Pause, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.PauseAll:static end.*/
@@ -5427,6 +5784,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Pause: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Pause", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5447,6 +5806,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Play, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.PlayAll:static end.*/
@@ -5464,6 +5825,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Play: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Play", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5486,6 +5849,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Play$1: function (target, id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Play$1", this ); }
+
                     if (target == null || id == null) {
                         return 0;
                     }
@@ -5506,6 +5871,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayBackwardsAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayBackwardsAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.PlayBackwards, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.PlayBackwardsAll:static end.*/
@@ -5523,6 +5890,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayBackwards: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayBackwards", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5545,6 +5914,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayBackwards$1: function (target, id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayBackwards$1", this ); }
+
                     if (target == null || id == null) {
                         return 0;
                     }
@@ -5565,6 +5936,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayForwardAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayForwardAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.PlayForward, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.PlayForwardAll:static end.*/
@@ -5582,6 +5955,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayForward: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayForward", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5604,6 +5979,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PlayForward$1: function (target, id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayForward$1", this ); }
+
                     if (target == null || id == null) {
                         return 0;
                     }
@@ -5624,6 +6001,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 RestartAll: function (includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#RestartAll", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Restart, DG.Tweening.Core.Enums.FilterType.All, null, includeDelay, 0);
                 },
@@ -5643,6 +6022,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Restart: function (targetOrId, includeDelay, changeDelayTo) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Restart", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (changeDelayTo === void 0) { changeDelayTo = -1.0; }
                     if (targetOrId == null) {
@@ -5669,6 +6050,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Restart$1: function (target, id, includeDelay, changeDelayTo) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Restart$1", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (changeDelayTo === void 0) { changeDelayTo = -1.0; }
                     if (target == null || id == null) {
@@ -5692,6 +6075,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 RewindAll: function (includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#RewindAll", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.Rewind, DG.Tweening.Core.Enums.FilterType.All, null, includeDelay, 0);
                 },
@@ -5711,6 +6096,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Rewind: function (targetOrId, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#Rewind", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (targetOrId == null) {
                         return 0;
@@ -5735,6 +6122,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 SmoothRewindAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#SmoothRewindAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.SmoothRewind, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.SmoothRewindAll:static end.*/
@@ -5755,6 +6144,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 SmoothRewind: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#SmoothRewind", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5775,6 +6166,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 TogglePauseAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#TogglePauseAll", this ); }
+
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.TogglePause, DG.Tweening.Core.Enums.FilterType.All, null, false, 0);
                 },
                 /*DG.Tweening.DOTween.TogglePauseAll:static end.*/
@@ -5792,6 +6185,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 TogglePause: function (targetOrId) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#TogglePause", this ); }
+
                     if (targetOrId == null) {
                         return 0;
                     }
@@ -5815,6 +6210,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsTweening: function (targetOrId, alsoCheckIfIsPlaying) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#IsTweening", this ); }
+
                     if (alsoCheckIfIsPlaying === void 0) { alsoCheckIfIsPlaying = false; }
                     return DG.Tweening.Core.TweenManager.FilteredOperation(DG.Tweening.Core.Enums.OperationType.IsTweening, DG.Tweening.Core.Enums.FilterType.TargetOrId, targetOrId, alsoCheckIfIsPlaying, 0) > 0;
                 },
@@ -5832,6 +6229,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 TotalPlayingTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#TotalPlayingTweens", this ); }
+
                     return DG.Tweening.Core.TweenManager.TotalPlayingTweens();
                 },
                 /*DG.Tweening.DOTween.TotalPlayingTweens:static end.*/
@@ -5850,6 +6249,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {System.Collections.Generic.List$1}
                  */
                 PlayingTweens: function (fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PlayingTweens", this ); }
+
                     if (fillableList === void 0) { fillableList = null; }
                     if (fillableList != null) {
                         fillableList.clear();
@@ -5873,6 +6274,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {System.Collections.Generic.List$1}
                  */
                 PausedTweens: function (fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#PausedTweens", this ); }
+
                     if (fillableList === void 0) { fillableList = null; }
                     if (fillableList != null) {
                         fillableList.clear();
@@ -5898,6 +6301,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {System.Collections.Generic.List$1}
                  */
                 TweensById: function (id, playingOnly, fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#TweensById", this ); }
+
                     if (playingOnly === void 0) { playingOnly = false; }
                     if (fillableList === void 0) { fillableList = null; }
                     if (id == null) {
@@ -5928,6 +6333,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {System.Collections.Generic.List$1}
                  */
                 TweensByTarget: function (target, playingOnly, fillableList) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#TweensByTarget", this ); }
+
                     if (playingOnly === void 0) { playingOnly = false; }
                     if (fillableList === void 0) { fillableList = null; }
                     if (fillableList != null) {
@@ -5940,6 +6347,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.InitCheck:static start.*/
                 InitCheck: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#InitCheck", this ); }
+
                     if (DG.Tweening.DOTween.initialized || !UnityEngine.Application.isPlaying || DG.Tweening.DOTween.isQuitting) {
                         return;
                     }
@@ -5950,6 +6359,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.DOTween.ApplyTo:static start.*/
                 ApplyTo: function (T1, T2, TPlugOptions, getter, setter, endValue, duration, plugin) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTween#ApplyTo", this ); }
+
                     if (plugin === void 0) { plugin = null; }
                     DG.Tweening.DOTween.InitCheck();
                     var tweener = DG.Tweening.Core.TweenManager.GetTweener(T1, T2, TPlugOptions);
@@ -5998,6 +6409,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 Float: function (from, to, duration, onVirtualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#Float", this ); }
+
                     var val = from;
                     return DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), DG.Tweening.DOTween.To$4(function () {
                         return val;
@@ -6026,6 +6439,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 Int: function (from, to, duration, onVirtualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#Int", this ); }
+
                     var val = from;
                     return DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Core.TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions), DG.Tweening.DOTween.To$2(function () {
                         return val;
@@ -6054,6 +6469,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 Vector3: function (from, to, duration, onVirtualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#Vector3", this ); }
+
                     var val = from.$clone();
                     return DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.DOTween.To$12(function () {
                         return val;
@@ -6082,6 +6499,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 Color: function (from, to, duration, onVirtualUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#Color", this ); }
+
                     var val = from.$clone();
                     return DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.DOTween.To$8(function () {
                         return val;
@@ -6108,6 +6527,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 EasedValue: function (from, to, lifetimePercentage, easeType) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#EasedValue", this ); }
+
                     return from + (to - from) * DG.Tweening.Core.Easing.EaseManager.Evaluate(easeType, null, lifetimePercentage, 1, DG.Tweening.DOTween.defaultEaseOvershootOrAmplitude, DG.Tweening.DOTween.defaultEasePeriod);
                 },
                 /*DG.Tweening.DOVirtual.EasedValue:static end.*/
@@ -6128,6 +6549,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 EasedValue$1: function (from, to, lifetimePercentage, easeType, overshoot) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#EasedValue$1", this ); }
+
                     return from + (to - from) * DG.Tweening.Core.Easing.EaseManager.Evaluate(easeType, null, lifetimePercentage, 1, overshoot, DG.Tweening.DOTween.defaultEasePeriod);
                 },
                 /*DG.Tweening.DOVirtual.EasedValue$1:static end.*/
@@ -6149,6 +6572,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 EasedValue$2: function (from, to, lifetimePercentage, easeType, amplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#EasedValue$2", this ); }
+
                     return from + (to - from) * DG.Tweening.Core.Easing.EaseManager.Evaluate(easeType, null, lifetimePercentage, 1, amplitude, period);
                 },
                 /*DG.Tweening.DOVirtual.EasedValue$2:static end.*/
@@ -6168,6 +6593,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 EasedValue$3: function (from, to, lifetimePercentage, easeCurve) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#EasedValue$3", this ); }
+
                     return from + (to - from) * DG.Tweening.Core.Easing.EaseManager.Evaluate(DG.Tweening.Ease.INTERNAL_Custom, Bridge.fn.cacheBind(new DG.Tweening.Core.Easing.EaseCurve(easeCurve), new DG.Tweening.Core.Easing.EaseCurve(easeCurve).Evaluate), lifetimePercentage, 1, DG.Tweening.DOTween.defaultEaseOvershootOrAmplitude, DG.Tweening.DOTween.defaultEasePeriod);
                 },
                 /*DG.Tweening.DOVirtual.EasedValue$3:static end.*/
@@ -6186,6 +6613,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tween}
                  */
                 DelayedCall: function (delay, callback, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOVirtual#DelayedCall", this ); }
+
                     if (ignoreTimeScale === void 0) { ignoreTimeScale = true; }
                     return DG.Tweening.TweenSettingsExtensions.SetAutoKill$1(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.SetUpdate$2(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.OnStepComplete(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.AppendInterval(DG.Tweening.DOTween.Sequence(), delay), callback), DG.Tweening.UpdateType.Normal, ignoreTimeScale), true);
                 },
@@ -6288,6 +6717,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.EaseFunction}
                  */
                 StopMotion$1: function (motionFps, ease) {
+if ( TRACE ) { TRACE( "DG.Tweening.EaseFactory#StopMotion$1", this ); }
+
                     if (ease === void 0) { ease = null; }
                     var easeFunc = DG.Tweening.Core.Easing.EaseManager.ToEaseFunction(ease == null ? DG.Tweening.DOTween.defaultEaseType : System.Nullable.getValue(ease));
                     return DG.Tweening.EaseFactory.StopMotion(motionFps, easeFunc);
@@ -6307,6 +6738,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.EaseFunction}
                  */
                 StopMotion$2: function (motionFps, animCurve) {
+if ( TRACE ) { TRACE( "DG.Tweening.EaseFactory#StopMotion$2", this ); }
+
                     return DG.Tweening.EaseFactory.StopMotion(motionFps, Bridge.fn.cacheBind(new DG.Tweening.Core.Easing.EaseCurve(animCurve), new DG.Tweening.Core.Easing.EaseCurve(animCurve).Evaluate));
                 },
                 /*DG.Tweening.EaseFactory.StopMotion$2:static end.*/
@@ -6324,6 +6757,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.EaseFunction}
                  */
                 StopMotion: function (motionFps, customEase) {
+if ( TRACE ) { TRACE( "DG.Tweening.EaseFactory#StopMotion", this ); }
+
                     // Compute the time interval in which we must re-evaluate the value
                     var motionDelay = 1.0 / motionFps;
 
@@ -6719,9 +7154,13 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         statics: {
             methods: {
                 op_Addition: function (cp, v) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#op_Addition", this ); }
+
                     return new DG.Tweening.Plugins.Core.PathCore.ControlPoint.$ctor1(cp.a.$clone().add( v ), cp.b.$clone().add( v ));
                 },
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Core.PathCore.ControlPoint(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Core.PathCore.ControlPoint(); }
             }
         },
         fields: {
@@ -6730,36 +7169,50 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#init", this ); }
+
                 this.a = new UnityEngine.Vector3();
                 this.b = new UnityEngine.Vector3();
             },
             $ctor1: function (a, b) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#$ctor1", this ); }
+
                 this.$initialize();
                 this.a = a.$clone();
                 this.b = b.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Core.PathCore.ControlPoint.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#toString", this ); }
+
                 return "[" + (Bridge.toString(this.a) || "") + " | " + (Bridge.toString(this.b) || "") + "]";
             },
             /*DG.Tweening.Plugins.Core.PathCore.ControlPoint.toString end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#getHashCode", this ); }
+
                 var h = Bridge.addHash([5256071204, this.a, this.b]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Core.PathCore.ControlPoint)) {
                     return false;
                 }
                 return Bridge.equals(this.a, o.a) && Bridge.equals(this.b, o.b);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.ControlPoint#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Core.PathCore.ControlPoint();
                 s.a = this.a.$clone();
                 s.b = this.b.$clone();
@@ -6783,6 +7236,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             methods: {
                 /*DG.Tweening.Plugins.Core.PathCore.Path.GetDrawPoints:static start.*/
                 GetDrawPoints: function (p, drawSubdivisionsXSegment) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#GetDrawPoints", this ); }
+
                     var wpsCount = p.wps.length;
                     if (p.type === DG.Tweening.PathType.Linear) {
                         return p.wps;
@@ -6804,6 +7259,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.PathCore.Path.RefreshNonLinearDrawWps:static start.*/
                 RefreshNonLinearDrawWps: function (p) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#RefreshNonLinearDrawWps", this ); }
+
                     var wpsCount = p.wps.length;
 
                     var gizmosSubdivisions = wpsCount * 10;
@@ -6823,6 +7280,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.PathCore.Path.Draw:static start.*/
                 Draw: function (p) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#Draw", this ); }
+
                     if (p.timesTable == null) {
                         return;
                     }
@@ -6916,6 +7375,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#init", this ); }
+
                 this.targetPosition = new UnityEngine.Vector3();
                 this.gizmoColor = new UnityEngine.Color();
                 this.linearWPIndex = -1;
@@ -6923,6 +7384,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                 this.gizmoColor = new pc.Color( 1, 1, 1, 0.7 );
             },
             $ctor1: function (type, waypoints, subdivisionsXSegment, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#$ctor1", this ); }
+
                 if (gizmoColor === void 0) { gizmoColor = null; }
 
                 this.$initialize();
@@ -6940,6 +7403,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                 }
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#ctor", this ); }
+
                 this.$initialize();
                 // Used when cloning it
             }
@@ -6947,6 +7412,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
         methods: {
             /*DG.Tweening.Plugins.Core.PathCore.Path.FinalizePath start.*/
             FinalizePath: function (isClosedPath, lockPositionAxes, currTargetVal) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#FinalizePath", this ); }
+
                 // Rebuild path to lock eventual axes
                 if (lockPositionAxes !== DG.Tweening.AxisConstraint.None) {
                     var lockX = (lockPositionAxes & DG.Tweening.AxisConstraint.X) === DG.Tweening.AxisConstraint.X;
@@ -6975,6 +7442,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {UnityEngine.Vector3}
              */
             GetPoint: function (perc, convertToConstantPerc) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#GetPoint", this ); }
+
                 if (convertToConstantPerc === void 0) { convertToConstantPerc = false; }
                 if (convertToConstantPerc) {
                     perc = this.ConvertToConstantPathPerc(perc);
@@ -6986,6 +7455,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.ConvertToConstantPathPerc start.*/
             ConvertToConstantPathPerc: function (perc) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#ConvertToConstantPathPerc", this ); }
+
                 if (this.type === DG.Tweening.PathType.Linear) {
                     return perc;
                 }
@@ -7026,6 +7497,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.GetWaypointIndexFromPerc start.*/
             GetWaypointIndexFromPerc: function (perc, isMovingForward) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#GetWaypointIndexFromPerc", this ); }
+
                 if (perc >= 1) {
                     return this.wps.length - 1;
                 }
@@ -7059,6 +7532,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.Destroy start.*/
             Destroy: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#Destroy", this ); }
+
                 if (DG.Tweening.Core.TweenManager.isUnityEditor) {
                     DG.Tweening.DOTween.GizmosDelegates.remove(Bridge.fn.cacheBind(this, this.Draw));
                 }
@@ -7072,6 +7547,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.CloneIncremental start.*/
             CloneIncremental: function (loopIncrement) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#CloneIncremental", this ); }
+
                 if (this._incrementalClone != null) {
                     if (this._incrementalIndex === loopIncrement) {
                         return this._incrementalClone;
@@ -7135,6 +7612,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.AssignWaypoints start.*/
             AssignWaypoints: function (newWps, cloneWps) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#AssignWaypoints", this ); }
+
                 if (cloneWps === void 0) { cloneWps = false; }
                 if (cloneWps) {
                     var count = newWps.length;
@@ -7152,6 +7631,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.AssignDecoder start.*/
             AssignDecoder: function (pathType) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#AssignDecoder", this ); }
+
                 this.type = pathType;
                 switch (pathType) {
                     case DG.Tweening.PathType.Linear: 
@@ -7178,6 +7659,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
             /*DG.Tweening.Plugins.Core.PathCore.Path.Draw start.*/
             Draw: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.Path#Draw", this ); }
+
                 DG.Tweening.Plugins.Core.PathCore.Path.Draw(this);
             },
             /*DG.Tweening.Plugins.Core.PathCore.Path.Draw end.*/
@@ -7212,12 +7695,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PluginsManager#init", this ); }
+
                     this._MaxCustomPlugins = 20;
                 }
             },
             methods: {
                 /*DG.Tweening.Plugins.Core.PluginsManager.GetDefaultPlugin:static start.*/
                 GetDefaultPlugin: function (T1, T2, TPlugOptions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PluginsManager#GetDefaultPlugin", this ); }
+
                     var t1 = T1;
                     var t2 = T2;
                     var plugin = null;
@@ -7333,6 +7820,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.PluginsManager.GetCustomPlugin:static start.*/
                 GetCustomPlugin: function (TPlugin, T1, T2, TPlugOptions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PluginsManager#GetCustomPlugin", this ); }
+
                     var t = TPlugin;
                     var plugin = { };
 
@@ -7350,6 +7839,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.PluginsManager.PurgeAll:static start.*/
                 PurgeAll: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PluginsManager#PurgeAll", this ); }
+
                     DG.Tweening.Plugins.Core.PluginsManager._floatPlugin = null;
                     DG.Tweening.Plugins.Core.PluginsManager._intPlugin = null;
                     DG.Tweening.Plugins.Core.PluginsManager._uintPlugin = null;
@@ -7384,6 +7875,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             methods: {
                 /*DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetLookAt:static start.*/
                 SetLookAt: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetLookAt", this ); }
+
                     var trans = Bridge.as(t.target, UnityEngine.Transform);
                     var towards = t.endValue.$clone();
                     towards = towards.$clone().sub( trans.position.$clone() );
@@ -7407,6 +7900,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetPunch:static start.*/
                 SetPunch: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetPunch", this ); }
+
                     var startupVal = new UnityEngine.Vector3();
                     try {
                         startupVal = t.getter().$clone();
@@ -7431,6 +7926,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetShake:static start.*/
                 SetShake: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetShake", this ); }
+
                     if (!DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetPunch(t)) {
                         return false;
                     }
@@ -7442,6 +7939,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetCameraShakePosition:static start.*/
                 SetCameraShakePosition: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.SpecialPluginsUtils#SetCameraShakePosition", this ); }
+
                     if (!DG.Tweening.Plugins.Core.SpecialPluginsUtils.SetShake(t)) {
                         return false;
                     }
@@ -7495,12 +7994,16 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPluginExtensions#init", this ); }
+
                     this.ScrambledCharsAll = System.Array.init([65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 120, 121, 122, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48], System.Char);
                     this.ScrambledCharsUppercase = System.Array.init([65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90], System.Char);
                     this.ScrambledCharsLowercase = System.Array.init([97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 120, 121, 122], System.Char);
                     this.ScrambledCharsNumerals = System.Array.init([49, 50, 51, 52, 53, 54, 55, 56, 57, 48], System.Char);
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPluginExtensions#ctor", this ); }
+
                     DG.Tweening.Plugins.StringPluginExtensions.ScrambleChars(DG.Tweening.Plugins.StringPluginExtensions.ScrambledCharsAll);
                     DG.Tweening.Plugins.StringPluginExtensions.ScrambleChars(DG.Tweening.Plugins.StringPluginExtensions.ScrambledCharsUppercase);
                     DG.Tweening.Plugins.StringPluginExtensions.ScrambleChars(DG.Tweening.Plugins.StringPluginExtensions.ScrambledCharsLowercase);
@@ -7510,6 +8013,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             methods: {
                 /*DG.Tweening.Plugins.StringPluginExtensions.ScrambleChars:static start.*/
                 ScrambleChars: function (chars) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPluginExtensions#ScrambleChars", this ); }
+
                     // Shuffle chars (uses Knuth shuggle algorithm)
                     var len = chars.length;
                     for (var i = 0; i < len; i++) {
@@ -7523,6 +8028,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.Plugins.StringPluginExtensions.AppendScrambledChars:static start.*/
                 AppendScrambledChars: function (buffer, length, chars) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPluginExtensions#AppendScrambledChars", this ); }
+
                     if (length <= 0) {
                         return buffer;
                     }
@@ -7728,6 +8235,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAspect: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOAspect", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.aspect;
                     }, function (x) {
@@ -7753,6 +8262,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.backgroundColor;
                     }, function (x) {
@@ -7778,6 +8289,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor$1", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -7806,6 +8319,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOColor$5: function (target, startValue, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor$5", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(DG.Tweening.Color2,DG.Tweening.Color2,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.DOTween.To$16(function () {
                         return startValue;
                     }, function (x) {
@@ -7829,6 +8344,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$3: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor$3", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -7855,6 +8372,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$4: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor$4", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -7889,6 +8408,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$2: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOColor$2", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -7922,6 +8443,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFarClipPlane: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFarClipPlane", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.farClipPlane;
                     }, function (x) {
@@ -7947,6 +8470,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFieldOfView: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFieldOfView", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.fieldOfView;
                     }, function (x) {
@@ -7972,6 +8497,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DONearClipPlane: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DONearClipPlane", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.nearClipPlane;
                     }, function (x) {
@@ -7997,6 +8524,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOOrthoSize: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOOrthoSize", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.orthographicSize;
                     }, function (x) {
@@ -8022,6 +8551,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPixelRect: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPixelRect", this ); }
+
                     var t = DG.Tweening.DOTween.To$10(function () {
                         return target.pixelRect;
                     }, function (x) {
@@ -8047,6 +8578,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DORect: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORect", this ); }
+
                     var t = DG.Tweening.DOTween.To$10(function () {
                         return target.rect;
                     }, function (x) {
@@ -8076,6 +8609,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakePosition: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakePosition", this ); }
+
                     if (strength === void 0) { strength = 3.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -8115,6 +8650,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakePosition$1: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakePosition$1", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (fadeOut === void 0) { fadeOut = true; }
@@ -8153,6 +8690,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakePosition$2: function (target, duration, strength, vibrato, randomness, snapping, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakePosition$2", this ); }
+
                     if (strength === void 0) { strength = 1.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -8193,6 +8732,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakePosition$3: function (target, duration, strength, vibrato, randomness, snapping, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakePosition$3", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (snapping === void 0) { snapping = false; }
@@ -8232,6 +8773,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeRotation: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeRotation", this ); }
+
                     if (strength === void 0) { strength = 90.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -8271,6 +8814,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeRotation$1: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeRotation$1", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (fadeOut === void 0) { fadeOut = true; }
@@ -8308,6 +8853,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeRotation$2: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeRotation$2", this ); }
+
                     if (strength === void 0) { strength = 90.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -8346,6 +8893,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeRotation$3: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeRotation$3", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (fadeOut === void 0) { fadeOut = true; }
@@ -8380,6 +8929,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOIntensity: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOIntensity", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.intensity;
                     }, function (x) {
@@ -8405,6 +8956,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOShadowStrength: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShadowStrength", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.shadowStrength;
                     }, function (x) {
@@ -8431,6 +8984,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFade$1", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.color;
                     }, function (x) {
@@ -8458,6 +9013,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$2: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFade$2", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -8493,6 +9050,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFade", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -8527,6 +9086,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFloat$1: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFloat$1", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -8561,6 +9122,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFloat: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFloat", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -8594,6 +9157,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOOffset: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOOffset", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.mainTextureOffset;
                     }, function (x) {
@@ -8620,6 +9185,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOOffset$1: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOOffset$1", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -8653,6 +9220,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOTiling: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTiling", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.mainTextureScale;
                     }, function (x) {
@@ -8679,6 +9248,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOTiling$1: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTiling$1", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -8713,6 +9284,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOVector$1: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOVector$1", this ); }
+
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty$1(property);
@@ -8747,6 +9320,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOVector: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOVector", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -8781,6 +9356,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOResize: function (target, toStartWidth, toEndWidth, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOResize", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.DOTween.To$11(function () {
                         return new pc.Vec2( target.startWidth, target.endWidth );
                     }, function (x) {
@@ -8805,6 +9382,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOTime: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTime", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.time;
                     }, function (x) {
@@ -8831,6 +9410,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOMove", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -8858,6 +9439,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOMoveX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -8885,6 +9468,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOMoveY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -8912,6 +9497,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOMoveZ", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -8939,6 +9526,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalMove", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localPosition;
@@ -8966,6 +9555,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalMoveX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localPosition;
@@ -8993,6 +9584,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalMoveY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localPosition;
@@ -9020,6 +9613,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalMoveZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalMoveZ", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localPosition;
@@ -9047,6 +9642,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DORotate: function (target, endValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORotate", this ); }
+
                     if (mode === void 0) { mode = 0; }
                     var t = DG.Tweening.DOTween.To$9(function () {
                         return target.rotation;
@@ -9077,6 +9674,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DORotateQuaternion: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORotateQuaternion", this ); }
+
                     var t = DG.Tweening.DOTween.To(UnityEngine.Quaternion, UnityEngine.Quaternion, DG.Tweening.Plugins.Options.NoOptions, DG.Tweening.CustomPlugins.PureQuaternionPlugin.Plug(), function () {
                         return target.rotation;
                     }, function (x) {
@@ -9103,6 +9702,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalRotate: function (target, endValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalRotate", this ); }
+
                     if (mode === void 0) { mode = 0; }
                     var t = DG.Tweening.DOTween.To$9(function () {
                         return target.localRotation;
@@ -9133,6 +9734,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalRotateQuaternion: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalRotateQuaternion", this ); }
+
                     var t = DG.Tweening.DOTween.To(UnityEngine.Quaternion, UnityEngine.Quaternion, DG.Tweening.Plugins.Options.NoOptions, DG.Tweening.CustomPlugins.PureQuaternionPlugin.Plug(), function () {
                         return target.localRotation;
                     }, function (x) {
@@ -9158,6 +9761,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScale$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOScale$1", this ); }
+
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localScale;
                     }, function (x) {
@@ -9183,6 +9788,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScale: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOScale", this ); }
+
                     var endValueV3 = new pc.Vec3( endValue, endValue, endValue );
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localScale;
@@ -9209,6 +9816,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScaleX: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOScaleX", this ); }
+
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localScale;
                     }, function (x) {
@@ -9234,6 +9843,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScaleY: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOScaleY", this ); }
+
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localScale;
                     }, function (x) {
@@ -9259,6 +9870,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScaleZ: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOScaleZ", this ); }
+
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.localScale;
                     }, function (x) {
@@ -9286,6 +9899,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOLookAt: function (target, towards, duration, axisConstraint, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLookAt", this ); }
+
                     if (axisConstraint === void 0) { axisConstraint = 0; }
                     if (up === void 0) { up = null; }
                     var t = DG.Tweening.Core.Extensions.SetSpecialStartupMode(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.DOTween.To$9(function () {
@@ -9319,6 +9934,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOPunchPosition: function (target, punch, duration, vibrato, elasticity, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPunchPosition", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (snapping === void 0) { snapping = false; }
@@ -9357,6 +9974,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOPunchScale: function (target, punch, duration, vibrato, elasticity) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPunchScale", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (duration <= 0) {
@@ -9394,6 +10013,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOPunchRotation: function (target, punch, duration, vibrato, elasticity) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPunchRotation", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (duration <= 0) {
@@ -9430,6 +10051,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeScale: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeScale", this ); }
+
                     if (strength === void 0) { strength = 1.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -9469,6 +10092,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeScale$1: function (target, duration, strength, vibrato, randomness, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOShakeScale$1", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (fadeOut === void 0) { fadeOut = true; }
@@ -9507,6 +10132,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOJump", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (numJumps < 1) {
                         numJumps = 1;
@@ -9590,6 +10217,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOLocalJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalJump", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (numJumps < 1) {
                         numJumps = 1;
@@ -9677,6 +10306,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPath$1: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPath$1", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -9713,6 +10344,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPath: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPath", this ); }
+
                     if (pathMode === void 0) { pathMode = 1; }
                     var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
                         return target.position;
@@ -9745,6 +10378,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalPath$1: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalPath$1", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -9782,6 +10417,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalPath: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOLocalPath", this ); }
+
                     if (pathMode === void 0) { pathMode = 1; }
                     var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
                         return target.localPosition;
@@ -9810,6 +10447,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOTimeScale: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTimeScale", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.timeScale;
                     }, function (x) {
@@ -9837,6 +10476,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableColor", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -9868,6 +10509,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableColor$2", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -9900,6 +10543,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor$3: function (target, endValue, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableColor$3", this ); }
+
                     var $t;
                     if (!target.HasProperty$1(property)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
@@ -9940,6 +10585,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor$1: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableColor$1", this ); }
+
                     var $t;
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
@@ -9980,6 +10627,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableMoveBy: function (target, byValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableMoveBy", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var to = pc.Vec3.ZERO.clone();
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$13(DG.Tweening.Core.Extensions.Blendable(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions, DG.Tweening.DOTween.To$12(function () {
@@ -10010,6 +10659,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableLocalMoveBy: function (target, byValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableLocalMoveBy", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var to = pc.Vec3.ZERO.clone();
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$13(DG.Tweening.Core.Extensions.Blendable(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions, DG.Tweening.DOTween.To$12(function () {
@@ -10040,6 +10691,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableRotateBy: function (target, byValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableRotateBy", this ); }
+
                     if (mode === void 0) { mode = 0; }
                     //            Quaternion to = target.rotation;
                     var to = pc.Quat.IDENTITY.clone();
@@ -10074,6 +10727,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableLocalRotateBy: function (target, byValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableLocalRotateBy", this ); }
+
                     if (mode === void 0) { mode = 0; }
                     //            Quaternion to = target.localRotation;
                     var to = pc.Quat.IDENTITY.clone();
@@ -10110,6 +10765,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendablePunchRotation: function (target, punch, duration, vibrato, elasticity) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendablePunchRotation", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (duration <= 0) {
@@ -10152,6 +10809,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableScaleBy: function (target, byValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOBlendableScaleBy", this ); }
+
                     var to = pc.Vec3.ZERO.clone();
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.Core.Extensions.Blendable(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions, DG.Tweening.DOTween.To$12(function () {
                         return to;
@@ -10180,6 +10839,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOComplete: function (target, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOComplete", this ); }
+
                     if (withCallbacks === void 0) { withCallbacks = false; }
                     return DG.Tweening.DOTween.Complete(target, withCallbacks);
                 },
@@ -10202,6 +10863,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOComplete$1: function (target, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOComplete$1", this ); }
+
                     if (withCallbacks === void 0) { withCallbacks = false; }
                     return DG.Tweening.DOTween.Complete(target, withCallbacks);
                 },
@@ -10222,6 +10885,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOKill: function (target, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOKill", this ); }
+
                     if (complete === void 0) { complete = false; }
                     //            int tot = complete ? DOTween.CompleteAndReturnKilledTot(target) : 0;
                     //            return tot + DOTween.Kill(target);
@@ -10244,6 +10909,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOKill$1: function (target, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOKill$1", this ); }
+
                     if (complete === void 0) { complete = false; }
                     return DG.Tweening.DOTween.Kill(target, complete);
                 },
@@ -10263,6 +10930,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOFlip: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFlip", this ); }
+
                     return DG.Tweening.DOTween.Flip(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOFlip:static end.*/
@@ -10281,6 +10950,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOFlip$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOFlip$1", this ); }
+
                     return DG.Tweening.DOTween.Flip(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOFlip$1:static end.*/
@@ -10302,6 +10973,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOGoto: function (target, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOGoto", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     return DG.Tweening.DOTween.Goto(target, to, andPlay);
                 },
@@ -10324,6 +10997,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOGoto$1: function (target, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOGoto$1", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     return DG.Tweening.DOTween.Goto(target, to, andPlay);
                 },
@@ -10343,6 +11018,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPause", this ); }
+
                     return DG.Tweening.DOTween.Pause(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPause:static end.*/
@@ -10361,6 +11038,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPause$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPause$1", this ); }
+
                     return DG.Tweening.DOTween.Pause(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPause$1:static end.*/
@@ -10379,6 +11058,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlay: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlay", this ); }
+
                     return DG.Tweening.DOTween.Play(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlay:static end.*/
@@ -10397,6 +11078,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlay$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlay$1", this ); }
+
                     return DG.Tweening.DOTween.Play(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlay$1:static end.*/
@@ -10415,6 +11098,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlayBackwards: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlayBackwards", this ); }
+
                     return DG.Tweening.DOTween.PlayBackwards(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlayBackwards:static end.*/
@@ -10433,6 +11118,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlayBackwards$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlayBackwards$1", this ); }
+
                     return DG.Tweening.DOTween.PlayBackwards(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlayBackwards$1:static end.*/
@@ -10451,6 +11138,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlayForward: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlayForward", this ); }
+
                     return DG.Tweening.DOTween.PlayForward(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlayForward:static end.*/
@@ -10469,6 +11158,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOPlayForward$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOPlayForward$1", this ); }
+
                     return DG.Tweening.DOTween.PlayForward(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOPlayForward$1:static end.*/
@@ -10488,6 +11179,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DORestart: function (target, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORestart", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.DOTween.Restart(target, includeDelay);
                 },
@@ -10508,6 +11201,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DORestart$1: function (target, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORestart$1", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.DOTween.Restart(target, includeDelay);
                 },
@@ -10528,6 +11223,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DORewind: function (target, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORewind", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.DOTween.Rewind(target, includeDelay);
                 },
@@ -10548,6 +11245,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DORewind$1: function (target, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DORewind$1", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     return DG.Tweening.DOTween.Rewind(target, includeDelay);
                 },
@@ -10567,6 +11266,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOSmoothRewind: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOSmoothRewind", this ); }
+
                     return DG.Tweening.DOTween.SmoothRewind(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOSmoothRewind:static end.*/
@@ -10585,6 +11286,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOSmoothRewind$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOSmoothRewind$1", this ); }
+
                     return DG.Tweening.DOTween.SmoothRewind(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOSmoothRewind$1:static end.*/
@@ -10603,6 +11306,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOTogglePause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTogglePause", this ); }
+
                     return DG.Tweening.DOTween.TogglePause(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOTogglePause:static end.*/
@@ -10621,6 +11326,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 DOTogglePause$1: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.ShortcutExtensions#DOTogglePause$1", this ); }
+
                     return DG.Tweening.DOTween.TogglePause(target);
                 },
                 /*DG.Tweening.ShortcutExtensions.DOTogglePause$1:static end.*/
@@ -10693,6 +11400,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Complete: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Complete", this ); }
+
                     DG.Tweening.TweenExtensions.Complete$1(t, false);
                 },
                 /*DG.Tweening.TweenExtensions.Complete:static end.*/
@@ -10711,6 +11420,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Complete$1: function (t, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Complete$1", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -10755,6 +11466,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Flip: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Flip", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -10791,6 +11504,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 ForceInit: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#ForceInit", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -10830,6 +11545,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Goto: function (t, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Goto", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     DG.Tweening.TweenExtensions.DoGoto(t, to, andPlay, false);
                 },
@@ -10850,6 +11567,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 GotoWithCallbacks: function (t, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#GotoWithCallbacks", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     DG.Tweening.TweenExtensions.DoGoto(t, to, andPlay, true);
                 },
@@ -10857,6 +11576,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
 
                 /*DG.Tweening.TweenExtensions.DoGoto:static start.*/
                 DoGoto: function (t, to, andPlay, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#DoGoto", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -10902,6 +11623,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Kill: function (t, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Kill", this ); }
+
                     if (complete === void 0) { complete = false; }
                     if (!DG.Tweening.DOTween.initialized) {
                         return;
@@ -10960,6 +11683,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 ManualUpdate: function (t, deltaTime, unscaledDeltaTime) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#ManualUpdate", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -10997,6 +11722,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {T}
                  */
                 Pause: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Pause", this ); }
+
                     if (Bridge.rValue(t) == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(Bridge.rValue(t));
@@ -11035,6 +11762,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {T}
                  */
                 Play: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Play", this ); }
+
                     if (Bridge.rValue(t) == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(Bridge.rValue(t));
@@ -11072,6 +11801,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 PlayBackwards: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#PlayBackwards", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -11108,6 +11839,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 PlayForward: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#PlayForward", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -11146,6 +11879,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Restart: function (t, includeDelay, changeDelayTo) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Restart", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (changeDelayTo === void 0) { changeDelayTo = -1.0; }
                     if (t == null) {
@@ -11185,6 +11920,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 Rewind: function (t, includeDelay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Rewind", this ); }
+
                     if (includeDelay === void 0) { includeDelay = true; }
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
@@ -11226,6 +11963,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 SmoothRewind: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#SmoothRewind", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -11262,6 +12001,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 TogglePause: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#TogglePause", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -11305,6 +12046,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {void}
                  */
                 GotoWaypoint: function (t, waypointIndex, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#GotoWaypoint", this ); }
+
                     var $t;
                     if (andPlay === void 0) { andPlay = false; }
                     if (t == null) {
@@ -11378,6 +12121,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.YieldInstruction}
                  */
                 WaitForCompletion: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForCompletion", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11404,6 +12149,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.YieldInstruction}
                  */
                 WaitForRewind: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForRewind", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11430,6 +12177,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.YieldInstruction}
                  */
                 WaitForKill: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForKill", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11457,6 +12206,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.YieldInstruction}
                  */
                 WaitForElapsedLoops: function (t, elapsedLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForElapsedLoops", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11484,6 +12235,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.YieldInstruction}
                  */
                 WaitForPosition: function (t, position) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForPosition", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11511,6 +12264,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.Coroutine}
                  */
                 WaitForStart: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#WaitForStart", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11535,6 +12290,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 CompletedLoops: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#CompletedLoops", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11559,6 +12316,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Delay: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Delay", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11583,6 +12342,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 ElapsedDelay: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#ElapsedDelay", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11610,6 +12371,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Duration: function (t, includeLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Duration", this ); }
+
                     if (includeLoops === void 0) { includeLoops = true; }
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
@@ -11643,6 +12406,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Elapsed: function (t, includeLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Elapsed", this ); }
+
                     if (includeLoops === void 0) { includeLoops = true; }
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
@@ -11675,6 +12440,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 ElapsedPercentage: function (t, includeLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#ElapsedPercentage", this ); }
+
                     if (includeLoops === void 0) { includeLoops = true; }
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
@@ -11710,6 +12477,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 ElapsedDirectionalPercentage: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#ElapsedDirectionalPercentage", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11740,6 +12509,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsActive: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#IsActive", this ); }
+
                     return t != null && t.active;
                 },
                 /*DG.Tweening.TweenExtensions.IsActive:static end.*/
@@ -11756,6 +12527,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsBackwards: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#IsBackwards", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11781,6 +12554,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsComplete: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#IsComplete", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11805,6 +12580,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsInitialized: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#IsInitialized", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11829,6 +12606,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {boolean}
                  */
                 IsPlaying: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#IsPlaying", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11854,6 +12633,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 Loops: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#Loops", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -11882,6 +12663,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {UnityEngine.Vector3}
                  */
                 PathGetPoint: function (t, pathPercentage) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#PathGetPoint", this ); }
+
                     if (pathPercentage > 1) {
                         pathPercentage = 1;
                     } else if (pathPercentage < 0) {
@@ -11945,6 +12728,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {Array.<UnityEngine.Vector3>}
                  */
                 PathGetDrawPoints: function (t, subdivisionsXSegment) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#PathGetDrawPoints", this ); }
+
                     if (subdivisionsXSegment === void 0) { subdivisionsXSegment = 10; }
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
@@ -12000,6 +12785,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {number}
                  */
                 PathLength: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenExtensions#PathLength", this ); }
+
                     if (t == null) {
                         if (DG.Tweening.Core.Debugger.logPriority > 1) {
                             DG.Tweening.Core.Debugger.LogNullTween(t);
@@ -12070,6 +12857,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#init", this ); }
+
                     this.Params = new DG.Tweening.TweenParams();
                 }
             }
@@ -12111,6 +12900,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#ctor", this ); }
+
                 this.$initialize();
                 this.Clear();
             }
@@ -12128,6 +12919,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#Clear", this ); }
+
                 this.id = (this.target = null);
                 this.updateType = DG.Tweening.DOTween.defaultUpdateType;
                 this.isIndependentUpdate = DG.Tweening.DOTween.defaultTimeScaleIndependent;
@@ -12162,6 +12955,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetAutoKill: function (autoKillOnCompletion) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetAutoKill", this ); }
+
                 if (autoKillOnCompletion === void 0) { autoKillOnCompletion = true; }
                 this.autoKill = autoKillOnCompletion;
                 return this;
@@ -12180,6 +12975,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetId: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetId", this ); }
+
                 this.id = id;
                 return this;
             },
@@ -12200,6 +12997,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetTarget: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetTarget", this ); }
+
                 this.target = target;
                 return this;
             },
@@ -12219,6 +13018,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetLoops: function (loops, loopType) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetLoops", this ); }
+
                 if (loopType === void 0) { loopType = null; }
                 if (loops < -1) {
                     loops = -1;
@@ -12250,6 +13051,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetEase: function (ease, overshootOrAmplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetEase", this ); }
+
                 if (overshootOrAmplitude === void 0) { overshootOrAmplitude = null; }
                 if (period === void 0) { period = null; }
                 this.easeType = ease;
@@ -12273,6 +13076,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetEase$2: function (animCurve) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetEase$2", this ); }
+
                 this.easeType = DG.Tweening.Ease.INTERNAL_Custom;
                 this.customEase = Bridge.fn.cacheBind(new DG.Tweening.Core.Easing.EaseCurve(animCurve), new DG.Tweening.Core.Easing.EaseCurve(animCurve).Evaluate);
                 return this;
@@ -12292,6 +13097,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetEase$1: function (customEase) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetEase$1", this ); }
+
                 this.easeType = DG.Tweening.Ease.INTERNAL_Custom;
                 this.customEase = customEase;
                 return this;
@@ -12310,6 +13117,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetRecyclable: function (recyclable) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetRecyclable", this ); }
+
                 if (recyclable === void 0) { recyclable = true; }
                 this.isRecyclable = recyclable;
                 return this;
@@ -12329,6 +13138,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetUpdate$1: function (isIndependentUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetUpdate$1", this ); }
+
                 this.updateType = DG.Tweening.DOTween.defaultUpdateType;
                 this.isIndependentUpdate = isIndependentUpdate;
                 return this;
@@ -12348,6 +13159,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetUpdate: function (updateType, isIndependentUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetUpdate", this ); }
+
                 if (isIndependentUpdate === void 0) { isIndependentUpdate = false; }
                 this.updateType = updateType;
                 this.isIndependentUpdate = isIndependentUpdate;
@@ -12368,6 +13181,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnStart: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnStart", this ); }
+
                 this.onStart = action;
                 return this;
             },
@@ -12387,6 +13202,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnPlay: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnPlay", this ); }
+
                 this.onPlay = action;
                 return this;
             },
@@ -12407,6 +13224,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnRewind: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnRewind", this ); }
+
                 this.onRewind = action;
                 return this;
             },
@@ -12425,6 +13244,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnUpdate: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnUpdate", this ); }
+
                 this.onUpdate = action;
                 return this;
             },
@@ -12443,6 +13264,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnStepComplete: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnStepComplete", this ); }
+
                 this.onStepComplete = action;
                 return this;
             },
@@ -12461,6 +13284,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnComplete: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnComplete", this ); }
+
                 this.onComplete = action;
                 return this;
             },
@@ -12479,6 +13304,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnKill: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnKill", this ); }
+
                 this.onKill = action;
                 return this;
             },
@@ -12497,6 +13324,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             OnWaypointChange: function (action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#OnWaypointChange", this ); }
+
                 this.onWaypointChange = action;
                 return this;
             },
@@ -12515,6 +13344,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetDelay: function (delay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetDelay", this ); }
+
                 this.delay = delay;
                 return this;
             },
@@ -12534,6 +13365,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetRelative: function (isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetRelative", this ); }
+
                 if (isRelative === void 0) { isRelative = true; }
                 this.isRelative = isRelative;
                 return this;
@@ -12554,6 +13387,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
              * @return  {DG.Tweening.TweenParams}
              */
             SetSpeedBased: function (isSpeedBased) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenParams#SetSpeedBased", this ); }
+
                 if (isSpeedBased === void 0) { isSpeedBased = true; }
                 this.isSpeedBased = isSpeedBased;
                 return this;
@@ -12596,6 +13431,8 @@ Bridge.rValue(                    t).specialStartupMode = mode;
                  * @return  {T}
                  */
                 SetAutoKill: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetAutoKill", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -12620,6 +13457,8 @@ Bridge.rValue(                    t).autoKill = true;
                  * @return  {T}
                  */
                 SetAutoKill$1: function (T, t, autoKillOnCompletion) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetAutoKill$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -12643,6 +13482,8 @@ Bridge.rValue(                    t).autoKill = autoKillOnCompletion;
                  * @return  {T}
                  */
                 SetId$1: function (T, t, objectId) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetId$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12667,6 +13508,8 @@ Bridge.rValue(                    t).id = objectId;
                  * @return  {T}
                  */
                 SetId$2: function (T, t, stringId) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetId$2", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12691,6 +13534,8 @@ Bridge.rValue(                    t).stringId = stringId;
                  * @return  {T}
                  */
                 SetId: function (T, t, intId) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetId", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12716,6 +13561,8 @@ Bridge.rValue(                    t).intId = intId;
                  * @return  {T}
                  */
                 SetLink: function (T, t, gameObject) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLink", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).isSequenced || UnityEngine.GameObject.op_Equality(gameObject, null)) {
                         return Bridge.rValue(t);
                     }
@@ -12742,6 +13589,8 @@ Bridge.rValue(                    t).intId = intId;
                  * @return  {T}
                  */
                 SetLink$1: function (T, t, gameObject, behaviour) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLink$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).isSequenced || UnityEngine.GameObject.op_Equality(gameObject, null)) {
                         return Bridge.rValue(t);
                     }
@@ -12768,6 +13617,8 @@ Bridge.rValue(                    t).intId = intId;
                  * @return  {T}
                  */
                 SetTarget: function (T, t, target) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetTarget", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12797,6 +13648,8 @@ Bridge.rValue(                    t).target = target;
                  * @return  {T}
                  */
                 SetLoops: function (T, t, loops) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLoops", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -12837,6 +13690,8 @@ Bridge.rValue(                            t).fullDuration = window.Infinity;
                  * @return  {T}
                  */
                 SetLoops$1: function (T, t, loops, loopType) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLoops$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -12877,6 +13732,8 @@ Bridge.rValue(                            t).fullDuration = window.Infinity;
                  * @return  {T}
                  */
                 SetEase$2: function (T, t, ease) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetEase$2", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12909,6 +13766,8 @@ Bridge.rValue(                    t).customEase = null;
                  * @return  {T}
                  */
                 SetEase$4: function (T, t, ease, overshoot) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetEase$4", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12945,6 +13804,8 @@ Bridge.rValue(                    t).customEase = null;
                  * @return  {T}
                  */
                 SetEase$3: function (T, t, ease, amplitude, period) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetEase$3", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -12976,6 +13837,8 @@ Bridge.rValue(                    t).customEase = null;
                  * @return  {T}
                  */
                 SetEase: function (T, t, animCurve) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetEase", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13001,6 +13864,8 @@ Bridge.rValue(                    t).customEase = Bridge.fn.cacheBind(new DG.Twe
                  * @return  {T}
                  */
                 SetEase$1: function (T, t, customEase) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetEase$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13024,6 +13889,8 @@ Bridge.rValue(                    t).customEase = customEase;
                  * @return  {T}
                  */
                 SetRecyclable: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetRecyclable", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13047,6 +13914,8 @@ Bridge.rValue(                    t).isRecyclable = true;
                  * @return  {T}
                  */
                 SetRecyclable$1: function (T, t, recyclable) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetRecyclable$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13070,6 +13939,8 @@ Bridge.rValue(                    t).isRecyclable = recyclable;
                  * @return  {T}
                  */
                 SetUpdate: function (T, t, isIndependentUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetUpdate", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13093,6 +13964,8 @@ Bridge.rValue(                    t).isRecyclable = recyclable;
                  * @return  {T}
                  */
                 SetUpdate$1: function (T, t, updateType) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetUpdate$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13117,6 +13990,8 @@ Bridge.rValue(                    t).isRecyclable = recyclable;
                  * @return  {T}
                  */
                 SetUpdate$2: function (T, t, updateType, isIndependentUpdate) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetUpdate$2", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13141,6 +14016,8 @@ Bridge.rValue(                    t).isRecyclable = recyclable;
                  * @return  {T}
                  */
                 SetInverted: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetInverted", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -13166,6 +14043,8 @@ Bridge.rValue(                    t).isInverted = true;
                  * @return  {T}
                  */
                 SetInverted$1: function (T, t, inverted) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetInverted$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -13190,6 +14069,8 @@ Bridge.rValue(                    t).isInverted = inverted;
                  * @return  {T}
                  */
                 OnStart: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnStart", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13215,6 +14096,8 @@ Bridge.rValue(                    t).onStart = action;
                  * @return  {T}
                  */
                 OnPlay: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnPlay", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13240,6 +14123,8 @@ Bridge.rValue(                    t).onPlay = action;
                  * @return  {T}
                  */
                 OnPause: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnPause", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13266,6 +14151,8 @@ Bridge.rValue(                    t).onPause = action;
                  * @return  {T}
                  */
                 OnRewind: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnRewind", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13290,6 +14177,8 @@ Bridge.rValue(                    t).onRewind = action;
                  * @return  {T}
                  */
                 OnUpdate: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnUpdate", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13314,6 +14203,8 @@ Bridge.rValue(                    t).onUpdate = action;
                  * @return  {T}
                  */
                 OnStepComplete: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnStepComplete", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13338,6 +14229,8 @@ Bridge.rValue(                    t).onStepComplete = action;
                  * @return  {T}
                  */
                 OnComplete: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnComplete", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13362,6 +14255,8 @@ Bridge.rValue(                    t).onComplete = action;
                  * @return  {T}
                  */
                 OnKill: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnKill", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13386,6 +14281,8 @@ Bridge.rValue(                    t).onKill = action;
                  * @return  {T}
                  */
                 OnWaypointChange: function (T, t, action) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#OnWaypointChange", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active) {
                         return Bridge.rValue(t);
                     }
@@ -13412,6 +14309,8 @@ Bridge.rValue(                    t).onWaypointChange = action;
                  * @return  {T}
                  */
                 SetAs: function (T, t, asTween) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetAs", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -13472,6 +14371,8 @@ Bridge.rValue(                    t).easePeriod = asTween.easePeriod;
                  * @return  {T}
                  */
                 SetAs$1: function (T, t, tweenParams) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetAs$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -13537,6 +14438,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Append: function (s, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#Append", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13564,6 +14467,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Prepend: function (s, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#Prepend", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13592,6 +14497,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Join: function (s, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#Join", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13621,6 +14528,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 Insert: function (s, atPosition, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#Insert", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13648,6 +14557,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 AppendInterval: function (s, interval) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#AppendInterval", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13671,6 +14582,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 PrependInterval: function (s, interval) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#PrependInterval", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13694,6 +14607,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 AppendCallback: function (s, callback) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#AppendCallback", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13721,6 +14636,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 PrependCallback: function (s, callback) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#PrependCallback", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13750,6 +14667,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {DG.Tweening.Sequence}
                  */
                 InsertCallback: function (s, atPosition, callback) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#InsertCallback", this ); }
+
                     if (s == null || !s.active || s.creationLocked) {
                         return s;
                     }
@@ -13777,6 +14696,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {T}
                  */
                 From: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.From$2(T, Bridge.rValue(t), true, false);
                 },
                 /*DG.Tweening.TweenSettingsExtensions.From:static end.*/
@@ -13796,6 +14717,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {T}
                  */
                 From$1: function (T, t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$1", this ); }
+
                     {
                         return DG.Tweening.TweenSettingsExtensions.From$2(T, Bridge.rValue(t), true, isRelative);
                     }
@@ -13818,6 +14741,8 @@ Bridge.rValue(                    t).easePeriod = tweenParams.easePeriod;
                  * @return  {T}
                  */
                 From$2: function (T, t, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$2", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked || !Bridge.rValue(t).isFromAllowed) {
                         return Bridge.rValue(t);
                     }
@@ -13854,6 +14779,8 @@ Bridge.rValue(                        t).isRelative = isRelative;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 From$3: function (T1, T2, TPlugOptions, t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$3", this ); }
+
                     if (setImmediately === void 0) { setImmediately = true; }
                     if (isRelative === void 0) { isRelative = false; }
                     if (t == null || !t.active || t.creationLocked || !t.isFromAllowed) {
@@ -13882,6 +14809,8 @@ Bridge.rValue(                        t).isRelative = isRelative;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 From$4: function (t, fromAlphaValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$4", this ); }
+
                     if (setImmediately === void 0) { setImmediately = true; }
                     if (isRelative === void 0) { isRelative = false; }
                     if (t == null || !t.active || t.creationLocked || !t.isFromAllowed) {
@@ -13910,6 +14839,8 @@ Bridge.rValue(                        t).isRelative = isRelative;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 From$6: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$6", this ); }
+
                     if (setImmediately === void 0) { setImmediately = true; }
                     if (isRelative === void 0) { isRelative = false; }
                     if (t == null || !t.active || t.creationLocked || !t.isFromAllowed) {
@@ -13938,6 +14869,8 @@ Bridge.rValue(                        t).isRelative = isRelative;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 From$5: function (t, fromValueDegrees, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#From$5", this ); }
+
                     if (setImmediately === void 0) { setImmediately = true; }
                     if (isRelative === void 0) { isRelative = false; }
                     if (t == null || !t.active || t.creationLocked || !t.isFromAllowed) {
@@ -13967,6 +14900,8 @@ Bridge.rValue(                        t).isRelative = isRelative;
                  * @return  {T}
                  */
                 SetDelay: function (T, t, delay) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetDelay", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -14001,6 +14936,8 @@ Bridge.rValue(                        t).delayComplete = delay <= 0;
                  * @return  {T}
                  */
                 SetDelay$1: function (T, t, delay, asPrependedIntervalIfSequence) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetDelay$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -14032,6 +14969,8 @@ Bridge.rValue(                        t).delayComplete = delay <= 0;
                  * @return  {T}
                  */
                 SetRelative: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetRelative", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked || Bridge.rValue(t).isFrom || Bridge.rValue(t).isBlendable) {
                         return Bridge.rValue(t);
                     }
@@ -14057,6 +14996,8 @@ Bridge.rValue(                    t).isRelative = true;
                  * @return  {T}
                  */
                 SetRelative$1: function (T, t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetRelative$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked || Bridge.rValue(t).isFrom || Bridge.rValue(t).isBlendable) {
                         return Bridge.rValue(t);
                     }
@@ -14081,6 +15022,8 @@ Bridge.rValue(                    t).isRelative = isRelative;
                  * @return  {T}
                  */
                 SetSpeedBased: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetSpeedBased", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -14106,6 +15049,8 @@ Bridge.rValue(                    t).isSpeedBased = true;
                  * @return  {T}
                  */
                 SetSpeedBased$1: function (T, t, isSpeedBased) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetSpeedBased$1", this ); }
+
                     if (Bridge.rValue(t) == null || !Bridge.rValue(t).active || Bridge.rValue(t).creationLocked) {
                         return Bridge.rValue(t);
                     }
@@ -14128,6 +15073,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$2: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$2", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14150,6 +15097,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$9: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$9", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14173,6 +15122,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$8: function (t, axisConstraint, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$8", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (t == null || !t.active) {
                         return t;
@@ -14197,6 +15148,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$13: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$13", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14220,6 +15173,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$12: function (t, axisConstraint, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$12", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (t == null || !t.active) {
                         return t;
@@ -14244,6 +15199,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$15: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$15", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14267,6 +15224,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$14: function (t, axisConstraint, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$14", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (t == null || !t.active) {
                         return t;
@@ -14292,6 +15251,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$5: function (t, useShortest360Route) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$5", this ); }
+
                     if (useShortest360Route === void 0) { useShortest360Route = true; }
                     if (t == null || !t.active) {
                         return t;
@@ -14315,6 +15276,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$4: function (t, alphaOnly) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$4", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14337,6 +15300,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$6: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$6", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14364,6 +15329,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$3: function (t, richTextEnabled, scrambleMode, scrambleChars) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$3", this ); }
+
                     if (scrambleMode === void 0) { scrambleMode = 0; }
                     if (scrambleChars === void 0) { scrambleChars = null; }
                     if (t == null || !t.active) {
@@ -14398,6 +15365,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$11: function (t, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$11", this ); }
+
                     if (t == null || !t.active) {
                         return t;
                     }
@@ -14421,6 +15390,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$10: function (t, axisConstraint, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$10", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (t == null || !t.active) {
                         return t;
@@ -14448,6 +15419,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Tweener}
                  */
                 SetOptions$7: function (t, endValueDegrees, relativeCenter, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$7", this ); }
+
                     if (relativeCenter === void 0) { relativeCenter = true; }
                     if (snapping === void 0) { snapping = false; }
                     if (t == null || !t.active) {
@@ -14477,6 +15450,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetOptions: function (t, lockPosition, lockRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions", this ); }
+
                     if (lockRotation === void 0) { lockRotation = 0; }
                     return DG.Tweening.TweenSettingsExtensions.SetOptions$1(t, false, lockPosition, lockRotation);
                 },
@@ -14499,6 +15474,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetOptions$1: function (t, closePath, lockPosition, lockRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetOptions$1", this ); }
+
                     if (lockPosition === void 0) { lockPosition = 0; }
                     if (lockRotation === void 0) { lockRotation = 0; }
                     if (t == null || !t.active) {
@@ -14530,6 +15507,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt$5: function (t, lookAtPosition, forwardDirection, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$5", this ); }
+
                     if (forwardDirection === void 0) { forwardDirection = null; }
                     if (up === void 0) { up = null; }
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.LookAtPosition, lookAtPosition.$clone(), null, -1, System.Nullable.lift1("$clone", forwardDirection), System.Nullable.lift1("$clone", up));
@@ -14552,6 +15531,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt$4: function (t, lookAtPosition, stableZRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$4", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.LookAtPosition, lookAtPosition.$clone(), null, -1, null, null, stableZRotation);
                 },
                 /*DG.Tweening.TweenSettingsExtensions.SetLookAt$4:static end.*/
@@ -14574,6 +15555,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt$3: function (t, lookAtTransform, forwardDirection, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$3", this ); }
+
                     if (forwardDirection === void 0) { forwardDirection = null; }
                     if (up === void 0) { up = null; }
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.LookAtTransform, pc.Vec3.ZERO.clone(), lookAtTransform, -1, System.Nullable.lift1("$clone", forwardDirection), System.Nullable.lift1("$clone", up));
@@ -14596,6 +15579,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt$2: function (t, lookAtTransform, stableZRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$2", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.LookAtTransform, pc.Vec3.ZERO.clone(), lookAtTransform, -1, null, null, stableZRotation);
                 },
                 /*DG.Tweening.TweenSettingsExtensions.SetLookAt$2:static end.*/
@@ -14618,6 +15603,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt$1: function (t, lookAhead, forwardDirection, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$1", this ); }
+
                     if (forwardDirection === void 0) { forwardDirection = null; }
                     if (up === void 0) { up = null; }
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.ToPath, pc.Vec3.ZERO.clone(), null, lookAhead, System.Nullable.lift1("$clone", forwardDirection), System.Nullable.lift1("$clone", up));
@@ -14640,12 +15627,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 SetLookAt: function (t, lookAhead, stableZRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt", this ); }
+
                     return DG.Tweening.TweenSettingsExtensions.SetLookAt$6(t, DG.Tweening.Plugins.Options.OrientType.ToPath, pc.Vec3.ZERO.clone(), null, lookAhead, null, null, stableZRotation);
                 },
                 /*DG.Tweening.TweenSettingsExtensions.SetLookAt:static end.*/
 
                 /*DG.Tweening.TweenSettingsExtensions.SetLookAt$6:static start.*/
                 SetLookAt$6: function (t, orientType, lookAtPosition, lookAtTransform, lookAhead, forwardDirection, up, stableZRotation) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetLookAt$6", this ); }
+
                     if (forwardDirection === void 0) { forwardDirection = null; }
                     if (up === void 0) { up = null; }
                     if (stableZRotation === void 0) { stableZRotation = false; }
@@ -14678,6 +15669,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.TweenSettingsExtensions.SetPathForwardDirection:static start.*/
                 SetPathForwardDirection: function (t, forwardDirection, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.TweenSettingsExtensions#SetPathForwardDirection", this ); }
+
                     if (forwardDirection === void 0) { forwardDirection = null; }
                     if (up === void 0) { up = null; }
                     if (t == null || !t.active) {
@@ -14796,6 +15789,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Core.DOTweenComponent.Create:static start.*/
                 Create: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#Create", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Inequality(DG.Tweening.DOTween.instance, null)) {
                         return;
                     }
@@ -14808,6 +15803,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Core.DOTweenComponent.DestroyInstance:static start.*/
                 DestroyInstance: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#DestroyInstance", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Inequality(DG.Tweening.DOTween.instance, null)) {
                         UnityEngine.MonoBehaviour.Destroy(DG.Tweening.DOTween.instance.gameObject);
                     }
@@ -14840,6 +15837,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Core.DOTweenComponent.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(DG.Tweening.DOTween.instance, null)) {
                     DG.Tweening.DOTween.instance = this;
                 } else {
@@ -14864,6 +15863,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.Start start.*/
             Start: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#Start", this ); }
+
                 // Check if there's a leftover persistent DOTween object
                 // (should be impossible but some weird Unity freeze caused that to happen on Seith's project
                 if (UnityEngine.MonoBehaviour.op_Inequality(DG.Tweening.DOTween.instance, this)) {
@@ -14875,6 +15876,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.Update start.*/
             Update: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#Update", this ); }
+
                 this._unscaledDeltaTime = UnityEngine.Time.realtimeSinceStartup - this._unscaledTime;
                 if (DG.Tweening.DOTween.useSmoothDeltaTime && this._unscaledDeltaTime > DG.Tweening.DOTween.maxSmoothUnscaledTime) {
                     this._unscaledDeltaTime = DG.Tweening.DOTween.maxSmoothUnscaledTime;
@@ -14903,6 +15906,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.LateUpdate start.*/
             LateUpdate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#LateUpdate", this ); }
+
                 if (DG.Tweening.Core.TweenManager.hasActiveLateTweens) {
                     DG.Tweening.Core.TweenManager.Update$1(DG.Tweening.UpdateType.Late, (DG.Tweening.DOTween.useSmoothDeltaTime ? UnityEngine.Time.smoothDeltaTime : UnityEngine.Time.deltaTime) * DG.Tweening.DOTween.timeScale, this._unscaledDeltaTime * DG.Tweening.DOTween.timeScale);
                 }
@@ -14911,6 +15916,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.FixedUpdate start.*/
             FixedUpdate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#FixedUpdate", this ); }
+
                 if (DG.Tweening.Core.TweenManager.hasActiveFixedTweens && UnityEngine.Time.timeScale > 0) {
                     DG.Tweening.Core.TweenManager.Update$1(DG.Tweening.UpdateType.Fixed, (DG.Tweening.DOTween.useSmoothDeltaTime ? UnityEngine.Time.smoothDeltaTime : UnityEngine.Time.deltaTime) * DG.Tweening.DOTween.timeScale, (DG.Tweening.DOTween.useSmoothDeltaTime ? UnityEngine.Time.smoothDeltaTime : UnityEngine.Time.deltaTime) / UnityEngine.Time.timeScale * DG.Tweening.DOTween.timeScale);
                 }
@@ -14919,6 +15926,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.OnDrawGizmos start.*/
             OnDrawGizmos: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#OnDrawGizmos", this ); }
+
                 if (!DG.Tweening.DOTween.drawGizmos || !DG.Tweening.Core.TweenManager.isUnityEditor) {
                     return;
                 }
@@ -14936,6 +15945,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.OnDestroy start.*/
             OnDestroy: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#OnDestroy", this ); }
+
                 if (this._duplicateToDestroy) {
                     return;
                 }
@@ -14982,6 +15993,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.OnApplicationPause start.*/
             OnApplicationPause: function (pauseStatus) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#OnApplicationPause", this ); }
+
                 if (pauseStatus) {
                     this._paused = true;
                     this._pausedTime = UnityEngine.Time.realtimeSinceStartup;
@@ -14994,6 +16007,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.OnApplicationQuit start.*/
             OnApplicationQuit: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#OnApplicationQuit", this ); }
+
                 this._isQuitting = true;
                 DG.Tweening.DOTween.isQuitting = true;
             },
@@ -15020,6 +16035,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              * @return  {DG.Tweening.IDOTweenInit}
              */
             SetCapacity: function (tweenersCapacity, sequencesCapacity) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#SetCapacity", this ); }
+
                 DG.Tweening.Core.TweenManager.SetCapacities(tweenersCapacity, sequencesCapacity);
                 return this;
             },
@@ -15027,6 +16044,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForCompletion start.*/
             WaitForCompletion: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForCompletion", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15073,6 +16092,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForRewind start.*/
             WaitForRewind: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForRewind", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15119,6 +16140,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForKill start.*/
             WaitForKill: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForKill", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15165,6 +16188,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForElapsedLoops start.*/
             WaitForElapsedLoops: function (t, elapsedLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForElapsedLoops", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15211,6 +16236,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForPosition start.*/
             WaitForPosition: function (t, position) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForPosition", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15257,6 +16284,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.DOTweenComponent.WaitForStart start.*/
             WaitForStart: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.DOTweenComponent#WaitForStart", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -15311,6 +16340,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Core.ABSSequentiable],
         ctors: {
             ctor: function (sequencedPosition, callback) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.SequenceCallback#ctor", this ); }
+
                 this.$initialize();
                 DG.Tweening.Core.ABSSequentiable.ctor.call(this);
                 this.tweenType = DG.Tweening.TweenType.Callback;
@@ -15336,6 +16367,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Tween.DoGoto:static start.*/
                 DoGoto: function (t, toPosition, toCompletedLoops, updateMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#DoGoto", this ); }
+
                     // Startup
                     if (!t.startupDone) {
                         if (!t.Startup()) {
@@ -15454,6 +16487,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tween.OnTweenCallback:static start.*/
                 OnTweenCallback: function (callback, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#OnTweenCallback", this ); }
+
                     if (DG.Tweening.DOTween.useSafeMode) {
                         try {
                             callback();
@@ -15476,6 +16511,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tween.OnTweenCallback$1:static start.*/
                 OnTweenCallback$1: function (T, callback, t, param) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#OnTweenCallback$1", this ); }
+
                     if (DG.Tweening.DOTween.useSafeMode) {
                         try {
                             callback(Bridge.rValue(param));
@@ -15734,9 +16771,13 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              */
             fullPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#fullPosition#get", this ); }
+
                     return DG.Tweening.TweenExtensions.Elapsed(this, true);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#fullPosition#set", this ); }
+
                     DG.Tweening.TweenExtensions.Goto(this, value, this.isPlaying);
                 }
             },
@@ -15752,12 +16793,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              */
             hasLoops: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#hasLoops#get", this ); }
+
                     return this.loops === -1 || this.loops > 1;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#init", this ); }
+
                 this.intId = -999;
                 this.activeId = -1;
                 this.delayComplete = true;
@@ -15767,6 +16812,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Tween.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#Reset", this ); }
+
                 this.timeScale = 1;
                 this.isBackwards = false;
                 this.id = null;
@@ -15814,6 +16861,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Tween.UpdateDelay start.*/
             UpdateDelay: function (elapsed) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tween#UpdateDelay", this ); }
+
                 return 0;
             },
             /*DG.Tweening.Tween.UpdateDelay end.*/
@@ -15835,7 +16884,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.CircleOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.CircleOptions(); }
             }
         },
         fields: {
@@ -15850,15 +16901,21 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#init", this ); }
+
                 this.center = new UnityEngine.Vector2();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.CircleOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#Reset", this ); }
+
                 this.initialized = false;
                 this.startValueDegrees = (this.endValueDegrees = 0);
                 this.relativeCenter = false;
@@ -15868,6 +16925,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CircleOptions.Initialize start.*/
             Initialize: function (startValue, endValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#Initialize", this ); }
+
                 this.initialized = true;
                 this.center = endValue.$clone();
                 if (this.relativeCenter) {
@@ -15881,16 +16940,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.CircleOptions.Initialize end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5405489302, this.endValueDegrees, this.relativeCenter, this.snapping, this.center, this.radius, this.startValueDegrees, this.initialized]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.CircleOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.endValueDegrees, o.endValueDegrees) && Bridge.equals(this.relativeCenter, o.relativeCenter) && Bridge.equals(this.snapping, o.snapping) && Bridge.equals(this.center, o.center) && Bridge.equals(this.radius, o.radius) && Bridge.equals(this.startValueDegrees, o.startValueDegrees) && Bridge.equals(this.initialized, o.initialized);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CircleOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.CircleOptions();
                 s.endValueDegrees = this.endValueDegrees;
                 s.relativeCenter = this.relativeCenter;
@@ -15915,6 +16980,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#init", this ); }
+
                     this._PartialControlPs = System.Array.init(2, function (){
                         return new DG.Tweening.Plugins.Core.PathCore.ControlPoint();
                     }, DG.Tweening.Plugins.Core.PathCore.ControlPoint);
@@ -15927,6 +16994,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder.FinalizePath start.*/
             FinalizePath: function (p, wps, isClosedPath) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#FinalizePath", this ); }
+
                 // Add starting and ending control points (uses only one vector per control point)
                 var wpsLen = wps.length;
                 if (p.controlPoints == null || p.controlPoints.length !== 2) {
@@ -15957,6 +17026,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder.GetPoint start.*/
             GetPoint: function (perc, wps, p, controlPoints) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#GetPoint", this ); }
+
                 var numSections = wps.length - 1; // Considering also control points
                 var tSec = Math.floor(perc * numSections);
                 var currPt = numSections - 1;
@@ -15977,6 +17048,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder.SetTimeToLengthTables start.*/
             SetTimeToLengthTables: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#SetTimeToLengthTables", this ); }
+
                 var pathLen = 0;
                 var incr = 1.0 / subdivisions;
                 var timesTable = System.Array.init(subdivisions, 0, System.Single);
@@ -16000,6 +17073,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder.SetWaypointsLengths start.*/
             SetWaypointsLengths: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CatmullRomDecoder#SetWaypointsLengths", this ); }
+
                 // Create a relative path between each waypoint,
                 // with its start and end control lines coinciding with the next/prev waypoints.
                 var count = p.wps.length;
@@ -16045,6 +17120,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#init", this ); }
+
                     this._PartialControlPs = System.Array.init(1, function (){
                         return new DG.Tweening.Plugins.Core.PathCore.ControlPoint();
                     }, DG.Tweening.Plugins.Core.PathCore.ControlPoint);
@@ -16057,6 +17134,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder.FinalizePath start.*/
             FinalizePath: function (p, wps, isClosedPath) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#FinalizePath", this ); }
+
                 if (isClosedPath && !p.addedExtraEndWp) {
                     isClosedPath = false;
                 }
@@ -16132,6 +17211,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder.GetPoint start.*/
             GetPoint: function (perc, wps, p, controlPoints) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#GetPoint", this ); }
+
                 var numSections = wps.length - 1;
                 var tSec = Math.floor(perc * numSections);
                 var currPt = numSections - 1;
@@ -16160,6 +17241,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder.SetTimeToLengthTables start.*/
             SetTimeToLengthTables: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#SetTimeToLengthTables", this ); }
+
                 var pathLen = 0;
                 var incr = 1.0 / subdivisions;
                 var timesTable = System.Array.init(subdivisions, 0, System.Single);
@@ -16183,6 +17266,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder.SetWaypointsLengths start.*/
             SetWaypointsLengths: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.CubicBezierDecoder#SetWaypointsLengths", this ); }
+
                 // Create a relative path between each waypoint,
                 // with its start and end control lines coinciding with the next/prev waypoints.
                 var count = p.wps.length;
@@ -16225,6 +17310,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.Core.PathCore.LinearDecoder.FinalizePath start.*/
             FinalizePath: function (p, wps, isClosedPath) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.LinearDecoder#FinalizePath", this ); }
+
                 p.controlPoints = null;
                 // Store time to len tables
                 p.subdivisions = wps.length * p.subdivisionsXSegment; // Unused
@@ -16234,6 +17321,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.LinearDecoder.GetPoint start.*/
             GetPoint: function (perc, wps, p, controlPoints) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.LinearDecoder#GetPoint", this ); }
+
                 if (perc <= 0) {
                     p.linearWPIndex = 1;
                     return wps[0].$clone();
@@ -16262,6 +17351,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.LinearDecoder.SetTimeToLengthTables start.*/
             SetTimeToLengthTables: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.LinearDecoder#SetTimeToLengthTables", this ); }
+
                 var pathLen = 0;
                 var wpsLen = p.wps.length;
                 var wpLengths = System.Array.init(wpsLen, 0, System.Single);
@@ -16290,6 +17381,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Core.PathCore.LinearDecoder.SetWaypointsLengths start.*/
             SetWaypointsLengths: function (p, subdivisions) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Core.PathCore.LinearDecoder#SetWaypointsLengths", this ); }
+
                 // Does nothing (waypoints lenghts were stored inside SetTimeToLengthTables)
             },
             /*DG.Tweening.Plugins.Core.PathCore.LinearDecoder.SetWaypointsLengths end.*/
@@ -16305,7 +17398,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.PathOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.PathOptions(); }
             }
         },
         fields: {
@@ -16332,17 +17427,23 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#init", this ); }
+
                 this.lookAtPosition = new UnityEngine.Vector3();
                 this.forward = new UnityEngine.Quaternion();
                 this.startupRot = new UnityEngine.Quaternion();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.PathOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#Reset", this ); }
+
                 this.mode = DG.Tweening.PathMode.Ignore;
                 this.orientType = DG.Tweening.Plugins.Options.OrientType.None;
                 this.lockPositionAxis = (this.lockRotationAxis = DG.Tweening.AxisConstraint.None);
@@ -16363,16 +17464,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.Options.PathOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([3529261070, this.mode, this.orientType, this.lockPositionAxis, this.lockRotationAxis, this.isClosedPath, this.lookAtPosition, this.lookAtTransform, this.lookAhead, this.hasCustomForwardDirection, this.forward, this.useLocalPosition, this.parent, this.isRigidbody, this.isRigidbody2D, this.stableZRotation, this.startupRot, this.startupZRot, this.addedExtraStartWp, this.addedExtraEndWp]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.PathOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.mode, o.mode) && Bridge.equals(this.orientType, o.orientType) && Bridge.equals(this.lockPositionAxis, o.lockPositionAxis) && Bridge.equals(this.lockRotationAxis, o.lockRotationAxis) && Bridge.equals(this.isClosedPath, o.isClosedPath) && Bridge.equals(this.lookAtPosition, o.lookAtPosition) && Bridge.equals(this.lookAtTransform, o.lookAtTransform) && Bridge.equals(this.lookAhead, o.lookAhead) && Bridge.equals(this.hasCustomForwardDirection, o.hasCustomForwardDirection) && Bridge.equals(this.forward, o.forward) && Bridge.equals(this.useLocalPosition, o.useLocalPosition) && Bridge.equals(this.parent, o.parent) && Bridge.equals(this.isRigidbody, o.isRigidbody) && Bridge.equals(this.isRigidbody2D, o.isRigidbody2D) && Bridge.equals(this.stableZRotation, o.stableZRotation) && Bridge.equals(this.startupRot, o.startupRot) && Bridge.equals(this.startupZRot, o.startupZRot) && Bridge.equals(this.addedExtraStartWp, o.addedExtraStartWp) && Bridge.equals(this.addedExtraEndWp, o.addedExtraEndWp);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.PathOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.PathOptions();
                 s.mode = this.mode;
                 s.orientType = this.orientType;
@@ -16405,7 +17512,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.QuaternionOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.QuaternionOptions(); }
             }
         },
         fields: {
@@ -16416,15 +17525,21 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#init", this ); }
+
                 this.up = new UnityEngine.Vector3();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.QuaternionOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#Reset", this ); }
+
                 this.rotateMode = DG.Tweening.RotateMode.Fast;
                 this.axisConstraint = DG.Tweening.AxisConstraint.None;
                 this.up = pc.Vec3.ZERO.clone();
@@ -16432,16 +17547,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.Options.QuaternionOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([7458439180, this.rotateMode, this.axisConstraint, this.up]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.QuaternionOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.rotateMode, o.rotateMode) && Bridge.equals(this.axisConstraint, o.axisConstraint) && Bridge.equals(this.up, o.up);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.QuaternionOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.QuaternionOptions();
                 s.rotateMode = this.rotateMode;
                 s.axisConstraint = this.axisConstraint;
@@ -16458,7 +17579,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.RectOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.RectOptions(); }
             }
         },
         fields: {
@@ -16467,27 +17590,37 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.RectOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#Reset", this ); }
+
                 this.snapping = false;
             },
             /*DG.Tweening.Plugins.Options.RectOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([3729474576, this.snapping]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.RectOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.snapping, o.snapping);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.RectOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.RectOptions();
                 s.snapping = this.snapping;
                 return s;
@@ -16502,7 +17635,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.StringOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.StringOptions(); }
             }
         },
         fields: {
@@ -16515,12 +17650,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.StringOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#Reset", this ); }
+
                 this.richTextEnabled = false;
                 this.scrambleMode = DG.Tweening.ScrambleMode.None;
                 this.scrambledChars = null;
@@ -16529,16 +17668,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.Options.StringOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5506155944, this.richTextEnabled, this.scrambleMode, this.scrambledChars, this.startValueStrippedLength, this.changeValueStrippedLength]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.StringOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.richTextEnabled, o.richTextEnabled) && Bridge.equals(this.scrambleMode, o.scrambleMode) && Bridge.equals(this.scrambledChars, o.scrambledChars) && Bridge.equals(this.startValueStrippedLength, o.startValueStrippedLength) && Bridge.equals(this.changeValueStrippedLength, o.changeValueStrippedLength);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.StringOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.StringOptions();
                 s.richTextEnabled = this.richTextEnabled;
                 s.scrambleMode = this.scrambleMode;
@@ -16557,7 +17702,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.UintOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.UintOptions(); }
             }
         },
         fields: {
@@ -16566,27 +17713,37 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.UintOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#Reset", this ); }
+
                 this.isNegativeChangeValue = false;
             },
             /*DG.Tweening.Plugins.Options.UintOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([3730196499, this.isNegativeChangeValue]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.UintOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.isNegativeChangeValue, o.isNegativeChangeValue);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.UintOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.UintOptions();
                 s.isNegativeChangeValue = this.isNegativeChangeValue;
                 return s;
@@ -16601,7 +17758,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.Vector3ArrayOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.Vector3ArrayOptions(); }
             }
         },
         fields: {
@@ -16612,12 +17771,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.Vector3ArrayOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#Reset", this ); }
+
                 this.axisConstraint = DG.Tweening.AxisConstraint.None;
                 this.snapping = false;
                 this.durations = null;
@@ -16625,16 +17788,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.Options.Vector3ArrayOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([6859794677, this.axisConstraint, this.snapping, this.durations]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.Vector3ArrayOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.axisConstraint, o.axisConstraint) && Bridge.equals(this.snapping, o.snapping) && Bridge.equals(this.durations, o.durations);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.Vector3ArrayOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.Vector3ArrayOptions();
                 s.axisConstraint = this.axisConstraint;
                 s.snapping = this.snapping;
@@ -16651,7 +17820,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.VectorOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.VectorOptions(); }
             }
         },
         fields: {
@@ -16661,28 +17832,38 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.VectorOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#Reset", this ); }
+
                 this.axisConstraint = DG.Tweening.AxisConstraint.None;
                 this.snapping = false;
             },
             /*DG.Tweening.Plugins.Options.VectorOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5689721260, this.axisConstraint, this.snapping]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.VectorOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.axisConstraint, o.axisConstraint) && Bridge.equals(this.snapping, o.snapping);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.VectorOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.VectorOptions();
                 s.axisConstraint = this.axisConstraint;
                 s.snapping = this.snapping;
@@ -16698,7 +17879,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.SpiralOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.SpiralOptions(); }
             }
         },
         fields: {
@@ -16713,15 +17896,21 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#init", this ); }
+
                 this.axisQ = new UnityEngine.Quaternion();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.SpiralOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#Reset", this ); }
+
                 this.depth = (this.frequency = (this.speed = 0.0));
                 this.mode = DG.Tweening.SpiralMode.Expand;
                 this.snapping = false;
@@ -16729,16 +17918,22 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             /*DG.Tweening.Plugins.SpiralOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5656561307, this.depth, this.frequency, this.speed, this.mode, this.snapping, this.unit, this.axisQ]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.SpiralOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.depth, o.depth) && Bridge.equals(this.frequency, o.frequency) && Bridge.equals(this.speed, o.speed) && Bridge.equals(this.mode, o.mode) && Bridge.equals(this.snapping, o.snapping) && Bridge.equals(this.unit, o.unit) && Bridge.equals(this.axisQ, o.axisQ);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.SpiralOptions();
                 s.depth = this.depth;
                 s.frequency = this.frequency;
@@ -16768,6 +17963,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Tweener.Setup:static start.*/
                 Setup: function (T1, T2, TPlugOptions, t, getter, setter, endValue, duration, plugin) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#Setup", this ); }
+
                     if (plugin === void 0) { plugin = null; }
                     if (plugin != null) {
                         t.tweenPlugin = plugin;
@@ -16801,6 +17998,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DoUpdateDelay:static start.*/
                 DoUpdateDelay: function (T1, T2, TPlugOptions, t, elapsed) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DoUpdateDelay", this ); }
+
                     var tweenDelay = t.delay;
                     if (elapsed > tweenDelay) {
                         // Delay complete
@@ -16816,6 +18015,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DoStartup:static start.*/
                 DoStartup: function (T1, T2, TPlugOptions, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DoStartup", this ); }
+
                     t.startupDone = true;
 
                     // Special startup operations
@@ -16878,6 +18079,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DoChangeStartValue:static start.*/
                 DoChangeStartValue: function (T1, T2, TPlugOptions, t, newStartValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DoChangeStartValue", this ); }
+
                     t.hasManuallySetStartValue = true;
                     t.startValue = Bridge.rValue(newStartValue);
 
@@ -16907,6 +18110,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DoChangeEndValue:static start.*/
                 DoChangeEndValue: function (T1, T2, TPlugOptions, t, newEndValue, newDuration, snapStartValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DoChangeEndValue", this ); }
+
                     t.endValue = Bridge.rValue(newEndValue);
                     t.isRelative = false;
 
@@ -16957,6 +18162,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DoChangeValues:static start.*/
                 DoChangeValues: function (T1, T2, TPlugOptions, t, newStartValue, newEndValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DoChangeValues", this ); }
+
                     t.hasManuallySetStartValue = true;
                     t.isRelative = (t.isFrom = false);
                     t.startValue = Bridge.rValue(newStartValue);
@@ -16988,6 +18195,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DOStartupSpecials:static start.*/
                 DOStartupSpecials: function (T1, T2, TPlugOptions, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DOStartupSpecials", this ); }
+
                     try {
                         switch (t.specialStartupMode) {
                             case DG.Tweening.Core.Enums.SpecialStartupMode.SetLookAt: 
@@ -17023,6 +18232,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Tweener.DOStartupDurationBased:static start.*/
                 DOStartupDurationBased: function (T1, T2, TPlugOptions, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#DOStartupDurationBased", this ); }
+
                     if (t.isSpeedBased) {
                         t.duration = t.tweenPlugin.GetSpeedBasedDuration(Bridge.rValue(t.plugOptions), t.duration, Bridge.rValue(t.changeValue));
                     }
@@ -17040,9 +18251,13 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#init", this ); }
+
                 this.isFromAllowed = true;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Tweener#ctor", this ); }
+
                 this.$initialize();
                 DG.Tweening.Tween.ctor.call(this);
             }
@@ -17056,21 +18271,29 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.NoOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.NoOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.NoOptions(); }
             }
         },
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.NoOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.NoOptions.Reset start.*/
-            Reset: function () { },
+            Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.NoOptions#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.Options.NoOptions.Reset end.*/
 
-            $clone: function (to) { return this; }
+            $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.NoOptions#$clone", this ); }
+ return this; }
         }
     });
     /*DG.Tweening.Plugins.Options.NoOptions end.*/
@@ -17093,6 +18316,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Plugins.CirclePlugin.Get:static start.*/
                 Get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#Get", this ); }
+
                     return DG.Tweening.Plugins.Core.PluginsManager.GetCustomPlugin(DG.Tweening.Plugins.CirclePlugin, UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.CircleOptions);
                 },
                 /*DG.Tweening.Plugins.CirclePlugin.Get:static end.*/
@@ -17102,11 +18327,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         },
         methods: {
             /*DG.Tweening.Plugins.CirclePlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.CirclePlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.CirclePlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#SetFrom$1", this ); }
+
                 if (!t.plugOptions.initialized) {
                     t.startValue = t.getter().$clone();
                     t.plugOptions.Initialize(t.startValue.$clone(), t.endValue.$clone());
@@ -17122,6 +18351,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CirclePlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#SetFrom", this ); }
+
                 if (!t.plugOptions.initialized) {
                     t.startValue = t.getter().$clone();
                     t.plugOptions.Initialize(t.startValue.$clone(), t.endValue.$clone());
@@ -17144,12 +18375,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CirclePlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.CirclePlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.CirclePlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#SetRelativeEndValue", this ); }
+
                 if (!t.plugOptions.initialized) {
                     t.plugOptions.Initialize(t.startValue.$clone(), t.endValue.$clone());
                 }
@@ -17160,6 +18395,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CirclePlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#SetChangeValue", this ); }
+
                 if (!t.plugOptions.initialized) {
                     t.plugOptions.Initialize(t.startValue.$clone(), t.endValue.$clone());
                 }
@@ -17170,12 +18407,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CirclePlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.x / unitsXSecond;
             },
             /*DG.Tweening.Plugins.CirclePlugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.CirclePlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#EvaluateAndApply", this ); }
+
                 var startValueDegrees = options.startValueDegrees;
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValueDegrees += changeValue.x * (t.isComplete ? t.completedLoops - 1 : t.completedLoops);
@@ -17192,6 +18433,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.CirclePlugin.GetPositionOnCircle start.*/
             GetPositionOnCircle: function (options, degrees) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.CirclePlugin#GetPositionOnCircle", this ); }
+
                 var pos = DG.Tweening.Core.DOTweenUtils.GetPointOnCircle(options.center.$clone(), options.radius, degrees);
                 if (options.snapping) {
                     pos.x = Math.round(pos.x);
@@ -17216,7 +18459,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.ColorOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.ColorOptions(); }
             }
         },
         fields: {
@@ -17225,27 +18470,37 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.ColorOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#Reset", this ); }
+
                 this.alphaOnly = false;
             },
             /*DG.Tweening.Plugins.Options.ColorOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5759512094, this.alphaOnly]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.ColorOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.alphaOnly, o.alphaOnly);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.ColorOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.ColorOptions();
                 s.alphaOnly = this.alphaOnly;
                 return s;
@@ -17260,7 +18515,9 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new DG.Tweening.Plugins.Options.FloatOptions(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#getDefaultValue", this ); }
+ return new DG.Tweening.Plugins.Options.FloatOptions(); }
             }
         },
         fields: {
@@ -17269,27 +18526,37 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         alias: ["Reset", "DG$Tweening$Plugins$Options$IPlugOptions$Reset"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*DG.Tweening.Plugins.Options.FloatOptions.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#Reset", this ); }
+
                 this.snapping = false;
             },
             /*DG.Tweening.Plugins.Options.FloatOptions.Reset end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#getHashCode", this ); }
+
                 var h = Bridge.addHash([5524826915, this.snapping]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#equals", this ); }
+
                 if (!Bridge.is(o, DG.Tweening.Plugins.Options.FloatOptions)) {
                     return false;
                 }
                 return Bridge.equals(this.snapping, o.snapping);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Options.FloatOptions#$clone", this ); }
+
                 var s = to || new DG.Tweening.Plugins.Options.FloatOptions();
                 s.snapping = this.snapping;
                 return s;
@@ -17314,12 +18581,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#init", this ); }
+
                     this.MinLookAhead = 0.0001;
                 }
             },
             methods: {
                 /*DG.Tweening.Plugins.PathPlugin.Get:static start.*/
                 Get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#Get", this ); }
+
                     return DG.Tweening.Plugins.Core.PluginsManager.GetCustomPlugin(DG.Tweening.Plugins.PathPlugin, UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions);
                 },
                 /*DG.Tweening.Plugins.PathPlugin.Get:static end.*/
@@ -17330,21 +18601,29 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.PathPlugin.Reset start.*/
             Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#Reset", this ); }
+
                 t.endValue.Destroy(); // Clear path
                 t.startValue = (t.endValue = (t.changeValue = null));
             },
             /*DG.Tweening.Plugins.PathPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.PathPlugin.SetFrom$1 start.*/
-            SetFrom$1: function (t, isRelative) { },
+            SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#SetFrom$1", this ); }
+ },
             /*DG.Tweening.Plugins.PathPlugin.SetFrom$1 end.*/
 
             /*DG.Tweening.Plugins.PathPlugin.SetFrom start.*/
-            SetFrom: function (t, fromValue, setImmediately, isRelative) { },
+            SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#SetFrom", this ); }
+ },
             /*DG.Tweening.Plugins.PathPlugin.SetFrom end.*/
 
             /*DG.Tweening.Plugins.PathPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#ConvertToStartValue", this ); }
+
                 // Simply sets the same path as start and endValue
                 return t.endValue;
             },
@@ -17352,6 +18631,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.PathPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#SetRelativeEndValue", this ); }
+
                 var $t, $t1;
                 if (t.endValue.isFinalized) {
                     return;
@@ -17367,6 +18648,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.PathPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#SetChangeValue", this ); }
+
                 var trans = Bridge.cast(t.target, UnityEngine.Component).transform;
                 if (t.plugOptions.orientType === DG.Tweening.Plugins.Options.OrientType.ToPath && t.plugOptions.useLocalPosition) {
                     t.plugOptions.parent = trans.parent;
@@ -17439,12 +18722,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.PathPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.length / unitsXSecond;
             },
             /*DG.Tweening.Plugins.PathPlugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.PathPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental && !options.isClosedPath) {
                     var increment = t.isComplete ? t.completedLoops - 1 : t.completedLoops;
                     if (increment > 0) {
@@ -17500,6 +18787,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.PathPlugin.SetOrientation start.*/
             SetOrientation: function (options, t, path, pathPerc, tPos, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.PathPlugin#SetOrientation", this ); }
+
                 var trans = Bridge.cast(t.target, UnityEngine.Component).transform;
                 var newRot = pc.Quat.IDENTITY.clone();
 
@@ -17632,11 +18921,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions)],
         methods: {
             /*DG.Tweening.Plugins.QuaternionPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.QuaternionPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.QuaternionPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().getPositiveEulerAngles().$clone();
                 if (t.plugOptions.rotateMode === DG.Tweening.RotateMode.Fast && !t.isRelative) {
@@ -17660,6 +18953,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.QuaternionPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().getPositiveEulerAngles().$clone();
                     t.endValue = t.endValue.$clone().add( currVal.$clone() );
@@ -17675,18 +18970,24 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.QuaternionPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#ConvertToStartValue", this ); }
+
                 return value.getPositiveEulerAngles().$clone();
             },
             /*DG.Tweening.Plugins.QuaternionPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.QuaternionPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.$clone().add( t.startValue.$clone() );
             },
             /*DG.Tweening.Plugins.QuaternionPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.QuaternionPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#SetChangeValue", this ); }
+
                 if (t.plugOptions.rotateMode === DG.Tweening.RotateMode.Fast && !t.isRelative) {
                     // Rotation will be adapted to 360° and will take the shortest route
                     // - Adapt to 360°
@@ -17732,12 +19033,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.QuaternionPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.length() / unitsXSecond;
             },
             /*DG.Tweening.Plugins.QuaternionPlugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.QuaternionPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.QuaternionPlugin#EvaluateAndApply", this ); }
+
                 var endValue = startValue.$clone();
 
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
@@ -17785,11 +19090,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Rect,UnityEngine.Rect,DG.Tweening.Plugins.Options.RectOptions)],
         methods: {
             /*DG.Tweening.Plugins.RectPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.RectPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.RectPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = prevEndVal.$clone();
@@ -17814,6 +19123,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.RectPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue.x += currVal.x;
@@ -17843,12 +19154,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.RectPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.RectPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.RectPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue.x += t.startValue.x;
                 t.endValue.y += t.startValue.y;
                 t.endValue.width += t.startValue.width;
@@ -17858,12 +19173,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.RectPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#SetChangeValue", this ); }
+
                 t.changeValue = new UnityEngine.Rect.$ctor1(t.endValue.x - t.startValue.x, t.endValue.y - t.startValue.y, t.endValue.width - t.startValue.width, t.endValue.height - t.startValue.height);
             },
             /*DG.Tweening.Plugins.RectPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.RectPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#GetSpeedBasedDuration", this ); }
+
                 // Uses length of diagonal to calculate units.
                 var diffW = changeValue.width;
                 var diffH = changeValue.height;
@@ -17874,6 +19193,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.RectPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     var iterations = t.isComplete ? t.completedLoops - 1 : t.completedLoops;
                     startValue.x += changeValue.x * iterations;
@@ -17931,6 +19252,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#init", this ); }
+
                     this.DefaultDirection = new UnityEngine.Vector3();
                     this.DefaultDirection = new pc.Vec3( 0, 0, 1 );
                 }
@@ -17938,6 +19261,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Plugins.SpiralPlugin.Get:static start.*/
                 Get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#Get", this ); }
+
                     return DG.Tweening.Plugins.Core.PluginsManager.GetCustomPlugin(DG.Tweening.Plugins.SpiralPlugin, UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.SpiralOptions);
                 },
                 /*DG.Tweening.Plugins.SpiralPlugin.Get:static end.*/
@@ -17947,29 +19272,41 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         },
         methods: {
             /*DG.Tweening.Plugins.SpiralPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.SpiralPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.SetFrom$1 start.*/
-            SetFrom$1: function (t, isRelative) { },
+            SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#SetFrom$1", this ); }
+ },
             /*DG.Tweening.Plugins.SpiralPlugin.SetFrom$1 end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.SetFrom start.*/
-            SetFrom: function (t, fromValue, setImmediately, isRelative) { },
+            SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#SetFrom", this ); }
+ },
             /*DG.Tweening.Plugins.SpiralPlugin.SetFrom end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.SpiralPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.SetRelativeEndValue start.*/
-            SetRelativeEndValue: function (t) { },
+            SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#SetRelativeEndValue", this ); }
+ },
             /*DG.Tweening.Plugins.SpiralPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#SetChangeValue", this ); }
+
                 t.plugOptions.speed *= 10.0 / t.plugOptions.frequency;
                 t.plugOptions.axisQ = new pc.Quat().setLookAt( t.endValue, pc.Vec3.UP.clone() );
             },
@@ -17977,12 +19314,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.SpiralPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#GetSpeedBasedDuration", this ); }
+
                 return unitsXSecond;
             },
             /*DG.Tweening.Plugins.SpiralPlugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.SpiralPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.SpiralPlugin#EvaluateAndApply", this ); }
+
                 var num1 = DG.Tweening.Core.Easing.EaseManager.Evaluate$1(t, elapsed, duration, t.easeOvershootOrAmplitude, t.easePeriod);
                 var num2 = options.mode !== DG.Tweening.SpiralMode.ExpandThenContract || num1 <= 0.5 ? num1 : 0.5 - (num1 - 0.5);
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
@@ -18021,6 +19362,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#init", this ); }
+
                     this._Buffer = new System.Text.StringBuilder();
                     this._OpenedTags = new (System.Collections.Generic.List$1(System.Char)).ctor();
                 }
@@ -18029,6 +19372,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.StringPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = prevEndVal;
@@ -18038,6 +19383,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#SetFrom", this ); }
+
                 if (fromValue == null) {
                     fromValue = "";
                 }
@@ -18056,24 +19403,32 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.Reset start.*/
             Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#Reset", this ); }
+
                 t.startValue = (t.endValue = (t.changeValue = ""));
             },
             /*DG.Tweening.Plugins.StringPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.StringPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.StringPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.StringPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#SetRelativeEndValue", this ); }
+
                 // Do nothing (endValue stays the same)
             },
             /*DG.Tweening.Plugins.StringPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.StringPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue;
 
                 // Store no-tags versions of values
@@ -18084,6 +19439,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#GetSpeedBasedDuration", this ); }
+
                 //            float res = changeValue.Length / unitsXSecond;
                 var res = (options.richTextEnabled ? options.changeValueStrippedLength : changeValue.length) / unitsXSecond;
                 if (res < 0) {
@@ -18096,6 +19453,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#EvaluateAndApply", this ); }
+
                 DG.Tweening.Plugins.StringPlugin._Buffer.remove(0, DG.Tweening.Plugins.StringPlugin._Buffer.getLength());
 
                 // Incremental works only with relative tweens (otherwise the tween makes no sense)
@@ -18159,6 +19518,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.Append start.*/
             Append: function (value, startIndex, length, richTextEnabled) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#Append", this ); }
+
                 if (!richTextEnabled) {
                     DG.Tweening.Plugins.StringPlugin._Buffer.append(value, startIndex, length);
                     return DG.Tweening.Plugins.StringPlugin._Buffer;
@@ -18244,6 +19605,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.StringPlugin.ScrambledCharsToUse start.*/
             ScrambledCharsToUse: function (options) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.StringPlugin#ScrambledCharsToUse", this ); }
+
                 switch (options.scrambleMode) {
                     case DG.Tweening.ScrambleMode.Uppercase: 
                         return DG.Tweening.Plugins.StringPluginExtensions.ScrambledCharsUppercase;
@@ -18272,11 +19635,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.UInt32,System.UInt32,DG.Tweening.Plugins.Options.UintOptions)],
         methods: {
             /*DG.Tweening.Plugins.UintPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.UintPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.UintPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue + prevEndVal : prevEndVal;
@@ -18286,6 +19653,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.UintPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue += currVal;
@@ -18301,18 +19670,24 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.UintPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.UintPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.UintPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue += t.startValue;
             },
             /*DG.Tweening.Plugins.UintPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.UintPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#SetChangeValue", this ); }
+
                 t.plugOptions.isNegativeChangeValue = t.endValue < t.startValue;
                 t.changeValue = t.plugOptions.isNegativeChangeValue ? t.startValue - t.endValue : t.endValue - t.startValue;
                 //            t.changeValue = t.endValue - t.startValue;
@@ -18321,6 +19696,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.UintPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -18332,6 +19709,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.UintPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UintPlugin#EvaluateAndApply", this ); }
+
                 var v;
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     v = System.Int64.clipu32(System.Int64(changeValue).mul(System.Int64((t.isComplete ? t.completedLoops - 1 : t.completedLoops))));
@@ -18373,11 +19752,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions)],
         methods: {
             /*DG.Tweening.Plugins.Vector2Plugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.Vector2Plugin.Reset end.*/
 
             /*DG.Tweening.Plugins.Vector2Plugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = isRelative ? t.endValue.$clone().add( prevEndVal ) : prevEndVal.$clone();
@@ -18405,6 +19788,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector2Plugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = t.endValue.$clone().add( currVal.$clone() );
@@ -18440,18 +19825,24 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector2Plugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.Vector2Plugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.Vector2Plugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.$clone().add( t.startValue.$clone() );
             },
             /*DG.Tweening.Plugins.Vector2Plugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.Vector2Plugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#SetChangeValue", this ); }
+
                 switch (t.plugOptions.axisConstraint) {
                     case DG.Tweening.AxisConstraint.X: 
                         t.changeValue = new pc.Vec2( t.endValue.x - t.startValue.x, 0 );
@@ -18468,12 +19859,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector2Plugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.length() / unitsXSecond;
             },
             /*DG.Tweening.Plugins.Vector2Plugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.Vector2Plugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector2Plugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = startValue.$clone().add( changeValue.$clone().scale( (t.isComplete ? t.completedLoops - 1 : t.completedLoops) ) );
                 }
@@ -18534,20 +19929,28 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.Reset start.*/
             Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#Reset", this ); }
+
                 t.startValue = (t.endValue = (t.changeValue = null));
             },
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetFrom$1 start.*/
-            SetFrom$1: function (t, isRelative) { },
+            SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#SetFrom$1", this ); }
+ },
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetFrom$1 end.*/
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetFrom start.*/
-            SetFrom: function (t, fromValue, setImmediately, isRelative) { },
+            SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#SetFrom", this ); }
+ },
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetFrom end.*/
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#ConvertToStartValue", this ); }
+
                 var len = t.endValue.length;
                 var res = System.Array.init(len, function (){
                     return new UnityEngine.Vector3();
@@ -18566,6 +19969,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#SetRelativeEndValue", this ); }
+
                 var len = t.endValue.length;
                 for (var i = 0; i < len; ++i) {
                     if (i > 0) {
@@ -18579,6 +19984,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#SetChangeValue", this ); }
+
                 var len = t.endValue.length;
                 t.changeValue = System.Array.init(len, function (){
                     return new UnityEngine.Vector3();
@@ -18591,6 +19998,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#GetSpeedBasedDuration", this ); }
+
                 var totDuration = 0;
                 var len = changeValue.length;
                 for (var i = 0; i < len; ++i) {
@@ -18605,6 +20014,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3ArrayPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3ArrayPlugin#EvaluateAndApply", this ); }
+
                 var incrementValue = pc.Vec3.ZERO.clone();
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     var iterations = t.isComplete ? t.completedLoops - 1 : t.completedLoops;
@@ -18697,11 +20108,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions)],
         methods: {
             /*DG.Tweening.Plugins.Vector3Plugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.Vector3Plugin.Reset end.*/
 
             /*DG.Tweening.Plugins.Vector3Plugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = isRelative ? t.endValue.$clone().add( prevEndVal ) : prevEndVal.$clone();
@@ -18733,6 +20148,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3Plugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = t.endValue.$clone().add( currVal.$clone() );
@@ -18773,18 +20190,24 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3Plugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.Vector3Plugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.Vector3Plugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.$clone().add( t.startValue.$clone() );
             },
             /*DG.Tweening.Plugins.Vector3Plugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.Vector3Plugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#SetChangeValue", this ); }
+
                 switch (t.plugOptions.axisConstraint) {
                     case DG.Tweening.AxisConstraint.X: 
                         t.changeValue = new pc.Vec3( t.endValue.x - t.startValue.x, 0, 0 );
@@ -18804,12 +20227,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector3Plugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.length() / unitsXSecond;
             },
             /*DG.Tweening.Plugins.Vector3Plugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector3Plugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = startValue.$clone().add( changeValue.$clone().scale( (t.isComplete ? t.completedLoops - 1 : t.completedLoops) ) );
                 }
@@ -18872,11 +20299,15 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Vector4,UnityEngine.Vector4,DG.Tweening.Plugins.Options.VectorOptions)],
         methods: {
             /*DG.Tweening.Plugins.Vector4Plugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.Vector4Plugin.Reset end.*/
 
             /*DG.Tweening.Plugins.Vector4Plugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = isRelative ? t.endValue.$clone().add( prevEndVal ) : prevEndVal.$clone();
@@ -18912,6 +20343,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector4Plugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = t.endValue.$clone().add( currVal.$clone() );
@@ -18957,18 +20390,24 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector4Plugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.Vector4Plugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.Vector4Plugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.$clone().add( t.startValue.$clone() );
             },
             /*DG.Tweening.Plugins.Vector4Plugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.Vector4Plugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#SetChangeValue", this ); }
+
                 switch (t.plugOptions.axisConstraint) {
                     case DG.Tweening.AxisConstraint.X: 
                         t.changeValue = new pc.Vec4( t.endValue.x - t.startValue.x, 0, 0, 0 );
@@ -18991,12 +20430,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Plugins.Vector4Plugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.length() / unitsXSecond;
             },
             /*DG.Tweening.Plugins.Vector4Plugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.Vector4Plugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Vector4Plugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = startValue.$clone().add( changeValue.$clone().scale( (t.isComplete ? t.completedLoops - 1 : t.completedLoops) ) );
                 }
@@ -19078,6 +20521,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             methods: {
                 /*DG.Tweening.Sequence.DoPrepend:static start.*/
                 DoPrepend: function (inSequence, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoPrepend", this ); }
+
                     if (t.loops === -1) {
                         t.loops = 1;
                     }
@@ -19098,6 +20543,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoInsert:static start.*/
                 DoInsert: function (inSequence, t, atPosition) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoInsert", this ); }
+
                     DG.Tweening.Core.TweenManager.AddActiveTweenToSequence(t);
 
                     // If t has a delay add it as an interval
@@ -19131,6 +20578,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoAppendInterval:static start.*/
                 DoAppendInterval: function (inSequence, interval) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoAppendInterval", this ); }
+
                     inSequence.lastTweenInsertTime = inSequence.duration;
                     inSequence.duration += interval;
                     return inSequence;
@@ -19139,6 +20588,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoPrependInterval:static start.*/
                 DoPrependInterval: function (inSequence, interval) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoPrependInterval", this ); }
+
                     inSequence.lastTweenInsertTime = 0;
                     inSequence.duration += interval;
                     var len = inSequence._sequencedObjs.Count;
@@ -19154,6 +20605,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoInsertCallback:static start.*/
                 DoInsertCallback: function (inSequence, callback, atPosition) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoInsertCallback", this ); }
+
                     inSequence.lastTweenInsertTime = atPosition;
                     var c = new DG.Tweening.Core.SequenceCallback(atPosition, callback);
                     c.sequencedPosition = (c.sequencedEndPosition = atPosition);
@@ -19168,6 +20621,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.Setup:static start.*/
                 Setup: function (s) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#Setup", this ); }
+
                     s.autoKill = DG.Tweening.DOTween.defaultAutoKill;
                     s.isRecyclable = DG.Tweening.DOTween.defaultRecyclable;
                     s.isPlaying = DG.Tweening.DOTween.defaultAutoPlay === DG.Tweening.AutoPlay.All || DG.Tweening.DOTween.defaultAutoPlay === DG.Tweening.AutoPlay.AutoPlaySequences;
@@ -19180,6 +20635,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoStartup:static start.*/
                 DoStartup: function (s) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoStartup", this ); }
+
                     var sequencedObjsLen = s._sequencedObjs.Count;
                     if (s.sequencedTweens.Count === 0 && sequencedObjsLen === 0 && !DG.Tweening.Sequence.IsAnyCallbackSet(s)) {
                         return false; // Empty Sequence without any callback set
@@ -19218,6 +20675,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.DoApplyTween:static start.*/
                 DoApplyTween: function (s, prevPosition, prevCompletedLoops, newCompletedSteps, useInversePosition, updateMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#DoApplyTween", this ); }
+
                     // Adapt to eventual ease position
                     var prevPos = prevPosition;
                     var newPos = s.position;
@@ -19310,6 +20769,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.ApplyInternalCycle:static start.*/
                 ApplyInternalCycle: function (s, fromPos, toPos, updateMode, useInverse, prevPosIsInverse, multiCycleStep) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#ApplyInternalCycle", this ); }
+
                     if (multiCycleStep === void 0) { multiCycleStep = false; }
                     var wasPlaying = s.isPlaying; // Used to interrupt for loops in case a callback pauses a running Sequence
                     var isBackwardsUpdate = toPos < fromPos;
@@ -19500,6 +20961,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.StableSortSequencedObjs:static start.*/
                 StableSortSequencedObjs: function (list) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#StableSortSequencedObjs", this ); }
+
                     var len = list.Count;
                     for (var i = 1; i < len; i++) {
                         var j = i;
@@ -19516,6 +20979,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
                 /*DG.Tweening.Sequence.IsAnyCallbackSet:static start.*/
                 IsAnyCallbackSet: function (s) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#IsAnyCallbackSet", this ); }
+
                     return !Bridge.staticEquals(s.onComplete, null) || !Bridge.staticEquals(s.onKill, null) || !Bridge.staticEquals(s.onPause, null) || !Bridge.staticEquals(s.onPlay, null) || !Bridge.staticEquals(s.onRewind, null) || !Bridge.staticEquals(s.onStart, null) || !Bridge.staticEquals(s.onStepComplete, null) || !Bridge.staticEquals(s.onUpdate, null);
                 },
                 /*DG.Tweening.Sequence.IsAnyCallbackSet:static end.*/
@@ -19530,10 +20995,14 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#init", this ); }
+
                 this.sequencedTweens = new (System.Collections.Generic.List$1(DG.Tweening.Tween)).ctor();
                 this._sequencedObjs = new (System.Collections.Generic.List$1(DG.Tweening.Core.ABSSequentiable)).ctor();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#ctor", this ); }
+
                 this.$initialize();
                 DG.Tweening.Tween.ctor.call(this);
                 this.tweenType = DG.Tweening.TweenType.Sequence;
@@ -19543,6 +21012,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Sequence.UpdateDelay start.*/
             UpdateDelay: function (elapsed) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#UpdateDelay", this ); }
+
                 var tweenDelay = this.delay;
                 if (elapsed > tweenDelay) {
                     // Delay complete
@@ -19558,6 +21029,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Sequence.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#Reset", this ); }
+
                 DG.Tweening.Tween.prototype.Reset.call(this);
 
                 this.sequencedTweens.clear();
@@ -19568,6 +21041,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Sequence.Validate start.*/
             Validate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#Validate", this ); }
+
                 var len = this.sequencedTweens.Count;
                 for (var i = 0; i < len; i++) {
                     if (!this.sequencedTweens.getItem(i).Validate()) {
@@ -19581,12 +21056,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Sequence.Startup start.*/
             Startup: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#Startup", this ); }
+
                 return DG.Tweening.Sequence.DoStartup(this);
             },
             /*DG.Tweening.Sequence.Startup end.*/
 
             /*DG.Tweening.Sequence.ApplyTween start.*/
             ApplyTween: function (prevPosition, prevCompletedLoops, newCompletedSteps, useInversePosition, updateMode, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Sequence#ApplyTween", this ); }
+
                 return DG.Tweening.Sequence.DoApplyTween(this, prevPosition, prevCompletedLoops, newCompletedSteps, useInversePosition, updateMode);
             },
             /*DG.Tweening.Sequence.ApplyTween end.*/
@@ -19605,6 +21084,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#init", this ); }
+
                     this._TxtCantChangeSequencedValues = "You cannot change the values of a tween contained inside a Sequence";
                 }
             }
@@ -19622,6 +21103,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#init", this ); }
+
                 this.startValue = Bridge.getDefaultValue(T2);
                 this.endValue = Bridge.getDefaultValue(T2);
                 this.changeValue = Bridge.getDefaultValue(T2);
@@ -19630,6 +21113,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
                 this._color32Type = UnityEngine.Color32;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ctor", this ); }
+
                 this.$initialize();
                 DG.Tweening.Tweener.ctor.call(this);
                 this.typeofT1 = T1;
@@ -19642,6 +21127,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
         methods: {
             /*DG.Tweening.Core.TweenerCore$3.ChangeStartValue start.*/
             ChangeStartValue: function (newStartValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeStartValue", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (this.isSequenced) {
                     DG.Tweening.Core.Debugger.LogError(DG.Tweening.Core.TweenerCore$3(T1,T2,TPlugOptions)._TxtCantChangeSequencedValues, this);
@@ -19676,6 +21163,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              * @return  {DG.Tweening.Core.TweenerCore$3}
              */
             ChangeStartValue$1: function (newStartValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeStartValue$1", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (this.isSequenced) {
                     DG.Tweening.Core.Debugger.LogError(DG.Tweening.Core.TweenerCore$3(T1,T2,TPlugOptions)._TxtCantChangeSequencedValues, this);
@@ -19688,12 +21177,16 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.TweenerCore$3.ChangeEndValue start.*/
             ChangeEndValue: function (newEndValue, snapStartValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeEndValue", this ); }
+
                 return this.ChangeEndValue$1(newEndValue, -1, snapStartValue);
             },
             /*DG.Tweening.Core.TweenerCore$3.ChangeEndValue end.*/
 
             /*DG.Tweening.Core.TweenerCore$3.ChangeEndValue$1 start.*/
             ChangeEndValue$1: function (newEndValue, newDuration, snapStartValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeEndValue$1", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (snapStartValue === void 0) { snapStartValue = false; }
                 if (this.isSequenced) {
@@ -19729,6 +21222,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              * @return  {DG.Tweening.Core.TweenerCore$3}
              */
             ChangeEndValue$2: function (newEndValue, snapStartValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeEndValue$2", this ); }
+
                 return this.ChangeEndValue$3(Bridge.rValue(newEndValue), -1, snapStartValue);
             },
             /*DG.Tweening.Core.TweenerCore$3.ChangeEndValue$2 end.*/
@@ -19748,6 +21243,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              * @return  {DG.Tweening.Core.TweenerCore$3}
              */
             ChangeEndValue$3: function (newEndValue, newDuration, snapStartValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeEndValue$3", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (snapStartValue === void 0) { snapStartValue = false; }
                 if (this.isSequenced) {
@@ -19761,6 +21258,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.TweenerCore$3.ChangeValues start.*/
             ChangeValues: function (newStartValue, newEndValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeValues", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (this.isSequenced) {
                     DG.Tweening.Core.Debugger.LogError(DG.Tweening.Core.TweenerCore$3(T1,T2,TPlugOptions)._TxtCantChangeSequencedValues, this);
@@ -19802,6 +21301,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
              * @return  {DG.Tweening.Core.TweenerCore$3}
              */
             ChangeValues$1: function (newStartValue, newEndValue, newDuration) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ChangeValues$1", this ); }
+
                 if (newDuration === void 0) { newDuration = -1.0; }
                 if (this.isSequenced) {
                     DG.Tweening.Core.Debugger.LogError(DG.Tweening.Core.TweenerCore$3(T1,T2,TPlugOptions)._TxtCantChangeSequencedValues, this);
@@ -19814,6 +21315,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.TweenerCore$3.SetFrom start.*/
             SetFrom: function (relative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#SetFrom", this ); }
+
                 this.tweenPlugin.SetFrom$1(this, relative);
                 this.hasManuallySetStartValue = true;
                 return this;
@@ -19822,6 +21325,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.TweenerCore$3.SetFrom$1 start.*/
             SetFrom$1: function (fromValue, setImmediately, relative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#SetFrom$1", this ); }
+
                 this.tweenPlugin.SetFrom(this, Bridge.rValue(fromValue), setImmediately, relative);
                 this.hasManuallySetStartValue = true;
                 return this;
@@ -19830,6 +21335,8 @@ Bridge.rValue(                    t).isSpeedBased = isSpeedBased;
 
             /*DG.Tweening.Core.TweenerCore$3.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#Reset", this ); }
+
                 DG.Tweening.Tweener.prototype.Reset.call(this);
 
                 if (this.tweenPlugin != null) {
@@ -19848,6 +21355,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Core.TweenerCore$3.Validate start.*/
             Validate: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#Validate", this ); }
+
                 try {
                     this.getter();
                 } catch ($e1) {
@@ -19861,6 +21370,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Core.TweenerCore$3.ValidateChangeValueType start.*/
             ValidateChangeValueType: function (newType, isColor32ToColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ValidateChangeValueType", this ); }
+
                 if (Bridge.referenceEquals(newType, this.typeofT2)) {
                     isColor32ToColor.v = false;
                     return true;
@@ -19878,18 +21389,24 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Core.TweenerCore$3.UpdateDelay start.*/
             UpdateDelay: function (elapsed) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#UpdateDelay", this ); }
+
                 return DG.Tweening.Tweener.DoUpdateDelay(T1, T2, TPlugOptions, this, elapsed);
             },
             /*DG.Tweening.Core.TweenerCore$3.UpdateDelay end.*/
 
             /*DG.Tweening.Core.TweenerCore$3.Startup start.*/
             Startup: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#Startup", this ); }
+
                 return DG.Tweening.Tweener.DoStartup(T1, T2, TPlugOptions, this);
             },
             /*DG.Tweening.Core.TweenerCore$3.Startup end.*/
 
             /*DG.Tweening.Core.TweenerCore$3.ApplyTween start.*/
             ApplyTween: function (prevPosition, prevCompletedLoops, newCompletedSteps, useInversePosition, updateMode, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Core.TweenerCore$3#ApplyTween", this ); }
+
                 if (this.isInverted) {
                     useInversePosition = !useInversePosition;
                 }
@@ -19960,6 +21477,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
                  * @return  {DG.Tweening.CustomPlugins.PureQuaternionPlugin}
                  */
                 Plug: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#Plug", this ); }
+
                     if (DG.Tweening.CustomPlugins.PureQuaternionPlugin._plug == null) {
                         DG.Tweening.CustomPlugins.PureQuaternionPlugin._plug = new DG.Tweening.CustomPlugins.PureQuaternionPlugin();
                     }
@@ -19984,7 +21503,9 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @param   {DG.Tweening.Core.TweenerCore$3}    t
              * @return  {void}
              */
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#Reset", this ); }
+ },
             /*DG.Tweening.CustomPlugins.PureQuaternionPlugin.Reset end.*/
 
             /*DG.Tweening.CustomPlugins.PureQuaternionPlugin.SetFrom$1 start.*/
@@ -20001,6 +21522,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {void}
              */
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = isRelative ? t.endValue.clone().mul( prevEndVal ) : prevEndVal.$clone();
@@ -20024,6 +21547,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {void}
              */
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = currVal.clone().mul( t.endValue );
@@ -20051,6 +21576,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {UnityEngine.Quaternion}
              */
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.CustomPlugins.PureQuaternionPlugin.ConvertToStartValue end.*/
@@ -20068,6 +21595,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {void}
              */
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.$clone().clone().mul( t.startValue.$clone() );
             },
             /*DG.Tweening.CustomPlugins.PureQuaternionPlugin.SetRelativeEndValue end.*/
@@ -20085,6 +21614,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {void}
              */
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#SetChangeValue", this ); }
+
                 //            t.changeValue.x = t.endValue.x - t.startValue.x;
                 //            t.changeValue.y = t.endValue.y - t.startValue.y;
                 //            t.changeValue.z = t.endValue.z - t.startValue.z;
@@ -20108,6 +21639,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {number}
              */
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#GetSpeedBasedDuration", this ); }
+
                 return changeValue.getPositiveEulerAngles().length() / unitsXSecond;
             },
             /*DG.Tweening.CustomPlugins.PureQuaternionPlugin.GetSpeedBasedDuration end.*/
@@ -20135,6 +21668,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
              * @return  {void}
              */
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.CustomPlugins.PureQuaternionPlugin#EvaluateAndApply", this ); }
+
                 //            if (t.loopType == LoopType.Incremental) startValue *= changeValue * (t.isComplete ? t.completedLoops - 1 : t.completedLoops);
                 //            if (t.isSequenced && t.sequenceParent.loopType == LoopType.Incremental) {
                 //                startValue += changeValue * (t.loopType == LoopType.Incremental ? t.loops : 1)
@@ -20163,11 +21698,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(DG.Tweening.Color2,DG.Tweening.Color2,DG.Tweening.Plugins.Options.ColorOptions)],
         methods: {
             /*DG.Tweening.Plugins.Color2Plugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.Color2Plugin.Reset end.*/
 
             /*DG.Tweening.Plugins.Color2Plugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#SetFrom$1", this ); }
+
                 var $t, $t1;
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
@@ -20191,6 +21730,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.Color2Plugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = DG.Tweening.Color2.op_Addition(t.endValue.$clone(), currVal.$clone());
@@ -20213,30 +21754,40 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.Color2Plugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.Color2Plugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.Color2Plugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#SetRelativeEndValue", this ); }
+
                 t.endValue = DG.Tweening.Color2.op_Addition(t.endValue.$clone(), t.startValue.$clone());
             },
             /*DG.Tweening.Plugins.Color2Plugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.Color2Plugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#SetChangeValue", this ); }
+
                 t.changeValue = DG.Tweening.Color2.op_Subtraction(t.endValue.$clone(), t.startValue.$clone());
             },
             /*DG.Tweening.Plugins.Color2Plugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.Color2Plugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#GetSpeedBasedDuration", this ); }
+
                 return 1.0 / unitsXSecond;
             },
             /*DG.Tweening.Plugins.Color2Plugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.Color2Plugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.Color2Plugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = DG.Tweening.Color2.op_Addition(startValue.$clone(), DG.Tweening.Color2.op_Multiply(changeValue.$clone(), (t.isComplete ? t.completedLoops - 1 : t.completedLoops)));
                 }
@@ -20280,11 +21831,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions)],
         methods: {
             /*DG.Tweening.Plugins.ColorPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.ColorPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.ColorPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue.$clone();
                 t.endValue = t.getter().$clone();
                 t.startValue = isRelative ? new pc.Color( t.endValue.r + prevEndVal.r, t.endValue.g + prevEndVal.g, t.endValue.b + prevEndVal.b, t.endValue.a + prevEndVal.a ) : prevEndVal.$clone();
@@ -20301,6 +21856,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.ColorPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter().$clone();
                     t.endValue = new pc.Color( t.endValue.$clone().r + currVal.$clone().r, t.endValue.$clone().g + currVal.$clone().g, t.endValue.$clone().b + currVal.$clone().b, t.endValue.$clone().a + currVal.$clone().a );
@@ -20322,30 +21879,40 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.ColorPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#ConvertToStartValue", this ); }
+
                 return value.$clone();
             },
             /*DG.Tweening.Plugins.ColorPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.ColorPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue = new pc.Color( t.endValue.$clone().r + t.startValue.$clone().r, t.endValue.$clone().g + t.startValue.$clone().g, t.endValue.$clone().b + t.startValue.$clone().b, t.endValue.$clone().a + t.startValue.$clone().a );
             },
             /*DG.Tweening.Plugins.ColorPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.ColorPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#SetChangeValue", this ); }
+
                 t.changeValue = new pc.Color( t.endValue.r - t.startValue.r, t.endValue.g - t.startValue.g, t.endValue.b - t.startValue.b, t.endValue.a - t.startValue.a );
             },
             /*DG.Tweening.Plugins.ColorPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.ColorPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#GetSpeedBasedDuration", this ); }
+
                 return 1.0 / unitsXSecond;
             },
             /*DG.Tweening.Plugins.ColorPlugin.GetSpeedBasedDuration end.*/
 
             /*DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.ColorPlugin#EvaluateAndApply", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = ($t1 = ($t = (t.isComplete ? t.completedLoops - 1 : t.completedLoops), new pc.Color( changeValue.r * $t, changeValue.g * $t, changeValue.b * $t, changeValue.a * $t )), new pc.Color( startValue.$clone().r + $t1.r, startValue.$clone().g + $t1.g, startValue.$clone().b + $t1.b, startValue.$clone().a + $t1.a ));
@@ -20385,11 +21952,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.Double,System.Double,DG.Tweening.Plugins.Options.NoOptions)],
         methods: {
             /*DG.Tweening.Plugins.DoublePlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.DoublePlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.DoublePlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue + prevEndVal : prevEndVal;
@@ -20399,6 +21970,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.DoublePlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue += currVal;
@@ -20414,24 +21987,32 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.DoublePlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.DoublePlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.DoublePlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#SetRelativeEndValue", this ); }
+
                 t.endValue += t.startValue;
             },
             /*DG.Tweening.Plugins.DoublePlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.DoublePlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue - t.startValue;
             },
             /*DG.Tweening.Plugins.DoublePlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.DoublePlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -20443,6 +22024,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.DoublePlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.DoublePlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue += changeValue * (t.isComplete ? t.completedLoops - 1 : t.completedLoops);
                 }
@@ -20468,11 +22051,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions)],
         methods: {
             /*DG.Tweening.Plugins.FloatPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.FloatPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.FloatPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue + prevEndVal : prevEndVal;
@@ -20482,6 +22069,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.FloatPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue += currVal;
@@ -20497,24 +22086,32 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.FloatPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.FloatPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.FloatPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue += t.startValue;
             },
             /*DG.Tweening.Plugins.FloatPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.FloatPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue - t.startValue;
             },
             /*DG.Tweening.Plugins.FloatPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.FloatPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -20526,6 +22123,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.FloatPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.FloatPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue += changeValue * (t.isComplete ? t.completedLoops - 1 : t.completedLoops);
                 }
@@ -20551,11 +22150,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions)],
         methods: {
             /*DG.Tweening.Plugins.IntPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.IntPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.IntPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue + prevEndVal : prevEndVal;
@@ -20565,6 +22168,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.IntPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue += currVal;
@@ -20580,24 +22185,32 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.IntPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.IntPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.IntPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue += t.startValue;
             },
             /*DG.Tweening.Plugins.IntPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.IntPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue - t.startValue;
             },
             /*DG.Tweening.Plugins.IntPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.IntPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -20609,6 +22222,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.IntPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.IntPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue += changeValue * (t.isComplete ? t.completedLoops - 1 : t.completedLoops);
                 }
@@ -20634,11 +22249,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.Int64,System.Int64,DG.Tweening.Plugins.Options.NoOptions)],
         methods: {
             /*DG.Tweening.Plugins.LongPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.LongPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.LongPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue.add(prevEndVal) : prevEndVal;
@@ -20648,6 +22267,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.LongPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue = t.endValue.add(currVal);
@@ -20663,24 +22284,32 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.LongPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.LongPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.LongPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.add(t.startValue);
             },
             /*DG.Tweening.Plugins.LongPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.LongPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue.sub(t.startValue);
             },
             /*DG.Tweening.Plugins.LongPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.LongPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -20692,6 +22321,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.LongPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.LongPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = startValue.add(changeValue.mul(System.Int64((t.isComplete ? t.completedLoops - 1 : t.completedLoops))));
                 }
@@ -20721,6 +22352,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#init", this ); }
+
                     this._r = new UnityEngine.RectOffset.ctor();
                 }
             }
@@ -20728,12 +22361,16 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         methods: {
             /*DG.Tweening.Plugins.RectOffsetPlugin.Reset start.*/
             Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#Reset", this ); }
+
                 t.startValue = (t.endValue = (t.changeValue = null));
             },
             /*DG.Tweening.Plugins.RectOffsetPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = prevEndVal;
@@ -20750,6 +22387,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue.left += currVal.left;
@@ -20771,12 +22410,16 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#ConvertToStartValue", this ); }
+
                 return new UnityEngine.RectOffset.$ctor1(value.left, value.right, value.top, value.bottom);
             },
             /*DG.Tweening.Plugins.RectOffsetPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue.left += t.startValue.left;
                 t.endValue.right += t.startValue.right;
                 t.endValue.top += t.startValue.top;
@@ -20786,12 +22429,16 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#SetChangeValue", this ); }
+
                 t.changeValue = new UnityEngine.RectOffset.$ctor1(t.endValue.left - t.startValue.left, t.endValue.right - t.startValue.right, t.endValue.top - t.startValue.top, t.endValue.bottom - t.startValue.bottom);
             },
             /*DG.Tweening.Plugins.RectOffsetPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#GetSpeedBasedDuration", this ); }
+
                 // Uses length of diagonal to calculate units.
                 var diffW = changeValue.right;
                 if (diffW < 0) {
@@ -20810,6 +22457,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.RectOffsetPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.RectOffsetPlugin#EvaluateAndApply", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7;
                 DG.Tweening.Plugins.RectOffsetPlugin._r.left = startValue.left;
                 DG.Tweening.Plugins.RectOffsetPlugin._r.right = startValue.right;
@@ -20858,11 +22507,15 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
         inherits: [DG.Tweening.Plugins.Core.ABSTweenPlugin$3(System.UInt64,System.UInt64,DG.Tweening.Plugins.Options.NoOptions)],
         methods: {
             /*DG.Tweening.Plugins.UlongPlugin.Reset start.*/
-            Reset: function (t) { },
+            Reset: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#Reset", this ); }
+ },
             /*DG.Tweening.Plugins.UlongPlugin.Reset end.*/
 
             /*DG.Tweening.Plugins.UlongPlugin.SetFrom$1 start.*/
             SetFrom$1: function (t, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#SetFrom$1", this ); }
+
                 var prevEndVal = t.endValue;
                 t.endValue = t.getter();
                 t.startValue = isRelative ? t.endValue.add(prevEndVal) : prevEndVal;
@@ -20872,6 +22525,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.UlongPlugin.SetFrom start.*/
             SetFrom: function (t, fromValue, setImmediately, isRelative) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#SetFrom", this ); }
+
                 if (isRelative) {
                     var currVal = t.getter();
                     t.endValue = t.endValue.add(currVal);
@@ -20887,24 +22542,32 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.UlongPlugin.ConvertToStartValue start.*/
             ConvertToStartValue: function (t, value) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#ConvertToStartValue", this ); }
+
                 return value;
             },
             /*DG.Tweening.Plugins.UlongPlugin.ConvertToStartValue end.*/
 
             /*DG.Tweening.Plugins.UlongPlugin.SetRelativeEndValue start.*/
             SetRelativeEndValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#SetRelativeEndValue", this ); }
+
                 t.endValue = t.endValue.add(t.startValue);
             },
             /*DG.Tweening.Plugins.UlongPlugin.SetRelativeEndValue end.*/
 
             /*DG.Tweening.Plugins.UlongPlugin.SetChangeValue start.*/
             SetChangeValue: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#SetChangeValue", this ); }
+
                 t.changeValue = t.endValue.sub(t.startValue);
             },
             /*DG.Tweening.Plugins.UlongPlugin.SetChangeValue end.*/
 
             /*DG.Tweening.Plugins.UlongPlugin.GetSpeedBasedDuration start.*/
             GetSpeedBasedDuration: function (options, unitsXSecond, changeValue) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#GetSpeedBasedDuration", this ); }
+
                 var res = changeValue / unitsXSecond;
                 if (res < 0) {
                     res = -res;
@@ -20916,6 +22579,8 @@ Bridge.rValue(                this.plugOptions).DG$Tweening$Plugins$Options$IPlu
 
             /*DG.Tweening.Plugins.UlongPlugin.EvaluateAndApply start.*/
             EvaluateAndApply: function (options, t, isRelative, getter, setter, elapsed, startValue, changeValue, duration, usingInversePosition, updateNotice) {
+if ( TRACE ) { TRACE( "DG.Tweening.Plugins.UlongPlugin#EvaluateAndApply", this ); }
+
                 if (t.loopType === DG.Tweening.LoopType.Incremental) {
                     startValue = startValue.add(changeValue.mul(System.UInt64((t.isComplete ? t.completedLoops - 1 : t.completedLoops))));
                 }

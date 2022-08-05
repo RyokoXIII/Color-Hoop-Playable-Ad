@@ -1,3 +1,4 @@
+if ( TRACE ) { TRACE( JSON.parse( '["Newtonsoft.Json.JsonException#ctor","Newtonsoft.Json.JsonException#$ctor1","Newtonsoft.Json.JsonException#$ctor2","Newtonsoft.Json.JsonPropertyAttribute#NullValueHandling#get","Newtonsoft.Json.JsonPropertyAttribute#NullValueHandling#set","Newtonsoft.Json.JsonPropertyAttribute#DefaultValueHandling#get","Newtonsoft.Json.JsonPropertyAttribute#DefaultValueHandling#set","Newtonsoft.Json.JsonPropertyAttribute#ObjectCreationHandling#get","Newtonsoft.Json.JsonPropertyAttribute#ObjectCreationHandling#set","Newtonsoft.Json.JsonPropertyAttribute#TypeNameHandling#get","Newtonsoft.Json.JsonPropertyAttribute#TypeNameHandling#set","Newtonsoft.Json.JsonPropertyAttribute#Required#get","Newtonsoft.Json.JsonPropertyAttribute#Required#set","Newtonsoft.Json.JsonPropertyAttribute#Order#get","Newtonsoft.Json.JsonPropertyAttribute#Order#set","Newtonsoft.Json.JsonPropertyAttribute#ctor","Newtonsoft.Json.JsonPropertyAttribute#$ctor1","Newtonsoft.Json.JsonSerializerSettings#init","Newtonsoft.Json.JsonSerializerSettings#NullValueHandling#get","Newtonsoft.Json.JsonSerializerSettings#NullValueHandling#set","Newtonsoft.Json.JsonSerializerSettings#ObjectCreationHandling#get","Newtonsoft.Json.JsonSerializerSettings#ObjectCreationHandling#set","Newtonsoft.Json.JsonSerializerSettings#DefaultValueHandling#get","Newtonsoft.Json.JsonSerializerSettings#DefaultValueHandling#set","Newtonsoft.Json.JsonSerializerSettings#TypeNameHandling#get","Newtonsoft.Json.JsonSerializerSettings#TypeNameHandling#set","Newtonsoft.Json.Utils.AssemblyVersion#init","Newtonsoft.Json.JsonSerializationException#ctor","Newtonsoft.Json.JsonSerializationException#$ctor1","Newtonsoft.Json.JsonSerializationException#$ctor2","Newtonsoft.Json.JsonConvert#stringify","Newtonsoft.Json.JsonConvert#parse","Newtonsoft.Json.JsonConvert#getEnumerableElementType","Newtonsoft.Json.JsonConvert#validateReflectable","Newtonsoft.Json.JsonConvert#defaultGuard","Newtonsoft.Json.JsonConvert#getValue","Newtonsoft.Json.JsonConvert#getCacheByType","Newtonsoft.Json.JsonConvert#getMembers","Newtonsoft.Json.JsonConvert#preRawProcess","Newtonsoft.Json.JsonConvert#preProcess","Newtonsoft.Json.JsonConvert#PopulateObject","Newtonsoft.Json.JsonConvert#BindToName","Newtonsoft.Json.JsonConvert#BindToType","Newtonsoft.Json.JsonConvert#SplitFullyQualifiedTypeName","Newtonsoft.Json.JsonConvert#GetAssemblyDelimiterIndex","Newtonsoft.Json.JsonConvert#Trim","Newtonsoft.Json.JsonConvert#SerializeObject","Newtonsoft.Json.JsonConvert#getInstanceBuilder","Newtonsoft.Json.JsonConvert#createInstance","Newtonsoft.Json.JsonConvert#needReuse","Newtonsoft.Json.JsonConvert#tryToGetCastOperator","Newtonsoft.Json.JsonConvert#DeserializeObject"]' ) ); }
 /*
  * @version   : 1.16.0 - A Bridge.NET implementation of Newtonsoft.Json
  * @author    : Object.NET, Inc. http://www.bridge.net/
@@ -44,14 +45,20 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         inherits: [System.Exception],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonException#ctor", this ); }
+
                 this.$initialize();
                 System.Exception.ctor.call(this);
             },
             $ctor1: function (message) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonException#$ctor1", this ); }
+
                 this.$initialize();
                 System.Exception.ctor.call(this, message);
             },
             $ctor2: function (message, innerException) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonException#$ctor2", this ); }
+
                 this.$initialize();
                 System.Exception.ctor.call(this, message, innerException);
             }
@@ -75,55 +82,79 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         props: {
             NullValueHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#NullValueHandling#get", this ); }
+
                     var $t;
                     return ($t = this._nullValueHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#NullValueHandling#set", this ); }
+
                     this._nullValueHandling = value;
                 }
             },
             DefaultValueHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#DefaultValueHandling#get", this ); }
+
                     var $t;
                     return ($t = this._defaultValueHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#DefaultValueHandling#set", this ); }
+
                     this._defaultValueHandling = value;
                 }
             },
             ObjectCreationHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#ObjectCreationHandling#get", this ); }
+
                     var $t;
                     return ($t = this._objectCreationHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#ObjectCreationHandling#set", this ); }
+
                     this._objectCreationHandling = value;
                 }
             },
             TypeNameHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#TypeNameHandling#get", this ); }
+
                     var $t;
                     return ($t = this._typeNameHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#TypeNameHandling#set", this ); }
+
                     this._typeNameHandling = value;
                 }
             },
             Required: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#Required#get", this ); }
+
                     var $t;
                     return ($t = this._required, $t != null ? $t : Newtonsoft.Json.Required.Default);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#Required#set", this ); }
+
                     this._required = value;
                 }
             },
             Order: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#Order#get", this ); }
+
                     var $t;
                     return ($t = this._order, $t != null ? $t : Bridge.getDefaultValue(System.Int32));
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#Order#set", this ); }
+
                     this._order = value;
                 }
             },
@@ -131,10 +162,14 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#ctor", this ); }
+
                 this.$initialize();
                 System.Attribute.ctor.call(this);
             },
             $ctor1: function (propertyName) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonPropertyAttribute#$ctor1", this ); }
+
                 this.$initialize();
                 System.Attribute.ctor.call(this);
                 this.PropertyName = propertyName;
@@ -150,6 +185,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#init", this ); }
+
                     this.DefaultNullValueHandling = Newtonsoft.Json.NullValueHandling.Include;
                     this.DefaultTypeNameHandling = Newtonsoft.Json.TypeNameHandling.None;
                 }
@@ -164,37 +201,53 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         props: {
             NullValueHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#NullValueHandling#get", this ); }
+
                     var $t;
                     return ($t = this._nullValueHandling, $t != null ? $t : Newtonsoft.Json.JsonSerializerSettings.DefaultNullValueHandling);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#NullValueHandling#set", this ); }
+
                     this._nullValueHandling = value;
                 }
             },
             ObjectCreationHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#ObjectCreationHandling#get", this ); }
+
                     var $t;
                     return ($t = this._objectCreationHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#ObjectCreationHandling#set", this ); }
+
                     this._objectCreationHandling = value;
                 }
             },
             DefaultValueHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#DefaultValueHandling#get", this ); }
+
                     var $t;
                     return ($t = this._defaultValueHandling, $t != null ? $t : 0);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#DefaultValueHandling#set", this ); }
+
                     this._defaultValueHandling = value;
                 }
             },
             TypeNameHandling: {
                 get: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#TypeNameHandling#get", this ); }
+
                     var $t;
                     return ($t = this._typeNameHandling, $t != null ? $t : Newtonsoft.Json.JsonSerializerSettings.DefaultTypeNameHandling);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializerSettings#TypeNameHandling#set", this ); }
+
                     this._typeNameHandling = value;
                 }
             },
@@ -266,6 +319,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.Utils.AssemblyVersion#init", this ); }
+
                     this.version = "1.16.0";
                     this.compiler = "17.9.0";
                 }
@@ -277,14 +332,20 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         inherits: [Newtonsoft.Json.JsonException],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializationException#ctor", this ); }
+
                 this.$initialize();
                 Newtonsoft.Json.JsonException.ctor.call(this);
             },
             $ctor1: function (message) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializationException#$ctor1", this ); }
+
                 this.$initialize();
                 Newtonsoft.Json.JsonException.$ctor1.call(this, message);
             },
             $ctor2: function (message, innerException) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonSerializationException#$ctor2", this ); }
+
                 this.$initialize();
                 Newtonsoft.Json.JsonException.$ctor2.call(this, message, innerException);
             }
@@ -302,6 +363,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
         statics: {
             methods: {
                 stringify: function (value, formatting, settings) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#stringify", this ); }
+
                     if (formatting === Newtonsoft.Json.Formatting.Indented) {
                         return JSON.stringify(value, null, "  ");
                     }
@@ -310,6 +373,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 parse: function (value) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#parse", this ); }
+
                     try {
                         return JSON.parse(value);
                     } catch (e) {
@@ -325,6 +390,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 getEnumerableElementType: function (type) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#getEnumerableElementType", this ); }
+
                     var interfaceType;
                     if (System.String.startsWith(type.$$name, "System.Collections.Generic.IEnumerable")) {
                         interfaceType = type;
@@ -343,6 +410,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 validateReflectable: function (type) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#validateReflectable", this ); }
+
                     do {
                         var ignoreMetaData = type === System.Object || type === Object || type.$literal || type.$kind === "anonymous",
                             nometa = !Bridge.getMetadata(type);
@@ -359,10 +428,14 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 defaultGuard: function () {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#defaultGuard", this ); }
+
                     Bridge.$jsonGuard && Bridge.$jsonGuard.pop();
                 },
 
                 getValue: function (obj, name) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#getValue", this ); }
+
                     name = name.toLowerCase();
                     for (var key in obj) {
                         if (key.toLowerCase() == name) {
@@ -372,6 +445,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 getCacheByType: function (type) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#getCacheByType", this ); }
+
                     for (var i = 0; i < Newtonsoft.Json.$cache.length; i++) {
                         var t = Newtonsoft.Json.$cache[i];
 
@@ -387,6 +462,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 getMembers: function (type, memberCode) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#getMembers", this ); }
+
                     var cache = Newtonsoft.Json.JsonConvert.getCacheByType(type);
 
                     if (cache[memberCode]) {
@@ -424,6 +501,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 preRawProcess: function (cfg, instance, value, settings) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#preRawProcess", this ); }
+
                     var attr = cfg.attr,
                         defaultValueHandling = attr && attr._defaultValueHandling != null ? attr._defaultValueHandling : settings.DefaultValueHandling,
                         required = attr && attr.Required;
@@ -448,6 +527,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 preProcess: function (cfg, instance, value, settings) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#preProcess", this ); }
+
                     var attr = cfg.attr,
                         defaultValueHandling = attr && attr._defaultValueHandling != null ? attr._defaultValueHandling : settings.DefaultValueHandling,
                         nullValueHandling = attr && attr._nullValueHandling != null ? attr._nullValueHandling : settings.NullValueHandling;
@@ -468,6 +549,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 PopulateObject: function (value, target, settings, schema) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#PopulateObject", this ); }
+
                     settings = settings || {};
                     var targetType = Bridge.getType(target);
 
@@ -621,6 +704,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 BindToName: function (settings, type) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#BindToName", this ); }
+
                     if (settings && settings.SerializationBinder && settings.SerializationBinder.Newtonsoft$Json$Serialization$ISerializationBinder$BindToName) {
                         var asm = {},
                             name = {};
@@ -633,6 +718,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 BindToType: function (settings, fullName, objectType) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#BindToType", this ); }
+
                     var type;
                     if (settings && settings.SerializationBinder && settings.SerializationBinder.Newtonsoft$Json$Serialization$ISerializationBinder$BindToType) {
                         var type = Newtonsoft.Json.JsonConvert.SplitFullyQualifiedTypeName(fullName);
@@ -654,6 +741,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 SplitFullyQualifiedTypeName: function (fullyQualifiedTypeName) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#SplitFullyQualifiedTypeName", this ); }
+
                     var assemblyDelimiterIndex = Newtonsoft.Json.JsonConvert.GetAssemblyDelimiterIndex(fullyQualifiedTypeName);
 
                     var typeName;
@@ -674,6 +763,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 GetAssemblyDelimiterIndex: function (fullyQualifiedTypeName) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#GetAssemblyDelimiterIndex", this ); }
+
 
                     var scope = 0;
                     for (var i = 0; i < fullyQualifiedTypeName.length; i = (i + 1) | 0) {
@@ -697,6 +788,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 Trim: function (s, start, length) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#Trim", this ); }
+
                     var end = (((start + length) | 0) - 1) | 0;
                     if (end >= s.length) {
                         throw new System.ArgumentOutOfRangeException.$ctor1("length");
@@ -715,6 +808,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 SerializeObject: function (obj, formatting, settings, returnRaw, possibleType, dictKey) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#SerializeObject", this ); }
+
                     if (Bridge.is(formatting, Newtonsoft.Json.JsonSerializerSettings)) {
                         settings = formatting;
                         formatting = 0;
@@ -1019,6 +1114,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 getInstanceBuilder: function (type, raw, settings) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#getInstanceBuilder", this ); }
+
                     var rawIsArray = Bridge.isArray(raw),
                         isEnumerable = rawIsArray && Bridge.Reflection.isAssignableFrom(System.Collections.IEnumerable, type),
                         isObject = typeof raw === "object" && !rawIsArray,
@@ -1233,11 +1330,15 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 createInstance: function (type, raw, settings) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#createInstance", this ); }
+
                     var builder = this.getInstanceBuilder(type, raw, settings);
                     return builder(raw);
                 },
 
                 needReuse: function (objectCreationHandling, value, type, isDefCtor) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#needReuse", this ); }
+
                     if (objectCreationHandling === Newtonsoft.Json.ObjectCreationHandling.Reuse || (objectCreationHandling === Newtonsoft.Json.ObjectCreationHandling.Auto && value != null)) {
                         if (isDefCtor && 
                             type.$kind !== "struct" &&
@@ -1264,6 +1365,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 tryToGetCastOperator: function (raw, type) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#tryToGetCastOperator", this ); }
+
                     // Implicit/explicit operators are not supported for null inputs values because we don't know what the source type is (this is consistent with the Newtonsoft implementation).
                     // They are also only supported for particular primitive values - again, consistent with Newtonsoft and due to limited source type information. Newtonsoft parses numbers as
                     // either Int64 or Double, depending upon whether the input string includes a ".", but we don't have that information here (a number is always parsed into the type "number")
@@ -1296,6 +1399,8 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                 },
 
                 DeserializeObject: function (raw, type, settings, field, instance, i_names) {
+if ( TRACE ) { TRACE( "Newtonsoft.Json.JsonConvert#DeserializeObject", this ); }
+
                     settings = settings || {};
                     if (type.$kind === "interface") {
                         if (System.Collections.IDictionary === type) {

@@ -6,17 +6,24 @@ public class StickManager : MonoBehaviour
     public List<HopManager> hops;
 
     public bool isDone;
+    public bool isShowFinish;
 
-    int indexStick;
+    public int indexStick;
 
     [SerializeField] ParticleSystem victoryEffect;
 
     [SerializeField] GameObject stick4;
     [SerializeField] GameObject stick5;
 
+    public GameObject startPoint;
+
+
+
     public void Initialize(int countHop, int index)
     {
         isDone = false;
+        isShowFinish = false;
+
         stick4.SetActive(countHop >= 4);
         stick5.SetActive(countHop > 4);
 
@@ -34,16 +41,37 @@ public class StickManager : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public bool CheckFullHop(int maxHop)
+    {
+        return hops.Count == maxHop;
+    }
+
+    bool hasFirstStart = false;
 
     void OnMouseDown()
     {
-        if (GameManager.instance.currentLevel == 0)
+        if (GameManager.instance.turn > 0)
         {
-            UIManager.instance.ButtonGuide();
+            UIManager.instance.timer.currentTime = 3;
+            //GameManager.instance.hasReboot = false;
         }
-        
-        if(UIManager.instance.textHint.gameObject.activeInHierarchy == true)
-            UIManager.instance.textHint.gameObject.SetActive(false);
+
+        if (!GameManager.instance.canClickHop)
+        {
+            return;
+        }
+
+        if (GameManager.instance.hasPlayMusic == false)
+        {
+            GameManager.instance.hasPlayMusic = true;
+            GameManager.instance.bgMusic.Play();
+        }
+
+        UIManager.instance.ButtonGuide();
+
+
+        //if (UIManager.instance.textHint.gameObject.activeInHierarchy == true)
+        //    UIManager.instance.textHint.gameObject.SetActive(false);
 
 
         if (GameManager.instance.gameState != GameState.WIN && isDone == false)
@@ -66,13 +94,13 @@ public class StickManager : MonoBehaviour
                 {
                     if (hops.Count == 0)
                     {
-                        GameManager.instance.MoveStickAToStickB(indexStick);
+                        StartCoroutine(GameManager.instance.MoveStickAToStickB(indexStick));
                     }
                     else
                     {
                         if (GameManager.instance.CheckSameColor(indexStick))
                         {
-                            GameManager.instance.MoveStickAToStickB(indexStick);
+                            StartCoroutine(GameManager.instance.MoveStickAToStickB(indexStick));
                         }
                         else
                         {
@@ -84,6 +112,26 @@ public class StickManager : MonoBehaviour
         }
     }
 
+    public int GetCountSameColor()
+    {
+        int countSameColor = 0;
+        HoopColor typeHop = hops[hops.Count - 1].hoopColor;
+        for (int i = hops.Count - 1; i >= 0; i--)
+        {
+            if (hops[i].hoopColor == typeHop)
+                countSameColor++;
+            else
+                break;
+        }
+
+        return countSameColor;
+    }
+
+    public int GetCountEmptyHop()
+    {
+        return GameManager.instance.countHop - hops.Count;
+    }
+
     public Vector3 GetLastPosition()
     {
         Vector3 position = transform.position;
@@ -91,7 +139,7 @@ public class StickManager : MonoBehaviour
         position.y = (hops.Count - 1) * GameManager.instance.config.distanceHop;
 
         return position;
-    }    
+    }
 
     public bool CheckEndStick()
     {
@@ -103,8 +151,8 @@ public class StickManager : MonoBehaviour
                 {
                     return false;
                 }
-            }            
-            victoryEffect.Play();
+            }
+            //victoryEffect.Play();
             isDone = true;
 
             return true;
@@ -113,5 +161,18 @@ public class StickManager : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public bool CanShowFinish()
+    {
+        return isDone && !isShowFinish;
+    }
+
+    public void ActionWhenDoneShow()
+    {
+        SoundManager.instance.PlayStickFinish();
+        isShowFinish = true;
+        //Lid fall
+        victoryEffect.Play();
     }
 }

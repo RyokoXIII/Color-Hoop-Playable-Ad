@@ -6,9 +6,9 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    [SerializeField] AudioSource[] audios;
+    //[SerializeField] AudioSource[] audios;
+    public AudioSource audio;
     [SerializeField] AudioClip hopFly;
-    [SerializeField] AudioClip hopDrop;
     [SerializeField] AudioClip hopSelect;
     [SerializeField] AudioClip stickFinish;
     [SerializeField] AudioClip win;
@@ -22,47 +22,54 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+
     void PlayAudio(AudioClip clip)
     {
-        for (int i = 0; i < audios.Length; i++)
-        {
-            if (!audios[i].isPlaying)
-            {
-                audios[i].clip = clip;
-                audios[i].Play();
+        //for (int i = 0; i < audios.Length; i++)
+        //{
+        //    if (!audios[i].isPlaying)
+        //    {
+        //        audios[i].clip = clip;
+        //        audios[i].Play();
 
-                break;
-            }
-        }
+        //        break;
+        //    }
+        //}        
     }
 
     public void PlayHopFly()
     {
-        PlayAudio(hopFly);
+        //PlayAudio(hopFly);
+        audio.PlayOneShot(hopFly);
     }
 
     public void PlayHopDrop()
     {
-        PlayAudio(hopDrop);
+        //PlayAudio(hopFly);
+        audio.PlayOneShot(hopFly);
     }
 
     public void PlayHopSelect()
     {
-        PlayAudio(hopSelect);
+        //PlayAudio(hopSelect);
+        audio.PlayOneShot(hopSelect);
     }
 
     public void PlayStickFinish()
     {
-        PlayAudio(stickFinish);
+        //PlayAudio(stickFinish);
+        audio.PlayOneShot(stickFinish);
     }
 
     public void PlayWin()
     {
-        PlayAudio(win);
+        //PlayAudio(win);
+        audio.PlayOneShot(win);
     }
 
     public void PlayButton()
     {
-        PlayAudio(button);
+        //PlayAudio(button);
+        audio.PlayOneShot(button);
     }
 }

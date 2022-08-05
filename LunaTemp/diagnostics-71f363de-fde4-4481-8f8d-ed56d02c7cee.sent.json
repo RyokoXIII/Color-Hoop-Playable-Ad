@@ -1,0 +1,186 @@
+{
+    "BuildID": "71f363de-fde4-4481-8f8d-ed56d02c7cee",
+    "Command": "project:deploy",
+    "ProjectID": "57be1bf8-ecdd-499d-b293-0015148d981b",
+    "ProjectStateHash": "7a6c672094b2480e370c4b6930146c51cdca6847fc0e7c0fc5468af43d990dec",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1659598824618,
+    "EndTime": 1659598840933,
+    "PlaygroundUserID": 2520,
+    "OperatingSystem": "win32",
+    "UnityVersion": "2020.3.22f1",
+    "LunaVersion": "3.4.1",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "ffb5ff16-9921-440e-87c6-29efe414a949",
+            "Order": 0,
+            "Timestamp": 1659598834456,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Unlit/Transparent: Tags: \"IGNOREPROJECTOR\"=\"true\" \"QUEUE\"=\"Transparent\" \"RENDERTYPE\"=\"Transparent\" \"LIGHTMODE\"=\"ALWAYS\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Unlit/Transparent: Tags: \"IGNOREPROJECTOR\"=\"true\" \"QUEUE\"=\"Transparent\" \"RENDERTYPE\"=\"Transparent\" \"LIGHTMODE\"=\"ALWAYS\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "a114f3f2-a0e4-4f98-bdb6-151b04eccb20",
+            "Order": 1,
+            "Timestamp": 1659598834643,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Standard: Tags: \"LIGHTMODE\"=\"FORWARDADD\" \"PERFORMANCECHECKS\"=\"False\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Standard: Tags: \"LIGHTMODE\"=\"FORWARDADD\" \"PERFORMANCECHECKS\"=\"False\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "69cf3368-9f75-46f4-8590-b4eb41d32b4a",
+            "Order": 2,
+            "Timestamp": 1659598834643,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Standard: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"PERFORMANCECHECKS\"=\"False\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Standard: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"PERFORMANCECHECKS\"=\"False\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "1f4c702a-cbaa-4f17-b343-9c2fbfcc8555",
+            "Order": 3,
+            "Timestamp": 1659598834690,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"Vertex\" \"RENDERTYPE\"=\"Opaque\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"Vertex\" \"RENDERTYPE\"=\"Opaque\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "5759b1f8-5e19-4edc-845b-bf43bcaaf449",
+            "Order": 4,
+            "Timestamp": 1659598834690,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"VertexLM\" \"RENDERTYPE\"=\"Opaque\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"VertexLM\" \"RENDERTYPE\"=\"Opaque\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "ee179cb4-c05f-4b61-8eec-7a292d0e3b2c",
+            "Order": 5,
+            "Timestamp": 1659598834690,
+            "Stage": 1,
+            "Severity": 2,
+            "ErrorType": 6,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1005",
+            "Description": "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n has problems",
+            "Details": [
+                "Check shader could be compiled for gles rendering platforms (#pragma only_renderers)"
+            ],
+            "DescriptionValues": [
+                "Legacy Shaders/VertexLit: Tags: \"LIGHTMODE\"=\"SHADOWCASTER\" \"RENDERTYPE\"=\"Opaque\" \"SHADOWSUPPORT\"=\"true\"\n"
+            ],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        },
+        {
+            "LogID": "227a6399-768c-4d2e-b447-315ef0a53555",
+            "Order": 6,
+            "Timestamp": 1659598837381,
+            "Stage": 1,
+            "Severity": 1,
+            "ErrorType": 7,
+            "ErrorSubType": 1,
+            "ErrorCode": "LP1002",
+            "Description": "Non-repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "icon_sound_on",
+                "btn claim",
+                "icon_sound_off",
+                "circle1",
+                "plane",
+                "layout_purchaseitem",
+                "CH_claim",
+                "layout_popup_purchaseitem",
+                "Popup",
+                "Group-1",
+                "download"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 11,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": ""
+        }
+    ]
+}

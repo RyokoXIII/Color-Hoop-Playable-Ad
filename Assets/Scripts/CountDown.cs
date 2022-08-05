@@ -6,29 +6,32 @@ public class CountDown : MonoBehaviour
 {
     [SerializeField] UIManager uiManager;
 
-    public Text timeText;
-    public GameObject subTimer;
+    //public Text timeText;
+    //public GameObject subTimer;
 
     public int currentTime = 15;
     public bool isStart = false;
 
 
-    void Awake()
-    {
-        timeText.text = "00:" + currentTime;
-    }
+    //void Awake()
+    //{
+    //    timeText.text = "00:" + currentTime;
+    //}
 
 
     void Update()
     {
-        if (isStart == false && currentTime > 0)
+        if (GameManager.instance.hasPlayMusic == true)
         {
-            StartCoroutine(TimerCallBack());
+            if (isStart == false && currentTime > 0)
+            {
+                StartCoroutine(TimerCallBack());
+            }
         }
-        else if (currentTime == 0)
-        {
-            StartCoroutine(CTAPopupCallBack());
-        }
+        //else if (currentTime == 0)
+        //{
+        //    StartCoroutine(CTAPopupCallBack());
+        //}
     }
 
     IEnumerator TimerCallBack()
@@ -36,15 +39,16 @@ public class CountDown : MonoBehaviour
         isStart = true;
         yield return new WaitForSeconds(1);
         currentTime -= 1;
+        Debug.Log("time to resume tutorial: " + currentTime.ToString());
 
-        if (currentTime < 10)
-        {
-            timeText.text = "00:0" + currentTime;
-        }
-        else
-        {
-            timeText.text = "00:" + currentTime;
-        }
+        //if (currentTime < 10)
+        //{
+        //    timeText.text = "00:0" + currentTime;
+        //}
+        //else
+        //{
+        //    timeText.text = "00:" + currentTime;
+        //}
         isStart = false;
     }
 
@@ -56,7 +60,7 @@ public class CountDown : MonoBehaviour
         if (uiManager.textHint.gameObject.activeInHierarchy == true)
             uiManager.textHint.gameObject.SetActive(false);
 
-        if(uiManager.ctaUI.activeInHierarchy == false)
+        if (uiManager.ctaUI.activeInHierarchy == false)
             uiManager.ctaUI.SetActive(true);
 
         //subTimer.SetActive(true);

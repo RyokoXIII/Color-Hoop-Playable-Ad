@@ -1,7 +1,8 @@
+if ( TRACE ) { TRACE( JSON.parse( '["BackgroundFitCamera#init","BackgroundFitCamera#Fit","BackgroundFitCamera#GetCameraFrustumSize","BackgroundHandler#init","BackgroundHandler#Start","BackgroundHandler#Update","ColorHop#getDefaultValue","ColorHop#ctor","ColorHop#getHashCode","ColorHop#equals","ColorHop#$clone","Constants#init","CountDown#init","CountDown#Update","CountDown#TimerCallBack","CountDown#CTAPopupCallBack","CutoutMaskUI#materialForRendering#get","Database#Awake","Database#GetLevel","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","GameManager#init","GameManager#GetNextStep","GameManager#Awake","GameManager#Start","GameManager#Update","GameManager#TapToStart","GameManager#InitLevel","GameManager#InitHops","GameManager#SortHops","GameManager#SortSticks","GameManager#SortByRow","GameManager#InitStick","GameManager#ResetTapWithoutMove","GameManager#ResetTapWithMove","GameManager#MoveStickAToStickB","GameManager#MoveHop","GameManager#MoveHopWithFirst","GameManager#EndGame","GameManager#ShowRewardCallBack","GameManager#NewLevel","GameManager#CheckCompleted","GameManager#CheckSameColor","GameManager#CheckSameColor2Stick","GameManager#StickHopMoveFirst","GameManager#JellyShake","GameManager#TurnOffDownloadBtn","GameManager.GameConfig#getDefaultValue","GameManager.GameConfig#ctor","GameManager.GameConfig#getHashCode","GameManager.GameConfig#equals","GameManager.GameConfig#$clone","Hop#getDefaultValue","Hop#ctor","Hop#getHashCode","Hop#equals","Hop#$clone","HopManager#ChangeColor","JellyMesh#init","JellyMesh#Start","JellyMesh#FixedUpdate","JellyMesh.JellyVertex#init","JellyMesh.JellyVertex#ctor","JellyMesh.JellyVertex#Shake","Pinwheel.MeshToFile.VersionInfo#Code#get","Pinwheel.MeshToFile.VersionInfo#ProductName#get","Pinwheel.MeshToFile.VersionInfo#ProductNameAndVersion#get","Pinwheel.MeshToFile.VersionInfo#ProductNameShort#get","Pinwheel.MeshToFile.VersionInfo#ProductNameAndVersionShort#get","SimplePool#init","SimplePool#Init","SimplePool#Preload","SimplePool#Spawn","SimplePool#Despawn","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SoundManager#Awake","SoundManager#PlayAudio","SoundManager#PlayHopFly","SoundManager#PlayHopDrop","SoundManager#PlayHopSelect","SoundManager#PlayStickFinish","SoundManager#PlayWin","SoundManager#PlayButton","StickManager#init","StickManager#Initialize","StickManager#ResetForNextLevel","StickManager#CheckFullHop","StickManager#OnMouseDown","StickManager#GetCountSameColor","StickManager#GetCountEmptyHop","StickManager#GetLastPosition","StickManager#CheckEndStick","StickManager#CanShowFinish","StickManager#ActionWhenDoneShow","UIManager#init","UIManager#Awake","UIManager#CheckTutorial","UIManager#ButtonGuide","UIManager#SoundSetting","UIManager#ButtonDirectToStore","UIManager#CompleteRound1","UIManager#ButtonGetReward","UIManager#ActionGetReward","UIManager#ButtonDownload","ViewPortHandler#Update"]' ) ); }
 /**
- * @version 1.0.8000.16990
+ * @version 1.0.8251.26420
  * @copyright anton
- * @compiler Bridge.NET 17.9.12-luna
+ * @compiler Bridge.NET 17.9.13-luna
  */
 Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     "use strict";
@@ -17,21 +18,25 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "BackgroundFitCamera#init", this ); }
+
                 this.backgroundDistanceFromCamera = 10.0;
             }
         },
         methods: {
             /*BackgroundFitCamera.Fit start.*/
             Fit: function () {
+if ( TRACE ) { TRACE( "BackgroundFitCamera#Fit", this ); }
+
                 var backgroundSize = this.backgroundSpriteRenderer.sprite.rect.size.$clone().scale( 1.0 / ( this.backgroundSpriteRenderer.sprite.pixelsPerUnit ) );
                 var cameraFrustumSize = this.GetCameraFrustumSize(this.camera, this.backgroundDistanceFromCamera);
                 var scale = UnityEngine.Mathf.Max(cameraFrustumSize.x / backgroundSize.x, cameraFrustumSize.y / backgroundSize.y);
-                this.backgroundSpriteRenderer.transform.localScale = new pc.Vec3( 1, 1, 1 ).scale( scale );
+                this.backgroundSpriteRenderer.transform.localScale = new pc.Vec3( 1, 1, 1 ).clone().scale( scale );
 
 
                 var cameraForward = this.camera.transform.forward.$clone();
                 this.backgroundSpriteRenderer.transform.forward = this.camera.transform.forward.$clone().scale( -1 );
-                this.backgroundSpriteRenderer.transform.position = this.camera.transform.position.$clone().add( cameraForward.$clone().scale( this.backgroundDistanceFromCamera ) );
+                this.backgroundSpriteRenderer.transform.position = this.camera.transform.position.$clone().add( cameraForward.$clone().clone().scale( this.backgroundDistanceFromCamera ) );
 
 
             },
@@ -39,6 +44,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*BackgroundFitCamera.GetCameraFrustumSize start.*/
             GetCameraFrustumSize: function (camera, distance) {
+if ( TRACE ) { TRACE( "BackgroundFitCamera#GetCameraFrustumSize", this ); }
+
                 var frustumHeight = 2.0 * distance * Math.tan(camera.fieldOfView * 0.5 * UnityEngine.Mathf.Deg2Rad);
                 var frustumWidth = frustumHeight * camera.aspect;
 
@@ -61,12 +68,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "BackgroundHandler#init", this ); }
+
                 this.spriteSize = new UnityEngine.Vector3();
             }
         },
         methods: {
             /*BackgroundHandler.Start start.*/
             Start: function () {
+if ( TRACE ) { TRACE( "BackgroundHandler#Start", this ); }
+
                 //var topRightCorner = main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
                 //var worldSpaceWidth = topRightCorner.x * 2;
                 //var worldSpaceHeight = topRightCorner.y * 2;
@@ -93,6 +104,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*BackgroundHandler.Update start.*/
             Update: function () {
+if ( TRACE ) { TRACE( "BackgroundHandler#Update", this ); }
+
                 var topRightCorner = this.main.ScreenToWorldPoint(new pc.Vec3( UnityEngine.Screen.width, UnityEngine.Screen.height, UnityEngine.Camera.main.transform.position.z ));
                 var worldSpaceWidth = topRightCorner.x * 2;
                 var worldSpaceHeight = topRightCorner.y * 2;
@@ -121,7 +134,9 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new ColorHop(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "ColorHop#getDefaultValue", this ); }
+ return new ColorHop(); }
             }
         },
         fields: {
@@ -129,21 +144,29 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "ColorHop#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "ColorHop#getHashCode", this ); }
+
                 var h = Bridge.addHash([3755718581, this.hopColor]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "ColorHop#equals", this ); }
+
                 if (!Bridge.is(o, ColorHop)) {
                     return false;
                 }
                 return Bridge.equals(this.hopColor, o.hopColor);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "ColorHop#$clone", this ); }
+
                 var s = to || new ColorHop();
                 s.hopColor = this.hopColor;
                 return s;
@@ -160,6 +183,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "Constants#init", this ); }
+
                     this.LEVEL = "level";
                 }
             }
@@ -172,36 +197,38 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         inherits: [UnityEngine.MonoBehaviour],
         fields: {
             uiManager: null,
-            timeText: null,
-            subTimer: null,
             currentTime: 0,
             isStart: false
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "CountDown#init", this ); }
+
                 this.currentTime = 15;
                 this.isStart = false;
             }
         },
         methods: {
-            /*CountDown.Awake start.*/
-            Awake: function () {
-                this.timeText.text = "00:" + this.currentTime;
-            },
-            /*CountDown.Awake end.*/
-
             /*CountDown.Update start.*/
             Update: function () {
-                if (this.isStart === false && this.currentTime > 0) {
-                    this.StartCoroutine$1(this.TimerCallBack());
-                } else if (this.currentTime === 0) {
-                    this.StartCoroutine$1(this.CTAPopupCallBack());
+if ( TRACE ) { TRACE( "CountDown#Update", this ); }
+
+                if (GameManager.instance.hasPlayMusic === true) {
+                    if (this.isStart === false && this.currentTime > 0) {
+                        this.StartCoroutine$1(this.TimerCallBack());
+                    }
                 }
+                //else if (currentTime == 0)
+                //{
+                //    StartCoroutine(CTAPopupCallBack());
+                //}
             },
             /*CountDown.Update end.*/
 
             /*CountDown.TimerCallBack start.*/
             TimerCallBack: function () {
+if ( TRACE ) { TRACE( "CountDown#TimerCallBack", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -219,12 +246,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                                 }
                                 case 1: {
                                     this.currentTime = (this.currentTime - 1) | 0;
+                                        UnityEngine.Debug.Log$1("time to resume tutorial: " + (Bridge.toString(this.currentTime) || ""));
 
-                                        if (this.currentTime < 10) {
-                                            this.timeText.text = "00:0" + this.currentTime;
-                                        } else {
-                                            this.timeText.text = "00:" + this.currentTime;
-                                        }
+                                        //if (currentTime < 10)
+                                        //{
+                                        //    timeText.text = "00:0" + currentTime;
+                                        //}
+                                        //else
+                                        //{
+                                        //    timeText.text = "00:" + currentTime;
+                                        //}
                                         this.isStart = false;
 
                                 }
@@ -244,6 +275,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*CountDown.CTAPopupCallBack start.*/
             CTAPopupCallBack: function () {
+if ( TRACE ) { TRACE( "CountDown#CTAPopupCallBack", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -305,6 +338,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             materialForRendering: {
                 get: function () {
+if ( TRACE ) { TRACE( "CutoutMaskUI#materialForRendering#get", this ); }
+
                     var material = new UnityEngine.Material.$ctor1(Bridge.ensureBaseProperty(this, "materialForRendering").$UnityEngine$UI$Graphic$materialForRendering);
                     material.SetInt$1("_StencilComp", UnityEngine.Rendering.CompareFunction.NotEqual);
                     return material;
@@ -333,6 +368,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         methods: {
             /*Database.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "Database#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(Database.instance, null)) {
                     Database.instance = this;
                 }
@@ -341,6 +378,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*Database.GetLevel start.*/
             GetLevel: function () {
+if ( TRACE ) { TRACE( "Database#GetLevel", this ); }
+
                 return GameManager.instance.currentLevel;
             },
             /*Database.GetLevel end.*/
@@ -364,12 +403,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get", this ); }
+
                     return this.t.active && !DG.Tweening.TweenExtensions.IsComplete(this.t);
                 }
             }
         },
         ctors: {
             ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -389,12 +432,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get", this ); }
+
                     return this.t.active && DG.Tweening.TweenExtensions.CompletedLoops(this.t) < this.elapsedLoops;
                 }
             }
         },
         ctors: {
             ctor: function (tween, elapsedLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -414,12 +461,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get", this ); }
+
                     return this.t.active;
                 }
             }
         },
         ctors: {
             ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -439,12 +490,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get", this ); }
+
                     return this.t.active && this.t.position * (((DG.Tweening.TweenExtensions.CompletedLoops(this.t) + 1) | 0)) < this.position;
                 }
             }
         },
         ctors: {
             ctor: function (tween, position) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -464,12 +519,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get", this ); }
+
                     return this.t.active && (!this.t.playedOnce || this.t.position * (((DG.Tweening.TweenExtensions.CompletedLoops(this.t) + 1) | 0)) > 0);
                 }
             }
         },
         ctors: {
             ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -488,12 +547,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         props: {
             keepWaiting: {
                 get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get", this ); }
+
                     return this.t.active && !this.t.playedOnce;
                 }
             }
         },
         ctors: {
             ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.CustomYieldInstruction.ctor.call(this);
                 this.t = tween;
@@ -521,6 +584,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOFade", this ); }
+
                     if (endValue < 0) {
                         endValue = 0;
                     } else {
@@ -553,6 +618,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPitch: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPitch", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.pitch;
                     }, function (x) {
@@ -580,6 +647,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOSetFloat: function (target, floatName, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOSetFloat", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         var currVal = { };
                         target.GetFloat(floatName, currVal);
@@ -609,6 +678,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOComplete: function (target, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOComplete", this ); }
+
                     if (withCallbacks === void 0) { withCallbacks = false; }
                     return DG.Tweening.DOTween.Complete(target, withCallbacks);
                 },
@@ -629,6 +700,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOKill: function (target, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOKill", this ); }
+
                     if (complete === void 0) { complete = false; }
                     return DG.Tweening.DOTween.Kill(target, complete);
                 },
@@ -648,6 +721,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOFlip: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOFlip", this ); }
+
                     return DG.Tweening.DOTween.Flip(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOFlip:static end.*/
@@ -669,6 +744,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOGoto: function (target, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOGoto", this ); }
+
                     if (andPlay === void 0) { andPlay = false; }
                     return DG.Tweening.DOTween.Goto(target, to, andPlay);
                 },
@@ -688,6 +765,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOPause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPause", this ); }
+
                     return DG.Tweening.DOTween.Pause(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOPause:static end.*/
@@ -706,6 +785,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOPlay: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlay", this ); }
+
                     return DG.Tweening.DOTween.Play(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOPlay:static end.*/
@@ -724,6 +805,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOPlayBackwards: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlayBackwards", this ); }
+
                     return DG.Tweening.DOTween.PlayBackwards(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOPlayBackwards:static end.*/
@@ -742,6 +825,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOPlayForward: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlayForward", this ); }
+
                     return DG.Tweening.DOTween.PlayForward(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOPlayForward:static end.*/
@@ -760,6 +845,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DORestart: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DORestart", this ); }
+
                     return DG.Tweening.DOTween.Restart(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DORestart:static end.*/
@@ -778,6 +865,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DORewind: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DORewind", this ); }
+
                     return DG.Tweening.DOTween.Rewind(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DORewind:static end.*/
@@ -796,6 +885,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOSmoothRewind: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOSmoothRewind", this ); }
+
                     return DG.Tweening.DOTween.SmoothRewind(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOSmoothRewind:static end.*/
@@ -814,6 +905,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {number}
                  */
                 DOTogglePause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOTogglePause", this ); }
+
                     return DG.Tweening.DOTween.TogglePause(target);
                 },
                 /*DG.Tweening.DOTweenModuleAudio.DOTogglePause:static end.*/
@@ -844,6 +937,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMove", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -869,6 +964,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -894,6 +991,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -919,6 +1018,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveZ", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.position;
@@ -944,6 +1045,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DORotate: function (target, endValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DORotate", this ); }
+
                     if (mode === void 0) { mode = 0; }
                     var t = DG.Tweening.DOTween.To$9(function () {
                         return target.rotation;
@@ -971,6 +1074,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLookAt: function (target, towards, duration, axisConstraint, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLookAt", this ); }
+
                     if (axisConstraint === void 0) { axisConstraint = 0; }
                     if (up === void 0) { up = null; }
                     var t = DG.Tweening.Core.Extensions.SetSpecialStartupMode(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.DOTween.To$9(function () {
@@ -1001,6 +1106,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOJump", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (numJumps < 1) {
                         numJumps = 1;
@@ -1054,6 +1161,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOPath", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -1073,6 +1182,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
                 /*DG.Tweening.DOTweenModulePhysics.DOPath$1:static start.*/
                 DOPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOPath$1", this ); }
+
                     if (pathMode === void 0) { pathMode = 1; }
                     var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
                         return target.position;
@@ -1106,6 +1217,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLocalPath", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -1129,6 +1242,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
                 /*DG.Tweening.DOTweenModulePhysics.DOLocalPath$1:static start.*/
                 DOLocalPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLocalPath$1", this ); }
+
                     if (pathMode === void 0) { pathMode = 1; }
                     var trans = target.transform;
                     var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
@@ -1170,6 +1285,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMove", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.position;
@@ -1195,6 +1312,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMoveX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.position;
@@ -1220,6 +1339,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMoveY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.position;
@@ -1244,6 +1365,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DORotate: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DORotate", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.rotation;
                     }, Bridge.fn.cacheBind(target, target.MoveRotation), endValue, duration);
@@ -1272,6 +1395,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOJump", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (numJumps < 1) {
                         numJumps = 1;
@@ -1327,6 +1452,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOPath", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -1375,6 +1502,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOLocalPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOLocalPath", this ); }
+
                     if (pathType === void 0) { pathType = 0; }
                     if (pathMode === void 0) { pathMode = 1; }
                     if (resolution === void 0) { resolution = 10; }
@@ -1428,6 +1557,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOColor", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -1453,6 +1584,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOFade", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.color;
                     }, function (x) {
@@ -1479,6 +1612,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOGradientColor", this ); }
+
                     var s = DG.Tweening.DOTween.Sequence();
                     var colors = gradient.colorKeys;
                     var len = colors.length;
@@ -1513,6 +1648,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOBlendableColor", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -1552,6 +1689,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade", this ); }
+
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.alpha;
                     }, function (x) {
@@ -1577,6 +1716,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$1", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.color;
                     }, function (x) {
@@ -1602,6 +1743,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$2", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.color;
                     }, function (x) {
@@ -1627,6 +1770,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$3: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$3", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.effectColor;
                     }, function (x) {
@@ -1652,6 +1797,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFade$4: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$4", this ); }
+
                     var t = DG.Tweening.DOTween.ToAlpha(function () {
                         return target.color;
                     }, function (x) {
@@ -1677,6 +1824,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -1702,6 +1851,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$1", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -1727,6 +1878,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$2", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.effectColor;
                     }, function (x) {
@@ -1752,6 +1905,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOColor$3: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$3", this ); }
+
                     var t = DG.Tweening.DOTween.To$8(function () {
                         return target.color;
                     }, function (x) {
@@ -1777,6 +1932,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFillAmount: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFillAmount", this ); }
+
                     if (endValue > 1) {
                         endValue = 1;
                     } else {
@@ -1810,6 +1967,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOGradientColor", this ); }
+
                     var s = DG.Tweening.DOTween.Sequence();
                     var colors = gradient.colorKeys;
                     var len = colors.length;
@@ -1843,6 +2002,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOFlexibleSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFlexibleSize", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return new pc.Vec2( target.flexibleWidth, target.flexibleHeight );
@@ -1871,6 +2032,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOMinSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOMinSize", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return new pc.Vec2( target.minWidth, target.minHeight );
@@ -1899,6 +2062,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPreferredSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPreferredSize", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return new pc.Vec2( target.preferredWidth, target.preferredHeight );
@@ -1926,6 +2091,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOScale: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOScale", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.effectDistance;
                     }, function (x) {
@@ -1952,6 +2119,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.anchoredPosition;
@@ -1979,6 +2148,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPosX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPosX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.anchoredPosition;
@@ -2006,6 +2177,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPosY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPosY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.anchoredPosition;
@@ -2033,6 +2206,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPos3D: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3D", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.anchoredPosition3D;
@@ -2060,6 +2235,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPos3DX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.anchoredPosition3D;
@@ -2087,6 +2264,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPos3DY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.anchoredPosition3D;
@@ -2114,6 +2293,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorPos3DZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$12(function () {
                         return target.anchoredPosition3D;
@@ -2141,6 +2322,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorMax: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorMax", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.anchorMax;
@@ -2168,6 +2351,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOAnchorMin: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorMin", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.anchorMin;
@@ -2194,6 +2379,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPivot: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivot", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.pivot;
                     }, function (x) {
@@ -2219,6 +2406,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPivotX: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivotX", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.pivot;
                     }, function (x) {
@@ -2244,6 +2433,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOPivotY: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivotY", this ); }
+
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.pivot;
                     }, function (x) {
@@ -2270,6 +2461,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOSizeDelta: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOSizeDelta", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$11(function () {
                         return target.sizeDelta;
@@ -2302,6 +2495,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOPunchAnchorPos: function (target, punch, duration, vibrato, elasticity, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (elasticity === void 0) { elasticity = 1.0; }
                     if (snapping === void 0) { snapping = false; }
@@ -2333,6 +2528,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeAnchorPos: function (target, duration, strength, vibrato, randomness, snapping, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos", this ); }
+
                     if (strength === void 0) { strength = 100.0; }
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
@@ -2366,6 +2563,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOShakeAnchorPos$1: function (target, duration, strength, vibrato, randomness, snapping, fadeOut) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1", this ); }
+
                     if (vibrato === void 0) { vibrato = 10; }
                     if (randomness === void 0) { randomness = 90.0; }
                     if (snapping === void 0) { snapping = false; }
@@ -2397,6 +2596,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOJumpAnchorPos: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     if (numJumps < 1) {
                         numJumps = 1;
@@ -2449,6 +2650,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DONormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DONormalizedPos", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(DG.Tweening.DOTween.To$11(function () {
                         return new pc.Vec2( target.horizontalNormalizedPosition, target.verticalNormalizedPosition );
@@ -2475,6 +2678,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOHorizontalNormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$2(DG.Tweening.DOTween.To$4(function () {
                         return target.horizontalNormalizedPosition;
@@ -2500,6 +2705,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOVerticalNormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$2(DG.Tweening.DOTween.To$4(function () {
                         return target.verticalNormalizedPosition;
@@ -2525,6 +2732,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOValue: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOValue", this ); }
+
                     if (snapping === void 0) { snapping = false; }
                     var t = DG.Tweening.DOTween.To$4(function () {
                         return target.value;
@@ -2553,6 +2762,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOCounter: function (target, fromValue, endValue, duration, addThousandsSeparator, culture) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOCounter", this ); }
+
                     if (addThousandsSeparator === void 0) { addThousandsSeparator = true; }
                     if (culture === void 0) { culture = null; }
                     var v = fromValue;
@@ -2589,6 +2800,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOText: function (target, endValue, duration, richTextEnabled, scrambleMode, scrambleChars) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOText", this ); }
+
                     if (richTextEnabled === void 0) { richTextEnabled = true; }
                     if (scrambleMode === void 0) { scrambleMode = 0; }
                     if (scrambleChars === void 0) { scrambleChars = null; }
@@ -2625,6 +2838,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -2656,6 +2871,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor$1", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -2687,6 +2904,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Tweener}
                  */
                 DOBlendableColor$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor$2", this ); }
+
                     var $t;
                     endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
                     var to = new pc.Color( 0, 0, 0, 0 );
@@ -2726,6 +2945,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.Vector2}
                  */
                 SwitchToRectTransform: function (from, to) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform", this ); }
+
                     var localPoint = { v : new UnityEngine.Vector2() };
                     var fromPivotDerivedOffset = new pc.Vec2( from.rect.width * 0.5 + from.rect.xMin, from.rect.height * 0.5 + from.rect.yMin );
                     var screenP = UnityEngine.RectTransformUtility.WorldToScreenPoint(null, from.position.$clone());
@@ -2773,6 +2994,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor", this ); }
+
                     var s = DG.Tweening.DOTween.Sequence();
                     var colors = gradient.colorKeys;
                     var len = colors.length;
@@ -2807,6 +3030,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Sequence}
                  */
                 DOGradientColor$1: function (target, gradient, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1", this ); }
+
                     var s = DG.Tweening.DOTween.Sequence();
                     var colors = gradient.colorKeys;
                     var len = colors.length;
@@ -2839,6 +3064,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForCompletion: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2864,6 +3091,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForRewind: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2889,6 +3118,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForKill: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForKill", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2915,6 +3146,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForElapsedLoops: function (t, elapsedLoops, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2942,6 +3175,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForPosition: function (t, position, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2968,6 +3203,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.CustomYieldInstruction}
                  */
                 WaitForStart: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForStart", this ); }
+
                     if (!t.active) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogInvalidTween(t);
@@ -2994,6 +3231,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOOffset: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOOffset", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -3026,6 +3265,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {DG.Tweening.Core.TweenerCore$3}
                  */
                 DOTiling: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOTiling", this ); }
+
                     if (!target.HasProperty(propertyID)) {
                         if (DG.Tweening.Core.Debugger.logPriority > 0) {
                             DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
@@ -3083,6 +3324,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {void}
                  */
                 Init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils#Init", this ); }
+
                     if (DG.Tweening.DOTweenModuleUtils._initialized) {
                         return;
                     }
@@ -3095,6 +3338,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
                 /*DG.Tweening.DOTweenModuleUtils.Preserver:static start.*/
                 Preserver: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils#Preserver", this ); }
+
                     var loadedAssemblies = System.AppDomain.getAssemblies();
                     var mi = Bridge.Reflection.getMembers(UnityEngine.MonoBehaviour, 8, 284, "Stub");
                 },
@@ -3113,6 +3358,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             methods: {
                 /*DG.Tweening.DOTweenModuleUtils+Physics.SetOrientationOnPath:static start.*/
                 SetOrientationOnPath: function (options, t, newRot, trans) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath", this ); }
+
                     if (options.isRigidbody) {
                         Bridge.cast(t.target, UnityEngine.Rigidbody).rotation = newRot.$clone();
                     } else {
@@ -3123,18 +3370,24 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
                 /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody2D:static start.*/
                 HasRigidbody2D: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D", this ); }
+
                     return UnityEngine.Component.op_Inequality(target.GetComponent(UnityEngine.Rigidbody2D), null);
                 },
                 /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody2D:static end.*/
 
                 /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody:static start.*/
                 HasRigidbody: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody", this ); }
+
                     return UnityEngine.Component.op_Inequality(target.GetComponent(UnityEngine.Rigidbody), null);
                 },
                 /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody:static end.*/
 
                 /*DG.Tweening.DOTweenModuleUtils+Physics.CreateDOTweenPathTween:static start.*/
                 CreateDOTweenPathTween: function (target, tweenRigidbody, isLocal, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween", this ); }
+
                     var t;
                     var rBody = tweenRigidbody ? target.GetComponent(UnityEngine.Rigidbody) : null;
                     if (tweenRigidbody && UnityEngine.Component.op_Inequality(rBody, null)) {
@@ -3174,34 +3427,117 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             cacheYFirst: 0,
             heightMoveFirst: 0,
             currentFirstHop: null,
+            waitFor2Hop: null,
             timer: null,
             subTimer: null,
             countDown: null,
             hasPassRound1: false,
             levelText: null,
-            hoopType: 0,
-            hoopList: null,
+            bgMusic: null,
             turn: 0,
+            canClickHop: false,
+            hasPlayMusic: false,
+            hoopPosList: null,
             hasChangePortrait: false,
             hasChangeLandscape: false,
-            stickFinish: 0
+            hasReboot: false,
+            stickFinish: 0,
+            hasFinishMove: false,
+            isShaking: false
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "GameManager#init", this ); }
+
                 this.config = new GameManager.GameConfig();
                 this.colorConfig = new ColorHop();
                 this.cacheIndexTap1 = -1;
                 this.cacheYFirst = 0;
                 this.hasPassRound1 = false;
-                this.turn = 15;
+                this.turn = 5;
+                this.canClickHop = true;
+                this.hasPlayMusic = false;
                 this.hasChangePortrait = false;
                 this.hasChangeLandscape = false;
+                this.hasReboot = false;
                 this.stickFinish = 0;
+                this.isShaking = false;
             }
         },
         methods: {
+            /*GameManager.GetNextStep start.*/
+            GetNextStep: function () {
+if ( TRACE ) { TRACE( "GameManager#GetNextStep", this ); }
+
+                var listCanMove = new (System.Collections.Generic.List$1(StickManager)).ctor();
+
+                for (var i = 0; i < this.sticks.Count; i = (i + 1) | 0) {
+                    if (!this.sticks.getItem(i).CheckFullHop(this.countHop)) {
+                        if (this.sticks.getItem(i).hops.Count === 0) {
+                            // Move Any stick to this stick index
+                            for (var k = 0; k < this.sticks.Count; k = (k + 1) | 0) {
+                                if (i !== k) {
+                                    UIManager.instance.guideHand1.transform.position = this.hoopPosList.getItem(k).transform.position.$clone();
+                                    UIManager.instance.guideHand2.transform.position = this.hoopPosList.getItem(i).transform.position.$clone();
+
+                                    //switch (k)
+                                    //{
+                                    //    case 0:
+                                    //        UIManager.instance.guideHand1.transform.position = hoopPosList[0].transform.position;
+                                    //        break;
+                                    //    case 1:
+                                    //        UIManager.instance.guideHand1.transform.position = hoopPosList[1].transform.position;
+                                    //        break;
+                                    //    case 2:
+                                    //        UIManager.instance.guideHand1.transform.position = hoopPosList[2].transform.position;
+                                    //        break;
+                                    //}
+
+                                    //switch (i)
+                                    //{
+                                    //    case 0:
+                                    //        UIManager.instance.guideHand2.transform.position = hoopPosList[0].transform.position;
+                                    //        break;
+                                    //    case 1:
+                                    //        UIManager.instance.guideHand2.transform.position = hoopPosList[1].transform.position;
+                                    //        break;
+                                    //    case 2:
+                                    //        UIManager.instance.guideHand2.transform.position = hoopPosList[2].transform.position;
+                                    //        break;
+                                    //}
+
+                                    UnityEngine.Debug.Log$1("1: Stick " + k + " move to " + " Stick " + i);
+                                    return;
+                                }
+                            }
+                        } else {
+                            listCanMove.add(this.sticks.getItem(i));
+                        }
+                    }
+                }
+
+                for (var i1 = 0; i1 < listCanMove.Count; i1 = (i1 + 1) | 0) {
+                    for (var j = 0; j < this.sticks.Count; j = (j + 1) | 0) {
+                        if (UnityEngine.MonoBehaviour.op_Inequality(this.sticks.getItem(j), listCanMove.getItem(i1))) {
+                            if (this.CheckSameColor2Stick(listCanMove.getItem(i1).indexStick, this.sticks.getItem(j).indexStick)) {
+                                UIManager.instance.guideHand1.transform.position = this.hoopPosList.getItem(j).transform.position.$clone();
+                                UIManager.instance.guideHand2.transform.position = this.hoopPosList.getItem(listCanMove.getItem(i1).indexStick).transform.position.$clone();
+
+                                UnityEngine.Debug.Log$1("2: Stick " + this.sticks.getItem(j).indexStick + " move to " + " Stick " + listCanMove.getItem(i1).indexStick);
+                                UnityEngine.Debug.Log$1("hoop pos stick: " + (Bridge.toString(this.hoopPosList.getItem(i1)) || ""));
+
+                                return;
+                            }
+                        }
+                    }
+                }
+            },
+            /*GameManager.GetNextStep end.*/
+
             /*GameManager.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "GameManager#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(GameManager.instance, null)) {
                     GameManager.instance = this;
                 }
@@ -3213,8 +3549,11 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.Start start.*/
             Start: function () {
+if ( TRACE ) { TRACE( "GameManager#Start", this ); }
+
                 // Khởi tạo Pool
                 SimplePool.Preload(this.config.hopPrefab, this.config.initHop);
+                this.waitFor2Hop = new UnityEngine.WaitForSeconds(this.config.timeMove2Hop);
                 //SimplePool.Preload(config.hoop2Prefab, config.initHoop2);
                 SimplePool.Preload(this.config.stickPrefab, this.config.initStick);
 
@@ -3226,52 +3565,34 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
                 this.uiManager.CheckTutorial();
 
-                this.CheckModel();
+                //CheckModel();
 
                 this.InitLevel();
+
+                UIManager.instance.guideHand1.transform.position = this.hoopPosList.getItem(6).transform.position.$clone();
             },
             /*GameManager.Start end.*/
 
-            /*GameManager.CheckModel start.*/
-            CheckModel: function () {
-                switch (this.hoopType) {
-                    case HoopType.Ring: 
-                        this.config.hopPrefab = this.hoopList.getItem(0);
-                        break;
-                    case HoopType.Donut: 
-                        this.config.hopPrefab = this.hoopList.getItem(1);
-                        break;
-                    case HoopType.Round: 
-                        this.config.hopPrefab = this.hoopList.getItem(2);
-                        break;
-                    case HoopType.ThinRound: 
-                        this.config.hopPrefab = this.hoopList.getItem(3);
-                        break;
-                    case HoopType.Square: 
-                        this.config.hopPrefab = this.hoopList.getItem(4);
-                        break;
-                    case HoopType.ThinSquare: 
-                        this.config.hopPrefab = this.hoopList.getItem(5);
-                        break;
-                    case HoopType.Wheel: 
-                        this.config.hopPrefab = this.hoopList.getItem(6);
-                        break;
-                    case HoopType.Screw: 
-                        this.config.hopPrefab = this.hoopList.getItem(7);
-                        break;
-                    case HoopType.DogBowl: 
-                        this.config.hopPrefab = this.hoopList.getItem(8);
-                        break;
-                    default: 
-                        this.config.hopPrefab = this.hoopList.getItem(0);
-                        break;
-                }
-            },
-            /*GameManager.CheckModel end.*/
-
             /*GameManager.Update start.*/
             Update: function () {
+if ( TRACE ) { TRACE( "GameManager#Update", this ); }
+
+                //if (Input.GetKeyDown(KeyCode.Space))
+                //{
+                //    GetNextStep();
+                //    UIManager.instance.guideHand1.SetActive(true);
+                //}
+
+                if (UIManager.instance.timer.currentTime === 0 && this.hasReboot === false) {
+                    if (this.cacheIndexTap1 === -1) {
+                        this.GetNextStep();
+                        UIManager.instance.guideHand1.SetActive(true);
+                        this.hasReboot = true;
+                    }
+                }
+
                 this.SortSticks();
+
                 var screenRatio = (((Bridge.Int.div(UnityEngine.Screen.width, UnityEngine.Screen.height)) | 0));
                 if (screenRatio >= 1 && this.hasChangeLandscape === false) {
                     // landscape
@@ -3289,12 +3610,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.TapToStart start.*/
             TapToStart: function () {
+if ( TRACE ) { TRACE( "GameManager#TapToStart", this ); }
+
                 this.gameState = GameState.PLAYING;
             },
             /*GameManager.TapToStart end.*/
 
             /*GameManager.InitLevel start.*/
             InitLevel: function () {
+if ( TRACE ) { TRACE( "GameManager#InitLevel", this ); }
+
                 var $t, $t1;
                 //if (currentLevel == 1)
                 //{
@@ -3319,111 +3644,6 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                 //
                 this.heightMoveFirst = ($t1 = this.config.heightMoveFirst)[((this.countHop - 3) | 0)];
 
-                //Sinh stick theo tọa độ dựa vào số Stick, nếu là số lẻ thì sinh từ giữa ra 2 bên, max 1 hàng = 4, nếu lớn hơn thì đẩy xuống 1 hàng
-                //Vector3 vector = Vector3.zero;
-                //vector.y = -0.3f;
-                //if (countStick <= 4)
-                //{
-                //    if (countStick % 2 == 1)
-                //    {
-                //        vector.x = (config.distanceXStick / 2) + (1 - countStick / 2) * config.distanceXStick;
-                //    }
-                //    else
-                //    {
-                //        vector.x = (1 - countStick / 2) * config.distanceXStick + config.distanceXStick;
-                //    }
-                //    vector.z = config.distanceZStick / 2;
-
-                //    for (int i = 0; i < countStick; i++)
-                //    {
-                //        InitStick(vector, i);
-                //        vector.x += config.distanceXStick;
-                //    }
-                //}
-                //else
-                //{
-                //    int countStick1 = 0;
-                //    if (countStick % 2 == 0)
-                //        countStick1 = countStick / 2;
-                //    else
-                //        countStick1 = countStick / 2 + 1;
-
-                //    int countStick2 = countStick - countStick1;
-
-                //    if (countStick1 % 2 == 1)
-                //    {
-                //        vector.x = (config.distanceXStick / 2) + (1 - countStick1 / 2) * config.distanceXStick;
-                //    }
-                //    else
-                //    {
-                //        vector.x = (1 - countStick1 / 2) * config.distanceXStick + config.distanceXStick;
-                //    }
-
-                //    vector.z = 0;
-
-                //    for (int i = 0; i < countStick1; i++)
-                //    {
-                //        InitStick(vector, i);
-                //        vector.x += config.distanceXStick;
-                //    }
-
-                //    if (countStick2 % 2 == 1)
-                //    {
-                //        vector.x = (config.distanceXStick / 2) + (1 - countStick2 / 2) * config.distanceXStick;
-                //    }
-                //    else
-                //    {
-                //        vector.x = (1 - countStick2 / 2) * config.distanceXStick + config.distanceXStick;
-                //    }
-
-                //    vector.z = config.distanceZStick;
-
-                //    for (int i = 0; i < countStick2; i++)
-                //    {
-                //        InitStick(vector, i + countStick1);
-                //        vector.x += config.distanceXStick;
-                //    }
-                //}
-
-                //for (int i = 0; i < countStick; i++)
-                //{
-                //    int randomCount = 0;
-                //    for (int k = 0; k < levelData.levels[currentLevel].data[i].stick.Length; k++)
-                //    {
-                //        if (levelData.levels[currentLevel].data[i].stick[k] != 0)
-                //        {
-                //            randomCount++;
-                //        }
-                //        else
-                //        {
-                //            break;
-                //        }
-                //    }
-
-                //    Vector3 stickPos = sticks[i].transform.position;
-                //    Vector3 hopPos = new Vector3(stickPos.x, 0, stickPos.z);
-
-                //    for (int j = 0; j < randomCount; j++)
-                //    {
-                //        HopManager hopManager;
-
-                //        if (currentLevel == 0)
-                //        {
-                //            hopManager = SimplePool.Spawn(config.hopPrefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
-                //        }
-                //        else
-                //        {
-                //            hopManager = SimplePool.Spawn(config.hoop2Prefab, hopPos, Quaternion.identity).GetComponent<HopManager>();
-                //        }
-
-                //        int colorHop = levelData.levels[currentLevel].data[i].stick[j] - 1;
-
-                //        hopManager.ChangeColor(colorConfig.hopColor[colorHop]);
-                //        sticks[i].hops.Add(hopManager);
-
-                //        hopPos.y += config.distanceHop;
-                //    }
-                //}        
 
                 for (var i1 = 0; i1 < this.countStick; i1 = (i1 + 1) | 0) {
                     this.InitStick(i1);
@@ -3439,6 +3659,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.InitHops start.*/
             InitHops: function () {
+if ( TRACE ) { TRACE( "GameManager#InitHops", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 for (var i = 0; i < this.countStick; i = (i + 1) | 0) {
                     var countHopStick = 0;
@@ -3463,6 +3685,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.SortHops start.*/
             SortHops: function () {
+if ( TRACE ) { TRACE( "GameManager#SortHops", this ); }
+
                 for (var i = 0; i < this.countStick; i = (i + 1) | 0) {
                     var stickPos = this.sticks.getItem(i).transform.position.$clone();
                     var hopPos = new pc.Vec3( stickPos.x, 0, stickPos.z );
@@ -3478,6 +3702,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.SortSticks start.*/
             SortSticks: function () {
+if ( TRACE ) { TRACE( "GameManager#SortSticks", this ); }
+
                 this.countStick = this.sticks.Count;
 
                 // chỉnh hiện số hàng, số cột,  (bắt đầu từ phần tử bn, hiển thị mấy cột), (bắt đầu từ phần tử cuối cùng ở phía trên đc hiển thị,...)
@@ -3485,9 +3711,11 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                 var screenRatio = (((Bridge.Int.div(UnityEngine.Screen.width, UnityEngine.Screen.height)) | 0));
                 if (screenRatio >= 1) {
                     // landscape
-                    this.SortByRow(0, 7, -this.config.distanceZStick * 1.5);
-                    this.SortByRow(7, 7, -this.config.distanceZStick * 0.5);
-                    this.SortByRow(14, 6, this.config.distanceZStick * 0.5);
+                    this.SortByRow(0, 5, -this.config.distanceZStick * 1.5);
+                    this.SortByRow(5, 5, -this.config.distanceZStick * 0.5);
+                    this.SortByRow(10, 5, this.config.distanceZStick * 0.5);
+                    this.SortByRow(15, 5, this.config.distanceZStick * 1.5);
+                    //SortByRow(38, 7, config.distanceZStick * 3.5f);
                 } else if (screenRatio < 1) {
                     // portrait
                     this.SortByRow(0, 5, -this.config.distanceZStick * 1.5);
@@ -3500,6 +3728,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.SortByRow start.*/
             SortByRow: function (start, count, zPos) {
+if ( TRACE ) { TRACE( "GameManager#SortByRow", this ); }
+
                 var vector = pc.Vec3.ZERO.clone();
                 vector.y = -0.3;
                 vector.z = zPos;
@@ -3519,6 +3749,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.InitStick start.*/
             InitStick: function (index) {
+if ( TRACE ) { TRACE( "GameManager#InitStick", this ); }
+
                 var stick = SimplePool.Spawn(this.config.stickPrefab, pc.Vec3.ZERO.clone(), pc.Quat.IDENTITY.clone()).GetComponent(StickManager);
                 stick.Initialize(this.countHop, index);
                 this.sticks.add(stick);
@@ -3527,71 +3759,200 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.ResetTapWithoutMove start.*/
             ResetTapWithoutMove: function () {
+if ( TRACE ) { TRACE( "GameManager#ResetTapWithoutMove", this ); }
+
                 this.cacheIndexTap1 = -1;
             },
             /*GameManager.ResetTapWithoutMove end.*/
 
             /*GameManager.ResetTapWithMove start.*/
             ResetTapWithMove: function () {
+if ( TRACE ) { TRACE( "GameManager#ResetTapWithMove", this ); }
+
                 this.cacheIndexTap1 = -1;
                 DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMoveY(this.currentFirstHop.transform, this.cacheYFirst, this.config.timeMoveSecond), DG.Tweening.Ease.OutBounce);
+                this.JellyShake();
                 SoundManager.instance.PlayHopDrop();
             },
             /*GameManager.ResetTapWithMove end.*/
 
             /*GameManager.MoveStickAToStickB start.*/
             MoveStickAToStickB: function (indexTarget) {
+if ( TRACE ) { TRACE( "GameManager#MoveStickAToStickB", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    countSameColor,
+                    countEmptyHop,
+                    maxHopMove,
+                    i,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    countSameColor = this.sticks.getItem(this.cacheIndexTap1).GetCountSameColor();
+                                        countEmptyHop = this.sticks.getItem(indexTarget).GetCountEmptyHop();
+
+                                        maxHopMove = UnityEngine.Mathf.Min(countSameColor, countEmptyHop);
+
+                                        this.MoveHop(indexTarget);
+
+                                        //yield return waitFor2Hop;
+                                        UnityEngine.Debug.Log$1("turn: " + (Bridge.toString(this.turn) || ""));
+
+                                        i = 1;
+                                        $step = 1;
+                                        continue;
+                                }
+                                case 1: {
+                                    if ( i < maxHopMove ) {
+                                            $step = 2;
+                                            continue;
+                                        }
+                                    $step = 5;
+                                    continue;
+                                }
+                                case 2: {
+                                    this.MoveHopWithFirst(indexTarget);
+
+                                        $enumerator.current = this.waitFor2Hop;
+                                        $step = 3;
+                                        return true;
+                                }
+                                case 3: {
+                                    $step = 4;
+                                    continue;
+                                }
+                                case 4: {
+                                    i = (i + 1) | 0;
+                                    $step = 1;
+                                    continue;
+                                }
+                                case 5: {
+                                    this.ResetTapWithoutMove();
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*GameManager.MoveStickAToStickB end.*/
+
+            /*GameManager.MoveHop start.*/
+            MoveHop: function (indexTarget) {
+if ( TRACE ) { TRACE( "GameManager#MoveHop", this ); }
+
                 if (this.turn > 0) {
-                    // currentFirstHop = sticks[cacheIndexTap1].hops[sticks[cacheIndexTap1].hops.Count - 1];
                     var hopManager = this.sticks.getItem(this.cacheIndexTap1).hops.getItem(((this.sticks.getItem(this.cacheIndexTap1).hops.Count - 1) | 0));
                     this.sticks.getItem(this.cacheIndexTap1).hops.remove(hopManager);
                     this.sticks.getItem(indexTarget).hops.add(hopManager);
 
                     var endTarget = this.sticks.getItem(indexTarget).GetLastPosition();
                     var cache = endTarget.$clone();
-                    ;
                     endTarget.y = this.heightMoveFirst;
 
                     SoundManager.instance.PlayHopFly();
 
-                    // Player play turns
-                    this.turn = (this.turn - 1) | 0;
-                    UnityEngine.Debug.Log$1("remain turns: " + (Bridge.toString(this.turn) || ""));
+                    //Check end game
+                    if (this.sticks.getItem(indexTarget).CheckEndStick()) {
+                        this.stickFinish = (this.stickFinish + 1) | 0;
+                        //SoundManager.instance.PlayStickFinish();
+                        if (this.CheckCompleted()) {
+                            Luna.Unity.LifeCycle.GameEnded();
+                            this.EndGame();
+                        } else if (this.stickFinish >= 2) {
+                            Luna.Unity.LifeCycle.GameEnded();
+                            this.EndGame();
+                        }
+                    }
                     DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(hopManager.transform, endTarget.$clone(), this.config.timeMoveTarget), Bridge.fn.bind(this, function () {
+                        this.JellyShake();
+                        this.turn = (this.turn - 1) | 0;
                         DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(hopManager.transform, cache.$clone(), this.config.timeMoveSecond), DG.Tweening.Ease.OutBounce), Bridge.fn.bind(this, function () {
-                            if (this.sticks.getItem(indexTarget).CheckEndStick()) {
-                                this.stickFinish = (this.stickFinish + 1) | 0;
-                                SoundManager.instance.PlayStickFinish();
-                                if (this.CheckCompleted()) {
-                                    Luna.Unity.LifeCycle.GameEnded();
-                                    this.EndGame();
-                                } else if (this.stickFinish >= 2) {
-                                    Luna.Unity.LifeCycle.GameEnded();
-                                    this.EndGame();
-                                }
+                            if (this.sticks.getItem(indexTarget).CanShowFinish()) {
+                                this.sticks.getItem(indexTarget).ActionWhenDoneShow();
                             }
                         }));
                     }));
-
-                    //currentFirstHop.transform.position = sticks[indexTarget].GetLastPosition();
-
-                    this.ResetTapWithoutMove();
                 } else {
-                    this.StartCoroutine$1(this.ShowRewardCallBack());
+                    //StartCoroutine(ShowRewardCallBack());
+                    this.EndGame();
                     Luna.Unity.LifeCycle.GameEnded();
-                    Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+                    //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
                 }
             },
-            /*GameManager.MoveStickAToStickB end.*/
+            /*GameManager.MoveHop end.*/
+
+            /*GameManager.MoveHopWithFirst start.*/
+            MoveHopWithFirst: function (indexTarget) {
+if ( TRACE ) { TRACE( "GameManager#MoveHopWithFirst", this ); }
+
+                if (this.turn > 0) {
+                    var hopManager = this.sticks.getItem(this.cacheIndexTap1).hops.getItem(((this.sticks.getItem(this.cacheIndexTap1).hops.Count - 1) | 0));
+                    this.sticks.getItem(this.cacheIndexTap1).hops.remove(hopManager);
+                    this.sticks.getItem(indexTarget).hops.add(hopManager);
+
+                    var firstHop = hopManager.transform;
+                    var endTarget = this.sticks.getItem(indexTarget).GetLastPosition();
+                    var cache = endTarget.$clone();
+                    endTarget.y = this.heightMoveFirst;
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMoveY(firstHop.transform, this.heightMoveFirst, this.config.timeMoveFirst), Bridge.fn.bind(this, function () {
+                        SoundManager.instance.PlayHopFly();
+
+                        //Check end game
+                        if (this.sticks.getItem(indexTarget).CheckEndStick()) {
+                            this.stickFinish = (this.stickFinish + 1) | 0;
+                            //SoundManager.instance.PlayStickFinish();
+                            if (this.CheckCompleted()) {
+                                Luna.Unity.LifeCycle.GameEnded();
+                                this.EndGame();
+                            } else if (this.stickFinish >= 2) {
+                                Luna.Unity.LifeCycle.GameEnded();
+                                this.EndGame();
+                            }
+                        }
+                        DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(firstHop.transform, endTarget.$clone(), this.config.timeMoveTarget), Bridge.fn.bind(this, function () {
+                            DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions), DG.Tweening.ShortcutExtensions.DOMove(firstHop.transform, cache.$clone(), this.config.timeMoveSecond), DG.Tweening.Ease.OutBounce), Bridge.fn.bind(this, function () {
+                                if (this.sticks.getItem(indexTarget).CanShowFinish()) {
+                                    this.sticks.getItem(indexTarget).ActionWhenDoneShow();
+                                }
+                            }));
+                        }));
+                    }));
+                } else {
+                    //StartCoroutine(ShowRewardCallBack());
+
+                    this.EndGame();
+                    Luna.Unity.LifeCycle.GameEnded();
+                    //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+                }
+            },
+            /*GameManager.MoveHopWithFirst end.*/
 
             /*GameManager.EndGame start.*/
             EndGame: function () {
+if ( TRACE ) { TRACE( "GameManager#EndGame", this ); }
+
                 this.gameState = GameState.WIN;
-                SoundManager.instance.PlayWin();
+                //SoundManager.instance.PlayWin();
+                //SoundManager.instance.PlayStickFinish();
 
 
                 if (this.uiManager.ctaUI.activeInHierarchy === false) {
                     this.uiManager.ctaUI.SetActive(true);
+                    this.uiManager.downloadButton.SetActive(false);
                     Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
                 }
 
@@ -3602,6 +3963,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.ShowRewardCallBack start.*/
             ShowRewardCallBack: function () {
+if ( TRACE ) { TRACE( "GameManager#ShowRewardCallBack", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -3625,7 +3988,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                                         //}
                                         //else if (currentLevel == 2)
                                         //{
-                                        this.TurnOffDownloadBtn();
+                                        //TurnOffDownloadBtn();
 
                                         $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
                                         $step = 2;
@@ -3652,12 +4015,16 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.NewLevel start.*/
             NewLevel: function () {
+if ( TRACE ) { TRACE( "GameManager#NewLevel", this ); }
+
                 this.InitLevel();
             },
             /*GameManager.NewLevel end.*/
 
             /*GameManager.CheckCompleted start.*/
             CheckCompleted: function () {
+if ( TRACE ) { TRACE( "GameManager#CheckCompleted", this ); }
+
                 for (var i = 0; i < this.sticks.Count; i = (i + 1) | 0) {
                     if (!this.sticks.getItem(i).isDone && this.sticks.getItem(i).hops.Count > 0) {
                         return false;
@@ -3670,6 +4037,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*GameManager.CheckSameColor start.*/
             CheckSameColor: function (indexTarget) {
+if ( TRACE ) { TRACE( "GameManager#CheckSameColor", this ); }
+
                 this.currentFirstHop = this.sticks.getItem(this.cacheIndexTap1).hops.getItem(((this.sticks.getItem(this.cacheIndexTap1).hops.Count - 1) | 0));
                 var hop2 = this.sticks.getItem(indexTarget).hops.getItem(((this.sticks.getItem(indexTarget).hops.Count - 1) | 0));
 
@@ -3677,17 +4046,53 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             },
             /*GameManager.CheckSameColor end.*/
 
+            /*GameManager.CheckSameColor2Stick start.*/
+            CheckSameColor2Stick: function (indexStick1, indexStick2) {
+if ( TRACE ) { TRACE( "GameManager#CheckSameColor2Stick", this ); }
+
+                var hop1 = this.sticks.getItem(indexStick1).hops.getItem(((this.sticks.getItem(indexStick1).hops.Count - 1) | 0));
+                var hop2 = this.sticks.getItem(indexStick2).hops.getItem(((this.sticks.getItem(indexStick2).hops.Count - 1) | 0));
+
+                return hop1.hoopColor === hop2.hoopColor;
+            },
+            /*GameManager.CheckSameColor2Stick end.*/
+
             /*GameManager.StickHopMoveFirst start.*/
             StickHopMoveFirst: function () {
+if ( TRACE ) { TRACE( "GameManager#StickHopMoveFirst", this ); }
+
                 this.currentFirstHop = this.sticks.getItem(this.cacheIndexTap1).hops.getItem(((this.sticks.getItem(this.cacheIndexTap1).hops.Count - 1) | 0));
-                this.cacheYFirst = this.currentFirstHop.transform.position.y;
+                //cacheYFirst = currentFirstHop.transform.position.y;
+                this.cacheYFirst = (((this.sticks.getItem(this.cacheIndexTap1).hops.Count - 1) | 0)) * this.config.distanceHop;
                 DG.Tweening.ShortcutExtensions.DOMoveY(this.currentFirstHop.transform, this.heightMoveFirst, this.config.timeMoveFirst);
+                this.JellyShake();
                 SoundManager.instance.PlayHopSelect();
             },
             /*GameManager.StickHopMoveFirst end.*/
 
+            /*GameManager.JellyShake start.*/
+            JellyShake: function () {
+if ( TRACE ) { TRACE( "GameManager#JellyShake", this ); }
+
+
+                var duration = 0.3;
+                var strength = 0.8;
+
+                //currentFirstHop.transform.DOShakeRotation(duration, strength);
+                if (!this.isShaking) {
+                    this.isShaking = true;
+                    DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Tweener, DG.Tweening.ShortcutExtensions.DOShakeScale(this.currentFirstHop.transform, duration, strength), Bridge.fn.bind(this, function () {
+                        this.isShaking = false;
+                    }));
+
+                }
+            },
+            /*GameManager.JellyShake end.*/
+
             /*GameManager.TurnOffDownloadBtn start.*/
             TurnOffDownloadBtn: function () {
+if ( TRACE ) { TRACE( "GameManager#TurnOffDownloadBtn", this ); }
+
                 this.uiManager.downloadButton.SetActive(false);
                 this.levelText.SetActive(false);
 
@@ -3708,7 +4113,9 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new GameManager.GameConfig(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "GameManager.GameConfig#getDefaultValue", this ); }
+ return new GameManager.GameConfig(); }
             }
         },
         fields: {
@@ -3722,27 +4129,36 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             timeMoveFirst: 0,
             timeMoveSecond: 0,
             timeMoveTarget: 0,
+            timeMove2Hop: 0,
             hopPrefab: null,
             hoop2Prefab: null,
             stickPrefab: null
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "GameManager.GameConfig#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
-                var h = Bridge.addHash([3420207091, this.initHop, this.initHoop2, this.initStick, this.distanceXStick, this.distanceZStick, this.distanceHop, this.heightMoveFirst, this.timeMoveFirst, this.timeMoveSecond, this.timeMoveTarget, this.hopPrefab, this.hoop2Prefab, this.stickPrefab]);
+if ( TRACE ) { TRACE( "GameManager.GameConfig#getHashCode", this ); }
+
+                var h = Bridge.addHash([3420207091, this.initHop, this.initHoop2, this.initStick, this.distanceXStick, this.distanceZStick, this.distanceHop, this.heightMoveFirst, this.timeMoveFirst, this.timeMoveSecond, this.timeMoveTarget, this.timeMove2Hop, this.hopPrefab, this.hoop2Prefab, this.stickPrefab]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "GameManager.GameConfig#equals", this ); }
+
                 if (!Bridge.is(o, GameManager.GameConfig)) {
                     return false;
                 }
-                return Bridge.equals(this.initHop, o.initHop) && Bridge.equals(this.initHoop2, o.initHoop2) && Bridge.equals(this.initStick, o.initStick) && Bridge.equals(this.distanceXStick, o.distanceXStick) && Bridge.equals(this.distanceZStick, o.distanceZStick) && Bridge.equals(this.distanceHop, o.distanceHop) && Bridge.equals(this.heightMoveFirst, o.heightMoveFirst) && Bridge.equals(this.timeMoveFirst, o.timeMoveFirst) && Bridge.equals(this.timeMoveSecond, o.timeMoveSecond) && Bridge.equals(this.timeMoveTarget, o.timeMoveTarget) && Bridge.equals(this.hopPrefab, o.hopPrefab) && Bridge.equals(this.hoop2Prefab, o.hoop2Prefab) && Bridge.equals(this.stickPrefab, o.stickPrefab);
+                return Bridge.equals(this.initHop, o.initHop) && Bridge.equals(this.initHoop2, o.initHoop2) && Bridge.equals(this.initStick, o.initStick) && Bridge.equals(this.distanceXStick, o.distanceXStick) && Bridge.equals(this.distanceZStick, o.distanceZStick) && Bridge.equals(this.distanceHop, o.distanceHop) && Bridge.equals(this.heightMoveFirst, o.heightMoveFirst) && Bridge.equals(this.timeMoveFirst, o.timeMoveFirst) && Bridge.equals(this.timeMoveSecond, o.timeMoveSecond) && Bridge.equals(this.timeMoveTarget, o.timeMoveTarget) && Bridge.equals(this.timeMove2Hop, o.timeMove2Hop) && Bridge.equals(this.hopPrefab, o.hopPrefab) && Bridge.equals(this.hoop2Prefab, o.hoop2Prefab) && Bridge.equals(this.stickPrefab, o.stickPrefab);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "GameManager.GameConfig#$clone", this ); }
+
                 var s = to || new GameManager.GameConfig();
                 s.initHop = this.initHop;
                 s.initHoop2 = this.initHoop2;
@@ -3754,6 +4170,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                 s.timeMoveFirst = this.timeMoveFirst;
                 s.timeMoveSecond = this.timeMoveSecond;
                 s.timeMoveTarget = this.timeMoveTarget;
+                s.timeMove2Hop = this.timeMove2Hop;
                 s.hopPrefab = this.hopPrefab;
                 s.hoop2Prefab = this.hoop2Prefab;
                 s.stickPrefab = this.stickPrefab;
@@ -3782,16 +4199,12 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         statics: {
             fields: {
                 BLUE: 0,
-                ORANGE: 1,
-                RED: 2,
-                GREEN: 3,
-                PINK: 4,
-                DARKPINK: 5,
-                PURPLE: 6,
-                BLACK: 7,
-                CYAN: 8,
-                YELLOW: 9,
-                DARKYELLOW: 10
+                RED: 1,
+                GREEN: 2,
+                PINK: 3,
+                PURPLE: 4,
+                CYAN: 5,
+                YELLOW: 6
             }
         }
     });
@@ -3821,7 +4234,9 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new Hop(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "Hop#getDefaultValue", this ); }
+ return new Hop(); }
             }
         },
         fields: {
@@ -3830,21 +4245,29 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "Hop#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "Hop#getHashCode", this ); }
+
                 var h = Bridge.addHash([7368520, this.hoopColor, this.colorHop]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "Hop#equals", this ); }
+
                 if (!Bridge.is(o, Hop)) {
                     return false;
                 }
                 return Bridge.equals(this.hoopColor, o.hoopColor) && Bridge.equals(this.colorHop, o.colorHop);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "Hop#$clone", this ); }
+
                 var s = to || new Hop();
                 s.hoopColor = this.hoopColor;
                 s.colorHop = this.colorHop;
@@ -3865,6 +4288,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         methods: {
             /*HopManager.ChangeColor start.*/
             ChangeColor: function (hop) {
+if ( TRACE ) { TRACE( "HopManager#ChangeColor", this ); }
+
                 if (UnityEngine.GameObject.op_Inequality(this.obj, null)) {
                     var mats = this.obj.GetComponent(UnityEngine.MeshRenderer).materials;
                     mats[0] = hop.colorHop;
@@ -3887,6 +4312,114 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
+    /*JellyMesh start.*/
+    Bridge.define("JellyMesh", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            Intensity: 0,
+            Mass: 0,
+            stiffness: 0,
+            damping: 0,
+            OriginalMesh: null,
+            MeshClone: null,
+            renderer: null,
+            jv: null,
+            vertexArray: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "JellyMesh#init", this ); }
+
+                this.Intensity = 1.0;
+                this.Mass = 1.0;
+                this.stiffness = 1.0;
+                this.damping = 0.75;
+            }
+        },
+        methods: {
+            /*JellyMesh.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "JellyMesh#Start", this ); }
+
+                var $t;
+                this.OriginalMesh = this.GetComponent(UnityEngine.MeshFilter).sharedMesh;
+                this.MeshClone = UnityEngine.Object.Instantiate(UnityEngine.Mesh, this.OriginalMesh);
+                this.GetComponent(UnityEngine.MeshFilter).sharedMesh = this.MeshClone;
+                this.renderer = this.GetComponent(UnityEngine.MeshRenderer);
+                this.jv = System.Array.init(this.MeshClone.vertices.length, null, JellyMesh.JellyVertex);
+                for (var i = 0; i < this.MeshClone.vertices.length; i = (i + 1) | 0) {
+                    this.jv[i] = new JellyMesh.JellyVertex(i, this.transform.TransformPoint$1(($t = this.MeshClone.vertices)[i]));
+                }
+
+            },
+            /*JellyMesh.Start end.*/
+
+            /*JellyMesh.FixedUpdate start.*/
+            FixedUpdate: function () {
+if ( TRACE ) { TRACE( "JellyMesh#FixedUpdate", this ); }
+
+                this.vertexArray = this.OriginalMesh.vertices;
+                for (var i = 0; i < this.jv.length; i = (i + 1) | 0) {
+                    var target = this.transform.TransformPoint$1(this.vertexArray[this.jv[i].ID]);
+                    var intensity = (1 - (this.renderer.bounds.max.y - target.y) / this.renderer.bounds.halfExtents.$clone().scale( 2 ).y) * this.Intensity;
+                    this.jv[i].Shake(target.$clone(), this.Mass, this.stiffness, this.damping);
+                    target = this.transform.InverseTransformPoint(this.jv[i].Position);
+                    this.vertexArray[this.jv[i].ID] = new pc.Vec3().lerp( this.vertexArray[this.jv[i].ID], target, intensity );
+
+                }
+                this.MeshClone.vertices = this.vertexArray;
+            },
+            /*JellyMesh.FixedUpdate end.*/
+
+
+        }
+    });
+    /*JellyMesh end.*/
+
+    /*JellyMesh+JellyVertex start.*/
+    Bridge.define("JellyMesh.JellyVertex", {
+        $kind: "nested class",
+        fields: {
+            ID: 0,
+            Position: null,
+            velocity: null,
+            Force: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "JellyMesh.JellyVertex#init", this ); }
+
+                this.Position = new UnityEngine.Vector3();
+                this.velocity = new UnityEngine.Vector3();
+                this.Force = new UnityEngine.Vector3();
+            },
+            ctor: function (_id, _pos) {
+if ( TRACE ) { TRACE( "JellyMesh.JellyVertex#ctor", this ); }
+
+                this.$initialize();
+                this.ID = _id;
+                this.Position = _pos.$clone();
+            }
+        },
+        methods: {
+            /*JellyMesh+JellyVertex.Shake start.*/
+            Shake: function (target, m, s, d) {
+if ( TRACE ) { TRACE( "JellyMesh.JellyVertex#Shake", this ); }
+
+                this.Force = (target.$clone().sub( this.Position )).clone().scale( s );
+                this.velocity = (this.velocity.$clone().add( this.Force.$clone().scale( 1.0 / ( m ) ) )).clone().scale( d );
+                this.Position = this.Position.$clone().add( this.velocity.$clone() );
+                if ((this.velocity.$clone().add( this.Force ).add( this.Force.$clone().scale( 1.0 / ( m ) ) )).length() < 0.001) {
+                    this.Position = target.$clone();
+                }
+            },
+            /*JellyMesh+JellyVertex.Shake end.*/
+
+
+        }
+    });
+    /*JellyMesh+JellyVertex end.*/
+
     /*Level start.*/
     Bridge.define("Level", {
         fields: {
@@ -3904,6 +4437,60 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     });
     /*LevelData end.*/
 
+    /*Pinwheel.MeshToFile.VersionInfo start.*/
+    /** @namespace Pinwheel.MeshToFile */
+
+    /**
+     * Utility class contains product info
+     *
+     * @static
+     * @abstract
+     * @public
+     * @class Pinwheel.MeshToFile.VersionInfo
+     */
+    Bridge.define("Pinwheel.MeshToFile.VersionInfo", {
+        statics: {
+            props: {
+                Code: {
+                    get: function () {
+if ( TRACE ) { TRACE( "Pinwheel.MeshToFile.VersionInfo#Code#get", this ); }
+
+                        return "1.1.0";
+                    }
+                },
+                ProductName: {
+                    get: function () {
+if ( TRACE ) { TRACE( "Pinwheel.MeshToFile.VersionInfo#ProductName#get", this ); }
+
+                        return "Mesh To File";
+                    }
+                },
+                ProductNameAndVersion: {
+                    get: function () {
+if ( TRACE ) { TRACE( "Pinwheel.MeshToFile.VersionInfo#ProductNameAndVersion#get", this ); }
+
+                        return System.String.format("{0} v{1}", Pinwheel.MeshToFile.VersionInfo.ProductName, Pinwheel.MeshToFile.VersionInfo.Code);
+                    }
+                },
+                ProductNameShort: {
+                    get: function () {
+if ( TRACE ) { TRACE( "Pinwheel.MeshToFile.VersionInfo#ProductNameShort#get", this ); }
+
+                        return "Mesh To File";
+                    }
+                },
+                ProductNameAndVersionShort: {
+                    get: function () {
+if ( TRACE ) { TRACE( "Pinwheel.MeshToFile.VersionInfo#ProductNameAndVersionShort#get", this ); }
+
+                        return System.String.format("{0} v{1}", Pinwheel.MeshToFile.VersionInfo.ProductNameShort, Pinwheel.MeshToFile.VersionInfo.Code);
+                    }
+                }
+            }
+        }
+    });
+    /*Pinwheel.MeshToFile.VersionInfo end.*/
+
     /*SimplePool start.*/
     Bridge.define("SimplePool", {
         statics: {
@@ -3913,6 +4500,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "SimplePool#init", this ); }
+
                     this.DEFAULT_POOL_SIZE = 3;
                 }
             },
@@ -3930,6 +4519,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {void}
                  */
                 Init: function (prefab, qty) {
+if ( TRACE ) { TRACE( "SimplePool#Init", this ); }
+
                     if (prefab === void 0) { prefab = null; }
                     if (qty === void 0) { qty = 3; }
                     if (SimplePool.pools == null) {
@@ -3959,6 +4550,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {void}
                  */
                 Preload: function (prefab, qty) {
+if ( TRACE ) { TRACE( "SimplePool#Preload", this ); }
+
                     if (qty === void 0) { qty = 1; }
                     SimplePool.Init(prefab, qty);
 
@@ -3993,6 +4586,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {UnityEngine.GameObject}
                  */
                 Spawn: function (prefab, pos, rot) {
+if ( TRACE ) { TRACE( "SimplePool#Spawn", this ); }
+
                     SimplePool.Init(prefab);
 
                     return SimplePool.pools.getItem(prefab).Spawn(pos.$clone(), rot.$clone());
@@ -4011,6 +4606,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                  * @return  {void}
                  */
                 Despawn: function (obj) {
+if ( TRACE ) { TRACE( "SimplePool#Despawn", this ); }
+
                     var pm = obj.GetComponent(SimplePool.PoolMember);
                     if (UnityEngine.MonoBehaviour.op_Equality(pm, null)) {
                         UnityEngine.Debug.Log$1("Object '" + (obj.name || "") + "' wasn't spawned from a pool. Destroying it instead.");
@@ -4043,9 +4640,13 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "SimplePool.Pool#init", this ); }
+
                 this.nextId = 1;
             },
             ctor: function (prefab, initialQty) {
+if ( TRACE ) { TRACE( "SimplePool.Pool#ctor", this ); }
+
                 this.$initialize();
                 this.prefab = prefab;
 
@@ -4058,6 +4659,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         methods: {
             /*SimplePool+Pool.Spawn start.*/
             Spawn: function (pos, rot) {
+if ( TRACE ) { TRACE( "SimplePool.Pool#Spawn", this ); }
+
                 var obj;
                 if (this.inactive.Count === 0) {
                     // We don't have an object in our pool, so we
@@ -4095,6 +4698,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*SimplePool+Pool.Despawn start.*/
             Despawn: function (obj) {
+if ( TRACE ) { TRACE( "SimplePool.Pool#Despawn", this ); }
+
                 obj.SetActive(false);
 
                 // Since Stack doesn't have a Capacity member, we can't control
@@ -4138,9 +4743,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             }
         },
         fields: {
-            audios: null,
+            audio: null,
             hopFly: null,
-            hopDrop: null,
             hopSelect: null,
             stickFinish: null,
             win: null,
@@ -4149,6 +4753,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         methods: {
             /*SoundManager.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "SoundManager#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(SoundManager.instance, null)) {
                     SoundManager.instance = this;
                 }
@@ -4157,50 +4763,72 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*SoundManager.PlayAudio start.*/
             PlayAudio: function (clip) {
-                for (var i = 0; i < this.audios.length; i = (i + 1) | 0) {
-                    if (!this.audios[i].isPlaying) {
-                        this.audios[i].clip = clip;
-                        this.audios[i].Play();
+if ( TRACE ) { TRACE( "SoundManager#PlayAudio", this ); }
 
-                        break;
-                    }
-                }
+                //for (int i = 0; i < audios.Length; i++)
+                //{
+                //    if (!audios[i].isPlaying)
+                //    {
+                //        audios[i].clip = clip;
+                //        audios[i].Play();
+
+                //        break;
+                //    }
+                //}        
             },
             /*SoundManager.PlayAudio end.*/
 
             /*SoundManager.PlayHopFly start.*/
             PlayHopFly: function () {
-                this.PlayAudio(this.hopFly);
+if ( TRACE ) { TRACE( "SoundManager#PlayHopFly", this ); }
+
+                //PlayAudio(hopFly);
+                this.audio.PlayOneShot(this.hopFly);
             },
             /*SoundManager.PlayHopFly end.*/
 
             /*SoundManager.PlayHopDrop start.*/
             PlayHopDrop: function () {
-                this.PlayAudio(this.hopDrop);
+if ( TRACE ) { TRACE( "SoundManager#PlayHopDrop", this ); }
+
+                //PlayAudio(hopFly);
+                this.audio.PlayOneShot(this.hopFly);
             },
             /*SoundManager.PlayHopDrop end.*/
 
             /*SoundManager.PlayHopSelect start.*/
             PlayHopSelect: function () {
-                this.PlayAudio(this.hopSelect);
+if ( TRACE ) { TRACE( "SoundManager#PlayHopSelect", this ); }
+
+                //PlayAudio(hopSelect);
+                this.audio.PlayOneShot(this.hopSelect);
             },
             /*SoundManager.PlayHopSelect end.*/
 
             /*SoundManager.PlayStickFinish start.*/
             PlayStickFinish: function () {
-                this.PlayAudio(this.stickFinish);
+if ( TRACE ) { TRACE( "SoundManager#PlayStickFinish", this ); }
+
+                //PlayAudio(stickFinish);
+                this.audio.PlayOneShot(this.stickFinish);
             },
             /*SoundManager.PlayStickFinish end.*/
 
             /*SoundManager.PlayWin start.*/
             PlayWin: function () {
-                this.PlayAudio(this.win);
+if ( TRACE ) { TRACE( "SoundManager#PlayWin", this ); }
+
+                //PlayAudio(win);
+                this.audio.PlayOneShot(this.win);
             },
             /*SoundManager.PlayWin end.*/
 
             /*SoundManager.PlayButton start.*/
             PlayButton: function () {
-                this.PlayAudio(this.button);
+if ( TRACE ) { TRACE( "SoundManager#PlayButton", this ); }
+
+                //PlayAudio(button);
+                this.audio.PlayOneShot(this.button);
             },
             /*SoundManager.PlayButton end.*/
 
@@ -4215,15 +4843,29 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
         fields: {
             hops: null,
             isDone: false,
+            isShowFinish: false,
             indexStick: 0,
             victoryEffect: null,
             stick4: null,
-            stick5: null
+            stick5: null,
+            startPoint: null,
+            hasFirstStart: false
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "StickManager#init", this ); }
+
+                this.hasFirstStart = false;
+            }
         },
         methods: {
             /*StickManager.Initialize start.*/
             Initialize: function (countHop, index) {
+if ( TRACE ) { TRACE( "StickManager#Initialize", this ); }
+
                 this.isDone = false;
+                this.isShowFinish = false;
+
                 this.stick4.SetActive(countHop >= 4);
                 this.stick5.SetActive(countHop > 4);
 
@@ -4233,6 +4875,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*StickManager.ResetForNextLevel start.*/
             ResetForNextLevel: function () {
+if ( TRACE ) { TRACE( "StickManager#ResetForNextLevel", this ); }
+
                 this.isDone = false;
                 for (var i = 0; i < this.hops.Count; i = (i + 1) | 0) {
                     this.hops.getItem(i).gameObject.SetActive(false);
@@ -4242,15 +4886,37 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             },
             /*StickManager.ResetForNextLevel end.*/
 
+            /*StickManager.CheckFullHop start.*/
+            CheckFullHop: function (maxHop) {
+if ( TRACE ) { TRACE( "StickManager#CheckFullHop", this ); }
+
+                return this.hops.Count === maxHop;
+            },
+            /*StickManager.CheckFullHop end.*/
+
             /*StickManager.OnMouseDown start.*/
             OnMouseDown: function () {
-                if (GameManager.instance.currentLevel === 0) {
-                    UIManager.instance.ButtonGuide();
+if ( TRACE ) { TRACE( "StickManager#OnMouseDown", this ); }
+
+                if (GameManager.instance.turn > 0) {
+                    UIManager.instance.timer.currentTime = 3;
+                    //GameManager.instance.hasReboot = false;
                 }
 
-                if (UIManager.instance.textHint.gameObject.activeInHierarchy === true) {
-                    UIManager.instance.textHint.gameObject.SetActive(false);
+                if (!GameManager.instance.canClickHop) {
+                    return;
                 }
+
+                if (GameManager.instance.hasPlayMusic === false) {
+                    GameManager.instance.hasPlayMusic = true;
+                    GameManager.instance.bgMusic.Play();
+                }
+
+                UIManager.instance.ButtonGuide();
+
+
+                //if (UIManager.instance.textHint.gameObject.activeInHierarchy == true)
+                //    UIManager.instance.textHint.gameObject.SetActive(false);
 
 
                 if (GameManager.instance.gameState !== GameState.WIN && this.isDone === false) {
@@ -4264,10 +4930,10 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                             GameManager.instance.ResetTapWithMove();
                         } else {
                             if (this.hops.Count === 0) {
-                                GameManager.instance.MoveStickAToStickB(this.indexStick);
+                                this.StartCoroutine$1(GameManager.instance.MoveStickAToStickB(this.indexStick));
                             } else {
                                 if (GameManager.instance.CheckSameColor(this.indexStick)) {
-                                    GameManager.instance.MoveStickAToStickB(this.indexStick);
+                                    this.StartCoroutine$1(GameManager.instance.MoveStickAToStickB(this.indexStick));
                                 } else {
                                     GameManager.instance.ResetTapWithMove();
                                 }
@@ -4278,8 +4944,36 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             },
             /*StickManager.OnMouseDown end.*/
 
+            /*StickManager.GetCountSameColor start.*/
+            GetCountSameColor: function () {
+if ( TRACE ) { TRACE( "StickManager#GetCountSameColor", this ); }
+
+                var countSameColor = 0;
+                var typeHop = this.hops.getItem(((this.hops.Count - 1) | 0)).hoopColor;
+                for (var i = (this.hops.Count - 1) | 0; i >= 0; i = (i - 1) | 0) {
+                    if (this.hops.getItem(i).hoopColor === typeHop) {
+                        countSameColor = (countSameColor + 1) | 0;
+                    } else {
+                        break;
+                    }
+                }
+
+                return countSameColor;
+            },
+            /*StickManager.GetCountSameColor end.*/
+
+            /*StickManager.GetCountEmptyHop start.*/
+            GetCountEmptyHop: function () {
+if ( TRACE ) { TRACE( "StickManager#GetCountEmptyHop", this ); }
+
+                return ((GameManager.instance.countHop - this.hops.Count) | 0);
+            },
+            /*StickManager.GetCountEmptyHop end.*/
+
             /*StickManager.GetLastPosition start.*/
             GetLastPosition: function () {
+if ( TRACE ) { TRACE( "StickManager#GetLastPosition", this ); }
+
                 var position = this.transform.position.$clone();
 
                 position.y = (((this.hops.Count - 1) | 0)) * GameManager.instance.config.distanceHop;
@@ -4290,13 +4984,15 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*StickManager.CheckEndStick start.*/
             CheckEndStick: function () {
+if ( TRACE ) { TRACE( "StickManager#CheckEndStick", this ); }
+
                 if (this.hops.Count === GameManager.instance.countHop) {
                     for (var i = 1; i < this.hops.Count; i = (i + 1) | 0) {
                         if (this.hops.getItem(i).hoopColor !== this.hops.getItem(0).hoopColor) {
                             return false;
                         }
                     }
-                    this.victoryEffect.Play();
+                    //victoryEffect.Play();
                     this.isDone = true;
 
                     return true;
@@ -4305,6 +5001,25 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                 }
             },
             /*StickManager.CheckEndStick end.*/
+
+            /*StickManager.CanShowFinish start.*/
+            CanShowFinish: function () {
+if ( TRACE ) { TRACE( "StickManager#CanShowFinish", this ); }
+
+                return this.isDone && !this.isShowFinish;
+            },
+            /*StickManager.CanShowFinish end.*/
+
+            /*StickManager.ActionWhenDoneShow start.*/
+            ActionWhenDoneShow: function () {
+if ( TRACE ) { TRACE( "StickManager#ActionWhenDoneShow", this ); }
+
+                SoundManager.instance.PlayStickFinish();
+                this.isShowFinish = true;
+                //Lid fall
+                this.victoryEffect.Play();
+            },
+            /*StickManager.ActionWhenDoneShow end.*/
 
 
         }
@@ -4329,57 +5044,43 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             ctaUI: null,
             downloadButton: null,
             downloadBtn: null,
-            buttonImage: null,
-            downloadText: null,
-            levelText: null,
-            hintText: null,
-            backgroundImg: null,
             background: null,
-            downloadTxt: null,
             levelTxt: null,
             mask: null,
             mask2: null,
+            timer: null,
+            soundButton: null,
+            soundBtnImage: null,
+            soundOn: null,
+            soundOff: null,
             installClick: 0,
-            ctaClick: 0
+            ctaClick: 0,
+            hasSound: false
         },
         ctors: {
             init: function () {
-                this.downloadText = "DOWNLOAD";
-                this.levelText = "Level 1069";
-                this.hintText = "SAME COLOR hoop can be placed on top each other";
+if ( TRACE ) { TRACE( "UIManager#init", this ); }
+
                 this.installClick = 0;
                 this.ctaClick = 0;
+                this.hasSound = true;
             }
         },
         methods: {
             /*UIManager.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "UIManager#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(UIManager.instance, null)) {
                     UIManager.instance = this;
                 }
             },
             /*UIManager.Awake end.*/
 
-            /*UIManager.Start start.*/
-            Start: function () {
-                // Assign assets
-                this.downloadBtn.texture = this.buttonImage;
-                this.downloadTxt.text = this.downloadText;
-                this.levelTxt.text = this.levelText;
-                this.textHint.text = this.hintText;
-                //background.texture = backgroundImg;
-                this.background.sprite = UnityEngine.Sprite.Create(this.backgroundImg, new UnityEngine.Rect.$ctor1(0, 0, this.backgroundImg.width, this.backgroundImg.height), new pc.Vec2( 0.5, 0.5 ));
-
-                //gameIcon.texture = gameIconImg;
-                //ctaButton1.texture = buttonImage;
-                //ctaButton2.texture = buttonImage;
-                //ctaBtn1Txt.text = ctaBtn1Text;
-                //ctaBtn2Txt.text = ctaBtn2Text;
-            },
-            /*UIManager.Start end.*/
-
             /*UIManager.CheckTutorial start.*/
             CheckTutorial: function () {
+if ( TRACE ) { TRACE( "UIManager#CheckTutorial", this ); }
+
                 if (this.manager.currentLevel === 0) {
                     this.guideHand1.SetActive(true);
                 }
@@ -4388,20 +5089,41 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*UIManager.ButtonGuide start.*/
             ButtonGuide: function () {
+if ( TRACE ) { TRACE( "UIManager#ButtonGuide", this ); }
+
                 if (this.guideHand1.activeSelf) {
                     this.guideHand1.SetActive(false);
                     this.guideHand2.SetActive(true);
-                    this.mask.SetActive(false);
-                    this.mask2.SetActive(true);
                 } else {
                     this.guideHand2.SetActive(false);
-                    this.mask2.SetActive(false);
+                    GameManager.instance.hasReboot = false;
                 }
             },
             /*UIManager.ButtonGuide end.*/
 
+            /*UIManager.SoundSetting start.*/
+            SoundSetting: function () {
+if ( TRACE ) { TRACE( "UIManager#SoundSetting", this ); }
+
+                if (this.hasSound === true) {
+                    this.soundBtnImage.sprite = this.soundOff;
+                    this.hasSound = false;
+
+                    GameManager.instance.bgMusic.Pause();
+                    //SoundManager.instance.audio.volume = 0;
+                } else if (this.hasSound === false) {
+                    this.hasSound = true;
+                    this.soundBtnImage.sprite = this.soundOn;
+                    GameManager.instance.bgMusic.Play();
+                    //SoundManager.instance.audio.volume = 1;
+                }
+            },
+            /*UIManager.SoundSetting end.*/
+
             /*UIManager.ButtonDirectToStore start.*/
             ButtonDirectToStore: function () {
+if ( TRACE ) { TRACE( "UIManager#ButtonDirectToStore", this ); }
+
                 this.ctaClick = (this.ctaClick + 1) | 0;
                 Luna.Unity.Playable.InstallFullGame();
                 Luna.Unity.Analytics.LogEvent$1("cta_click", this.ctaClick);
@@ -4410,18 +5132,24 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*UIManager.CompleteRound1 start.*/
             CompleteRound1: function () {
+if ( TRACE ) { TRACE( "UIManager#CompleteRound1", this ); }
+
                 this.uiGetReward.SetActive(true);
             },
             /*UIManager.CompleteRound1 end.*/
 
             /*UIManager.ButtonGetReward start.*/
             ButtonGetReward: function () {
+if ( TRACE ) { TRACE( "UIManager#ButtonGetReward", this ); }
+
                 this.ActionGetReward();
             },
             /*UIManager.ButtonGetReward end.*/
 
             /*UIManager.ActionGetReward start.*/
             ActionGetReward: function () {
+if ( TRACE ) { TRACE( "UIManager#ActionGetReward", this ); }
+
                 this.uiGetReward.SetActive(false);
 
                 this.manager.NewLevel();
@@ -4430,6 +5158,8 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
 
             /*UIManager.ButtonDownload start.*/
             ButtonDownload: function () {
+if ( TRACE ) { TRACE( "UIManager#ButtonDownload", this ); }
+
                 this.installClick = (this.installClick + 1) | 0;
                 Luna.Unity.Playable.InstallFullGame();
                 Luna.Unity.Analytics.LogEvent$1("download_click", this.installClick);
@@ -4448,16 +5178,23 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
             camera: null,
             mask: null,
             mask2: null,
+            hoopPosContainer: null,
+            hoopPosContainerTran: null,
             bgFitCamera: null
         },
         methods: {
             /*ViewPortHandler.Update start.*/
             Update: function () {
+if ( TRACE ) { TRACE( "ViewPortHandler#Update", this ); }
+
                 var screenRatio = (((Bridge.Int.div(UnityEngine.Screen.width, UnityEngine.Screen.height)) | 0));
                 if (screenRatio >= 1) {
                     // landscape
-                    this.camera.orthographicSize = 5.0;
-                    this.camera.transform.position = new pc.Vec3( 1.9, 15.0, -19.77 );
+                    this.hoopPosContainerTran.anchoredPosition = UnityEngine.Vector2.FromVector3(new pc.Vec3( 0, -12.0, 0 ));
+                    this.hoopPosContainer.transform.localScale = new pc.Vec3( 0.8, 1, 1 );
+
+                    this.camera.orthographicSize = 7.0;
+                    this.camera.transform.position = new pc.Vec3( 1.9, 14.0, -19.77 );
 
                     if (this.mask.gameObject.activeInHierarchy === true) {
                         this.mask.anchoredPosition = new pc.Vec2( 139, 55 );
@@ -4468,8 +5205,11 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
                     }
                 } else if (screenRatio < 1) {
                     // portrait
+                    this.hoopPosContainerTran.anchoredPosition = UnityEngine.Vector2.FromVector3(pc.Vec3.ZERO.clone());
+                    this.hoopPosContainer.transform.localScale = new pc.Vec3( 1, 1, 1 );
+
                     this.camera.orthographicSize = 7.0;
-                    this.camera.transform.position = new pc.Vec3( 1.9, 13.28, -19.77 );
+                    this.camera.transform.position = new pc.Vec3( 1.9, 14.6, -19.77 );
 
                     if (this.mask.gameObject.activeInHierarchy === true) {
                         this.mask.anchoredPosition = new pc.Vec2( 130, 5 );
@@ -4490,7 +5230,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*ViewPortHandler end.*/
 
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","System.Collections","UnityEngine.UI","System.Collections.Generic","TMPro","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
+        $n = ["System","UnityEngine","System.Collections","System.Collections.Generic","UnityEngine.UI","TMPro","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
     /*BackgroundFitCamera start.*/
     $m("BackgroundFitCamera", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Fit","t":8,"sn":"Fit","rt":$n[0].Void},{"a":1,"n":"GetCameraFrustumSize","t":8,"pi":[{"n":"camera","pt":$n[1].Camera,"ps":0},{"n":"distance","pt":$n[0].Single,"ps":1}],"sn":"GetCameraFrustumSize","rt":$n[1].Vector2,"p":[$n[1].Camera,$n[0].Single]},{"a":2,"n":"background","t":4,"rt":$n[1].GameObject,"sn":"background"},{"a":2,"n":"backgroundDistanceFromCamera","t":4,"rt":$n[0].Single,"sn":"backgroundDistanceFromCamera","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"backgroundSpriteRenderer","t":4,"rt":$n[1].SpriteRenderer,"sn":"backgroundSpriteRenderer"},{"a":2,"n":"camera","t":4,"rt":$n[1].Camera,"sn":"camera"}]}; }, $n);
@@ -4505,7 +5245,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*Constants end.*/
 
     /*CountDown start.*/
-    $m("CountDown", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CTAPopupCallBack","t":8,"sn":"CTAPopupCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"TimerCallBack","t":8,"sn":"TimerCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"currentTime","t":4,"rt":$n[0].Int32,"sn":"currentTime","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isStart","t":4,"rt":$n[0].Boolean,"sn":"isStart","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"subTimer","t":4,"rt":$n[1].GameObject,"sn":"subTimer"},{"a":2,"n":"timeText","t":4,"rt":$n[3].Text,"sn":"timeText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiManager","t":4,"rt":UIManager,"sn":"uiManager"}]}; }, $n);
+    $m("CountDown", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CTAPopupCallBack","t":8,"sn":"CTAPopupCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"TimerCallBack","t":8,"sn":"TimerCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"currentTime","t":4,"rt":$n[0].Int32,"sn":"currentTime","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isStart","t":4,"rt":$n[0].Boolean,"sn":"isStart","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiManager","t":4,"rt":UIManager,"sn":"uiManager"}]}; }, $n);
     /*CountDown end.*/
 
     /*CutoutMaskUI start.*/
@@ -4517,11 +5257,11 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*Database end.*/
 
     /*GameManager start.*/
-    $m("GameManager", function () { return {"nested":[GameManager.GameConfig],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CheckCompleted","t":8,"sn":"CheckCompleted","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CheckModel","t":8,"sn":"CheckModel","rt":$n[0].Void},{"a":2,"n":"CheckSameColor","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"CheckSameColor","rt":$n[0].Boolean,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"EndGame","t":8,"sn":"EndGame","rt":$n[0].Void},{"a":1,"n":"InitHops","t":8,"sn":"InitHops","rt":$n[0].Void},{"a":1,"n":"InitLevel","t":8,"sn":"InitLevel","rt":$n[0].Void},{"a":1,"n":"InitStick","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"InitStick","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"MoveStickAToStickB","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"MoveStickAToStickB","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"NewLevel","t":8,"sn":"NewLevel","rt":$n[0].Void},{"a":2,"n":"ResetTapWithMove","t":8,"sn":"ResetTapWithMove","rt":$n[0].Void},{"a":2,"n":"ResetTapWithoutMove","t":8,"sn":"ResetTapWithoutMove","rt":$n[0].Void},{"a":1,"n":"ShowRewardCallBack","t":8,"sn":"ShowRewardCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"SortByRow","t":8,"pi":[{"n":"start","pt":$n[0].Int32,"ps":0},{"n":"count","pt":$n[0].Int32,"ps":1},{"n":"zPos","pt":$n[0].Single,"ps":2}],"sn":"SortByRow","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Single]},{"a":1,"n":"SortHops","t":8,"sn":"SortHops","rt":$n[0].Void},{"a":1,"n":"SortSticks","t":8,"sn":"SortSticks","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StickHopMoveFirst","t":8,"sn":"StickHopMoveFirst","rt":$n[0].Void},{"a":2,"n":"TapToStart","t":8,"sn":"TapToStart","rt":$n[0].Void},{"a":2,"n":"TurnOffDownloadBtn","t":8,"sn":"TurnOffDownloadBtn","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"cacheIndexTap1","t":4,"rt":$n[0].Int32,"sn":"cacheIndexTap1","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"cacheYFirst","t":4,"rt":$n[0].Single,"sn":"cacheYFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"colorConfig","t":4,"rt":ColorHop,"sn":"colorConfig"},{"a":2,"n":"config","t":4,"rt":GameManager.GameConfig,"sn":"config"},{"a":2,"n":"countDown","t":4,"rt":CountDown,"sn":"countDown"},{"a":2,"n":"countHop","t":4,"rt":$n[0].Int32,"sn":"countHop","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"countStick","t":4,"rt":$n[0].Int32,"sn":"countStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentFirstHop","t":4,"rt":HopManager,"sn":"currentFirstHop"},{"a":2,"n":"currentLevel","t":4,"rt":$n[0].Int32,"sn":"currentLevel","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"gameState","t":4,"rt":GameState,"sn":"gameState","box":function ($v) { return Bridge.box($v, GameState, System.Enum.toStringFn(GameState));}},{"a":1,"n":"hasChangeLandscape","t":4,"rt":$n[0].Boolean,"sn":"hasChangeLandscape","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasChangePortrait","t":4,"rt":$n[0].Boolean,"sn":"hasChangePortrait","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasPassRound1","t":4,"rt":$n[0].Boolean,"sn":"hasPassRound1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"heightMoveFirst","t":4,"rt":$n[0].Single,"sn":"heightMoveFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"hoopList","t":4,"rt":$n[4].List$1(UnityEngine.GameObject),"sn":"hoopList"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("hoop type", 0, "Hoop Config", false)],"a":2,"n":"hoopType","t":4,"rt":HoopType,"sn":"hoopType","box":function ($v) { return Bridge.box($v, HoopType, System.Enum.toStringFn(HoopType));}},{"a":2,"n":"instance","is":true,"t":4,"rt":GameManager,"sn":"instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"levelData","t":4,"rt":LevelData,"sn":"levelData"},{"a":2,"n":"levelText","t":4,"rt":$n[1].GameObject,"sn":"levelText"},{"a":1,"n":"stickFinish","t":4,"rt":$n[0].Int32,"sn":"stickFinish","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"sticks","t":4,"rt":$n[4].List$1(StickManager),"sn":"sticks"},{"a":2,"n":"subTimer","t":4,"rt":$n[1].GameObject,"sn":"subTimer"},{"a":2,"n":"timer","t":4,"rt":$n[1].GameObject,"sn":"timer"},{"a":1,"n":"turn","t":4,"rt":$n[0].Int32,"sn":"turn","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiManager","t":4,"rt":UIManager,"sn":"uiManager"}]}; }, $n);
+    $m("GameManager", function () { return {"nested":[GameManager.GameConfig],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CheckCompleted","t":8,"sn":"CheckCompleted","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"CheckSameColor","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"CheckSameColor","rt":$n[0].Boolean,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"CheckSameColor2Stick","t":8,"pi":[{"n":"indexStick1","pt":$n[0].Int32,"ps":0},{"n":"indexStick2","pt":$n[0].Int32,"ps":1}],"sn":"CheckSameColor2Stick","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"EndGame","t":8,"sn":"EndGame","rt":$n[0].Void},{"a":2,"n":"GetNextStep","t":8,"sn":"GetNextStep","rt":$n[0].Void},{"a":1,"n":"InitHops","t":8,"sn":"InitHops","rt":$n[0].Void},{"a":1,"n":"InitLevel","t":8,"sn":"InitLevel","rt":$n[0].Void},{"a":1,"n":"InitStick","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"InitStick","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"JellyShake","t":8,"sn":"JellyShake","rt":$n[0].Void},{"a":1,"n":"MoveHop","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"MoveHop","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"MoveHopWithFirst","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"MoveHopWithFirst","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"MoveStickAToStickB","t":8,"pi":[{"n":"indexTarget","pt":$n[0].Int32,"ps":0}],"sn":"MoveStickAToStickB","rt":$n[2].IEnumerator,"p":[$n[0].Int32]},{"a":2,"n":"NewLevel","t":8,"sn":"NewLevel","rt":$n[0].Void},{"a":2,"n":"ResetTapWithMove","t":8,"sn":"ResetTapWithMove","rt":$n[0].Void},{"a":2,"n":"ResetTapWithoutMove","t":8,"sn":"ResetTapWithoutMove","rt":$n[0].Void},{"a":1,"n":"ShowRewardCallBack","t":8,"sn":"ShowRewardCallBack","rt":$n[2].IEnumerator},{"a":1,"n":"SortByRow","t":8,"pi":[{"n":"start","pt":$n[0].Int32,"ps":0},{"n":"count","pt":$n[0].Int32,"ps":1},{"n":"zPos","pt":$n[0].Single,"ps":2}],"sn":"SortByRow","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Single]},{"a":1,"n":"SortHops","t":8,"sn":"SortHops","rt":$n[0].Void},{"a":1,"n":"SortSticks","t":8,"sn":"SortSticks","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StickHopMoveFirst","t":8,"sn":"StickHopMoveFirst","rt":$n[0].Void},{"a":2,"n":"TapToStart","t":8,"sn":"TapToStart","rt":$n[0].Void},{"a":2,"n":"TurnOffDownloadBtn","t":8,"sn":"TurnOffDownloadBtn","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"bgMusic","t":4,"rt":$n[1].AudioSource,"sn":"bgMusic"},{"a":2,"n":"cacheIndexTap1","t":4,"rt":$n[0].Int32,"sn":"cacheIndexTap1","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"cacheYFirst","t":4,"rt":$n[0].Single,"sn":"cacheYFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"canClickHop","t":4,"rt":$n[0].Boolean,"sn":"canClickHop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"colorConfig","t":4,"rt":ColorHop,"sn":"colorConfig"},{"a":2,"n":"config","t":4,"rt":GameManager.GameConfig,"sn":"config"},{"a":2,"n":"countDown","t":4,"rt":CountDown,"sn":"countDown"},{"a":2,"n":"countHop","t":4,"rt":$n[0].Int32,"sn":"countHop","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"countStick","t":4,"rt":$n[0].Int32,"sn":"countStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"currentFirstHop","t":4,"rt":HopManager,"sn":"currentFirstHop"},{"a":2,"n":"currentLevel","t":4,"rt":$n[0].Int32,"sn":"currentLevel","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"gameState","t":4,"rt":GameState,"sn":"gameState","box":function ($v) { return Bridge.box($v, GameState, System.Enum.toStringFn(GameState));}},{"a":1,"n":"hasChangeLandscape","t":4,"rt":$n[0].Boolean,"sn":"hasChangeLandscape","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasChangePortrait","t":4,"rt":$n[0].Boolean,"sn":"hasChangePortrait","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasFinishMove","t":4,"rt":$n[0].Boolean,"sn":"hasFinishMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasPassRound1","t":4,"rt":$n[0].Boolean,"sn":"hasPassRound1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasPlayMusic","t":4,"rt":$n[0].Boolean,"sn":"hasPlayMusic","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasReboot","t":4,"rt":$n[0].Boolean,"sn":"hasReboot","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"heightMoveFirst","t":4,"rt":$n[0].Single,"sn":"heightMoveFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"hoopPosList","t":4,"rt":$n[3].List$1(UnityEngine.GameObject),"sn":"hoopPosList"},{"a":2,"n":"instance","is":true,"t":4,"rt":GameManager,"sn":"instance"},{"a":1,"n":"isShaking","t":4,"rt":$n[0].Boolean,"sn":"isShaking","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"levelData","t":4,"rt":LevelData,"sn":"levelData"},{"a":2,"n":"levelText","t":4,"rt":$n[1].GameObject,"sn":"levelText"},{"a":1,"n":"stickFinish","t":4,"rt":$n[0].Int32,"sn":"stickFinish","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"sticks","t":4,"rt":$n[3].List$1(StickManager),"sn":"sticks"},{"a":2,"n":"subTimer","t":4,"rt":$n[1].GameObject,"sn":"subTimer"},{"a":2,"n":"timer","t":4,"rt":$n[1].GameObject,"sn":"timer"},{"a":2,"n":"turn","t":4,"rt":$n[0].Int32,"sn":"turn","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiManager","t":4,"rt":UIManager,"sn":"uiManager"},{"a":1,"n":"waitFor2Hop","t":4,"rt":$n[1].WaitForSeconds,"sn":"waitFor2Hop"}]}; }, $n);
     /*GameManager end.*/
 
     /*GameManager+GameConfig start.*/
-    $m("GameManager.GameConfig", function () { return {"td":GameManager,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"distanceHop","t":4,"rt":$n[0].Single,"sn":"distanceHop","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"distanceXStick","t":4,"rt":$n[0].Single,"sn":"distanceXStick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"distanceZStick","t":4,"rt":$n[0].Single,"sn":"distanceZStick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"heightMoveFirst","t":4,"rt":$n[0].Array.type(System.Single),"sn":"heightMoveFirst"},{"a":2,"n":"hoop2Prefab","t":4,"rt":$n[1].GameObject,"sn":"hoop2Prefab"},{"a":2,"n":"hopPrefab","t":4,"rt":$n[1].GameObject,"sn":"hopPrefab"},{"a":2,"n":"initHoop2","t":4,"rt":$n[0].Int32,"sn":"initHoop2","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"initHop","t":4,"rt":$n[0].Int32,"sn":"initHop","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"initStick","t":4,"rt":$n[0].Int32,"sn":"initStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"stickPrefab","t":4,"rt":$n[1].GameObject,"sn":"stickPrefab"},{"a":2,"n":"timeMoveFirst","t":4,"rt":$n[0].Single,"sn":"timeMoveFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeMoveSecond","t":4,"rt":$n[0].Single,"sn":"timeMoveSecond","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeMoveTarget","t":4,"rt":$n[0].Single,"sn":"timeMoveTarget","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("GameManager.GameConfig", function () { return {"td":GameManager,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"distanceHop","t":4,"rt":$n[0].Single,"sn":"distanceHop","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"distanceXStick","t":4,"rt":$n[0].Single,"sn":"distanceXStick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"distanceZStick","t":4,"rt":$n[0].Single,"sn":"distanceZStick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"heightMoveFirst","t":4,"rt":$n[0].Array.type(System.Single),"sn":"heightMoveFirst"},{"a":2,"n":"hoop2Prefab","t":4,"rt":$n[1].GameObject,"sn":"hoop2Prefab"},{"a":2,"n":"hopPrefab","t":4,"rt":$n[1].GameObject,"sn":"hopPrefab"},{"a":2,"n":"initHoop2","t":4,"rt":$n[0].Int32,"sn":"initHoop2","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"initHop","t":4,"rt":$n[0].Int32,"sn":"initHop","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"initStick","t":4,"rt":$n[0].Int32,"sn":"initStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"stickPrefab","t":4,"rt":$n[1].GameObject,"sn":"stickPrefab"},{"a":2,"n":"timeMove2Hop","t":4,"rt":$n[0].Single,"sn":"timeMove2Hop","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeMoveFirst","t":4,"rt":$n[0].Single,"sn":"timeMoveFirst","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeMoveSecond","t":4,"rt":$n[0].Single,"sn":"timeMoveSecond","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeMoveTarget","t":4,"rt":$n[0].Single,"sn":"timeMoveTarget","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*GameManager+GameConfig end.*/
 
     /*ColorHop start.*/
@@ -4533,7 +5273,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*Hop end.*/
 
     /*HoopColor start.*/
-    $m("HoopColor", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"BLACK","is":true,"t":4,"rt":HoopColor,"sn":"BLACK","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"BLUE","is":true,"t":4,"rt":HoopColor,"sn":"BLUE","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"CYAN","is":true,"t":4,"rt":HoopColor,"sn":"CYAN","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"DARKPINK","is":true,"t":4,"rt":HoopColor,"sn":"DARKPINK","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"DARKYELLOW","is":true,"t":4,"rt":HoopColor,"sn":"DARKYELLOW","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"GREEN","is":true,"t":4,"rt":HoopColor,"sn":"GREEN","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"ORANGE","is":true,"t":4,"rt":HoopColor,"sn":"ORANGE","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"PINK","is":true,"t":4,"rt":HoopColor,"sn":"PINK","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"PURPLE","is":true,"t":4,"rt":HoopColor,"sn":"PURPLE","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"RED","is":true,"t":4,"rt":HoopColor,"sn":"RED","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"YELLOW","is":true,"t":4,"rt":HoopColor,"sn":"YELLOW","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}}]}; }, $n);
+    $m("HoopColor", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"BLUE","is":true,"t":4,"rt":HoopColor,"sn":"BLUE","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"CYAN","is":true,"t":4,"rt":HoopColor,"sn":"CYAN","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"GREEN","is":true,"t":4,"rt":HoopColor,"sn":"GREEN","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"PINK","is":true,"t":4,"rt":HoopColor,"sn":"PINK","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"PURPLE","is":true,"t":4,"rt":HoopColor,"sn":"PURPLE","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"RED","is":true,"t":4,"rt":HoopColor,"sn":"RED","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"YELLOW","is":true,"t":4,"rt":HoopColor,"sn":"YELLOW","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}}]}; }, $n);
     /*HoopColor end.*/
 
     /*HoopType start.*/
@@ -4545,7 +5285,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*GameState end.*/
 
     /*LevelData start.*/
-    $m("LevelData", function () { return {"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"levels","t":4,"rt":$n[4].List$1(Level),"sn":"levels"}]}; }, $n);
+    $m("LevelData", function () { return {"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"levels","t":4,"rt":$n[3].List$1(Level),"sn":"levels"}]}; }, $n);
     /*LevelData end.*/
 
     /*Level start.*/
@@ -4560,12 +5300,20 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     $m("HopManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ChangeColor","t":8,"pi":[{"n":"hop","pt":Hop,"ps":0}],"sn":"ChangeColor","rt":$n[0].Void,"p":[Hop]},{"a":2,"n":"hoopColor","t":4,"rt":HoopColor,"sn":"hoopColor","box":function ($v) { return Bridge.box($v, HoopColor, System.Enum.toStringFn(HoopColor));}},{"a":2,"n":"meshRenderer","t":4,"rt":$n[1].MeshRenderer,"sn":"meshRenderer"},{"a":2,"n":"obj","t":4,"rt":$n[1].GameObject,"sn":"obj"}]}; }, $n);
     /*HopManager end.*/
 
+    /*JellyMesh start.*/
+    $m("JellyMesh", function () { return {"nested":[JellyMesh.JellyVertex],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"Intensity","t":4,"rt":$n[0].Single,"sn":"Intensity","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Mass","t":4,"rt":$n[0].Single,"sn":"Mass","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"MeshClone","t":4,"rt":$n[1].Mesh,"sn":"MeshClone"},{"a":1,"n":"OriginalMesh","t":4,"rt":$n[1].Mesh,"sn":"OriginalMesh"},{"a":2,"n":"damping","t":4,"rt":$n[0].Single,"sn":"damping","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"jv","t":4,"rt":System.Array.type(JellyMesh.JellyVertex),"sn":"jv"},{"a":1,"n":"renderer","t":4,"rt":$n[1].MeshRenderer,"sn":"renderer"},{"a":2,"n":"stiffness","t":4,"rt":$n[0].Single,"sn":"stiffness","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"vertexArray","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"vertexArray"}]}; }, $n);
+    /*JellyMesh end.*/
+
+    /*JellyMesh+JellyVertex start.*/
+    $m("JellyMesh.JellyVertex", function () { return {"td":JellyMesh,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[0].Int32,$n[1].Vector3],"pi":[{"n":"_id","pt":$n[0].Int32,"ps":0},{"n":"_pos","pt":$n[1].Vector3,"ps":1}],"sn":"ctor"},{"a":2,"n":"Shake","t":8,"pi":[{"n":"target","pt":$n[1].Vector3,"ps":0},{"n":"m","pt":$n[0].Single,"ps":1},{"n":"s","pt":$n[0].Single,"ps":2},{"n":"d","pt":$n[0].Single,"ps":3}],"sn":"Shake","rt":$n[0].Void,"p":[$n[1].Vector3,$n[0].Single,$n[0].Single,$n[0].Single]},{"a":2,"n":"Force","t":4,"rt":$n[1].Vector3,"sn":"Force"},{"a":2,"n":"ID","t":4,"rt":$n[0].Int32,"sn":"ID","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"Position","t":4,"rt":$n[1].Vector3,"sn":"Position"},{"a":2,"n":"velocity","t":4,"rt":$n[1].Vector3,"sn":"velocity"}]}; }, $n);
+    /*JellyMesh+JellyVertex end.*/
+
     /*SimplePool start.*/
-    $m("SimplePool", function () { return {"nested":[SimplePool.Pool,SimplePool.PoolMember],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Despawn","is":true,"t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":1,"n":"Init","is":true,"t":8,"pi":[{"n":"prefab","dv":null,"o":true,"pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":3,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"Preload","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":1,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Preload","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"DEFAULT_POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"DEFAULT_POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pools","is":true,"t":4,"rt":$n[4].Dictionary$2(UnityEngine.GameObject,SimplePool.Pool),"sn":"pools"}]}; }, $n);
+    $m("SimplePool", function () { return {"nested":[SimplePool.Pool,SimplePool.PoolMember],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Despawn","is":true,"t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":1,"n":"Init","is":true,"t":8,"pi":[{"n":"prefab","dv":null,"o":true,"pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":3,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Init","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"Preload","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"qty","dv":1,"o":true,"pt":$n[0].Int32,"ps":1}],"sn":"Preload","rt":$n[0].Void,"p":[$n[1].GameObject,$n[0].Int32]},{"a":2,"n":"Spawn","is":true,"t":8,"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"pos","pt":$n[1].Vector3,"ps":1},{"n":"rot","pt":$n[1].Quaternion,"ps":2}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].GameObject,$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"DEFAULT_POOL_SIZE","is":true,"t":4,"rt":$n[0].Int32,"sn":"DEFAULT_POOL_SIZE","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pools","is":true,"t":4,"rt":$n[3].Dictionary$2(UnityEngine.GameObject,SimplePool.Pool),"sn":"pools"}]}; }, $n);
     /*SimplePool end.*/
 
     /*SimplePool+Pool start.*/
-    $m("SimplePool.Pool", function () { return {"td":SimplePool,"att":1048579,"a":1,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[1].GameObject,$n[0].Int32],"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"initialQty","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"inactive","t":4,"rt":$n[4].Stack$1(UnityEngine.GameObject),"sn":"inactive"},{"a":1,"n":"nextId","t":4,"rt":$n[0].Int32,"sn":"nextId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"prefab","t":4,"rt":$n[1].GameObject,"sn":"prefab"}]}; }, $n);
+    $m("SimplePool.Pool", function () { return {"td":SimplePool,"att":1048579,"a":1,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[1].GameObject,$n[0].Int32],"pi":[{"n":"prefab","pt":$n[1].GameObject,"ps":0},{"n":"initialQty","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"a":2,"n":"Despawn","t":8,"pi":[{"n":"obj","pt":$n[1].GameObject,"ps":0}],"sn":"Despawn","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"Spawn","t":8,"pi":[{"n":"pos","pt":$n[1].Vector3,"ps":0},{"n":"rot","pt":$n[1].Quaternion,"ps":1}],"sn":"Spawn","rt":$n[1].GameObject,"p":[$n[1].Vector3,$n[1].Quaternion]},{"a":1,"n":"inactive","t":4,"rt":$n[3].Stack$1(UnityEngine.GameObject),"sn":"inactive"},{"a":1,"n":"nextId","t":4,"rt":$n[0].Int32,"sn":"nextId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"prefab","t":4,"rt":$n[1].GameObject,"sn":"prefab"}]}; }, $n);
     /*SimplePool+Pool end.*/
 
     /*SimplePool+PoolMember start.*/
@@ -4573,19 +5321,19 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*SimplePool+PoolMember end.*/
 
     /*SoundManager start.*/
-    $m("SoundManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"PlayAudio","t":8,"pi":[{"n":"clip","pt":$n[1].AudioClip,"ps":0}],"sn":"PlayAudio","rt":$n[0].Void,"p":[$n[1].AudioClip]},{"a":2,"n":"PlayButton","t":8,"sn":"PlayButton","rt":$n[0].Void},{"a":2,"n":"PlayHopDrop","t":8,"sn":"PlayHopDrop","rt":$n[0].Void},{"a":2,"n":"PlayHopFly","t":8,"sn":"PlayHopFly","rt":$n[0].Void},{"a":2,"n":"PlayHopSelect","t":8,"sn":"PlayHopSelect","rt":$n[0].Void},{"a":2,"n":"PlayStickFinish","t":8,"sn":"PlayStickFinish","rt":$n[0].Void},{"a":2,"n":"PlayWin","t":8,"sn":"PlayWin","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"audios","t":4,"rt":System.Array.type(UnityEngine.AudioSource),"sn":"audios"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"button","t":4,"rt":$n[1].AudioClip,"sn":"button"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hopDrop","t":4,"rt":$n[1].AudioClip,"sn":"hopDrop"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hopFly","t":4,"rt":$n[1].AudioClip,"sn":"hopFly"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hopSelect","t":4,"rt":$n[1].AudioClip,"sn":"hopSelect"},{"a":2,"n":"instance","is":true,"t":4,"rt":SoundManager,"sn":"instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stickFinish","t":4,"rt":$n[1].AudioClip,"sn":"stickFinish"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"win","t":4,"rt":$n[1].AudioClip,"sn":"win"}]}; }, $n);
+    $m("SoundManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"PlayAudio","t":8,"pi":[{"n":"clip","pt":$n[1].AudioClip,"ps":0}],"sn":"PlayAudio","rt":$n[0].Void,"p":[$n[1].AudioClip]},{"a":2,"n":"PlayButton","t":8,"sn":"PlayButton","rt":$n[0].Void},{"a":2,"n":"PlayHopDrop","t":8,"sn":"PlayHopDrop","rt":$n[0].Void},{"a":2,"n":"PlayHopFly","t":8,"sn":"PlayHopFly","rt":$n[0].Void},{"a":2,"n":"PlayHopSelect","t":8,"sn":"PlayHopSelect","rt":$n[0].Void},{"a":2,"n":"PlayStickFinish","t":8,"sn":"PlayStickFinish","rt":$n[0].Void},{"a":2,"n":"PlayWin","t":8,"sn":"PlayWin","rt":$n[0].Void},{"a":2,"n":"audio","t":4,"rt":$n[1].AudioSource,"sn":"audio"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"button","t":4,"rt":$n[1].AudioClip,"sn":"button"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hopFly","t":4,"rt":$n[1].AudioClip,"sn":"hopFly"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"hopSelect","t":4,"rt":$n[1].AudioClip,"sn":"hopSelect"},{"a":2,"n":"instance","is":true,"t":4,"rt":SoundManager,"sn":"instance"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stickFinish","t":4,"rt":$n[1].AudioClip,"sn":"stickFinish"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"win","t":4,"rt":$n[1].AudioClip,"sn":"win"}]}; }, $n);
     /*SoundManager end.*/
 
     /*StickManager start.*/
-    $m("StickManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CheckEndStick","t":8,"sn":"CheckEndStick","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetLastPosition","t":8,"sn":"GetLastPosition","rt":$n[1].Vector3},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"countHop","pt":$n[0].Int32,"ps":0},{"n":"index","pt":$n[0].Int32,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"OnMouseDown","t":8,"sn":"OnMouseDown","rt":$n[0].Void},{"a":2,"n":"ResetForNextLevel","t":8,"sn":"ResetForNextLevel","rt":$n[0].Void},{"a":2,"n":"hops","t":4,"rt":$n[4].List$1(HopManager),"sn":"hops"},{"a":1,"n":"indexStick","t":4,"rt":$n[0].Int32,"sn":"indexStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isDone","t":4,"rt":$n[0].Boolean,"sn":"isDone","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stick4","t":4,"rt":$n[1].GameObject,"sn":"stick4"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stick5","t":4,"rt":$n[1].GameObject,"sn":"stick5"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"victoryEffect","t":4,"rt":$n[1].ParticleSystem,"sn":"victoryEffect"}]}; }, $n);
+    $m("StickManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActionWhenDoneShow","t":8,"sn":"ActionWhenDoneShow","rt":$n[0].Void},{"a":2,"n":"CanShowFinish","t":8,"sn":"CanShowFinish","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"CheckEndStick","t":8,"sn":"CheckEndStick","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"CheckFullHop","t":8,"pi":[{"n":"maxHop","pt":$n[0].Int32,"ps":0}],"sn":"CheckFullHop","rt":$n[0].Boolean,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetCountEmptyHop","t":8,"sn":"GetCountEmptyHop","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetCountSameColor","t":8,"sn":"GetCountSameColor","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"GetLastPosition","t":8,"sn":"GetLastPosition","rt":$n[1].Vector3},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"countHop","pt":$n[0].Int32,"ps":0},{"n":"index","pt":$n[0].Int32,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"OnMouseDown","t":8,"sn":"OnMouseDown","rt":$n[0].Void},{"a":2,"n":"ResetForNextLevel","t":8,"sn":"ResetForNextLevel","rt":$n[0].Void},{"a":1,"n":"hasFirstStart","t":4,"rt":$n[0].Boolean,"sn":"hasFirstStart","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hops","t":4,"rt":$n[3].List$1(HopManager),"sn":"hops"},{"a":2,"n":"indexStick","t":4,"rt":$n[0].Int32,"sn":"indexStick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"isDone","t":4,"rt":$n[0].Boolean,"sn":"isDone","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isShowFinish","t":4,"rt":$n[0].Boolean,"sn":"isShowFinish","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"startPoint","t":4,"rt":$n[1].GameObject,"sn":"startPoint"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stick4","t":4,"rt":$n[1].GameObject,"sn":"stick4"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"stick5","t":4,"rt":$n[1].GameObject,"sn":"stick5"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"victoryEffect","t":4,"rt":$n[1].ParticleSystem,"sn":"victoryEffect"}]}; }, $n);
     /*StickManager end.*/
 
     /*UIManager start.*/
-    $m("UIManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActionGetReward","t":8,"sn":"ActionGetReward","rt":$n[0].Void},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"ButtonDirectToStore","t":8,"sn":"ButtonDirectToStore","rt":$n[0].Void},{"a":2,"n":"ButtonDownload","t":8,"sn":"ButtonDownload","rt":$n[0].Void},{"a":2,"n":"ButtonGetReward","t":8,"sn":"ButtonGetReward","rt":$n[0].Void},{"a":2,"n":"ButtonGuide","t":8,"sn":"ButtonGuide","rt":$n[0].Void},{"a":2,"n":"CheckTutorial","t":8,"sn":"CheckTutorial","rt":$n[0].Void},{"a":2,"n":"CompleteRound1","t":8,"sn":"CompleteRound1","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"background","t":4,"rt":$n[1].SpriteRenderer,"sn":"background"},{"at":[new UnityEngine.LunaPlaygroundAssetAttribute("Background", 4, "Game UI")],"a":2,"n":"backgroundImg","t":4,"rt":$n[1].Texture2D,"sn":"backgroundImg"},{"at":[new UnityEngine.HeaderAttribute("Luna Settings"),new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.LunaPlaygroundAssetAttribute("Button Image", 1, "Game UI")],"a":2,"n":"buttonImage","t":4,"rt":$n[1].Texture2D,"sn":"buttonImage"},{"a":1,"n":"ctaClick","t":4,"rt":$n[0].Int32,"sn":"ctaClick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"ctaUI","t":4,"rt":$n[1].GameObject,"sn":"ctaUI"},{"a":2,"n":"downloadBtn","t":4,"rt":$n[3].RawImage,"sn":"downloadBtn"},{"a":2,"n":"downloadButton","t":4,"rt":$n[1].GameObject,"sn":"downloadButton"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Download Button Text", 2, "Game UI", false)],"a":2,"n":"downloadText","t":4,"rt":$n[0].String,"sn":"downloadText"},{"a":2,"n":"downloadTxt","t":4,"rt":$n[3].Text,"sn":"downloadTxt"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"guideHand1","t":4,"rt":$n[1].GameObject,"sn":"guideHand1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"guideHand2","t":4,"rt":$n[1].GameObject,"sn":"guideHand2"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("text hint", 0, "Game UI", false)],"a":2,"n":"hintText","t":4,"rt":$n[0].String,"sn":"hintText"},{"a":1,"n":"installClick","t":4,"rt":$n[0].Int32,"sn":"installClick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"instance","is":true,"t":4,"rt":UIManager,"sn":"instance"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("Level Text", 3, "Game UI", false)],"a":2,"n":"levelText","t":4,"rt":$n[0].String,"sn":"levelText"},{"a":2,"n":"levelTxt","t":4,"rt":$n[5].TextMeshProUGUI,"sn":"levelTxt"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"manager","t":4,"rt":GameManager,"sn":"manager"},{"a":2,"n":"mask","t":4,"rt":$n[1].GameObject,"sn":"mask"},{"a":2,"n":"mask2","t":4,"rt":$n[1].GameObject,"sn":"mask2"},{"a":2,"n":"textHint","t":4,"rt":$n[5].TextMeshProUGUI,"sn":"textHint"},{"a":2,"n":"timerUI","t":4,"rt":$n[1].GameObject,"sn":"timerUI"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiGetReward","t":4,"rt":$n[1].GameObject,"sn":"uiGetReward"}]}; }, $n);
+    $m("UIManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActionGetReward","t":8,"sn":"ActionGetReward","rt":$n[0].Void},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"ButtonDirectToStore","t":8,"sn":"ButtonDirectToStore","rt":$n[0].Void},{"a":2,"n":"ButtonDownload","t":8,"sn":"ButtonDownload","rt":$n[0].Void},{"a":2,"n":"ButtonGetReward","t":8,"sn":"ButtonGetReward","rt":$n[0].Void},{"a":2,"n":"ButtonGuide","t":8,"sn":"ButtonGuide","rt":$n[0].Void},{"a":2,"n":"CheckTutorial","t":8,"sn":"CheckTutorial","rt":$n[0].Void},{"a":2,"n":"CompleteRound1","t":8,"sn":"CompleteRound1","rt":$n[0].Void},{"a":2,"n":"SoundSetting","t":8,"sn":"SoundSetting","rt":$n[0].Void},{"a":2,"n":"background","t":4,"rt":$n[1].SpriteRenderer,"sn":"background"},{"a":1,"n":"ctaClick","t":4,"rt":$n[0].Int32,"sn":"ctaClick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"ctaUI","t":4,"rt":$n[1].GameObject,"sn":"ctaUI"},{"a":2,"n":"downloadBtn","t":4,"rt":$n[4].RawImage,"sn":"downloadBtn"},{"a":2,"n":"downloadButton","t":4,"rt":$n[1].GameObject,"sn":"downloadButton"},{"a":2,"n":"guideHand1","t":4,"rt":$n[1].GameObject,"sn":"guideHand1"},{"a":2,"n":"guideHand2","t":4,"rt":$n[1].GameObject,"sn":"guideHand2"},{"a":1,"n":"hasSound","t":4,"rt":$n[0].Boolean,"sn":"hasSound","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"installClick","t":4,"rt":$n[0].Int32,"sn":"installClick","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"instance","is":true,"t":4,"rt":UIManager,"sn":"instance"},{"a":2,"n":"levelTxt","t":4,"rt":$n[5].TextMeshProUGUI,"sn":"levelTxt"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"manager","t":4,"rt":GameManager,"sn":"manager"},{"a":2,"n":"mask","t":4,"rt":$n[1].GameObject,"sn":"mask"},{"a":2,"n":"mask2","t":4,"rt":$n[1].GameObject,"sn":"mask2"},{"a":2,"n":"soundBtnImage","t":4,"rt":$n[4].Image,"sn":"soundBtnImage"},{"a":2,"n":"soundButton","t":4,"rt":$n[4].Button,"sn":"soundButton"},{"a":2,"n":"soundOff","t":4,"rt":$n[1].Sprite,"sn":"soundOff"},{"a":2,"n":"soundOn","t":4,"rt":$n[1].Sprite,"sn":"soundOn"},{"a":2,"n":"textHint","t":4,"rt":$n[5].TextMeshProUGUI,"sn":"textHint"},{"a":2,"n":"timer","t":4,"rt":CountDown,"sn":"timer"},{"a":2,"n":"timerUI","t":4,"rt":$n[1].GameObject,"sn":"timerUI"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"uiGetReward","t":4,"rt":$n[1].GameObject,"sn":"uiGetReward"}]}; }, $n);
     /*UIManager end.*/
 
     /*ViewPortHandler start.*/
-    $m("ViewPortHandler", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"bgFitCamera","t":4,"rt":BackgroundFitCamera,"sn":"bgFitCamera"},{"a":2,"n":"camera","t":4,"rt":$n[1].Camera,"sn":"camera"},{"a":2,"n":"mask","t":4,"rt":$n[1].RectTransform,"sn":"mask"},{"a":2,"n":"mask2","t":4,"rt":$n[1].RectTransform,"sn":"mask2"}]}; }, $n);
+    $m("ViewPortHandler", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"bgFitCamera","t":4,"rt":BackgroundFitCamera,"sn":"bgFitCamera"},{"a":2,"n":"camera","t":4,"rt":$n[1].Camera,"sn":"camera"},{"a":2,"n":"hoopPosContainer","t":4,"rt":$n[1].GameObject,"sn":"hoopPosContainer"},{"a":2,"n":"hoopPosContainerTran","t":4,"rt":$n[1].RectTransform,"sn":"hoopPosContainerTran"},{"a":2,"n":"mask","t":4,"rt":$n[1].RectTransform,"sn":"mask"},{"a":2,"n":"mask2","t":4,"rt":$n[1].RectTransform,"sn":"mask2"}]}; }, $n);
     /*ViewPortHandler end.*/
 
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty start.*/
@@ -4609,7 +5357,7 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*DG.Tweening.DOTweenModuleSprite end.*/
 
     /*DG.Tweening.DOTweenModuleUI start.*/
-    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[8].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[8].Tweener,"p":[$n[3].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[8].Tweener,"p":[$n[3].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[8].Tweener,"p":[$n[3].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[10].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[7].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[3].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[10].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[3].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[8].Sequence,"p":[$n[3].Image,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[8].Tweener,"p":[$n[3].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[8].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[8].Tweener,"p":[$n[3].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos$1","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[8].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[7].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[3].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[8].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[3].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[8].Tweener,"p":[$n[3].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[8].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[8].Tweener,"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[8].Tweener,"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[8].Tweener,"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[1].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[1].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[10].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[7].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[4].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[10].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[1].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[7].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[4].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Image,"ps":0},{"n":"gradient","pt":$n[1].Gradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[8].Sequence,"p":[$n[4].Image,$n[1].Gradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[8].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[8].Sequence,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[8].Tweener,"p":[$n[4].ScrollRect,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].LayoutElement,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].LayoutElement,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"punch","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Outline,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[4].Outline,$n[1].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[1].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"DOShakeAnchorPos$1","rt":$n[8].Tweener,"p":[$n[1].RectTransform,$n[0].Single,$n[1].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].RectTransform,"ps":0},{"n":"endValue","pt":$n[1].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[7].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[1].RectTransform,$n[1].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[8].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[7].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[4].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[8].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[7].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[4].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[4].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[8].Tweener,"p":[$n[4].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUI end.*/
 
     /*DG.Tweening.DOTweenModuleUI+Utils start.*/
@@ -4655,5 +5403,9 @@ Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
     $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[8].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[9].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[8].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[7].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[1].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[9].Path,$n[0].Single,$n[8].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[1].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[1].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[11].PathOptions,"ps":0},{"n":"t","pt":$n[8].Tween,"ps":1},{"n":"newRot","pt":$n[1].Quaternion,"ps":2},{"n":"trans","pt":$n[1].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[11].PathOptions,$n[8].Tween,$n[1].Quaternion,$n[1].Transform]}]}; }, $n);
     /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
+
+    /*Pinwheel.MeshToFile.VersionInfo start.*/
+    $m("Pinwheel.MeshToFile.VersionInfo", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Code","is":true,"t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_Code","t":8,"rt":$n[0].String,"fg":"Code","is":true},"fn":"Code"},{"a":2,"n":"ProductName","is":true,"t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_ProductName","t":8,"rt":$n[0].String,"fg":"ProductName","is":true},"fn":"ProductName"},{"a":2,"n":"ProductNameAndVersion","is":true,"t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_ProductNameAndVersion","t":8,"rt":$n[0].String,"fg":"ProductNameAndVersion","is":true},"fn":"ProductNameAndVersion"},{"a":2,"n":"ProductNameAndVersionShort","is":true,"t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_ProductNameAndVersionShort","t":8,"rt":$n[0].String,"fg":"ProductNameAndVersionShort","is":true},"fn":"ProductNameAndVersionShort"},{"a":2,"n":"ProductNameShort","is":true,"t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_ProductNameShort","t":8,"rt":$n[0].String,"fg":"ProductNameShort","is":true},"fn":"ProductNameShort"}]}; }, $n);
+    /*Pinwheel.MeshToFile.VersionInfo end.*/
 
 });

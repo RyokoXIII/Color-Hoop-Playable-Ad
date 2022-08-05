@@ -1,4 +1,319 @@
 Base path: 'D:/Unity Editor/2020.3.22f1/Editor/Data', plugins path 'D:/Unity Editor/2020.3.22f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=2827 outsize=2827 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9605 outsize=9605 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=11167 outsize=11167 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=12736 outsize=12736 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8759 outsize=8759 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8450 outsize=8450 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6131 outsize=6131 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8587 outsize=8587 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6807 outsize=6807 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6807 outsize=6807 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=5039 outsize=5039 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=7828 outsize=7828 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=2531 outsize=2531 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8068 outsize=8068 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6139 outsize=6139 ok=1
+
+Cmd: disassembleShader
+ name=Skybox/Procedural platform=gles type=5 mask=6 insize=11808 outsize=11808 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Sprite platform=gles type=5 mask=6 insize=2435 outsize=2435 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8380 outsize=8380 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=5926 outsize=5926 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6270 outsize=6270 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9605 outsize=9605 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7570 outsize=7570 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8068 outsize=8068 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14452 outsize=14452 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=2827 outsize=2827 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8168 outsize=8168 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=15950 outsize=15950 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9785 outsize=9785 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7382 outsize=7382 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8902 outsize=8902 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=5754 outsize=5754 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9878 outsize=9878 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8587 outsize=8587 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6094 outsize=6094 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=8608 outsize=8608 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=2531 outsize=2531 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8207 outsize=8207 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8568 outsize=8568 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8426 outsize=8426 ok=1
+
+Cmd: disassembleShader
+ name=Skybox/Procedural platform=gles type=5 mask=6 insize=9801 outsize=9801 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Sprite platform=gles type=5 mask=6 insize=1902 outsize=1902 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=2827 outsize=2827 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8594 outsize=8594 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=5926 outsize=5926 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=2827 outsize=2827 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9785 outsize=9785 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=11347 outsize=11347 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=12736 outsize=12736 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8656 outsize=8656 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=10481 outsize=10481 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7570 outsize=7570 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7023 outsize=7023 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8373 outsize=8373 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6294 outsize=6294 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=9014 outsize=9014 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/Particles/Alpha Blended platform=gles type=5 mask=6 insize=1704 outsize=1704 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6459 outsize=6459 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8426 outsize=8426 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8426 outsize=8426 ok=1
+
+Cmd: disassembleShader
+ name=Skybox/Procedural platform=gles type=5 mask=6 insize=11229 outsize=11229 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Sprite platform=gles type=5 mask=6 insize=2290 outsize=2290 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7331 outsize=7331 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9785 outsize=9785 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=8068 outsize=8068 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9785 outsize=9785 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8380 outsize=8380 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14452 outsize=14452 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6270 outsize=6270 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=3037 outsize=3037 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9785 outsize=9785 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=11167 outsize=11167 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14186 outsize=14186 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8759 outsize=8759 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7570 outsize=7570 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=5754 outsize=5754 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6807 outsize=6807 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6451 outsize=6451 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6451 outsize=6451 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=8608 outsize=8608 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6139 outsize=6139 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=5926 outsize=5926 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6334 outsize=6334 ok=1
+
+Cmd: disassembleShader
+ name=Sprites/Default platform=gles type=5 mask=6 insize=2569 outsize=2569 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Sprite platform=gles type=5 mask=6 insize=1744 outsize=1744 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=3037 outsize=3037 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14388 outsize=14388 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8168 outsize=8168 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14388 outsize=14388 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8656 outsize=8656 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=5920 outsize=5920 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8373 outsize=8373 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=5979 outsize=5979 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=8373 outsize=8373 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6451 outsize=6451 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=6583 outsize=6583 ok=1
+
+Cmd: disassembleShader
+ name=Legacy Shaders/VertexLit platform=gles type=5 mask=6 insize=7828 outsize=7828 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6270 outsize=6270 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6497 outsize=6497 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Mobile/Distance Field platform=gles type=5 mask=6 insize=6270 outsize=6270 ok=1
+
+Cmd: disassembleShader
+ name=Skybox/Procedural platform=gles type=5 mask=6 insize=11808 outsize=11808 ok=1
+
+Cmd: disassembleShader
+ name=TextMeshPro/Sprite platform=gles type=5 mask=6 insize=2290 outsize=2290 ok=1
+
+Cmd: disassembleShader
+ name=UI/Default platform=gles type=5 mask=6 insize=2827 outsize=2827 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=7570 outsize=7570 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=14250 outsize=14250 ok=1
+
+Cmd: disassembleShader
+ name=Standard platform=gles type=5 mask=6 insize=9605 outsize=9605 ok=1
+
 Cmd: shutdown

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,40 +11,27 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject uiGetReward;
 
     //Tutorial
-    [SerializeField] GameObject guideHand1;
-    [SerializeField] GameObject guideHand2;
+    public GameObject guideHand1;
+    public GameObject guideHand2;
     public TextMeshProUGUI textHint;
     public GameObject timerUI;
     public GameObject ctaUI;
     public GameObject downloadButton;
     public RawImage downloadBtn;
-
-    [Header("Luna Settings")]
-    [Space(10f)]
-    [LunaPlaygroundAsset("Button Image", 1, "Game UI")]
-    public Texture2D buttonImage;
-
-    [LunaPlaygroundField("Download Button Text", 2, "Game UI")]
-    public string downloadText = "DOWNLOAD";
-
-    [LunaPlaygroundField("Level Text", 3, "Game UI")]
-    public string levelText = "Level 1069";
-
-    [LunaPlaygroundField("text hint", 0, "Game UI")]
-    public string hintText = "SAME COLOR hoop can be placed on top each other";
-
-    [LunaPlaygroundAsset("Background", 4, "Game UI")]
-    public Texture2D backgroundImg;
-
     public SpriteRenderer background;
-    public Text downloadTxt;
     public TextMeshProUGUI levelTxt;
 
     public GameObject mask, mask2;
+    public CountDown timer;
+
+    public Button soundButton;
+    public Image soundBtnImage;
+    public Sprite soundOn, soundOff;
 
 
     int installClick = 0;
     int ctaClick = 0;
+    bool hasSound = true;
 
 
     void Awake()
@@ -54,22 +42,6 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        // Assign assets
-        downloadBtn.texture = buttonImage;
-        downloadTxt.text = downloadText;
-        levelTxt.text = levelText;
-        textHint.text = hintText;
-        //background.texture = backgroundImg;
-        background.sprite = Sprite.Create(backgroundImg, new Rect(0, 0, backgroundImg.width, backgroundImg.height), new Vector2(0.5f, 0.5f));
-
-        //gameIcon.texture = gameIconImg;
-        //ctaButton1.texture = buttonImage;
-        //ctaButton2.texture = buttonImage;
-        //ctaBtn1Txt.text = ctaBtn1Text;
-        //ctaBtn2Txt.text = ctaBtn2Text;
-    }
 
 
     public void CheckTutorial()
@@ -86,13 +58,30 @@ public class UIManager : MonoBehaviour
         {
             guideHand1.SetActive(false);
             guideHand2.SetActive(true);
-            mask.SetActive(false);
-            mask2.SetActive(true);
         }
         else
         {
             guideHand2.SetActive(false);
-            mask2.SetActive(false);
+            GameManager.instance.hasReboot = false;
+        }
+    }
+
+    public void SoundSetting()
+    {
+        if(hasSound == true)
+        {
+            soundBtnImage.sprite = soundOff;
+            hasSound = false;
+
+            GameManager.instance.bgMusic.Pause();
+            //SoundManager.instance.audio.volume = 0;
+        }
+        else if(hasSound == false)
+        {
+            hasSound = true;
+            soundBtnImage.sprite = soundOn;
+            GameManager.instance.bgMusic.Play();
+            //SoundManager.instance.audio.volume = 1;
         }
     }
 

@@ -1,3 +1,4 @@
+if ( TRACE ) { TRACE( JSON.parse( '["TMPro.CaretInfo#getDefaultValue","TMPro.CaretInfo#$ctor1","TMPro.CaretInfo#ctor","TMPro.CaretInfo#getHashCode","TMPro.CaretInfo#equals","TMPro.CaretInfo#$clone","TMPro.Compute_DT_EventArgs#ctor","TMPro.Compute_DT_EventArgs#$ctor1","TMPro.Extents#init","TMPro.Extents#OverrideClone","TMPro.Extents#getDefaultValue","TMPro.Extents#init","TMPro.Extents#$ctor1","TMPro.Extents#ctor","TMPro.Extents#toString","TMPro.Extents#getHashCode","TMPro.Extents#equals","TMPro.Extents#$clone","TMPro.FastAction#init","TMPro.FastAction#Add","TMPro.FastAction#Remove","TMPro.FastAction#Call","TMPro.FastAction$1#init","TMPro.FastAction$1#Add","TMPro.FastAction$1#Remove","TMPro.FastAction$1#Call","TMPro.FastAction$2#init","TMPro.FastAction$2#Add","TMPro.FastAction$2#Remove","TMPro.FastAction$2#Call","TMPro.FastAction$3#init","TMPro.FastAction$3#Add","TMPro.FastAction$3#Remove","TMPro.FastAction$3#Call","TMPro.FontAssetCreationSettings#getDefaultValue","TMPro.FontAssetCreationSettings#$ctor1","TMPro.FontAssetCreationSettings#ctor","TMPro.FontAssetCreationSettings#getHashCode","TMPro.FontAssetCreationSettings#equals","TMPro.FontAssetCreationSettings#$clone","TMPro.GlyphPairKey#getDefaultValue","TMPro.GlyphPairKey#$ctor1","TMPro.GlyphPairKey#$ctor2","TMPro.GlyphPairKey#ctor","TMPro.GlyphPairKey#getHashCode","TMPro.GlyphPairKey#equals","TMPro.GlyphPairKey#$clone","TMPro.GlyphValueRecord_Legacy#op_Addition","TMPro.GlyphValueRecord_Legacy#getDefaultValue","TMPro.GlyphValueRecord_Legacy#$ctor1","TMPro.GlyphValueRecord_Legacy#ctor","TMPro.GlyphValueRecord_Legacy#getHashCode","TMPro.GlyphValueRecord_Legacy#equals","TMPro.GlyphValueRecord_Legacy#$clone","TMPro.HighlightState#op_Equality","TMPro.HighlightState#op_Inequality","TMPro.HighlightState#getDefaultValue","TMPro.HighlightState#init","TMPro.HighlightState#$ctor1","TMPro.HighlightState#ctor","TMPro.HighlightState#Copy","TMPro.HighlightState#getHashCode","TMPro.HighlightState#equals","TMPro.HighlightState#Equals","TMPro.HighlightState#$clone","TMPro.KerningPair#init","TMPro.KerningPair#firstGlyph#get","TMPro.KerningPair#firstGlyph#set","TMPro.KerningPair#firstGlyphAdjustments#get","TMPro.KerningPair#secondGlyph#get","TMPro.KerningPair#secondGlyph#set","TMPro.KerningPair#secondGlyphAdjustments#get","TMPro.KerningPair#ignoreSpacingAdjustments#get","TMPro.KerningPair#init","TMPro.KerningPair#ctor","TMPro.KerningPair#$ctor1","TMPro.KerningPair#$ctor2","TMPro.KerningPair#ConvertLegacyKerningData","TMPro.KerningPairKey#getDefaultValue","TMPro.KerningPairKey#$ctor1","TMPro.KerningPairKey#ctor","TMPro.KerningPairKey#getHashCode","TMPro.KerningPairKey#equals","TMPro.KerningPairKey#$clone","TMPro.KerningTable#ctor","TMPro.KerningTable#AddKerningPair$1","TMPro.KerningTable#AddKerningPair","TMPro.KerningTable#AddGlyphPairAdjustmentRecord","TMPro.KerningTable#RemoveKerningPair$1","TMPro.KerningTable#RemoveKerningPair","TMPro.KerningTable#SortKerningPairs","TMPro.MaterialReference#Contains","TMPro.MaterialReference#AddMaterialReference","TMPro.MaterialReference#AddMaterialReference$1","TMPro.MaterialReference#getDefaultValue","TMPro.MaterialReference#$ctor1","TMPro.MaterialReference#ctor","TMPro.MaterialReference#Copy","TMPro.MaterialReference#getHashCode","TMPro.MaterialReference#equals","TMPro.MaterialReference#$clone","TMPro.MaterialReferenceManager#instance#get","TMPro.MaterialReferenceManager#AddFontAsset","TMPro.MaterialReferenceManager#AddSpriteAsset$1","TMPro.MaterialReferenceManager#AddSpriteAsset","TMPro.MaterialReferenceManager#AddFontMaterial","TMPro.MaterialReferenceManager#AddColorGradientPreset","TMPro.MaterialReferenceManager#TryGetFontAsset","TMPro.MaterialReferenceManager#TryGetSpriteAsset","TMPro.MaterialReferenceManager#TryGetColorGradientPreset","TMPro.MaterialReferenceManager#TryGetMaterial","TMPro.MaterialReferenceManager#init","TMPro.MaterialReferenceManager#AddFontAssetInternal","TMPro.MaterialReferenceManager#AddSpriteAssetInternal$1","TMPro.MaterialReferenceManager#AddSpriteAssetInternal","TMPro.MaterialReferenceManager#AddFontMaterialInternal","TMPro.MaterialReferenceManager#AddColorGradientPreset_Internal","TMPro.MaterialReferenceManager#Contains","TMPro.MaterialReferenceManager#Contains$1","TMPro.MaterialReferenceManager#TryGetFontAssetInternal","TMPro.MaterialReferenceManager#TryGetSpriteAssetInternal","TMPro.MaterialReferenceManager#TryGetColorGradientPresetInternal","TMPro.MaterialReferenceManager#TryGetMaterialInternal","TMPro.Mesh_Extents#getDefaultValue","TMPro.Mesh_Extents#init","TMPro.Mesh_Extents#$ctor1","TMPro.Mesh_Extents#ctor","TMPro.Mesh_Extents#toString","TMPro.Mesh_Extents#getHashCode","TMPro.Mesh_Extents#equals","TMPro.Mesh_Extents#$clone","TMPro.RichTextTagAttribute#getDefaultValue","TMPro.RichTextTagAttribute#ctor","TMPro.RichTextTagAttribute#getHashCode","TMPro.RichTextTagAttribute#equals","TMPro.RichTextTagAttribute#$clone","TMPro.SetPropertyUtility#SetColor","TMPro.SetPropertyUtility#SetEquatableStruct","TMPro.SetPropertyUtility#SetStruct","TMPro.SetPropertyUtility#SetClass","TMPro.ShaderUtilities#ShaderRef_MobileSDF#get","TMPro.ShaderUtilities#ShaderRef_MobileBitmap#get","TMPro.ShaderUtilities#init","TMPro.ShaderUtilities#ctor","TMPro.ShaderUtilities#GetShaderPropertyIDs","TMPro.ShaderUtilities#UpdateShaderRatios","TMPro.ShaderUtilities#GetFontExtent","TMPro.ShaderUtilities#IsMaskingEnabled","TMPro.ShaderUtilities#GetPadding","TMPro.ShaderUtilities#GetPadding$1","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#getDefaultValue","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#init","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#ctor","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#getHashCode","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#equals","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#$clone","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#getDefaultValue","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#init","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#ctor","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#getHashCode","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#equals","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#$clone","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteDataObject#init","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#getDefaultValue","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#ctor","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#toString","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#getHashCode","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#equals","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#$clone","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#getDefaultValue","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#ctor","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#toString","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#getHashCode","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#equals","TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#$clone","TMPro.TagAttribute#getDefaultValue","TMPro.TagAttribute#ctor","TMPro.TagAttribute#getHashCode","TMPro.TagAttribute#equals","TMPro.TagAttribute#$clone","TMPro.TextContainer#init","TMPro.TextContainer#hasChanged#get","TMPro.TextContainer#hasChanged#set","TMPro.TextContainer#pivot#get","TMPro.TextContainer#pivot#set","TMPro.TextContainer#anchorPosition#get","TMPro.TextContainer#anchorPosition#set","TMPro.TextContainer#rect#get","TMPro.TextContainer#rect#set","TMPro.TextContainer#size#get","TMPro.TextContainer#size#set","TMPro.TextContainer#width#get","TMPro.TextContainer#width#set","TMPro.TextContainer#height#get","TMPro.TextContainer#height#set","TMPro.TextContainer#isDefaultWidth#get","TMPro.TextContainer#isDefaultHeight#get","TMPro.TextContainer#isAutoFitting#get","TMPro.TextContainer#isAutoFitting#set","TMPro.TextContainer#corners#get","TMPro.TextContainer#worldCorners#get","TMPro.TextContainer#margins#get","TMPro.TextContainer#margins#set","TMPro.TextContainer#rectTransform#get","TMPro.TextContainer#textMeshPro#get","TMPro.TextContainer#init","TMPro.TextContainer#Awake","TMPro.TextContainer#OnEnable","TMPro.TextContainer#OnDisable","TMPro.TextContainer#OnContainerChanged","TMPro.TextContainer#OnRectTransformDimensionsChange","TMPro.TextContainer#SetRect","TMPro.TextContainer#UpdateCorners","TMPro.TextContainer#GetPivot","TMPro.TextContainer#GetAnchorPosition","TMPro.TMP_Text#init","TMPro.TMP_Text#text#get","TMPro.TMP_Text#text#set","TMPro.TMP_Text#textPreprocessor#get","TMPro.TMP_Text#textPreprocessor#set","TMPro.TMP_Text#isRightToLeftText#get","TMPro.TMP_Text#isRightToLeftText#set","TMPro.TMP_Text#font#get","TMPro.TMP_Text#font#set","TMPro.TMP_Text#fontSharedMaterial#get","TMPro.TMP_Text#fontSharedMaterial#set","TMPro.TMP_Text#fontSharedMaterials#get","TMPro.TMP_Text#fontSharedMaterials#set","TMPro.TMP_Text#fontMaterial#get","TMPro.TMP_Text#fontMaterial#set","TMPro.TMP_Text#fontMaterials#get","TMPro.TMP_Text#fontMaterials#set","TMPro.TMP_Text#color#get","TMPro.TMP_Text#color#set","TMPro.TMP_Text#alpha#get","TMPro.TMP_Text#alpha#set","TMPro.TMP_Text#enableVertexGradient#get","TMPro.TMP_Text#enableVertexGradient#set","TMPro.TMP_Text#colorGradient#get","TMPro.TMP_Text#colorGradient#set","TMPro.TMP_Text#colorGradientPreset#get","TMPro.TMP_Text#colorGradientPreset#set","TMPro.TMP_Text#spriteAsset#get","TMPro.TMP_Text#spriteAsset#set","TMPro.TMP_Text#tintAllSprites#get","TMPro.TMP_Text#tintAllSprites#set","TMPro.TMP_Text#styleSheet#get","TMPro.TMP_Text#styleSheet#set","TMPro.TMP_Text#textStyle#get","TMPro.TMP_Text#textStyle#set","TMPro.TMP_Text#overrideColorTags#get","TMPro.TMP_Text#overrideColorTags#set","TMPro.TMP_Text#faceColor#get","TMPro.TMP_Text#faceColor#set","TMPro.TMP_Text#outlineColor#get","TMPro.TMP_Text#outlineColor#set","TMPro.TMP_Text#outlineWidth#get","TMPro.TMP_Text#outlineWidth#set","TMPro.TMP_Text#fontSize#get","TMPro.TMP_Text#fontSize#set","TMPro.TMP_Text#fontScale#get","TMPro.TMP_Text#fontWeight#get","TMPro.TMP_Text#fontWeight#set","TMPro.TMP_Text#pixelsPerUnit#get","TMPro.TMP_Text#enableAutoSizing#get","TMPro.TMP_Text#enableAutoSizing#set","TMPro.TMP_Text#fontSizeMin#get","TMPro.TMP_Text#fontSizeMin#set","TMPro.TMP_Text#fontSizeMax#get","TMPro.TMP_Text#fontSizeMax#set","TMPro.TMP_Text#fontStyle#get","TMPro.TMP_Text#fontStyle#set","TMPro.TMP_Text#isUsingBold#get","TMPro.TMP_Text#horizontalAlignment#get","TMPro.TMP_Text#horizontalAlignment#set","TMPro.TMP_Text#verticalAlignment#get","TMPro.TMP_Text#verticalAlignment#set","TMPro.TMP_Text#alignment#get","TMPro.TMP_Text#alignment#set","TMPro.TMP_Text#characterSpacing#get","TMPro.TMP_Text#characterSpacing#set","TMPro.TMP_Text#wordSpacing#get","TMPro.TMP_Text#wordSpacing#set","TMPro.TMP_Text#lineSpacing#get","TMPro.TMP_Text#lineSpacing#set","TMPro.TMP_Text#lineSpacingAdjustment#get","TMPro.TMP_Text#lineSpacingAdjustment#set","TMPro.TMP_Text#paragraphSpacing#get","TMPro.TMP_Text#paragraphSpacing#set","TMPro.TMP_Text#characterWidthAdjustment#get","TMPro.TMP_Text#characterWidthAdjustment#set","TMPro.TMP_Text#enableWordWrapping#get","TMPro.TMP_Text#enableWordWrapping#set","TMPro.TMP_Text#wordWrappingRatios#get","TMPro.TMP_Text#wordWrappingRatios#set","TMPro.TMP_Text#overflowMode#get","TMPro.TMP_Text#overflowMode#set","TMPro.TMP_Text#isTextOverflowing#get","TMPro.TMP_Text#firstOverflowCharacterIndex#get","TMPro.TMP_Text#linkedTextComponent#get","TMPro.TMP_Text#linkedTextComponent#set","TMPro.TMP_Text#isTextTruncated#get","TMPro.TMP_Text#enableKerning#get","TMPro.TMP_Text#enableKerning#set","TMPro.TMP_Text#extraPadding#get","TMPro.TMP_Text#extraPadding#set","TMPro.TMP_Text#richText#get","TMPro.TMP_Text#richText#set","TMPro.TMP_Text#parseCtrlCharacters#get","TMPro.TMP_Text#parseCtrlCharacters#set","TMPro.TMP_Text#isOverlay#get","TMPro.TMP_Text#isOverlay#set","TMPro.TMP_Text#isOrthographic#get","TMPro.TMP_Text#isOrthographic#set","TMPro.TMP_Text#enableCulling#get","TMPro.TMP_Text#enableCulling#set","TMPro.TMP_Text#ignoreVisibility#get","TMPro.TMP_Text#ignoreVisibility#set","TMPro.TMP_Text#horizontalMapping#get","TMPro.TMP_Text#horizontalMapping#set","TMPro.TMP_Text#verticalMapping#get","TMPro.TMP_Text#verticalMapping#set","TMPro.TMP_Text#mappingUvLineOffset#get","TMPro.TMP_Text#mappingUvLineOffset#set","TMPro.TMP_Text#renderMode#get","TMPro.TMP_Text#renderMode#set","TMPro.TMP_Text#geometrySortingOrder#get","TMPro.TMP_Text#geometrySortingOrder#set","TMPro.TMP_Text#isTextObjectScaleStatic#get","TMPro.TMP_Text#isTextObjectScaleStatic#set","TMPro.TMP_Text#vertexBufferAutoSizeReduction#get","TMPro.TMP_Text#vertexBufferAutoSizeReduction#set","TMPro.TMP_Text#firstVisibleCharacter#get","TMPro.TMP_Text#firstVisibleCharacter#set","TMPro.TMP_Text#maxVisibleCharacters#get","TMPro.TMP_Text#maxVisibleCharacters#set","TMPro.TMP_Text#maxVisibleWords#get","TMPro.TMP_Text#maxVisibleWords#set","TMPro.TMP_Text#maxVisibleLines#get","TMPro.TMP_Text#maxVisibleLines#set","TMPro.TMP_Text#useMaxVisibleDescender#get","TMPro.TMP_Text#useMaxVisibleDescender#set","TMPro.TMP_Text#pageToDisplay#get","TMPro.TMP_Text#pageToDisplay#set","TMPro.TMP_Text#margin#get","TMPro.TMP_Text#margin#set","TMPro.TMP_Text#textInfo#get","TMPro.TMP_Text#havePropertiesChanged#get","TMPro.TMP_Text#havePropertiesChanged#set","TMPro.TMP_Text#isUsingLegacyAnimationComponent#get","TMPro.TMP_Text#isUsingLegacyAnimationComponent#set","TMPro.TMP_Text#transform$1#get","TMPro.TMP_Text#rectTransform$1#get","TMPro.TMP_Text#mesh#get","TMPro.TMP_Text#isVolumetricText#get","TMPro.TMP_Text#isVolumetricText#set","TMPro.TMP_Text#bounds#get","TMPro.TMP_Text#textBounds#get","TMPro.TMP_Text#spriteAnimator#get","TMPro.TMP_Text#flexibleHeight#get","TMPro.TMP_Text#flexibleWidth#get","TMPro.TMP_Text#minWidth#get","TMPro.TMP_Text#minHeight#get","TMPro.TMP_Text#maxWidth#get","TMPro.TMP_Text#maxHeight#get","TMPro.TMP_Text#layoutElement#get","TMPro.TMP_Text#preferredWidth#get","TMPro.TMP_Text#preferredHeight#get","TMPro.TMP_Text#renderedWidth#get","TMPro.TMP_Text#renderedHeight#get","TMPro.TMP_Text#layoutPriority#get","TMPro.TMP_Text#OrthographicScaleFactor#get","TMPro.TMP_Text#init","TMPro.TMP_Text#ctor","TMPro.TMP_Text#LoadFontAsset","TMPro.TMP_Text#SetSharedMaterial","TMPro.TMP_Text#GetMaterial","TMPro.TMP_Text#SetFontBaseMaterial","TMPro.TMP_Text#SetSharedMaterials","TMPro.TMP_Text#GetMaterials","TMPro.TMP_Text#CreateMaterialInstance","TMPro.TMP_Text#SetVertexColorGradient","TMPro.TMP_Text#SetTextSortingOrder$1","TMPro.TMP_Text#SetTextSortingOrder","TMPro.TMP_Text#SetFaceColor","TMPro.TMP_Text#SetOutlineColor","TMPro.TMP_Text#SetOutlineThickness","TMPro.TMP_Text#SetShaderDepth","TMPro.TMP_Text#SetCulling","TMPro.TMP_Text#UpdateCulling","TMPro.TMP_Text#GetPaddingForMaterial","TMPro.TMP_Text#GetPaddingForMaterial$1","TMPro.TMP_Text#GetTextContainerLocalCorners","TMPro.TMP_Text#ForceMeshUpdate","TMPro.TMP_Text#SetTextInternal","TMPro.TMP_Text#UpdateGeometry$1","TMPro.TMP_Text#UpdateVertexData$1","TMPro.TMP_Text#UpdateVertexData","TMPro.TMP_Text#SetVertices","TMPro.TMP_Text#UpdateMeshPadding","TMPro.TMP_Text#CrossFadeColor","TMPro.TMP_Text#CrossFadeAlpha","TMPro.TMP_Text#InternalCrossFadeColor","TMPro.TMP_Text#InternalCrossFadeAlpha","TMPro.TMP_Text#ParseInputText","TMPro.TMP_Text#SetText$2","TMPro.TMP_Text#SetText$3","TMPro.TMP_Text#SetText$4","TMPro.TMP_Text#SetText$5","TMPro.TMP_Text#SetText$6","TMPro.TMP_Text#SetText$7","TMPro.TMP_Text#SetText$8","TMPro.TMP_Text#SetText$9","TMPro.TMP_Text#SetText$10","TMPro.TMP_Text#SetText$11","TMPro.TMP_Text#SetText","TMPro.TMP_Text#SetText$1","TMPro.TMP_Text#SetCharArray","TMPro.TMP_Text#SetCharArray$1","TMPro.TMP_Text#SetCharArray$2","TMPro.TMP_Text#CharArrayToInternalParsingBuffer","TMPro.TMP_Text#StringToInternalParsingBuffer","TMPro.TMP_Text#StringBuilderToInternalParsingBuffer","TMPro.TMP_Text#ReplaceOpeningStyleTag$2","TMPro.TMP_Text#ReplaceOpeningStyleTag$1","TMPro.TMP_Text#ReplaceOpeningStyleTag","TMPro.TMP_Text#ReplaceOpeningStyleTag$3","TMPro.TMP_Text#ReplaceClosingStyleTag$2","TMPro.TMP_Text#ReplaceClosingStyleTag$1","TMPro.TMP_Text#ReplaceClosingStyleTag","TMPro.TMP_Text#ReplaceClosingStyleTag$3","TMPro.TMP_Text#GetStyle","TMPro.TMP_Text#InsertOpeningStyleTag","TMPro.TMP_Text#InsertClosingStyleTag","TMPro.TMP_Text#IsTagName$2","TMPro.TMP_Text#IsTagName","TMPro.TMP_Text#IsTagName$1","TMPro.TMP_Text#IsTagName$3","TMPro.TMP_Text#GetTagHashCode$2","TMPro.TMP_Text#GetTagHashCode","TMPro.TMP_Text#GetTagHashCode$1","TMPro.TMP_Text#GetTagHashCode$3","TMPro.TMP_Text#ResizeInternalArray","TMPro.TMP_Text#ResizeInternalArray$1","TMPro.TMP_Text#AddFloatToCharArray","TMPro.TMP_Text#AddIntegerToCharArray","TMPro.TMP_Text#SetArraySizes","TMPro.TMP_Text#EnableAdditionalVertexStreams","TMPro.TMP_Text#UpdateMeshInRenderer","TMPro.TMP_Text#EnableMasking","TMPro.TMP_Text#DisableMasking","TMPro.TMP_Text#ComputeLossyScaleFactor","TMPro.TMP_Text#AddSubTextObject","TMPro.TMP_Text#SetSubTextPivot","TMPro.TMP_Text#CleanUnusedMesh","TMPro.TMP_Text#GetSharedMaterials","TMPro.TMP_Text#SetPerspectiveCorrection","TMPro.TMP_Text#GenerateTextMesh","TMPro.TMP_Text#GenerateTextMeshFirstPass","TMPro.TMP_Text#GenerateTextMeshSecondPass","TMPro.TMP_Text#GetPreferredValues","TMPro.TMP_Text#GetPreferredValues$1","TMPro.TMP_Text#GetPreferredValues$2","TMPro.TMP_Text#GetPreferredValues$3","TMPro.TMP_Text#GetPreferredWidth","TMPro.TMP_Text#GetPreferredWidth$1","TMPro.TMP_Text#GetPreferredHeight","TMPro.TMP_Text#GetPreferredHeight$1","TMPro.TMP_Text#GetRenderedValues","TMPro.TMP_Text#GetRenderedValues$1","TMPro.TMP_Text#GetRenderedWidth","TMPro.TMP_Text#GetRenderedWidth$1","TMPro.TMP_Text#GetRenderedHeight","TMPro.TMP_Text#GetRenderedHeight$1","TMPro.TMP_Text#CalculatePreferredValues","TMPro.TMP_Text#GetCompoundBounds","TMPro.TMP_Text#GetTextBounds","TMPro.TMP_Text#GetTextBounds$1","TMPro.TMP_Text#AdjustLineOffset","TMPro.TMP_Text#ResizeLineExtents","TMPro.TMP_Text#GetTextInfo","TMPro.TMP_Text#ComputeMarginSize","TMPro.TMP_Text#InsertNewLine","TMPro.TMP_Text#SaveWordWrappingState","TMPro.TMP_Text#RestoreWordWrappingState","TMPro.TMP_Text#SaveGlyphVertexInfo","TMPro.TMP_Text#SaveSpriteVertexInfo","TMPro.TMP_Text#FillCharacterVertexBuffers","TMPro.TMP_Text#FillSpriteVertexBuffers","TMPro.TMP_Text#DrawUnderlineMesh","TMPro.TMP_Text#DrawTextHighlight","TMPro.TMP_Text#LoadDefaultSettings","TMPro.TMP_Text#GetSpecialCharacters","TMPro.TMP_Text#GetEllipsisSpecialCharacter","TMPro.TMP_Text#GetUnderlineSpecialCharacter","TMPro.TMP_Text#ReplaceTagWithCharacter","TMPro.TMP_Text#GetFontAssetForWeight","TMPro.TMP_Text#GetTextElement","TMPro.TMP_Text#SetActiveSubMeshes","TMPro.TMP_Text#DestroySubMeshObjects","TMPro.TMP_Text#GetCanvasSpaceClippingRect","TMPro.TMP_Text#ClearMesh","TMPro.TMP_Text#ClearMesh$1","TMPro.TMP_Text#GetParsedText","TMPro.TMP_Text#IsSelfOrLinkedAncestor","TMPro.TMP_Text#ReleaseLinkedTextComponent","TMPro.TMP_Text#PackUV$1","TMPro.TMP_Text#PackUV","TMPro.TMP_Text#InternalUpdate","TMPro.TMP_Text#HexToInt","TMPro.TMP_Text#GetUTF16$1","TMPro.TMP_Text#GetUTF16","TMPro.TMP_Text#GetUTF16$2","TMPro.TMP_Text#GetUTF32$1","TMPro.TMP_Text#GetUTF32$2","TMPro.TMP_Text#GetUTF32","TMPro.TMP_Text#HexCharsToColor","TMPro.TMP_Text#HexCharsToColor$1","TMPro.TMP_Text#GetAttributeParameters","TMPro.TMP_Text#ConvertToFloat","TMPro.TMP_Text#ConvertToFloat$1","TMPro.TMP_Text#ValidateHtmlTag","TMPro.TMP_Asset#instanceID#get","TMPro.TMP_TextElement#elementType#get","TMPro.TMP_TextElement#unicode#get","TMPro.TMP_TextElement#unicode#set","TMPro.TMP_TextElement#textAsset#get","TMPro.TMP_TextElement#textAsset#set","TMPro.TMP_TextElement#glyph#get","TMPro.TMP_TextElement#glyph#set","TMPro.TMP_TextElement#glyphIndex#get","TMPro.TMP_TextElement#glyphIndex#set","TMPro.TMP_TextElement#scale#get","TMPro.TMP_TextElement#scale#set","TMPro.TMP_CharacterInfo#getDefaultValue","TMPro.TMP_CharacterInfo#init","TMPro.TMP_CharacterInfo#ctor","TMPro.TMP_CharacterInfo#getHashCode","TMPro.TMP_CharacterInfo#equals","TMPro.TMP_CharacterInfo#$clone","TMPro.TMP_ColorGradient#init","TMPro.TMP_ColorGradient#init","TMPro.TMP_ColorGradient#ctor","TMPro.TMP_ColorGradient#$ctor1","TMPro.TMP_ColorGradient#$ctor2","TMPro.TMP_Compatibility#ConvertTextAlignmentEnumValues","TMPro.TMP_Dropdown#init","TMPro.TMP_Dropdown#GetOrAddComponent","TMPro.TMP_Dropdown#template#get","TMPro.TMP_Dropdown#template#set","TMPro.TMP_Dropdown#captionText#get","TMPro.TMP_Dropdown#captionText#set","TMPro.TMP_Dropdown#captionImage#get","TMPro.TMP_Dropdown#captionImage#set","TMPro.TMP_Dropdown#placeholder#get","TMPro.TMP_Dropdown#placeholder#set","TMPro.TMP_Dropdown#itemText#get","TMPro.TMP_Dropdown#itemText#set","TMPro.TMP_Dropdown#itemImage#get","TMPro.TMP_Dropdown#itemImage#set","TMPro.TMP_Dropdown#options#get","TMPro.TMP_Dropdown#options#set","TMPro.TMP_Dropdown#alphaFadeSpeed#get","TMPro.TMP_Dropdown#alphaFadeSpeed#set","TMPro.TMP_Dropdown#onValueChanged#get","TMPro.TMP_Dropdown#onValueChanged#set","TMPro.TMP_Dropdown#value#get","TMPro.TMP_Dropdown#value#set","TMPro.TMP_Dropdown#IsExpanded#get","TMPro.TMP_Dropdown#init","TMPro.TMP_Dropdown#ctor","TMPro.TMP_Dropdown#SetValueWithoutNotify","TMPro.TMP_Dropdown#SetValue","TMPro.TMP_Dropdown#Awake","TMPro.TMP_Dropdown#Start","TMPro.TMP_Dropdown#OnDisable","TMPro.TMP_Dropdown#RefreshShownValue","TMPro.TMP_Dropdown#AddOptions$1","TMPro.TMP_Dropdown#AddOptions","TMPro.TMP_Dropdown#AddOptions$2","TMPro.TMP_Dropdown#ClearOptions","TMPro.TMP_Dropdown#SetupTemplate","TMPro.TMP_Dropdown#OnPointerClick","TMPro.TMP_Dropdown#OnSubmit","TMPro.TMP_Dropdown#OnCancel","TMPro.TMP_Dropdown#Show","TMPro.TMP_Dropdown#CreateBlocker","TMPro.TMP_Dropdown#DestroyBlocker","TMPro.TMP_Dropdown#CreateDropdownList","TMPro.TMP_Dropdown#DestroyDropdownList","TMPro.TMP_Dropdown#CreateItem","TMPro.TMP_Dropdown#DestroyItem","TMPro.TMP_Dropdown#AddItem","TMPro.TMP_Dropdown#AlphaFadeList","TMPro.TMP_Dropdown#AlphaFadeList$1","TMPro.TMP_Dropdown#SetAlpha","TMPro.TMP_Dropdown#Hide","TMPro.TMP_Dropdown#DelayedDestroyDropdownList","TMPro.TMP_Dropdown#ImmediateDestroyDropdownList","TMPro.TMP_Dropdown#OnSelectItem","TMPro.TMP_Dropdown.DropdownItem#text#get","TMPro.TMP_Dropdown.DropdownItem#text#set","TMPro.TMP_Dropdown.DropdownItem#image#get","TMPro.TMP_Dropdown.DropdownItem#image#set","TMPro.TMP_Dropdown.DropdownItem#rectTransform#get","TMPro.TMP_Dropdown.DropdownItem#rectTransform#set","TMPro.TMP_Dropdown.DropdownItem#toggle#get","TMPro.TMP_Dropdown.DropdownItem#toggle#set","TMPro.TMP_Dropdown.DropdownItem#OnPointerEnter","TMPro.TMP_Dropdown.DropdownItem#OnCancel","TMPro.TMP_Dropdown.OptionData#text#get","TMPro.TMP_Dropdown.OptionData#text#set","TMPro.TMP_Dropdown.OptionData#image#get","TMPro.TMP_Dropdown.OptionData#image#set","TMPro.TMP_Dropdown.OptionData#ctor","TMPro.TMP_Dropdown.OptionData#$ctor1","TMPro.TMP_Dropdown.OptionData#$ctor3","TMPro.TMP_Dropdown.OptionData#$ctor2","TMPro.TMP_Dropdown.OptionDataList#options#get","TMPro.TMP_Dropdown.OptionDataList#options#set","TMPro.TMP_Dropdown.OptionDataList#ctor","TMPro.TMP_FontAssetUtilities#instance#get","TMPro.TMP_FontAssetUtilities#init","TMPro.TMP_FontAssetUtilities#ctor","TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAsset","TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAsset_Internal","TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAssets","TMPro.TMP_FontAssetUtilities#GetSpriteCharacterFromSpriteAsset","TMPro.TMP_FontAssetUtilities#GetSpriteCharacterFromSpriteAsset_Internal","TMPro.TMP_FontFeatureTable#glyphPairAdjustmentRecords#get","TMPro.TMP_FontFeatureTable#glyphPairAdjustmentRecords#set","TMPro.TMP_FontFeatureTable#ctor","TMPro.TMP_FontFeatureTable#SortGlyphPairAdjustmentRecords","TMPro.TMP_FontStyleStack#getDefaultValue","TMPro.TMP_FontStyleStack#ctor","TMPro.TMP_FontStyleStack#Copy","TMPro.TMP_FontStyleStack#Clear","TMPro.TMP_FontStyleStack#Add","TMPro.TMP_FontStyleStack#Remove","TMPro.TMP_FontStyleStack#getHashCode","TMPro.TMP_FontStyleStack#equals","TMPro.TMP_FontStyleStack#$clone","TMPro.TMP_FontUtilities#SearchForCharacter$1","TMPro.TMP_FontUtilities#SearchForCharacter","TMPro.TMP_FontUtilities#SearchForCharacterInternal$1","TMPro.TMP_FontUtilities#SearchForCharacterInternal","TMPro.TMP_FontWeightPair#getDefaultValue","TMPro.TMP_FontWeightPair#ctor","TMPro.TMP_FontWeightPair#getHashCode","TMPro.TMP_FontWeightPair#equals","TMPro.TMP_FontWeightPair#$clone","TMPro.TMP_GlyphAdjustmentRecord#getDefaultValue","TMPro.TMP_GlyphAdjustmentRecord#glyphIndex#get","TMPro.TMP_GlyphAdjustmentRecord#glyphIndex#set","TMPro.TMP_GlyphAdjustmentRecord#glyphValueRecord#get","TMPro.TMP_GlyphAdjustmentRecord#glyphValueRecord#set","TMPro.TMP_GlyphAdjustmentRecord#init","TMPro.TMP_GlyphAdjustmentRecord#$ctor1","TMPro.TMP_GlyphAdjustmentRecord#$ctor2","TMPro.TMP_GlyphAdjustmentRecord#ctor","TMPro.TMP_GlyphAdjustmentRecord#getHashCode","TMPro.TMP_GlyphAdjustmentRecord#equals","TMPro.TMP_GlyphAdjustmentRecord#$clone","TMPro.TMP_GlyphPairAdjustmentRecord#firstAdjustmentRecord#get","TMPro.TMP_GlyphPairAdjustmentRecord#firstAdjustmentRecord#set","TMPro.TMP_GlyphPairAdjustmentRecord#secondAdjustmentRecord#get","TMPro.TMP_GlyphPairAdjustmentRecord#secondAdjustmentRecord#set","TMPro.TMP_GlyphPairAdjustmentRecord#featureLookupFlags#get","TMPro.TMP_GlyphPairAdjustmentRecord#featureLookupFlags#set","TMPro.TMP_GlyphPairAdjustmentRecord#init","TMPro.TMP_GlyphPairAdjustmentRecord#ctor","TMPro.TMP_GlyphPairAdjustmentRecord#$ctor1","TMPro.TMP_GlyphPairAdjustmentRecord#$ctor2","TMPro.TMP_GlyphValueRecord#op_Addition","TMPro.TMP_GlyphValueRecord#getDefaultValue","TMPro.TMP_GlyphValueRecord#xPlacement#get","TMPro.TMP_GlyphValueRecord#xPlacement#set","TMPro.TMP_GlyphValueRecord#yPlacement#get","TMPro.TMP_GlyphValueRecord#yPlacement#set","TMPro.TMP_GlyphValueRecord#xAdvance#get","TMPro.TMP_GlyphValueRecord#xAdvance#set","TMPro.TMP_GlyphValueRecord#yAdvance#get","TMPro.TMP_GlyphValueRecord#yAdvance#set","TMPro.TMP_GlyphValueRecord#$ctor1","TMPro.TMP_GlyphValueRecord#$ctor2","TMPro.TMP_GlyphValueRecord#$ctor3","TMPro.TMP_GlyphValueRecord#ctor","TMPro.TMP_GlyphValueRecord#getHashCode","TMPro.TMP_GlyphValueRecord#equals","TMPro.TMP_GlyphValueRecord#$clone","TMPro.TMP_InputField#clipboard#get","TMPro.TMP_InputField#clipboard#set","TMPro.TMP_InputField#init","TMPro.TMP_InputField#compositionString#get","TMPro.TMP_InputField#compositionLength#get","TMPro.TMP_InputField#mesh#get","TMPro.TMP_InputField#shouldHideMobileInput#get","TMPro.TMP_InputField#shouldHideMobileInput#set","TMPro.TMP_InputField#shouldHideSoftKeyboard#get","TMPro.TMP_InputField#shouldHideSoftKeyboard#set","TMPro.TMP_InputField#text#get","TMPro.TMP_InputField#text#set","TMPro.TMP_InputField#isFocused#get","TMPro.TMP_InputField#caretBlinkRate#get","TMPro.TMP_InputField#caretBlinkRate#set","TMPro.TMP_InputField#caretWidth#get","TMPro.TMP_InputField#caretWidth#set","TMPro.TMP_InputField#textViewport#get","TMPro.TMP_InputField#textViewport#set","TMPro.TMP_InputField#textComponent#get","TMPro.TMP_InputField#textComponent#set","TMPro.TMP_InputField#placeholder#get","TMPro.TMP_InputField#placeholder#set","TMPro.TMP_InputField#verticalScrollbar#get","TMPro.TMP_InputField#verticalScrollbar#set","TMPro.TMP_InputField#scrollSensitivity#get","TMPro.TMP_InputField#scrollSensitivity#set","TMPro.TMP_InputField#caretColor#get","TMPro.TMP_InputField#caretColor#set","TMPro.TMP_InputField#customCaretColor#get","TMPro.TMP_InputField#customCaretColor#set","TMPro.TMP_InputField#selectionColor#get","TMPro.TMP_InputField#selectionColor#set","TMPro.TMP_InputField#onEndEdit#get","TMPro.TMP_InputField#onEndEdit#set","TMPro.TMP_InputField#onSubmit#get","TMPro.TMP_InputField#onSubmit#set","TMPro.TMP_InputField#onSelect#get","TMPro.TMP_InputField#onSelect#set","TMPro.TMP_InputField#onDeselect#get","TMPro.TMP_InputField#onDeselect#set","TMPro.TMP_InputField#onTextSelection#get","TMPro.TMP_InputField#onTextSelection#set","TMPro.TMP_InputField#onEndTextSelection#get","TMPro.TMP_InputField#onEndTextSelection#set","TMPro.TMP_InputField#onValueChanged#get","TMPro.TMP_InputField#onValueChanged#set","TMPro.TMP_InputField#onTouchScreenKeyboardStatusChanged#get","TMPro.TMP_InputField#onTouchScreenKeyboardStatusChanged#set","TMPro.TMP_InputField#onValidateInput#get","TMPro.TMP_InputField#onValidateInput#set","TMPro.TMP_InputField#characterLimit#get","TMPro.TMP_InputField#characterLimit#set","TMPro.TMP_InputField#pointSize#get","TMPro.TMP_InputField#pointSize#set","TMPro.TMP_InputField#fontAsset#get","TMPro.TMP_InputField#fontAsset#set","TMPro.TMP_InputField#onFocusSelectAll#get","TMPro.TMP_InputField#onFocusSelectAll#set","TMPro.TMP_InputField#resetOnDeActivation#get","TMPro.TMP_InputField#resetOnDeActivation#set","TMPro.TMP_InputField#restoreOriginalTextOnEscape#get","TMPro.TMP_InputField#restoreOriginalTextOnEscape#set","TMPro.TMP_InputField#isRichTextEditingAllowed#get","TMPro.TMP_InputField#isRichTextEditingAllowed#set","TMPro.TMP_InputField#contentType#get","TMPro.TMP_InputField#contentType#set","TMPro.TMP_InputField#lineType#get","TMPro.TMP_InputField#lineType#set","TMPro.TMP_InputField#lineLimit#get","TMPro.TMP_InputField#lineLimit#set","TMPro.TMP_InputField#inputType#get","TMPro.TMP_InputField#inputType#set","TMPro.TMP_InputField#keyboardType#get","TMPro.TMP_InputField#keyboardType#set","TMPro.TMP_InputField#characterValidation#get","TMPro.TMP_InputField#characterValidation#set","TMPro.TMP_InputField#inputValidator#get","TMPro.TMP_InputField#inputValidator#set","TMPro.TMP_InputField#readOnly#get","TMPro.TMP_InputField#readOnly#set","TMPro.TMP_InputField#richText#get","TMPro.TMP_InputField#richText#set","TMPro.TMP_InputField#multiLine#get","TMPro.TMP_InputField#asteriskChar#get","TMPro.TMP_InputField#asteriskChar#set","TMPro.TMP_InputField#wasCanceled#get","TMPro.TMP_InputField#caretPositionInternal#get","TMPro.TMP_InputField#caretPositionInternal#set","TMPro.TMP_InputField#stringPositionInternal#get","TMPro.TMP_InputField#stringPositionInternal#set","TMPro.TMP_InputField#caretSelectPositionInternal#get","TMPro.TMP_InputField#caretSelectPositionInternal#set","TMPro.TMP_InputField#stringSelectPositionInternal#get","TMPro.TMP_InputField#stringSelectPositionInternal#set","TMPro.TMP_InputField#hasSelection$1#get","TMPro.TMP_InputField#caretPosition#get","TMPro.TMP_InputField#caretPosition#set","TMPro.TMP_InputField#selectionAnchorPosition#get","TMPro.TMP_InputField#selectionAnchorPosition#set","TMPro.TMP_InputField#selectionFocusPosition#get","TMPro.TMP_InputField#selectionFocusPosition#set","TMPro.TMP_InputField#stringPosition#get","TMPro.TMP_InputField#stringPosition#set","TMPro.TMP_InputField#selectionStringAnchorPosition#get","TMPro.TMP_InputField#selectionStringAnchorPosition#set","TMPro.TMP_InputField#selectionStringFocusPosition#get","TMPro.TMP_InputField#selectionStringFocusPosition#set","TMPro.TMP_InputField#minWidth#get","TMPro.TMP_InputField#preferredWidth#get","TMPro.TMP_InputField#flexibleWidth#get","TMPro.TMP_InputField#minHeight#get","TMPro.TMP_InputField#preferredHeight#get","TMPro.TMP_InputField#flexibleHeight#get","TMPro.TMP_InputField#layoutPriority#get","TMPro.TMP_InputField#init","TMPro.TMP_InputField#ctor","TMPro.TMP_InputField#isKeyboardUsingEvents","TMPro.TMP_InputField#SetTextWithoutNotify","TMPro.TMP_InputField#SetText","TMPro.TMP_InputField#ClampStringPos","TMPro.TMP_InputField#ClampCaretPos","TMPro.TMP_InputField#OnEnable","TMPro.TMP_InputField#OnDisable","TMPro.TMP_InputField#ON_TEXT_CHANGED","TMPro.TMP_InputField#CaretBlink","TMPro.TMP_InputField#SetCaretVisible","TMPro.TMP_InputField#SetCaretActive","TMPro.TMP_InputField#OnFocus","TMPro.TMP_InputField#SelectAll","TMPro.TMP_InputField#MoveTextEnd","TMPro.TMP_InputField#MoveTextStart","TMPro.TMP_InputField#MoveToEndOfLine","TMPro.TMP_InputField#MoveToStartOfLine","TMPro.TMP_InputField#InPlaceEditing","TMPro.TMP_InputField#UpdateStringPositionFromKeyboard","TMPro.TMP_InputField#LateUpdate","TMPro.TMP_InputField#MayDrag","TMPro.TMP_InputField#OnBeginDrag","TMPro.TMP_InputField#OnDrag","TMPro.TMP_InputField#MouseDragOutsideRect","TMPro.TMP_InputField#OnEndDrag","TMPro.TMP_InputField#OnPointerDown","TMPro.TMP_InputField#KeyPressed","TMPro.TMP_InputField#IsValidChar","TMPro.TMP_InputField#ProcessEvent","TMPro.TMP_InputField#OnUpdateSelected","TMPro.TMP_InputField#OnScroll","TMPro.TMP_InputField#GetSelectedString","TMPro.TMP_InputField#FindNextWordBegin","TMPro.TMP_InputField#MoveRight","TMPro.TMP_InputField#FindPrevWordBegin","TMPro.TMP_InputField#MoveLeft","TMPro.TMP_InputField#LineUpCharacterPosition","TMPro.TMP_InputField#LineDownCharacterPosition","TMPro.TMP_InputField#PageUpCharacterPosition","TMPro.TMP_InputField#PageDownCharacterPosition","TMPro.TMP_InputField#MoveDown","TMPro.TMP_InputField#MoveDown$1","TMPro.TMP_InputField#MoveUp","TMPro.TMP_InputField#MoveUp$1","TMPro.TMP_InputField#MovePageUp","TMPro.TMP_InputField#MovePageUp$1","TMPro.TMP_InputField#MovePageDown","TMPro.TMP_InputField#MovePageDown$1","TMPro.TMP_InputField#Delete","TMPro.TMP_InputField#DeleteKey","TMPro.TMP_InputField#Backspace","TMPro.TMP_InputField#Append$1","TMPro.TMP_InputField#Append","TMPro.TMP_InputField#Insert","TMPro.TMP_InputField#UpdateTouchKeyboardFromEditChanges","TMPro.TMP_InputField#SendOnValueChangedAndUpdateLabel","TMPro.TMP_InputField#SendOnValueChanged","TMPro.TMP_InputField#SendOnEndEdit","TMPro.TMP_InputField#SendOnSubmit","TMPro.TMP_InputField#SendOnFocus","TMPro.TMP_InputField#SendOnFocusLost","TMPro.TMP_InputField#SendOnTextSelection","TMPro.TMP_InputField#SendOnEndTextSelection","TMPro.TMP_InputField#SendTouchScreenKeyboardStatusChanged","TMPro.TMP_InputField#UpdateLabel","TMPro.TMP_InputField#UpdateScrollbar","TMPro.TMP_InputField#OnScrollbarValueChange","TMPro.TMP_InputField#UpdateMaskRegions","TMPro.TMP_InputField#AdjustTextPositionRelativeToViewport","TMPro.TMP_InputField#GetCaretPositionFromStringIndex","TMPro.TMP_InputField#GetMinCaretPositionFromStringIndex","TMPro.TMP_InputField#GetMaxCaretPositionFromStringIndex","TMPro.TMP_InputField#GetStringIndexFromCaretPosition","TMPro.TMP_InputField#ForceLabelUpdate","TMPro.TMP_InputField#MarkGeometryAsDirty","TMPro.TMP_InputField#Rebuild","TMPro.TMP_InputField#LayoutComplete","TMPro.TMP_InputField#GraphicUpdateComplete","TMPro.TMP_InputField#UpdateGeometry","TMPro.TMP_InputField#AssignPositioningIfNeeded","TMPro.TMP_InputField#OnFillVBO","TMPro.TMP_InputField#GenerateCaret","TMPro.TMP_InputField#CreateCursorVerts","TMPro.TMP_InputField#GenerateHightlight","TMPro.TMP_InputField#AdjustRectTransformRelativeToViewport","TMPro.TMP_InputField#Validate","TMPro.TMP_InputField#ActivateInputField","TMPro.TMP_InputField#ActivateInputFieldInternal","TMPro.TMP_InputField#OnSelect","TMPro.TMP_InputField#OnPointerClick","TMPro.TMP_InputField#OnControlClick","TMPro.TMP_InputField#ReleaseSelection","TMPro.TMP_InputField#DeactivateInputField","TMPro.TMP_InputField#OnDeselect","TMPro.TMP_InputField#OnSubmit","TMPro.TMP_InputField#EnforceContentType","TMPro.TMP_InputField#SetTextComponentWrapMode","TMPro.TMP_InputField#SetTextComponentRichTextMode","TMPro.TMP_InputField#SetToCustomIfContentTypeIsNot","TMPro.TMP_InputField#SetToCustom","TMPro.TMP_InputField#SetToCustom$1","TMPro.TMP_InputField#DoStateTransition","TMPro.TMP_InputField#CalculateLayoutInputHorizontal","TMPro.TMP_InputField#CalculateLayoutInputVertical","TMPro.TMP_InputField#SetGlobalPointSize","TMPro.TMP_InputField#SetGlobalFontAsset","TMPro.TMP_LineInfo#getDefaultValue","TMPro.TMP_LineInfo#init","TMPro.TMP_LineInfo#ctor","TMPro.TMP_LineInfo#getHashCode","TMPro.TMP_LineInfo#equals","TMPro.TMP_LineInfo#$clone","TMPro.TMP_LinkInfo#getDefaultValue","TMPro.TMP_LinkInfo#ctor","TMPro.TMP_LinkInfo#SetLinkID","TMPro.TMP_LinkInfo#GetLinkText","TMPro.TMP_LinkInfo#GetLinkID","TMPro.TMP_LinkInfo#getHashCode","TMPro.TMP_LinkInfo#equals","TMPro.TMP_LinkInfo#$clone","TMPro.TMP_ListPool$1#init","TMPro.TMP_ListPool$1#Get","TMPro.TMP_ListPool$1#Release","TMPro.TMP_MaterialManager#init","TMPro.TMP_MaterialManager#ctor","TMPro.TMP_MaterialManager#OnPreRender","TMPro.TMP_MaterialManager#OnPreRenderCanvas","TMPro.TMP_MaterialManager#GetStencilMaterial","TMPro.TMP_MaterialManager#ReleaseStencilMaterial","TMPro.TMP_MaterialManager#GetBaseMaterial","TMPro.TMP_MaterialManager#SetStencil","TMPro.TMP_MaterialManager#AddMaskingMaterial","TMPro.TMP_MaterialManager#RemoveStencilMaterial","TMPro.TMP_MaterialManager#ReleaseBaseMaterial","TMPro.TMP_MaterialManager#ClearMaterials","TMPro.TMP_MaterialManager#GetStencilID","TMPro.TMP_MaterialManager#GetMaterialForRendering","TMPro.TMP_MaterialManager#FindRootSortOverrideCanvas","TMPro.TMP_MaterialManager#GetFallbackMaterial$1","TMPro.TMP_MaterialManager#GetFallbackMaterial","TMPro.TMP_MaterialManager#AddFallbackMaterialReference","TMPro.TMP_MaterialManager#RemoveFallbackMaterialReference","TMPro.TMP_MaterialManager#CleanupFallbackMaterials","TMPro.TMP_MaterialManager#ReleaseFallbackMaterial","TMPro.TMP_MaterialManager#CopyMaterialPresetProperties","TMPro.TMP_MaterialReference#getDefaultValue","TMPro.TMP_MaterialReference#ctor","TMPro.TMP_MaterialReference#getHashCode","TMPro.TMP_MaterialReference#equals","TMPro.TMP_MaterialReference#$clone","TMPro.TMP_Math#init","TMPro.TMP_Math#Approximately","TMPro.TMP_Math#Mod","TMPro.TMP_MeshInfo#init","TMPro.TMP_MeshInfo#getDefaultValue","TMPro.TMP_MeshInfo#vertexCount#get","TMPro.TMP_MeshInfo#vertexCount#set","TMPro.TMP_MeshInfo#$ctor1","TMPro.TMP_MeshInfo#$ctor2","TMPro.TMP_MeshInfo#ctor","TMPro.TMP_MeshInfo#ResizeMeshInfo","TMPro.TMP_MeshInfo#ResizeMeshInfo$1","TMPro.TMP_MeshInfo#Clear","TMPro.TMP_MeshInfo#Clear$1","TMPro.TMP_MeshInfo#ClearUnusedVertices","TMPro.TMP_MeshInfo#ClearUnusedVertices$1","TMPro.TMP_MeshInfo#ClearUnusedVertices$2","TMPro.TMP_MeshInfo#SortGeometry$1","TMPro.TMP_MeshInfo#SortGeometry","TMPro.TMP_MeshInfo#SwapVertexData","TMPro.TMP_MeshInfo#getHashCode","TMPro.TMP_MeshInfo#equals","TMPro.TMP_MeshInfo#$clone","TMPro.TMP_ObjectPool$1#countActive#get","TMPro.TMP_ObjectPool$1#countInactive#get","TMPro.TMP_ObjectPool$1#init","TMPro.TMP_ObjectPool$1#ctor","TMPro.TMP_ObjectPool$1#Get","TMPro.TMP_ObjectPool$1#Release","TMPro.TMP_Offset#zero#get","TMPro.TMP_Offset#init","TMPro.TMP_Offset#op_Equality","TMPro.TMP_Offset#op_Inequality","TMPro.TMP_Offset#op_Multiply","TMPro.TMP_Offset#getDefaultValue","TMPro.TMP_Offset#left#get","TMPro.TMP_Offset#left#set","TMPro.TMP_Offset#right#get","TMPro.TMP_Offset#right#set","TMPro.TMP_Offset#top#get","TMPro.TMP_Offset#top#set","TMPro.TMP_Offset#bottom#get","TMPro.TMP_Offset#bottom#set","TMPro.TMP_Offset#horizontal#get","TMPro.TMP_Offset#horizontal#set","TMPro.TMP_Offset#vertical#get","TMPro.TMP_Offset#vertical#set","TMPro.TMP_Offset#$ctor2","TMPro.TMP_Offset#$ctor1","TMPro.TMP_Offset#ctor","TMPro.TMP_Offset#Copy","TMPro.TMP_Offset#getHashCode","TMPro.TMP_Offset#equals","TMPro.TMP_Offset#Equals","TMPro.TMP_Offset#$clone","TMPro.TMP_PageInfo#getDefaultValue","TMPro.TMP_PageInfo#ctor","TMPro.TMP_PageInfo#getHashCode","TMPro.TMP_PageInfo#equals","TMPro.TMP_PageInfo#$clone","TMPro.TMP_ResourceManager#init","TMPro.TMP_ResourceManager#ctor","TMPro.TMP_ResourceManager#GetTextSettings","TMPro.TMP_ResourceManager#AddFontAsset","TMPro.TMP_ResourceManager#TryGetFontAsset","TMPro.TMP_ResourceManager#RebuildFontAssetCache","TMPro.TMP_ScrollbarEventHandler#OnPointerClick","TMPro.TMP_ScrollbarEventHandler#OnSelect","TMPro.TMP_ScrollbarEventHandler#OnDeselect","TMPro.TMP_SelectionCaret#ctor","TMPro.TMP_SelectionCaret#Cull","TMPro.TMP_SelectionCaret#UpdateGeometry","TMPro.TMP_Settings#version#get","TMPro.TMP_Settings#enableWordWrapping#get","TMPro.TMP_Settings#enableKerning#get","TMPro.TMP_Settings#enableExtraPadding#get","TMPro.TMP_Settings#enableTintAllSprites#get","TMPro.TMP_Settings#enableParseEscapeCharacters#get","TMPro.TMP_Settings#enableRaycastTarget#get","TMPro.TMP_Settings#getFontFeaturesAtRuntime#get","TMPro.TMP_Settings#missingGlyphCharacter#get","TMPro.TMP_Settings#missingGlyphCharacter#set","TMPro.TMP_Settings#warningsDisabled#get","TMPro.TMP_Settings#defaultFontAsset#get","TMPro.TMP_Settings#defaultFontAssetPath#get","TMPro.TMP_Settings#defaultFontSize#get","TMPro.TMP_Settings#defaultTextAutoSizingMinRatio#get","TMPro.TMP_Settings#defaultTextAutoSizingMaxRatio#get","TMPro.TMP_Settings#defaultTextMeshProTextContainerSize#get","TMPro.TMP_Settings#defaultTextMeshProUITextContainerSize#get","TMPro.TMP_Settings#autoSizeTextContainer#get","TMPro.TMP_Settings#isTextObjectScaleStatic#get","TMPro.TMP_Settings#isTextObjectScaleStatic#set","TMPro.TMP_Settings#fallbackFontAssets#get","TMPro.TMP_Settings#matchMaterialPreset#get","TMPro.TMP_Settings#defaultSpriteAsset#get","TMPro.TMP_Settings#defaultSpriteAssetPath#get","TMPro.TMP_Settings#missingCharacterSpriteUnicode#get","TMPro.TMP_Settings#missingCharacterSpriteUnicode#set","TMPro.TMP_Settings#defaultColorGradientPresetsPath#get","TMPro.TMP_Settings#enableEmojiSupport#get","TMPro.TMP_Settings#enableEmojiSupport#set","TMPro.TMP_Settings#defaultStyleSheet#get","TMPro.TMP_Settings#styleSheetsResourcePath#get","TMPro.TMP_Settings#leadingCharacters#get","TMPro.TMP_Settings#followingCharacters#get","TMPro.TMP_Settings#linebreakingRules#get","TMPro.TMP_Settings#useModernHangulLineBreakingRules#get","TMPro.TMP_Settings#useModernHangulLineBreakingRules#set","TMPro.TMP_Settings#instance#get","TMPro.TMP_Settings#LoadDefaultSettings","TMPro.TMP_Settings#GetSettings","TMPro.TMP_Settings#GetFontAsset","TMPro.TMP_Settings#GetSpriteAsset","TMPro.TMP_Settings#GetStyleSheet","TMPro.TMP_Settings#LoadLinebreakingRules","TMPro.TMP_Settings#GetCharacters","TMPro.TMP_Settings#init","TMPro.TMP_SpriteAnimator#init","TMPro.TMP_SpriteAnimator#Awake","TMPro.TMP_SpriteAnimator#OnEnable","TMPro.TMP_SpriteAnimator#OnDisable","TMPro.TMP_SpriteAnimator#StopAllAnimations","TMPro.TMP_SpriteAnimator#DoSpriteAnimation","TMPro.TMP_SpriteAnimator#DoSpriteAnimationInternal","TMPro.TMP_SpriteGlyph#ctor","TMPro.TMP_SpriteGlyph#$ctor1","TMPro.TMP_SpriteGlyph#$ctor2","TMPro.TMP_SpriteInfo#getDefaultValue","TMPro.TMP_SpriteInfo#ctor","TMPro.TMP_SpriteInfo#getHashCode","TMPro.TMP_SpriteInfo#equals","TMPro.TMP_SpriteInfo#$clone","TMPro.TMP_Style#NormalStyle#get","TMPro.TMP_Style#name#get","TMPro.TMP_Style#name#set","TMPro.TMP_Style#hashCode#get","TMPro.TMP_Style#hashCode#set","TMPro.TMP_Style#styleOpeningDefinition#get","TMPro.TMP_Style#styleClosingDefinition#get","TMPro.TMP_Style#styleOpeningTagArray#get","TMPro.TMP_Style#styleClosingTagArray#get","TMPro.TMP_Style#ctor","TMPro.TMP_Style#RefreshStyle","TMPro.TMP_StyleSheet#init","TMPro.TMP_StyleSheet#Reset","TMPro.TMP_StyleSheet#GetStyle","TMPro.TMP_StyleSheet#GetStyle$1","TMPro.TMP_StyleSheet#RefreshStyles","TMPro.TMP_StyleSheet#LoadStyleDictionaryInternal","TMPro.TMP_Text.CharacterSubstitution#getDefaultValue","TMPro.TMP_Text.CharacterSubstitution#$ctor1","TMPro.TMP_Text.CharacterSubstitution#ctor","TMPro.TMP_Text.CharacterSubstitution#getHashCode","TMPro.TMP_Text.CharacterSubstitution#equals","TMPro.TMP_Text.CharacterSubstitution#$clone","TMPro.TMP_Text.SpecialCharacter#getDefaultValue","TMPro.TMP_Text.SpecialCharacter#$ctor1","TMPro.TMP_Text.SpecialCharacter#ctor","TMPro.TMP_Text.SpecialCharacter#getHashCode","TMPro.TMP_Text.SpecialCharacter#equals","TMPro.TMP_Text.SpecialCharacter#$clone","TMPro.TMP_Text.UnicodeChar#getDefaultValue","TMPro.TMP_Text.UnicodeChar#ctor","TMPro.TMP_Text.UnicodeChar#getHashCode","TMPro.TMP_Text.UnicodeChar#equals","TMPro.TMP_Text.UnicodeChar#$clone","TMPro.TMP_TextInfo#init","TMPro.TMP_TextInfo#Resize","TMPro.TMP_TextInfo#Resize$1","TMPro.TMP_TextInfo#ctor","TMPro.TMP_TextInfo#$ctor1","TMPro.TMP_TextInfo#$ctor2","TMPro.TMP_TextInfo#Clear","TMPro.TMP_TextInfo#ClearMeshInfo","TMPro.TMP_TextInfo#ClearAllMeshInfo","TMPro.TMP_TextInfo#ResetVertexLayout","TMPro.TMP_TextInfo#ClearUnusedVertices","TMPro.TMP_TextInfo#ClearLineInfo","TMPro.TMP_TextInfo#ClearPageInfo","TMPro.TMP_TextInfo#CopyMeshInfoVertexData","TMPro.TMP_TextParsingUtilities#instance#get","TMPro.TMP_TextParsingUtilities#init","TMPro.TMP_TextParsingUtilities#ctor","TMPro.TMP_TextParsingUtilities#GetHashCode","TMPro.TMP_TextParsingUtilities#GetHashCodeCaseSensitive","TMPro.TMP_TextParsingUtilities#ToLowerASCIIFast","TMPro.TMP_TextParsingUtilities#ToLowerASCIIFast$1","TMPro.TMP_TextParsingUtilities#ToUpperASCIIFast","TMPro.TMP_TextParsingUtilities#ToUpperASCIIFast$1","TMPro.TMP_TextParsingUtilities#IsHighSurrogate","TMPro.TMP_TextParsingUtilities#IsLowSurrogate","TMPro.TMP_TextProcessingStack$1#init","TMPro.TMP_TextProcessingStack$1#getDefaultValue","TMPro.TMP_TextProcessingStack$1#Count#get","TMPro.TMP_TextProcessingStack$1#current#get","TMPro.TMP_TextProcessingStack$1#rolloverSize#get","TMPro.TMP_TextProcessingStack$1#rolloverSize#set","TMPro.TMP_TextProcessingStack$1#init","TMPro.TMP_TextProcessingStack$1#$ctor1","TMPro.TMP_TextProcessingStack$1#$ctor2","TMPro.TMP_TextProcessingStack$1#$ctor3","TMPro.TMP_TextProcessingStack$1#ctor","TMPro.TMP_TextProcessingStack$1#CopyBase","TMPro.TMP_TextProcessingStack$1#Copy","TMPro.TMP_TextProcessingStack$1#CopyStruct","TMPro.TMP_TextProcessingStack$1#Clear","TMPro.TMP_TextProcessingStack$1#SetDefault","TMPro.TMP_TextProcessingStack$1#Add","TMPro.TMP_TextProcessingStack$1#Remove","TMPro.TMP_TextProcessingStack$1#Push","TMPro.TMP_TextProcessingStack$1#Pop","TMPro.TMP_TextProcessingStack$1#Peek","TMPro.TMP_TextProcessingStack$1#CurrentItem","TMPro.TMP_TextProcessingStack$1#PreviousItem","TMPro.TMP_TextProcessingStack$1#getHashCode","TMPro.TMP_TextProcessingStack$1#equals","TMPro.TMP_TextProcessingStack$1#$clone","TMPro.TMP_TextUtilities#init","TMPro.TMP_TextUtilities#GetCursorIndexFromPosition","TMPro.TMP_TextUtilities#GetCursorIndexFromPosition$1","TMPro.TMP_TextUtilities#FindNearestLine","TMPro.TMP_TextUtilities#FindNearestCharacterOnLine","TMPro.TMP_TextUtilities#IsIntersectingRectTransform","TMPro.TMP_TextUtilities#FindIntersectingCharacter","TMPro.TMP_TextUtilities#FindNearestCharacter","TMPro.TMP_TextUtilities#FindIntersectingWord","TMPro.TMP_TextUtilities#FindNearestWord","TMPro.TMP_TextUtilities#FindIntersectingLine","TMPro.TMP_TextUtilities#FindIntersectingLink","TMPro.TMP_TextUtilities#FindNearestLink","TMPro.TMP_TextUtilities#PointIntersectRectangle","TMPro.TMP_TextUtilities#ScreenPointToWorldPointInRectangle","TMPro.TMP_TextUtilities#IntersectLinePlane","TMPro.TMP_TextUtilities#DistanceToLine","TMPro.TMP_TextUtilities#ToLowerFast","TMPro.TMP_TextUtilities#ToUpperFast","TMPro.TMP_TextUtilities#GetHashCode","TMPro.TMP_TextUtilities#GetSimpleHashCode","TMPro.TMP_TextUtilities#GetSimpleHashCodeLowercase","TMPro.TMP_TextUtilities#HexToInt","TMPro.TMP_TextUtilities#StringHexToInt","TMPro.TMP_TextUtilities.LineSegment#getDefaultValue","TMPro.TMP_TextUtilities.LineSegment#init","TMPro.TMP_TextUtilities.LineSegment#$ctor1","TMPro.TMP_TextUtilities.LineSegment#ctor","TMPro.TMP_TextUtilities.LineSegment#getHashCode","TMPro.TMP_TextUtilities.LineSegment#equals","TMPro.TMP_TextUtilities.LineSegment#$clone","TMPro.TMP_UpdateManager#instance#get","TMPro.TMP_UpdateManager#RegisterTextObjectForUpdate","TMPro.TMP_UpdateManager#RegisterTextElementForLayoutRebuild","TMPro.TMP_UpdateManager#RegisterTextElementForGraphicRebuild","TMPro.TMP_UpdateManager#RegisterTextElementForCullingUpdate","TMPro.TMP_UpdateManager#UnRegisterTextObjectForUpdate","TMPro.TMP_UpdateManager#UnRegisterTextElementForRebuild","TMPro.TMP_UpdateManager#init","TMPro.TMP_UpdateManager#ctor","TMPro.TMP_UpdateManager#InternalRegisterTextObjectForUpdate","TMPro.TMP_UpdateManager#InternalRegisterTextElementForLayoutRebuild","TMPro.TMP_UpdateManager#InternalRegisterTextElementForGraphicRebuild","TMPro.TMP_UpdateManager#InternalRegisterTextElementForCullingUpdate","TMPro.TMP_UpdateManager#OnCameraPreCull","TMPro.TMP_UpdateManager#DoRebuilds","TMPro.TMP_UpdateManager#InternalUnRegisterTextElementForGraphicRebuild","TMPro.TMP_UpdateManager#InternalUnRegisterTextElementForLayoutRebuild","TMPro.TMP_UpdateManager#InternalUnRegisterTextObjectForUpdate","TMPro.TMP_UpdateRegistry#instance#get","TMPro.TMP_UpdateRegistry#RegisterCanvasElementForLayoutRebuild","TMPro.TMP_UpdateRegistry#RegisterCanvasElementForGraphicRebuild","TMPro.TMP_UpdateRegistry#UnRegisterCanvasElementForRebuild","TMPro.TMP_UpdateRegistry#init","TMPro.TMP_UpdateRegistry#ctor","TMPro.TMP_UpdateRegistry#InternalRegisterCanvasElementForLayoutRebuild","TMPro.TMP_UpdateRegistry#InternalRegisterCanvasElementForGraphicRebuild","TMPro.TMP_UpdateRegistry#PerformUpdateForCanvasRendererObjects","TMPro.TMP_UpdateRegistry#PerformUpdateForMeshRendererObjects","TMPro.TMP_UpdateRegistry#InternalUnRegisterCanvasElementForLayoutRebuild","TMPro.TMP_UpdateRegistry#InternalUnRegisterCanvasElementForGraphicRebuild","TMPro.TMP_Vertex#zero#get","TMPro.TMP_Vertex#init","TMPro.TMP_Vertex#getDefaultValue","TMPro.TMP_Vertex#init","TMPro.TMP_Vertex#ctor","TMPro.TMP_Vertex#getHashCode","TMPro.TMP_Vertex#equals","TMPro.TMP_Vertex#$clone","TMPro.TMP_WordInfo#getDefaultValue","TMPro.TMP_WordInfo#ctor","TMPro.TMP_WordInfo#GetWord","TMPro.TMP_WordInfo#getHashCode","TMPro.TMP_WordInfo#equals","TMPro.TMP_WordInfo#$clone","TMPro.TMPro_EventManager#init","TMPro.TMPro_EventManager#ON_MATERIAL_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_FONT_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_SPRITE_ASSET_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_TEXTMESHPRO_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_DRAG_AND_DROP_MATERIAL_CHANGED","TMPro.TMPro_EventManager#ON_TEXT_STYLE_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_COLOR_GRADIENT_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_TEXT_CHANGED","TMPro.TMPro_EventManager#ON_TMP_SETTINGS_CHANGED","TMPro.TMPro_EventManager#ON_RESOURCES_LOADED","TMPro.TMPro_EventManager#ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED","TMPro.TMPro_EventManager#ON_COMPUTE_DT_EVENT","TMPro.TMPro_ExtensionMethods#ArrayToString","TMPro.TMPro_ExtensionMethods#IntToString","TMPro.TMPro_ExtensionMethods#IntToString$1","TMPro.TMPro_ExtensionMethods#UintToString","TMPro.TMPro_ExtensionMethods#FindInstanceID","TMPro.TMPro_ExtensionMethods#Compare$1","TMPro.TMPro_ExtensionMethods#Compare","TMPro.TMPro_ExtensionMethods#Compare$3","TMPro.TMPro_ExtensionMethods#Compare$2","TMPro.TMPro_ExtensionMethods#CompareRGB$1","TMPro.TMPro_ExtensionMethods#CompareRGB","TMPro.TMPro_ExtensionMethods#Multiply","TMPro.TMPro_ExtensionMethods#Tint$1","TMPro.TMPro_ExtensionMethods#Tint","TMPro.TMPro_ExtensionMethods#MinAlpha","TMPro.VertexGradient#getDefaultValue","TMPro.VertexGradient#init","TMPro.VertexGradient#$ctor1","TMPro.VertexGradient#$ctor2","TMPro.VertexGradient#ctor","TMPro.VertexGradient#getHashCode","TMPro.VertexGradient#equals","TMPro.VertexGradient#$clone","TMPro.WordWrapState#getDefaultValue","TMPro.WordWrapState#init","TMPro.WordWrapState#ctor","TMPro.WordWrapState#getHashCode","TMPro.WordWrapState#equals","TMPro.WordWrapState#$clone","TMPro.ColorTween#getDefaultValue","TMPro.ColorTween#startColor#get","TMPro.ColorTween#startColor#set","TMPro.ColorTween#targetColor#get","TMPro.ColorTween#targetColor#set","TMPro.ColorTween#tweenMode#get","TMPro.ColorTween#tweenMode#set","TMPro.ColorTween#duration#get","TMPro.ColorTween#duration#set","TMPro.ColorTween#ignoreTimeScale#get","TMPro.ColorTween#ignoreTimeScale#set","TMPro.ColorTween#init","TMPro.ColorTween#ctor","TMPro.ColorTween#TweenValue","TMPro.ColorTween#AddOnChangedCallback","TMPro.ColorTween#GetIgnoreTimescale","TMPro.ColorTween#GetDuration","TMPro.ColorTween#ValidTarget","TMPro.ColorTween#getHashCode","TMPro.ColorTween#equals","TMPro.ColorTween#$clone","TMPro.FloatTween#getDefaultValue","TMPro.FloatTween#startValue#get","TMPro.FloatTween#startValue#set","TMPro.FloatTween#targetValue#get","TMPro.FloatTween#targetValue#set","TMPro.FloatTween#duration#get","TMPro.FloatTween#duration#set","TMPro.FloatTween#ignoreTimeScale#get","TMPro.FloatTween#ignoreTimeScale#set","TMPro.FloatTween#ctor","TMPro.FloatTween#TweenValue","TMPro.FloatTween#AddOnChangedCallback","TMPro.FloatTween#GetIgnoreTimescale","TMPro.FloatTween#GetDuration","TMPro.FloatTween#ValidTarget","TMPro.FloatTween#getHashCode","TMPro.FloatTween#equals","TMPro.FloatTween#$clone","TMPro.TextMeshPro#sortingLayerID#get","TMPro.TextMeshPro#sortingLayerID#set","TMPro.TextMeshPro#sortingOrder#get","TMPro.TextMeshPro#sortingOrder#set","TMPro.TextMeshPro#autoSizeTextContainer#get","TMPro.TextMeshPro#autoSizeTextContainer#set","TMPro.TextMeshPro#textContainer#get","TMPro.TextMeshPro#transform$2#get","TMPro.TextMeshPro#renderer#get","TMPro.TextMeshPro#mesh#get","TMPro.TextMeshPro#meshFilter#get","TMPro.TextMeshPro#maskType#get","TMPro.TextMeshPro#maskType#set","TMPro.TextMeshPro#OrthographicScaleFactor#get","TMPro.TextMeshPro#init","TMPro.TextMeshPro#ctor","TMPro.TextMeshPro#SetMask","TMPro.TextMeshPro#SetMask$1","TMPro.TextMeshPro#SetMask$2","TMPro.TextMeshPro#SetVerticesDirty","TMPro.TextMeshPro#SetLayoutDirty","TMPro.TextMeshPro#SetMaterialDirty","TMPro.TextMeshPro#SetAllDirty","TMPro.TextMeshPro#Rebuild","TMPro.TextMeshPro#UpdateMaterial","TMPro.TextMeshPro#UpdateMeshPadding","TMPro.TextMeshPro#ForceMeshUpdate","TMPro.TextMeshPro#GetTextInfo","TMPro.TextMeshPro#ClearMesh$1","TMPro.TextMeshPro#UpdateGeometry$1","TMPro.TextMeshPro#UpdateVertexData$1","TMPro.TextMeshPro#UpdateVertexData","TMPro.TextMeshPro#UpdateFontAsset","TMPro.TextMeshPro#CalculateLayoutInputHorizontal","TMPro.TextMeshPro#CalculateLayoutInputVertical","TMPro.TextMeshPro#ComputeLossyScaleFactor","TMPro.TextMeshPro#AddSubTextObject","TMPro.TextMeshPro#CleanUnusedMesh","TMPro.TextMeshPro#Awake","TMPro.TextMeshPro#OnEnable","TMPro.TextMeshPro#OnDisable","TMPro.TextMeshPro#OnDestroy","TMPro.TextMeshPro#LoadFontAsset","TMPro.TextMeshPro#UpdateEnvMapMatrix","TMPro.TextMeshPro#SetMaskCoordinates","TMPro.TextMeshPro#SetMaskCoordinates$1","TMPro.TextMeshPro#EnableMasking$1","TMPro.TextMeshPro#DisableMasking$1","TMPro.TextMeshPro#UpdateMask","TMPro.TextMeshPro#GetMaterial","TMPro.TextMeshPro#SetSharedMaterial","TMPro.TextMeshPro#SetSharedMaterials","TMPro.TextMeshPro#SetOutlineThickness","TMPro.TextMeshPro#SetFaceColor","TMPro.TextMeshPro#SetOutlineColor","TMPro.TextMeshPro#CreateMaterialInstance$1","TMPro.TextMeshPro#SetShaderDepth","TMPro.TextMeshPro#SetCulling","TMPro.TextMeshPro#ComputeMarginSize","TMPro.TextMeshPro#OnDidApplyAnimationProperties","TMPro.TextMeshPro#OnTransformParentChanged","TMPro.TextMeshPro#OnRectTransformDimensionsChange","TMPro.TextMeshPro#InternalUpdate","TMPro.TextMeshPro#OnPreRenderObject","TMPro.TextMeshPro#SetMeshFilters","TMPro.TextMeshPro#SetActiveSubTextObjectRenderers","TMPro.TextMeshPro#DestroySubMeshObjects","TMPro.TextMeshPro#UpdateSDFScale","TMPro.TextMeshProUGUI#materialForRendering#get","TMPro.TextMeshProUGUI#autoSizeTextContainer#get","TMPro.TextMeshProUGUI#autoSizeTextContainer#set","TMPro.TextMeshProUGUI#mesh#get","TMPro.TextMeshProUGUI#canvasRenderer$1#get","TMPro.TextMeshProUGUI#maskOffset#get","TMPro.TextMeshProUGUI#maskOffset#set","TMPro.TextMeshProUGUI#OrthographicScaleFactor#get","TMPro.TextMeshProUGUI#init","TMPro.TextMeshProUGUI#ctor","TMPro.TextMeshProUGUI#CalculateLayoutInputHorizontal","TMPro.TextMeshProUGUI#CalculateLayoutInputVertical","TMPro.TextMeshProUGUI#SetVerticesDirty","TMPro.TextMeshProUGUI#SetLayoutDirty","TMPro.TextMeshProUGUI#SetMaterialDirty","TMPro.TextMeshProUGUI#SetAllDirty","TMPro.TextMeshProUGUI#DelayedGraphicRebuild","TMPro.TextMeshProUGUI#DelayedMaterialRebuild","TMPro.TextMeshProUGUI#Rebuild","TMPro.TextMeshProUGUI#UpdateSubObjectPivot","TMPro.TextMeshProUGUI#GetModifiedMaterial","TMPro.TextMeshProUGUI#UpdateMaterial","TMPro.TextMeshProUGUI#RecalculateClipping","TMPro.TextMeshProUGUI#Cull","TMPro.TextMeshProUGUI#UpdateCulling","TMPro.TextMeshProUGUI#UpdateMeshPadding","TMPro.TextMeshProUGUI#InternalCrossFadeColor","TMPro.TextMeshProUGUI#InternalCrossFadeAlpha","TMPro.TextMeshProUGUI#ForceMeshUpdate","TMPro.TextMeshProUGUI#GetTextInfo","TMPro.TextMeshProUGUI#ClearMesh","TMPro.TextMeshProUGUI#UpdateGeometry$1","TMPro.TextMeshProUGUI#UpdateVertexData$1","TMPro.TextMeshProUGUI#UpdateVertexData","TMPro.TextMeshProUGUI#UpdateFontAsset","TMPro.TextMeshProUGUI#ComputeLossyScaleFactor","TMPro.TextMeshProUGUI#EnableAdditionalVertexStreams","TMPro.TextMeshProUGUI#UpdateMeshInRenderer","TMPro.TextMeshProUGUI#AddSubTextObject","TMPro.TextMeshProUGUI#SetSubTextPivot","TMPro.TextMeshProUGUI#CleanUnusedMesh","TMPro.TextMeshProUGUI#Awake","TMPro.TextMeshProUGUI#OnEnable","TMPro.TextMeshProUGUI#OnDisable","TMPro.TextMeshProUGUI#OnDestroy","TMPro.TextMeshProUGUI#LoadFontAsset","TMPro.TextMeshProUGUI#GetCanvas","TMPro.TextMeshProUGUI#UpdateEnvMapMatrix","TMPro.TextMeshProUGUI#EnableMasking$1","TMPro.TextMeshProUGUI#DisableMasking$1","TMPro.TextMeshProUGUI#UpdateMask","TMPro.TextMeshProUGUI#GetMaterial","TMPro.TextMeshProUGUI#SetSharedMaterial","TMPro.TextMeshProUGUI#SetSharedMaterials","TMPro.TextMeshProUGUI#SetOutlineThickness","TMPro.TextMeshProUGUI#SetFaceColor","TMPro.TextMeshProUGUI#SetOutlineColor","TMPro.TextMeshProUGUI#SetShaderDepth","TMPro.TextMeshProUGUI#SetCulling","TMPro.TextMeshProUGUI#SetMeshArrays","TMPro.TextMeshProUGUI#ComputeMarginSize","TMPro.TextMeshProUGUI#OnDidApplyAnimationProperties","TMPro.TextMeshProUGUI#OnCanvasHierarchyChanged","TMPro.TextMeshProUGUI#OnTransformParentChanged","TMPro.TextMeshProUGUI#OnRectTransformDimensionsChange","TMPro.TextMeshProUGUI#InternalUpdate","TMPro.TextMeshProUGUI#OnPreRenderCanvas","TMPro.TextMeshProUGUI#GetCanvasSpaceClippingRect","TMPro.TextMeshProUGUI#UpdateSDFScale","TMPro.TMP_Character#ctor","TMPro.TMP_Character#$ctor3","TMPro.TMP_Character#$ctor2","TMPro.TMP_Character#$ctor1","TMPro.TMP_FontAsset#init","TMPro.TMP_FontAsset#CreateFontAsset","TMPro.TMP_FontAsset#CreateFontAsset$1","TMPro.TMP_FontAsset#GetCharacters","TMPro.TMP_FontAsset#GetCharactersArray","TMPro.TMP_FontAsset#RegisterFontAssetForFontFeatureUpdate","TMPro.TMP_FontAsset#UpdateFontFeaturesForFontAssetsInQueue","TMPro.TMP_FontAsset#RegisterFontAssetForAtlasTextureUpdate","TMPro.TMP_FontAsset#UpdateAtlasTexturesForFontAssetsInQueue","TMPro.TMP_FontAsset#version#get","TMPro.TMP_FontAsset#version#set","TMPro.TMP_FontAsset#sourceFontFile#get","TMPro.TMP_FontAsset#sourceFontFile#set","TMPro.TMP_FontAsset#atlasPopulationMode#get","TMPro.TMP_FontAsset#atlasPopulationMode#set","TMPro.TMP_FontAsset#faceInfo#get","TMPro.TMP_FontAsset#faceInfo#set","TMPro.TMP_FontAsset#glyphTable#get","TMPro.TMP_FontAsset#glyphTable#set","TMPro.TMP_FontAsset#glyphLookupTable#get","TMPro.TMP_FontAsset#characterTable#get","TMPro.TMP_FontAsset#characterTable#set","TMPro.TMP_FontAsset#characterLookupTable#get","TMPro.TMP_FontAsset#atlasTexture#get","TMPro.TMP_FontAsset#atlasTextures#get","TMPro.TMP_FontAsset#atlasTextures#set","TMPro.TMP_FontAsset#atlasTextureCount#get","TMPro.TMP_FontAsset#isMultiAtlasTexturesEnabled#get","TMPro.TMP_FontAsset#isMultiAtlasTexturesEnabled#set","TMPro.TMP_FontAsset#usedGlyphRects#get","TMPro.TMP_FontAsset#usedGlyphRects#set","TMPro.TMP_FontAsset#freeGlyphRects#get","TMPro.TMP_FontAsset#freeGlyphRects#set","TMPro.TMP_FontAsset#fontInfo#get","TMPro.TMP_FontAsset#atlasWidth#get","TMPro.TMP_FontAsset#atlasWidth#set","TMPro.TMP_FontAsset#atlasHeight#get","TMPro.TMP_FontAsset#atlasHeight#set","TMPro.TMP_FontAsset#atlasPadding#get","TMPro.TMP_FontAsset#atlasPadding#set","TMPro.TMP_FontAsset#atlasRenderMode#get","TMPro.TMP_FontAsset#atlasRenderMode#set","TMPro.TMP_FontAsset#fontFeatureTable#get","TMPro.TMP_FontAsset#fontFeatureTable#set","TMPro.TMP_FontAsset#fallbackFontAssetTable#get","TMPro.TMP_FontAsset#fallbackFontAssetTable#set","TMPro.TMP_FontAsset#creationSettings#get","TMPro.TMP_FontAsset#creationSettings#set","TMPro.TMP_FontAsset#fontWeightTable#get","TMPro.TMP_FontAsset#fontWeightTable#set","TMPro.TMP_FontAsset#init","TMPro.TMP_FontAsset#Awake","TMPro.TMP_FontAsset#ReadFontAssetDefinition","TMPro.TMP_FontAsset#InitializeDictionaryLookupTables","TMPro.TMP_FontAsset#InitializeGlyphLookupDictionary","TMPro.TMP_FontAsset#InitializeCharacterLookupDictionary","TMPro.TMP_FontAsset#InitializeGlyphPaidAdjustmentRecordsLookupDictionary","TMPro.TMP_FontAsset#AddSynthesizedCharactersAndFaceMetrics","TMPro.TMP_FontAsset#AddSynthesizedCharacter","TMPro.TMP_FontAsset#AddCharacterToLookupCache","TMPro.TMP_FontAsset#SortCharacterTable","TMPro.TMP_FontAsset#SortGlyphTable","TMPro.TMP_FontAsset#SortFontFeatureTable","TMPro.TMP_FontAsset#SortAllTables","TMPro.TMP_FontAsset#HasCharacter$1","TMPro.TMP_FontAsset#HasCharacter","TMPro.TMP_FontAsset#HasCharacter_Internal","TMPro.TMP_FontAsset#HasCharacters$1","TMPro.TMP_FontAsset#HasCharacters$2","TMPro.TMP_FontAsset#HasCharacters","TMPro.TMP_FontAsset#GetGlyphIndex","TMPro.TMP_FontAsset#TryAddCharacters$2","TMPro.TMP_FontAsset#TryAddCharacters$3","TMPro.TMP_FontAsset#TryAddCharacters","TMPro.TMP_FontAsset#TryAddCharacters$1","TMPro.TMP_FontAsset#TryAddCharacterInternal","TMPro.TMP_FontAsset#TryGetCharacter_and_QueueRenderToTexture","TMPro.TMP_FontAsset#TryAddGlyphsToAtlasTextures","TMPro.TMP_FontAsset#TryAddGlyphsToNewAtlasTexture","TMPro.TMP_FontAsset#SetupNewAtlasTexture","TMPro.TMP_FontAsset#UpdateAtlasTexture","TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords","TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$3","TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$1","TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$2","TMPro.TMP_FontAsset#CopyListDataToArray","TMPro.TMP_FontAsset#ClearFontAssetData","TMPro.TMP_FontAsset#UpdateFontAssetData","TMPro.TMP_FontAsset#ClearFontAssetTables","TMPro.TMP_FontAsset#ClearAtlasTextures","TMPro.TMP_FontAsset#UpgradeFontAsset","TMPro.TMP_FontAsset#UpgradeGlyphAdjustmentTableToFontFeatureTable","TMPro.TMP_Glyph#Clone","TMPro.TMP_Sprite#init","TMPro.TMP_SpriteAsset#SearchForSpriteByUnicode","TMPro.TMP_SpriteAsset#SearchForSpriteByUnicodeInternal","TMPro.TMP_SpriteAsset#SearchForSpriteByUnicodeInternal$1","TMPro.TMP_SpriteAsset#SearchForSpriteByHashCode","TMPro.TMP_SpriteAsset#SearchForSpriteByHashCodeInternal","TMPro.TMP_SpriteAsset#SearchForSpriteByHashCodeInternal$1","TMPro.TMP_SpriteAsset#version#get","TMPro.TMP_SpriteAsset#version#set","TMPro.TMP_SpriteAsset#faceInfo#get","TMPro.TMP_SpriteAsset#faceInfo#set","TMPro.TMP_SpriteAsset#spriteCharacterTable#get","TMPro.TMP_SpriteAsset#spriteCharacterTable#set","TMPro.TMP_SpriteAsset#spriteCharacterLookupTable#get","TMPro.TMP_SpriteAsset#spriteCharacterLookupTable#set","TMPro.TMP_SpriteAsset#spriteGlyphTable#get","TMPro.TMP_SpriteAsset#spriteGlyphTable#set","TMPro.TMP_SpriteAsset#init","TMPro.TMP_SpriteAsset#Awake","TMPro.TMP_SpriteAsset#GetDefaultSpriteMaterial","TMPro.TMP_SpriteAsset#UpdateLookupTables","TMPro.TMP_SpriteAsset#GetSpriteIndexFromHashcode","TMPro.TMP_SpriteAsset#GetSpriteIndexFromUnicode","TMPro.TMP_SpriteAsset#GetSpriteIndexFromName","TMPro.TMP_SpriteAsset#SortGlyphTable","TMPro.TMP_SpriteAsset#SortCharacterTable","TMPro.TMP_SpriteAsset#SortGlyphAndCharacterTables","TMPro.TMP_SpriteAsset#UpgradeSpriteAsset","TMPro.TMP_SpriteCharacter#name#get","TMPro.TMP_SpriteCharacter#name#set","TMPro.TMP_SpriteCharacter#hashCode#get","TMPro.TMP_SpriteCharacter#ctor","TMPro.TMP_SpriteCharacter#$ctor3","TMPro.TMP_SpriteCharacter#$ctor2","TMPro.TMP_SpriteCharacter#$ctor1","TMPro.TMP_SubMesh#AddSubTextObject","TMPro.TMP_SubMesh#fontAsset#get","TMPro.TMP_SubMesh#fontAsset#set","TMPro.TMP_SubMesh#spriteAsset#get","TMPro.TMP_SubMesh#spriteAsset#set","TMPro.TMP_SubMesh#material#get","TMPro.TMP_SubMesh#material#set","TMPro.TMP_SubMesh#sharedMaterial#get","TMPro.TMP_SubMesh#sharedMaterial#set","TMPro.TMP_SubMesh#fallbackMaterial#get","TMPro.TMP_SubMesh#fallbackMaterial#set","TMPro.TMP_SubMesh#fallbackSourceMaterial#get","TMPro.TMP_SubMesh#fallbackSourceMaterial#set","TMPro.TMP_SubMesh#materialForRendering#get","TMPro.TMP_SubMesh#isDefaultMaterial#get","TMPro.TMP_SubMesh#isDefaultMaterial#set","TMPro.TMP_SubMesh#padding#get","TMPro.TMP_SubMesh#padding#set","TMPro.TMP_SubMesh#renderer#get","TMPro.TMP_SubMesh#rectTransform#get","TMPro.TMP_SubMesh#meshFilter#get","TMPro.TMP_SubMesh#mesh#get","TMPro.TMP_SubMesh#mesh#set","TMPro.TMP_SubMesh#textComponent#get","TMPro.TMP_SubMesh#OnEnable","TMPro.TMP_SubMesh#OnDisable","TMPro.TMP_SubMesh#OnDestroy","TMPro.TMP_SubMesh#DestroySelf","TMPro.TMP_SubMesh#GetMaterial","TMPro.TMP_SubMesh#CreateMaterialInstance","TMPro.TMP_SubMesh#GetSharedMaterial","TMPro.TMP_SubMesh#SetSharedMaterial","TMPro.TMP_SubMesh#GetPaddingForMaterial","TMPro.TMP_SubMesh#UpdateMeshPadding","TMPro.TMP_SubMesh#SetPivotDirty","TMPro.TMP_SubMesh#CrossFadeColor","TMPro.TMP_SubMesh#CrossFadeAlpha","TMPro.TMP_SubMesh#SetVerticesDirty","TMPro.TMP_SubMesh#SetMaterialDirty","TMPro.TMP_SubMesh#UpdateMaterial","TMPro.TMP_SubMeshUI#AddSubTextObject","TMPro.TMP_SubMeshUI#fontAsset#get","TMPro.TMP_SubMeshUI#fontAsset#set","TMPro.TMP_SubMeshUI#renderer#get","TMPro.TMP_SubMeshUI#spriteAsset#get","TMPro.TMP_SubMeshUI#spriteAsset#set","TMPro.TMP_SubMeshUI#mainTexture#get","TMPro.TMP_SubMeshUI#material#get","TMPro.TMP_SubMeshUI#material#set","TMPro.TMP_SubMeshUI#sharedMaterial#get","TMPro.TMP_SubMeshUI#sharedMaterial#set","TMPro.TMP_SubMeshUI#fallbackMaterial#get","TMPro.TMP_SubMeshUI#fallbackMaterial#set","TMPro.TMP_SubMeshUI#fallbackSourceMaterial#get","TMPro.TMP_SubMeshUI#fallbackSourceMaterial#set","TMPro.TMP_SubMeshUI#materialForRendering#get","TMPro.TMP_SubMeshUI#isDefaultMaterial#get","TMPro.TMP_SubMeshUI#isDefaultMaterial#set","TMPro.TMP_SubMeshUI#padding#get","TMPro.TMP_SubMeshUI#padding#set","TMPro.TMP_SubMeshUI#meshFilter#get","TMPro.TMP_SubMeshUI#mesh#get","TMPro.TMP_SubMeshUI#mesh#set","TMPro.TMP_SubMeshUI#textComponent#get","TMPro.TMP_SubMeshUI#ctor","TMPro.TMP_SubMeshUI#OnEnable","TMPro.TMP_SubMeshUI#OnDisable","TMPro.TMP_SubMeshUI#OnDestroy","TMPro.TMP_SubMeshUI#OnTransformParentChanged","TMPro.TMP_SubMeshUI#GetModifiedMaterial","TMPro.TMP_SubMeshUI#GetPaddingForMaterial","TMPro.TMP_SubMeshUI#GetPaddingForMaterial$1","TMPro.TMP_SubMeshUI#UpdateMeshPadding","TMPro.TMP_SubMeshUI#SetAllDirty","TMPro.TMP_SubMeshUI#SetVerticesDirty","TMPro.TMP_SubMeshUI#SetLayoutDirty","TMPro.TMP_SubMeshUI#SetMaterialDirty","TMPro.TMP_SubMeshUI#SetPivotDirty","TMPro.TMP_SubMeshUI#GetRootCanvasTransform","TMPro.TMP_SubMeshUI#Cull","TMPro.TMP_SubMeshUI#UpdateGeometry","TMPro.TMP_SubMeshUI#Rebuild","TMPro.TMP_SubMeshUI#RefreshMaterial","TMPro.TMP_SubMeshUI#UpdateMaterial","TMPro.TMP_SubMeshUI#RecalculateClipping","TMPro.TMP_SubMeshUI#GetMaterial","TMPro.TMP_SubMeshUI#GetMaterial$1","TMPro.TMP_SubMeshUI#CreateMaterialInstance","TMPro.TMP_SubMeshUI#GetSharedMaterial","TMPro.TMP_SubMeshUI#SetSharedMaterial","TMPro.TweenRunner$1#Start","TMPro.TweenRunner$1#Init","TMPro.TweenRunner$1#StartTween","TMPro.TweenRunner$1#StopTween"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.11-luna
  */
@@ -29,7 +30,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.CaretInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#getDefaultValue", this ); }
+ return new TMPro.CaretInfo(); }
             }
         },
         fields: {
@@ -38,26 +41,36 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (index, position) {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#$ctor1", this ); }
+
                 this.$initialize();
                 this.index = index;
                 this.position = position;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([3420498726, this.index, this.position]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.CaretInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.index, o.index) && Bridge.equals(this.position, o.position);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.CaretInfo#$clone", this ); }
+
                 var s = to || new TMPro.CaretInfo();
                 s.index = this.index;
                 s.position = this.position;
@@ -141,11 +154,15 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function (type, progress) {
+if ( TRACE ) { TRACE( "TMPro.Compute_DT_EventArgs#ctor", this ); }
+
                 this.$initialize();
                 this.EventType = type;
                 this.ProgressPercentage = progress;
             },
             $ctor1: function (type, colors) {
+if ( TRACE ) { TRACE( "TMPro.Compute_DT_EventArgs#$ctor1", this ); }
+
                 this.$initialize();
                 this.EventType = type;
                 this.Colors = colors;
@@ -164,6 +181,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#init", this ); }
+
                     this.zero = new TMPro.Extents();
                     this.uninitialized = new TMPro.Extents();
                     this.zero = new TMPro.Extents.$ctor1(pc.Vec2.ZERO.clone(), pc.Vec2.ZERO.clone());
@@ -173,6 +192,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.Extents.OverrideClone:static start.*/
                 OverrideClone: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#OverrideClone", this ); }
+
                     
             TMPro.Extents.prototype.$clone = function ( to ) {
                 var s = to || new TMPro.Extents();
@@ -184,7 +205,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 },
                 /*TMPro.Extents.OverrideClone:static end.*/
 
-                getDefaultValue: function () { return new TMPro.Extents(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#getDefaultValue", this ); }
+ return new TMPro.Extents(); }
             }
         },
         fields: {
@@ -193,37 +216,51 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#init", this ); }
+
                 this.min = new UnityEngine.Vector2();
                 this.max = new UnityEngine.Vector2();
             },
             $ctor1: function (min, max) {
+if ( TRACE ) { TRACE( "TMPro.Extents#$ctor1", this ); }
+
                 this.$initialize();
                 this.min = min.$clone();
                 this.max = max.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.Extents.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#toString", this ); }
+
                 var s = "Min (" + (System.Single.format(this.min.x, "f2") || "") + ", " + (System.Single.format(this.min.y, "f2") || "") + ")   Max (" + (System.Single.format(this.max.x, "f2") || "") + ", " + (System.Single.format(this.max.y, "f2") || "") + ")";
                 return s;
             },
             /*TMPro.Extents.toString end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.Extents#getHashCode", this ); }
+
                 var h = Bridge.addHash([1709698227, this.min, this.max]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.Extents#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.Extents)) {
                     return false;
                 }
                 return Bridge.equals(this.min, o.min) && Bridge.equals(this.max, o.max);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.Extents#$clone", this ); }
+
                 var s = to || new TMPro.Extents();
                 s.min = this.min.$clone();
                 s.max = this.max.$clone();
@@ -280,6 +317,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.FastAction#init", this ); }
+
                 this.delegates = new (System.Collections.Generic.LinkedList$1(Function)).ctor();
                 this.lookup = new (System.Collections.Generic.Dictionary$2(Function,System.Collections.Generic.LinkedListNode$1(Function))).ctor();
             }
@@ -287,6 +326,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.FastAction.Add start.*/
             Add: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction#Add", this ); }
+
                 if (this.lookup.containsKey(rhs)) {
                     return;
                 }
@@ -297,6 +338,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction.Remove start.*/
             Remove: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction#Remove", this ); }
+
                 var node = { };
                 if (this.lookup.tryGetValue(rhs, node)) {
                     this.lookup.remove(rhs);
@@ -307,6 +350,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction.Call start.*/
             Call: function () {
+if ( TRACE ) { TRACE( "TMPro.FastAction#Call", this ); }
+
                 var node = this.delegates.First;
                 while (node != null) {
                     node.Value();
@@ -328,6 +373,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.FastAction$1#init", this ); }
+
                 this.delegates = new (System.Collections.Generic.LinkedList$1(Function)).ctor();
                 this.lookup = new (System.Collections.Generic.Dictionary$2(Function,System.Collections.Generic.LinkedListNode$1(Function))).ctor();
             }
@@ -335,6 +382,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.FastAction$1.Add start.*/
             Add: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$1#Add", this ); }
+
                 if (this.lookup.containsKey(rhs)) {
                     return;
                 }
@@ -345,6 +394,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$1.Remove start.*/
             Remove: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$1#Remove", this ); }
+
                 var node = { };
                 if (this.lookup.tryGetValue(rhs, node)) {
                     this.lookup.remove(rhs);
@@ -355,6 +406,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$1.Call start.*/
             Call: function (a) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$1#Call", this ); }
+
                 var node = this.delegates.First;
                 while (node != null) {
                     node.Value(a);
@@ -376,6 +429,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.FastAction$2#init", this ); }
+
                 this.delegates = new (System.Collections.Generic.LinkedList$1(Function)).ctor();
                 this.lookup = new (System.Collections.Generic.Dictionary$2(Function,System.Collections.Generic.LinkedListNode$1(Function))).ctor();
             }
@@ -383,6 +438,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.FastAction$2.Add start.*/
             Add: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$2#Add", this ); }
+
                 if (this.lookup.containsKey(rhs)) {
                     return;
                 }
@@ -393,6 +450,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$2.Remove start.*/
             Remove: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$2#Remove", this ); }
+
                 var node = { };
                 if (this.lookup.tryGetValue(rhs, node)) {
                     this.lookup.remove(rhs);
@@ -403,6 +462,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$2.Call start.*/
             Call: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$2#Call", this ); }
+
                 var node = this.delegates.First;
                 while (node != null) {
                     node.Value(a, b);
@@ -424,6 +485,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.FastAction$3#init", this ); }
+
                 this.delegates = new (System.Collections.Generic.LinkedList$1(Function)).ctor();
                 this.lookup = new (System.Collections.Generic.Dictionary$2(Function,System.Collections.Generic.LinkedListNode$1(Function))).ctor();
             }
@@ -431,6 +494,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.FastAction$3.Add start.*/
             Add: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$3#Add", this ); }
+
                 if (this.lookup.containsKey(rhs)) {
                     return;
                 }
@@ -441,6 +506,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$3.Remove start.*/
             Remove: function (rhs) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$3#Remove", this ); }
+
                 var node = { };
                 if (this.lookup.tryGetValue(rhs, node)) {
                     this.lookup.remove(rhs);
@@ -451,6 +518,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FastAction$3.Call start.*/
             Call: function (a, b, c) {
+if ( TRACE ) { TRACE( "TMPro.FastAction$3#Call", this ); }
+
                 var node = this.delegates.First;
                 while (node != null) {
                     node.Value(a, b, c);
@@ -476,7 +545,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.FontAssetCreationSettings(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#getDefaultValue", this ); }
+ return new TMPro.FontAssetCreationSettings(); }
             }
         },
         fields: {
@@ -499,6 +570,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode) {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#$ctor1", this ); }
+
                 this.$initialize();
                 this.sourceFontFileName = "";
                 this.sourceFontFileGUID = sourceFontFileGUID;
@@ -519,21 +592,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.includeFontFeatures = false;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#getHashCode", this ); }
+
                 var h = Bridge.addHash([10914715569, this.sourceFontFileName, this.sourceFontFileGUID, this.pointSizeSamplingMode, this.pointSize, this.padding, this.packingMode, this.atlasWidth, this.atlasHeight, this.characterSetSelectionMode, this.characterSequence, this.referencedFontAssetGUID, this.referencedTextAssetGUID, this.fontStyle, this.fontStyleModifier, this.renderMode, this.includeFontFeatures]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.FontAssetCreationSettings)) {
                     return false;
                 }
                 return Bridge.equals(this.sourceFontFileName, o.sourceFontFileName) && Bridge.equals(this.sourceFontFileGUID, o.sourceFontFileGUID) && Bridge.equals(this.pointSizeSamplingMode, o.pointSizeSamplingMode) && Bridge.equals(this.pointSize, o.pointSize) && Bridge.equals(this.padding, o.padding) && Bridge.equals(this.packingMode, o.packingMode) && Bridge.equals(this.atlasWidth, o.atlasWidth) && Bridge.equals(this.atlasHeight, o.atlasHeight) && Bridge.equals(this.characterSetSelectionMode, o.characterSetSelectionMode) && Bridge.equals(this.characterSequence, o.characterSequence) && Bridge.equals(this.referencedFontAssetGUID, o.referencedFontAssetGUID) && Bridge.equals(this.referencedTextAssetGUID, o.referencedTextAssetGUID) && Bridge.equals(this.fontStyle, o.fontStyle) && Bridge.equals(this.fontStyleModifier, o.fontStyleModifier) && Bridge.equals(this.renderMode, o.renderMode) && Bridge.equals(this.includeFontFeatures, o.includeFontFeatures);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.FontAssetCreationSettings#$clone", this ); }
+
                 var s = to || new TMPro.FontAssetCreationSettings();
                 s.sourceFontFileName = this.sourceFontFileName;
                 s.sourceFontFileGUID = this.sourceFontFileGUID;
@@ -617,7 +698,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.GlyphPairKey(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#getDefaultValue", this ); }
+ return new TMPro.GlyphPairKey(); }
             }
         },
         fields: {
@@ -627,33 +710,45 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (firstGlyphIndex, secondGlyphIndex) {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#$ctor1", this ); }
+
                 this.$initialize();
                 this.firstGlyphIndex = firstGlyphIndex;
                 this.secondGlyphIndex = secondGlyphIndex;
                 this.key = secondGlyphIndex << 16 | firstGlyphIndex;
             },
             $ctor2: function (record) {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#$ctor2", this ); }
+
                 this.$initialize();
                 this.firstGlyphIndex = record.firstAdjustmentRecord.glyphIndex;
                 this.secondGlyphIndex = record.secondAdjustmentRecord.glyphIndex;
                 this.key = this.secondGlyphIndex << 16 | this.firstGlyphIndex;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#getHashCode", this ); }
+
                 var h = Bridge.addHash([5691672609, this.firstGlyphIndex, this.secondGlyphIndex, this.key]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.GlyphPairKey)) {
                     return false;
                 }
                 return Bridge.equals(this.firstGlyphIndex, o.firstGlyphIndex) && Bridge.equals(this.secondGlyphIndex, o.secondGlyphIndex) && Bridge.equals(this.key, o.key);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.GlyphPairKey#$clone", this ); }
+
                 var s = to || new TMPro.GlyphPairKey();
                 s.firstGlyphIndex = this.firstGlyphIndex;
                 s.secondGlyphIndex = this.secondGlyphIndex;
@@ -676,6 +771,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         statics: {
             methods: {
                 op_Addition: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#op_Addition", this ); }
+
                     var c = new TMPro.GlyphValueRecord_Legacy();
                     c.xPlacement = a.xPlacement + b.xPlacement;
                     c.yPlacement = a.yPlacement + b.yPlacement;
@@ -684,7 +781,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                     return c.$clone();
                 },
-                getDefaultValue: function () { return new TMPro.GlyphValueRecord_Legacy(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#getDefaultValue", this ); }
+ return new TMPro.GlyphValueRecord_Legacy(); }
             }
         },
         fields: {
@@ -695,6 +794,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (valueRecord) {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#$ctor1", this ); }
+
                 this.$initialize();
                 this.xPlacement = valueRecord.xPlacement;
                 this.yPlacement = valueRecord.yPlacement;
@@ -702,21 +803,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.yAdvance = valueRecord.yAdvance;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#getHashCode", this ); }
+
                 var h = Bridge.addHash([8833091399, this.xPlacement, this.yPlacement, this.xAdvance, this.yAdvance]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.GlyphValueRecord_Legacy)) {
                     return false;
                 }
                 return Bridge.equals(this.xPlacement, o.xPlacement) && Bridge.equals(this.yPlacement, o.yPlacement) && Bridge.equals(this.xAdvance, o.xAdvance) && Bridge.equals(this.yAdvance, o.yAdvance);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.GlyphValueRecord_Legacy#$clone", this ); }
+
                 var s = to || new TMPro.GlyphValueRecord_Legacy();
                 s.xPlacement = this.xPlacement;
                 s.yPlacement = this.yPlacement;
@@ -738,12 +847,18 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         statics: {
             methods: {
                 op_Equality: function (lhs, rhs) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#op_Equality", this ); }
+
                     return TMPro.TMPro_ExtensionMethods.Compare$1(lhs.color, rhs.color.$clone()) && TMPro.TMP_Offset.op_Equality(lhs.padding.$clone(), rhs.padding.$clone());
                 },
                 op_Inequality: function (lhs, rhs) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#op_Inequality", this ); }
+
                     return !(TMPro.HighlightState.op_Equality(lhs.$clone(), rhs.$clone()));
                 },
-                getDefaultValue: function () { return new TMPro.HighlightState(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#getDefaultValue", this ); }
+ return new TMPro.HighlightState(); }
             }
         },
         fields: {
@@ -752,21 +867,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#init", this ); }
+
                 this.color = new UnityEngine.Color32();
                 this.padding = new TMPro.TMP_Offset();
             },
             $ctor1: function (color, padding) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#$ctor1", this ); }
+
                 this.$initialize();
                 this.color = color.$clone();
                 this.padding = padding.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.HighlightState.Copy start.*/
             Copy: function (other) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#Copy", this ); }
+
                 this.color.Copy(other.color);
                 this.padding.Copy(other.padding);
             },
@@ -774,23 +897,31 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.HighlightState.getHashCode start.*/
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#getHashCode", this ); }
+
                 return Bridge.getHashCode(this);
             },
             /*TMPro.HighlightState.getHashCode end.*/
 
             /*TMPro.HighlightState.equals start.*/
             equals: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#equals", this ); }
+
                 return Bridge.equals(this, obj);
             },
             /*TMPro.HighlightState.equals end.*/
 
             /*TMPro.HighlightState.Equals start.*/
             Equals: function (other) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#Equals", this ); }
+
                 return Bridge.equals(this, other.$clone());
             },
             /*TMPro.HighlightState.Equals end.*/
 
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.HighlightState#$clone", this ); }
+
                 var s = to || new TMPro.HighlightState();
                 s.color = this.color.$clone();
                 s.padding = this.padding.$clone();
@@ -853,6 +984,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#init", this ); }
+
                     this.empty = new TMPro.KerningPair.$ctor2(0, new TMPro.GlyphValueRecord_Legacy.ctor(), 0, new TMPro.GlyphValueRecord_Legacy.ctor());
                 }
             }
@@ -877,9 +1010,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             firstGlyph: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#firstGlyph#get", this ); }
+
                     return this.m_FirstGlyph;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#firstGlyph#set", this ); }
+
                     this.m_FirstGlyph = value;
                 }
             },
@@ -895,6 +1032,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             firstGlyphAdjustments: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#firstGlyphAdjustments#get", this ); }
+
                     return this.m_FirstGlyphAdjustments.$clone();
                 }
             },
@@ -909,9 +1048,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             secondGlyph: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#secondGlyph#get", this ); }
+
                     return this.m_SecondGlyph;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#secondGlyph#set", this ); }
+
                     this.m_SecondGlyph = value;
                 }
             },
@@ -927,6 +1070,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             secondGlyphAdjustments: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#secondGlyphAdjustments#get", this ); }
+
                     return this.m_SecondGlyphAdjustments.$clone();
                 }
             },
@@ -943,17 +1088,23 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             ignoreSpacingAdjustments: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#ignoreSpacingAdjustments#get", this ); }
+
                     return this.m_IgnoreSpacingAdjustments;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#init", this ); }
+
                 this.m_FirstGlyphAdjustments = new TMPro.GlyphValueRecord_Legacy();
                 this.m_SecondGlyphAdjustments = new TMPro.GlyphValueRecord_Legacy();
                 this.m_IgnoreSpacingAdjustments = false;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#ctor", this ); }
+
                 this.$initialize();
                 this.m_FirstGlyph = 0;
                 this.m_FirstGlyphAdjustments = new TMPro.GlyphValueRecord_Legacy.ctor();
@@ -962,12 +1113,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_SecondGlyphAdjustments = new TMPro.GlyphValueRecord_Legacy.ctor();
             },
             $ctor1: function (left, right, offset) {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#$ctor1", this ); }
+
                 this.$initialize();
                 this.firstGlyph = left;
                 this.m_SecondGlyph = right;
                 this.xOffset = offset;
             },
             $ctor2: function (firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments) {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#$ctor2", this ); }
+
                 this.$initialize();
                 this.m_FirstGlyph = firstGlyph;
                 this.m_FirstGlyphAdjustments = firstGlyphAdjustments.$clone();
@@ -978,6 +1133,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.KerningPair.ConvertLegacyKerningData start.*/
             ConvertLegacyKerningData: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPair#ConvertLegacyKerningData", this ); }
+
                 this.m_FirstGlyphAdjustments.xAdvance = this.xOffset;
                 //xOffset = 0;
             },
@@ -993,7 +1150,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.KerningPairKey(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#getDefaultValue", this ); }
+ return new TMPro.KerningPairKey(); }
             }
         },
         fields: {
@@ -1003,27 +1162,37 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (ascii_left, ascii_right) {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#$ctor1", this ); }
+
                 this.$initialize();
                 this.ascii_Left = ascii_left;
                 this.ascii_Right = ascii_right;
                 this.key = (ascii_right << 16) + ascii_left;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#getHashCode", this ); }
+
                 var h = Bridge.addHash([4467766906, this.ascii_Left, this.ascii_Right, this.key]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.KerningPairKey)) {
                     return false;
                 }
                 return Bridge.equals(this.ascii_Left, o.ascii_Left) && Bridge.equals(this.ascii_Right, o.ascii_Right) && Bridge.equals(this.key, o.key);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.KerningPairKey#$clone", this ); }
+
                 var s = to || new TMPro.KerningPairKey();
                 s.ascii_Left = this.ascii_Left;
                 s.ascii_Right = this.ascii_Right;
@@ -1041,6 +1210,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#ctor", this ); }
+
                 this.$initialize();
                 this.kerningPairs = new (System.Collections.Generic.List$1(TMPro.KerningPair)).ctor();
             }
@@ -1048,6 +1219,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.KerningTable.AddKerningPair$1 start.*/
             AddKerningPair$1: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#AddKerningPair$1", this ); }
+
                 if (this.kerningPairs.Count === 0) {
                     this.kerningPairs.add(new TMPro.KerningPair.$ctor1(0, 0, 0));
                 } else {
@@ -1074,6 +1247,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             AddKerningPair: function (first, second, offset) {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#AddKerningPair", this ); }
+
                 var index = this.kerningPairs.FindIndex$2(function (item) {
                     return item.firstGlyph === first && item.secondGlyph === second;
                 });
@@ -1103,6 +1278,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             AddGlyphPairAdjustmentRecord: function (first, firstAdjustments, second, secondAdjustments) {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#AddGlyphPairAdjustmentRecord", this ); }
+
                 var index = this.kerningPairs.FindIndex$2(function (item) {
                     return item.firstGlyph === first && item.secondGlyph === second;
                 });
@@ -1119,6 +1296,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.KerningTable.RemoveKerningPair$1 start.*/
             RemoveKerningPair$1: function (left, right) {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#RemoveKerningPair$1", this ); }
+
                 var index = this.kerningPairs.FindIndex$2(function (item) {
                     return System.Int64(item.firstGlyph).equals(System.Int64(left)) && System.Int64(item.secondGlyph).equals(System.Int64(right));
                 });
@@ -1131,12 +1310,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.KerningTable.RemoveKerningPair start.*/
             RemoveKerningPair: function (index) {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#RemoveKerningPair", this ); }
+
                 this.kerningPairs.removeAt(index);
             },
             /*TMPro.KerningTable.RemoveKerningPair end.*/
 
             /*TMPro.KerningTable.SortKerningPairs start.*/
             SortKerningPairs: function () {
+if ( TRACE ) { TRACE( "TMPro.KerningTable#SortKerningPairs", this ); }
+
                 // Sort List of Kerning Info
                 if (this.kerningPairs.Count > 0) {
                     this.kerningPairs = System.Linq.Enumerable.from(this.kerningPairs, TMPro.KerningPair).orderBy(function (s) {
@@ -1200,6 +1383,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 Contains: function (materialReferences, fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#Contains", this ); }
+
                     var id = fontAsset.GetInstanceID();
 
                     for (var i = 0; i < materialReferences.length && materialReferences[i].fontAsset != null; i++) {
@@ -1227,6 +1412,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 AddMaterialReference: function (material, fontAsset, materialReferences, materialReferenceIndexLookup) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#AddMaterialReference", this ); }
+
                     var materialID = material.GetInstanceID();
                     var index = { };
 
@@ -1264,6 +1451,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 AddMaterialReference$1: function (material, spriteAsset, materialReferences, materialReferenceIndexLookup) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#AddMaterialReference$1", this ); }
+
                     var materialID = material.GetInstanceID();
                     var index = { };
 
@@ -1288,7 +1477,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 },
                 /*TMPro.MaterialReference.AddMaterialReference$1:static end.*/
 
-                getDefaultValue: function () { return new TMPro.MaterialReference(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#getDefaultValue", this ); }
+ return new TMPro.MaterialReference(); }
             }
         },
         fields: {
@@ -1318,6 +1509,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (index, fontAsset, spriteAsset, material, padding) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#$ctor1", this ); }
+
                 this.$initialize();
                 this.index = index;
                 this.fontAsset = fontAsset;
@@ -1330,12 +1523,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.referenceCount = 0;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.MaterialReference.Copy start.*/
             Copy: function (other) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#Copy", this ); }
+
                 this.index = other.index;
                 this.fontAsset = other.fontAsset;
                 this.spriteAsset = other.spriteAsset;
@@ -1349,16 +1546,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.MaterialReference.Copy end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#getHashCode", this ); }
+
                 var h = Bridge.addHash([6889838056, this.index, this.fontAsset, this.spriteAsset, this.material, this.isDefaultMaterial, this.isFallbackMaterial, this.fallbackMaterial, this.padding, this.referenceCount]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.MaterialReference)) {
                     return false;
                 }
                 return Bridge.equals(this.index, o.index) && Bridge.equals(this.fontAsset, o.fontAsset) && Bridge.equals(this.spriteAsset, o.spriteAsset) && Bridge.equals(this.material, o.material) && Bridge.equals(this.isDefaultMaterial, o.isDefaultMaterial) && Bridge.equals(this.isFallbackMaterial, o.isFallbackMaterial) && Bridge.equals(this.fallbackMaterial, o.fallbackMaterial) && Bridge.equals(this.padding, o.padding) && Bridge.equals(this.referenceCount, o.referenceCount);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReference#$clone", this ); }
+
                 var s = to || new TMPro.MaterialReference();
                 s.index = this.index;
                 s.fontAsset = this.fontAsset;
@@ -1406,6 +1609,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#instance#get", this ); }
+
                         if (TMPro.MaterialReferenceManager.s_Instance == null) {
                             TMPro.MaterialReferenceManager.s_Instance = new TMPro.MaterialReferenceManager();
                         }
@@ -1426,6 +1631,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddFontAsset: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddFontAsset", this ); }
+
                     TMPro.MaterialReferenceManager.instance.AddFontAssetInternal(fontAsset);
                 },
                 /*TMPro.MaterialReferenceManager.AddFontAsset:static end.*/
@@ -1442,6 +1649,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddSpriteAsset$1: function (spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddSpriteAsset$1", this ); }
+
                     TMPro.MaterialReferenceManager.instance.AddSpriteAssetInternal$1(spriteAsset);
                 },
                 /*TMPro.MaterialReferenceManager.AddSpriteAsset$1:static end.*/
@@ -1459,6 +1668,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddSpriteAsset: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddSpriteAsset", this ); }
+
                     TMPro.MaterialReferenceManager.instance.AddSpriteAssetInternal(hashCode, spriteAsset);
                 },
                 /*TMPro.MaterialReferenceManager.AddSpriteAsset:static end.*/
@@ -1476,6 +1687,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddFontMaterial: function (hashCode, material) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddFontMaterial", this ); }
+
                     TMPro.MaterialReferenceManager.instance.AddFontMaterialInternal(hashCode, material);
                 },
                 /*TMPro.MaterialReferenceManager.AddFontMaterial:static end.*/
@@ -1493,6 +1706,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddColorGradientPreset: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddColorGradientPreset", this ); }
+
                     TMPro.MaterialReferenceManager.instance.AddColorGradientPreset_Internal(hashCode, spriteAsset);
                 },
                 /*TMPro.MaterialReferenceManager.AddColorGradientPreset:static end.*/
@@ -1510,6 +1725,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 TryGetFontAsset: function (hashCode, fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetFontAsset", this ); }
+
                     return TMPro.MaterialReferenceManager.instance.TryGetFontAssetInternal(hashCode, fontAsset);
                 },
                 /*TMPro.MaterialReferenceManager.TryGetFontAsset:static end.*/
@@ -1527,6 +1744,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 TryGetSpriteAsset: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetSpriteAsset", this ); }
+
                     return TMPro.MaterialReferenceManager.instance.TryGetSpriteAssetInternal(hashCode, spriteAsset);
                 },
                 /*TMPro.MaterialReferenceManager.TryGetSpriteAsset:static end.*/
@@ -1544,6 +1763,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 TryGetColorGradientPreset: function (hashCode, gradientPreset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetColorGradientPreset", this ); }
+
                     return TMPro.MaterialReferenceManager.instance.TryGetColorGradientPresetInternal(hashCode, gradientPreset);
                 },
                 /*TMPro.MaterialReferenceManager.TryGetColorGradientPreset:static end.*/
@@ -1561,6 +1782,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 TryGetMaterial: function (hashCode, material) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetMaterial", this ); }
+
                     return TMPro.MaterialReferenceManager.instance.TryGetMaterialInternal(hashCode, material);
                 },
                 /*TMPro.MaterialReferenceManager.TryGetMaterial:static end.*/
@@ -1576,6 +1799,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#init", this ); }
+
                 this.m_FontMaterialReferenceLookup = new (System.Collections.Generic.Dictionary$2(System.Int32,UnityEngine.Material)).ctor();
                 this.m_FontAssetReferenceLookup = new (System.Collections.Generic.Dictionary$2(System.Int32,TMPro.TMP_FontAsset)).ctor();
                 this.m_SpriteAssetReferenceLookup = new (System.Collections.Generic.Dictionary$2(System.Int32,TMPro.TMP_SpriteAsset)).ctor();
@@ -1595,6 +1820,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddFontAssetInternal: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddFontAssetInternal", this ); }
+
                 if (this.m_FontAssetReferenceLookup.containsKey(fontAsset.hashCode)) {
                     return;
                 }
@@ -1619,6 +1846,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddSpriteAssetInternal$1: function (spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddSpriteAssetInternal$1", this ); }
+
                 if (this.m_SpriteAssetReferenceLookup.containsKey(spriteAsset.hashCode)) {
                     return;
                 }
@@ -1644,6 +1873,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddSpriteAssetInternal: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddSpriteAssetInternal", this ); }
+
                 if (this.m_SpriteAssetReferenceLookup.containsKey(hashCode)) {
                     return;
                 }
@@ -1674,6 +1905,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddFontMaterialInternal: function (hashCode, material) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddFontMaterialInternal", this ); }
+
                 // Since this function is called after checking if the material is
                 // contained in the dictionary, there is no need to check again.
                 this.m_FontMaterialReferenceLookup.add(hashCode, material);
@@ -1693,6 +1926,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddColorGradientPreset_Internal: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#AddColorGradientPreset_Internal", this ); }
+
                 if (this.m_ColorGradientReferenceLookup.containsKey(hashCode)) {
                     return;
                 }
@@ -1716,6 +1951,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             Contains: function (font) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#Contains", this ); }
+
                 if (this.m_FontAssetReferenceLookup.containsKey(font.hashCode)) {
                     return true;
                 }
@@ -1736,6 +1973,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             Contains$1: function (sprite) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#Contains$1", this ); }
+
                 if (this.m_FontAssetReferenceLookup.containsKey(sprite.hashCode)) {
                     return true;
                 }
@@ -1757,6 +1996,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             TryGetFontAssetInternal: function (hashCode, fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetFontAssetInternal", this ); }
+
                 fontAsset.v = null;
 
                 if (this.m_FontAssetReferenceLookup.tryGetValue(hashCode, fontAsset)) {
@@ -1780,6 +2021,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             TryGetSpriteAssetInternal: function (hashCode, spriteAsset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetSpriteAssetInternal", this ); }
+
                 spriteAsset.v = null;
 
                 if (this.m_SpriteAssetReferenceLookup.tryGetValue(hashCode, spriteAsset)) {
@@ -1803,6 +2046,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             TryGetColorGradientPresetInternal: function (hashCode, gradientPreset) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetColorGradientPresetInternal", this ); }
+
                 gradientPreset.v = null;
 
                 if (this.m_ColorGradientReferenceLookup.tryGetValue(hashCode, gradientPreset)) {
@@ -1826,6 +2071,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             TryGetMaterialInternal: function (hashCode, material) {
+if ( TRACE ) { TRACE( "TMPro.MaterialReferenceManager#TryGetMaterialInternal", this ); }
+
                 material.v = null;
 
                 if (this.m_FontMaterialReferenceLookup.tryGetValue(hashCode, material)) {
@@ -1850,7 +2097,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.Mesh_Extents(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#getDefaultValue", this ); }
+ return new TMPro.Mesh_Extents(); }
             }
         },
         fields: {
@@ -1859,21 +2108,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#init", this ); }
+
                 this.min = new UnityEngine.Vector2();
                 this.max = new UnityEngine.Vector2();
             },
             $ctor1: function (min, max) {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#$ctor1", this ); }
+
                 this.$initialize();
                 this.min = min.$clone();
                 this.max = max.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.Mesh_Extents.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#toString", this ); }
+
                 var s = "Min (" + (System.Single.format(this.min.x, "f2") || "") + ", " + (System.Single.format(this.min.y, "f2") || "") + ")   Max (" + (System.Single.format(this.max.x, "f2") || "") + ", " + (System.Single.format(this.max.y, "f2") || "") + ")";
                 //string s = "Center: (" + ")" + "  Extents: (" + ((max.x - min.x) / 2).ToString("f2") + "," + ((max.y - min.y) / 2).ToString("f2") + ").";
                 return s;
@@ -1881,16 +2138,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.Mesh_Extents.toString end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#getHashCode", this ); }
+
                 var h = Bridge.addHash([5643442449, this.min, this.max]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.Mesh_Extents)) {
                     return false;
                 }
                 return Bridge.equals(this.min, o.min) && Bridge.equals(this.max, o.max);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.Mesh_Extents#$clone", this ); }
+
                 var s = to || new TMPro.Mesh_Extents();
                 s.min = this.min.$clone();
                 s.max = this.max.$clone();
@@ -1908,7 +2171,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.RichTextTagAttribute(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.RichTextTagAttribute#getDefaultValue", this ); }
+ return new TMPro.RichTextTagAttribute(); }
             }
         },
         fields: {
@@ -1921,21 +2186,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.RichTextTagAttribute#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.RichTextTagAttribute#getHashCode", this ); }
+
                 var h = Bridge.addHash([8273926608, this.nameHashCode, this.valueHashCode, this.valueType, this.valueStartIndex, this.valueLength, this.unitType]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.RichTextTagAttribute#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.RichTextTagAttribute)) {
                     return false;
                 }
                 return Bridge.equals(this.nameHashCode, o.nameHashCode) && Bridge.equals(this.valueHashCode, o.valueHashCode) && Bridge.equals(this.valueType, o.valueType) && Bridge.equals(this.valueStartIndex, o.valueStartIndex) && Bridge.equals(this.valueLength, o.valueLength) && Bridge.equals(this.unitType, o.unitType);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.RichTextTagAttribute#$clone", this ); }
+
                 var s = to || new TMPro.RichTextTagAttribute();
                 s.nameHashCode = this.nameHashCode;
                 s.valueHashCode = this.valueHashCode;
@@ -1955,6 +2228,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.SetPropertyUtility.SetColor:static start.*/
                 SetColor: function (currentValue, newValue) {
+if ( TRACE ) { TRACE( "TMPro.SetPropertyUtility#SetColor", this ); }
+
                     if (currentValue.v.r === newValue.r && currentValue.v.g === newValue.g && currentValue.v.b === newValue.b && currentValue.v.a === newValue.a) {
                         return false;
                     }
@@ -1966,6 +2241,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.SetPropertyUtility.SetEquatableStruct:static start.*/
                 SetEquatableStruct: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "TMPro.SetPropertyUtility#SetEquatableStruct", this ); }
+
                     if (Bridge.equalsT(currentValue.v, newValue, T)) {
                         return false;
                     }
@@ -1977,6 +2254,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.SetPropertyUtility.SetStruct:static start.*/
                 SetStruct: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "TMPro.SetPropertyUtility#SetStruct", this ); }
+
                     if (Bridge.equals(currentValue.v, newValue)) {
                         return false;
                     }
@@ -1988,6 +2267,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.SetPropertyUtility.SetClass:static start.*/
                 SetClass: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "TMPro.SetPropertyUtility#SetClass", this ); }
+
                     if ((currentValue.v == null && newValue == null) || (currentValue.v != null && Bridge.equals(currentValue.v, newValue))) {
                         return false;
                     }
@@ -2086,6 +2367,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 ShaderRef_MobileSDF: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#ShaderRef_MobileSDF#get", this ); }
+
                         if (TMPro.ShaderUtilities.k_ShaderRef_MobileSDF == null) {
                             TMPro.ShaderUtilities.k_ShaderRef_MobileSDF = UnityEngine.Shader.Find("TextMeshPro/Mobile/Distance Field");
                         }
@@ -2104,6 +2387,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 ShaderRef_MobileBitmap: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#ShaderRef_MobileBitmap#get", this ); }
+
                         if (TMPro.ShaderUtilities.k_ShaderRef_MobileBitmap == null) {
                             TMPro.ShaderUtilities.k_ShaderRef_MobileBitmap = UnityEngine.Shader.Find("TextMeshPro/Mobile/Bitmap");
                         }
@@ -2114,6 +2399,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#init", this ); }
+
                     this.Keyword_Bevel = "BEVEL_ON";
                     this.Keyword_Glow = "GLOW_ON";
                     this.Keyword_Underlay = "UNDERLAY_ON";
@@ -2128,6 +2415,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     this.isInitialized = false;
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#ctor", this ); }
+
                     TMPro.ShaderUtilities.GetShaderPropertyIDs();
                 }
             },
@@ -2141,6 +2430,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 GetShaderPropertyIDs: function () {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#GetShaderPropertyIDs", this ); }
+
                     if (TMPro.ShaderUtilities.isInitialized === false) {
                         //Debug.Log("Getting Shader property IDs");
                         TMPro.ShaderUtilities.isInitialized = true;
@@ -2228,6 +2519,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.ShaderUtilities.UpdateShaderRatios:static start.*/
                 UpdateShaderRatios: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#UpdateShaderRatios", this ); }
+
                     //Debug.Log("UpdateShaderRatios() called.");
 
                     var ratio_A = 1;
@@ -2298,6 +2591,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.ShaderUtilities.GetFontExtent:static start.*/
                 GetFontExtent: function (material) {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#GetFontExtent", this ); }
+
                     // Revised implementation where style no longer affects alignment
                     return pc.Vec4.ZERO.clone();
 
@@ -2319,6 +2614,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.ShaderUtilities.IsMaskingEnabled:static start.*/
                 IsMaskingEnabled: function (material) {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#IsMaskingEnabled", this ); }
+
                     if (material == null || !material.HasProperty(TMPro.ShaderUtilities.ID_ClipRect)) {
                         return false;
                     }
@@ -2333,6 +2630,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.ShaderUtilities.GetPadding:static start.*/
                 GetPadding: function (material, enableExtraPadding, isBold) {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#GetPadding", this ); }
+
                     //Debug.Log("GetPadding() called.");
 
                     if (TMPro.ShaderUtilities.isInitialized === false) {
@@ -2460,6 +2759,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.ShaderUtilities.GetPadding$1:static start.*/
                 GetPadding$1: function (materials, enableExtraPadding, isBold) {
+if ( TRACE ) { TRACE( "TMPro.ShaderUtilities#GetPadding$1", this ); }
+
                     //Debug.Log("GetPadding() called.");
 
                     if (TMPro.ShaderUtilities.isInitialized === false) {
@@ -2607,7 +2908,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#getDefaultValue", this ); }
+ return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame(); }
             }
         },
         fields: {
@@ -2621,27 +2924,37 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#init", this ); }
+
                 this.frame = new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame();
                 this.spriteSourceSize = new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame();
                 this.sourceSize = new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize();
                 this.pivot = new UnityEngine.Vector2();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#getHashCode", this ); }
+
                 var h = Bridge.addHash([1835102891, this.filename, this.frame, this.rotated, this.trimmed, this.spriteSourceSize, this.sourceSize, this.pivot]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame)) {
                     return false;
                 }
                 return Bridge.equals(this.filename, o.filename) && Bridge.equals(this.frame, o.frame) && Bridge.equals(this.rotated, o.rotated) && Bridge.equals(this.trimmed, o.trimmed) && Bridge.equals(this.spriteSourceSize, o.spriteSourceSize) && Bridge.equals(this.sourceSize, o.sourceSize) && Bridge.equals(this.pivot, o.pivot);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame#$clone", this ); }
+
                 var s = to || new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Frame();
                 s.filename = this.filename;
                 s.frame = this.frame.$clone();
@@ -2661,7 +2974,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#getDefaultValue", this ); }
+ return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta(); }
             }
         },
         fields: {
@@ -2675,24 +2990,34 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#init", this ); }
+
                 this.size = new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#getHashCode", this ); }
+
                 var h = Bridge.addHash([1635018061, this.app, this.version, this.image, this.format, this.size, this.scale, this.smartupdate]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta)) {
                     return false;
                 }
                 return Bridge.equals(this.app, o.app) && Bridge.equals(this.version, o.version) && Bridge.equals(this.image, o.image) && Bridge.equals(this.format, o.format) && Bridge.equals(this.size, o.size) && Bridge.equals(this.scale, o.scale) && Bridge.equals(this.smartupdate, o.smartupdate);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta#$clone", this ); }
+
                 var s = to || new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta();
                 s.app = this.app;
                 s.version = this.version;
@@ -2716,6 +3041,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteDataObject#init", this ); }
+
                 this.meta = new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.Meta();
             }
         }
@@ -2727,7 +3054,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#getDefaultValue", this ); }
+ return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame(); }
             }
         },
         fields: {
@@ -2738,28 +3067,38 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.SpriteAssetUtilities.TexturePacker_JsonArray+SpriteFrame.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#toString", this ); }
+
                 var s = "x: " + (System.Single.format(this.x, "f2") || "") + " y: " + (System.Single.format(this.y, "f2") || "") + " h: " + (System.Single.format(this.h, "f2") || "") + " w: " + (System.Single.format(this.w, "f2") || "");
                 return s;
             },
             /*TMPro.SpriteAssetUtilities.TexturePacker_JsonArray+SpriteFrame.toString end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#getHashCode", this ); }
+
                 var h = Bridge.addHash([3692970792, this.x, this.y, this.w, this.h]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame)) {
                     return false;
                 }
                 return Bridge.equals(this.x, o.x) && Bridge.equals(this.y, o.y) && Bridge.equals(this.w, o.w) && Bridge.equals(this.h, o.h);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame#$clone", this ); }
+
                 var s = to || new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteFrame();
                 s.x = this.x;
                 s.y = this.y;
@@ -2779,7 +3118,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#getDefaultValue", this ); }
+ return new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize(); }
             }
         },
         fields: {
@@ -2788,28 +3129,38 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.SpriteAssetUtilities.TexturePacker_JsonArray+SpriteSize.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#toString", this ); }
+
                 var s = "w: " + (System.Single.format(this.w, "f2") || "") + " h: " + (System.Single.format(this.h, "f2") || "");
                 return s;
             },
             /*TMPro.SpriteAssetUtilities.TexturePacker_JsonArray+SpriteSize.toString end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#getHashCode", this ); }
+
                 var h = Bridge.addHash([3536206657, this.w, this.h]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize)) {
                     return false;
                 }
                 return Bridge.equals(this.w, o.w) && Bridge.equals(this.h, o.h);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize#$clone", this ); }
+
                 var s = to || new TMPro.SpriteAssetUtilities.TexturePacker_JsonArray.SpriteSize();
                 s.w = this.w;
                 s.h = this.h;
@@ -2833,7 +3184,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TagAttribute(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TagAttribute#getDefaultValue", this ); }
+ return new TMPro.TagAttribute(); }
             }
         },
         fields: {
@@ -2843,21 +3196,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TagAttribute#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TagAttribute#getHashCode", this ); }
+
                 var h = Bridge.addHash([4568533802, this.startIndex, this.length, this.hashCode]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TagAttribute#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TagAttribute)) {
                     return false;
                 }
                 return Bridge.equals(this.startIndex, o.startIndex) && Bridge.equals(this.length, o.length) && Bridge.equals(this.hashCode, o.hashCode);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TagAttribute#$clone", this ); }
+
                 var s = to || new TMPro.TagAttribute();
                 s.startIndex = this.startIndex;
                 s.length = this.length;
@@ -3093,6 +3454,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#init", this ); }
+
                     this.k_defaultSize = new UnityEngine.Vector2();
                     this.k_defaultSize = new pc.Vec2( 100, 100 );
                 }
@@ -3115,17 +3478,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             hasChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#hasChanged#get", this ); }
+
                     return this.m_hasChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#hasChanged#set", this ); }
+
                     this.m_hasChanged = value;
                 }
             },
             pivot: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#pivot#get", this ); }
+
                     return this.m_pivot.$clone();
                 },
-                set: function (value) { /* Debug.Log("Pivot has changed.");*/
+                set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#pivot#set", this ); }
+ /* Debug.Log("Pivot has changed.");*/
                     if (!pc.Vec2.equals( this.m_pivot, value )) {
                         this.m_pivot = value.$clone();
                         this.m_anchorPosition = this.GetAnchorPosition(this.m_pivot.$clone());
@@ -3136,9 +3507,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             anchorPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#anchorPosition#get", this ); }
+
                     return this.m_anchorPosition;
                 },
-                set: function (value) { /* Debug.Log("Anchor has changed.");*/
+                set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#anchorPosition#set", this ); }
+ /* Debug.Log("Anchor has changed.");*/
                     if (this.m_anchorPosition !== value) {
                         this.m_anchorPosition = value;
                         this.m_pivot = this.GetPivot(this.m_anchorPosition);
@@ -3149,9 +3524,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             rect: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#rect#get", this ); }
+
                     return this.m_rect.$clone();
                 },
-                set: function (value) { /* Debug.Log("Rectangle has changed.");*/
+                set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#rect#set", this ); }
+ /* Debug.Log("Rectangle has changed.");*/
                     if (UnityEngine.Rect.op_Inequality(this.m_rect.$clone(), value.$clone())) {
                         this.m_rect = value.$clone(); /* m_size = new Vector2(m_rect.width, m_rect.height);*/
                         this.m_hasChanged = true;
@@ -3161,9 +3540,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             size: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#size#get", this ); }
+
                     return new pc.Vec2( this.m_rect.width, this.m_rect.height );
                 },
-                set: function (value) { /* Debug.Log("Size has changed.");*/
+                set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#size#set", this ); }
+ /* Debug.Log("Size has changed.");*/
                     if (!pc.Vec2.equals( new pc.Vec2( this.m_rect.width, this.m_rect.height ), value )) {
                         this.SetRect(value.$clone());
                         this.m_hasChanged = true;
@@ -3175,9 +3558,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             width: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#width#get", this ); }
+
                     return this.m_rect.width;
                 },
-                set: function (value) { /* Debug.Log("Width has changed.");*/
+                set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#width#set", this ); }
+ /* Debug.Log("Width has changed.");*/
                     this.SetRect(new pc.Vec2( value, this.m_rect.height ));
                     this.m_hasChanged = true;
                     this.m_isDefaultWidth = false;
@@ -3186,9 +3573,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             height: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#height#get", this ); }
+
                     return this.m_rect.height;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#height#set", this ); }
+
                     this.SetRect(new pc.Vec2( this.m_rect.width, value ));
                     this.m_hasChanged = true;
                     this.m_isDefaultHeight = false;
@@ -3197,37 +3588,53 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             isDefaultWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#isDefaultWidth#get", this ); }
+
                     return this.m_isDefaultWidth;
                 }
             },
             isDefaultHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#isDefaultHeight#get", this ); }
+
                     return this.m_isDefaultHeight;
                 }
             },
             isAutoFitting: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#isAutoFitting#get", this ); }
+
                     return this.m_isAutoFitting;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#isAutoFitting#set", this ); }
+
                     this.m_isAutoFitting = value;
                 }
             },
             corners: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#corners#get", this ); }
+
                     return this.m_corners;
                 }
             },
             worldCorners: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#worldCorners#get", this ); }
+
                     return this.m_worldCorners;
                 }
             },
             margins: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#margins#get", this ); }
+
                     return this.m_margins.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#margins#set", this ); }
+
                     if (!pc.Vec4.equals( this.m_margins, value )) { /* Debug.Log("Margins have changed.");*/
                         this.m_margins = value.$clone();
                         this.m_hasChanged = true;
@@ -3247,6 +3654,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#rectTransform#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_rectTransform, null)) {
                         this.m_rectTransform = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -3264,6 +3673,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textMeshPro: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#textMeshPro#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_textMeshPro, null)) {
                         this.m_textMeshPro = this.GetComponent(TMPro.TextMeshPro);
                     }
@@ -3273,6 +3684,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#init", this ); }
+
                 this.m_pivot = new UnityEngine.Vector2();
                 this.m_rect = new UnityEngine.Rect();
                 this.m_margins = new UnityEngine.Vector4();
@@ -3289,6 +3702,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TextContainer.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#Awake", this ); }
+
                 console.warn("The Text Container component is now Obsolete and can safely be removed from [" + (this.gameObject.name || "") + "].");
 
                 return;
@@ -3305,6 +3720,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#OnEnable", this ); }
+
                 //Debug.Log("Text Container OnEnable() called.");
 
                 this.OnContainerChanged();
@@ -3321,6 +3738,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#OnDisable", this ); }
+
                 //Debug.Log("OnDisable() called.");
             },
             /*TMPro.TextContainer.OnDisable end.*/
@@ -3334,6 +3753,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnContainerChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#OnContainerChanged", this ); }
+
                 //Debug.Log("OnContainerChanged");
 
                 this.UpdateCorners();
@@ -3363,6 +3784,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#OnRectTransformDimensionsChange", this ); }
+
                 // Required to add a RectTransform to objects created in previous releases.
                 if (UnityEngine.Component.op_Equality(this.rectTransform, null)) {
                     this.m_rectTransform = this.gameObject.AddComponent(UnityEngine.RectTransform);
@@ -3381,6 +3804,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextContainer.SetRect start.*/
             SetRect: function (size) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#SetRect", this ); }
+
                 this.m_rect = new UnityEngine.Rect.$ctor1(this.m_rect.x, this.m_rect.y, size.x, size.y);
                 //UpdateCorners();
             },
@@ -3388,6 +3813,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextContainer.UpdateCorners start.*/
             UpdateCorners: function () {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#UpdateCorners", this ); }
+
                 this.m_corners[0] = new pc.Vec3( -this.m_pivot.x * this.m_rect.width, (-this.m_pivot.y) * this.m_rect.height, 0 );
                 this.m_corners[1] = new pc.Vec3( -this.m_pivot.x * this.m_rect.width, (1 - this.m_pivot.y) * this.m_rect.height, 0 );
                 this.m_corners[2] = new pc.Vec3( (1 - this.m_pivot.x) * this.m_rect.width, (1 - this.m_pivot.y) * this.m_rect.height, 0 );
@@ -3402,6 +3829,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextContainer.GetPivot start.*/
             GetPivot: function (anchor) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#GetPivot", this ); }
+
                 var pivot = pc.Vec2.ZERO.clone();
 
                 switch (anchor) {
@@ -3440,6 +3869,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextContainer.GetAnchorPosition start.*/
             GetAnchorPosition: function (pivot) {
+if ( TRACE ) { TRACE( "TMPro.TextContainer#GetAnchorPosition", this ); }
+
 
                 if (pc.Vec2.equals( pivot, new pc.Vec2( 0, 1 ) )) {
                     return TMPro.TextContainerAnchors.TopLeft;
@@ -3568,6 +3999,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#init", this ); }
+
                     this.s_colorWhite = new UnityEngine.Color32();
                     this.k_LargePositiveVector2 = new UnityEngine.Vector2();
                     this.k_LargeNegativeVector2 = new UnityEngine.Vector2();
@@ -3884,9 +4317,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#text#get", this ); }
+
                     return this.m_text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#text#set", this ); }
+
                     if (this.m_text != null && value != null && this.m_text.length === value.length && Bridge.referenceEquals(this.m_text, value)) {
                         return;
                     }
@@ -3910,9 +4347,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textPreprocessor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textPreprocessor#get", this ); }
+
                     return this.m_TextPreprocessor;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textPreprocessor#set", this ); }
+
                     this.m_TextPreprocessor = value;
                 }
             },
@@ -3925,9 +4366,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isRightToLeftText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isRightToLeftText#get", this ); }
+
                     return this.m_isRightToLeft;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isRightToLeftText#set", this ); }
+
                     if (this.m_isRightToLeft === value) {
                         return;
                     }
@@ -3949,9 +4394,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             font: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#font#get", this ); }
+
                     return this.m_fontAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#font#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_fontAsset, value)) {
                         return;
                     }
@@ -3974,9 +4423,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontSharedMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSharedMaterial#get", this ); }
+
                     return this.m_sharedMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSharedMaterial#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_sharedMaterial, value)) {
                         return;
                     }
@@ -3998,9 +4451,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontSharedMaterials: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSharedMaterials#get", this ); }
+
                     return this.GetSharedMaterials();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSharedMaterials#set", this ); }
+
                     this.SetSharedMaterials(value);
                     this.m_havePropertiesChanged = true;
                     this.m_isInputParsingRequired = true;
@@ -4019,9 +4476,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontMaterial#get", this ); }
+
                     return this.GetMaterial(this.m_sharedMaterial);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontMaterial#set", this ); }
+
                     if (this.m_sharedMaterial != null && this.m_sharedMaterial.GetInstanceID() === value.GetInstanceID()) {
                         return;
                     }
@@ -4047,9 +4508,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontMaterials: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontMaterials#get", this ); }
+
                     return this.GetMaterials(this.m_fontSharedMaterials);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontMaterials#set", this ); }
+
                     this.SetSharedMaterials(value);
                     this.m_havePropertiesChanged = true;
                     this.m_isInputParsingRequired = true;
@@ -4069,9 +4534,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             color: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#color#get", this ); }
+
                     return this.m_fontColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#color#set", this ); }
+
                     if (pc.Color.equals( this.m_fontColor, value )) {
                         return;
                     }
@@ -4091,9 +4560,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             alpha: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#alpha#get", this ); }
+
                     return this.m_fontColor.a;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#alpha#set", this ); }
+
                     if (this.m_fontColor.a === value) {
                         return;
                     }
@@ -4113,9 +4586,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             enableVertexGradient: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableVertexGradient#get", this ); }
+
                     return this.m_enableVertexGradient;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableVertexGradient#set", this ); }
+
                     if (this.m_enableVertexGradient === value) {
                         return;
                     }
@@ -4135,9 +4612,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             colorGradient: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#colorGradient#get", this ); }
+
                     return this.m_fontColorGradient.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#colorGradient#set", this ); }
+
                     this.m_havePropertiesChanged = true;
                     this.m_fontColorGradient = value.$clone();
                     this.SetVerticesDirty();
@@ -4154,9 +4635,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             colorGradientPreset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#colorGradientPreset#get", this ); }
+
                     return this.m_fontColorGradientPreset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#colorGradientPreset#set", this ); }
+
                     this.m_havePropertiesChanged = true;
                     this.m_fontColorGradientPreset = value;
                     this.SetVerticesDirty();
@@ -4173,9 +4658,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#spriteAsset#get", this ); }
+
                     return this.m_spriteAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#spriteAsset#set", this ); }
+
                     this.m_spriteAsset = value;
                     this.m_havePropertiesChanged = true;
                     this.m_isInputParsingRequired = true;
@@ -4194,9 +4683,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             tintAllSprites: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#tintAllSprites#get", this ); }
+
                     return this.m_tintAllSprites;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#tintAllSprites#set", this ); }
+
                     if (this.m_tintAllSprites === value) {
                         return;
                     }
@@ -4216,9 +4709,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             styleSheet: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#styleSheet#get", this ); }
+
                     return this.m_StyleSheet;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#styleSheet#set", this ); }
+
                     this.m_StyleSheet = value;
                     this.m_havePropertiesChanged = true;
                     this.m_isInputParsingRequired = true;
@@ -4235,6 +4732,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textStyle: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textStyle#get", this ); }
+
                     this.m_TextStyle = this.GetStyle(this.m_TextStyleHashCode);
 
                     if (this.m_TextStyle == null) {
@@ -4245,6 +4744,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_TextStyle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textStyle#set", this ); }
+
                     this.m_TextStyle = value;
                     this.m_TextStyleHashCode = this.m_TextStyle.hashCode;
                     this.m_havePropertiesChanged = true;
@@ -4264,9 +4765,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             overrideColorTags: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#overrideColorTags#get", this ); }
+
                     return this.m_overrideHtmlColors;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#overrideColorTags#set", this ); }
+
                     if (this.m_overrideHtmlColors === value) {
                         return;
                     }
@@ -4286,6 +4791,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             faceColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#faceColor#get", this ); }
+
                     if (this.m_sharedMaterial == null) {
                         return this.m_faceColor.$clone();
                     }
@@ -4294,6 +4801,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_faceColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#faceColor#set", this ); }
+
                     if (TMPro.TMPro_ExtensionMethods.Compare$1(this.m_faceColor, value.$clone())) {
                         return;
                     }
@@ -4315,6 +4824,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             outlineColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#outlineColor#get", this ); }
+
                     if (this.m_sharedMaterial == null) {
                         return this.m_outlineColor.$clone();
                     }
@@ -4323,6 +4834,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_outlineColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#outlineColor#set", this ); }
+
                     if (TMPro.TMPro_ExtensionMethods.Compare$1(this.m_outlineColor, value.$clone())) {
                         return;
                     }
@@ -4343,6 +4856,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             outlineWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#outlineWidth#get", this ); }
+
                     if (this.m_sharedMaterial == null) {
                         return this.m_outlineWidth;
                     }
@@ -4351,6 +4866,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_outlineWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#outlineWidth#set", this ); }
+
                     if (this.m_outlineWidth === value) {
                         return;
                     }
@@ -4371,9 +4888,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSize#get", this ); }
+
                     return this.m_fontSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSize#set", this ); }
+
                     if (this.m_fontSize === value) {
                         return;
                     }
@@ -4398,6 +4919,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontScale: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontScale#get", this ); }
+
                     return this.m_fontScale;
                 }
             },
@@ -4412,9 +4935,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontWeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontWeight#get", this ); }
+
                     return this.m_fontWeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontWeight#set", this ); }
+
                     if (this.m_fontWeight === value) {
                         return;
                     }
@@ -4435,6 +4962,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             pixelsPerUnit: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#pixelsPerUnit#get", this ); }
+
                     var localCanvas = this.canvas;
                     if (!UnityEngine.Object.op_Implicit(localCanvas)) {
                         return 1;
@@ -4461,9 +4990,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             enableAutoSizing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableAutoSizing#get", this ); }
+
                     return this.m_enableAutoSizing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableAutoSizing#set", this ); }
+
                     if (this.m_enableAutoSizing === value) {
                         return;
                     }
@@ -4483,9 +5016,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontSizeMin: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSizeMin#get", this ); }
+
                     return this.m_fontSizeMin;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSizeMin#set", this ); }
+
                     if (this.m_fontSizeMin === value) {
                         return;
                     }
@@ -4505,9 +5042,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontSizeMax: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSizeMax#get", this ); }
+
                     return this.m_fontSizeMax;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontSizeMax#set", this ); }
+
                     if (this.m_fontSizeMax === value) {
                         return;
                     }
@@ -4527,9 +5068,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontStyle: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontStyle#get", this ); }
+
                     return this.m_fontStyle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#fontStyle#set", this ); }
+
                     if (this.m_fontStyle === value) {
                         return;
                     }
@@ -4552,6 +5097,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isUsingBold: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isUsingBold#get", this ); }
+
                     return this.m_isUsingBold;
                 }
             },
@@ -4566,9 +5113,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             horizontalAlignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#horizontalAlignment#get", this ); }
+
                     return this.m_HorizontalAlignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#horizontalAlignment#set", this ); }
+
                     if (this.m_HorizontalAlignment === value) {
                         return;
                     }
@@ -4590,9 +5141,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             verticalAlignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#verticalAlignment#get", this ); }
+
                     return this.m_VerticalAlignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#verticalAlignment#set", this ); }
+
                     if (this.m_VerticalAlignment === value) {
                         return;
                     }
@@ -4614,9 +5169,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             alignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#alignment#get", this ); }
+
                     return this.m_HorizontalAlignment | this.m_VerticalAlignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#alignment#set", this ); }
+
                     var horizontalAlignment = value & 255;
                     var verticalAlignment = value & 65280;
 
@@ -4642,9 +5201,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             characterSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#characterSpacing#get", this ); }
+
                     return this.m_characterSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#characterSpacing#set", this ); }
+
                     if (this.m_characterSpacing === value) {
                         return;
                     }
@@ -4665,9 +5228,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             wordSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#wordSpacing#get", this ); }
+
                     return this.m_wordSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#wordSpacing#set", this ); }
+
                     if (this.m_wordSpacing === value) {
                         return;
                     }
@@ -4688,9 +5255,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             lineSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#lineSpacing#get", this ); }
+
                     return this.m_lineSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#lineSpacing#set", this ); }
+
                     if (this.m_lineSpacing === value) {
                         return;
                     }
@@ -4711,9 +5282,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             lineSpacingAdjustment: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#lineSpacingAdjustment#get", this ); }
+
                     return this.m_lineSpacingMax;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#lineSpacingAdjustment#set", this ); }
+
                     if (this.m_lineSpacingMax === value) {
                         return;
                     }
@@ -4734,9 +5309,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             paragraphSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#paragraphSpacing#get", this ); }
+
                     return this.m_paragraphSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#paragraphSpacing#set", this ); }
+
                     if (this.m_paragraphSpacing === value) {
                         return;
                     }
@@ -4757,9 +5336,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             characterWidthAdjustment: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#characterWidthAdjustment#get", this ); }
+
                     return this.m_charWidthMaxAdj;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#characterWidthAdjustment#set", this ); }
+
                     if (this.m_charWidthMaxAdj === value) {
                         return;
                     }
@@ -4780,9 +5363,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             enableWordWrapping: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableWordWrapping#get", this ); }
+
                     return this.m_enableWordWrapping;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableWordWrapping#set", this ); }
+
                     if (this.m_enableWordWrapping === value) {
                         return;
                     }
@@ -4804,9 +5391,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             wordWrappingRatios: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#wordWrappingRatios#get", this ); }
+
                     return this.m_wordWrappingRatios;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#wordWrappingRatios#set", this ); }
+
                     if (this.m_wordWrappingRatios === value) {
                         return;
                     }
@@ -4828,9 +5419,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             overflowMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#overflowMode#get", this ); }
+
                     return this.m_overflowMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#overflowMode#set", this ); }
+
                     if (this.m_overflowMode === value) {
                         return;
                     }
@@ -4852,6 +5447,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isTextOverflowing: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isTextOverflowing#get", this ); }
+
                     if (this.m_firstOverflowCharacterIndex !== -1) {
                         return true;
                     }
@@ -4870,6 +5467,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             firstOverflowCharacterIndex: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#firstOverflowCharacterIndex#get", this ); }
+
                     return this.m_firstOverflowCharacterIndex;
                 }
             },
@@ -4884,9 +5483,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             linkedTextComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#linkedTextComponent#get", this ); }
+
                     return this.m_linkedTextComponent;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#linkedTextComponent#set", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(value, null)) {
                         // Release linked text components
                         this.ReleaseLinkedTextComponent(this.m_linkedTextComponent);
@@ -4920,6 +5523,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isTextTruncated: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isTextTruncated#get", this ); }
+
                     return this.m_isTextTruncated;
                 }
             },
@@ -4934,9 +5539,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             enableKerning: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableKerning#get", this ); }
+
                     return this.m_enableKerning;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableKerning#set", this ); }
+
                     if (this.m_enableKerning === value) {
                         return;
                     }
@@ -4957,9 +5566,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             extraPadding: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#extraPadding#get", this ); }
+
                     return this.m_enableExtraPadding;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#extraPadding#set", this ); }
+
                     if (this.m_enableExtraPadding === value) {
                         return;
                     }
@@ -4980,9 +5593,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             richText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#richText#get", this ); }
+
                     return this.m_isRichText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#richText#set", this ); }
+
                     if (this.m_isRichText === value) {
                         return;
                     }
@@ -5004,9 +5621,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             parseCtrlCharacters: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#parseCtrlCharacters#get", this ); }
+
                     return this.m_parseCtrlCharacters;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#parseCtrlCharacters#set", this ); }
+
                     if (this.m_parseCtrlCharacters === value) {
                         return;
                     }
@@ -5028,9 +5649,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isOverlay: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isOverlay#get", this ); }
+
                     return this.m_isOverlay;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isOverlay#set", this ); }
+
                     if (this.m_isOverlay === value) {
                         return;
                     }
@@ -5043,9 +5668,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             
             isOrthographic: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isOrthographic#get", this ); }
+
                     return this.m_isOrthographic;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isOrthographic#set", this ); }
+
                     if (this.m_isOrthographic === value) {
                         return;
                     }
@@ -5065,9 +5694,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             enableCulling: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableCulling#get", this ); }
+
                     return this.m_isCullingEnabled;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#enableCulling#set", this ); }
+
                     if (this.m_isCullingEnabled === value) {
                         return;
                     }
@@ -5087,9 +5720,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             ignoreVisibility: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ignoreVisibility#get", this ); }
+
                     return this.m_ignoreCulling;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ignoreVisibility#set", this ); }
+
                     if (this.m_ignoreCulling === value) {
                         return;
                     }
@@ -5108,9 +5745,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             horizontalMapping: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#horizontalMapping#get", this ); }
+
                     return this.m_horizontalMapping;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#horizontalMapping#set", this ); }
+
                     if (this.m_horizontalMapping === value) {
                         return;
                     }
@@ -5130,9 +5771,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             verticalMapping: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#verticalMapping#get", this ); }
+
                     return this.m_verticalMapping;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#verticalMapping#set", this ); }
+
                     if (this.m_verticalMapping === value) {
                         return;
                     }
@@ -5153,9 +5798,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mappingUvLineOffset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#mappingUvLineOffset#get", this ); }
+
                     return this.m_uvLineOffset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#mappingUvLineOffset#set", this ); }
+
                     if (this.m_uvLineOffset === value) {
                         return;
                     }
@@ -5175,9 +5824,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             renderMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#renderMode#get", this ); }
+
                     return this.m_renderMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#renderMode#set", this ); }
+
                     if (this.m_renderMode === value) {
                         return;
                     }
@@ -5196,9 +5849,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             geometrySortingOrder: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#geometrySortingOrder#get", this ); }
+
                     return this.m_geometrySortingOrder;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#geometrySortingOrder#set", this ); }
+
                     this.m_geometrySortingOrder = value;
                     this.m_havePropertiesChanged = true;
                     this.SetVerticesDirty();
@@ -5215,9 +5872,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isTextObjectScaleStatic: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isTextObjectScaleStatic#get", this ); }
+
                     return this.m_IsTextObjectScaleStatic;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isTextObjectScaleStatic#set", this ); }
+
                     this.m_IsTextObjectScaleStatic = value;
 
                     if (this.m_IsTextObjectScaleStatic) {
@@ -5239,9 +5900,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             vertexBufferAutoSizeReduction: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#vertexBufferAutoSizeReduction#get", this ); }
+
                     return this.m_VertexBufferAutoSizeReduction;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#vertexBufferAutoSizeReduction#set", this ); }
+
                     this.m_VertexBufferAutoSizeReduction = value;
                     this.m_havePropertiesChanged = true;
                     this.SetVerticesDirty();
@@ -5258,9 +5923,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             firstVisibleCharacter: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#firstVisibleCharacter#get", this ); }
+
                     return this.m_firstVisibleCharacter;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#firstVisibleCharacter#set", this ); }
+
                     if (this.m_firstVisibleCharacter === value) {
                         return;
                     }
@@ -5280,9 +5949,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maxVisibleCharacters: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleCharacters#get", this ); }
+
                     return this.m_maxVisibleCharacters;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleCharacters#set", this ); }
+
                     if (this.m_maxVisibleCharacters === value) {
                         return;
                     }
@@ -5302,9 +5975,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maxVisibleWords: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleWords#get", this ); }
+
                     return this.m_maxVisibleWords;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleWords#set", this ); }
+
                     if (this.m_maxVisibleWords === value) {
                         return;
                     }
@@ -5324,9 +6001,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maxVisibleLines: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleLines#get", this ); }
+
                     return this.m_maxVisibleLines;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxVisibleLines#set", this ); }
+
                     if (this.m_maxVisibleLines === value) {
                         return;
                     }
@@ -5347,9 +6028,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             useMaxVisibleDescender: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#useMaxVisibleDescender#get", this ); }
+
                     return this.m_useMaxVisibleDescender;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#useMaxVisibleDescender#set", this ); }
+
                     if (this.m_useMaxVisibleDescender === value) {
                         return;
                     }
@@ -5370,9 +6055,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             pageToDisplay: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#pageToDisplay#get", this ); }
+
                     return this.m_pageToDisplay;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#pageToDisplay#set", this ); }
+
                     if (this.m_pageToDisplay === value) {
                         return;
                     }
@@ -5392,9 +6081,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             margin: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#margin#get", this ); }
+
                     return this.m_margin.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#margin#set", this ); }
+
                     if (pc.Vec4.equals( this.m_margin, value )) {
                         return;
                     }
@@ -5416,6 +6109,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textInfo: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textInfo#get", this ); }
+
                     return this.m_textInfo;
                 }
             },
@@ -5430,9 +6125,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             havePropertiesChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#havePropertiesChanged#get", this ); }
+
                     return this.m_havePropertiesChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#havePropertiesChanged#set", this ); }
+
                     if (this.m_havePropertiesChanged === value) {
                         return;
                     }
@@ -5452,9 +6151,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isUsingLegacyAnimationComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isUsingLegacyAnimationComponent#get", this ); }
+
                     return this.m_isUsingLegacyAnimationComponent;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isUsingLegacyAnimationComponent#set", this ); }
+
                     this.m_isUsingLegacyAnimationComponent = value;
                 }
             },
@@ -5470,6 +6173,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             transform$1: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#transform$1#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_transform, null)) {
                         this.m_transform = this.GetComponent(UnityEngine.Transform);
                     }
@@ -5488,6 +6193,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             rectTransform$1: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#rectTransform$1#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_rectTransform, null)) {
                         this.m_rectTransform = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -5506,6 +6213,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#mesh#get", this ); }
+
                     return this.m_mesh;
                 }
             },
@@ -5520,9 +6229,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isVolumetricText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isVolumetricText#get", this ); }
+
                     return this.m_isVolumetricText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#isVolumetricText#set", this ); }
+
                     if (this.m_isVolumetricText === value) {
                         return;
                     }
@@ -5545,6 +6258,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             bounds: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#bounds#get", this ); }
+
                     if (this.m_mesh == null) {
                         return new pc.BoundingBox.ctor();
                     }
@@ -5564,6 +6279,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textBounds: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#textBounds#get", this ); }
+
                     if (this.m_textInfo == null) {
                         return new pc.BoundingBox.ctor();
                     }
@@ -5584,6 +6301,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteAnimator: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#spriteAnimator#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_spriteAnimator, null)) {
                         this.m_spriteAnimator = this.GetComponent(TMPro.TMP_SpriteAnimator);
                         if (UnityEngine.MonoBehaviour.op_Equality(this.m_spriteAnimator, null)) {
@@ -5604,6 +6323,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#flexibleHeight#get", this ); }
+
                     return this.m_flexibleHeight;
                 }
             },
@@ -5617,6 +6338,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#flexibleWidth#get", this ); }
+
                     return this.m_flexibleWidth;
                 }
             },
@@ -5630,6 +6353,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#minWidth#get", this ); }
+
                     return this.m_minWidth;
                 }
             },
@@ -5643,6 +6368,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#minHeight#get", this ); }
+
                     return this.m_minHeight;
                 }
             },
@@ -5656,6 +6383,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maxWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxWidth#get", this ); }
+
                     return this.m_maxWidth;
                 }
             },
@@ -5669,6 +6398,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maxHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#maxHeight#get", this ); }
+
                     return this.m_maxHeight;
                 }
             },
@@ -5682,6 +6413,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             layoutElement: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#layoutElement#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_LayoutElement, null)) {
                         this.m_LayoutElement = this.GetComponent(UnityEngine.UI.LayoutElement);
                     }
@@ -5701,6 +6434,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#preferredWidth#get", this ); }
+
                     this.m_preferredWidth = this.GetPreferredWidth();
                     return this.m_preferredWidth;
                 }
@@ -5717,6 +6452,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#preferredHeight#get", this ); }
+
                     this.m_preferredHeight = this.GetPreferredHeight();
                     return this.m_preferredHeight;
                 }
@@ -5733,6 +6470,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             renderedWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#renderedWidth#get", this ); }
+
                     return this.GetRenderedWidth();
                 }
             },
@@ -5748,6 +6487,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             renderedHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#renderedHeight#get", this ); }
+
                     return this.GetRenderedHeight();
                 }
             },
@@ -5761,6 +6502,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#layoutPriority#get", this ); }
+
                     return this.m_layoutPriority;
                 }
             },
@@ -5776,6 +6519,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             OrthographicScaleFactor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#OrthographicScaleFactor#get", this ); }
+
                     return 1.0;
                 }
             }
@@ -5786,6 +6531,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#init", this ); }
+
                 this.m_materialReferenceStack = new (TMPro.TMP_TextProcessingStack$1(TMPro.MaterialReference))();
                 this.m_fontColor32 = new UnityEngine.Color32();
                 this.m_fontColor = new UnityEngine.Color();
@@ -5969,6 +6716,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             }
@@ -5984,7 +6733,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            LoadFontAsset: function () { },
+            LoadFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#LoadFontAsset", this ); }
+ },
             /*TMPro.TMP_Text.LoadFontAsset end.*/
 
             /*TMPro.TMP_Text.SetSharedMaterial start.*/
@@ -5998,7 +6749,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {UnityEngine.Material}    mat
              * @return  {void}
              */
-            SetSharedMaterial: function (mat) { },
+            SetSharedMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetSharedMaterial", this ); }
+ },
             /*TMPro.TMP_Text.SetSharedMaterial end.*/
 
             /*TMPro.TMP_Text.GetMaterial start.*/
@@ -6013,6 +6766,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetMaterial", this ); }
+
                 return null;
             },
             /*TMPro.TMP_Text.GetMaterial end.*/
@@ -6028,7 +6783,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {UnityEngine.Material}    mat
              * @return  {void}
              */
-            SetFontBaseMaterial: function (mat) { },
+            SetFontBaseMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetFontBaseMaterial", this ); }
+ },
             /*TMPro.TMP_Text.SetFontBaseMaterial end.*/
 
             /*TMPro.TMP_Text.SetSharedMaterials start.*/
@@ -6040,7 +6797,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {Array.<UnityEngine.Material>}    materials
              * @return  {void}
              */
-            SetSharedMaterials: function (materials) { },
+            SetSharedMaterials: function (materials) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetSharedMaterials", this ); }
+ },
             /*TMPro.TMP_Text.SetSharedMaterials end.*/
 
             /*TMPro.TMP_Text.GetMaterials start.*/
@@ -6055,6 +6814,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {Array.<UnityEngine.Material>}
              */
             GetMaterials: function (mats) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetMaterials", this ); }
+
                 var materialCount = this.m_textInfo.materialCount;
 
                 if (this.m_fontMaterials == null) {
@@ -6093,6 +6854,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             CreateMaterialInstance: function (source) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CreateMaterialInstance", this ); }
+
                 var mat = new UnityEngine.Material.$ctor1(source);
                 mat.shaderKeywords = source.shaderKeywords;
                 mat.name = (mat.name || "") + " (Instance)";
@@ -6103,6 +6866,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.SetVertexColorGradient start.*/
             SetVertexColorGradient: function (gradient) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetVertexColorGradient", this ); }
+
                 if (gradient == null) {
                     return;
                 }
@@ -6128,6 +6893,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetTextSortingOrder$1: function (order) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetTextSortingOrder$1", this ); }
+
 
             },
             /*TMPro.TMP_Text.SetTextSortingOrder$1 end.*/
@@ -6144,6 +6911,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetTextSortingOrder: function (order) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetTextSortingOrder", this ); }
+
 
             },
             /*TMPro.TMP_Text.SetTextSortingOrder end.*/
@@ -6159,7 +6928,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {UnityEngine.Color32}    color
              * @return  {void}
              */
-            SetFaceColor: function (color) { },
+            SetFaceColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetFaceColor", this ); }
+ },
             /*TMPro.TMP_Text.SetFaceColor end.*/
 
             /*TMPro.TMP_Text.SetOutlineColor start.*/
@@ -6173,7 +6944,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {UnityEngine.Color32}    color
              * @return  {void}
              */
-            SetOutlineColor: function (color) { },
+            SetOutlineColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetOutlineColor", this ); }
+ },
             /*TMPro.TMP_Text.SetOutlineColor end.*/
 
             /*TMPro.TMP_Text.SetOutlineThickness start.*/
@@ -6187,7 +6960,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {number}    thickness
              * @return  {void}
              */
-            SetOutlineThickness: function (thickness) { },
+            SetOutlineThickness: function (thickness) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetOutlineThickness", this ); }
+ },
             /*TMPro.TMP_Text.SetOutlineThickness end.*/
 
             /*TMPro.TMP_Text.SetShaderDepth start.*/
@@ -6200,7 +6975,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            SetShaderDepth: function () { },
+            SetShaderDepth: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetShaderDepth", this ); }
+ },
             /*TMPro.TMP_Text.SetShaderDepth end.*/
 
             /*TMPro.TMP_Text.SetCulling start.*/
@@ -6213,7 +6990,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            SetCulling: function () { },
+            SetCulling: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetCulling", this ); }
+ },
             /*TMPro.TMP_Text.SetCulling end.*/
 
             /*TMPro.TMP_Text.UpdateCulling start.*/
@@ -6223,7 +7002,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            UpdateCulling: function () { },
+            UpdateCulling: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateCulling", this ); }
+ },
             /*TMPro.TMP_Text.UpdateCulling end.*/
 
             /*TMPro.TMP_Text.GetPaddingForMaterial start.*/
@@ -6237,6 +7018,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPaddingForMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPaddingForMaterial", this ); }
+
                 TMPro.ShaderUtilities.GetShaderPropertyIDs();
 
                 if (this.m_sharedMaterial == null) {
@@ -6263,6 +7046,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPaddingForMaterial$1: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPaddingForMaterial$1", this ); }
+
                 if (mat == null) {
                     return 0;
                 }
@@ -6287,6 +7072,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {Array.<UnityEngine.Vector3>}
              */
             GetTextContainerLocalCorners: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTextContainerLocalCorners", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_rectTransform, null)) {
                     this.m_rectTransform = this.rectTransform$1;
                 }
@@ -6310,6 +7097,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ForceMeshUpdate: function (ignoreActiveState, forceTextReparsing) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ForceMeshUpdate", this ); }
+
                 if (ignoreActiveState === void 0) { ignoreActiveState = false; }
                 if (forceTextReparsing === void 0) { forceTextReparsing = false; }
             },
@@ -6326,6 +7115,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetTextInternal: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetTextInternal", this ); }
+
                 this.m_text = text;
                 this.m_renderMode = TMPro.TextRenderFlags.DontRender;
                 this.m_isInputParsingRequired = true;
@@ -6347,7 +7138,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {number}              index
              * @return  {void}
              */
-            UpdateGeometry$1: function (mesh, index) { },
+            UpdateGeometry$1: function (mesh, index) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateGeometry$1", this ); }
+ },
             /*TMPro.TMP_Text.UpdateGeometry$1 end.*/
 
             /*TMPro.TMP_Text.UpdateVertexData$1 start.*/
@@ -6361,7 +7154,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {TMPro.TMP_VertexDataUpdateFlags}    flags
              * @return  {void}
              */
-            UpdateVertexData$1: function (flags) { },
+            UpdateVertexData$1: function (flags) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateVertexData$1", this ); }
+ },
             /*TMPro.TMP_Text.UpdateVertexData$1 end.*/
 
             /*TMPro.TMP_Text.UpdateVertexData start.*/
@@ -6374,7 +7169,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            UpdateVertexData: function () { },
+            UpdateVertexData: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateVertexData", this ); }
+ },
             /*TMPro.TMP_Text.UpdateVertexData end.*/
 
             /*TMPro.TMP_Text.SetVertices start.*/
@@ -6388,7 +7185,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {Array.<UnityEngine.Vector3>}    vertices
              * @return  {void}
              */
-            SetVertices: function (vertices) { },
+            SetVertices: function (vertices) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetVertices", this ); }
+ },
             /*TMPro.TMP_Text.SetVertices end.*/
 
             /*TMPro.TMP_Text.UpdateMeshPadding start.*/
@@ -6401,7 +7200,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            UpdateMeshPadding: function () { },
+            UpdateMeshPadding: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateMeshPadding", this ); }
+ },
             /*TMPro.TMP_Text.UpdateMeshPadding end.*/
 
             /*TMPro.TMP_Text.CrossFadeColor start.*/
@@ -6421,6 +7222,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             CrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CrossFadeColor", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.CrossFadeColor.call(this, targetColor.$clone(), duration, ignoreTimeScale, useAlpha);
                 this.InternalCrossFadeColor(targetColor.$clone(), duration, ignoreTimeScale, useAlpha);
             },
@@ -6441,6 +7244,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             CrossFadeAlpha: function (alpha, duration, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CrossFadeAlpha", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.CrossFadeAlpha.call(this, alpha, duration, ignoreTimeScale);
                 this.InternalCrossFadeAlpha(alpha, duration, ignoreTimeScale);
             },
@@ -6458,7 +7263,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {boolean}              useAlpha
              * @return  {void}
              */
-            InternalCrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) { },
+            InternalCrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InternalCrossFadeColor", this ); }
+ },
             /*TMPro.TMP_Text.InternalCrossFadeColor end.*/
 
             /*TMPro.TMP_Text.InternalCrossFadeAlpha start.*/
@@ -6472,7 +7279,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {boolean}    ignoreTimeScale
              * @return  {void}
              */
-            InternalCrossFadeAlpha: function (alpha, duration, ignoreTimeScale) { },
+            InternalCrossFadeAlpha: function (alpha, duration, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InternalCrossFadeAlpha", this ); }
+ },
             /*TMPro.TMP_Text.InternalCrossFadeAlpha end.*/
 
             /*TMPro.TMP_Text.ParseInputText start.*/
@@ -6486,6 +7295,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ParseInputText: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ParseInputText", this ); }
+
                 this.m_isInputParsingRequired = false;
 
                 switch (this.m_inputSource) {
@@ -6519,6 +7330,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$2: function (text, syncTextInputBox) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$2", this ); }
+
                 if (syncTextInputBox === void 0) { syncTextInputBox = true; }
                 this.text = text;
             },
@@ -6537,6 +7350,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$3: function (text, arg0) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$3", this ); }
+
                 this.SetText$10(text, arg0, 0, 0, 0, 0, 0, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$3 end.*/
@@ -6555,6 +7370,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$4: function (text, arg0, arg1) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$4", this ); }
+
                 this.SetText$10(text, arg0, arg1, 0, 0, 0, 0, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$4 end.*/
@@ -6574,6 +7391,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$5: function (text, arg0, arg1, arg2) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$5", this ); }
+
                 this.SetText$10(text, arg0, arg1, arg2, 0, 0, 0, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$5 end.*/
@@ -6594,6 +7413,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$6: function (text, arg0, arg1, arg2, arg3) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$6", this ); }
+
                 this.SetText$10(text, arg0, arg1, arg2, arg3, 0, 0, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$6 end.*/
@@ -6615,6 +7436,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$7: function (text, arg0, arg1, arg2, arg3, arg4) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$7", this ); }
+
                 this.SetText$10(text, arg0, arg1, arg2, arg3, arg4, 0, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$7 end.*/
@@ -6637,6 +7460,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$8: function (text, arg0, arg1, arg2, arg3, arg4, arg5) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$8", this ); }
+
                 this.SetText$10(text, arg0, arg1, arg2, arg3, arg4, arg5, 0, 0);
             },
             /*TMPro.TMP_Text.SetText$8 end.*/
@@ -6660,6 +7485,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$9: function (text, arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$9", this ); }
+
                 this.SetText$10(text, arg0, arg1, arg2, arg3, arg4, arg5, arg6, 0);
             },
             /*TMPro.TMP_Text.SetText$9 end.*/
@@ -6684,6 +7511,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$10: function (text, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$10", this ); }
+
                 var argIndex = 0;
                 var padding = 0;
                 var decimalPrecision = 0;
@@ -6819,6 +7648,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$11: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$11", this ); }
+
                 this.m_inputSource = TMPro.TMP_Text.TextInputSources.SetCharArray;
 
 
@@ -6844,6 +7675,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText", this ); }
+
                 this.SetCharArray(text);
             },
             /*TMPro.TMP_Text.SetText end.*/
@@ -6862,6 +7695,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetText$1: function (text, start, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetText$1", this ); }
+
                 this.SetCharArray$1(text, start, length);
             },
             /*TMPro.TMP_Text.SetText$1 end.*/
@@ -6879,6 +7714,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetCharArray: function (sourceText) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetCharArray", this ); }
+
                 sourceText = {v:sourceText};
                 var characterCount = sourceText.v == null ? 0 : sourceText.v.length;
 
@@ -7038,6 +7875,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetCharArray$1: function (sourceText, start, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetCharArray$1", this ); }
+
                 sourceText = {v:sourceText};
                 var characterCount = 0;
 
@@ -7206,6 +8045,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetCharArray$2: function (sourceText, start, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetCharArray$2", this ); }
+
                 sourceText = {v:sourceText};
                 // Initialize internal character buffer if necessary
                 if (this.m_InternalParsingBuffer == null) {
@@ -7357,6 +8198,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             CharArrayToInternalParsingBuffer: function (sourceText, internalParsingArray) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CharArrayToInternalParsingBuffer", this ); }
+
                 sourceText = {v:sourceText};
                 var characterCount = sourceText.v == null ? 0 : sourceText.v.length;
 
@@ -7492,6 +8335,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             StringToInternalParsingBuffer: function (sourceText, internalParsingArray) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#StringToInternalParsingBuffer", this ); }
+
                 sourceText = {v:sourceText};
                 var characterCount = sourceText.v == null ? 0 : sourceText.v.length;
 
@@ -7740,6 +8585,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             StringBuilderToInternalParsingBuffer: function (sourceText, internalParsingArray) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#StringBuilderToInternalParsingBuffer", this ); }
+
                 sourceText = {v:sourceText};
                 var characterCount = sourceText.v == null ? 0 : sourceText.v.getLength();
 
@@ -7950,6 +8797,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceOpeningStyleTag$2: function (sourceText, srcIndex, srcOffset, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceOpeningStyleTag$2", this ); }
+
                 // Validate <style> tag.
                 var hashCode = this.GetTagHashCode$2(sourceText, srcIndex + 7, srcOffset);
 
@@ -8082,6 +8931,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceOpeningStyleTag$1: function (sourceText, srcIndex, srcOffset, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceOpeningStyleTag$1", this ); }
+
                 // Validate <style> tag.
                 var hashCode = this.GetTagHashCode$1(sourceText, srcIndex + 7, srcOffset);
 
@@ -8214,6 +9065,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceOpeningStyleTag: function (sourceText, srcIndex, srcOffset, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceOpeningStyleTag", this ); }
+
                 // Validate <style> tag.
                 var hashCode = this.GetTagHashCode(sourceText, srcIndex + 7, srcOffset);
 
@@ -8346,6 +9199,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceOpeningStyleTag$3: function (sourceText, srcIndex, srcOffset, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceOpeningStyleTag$3", this ); }
+
                 // Validate <style> tag.
                 var hashCode = this.GetTagHashCode$3(sourceText, srcIndex + 7, srcOffset);
 
@@ -8475,6 +9330,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceClosingStyleTag$2: function (sourceText, srcIndex, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceClosingStyleTag$2", this ); }
+
                 // Get style from the Style Stack
                 var hashCode = this.m_TextStyleStacks[this.m_TextStyleStackDepth + 1].Pop();
                 var style = this.GetStyle(hashCode);
@@ -8601,6 +9458,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceClosingStyleTag$1: function (sourceText, srcIndex, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceClosingStyleTag$1", this ); }
+
                 // Get style from the Style Stack
                 var hashCode = this.m_TextStyleStacks[this.m_TextStyleStackDepth + 1].Pop();
                 var style = this.GetStyle(hashCode);
@@ -8729,6 +9588,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceClosingStyleTag: function (sourceText, srcIndex, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceClosingStyleTag", this ); }
+
                 // Get style from the Style Stack
                 var hashCode = this.m_TextStyleStacks[this.m_TextStyleStackDepth + 1].Pop();
                 var style = this.GetStyle(hashCode);
@@ -8856,6 +9717,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ReplaceClosingStyleTag$3: function (sourceText, srcIndex, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceClosingStyleTag$3", this ); }
+
                 // Get style from the Style Stack
                 var hashCode = this.m_TextStyleStacks[this.m_TextStyleStackDepth + 1].Pop();
                 var style = this.GetStyle(hashCode);
@@ -8978,6 +9841,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_Style}
              */
             GetStyle: function (hashCode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetStyle", this ); }
+
                 var style = null;
 
                 // Get Style from Style Sheet potentially assigned to text object.
@@ -8999,6 +9864,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.InsertOpeningStyleTag start.*/
             InsertOpeningStyleTag: function (style, srcIndex, charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InsertOpeningStyleTag", this ); }
+
                 // Return if we don't have a valid style.
                 if (style == null) {
                     return false;
@@ -9108,6 +9975,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.InsertClosingStyleTag start.*/
             InsertClosingStyleTag: function (charBuffer, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InsertClosingStyleTag", this ); }
+
                 // Get style from the Style Stack
                 var hashCode = this.m_TextStyleStacks[0].Pop();
                 var style = this.GetStyle(hashCode);
@@ -9226,6 +10095,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             IsTagName$2: function (text, tag, index) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#IsTagName$2", this ); }
+
                 if (text.v.length < index + tag.length) {
                     return false;
                 }
@@ -9254,6 +10125,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             IsTagName: function (text, tag, index) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#IsTagName", this ); }
+
                 if (text.v.length < index + tag.length) {
                     return false;
                 }
@@ -9282,6 +10155,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             IsTagName$1: function (text, tag, index) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#IsTagName$1", this ); }
+
                 if (text.v.length < index + tag.length) {
                     return false;
                 }
@@ -9310,6 +10185,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             IsTagName$3: function (text, tag, index) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#IsTagName$3", this ); }
+
                 if (text.v.getLength() < index + tag.length) {
                     return false;
                 }
@@ -9338,6 +10215,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetTagHashCode$2: function (text, index, closeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTagHashCode$2", this ); }
+
                 var hashCode = 0;
                 closeIndex.v = 0;
 
@@ -9374,6 +10253,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetTagHashCode: function (text, index, closeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTagHashCode", this ); }
+
                 var hashCode = 0;
                 closeIndex.v = 0;
 
@@ -9410,6 +10291,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetTagHashCode$1: function (text, index, closeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTagHashCode$1", this ); }
+
                 var hashCode = 0;
                 closeIndex.v = 0;
 
@@ -9446,6 +10329,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetTagHashCode$3: function (text, index, closeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTagHashCode$3", this ); }
+
                 var hashCode = 0;
                 closeIndex.v = 0;
 
@@ -9479,6 +10364,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ResizeInternalArray: function (T, array) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ResizeInternalArray", this ); }
+
                 var size = UnityEngine.Mathf.NextPowerOfTwo(array.v.length + 1);
 
                 System.Array.resize(array, size, function () {
@@ -9489,6 +10376,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.ResizeInternalArray$1 start.*/
             ResizeInternalArray$1: function (T, array, size) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ResizeInternalArray$1", this ); }
+
                 size = UnityEngine.Mathf.NextPowerOfTwo(size + 1);
 
                 System.Array.resize(array, size, function () {
@@ -9499,6 +10388,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.AddFloatToCharArray start.*/
             AddFloatToCharArray: function (value, padding, precision, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#AddFloatToCharArray", this ); }
+
                 if (value < 0) {
                     this.m_input_CharArray[writeIndex.v] = 45;
                     writeIndex.v += 1;
@@ -9555,6 +10446,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddIntegerToCharArray: function (number, padding, writeIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#AddIntegerToCharArray", this ); }
+
                 var integralCount = 0;
                 var i = writeIndex.v;
 
@@ -9579,6 +10472,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.SetArraySizes start.*/
             SetArraySizes: function (unicodeChars) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetArraySizes", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19, $t20, $t21, $t22, $t23, $t24, $t25, $t26, $t27, $t28, $t29, $t30, $t31, $t32, $t33, $t34;
                 //Debug.Log("*** SetArraySizes() on Instance ID (" + GetInstanceID() + ") ***");
 
@@ -9984,7 +10879,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            EnableAdditionalVertexStreams: function () { },
+            EnableAdditionalVertexStreams: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#EnableAdditionalVertexStreams", this ); }
+ },
             /*TMPro.TMP_Text.EnableAdditionalVertexStreams end.*/
 
             /*TMPro.TMP_Text.UpdateMeshInRenderer start.*/
@@ -9997,15 +10894,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            UpdateMeshInRenderer: function () { },
+            UpdateMeshInRenderer: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#UpdateMeshInRenderer", this ); }
+ },
             /*TMPro.TMP_Text.UpdateMeshInRenderer end.*/
 
             /*TMPro.TMP_Text.EnableMasking start.*/
-            EnableMasking: function () { },
+            EnableMasking: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#EnableMasking", this ); }
+ },
             /*TMPro.TMP_Text.EnableMasking end.*/
 
             /*TMPro.TMP_Text.DisableMasking start.*/
-            DisableMasking: function () { },
+            DisableMasking: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#DisableMasking", this ); }
+ },
             /*TMPro.TMP_Text.DisableMasking end.*/
 
             /*TMPro.TMP_Text.ComputeLossyScaleFactor start.*/
@@ -10021,22 +10924,30 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             ComputeLossyScaleFactor: function (lossyScale) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ComputeLossyScaleFactor", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_Text.ComputeLossyScaleFactor end.*/
 
             /*TMPro.TMP_Text.AddSubTextObject start.*/
             AddSubTextObject: function (materialReference) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#AddSubTextObject", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_Text.AddSubTextObject end.*/
 
             /*TMPro.TMP_Text.SetSubTextPivot start.*/
-            SetSubTextPivot: function (m_subTextObject) { },
+            SetSubTextPivot: function (m_subTextObject) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetSubTextPivot", this ); }
+ },
             /*TMPro.TMP_Text.SetSubTextPivot end.*/
 
             /*TMPro.TMP_Text.CleanUnusedMesh start.*/
             CleanUnusedMesh: function (m_subTextObject, meshInfo) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CleanUnusedMesh", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_Text.CleanUnusedMesh end.*/
@@ -10053,6 +10964,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {Array.<UnityEngine.Material>}
              */
             GetSharedMaterials: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetSharedMaterials", this ); }
+
                 var materialCount = this.m_textInfo.materialCount;
 
                 if (this.m_fontSharedMaterials == null) {
@@ -10077,6 +10990,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.SetPerspectiveCorrection start.*/
             SetPerspectiveCorrection: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetPerspectiveCorrection", this ); }
+
                 if (this.m_isOrthographic) {
                     this.m_sharedMaterial.SetFloat(TMPro.ShaderUtilities.ID_PerspectiveFilter, 0.0);
                 } else {
@@ -10096,6 +11011,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             GenerateTextMesh: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GenerateTextMesh", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10;
                 //Debug.Log("***** GenerateTextMesh() *****"); // ***** Frame: " + Time.frameCount); // + ". Point Size: " + m_fontSize + ". Margins are (W) " + m_marginWidth + "  (H) " + m_marginHeight); // ". Iteration Count: " + loopCountA + ".  Min: " + m_minFontSize + "  Max: " + m_maxFontSize + "  Delta: " + (m_maxFontSize - m_minFontSize) + "  Font size is " + m_fontSize); //called for Object with ID " + GetInstanceID()); // Assigned Material is " + m_uiRenderer.GetMaterial().name); // IncludeForMasking " + this.m_IncludeForMasking); // and text is " + m_text);
 
@@ -10355,6 +11272,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GenerateTextMeshFirstPass start.*/
             GenerateTextMeshFirstPass: function (displayedPage, margins, maxVisibleDescender, charCode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GenerateTextMeshFirstPass", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19, $t20, $t21, $t22, $t23, $t24, $t25, $t26, $t27, $t28, $t29, $t30, $t31;
                 charCode.v = 0;
                 var vertexColor = new UnityEngine.Color32();
@@ -11670,6 +12589,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GenerateTextMeshSecondPass start.*/
             GenerateTextMeshSecondPass: function (margins, pageToDisplay, maxVisibleDescender, lineCount) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GenerateTextMeshSecondPass", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19, $t20, $t21, $t22, $t23, $t24, $t25, $t26, $t27, $t28, $t29, $t30, $t31, $t32, $t33, $t34, $t35, $t36, $t37, $t38, $t39, $t40, $t41, $t42, $t43, $t44, $t45, $t46, $t47, $t48, $t49, $t50, $t51, $t52, $t53, $t54, $t55, $t56, $t57, $t58, $t59, $t60, $t61, $t62, $t63, $t64, $t65, $t66, $t67, $t68, $t69, $t70, $t71, $t72, $t73, $t74, $t75, $t76, $t77, $t78, $t79, $t80, $t81, $t82, $t83, $t84, $t85, $t86, $t87, $t88, $t89, $t90, $t91, $t92;
                 // Underline
                 var beginUnderline = false;
@@ -12402,6 +13323,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetPreferredValues: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredValues", this ); }
+
                 if (this.m_isInputParsingRequired || this.m_isTextTruncated) {
                     this.m_isCalculatingPreferredValues = true;
                     this.ParseInputText();
@@ -12430,6 +13353,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetPreferredValues$1: function (width, height) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredValues$1", this ); }
+
                 if (this.m_isInputParsingRequired || this.m_isTextTruncated) {
                     this.m_isCalculatingPreferredValues = true;
                     this.ParseInputText();
@@ -12459,6 +13384,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetPreferredValues$2: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredValues$2", this ); }
+
                 this.m_isCalculatingPreferredValues = true;
 
                 this.StringToInternalParsingBuffer(text, Bridge.ref(this, "m_InternalParsingBuffer"));
@@ -12490,6 +13417,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetPreferredValues$3: function (text, width, height) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredValues$3", this ); }
+
                 this.m_isCalculatingPreferredValues = true;
 
                 this.StringToInternalParsingBuffer(text, Bridge.ref(this, "m_InternalParsingBuffer"));
@@ -12518,6 +13447,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPreferredWidth: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredWidth", this ); }
+
                 if (TMPro.TMP_Settings.instance == null) {
                     return 0;
                 }
@@ -12565,6 +13496,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPreferredWidth$1: function (margin) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredWidth$1", this ); }
+
                 var fontSize = { v : this.m_enableAutoSizing ? this.m_fontSizeMax : this.m_fontSize };
 
                 // Reset auto sizing point size bounds
@@ -12592,6 +13525,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPreferredHeight: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredHeight", this ); }
+
                 if (TMPro.TMP_Settings.instance == null) {
                     return 0;
                 }
@@ -12648,6 +13583,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPreferredHeight$1: function (margin) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetPreferredHeight$1", this ); }
+
                 var fontSize = { v : this.m_enableAutoSizing ? this.m_fontSizeMax : this.m_fontSize };
 
                 // Reset auto sizing point size bounds
@@ -12685,6 +13622,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetRenderedValues: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedValues", this ); }
+
                 return UnityEngine.Vector2.FromVector3(this.GetTextBounds().halfExtents.$clone().scale( 2 ).$clone());
             },
             /*TMPro.TMP_Text.GetRenderedValues end.*/
@@ -12699,6 +13638,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             GetRenderedValues$1: function (onlyVisibleCharacters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedValues$1", this ); }
+
                 return UnityEngine.Vector2.FromVector3(this.GetTextBounds$1(onlyVisibleCharacters).halfExtents.$clone().scale( 2 ).$clone());
             },
             /*TMPro.TMP_Text.GetRenderedValues$1 end.*/
@@ -12714,6 +13655,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetRenderedWidth: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedWidth", this ); }
+
                 return this.GetRenderedValues().x;
             },
             /*TMPro.TMP_Text.GetRenderedWidth end.*/
@@ -12730,6 +13673,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetRenderedWidth$1: function (onlyVisibleCharacters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedWidth$1", this ); }
+
                 return this.GetRenderedValues$1(onlyVisibleCharacters).x;
             },
             /*TMPro.TMP_Text.GetRenderedWidth$1 end.*/
@@ -12745,6 +13690,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetRenderedHeight: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedHeight", this ); }
+
                 return this.GetRenderedValues().y;
             },
             /*TMPro.TMP_Text.GetRenderedHeight end.*/
@@ -12761,6 +13708,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetRenderedHeight$1: function (onlyVisibleCharacters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetRenderedHeight$1", this ); }
+
                 return this.GetRenderedValues$1(onlyVisibleCharacters).y;
             },
             /*TMPro.TMP_Text.GetRenderedHeight$1 end.*/
@@ -12780,6 +13729,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             CalculatePreferredValues: function (fontSize, marginSize, isTextAutoSizingEnabled, isWordWrappingEnabled) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#CalculatePreferredValues", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 //Debug.Log("*** CalculatePreferredValues() ***"); // ***** Frame: " + Time.frameCount);
 
@@ -13563,6 +14514,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Bounds}
              */
             GetCompoundBounds: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetCompoundBounds", this ); }
+
                 var mainBounds = this.m_mesh.bounds;
                 var min = mainBounds.min.$clone();
                 var max = mainBounds.max.$clone();
@@ -13593,6 +14546,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Bounds}
              */
             GetTextBounds: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTextBounds", this ); }
+
                 var $t, $t1, $t2, $t3, $t4;
                 if (this.m_textInfo == null || this.m_textInfo.characterCount > this.m_textInfo.characterInfo.length) {
                     return new pc.BoundingBox.ctor();
@@ -13634,6 +14589,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Bounds}
              */
             GetTextBounds$1: function (onlyVisibleCharacters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTextBounds$1", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (this.m_textInfo == null) {
                     return new pc.BoundingBox.ctor();
@@ -13681,6 +14638,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AdjustLineOffset: function (startIndex, endIndex, offset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#AdjustLineOffset", this ); }
+
                 var vertexOffset = new pc.Vec3( 0, offset, 0 );
 
                 for (var i = startIndex; i <= endIndex; i++) {
@@ -13717,6 +14676,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ResizeLineExtents: function (size) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ResizeLineExtents", this ); }
+
                 var $t;
                 size = size > 1024 ? size + 256 : UnityEngine.Mathf.NextPowerOfTwo(size + 1);
 
@@ -13751,6 +14712,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_TextInfo}
              */
             GetTextInfo: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTextInfo", this ); }
+
                 return null;
             },
             /*TMPro.TMP_Text.GetTextInfo end.*/
@@ -13765,7 +14728,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            ComputeMarginSize: function () { },
+            ComputeMarginSize: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ComputeMarginSize", this ); }
+ },
             /*TMPro.TMP_Text.ComputeMarginSize end.*/
 
             /*TMPro.TMP_Text.InsertNewLine start.*/
@@ -13790,6 +14755,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InsertNewLine: function (i, baseScale, currentElementScale, currentEmScale, glyphAdjustment, boldSpacingAdjustment, characterSpacingAdjustment, width, lineGap, isMaxVisibleDescenderSet, maxVisibleDescender) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InsertNewLine", this ); }
+
                 // Adjust line spacing if necessary
                 var baselineAdjustmentDelta = this.m_maxLineAscender - this.m_startOfLineAscender;
                 if (this.m_lineOffset > 0 && Math.abs(baselineAdjustmentDelta) > 0.01 && this.m_IsDrivenLineSpacing === false && !this.m_isNewPage) {
@@ -13881,6 +14848,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SaveWordWrappingState: function (state, index, count) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SaveWordWrappingState", this ); }
+
                 var $t;
                 // Multi Font & Material support related
                 state.v.currentFontAsset = this.m_currentFontAsset;
@@ -13978,6 +14947,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             RestoreWordWrappingState: function (state) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#RestoreWordWrappingState", this ); }
+
                 var $t;
                 var index = state.v.previous_WordBreak;
 
@@ -14080,6 +15051,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SaveGlyphVertexInfo: function (padding, style_padding, vertexColor) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SaveGlyphVertexInfo", this ); }
+
                 
                 // Save the Vertex Position for the Character
                 var characterInfo = this.m_textInfo.characterInfo[ this.m_characterCount ];
@@ -14167,6 +15140,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SaveSpriteVertexInfo: function (vertexColor) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SaveSpriteVertexInfo", this ); }
+
                 
                 var characterInfo = this.m_textInfo.characterInfo[ this.m_characterCount ];
 
@@ -14248,6 +15223,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.FillCharacterVertexBuffers start.*/
             FillCharacterVertexBuffers: function (i, index_X4, isVolumetric) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#FillCharacterVertexBuffers", this ); }
+
                 
                 var characterInfo = this.m_textInfo.characterInfo[i];
                 var materialIndex = characterInfo.materialReferenceIndex;
@@ -14326,6 +15303,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             FillSpriteVertexBuffers: function (i, index_X4) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#FillSpriteVertexBuffers", this ); }
+
                 
                 var characterInfo = this.m_textInfo.characterInfo[ i ];
                 var materialIndex = characterInfo.materialReferenceIndex;
@@ -14384,6 +15363,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DrawUnderlineMesh: function (start, end, index, startScale, endScale, maxScale, sdfScale, underlineColor) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#DrawUnderlineMesh", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 // Get Underline special character from the primary font asset.
                 this.GetUnderlineSpecialCharacter(this.m_fontAsset);
@@ -14535,6 +15516,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.DrawTextHighlight start.*/
             DrawTextHighlight: function (start, end, index, highlightColor) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#DrawTextHighlight", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (this.m_Underline.character == null) {
                     this.GetUnderlineSpecialCharacter(this.m_fontAsset);
@@ -14616,6 +15599,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             LoadDefaultSettings: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#LoadDefaultSettings", this ); }
+
                 if (this.m_text == null || this.m_isWaitingOnResourceLoad) {
                     if (TMPro.TMP_Settings.autoSizeTextContainer) {
                         this.autoSizeTextContainer = true;
@@ -14664,6 +15649,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             GetSpecialCharacters: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetSpecialCharacters", this ); }
+
                 this.GetEllipsisSpecialCharacter(fontAsset);
 
                 this.GetUnderlineSpecialCharacter(fontAsset);
@@ -14672,6 +15659,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GetEllipsisSpecialCharacter start.*/
             GetEllipsisSpecialCharacter: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetEllipsisSpecialCharacter", this ); }
+
                 var isUsingAlternativeTypeface = { };
 
                 // Search base font asset
@@ -14706,6 +15695,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GetUnderlineSpecialCharacter start.*/
             GetUnderlineSpecialCharacter: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUnderlineSpecialCharacter", this ); }
+
                 var isUsingAlternativeTypeface = { };
 
                 // Search primary font asset for underline character while ignoring font style and weight as these do not affect the underline character.
@@ -14759,6 +15750,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ReplaceTagWithCharacter: function (chars, insertionIndex, tagLength, c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReplaceTagWithCharacter", this ); }
+
                 chars[insertionIndex] = c;
 
                 for (var i = insertionIndex + tagLength; i < chars.length; i++) {
@@ -14777,6 +15770,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_FontAsset}
              */
             GetFontAssetForWeight: function (fontWeight) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetFontAssetForWeight", this ); }
+
                 var $t, $t1;
                 var isItalic = (this.m_FontStyleInternal & TMPro.FontStyles.Italic) === TMPro.FontStyles.Italic || (this.m_fontStyle & TMPro.FontStyles.Italic) === TMPro.FontStyles.Italic;
 
@@ -14796,6 +15791,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GetTextElement start.*/
             GetTextElement: function (unicode, fontAsset, fontStyle, fontWeight, isUsingAlternativeTypeface) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetTextElement", this ); }
+
                 var character = TMPro.TMP_FontAssetUtilities.GetCharacterFromFontAsset(unicode, fontAsset, false, fontStyle, fontWeight, isUsingAlternativeTypeface);
 
                 if (character != null) {
@@ -14902,6 +15899,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetActiveSubMeshes: function (state) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#SetActiveSubMeshes", this ); }
+
                 for (var i = 1; i < this.m_subTextObjects.length && this.m_subTextObjects[i] != null; i++) {
                     if (this.m_subTextObjects[i].TMPro$TMP_SubMeshBase$enabled !== state) {
                         this.m_subTextObjects[i].TMPro$TMP_SubMeshBase$enabled = state;
@@ -14920,11 +15919,15 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            DestroySubMeshObjects: function () { },
+            DestroySubMeshObjects: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#DestroySubMeshObjects", this ); }
+ },
             /*TMPro.TMP_Text.DestroySubMeshObjects end.*/
 
             /*TMPro.TMP_Text.GetCanvasSpaceClippingRect start.*/
             GetCanvasSpaceClippingRect: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetCanvasSpaceClippingRect", this ); }
+
                 return UnityEngine.Rect.zero.$clone();
             },
             /*TMPro.TMP_Text.GetCanvasSpaceClippingRect end.*/
@@ -14939,7 +15942,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            ClearMesh: function () { },
+            ClearMesh: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ClearMesh", this ); }
+ },
             /*TMPro.TMP_Text.ClearMesh end.*/
 
             /*TMPro.TMP_Text.ClearMesh$1 start.*/
@@ -14953,7 +15958,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {boolean}    uploadGeometry
              * @return  {void}
              */
-            ClearMesh$1: function (uploadGeometry) { },
+            ClearMesh$1: function (uploadGeometry) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ClearMesh$1", this ); }
+ },
             /*TMPro.TMP_Text.ClearMesh$1 end.*/
 
             /*TMPro.TMP_Text.GetParsedText start.*/
@@ -14967,6 +15974,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {string}
              */
             GetParsedText: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetParsedText", this ); }
+
                 var $t;
                 if (this.m_textInfo == null) {
                     return "";
@@ -14987,6 +15996,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.IsSelfOrLinkedAncestor start.*/
             IsSelfOrLinkedAncestor: function (targetTextComponent) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#IsSelfOrLinkedAncestor", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(targetTextComponent, null)) {
                     return true;
                 }
@@ -15007,6 +16018,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.ReleaseLinkedTextComponent start.*/
             ReleaseLinkedTextComponent: function (targetTextComponent) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ReleaseLinkedTextComponent", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(targetTextComponent, null)) {
                     return;
                 }
@@ -15039,6 +16052,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}
              */
             PackUV$1: function (x, y, scale) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#PackUV$1", this ); }
+
                 var output = new pc.Vec2.ctor();
 
                 output.x = Math.floor(x * 511);
@@ -15062,6 +16077,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             PackUV: function (x, y) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#PackUV", this ); }
+
                 var x0 = Math.floor(x * 511);
                 var y0 = Math.floor(y * 511);
 
@@ -15078,7 +16095,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_Text
              * @return  {void}
              */
-            InternalUpdate: function () { },
+            InternalUpdate: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#InternalUpdate", this ); }
+ },
             /*TMPro.TMP_Text.InternalUpdate end.*/
 
             /*TMPro.TMP_Text.HexToInt start.*/
@@ -15095,6 +16114,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             HexToInt: function (hex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#HexToInt", this ); }
+
                 switch (hex) {
                     case 48: 
                         return 0;
@@ -15158,6 +16179,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}            The Unicode hex.
              */
             GetUTF16$1: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF16$1", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text.charCodeAt(i)) << 12;
                 unicode += this.HexToInt(text.charCodeAt(i + 1)) << 8;
@@ -15169,6 +16192,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GetUTF16 start.*/
             GetUTF16: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF16", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text[i]) << 12;
                 unicode += this.HexToInt(text[i + 1]) << 8;
@@ -15191,6 +16216,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}                               The Unicode hex.
              */
             GetUTF16$2: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF16$2", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text.getChar(i)) << 12;
                 unicode += this.HexToInt(text.getChar(i + 1)) << 8;
@@ -15213,6 +16240,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}            The Unicode hex.
              */
             GetUTF32$1: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF32$1", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text.charCodeAt(i)) << 30;
                 unicode += this.HexToInt(text.charCodeAt(i + 1)) << 24;
@@ -15239,6 +16268,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}                               The Unicode hex.
              */
             GetUTF32$2: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF32$2", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text.getChar(i)) << 30;
                 unicode += this.HexToInt(text.getChar(i + 1)) << 24;
@@ -15254,6 +16285,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Text.GetUTF32 start.*/
             GetUTF32: function (text, i) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetUTF32", this ); }
+
                 var unicode = 0;
                 unicode += this.HexToInt(text[i]) << 28;
                 unicode += this.HexToInt(text[i + 1]) << 24;
@@ -15280,6 +16313,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Color32}
              */
             HexCharsToColor: function (hexChars, tagCount) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#HexCharsToColor", this ); }
+
                 if (tagCount === 4) {
                     var r = this.HexToInt(hexChars[1]) * 16 + this.HexToInt(hexChars[1]);
                     var g = this.HexToInt(hexChars[2]) * 16 + this.HexToInt(hexChars[2]);
@@ -15352,6 +16387,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Color32}
              */
             HexCharsToColor$1: function (hexChars, startIndex, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#HexCharsToColor$1", this ); }
+
                 if (length === 7) {
                     var r = this.HexToInt(hexChars[startIndex + 1]) * 16 + this.HexToInt(hexChars[startIndex + 2]);
                     var g = this.HexToInt(hexChars[startIndex + 3]) * 16 + this.HexToInt(hexChars[startIndex + 4]);
@@ -15386,6 +16423,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetAttributeParameters: function (chars, startIndex, length, parameters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#GetAttributeParameters", this ); }
+
                 var endIndex = { v : startIndex };
                 var attributeCount = 0;
 
@@ -15416,6 +16455,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             ConvertToFloat: function (chars, startIndex, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ConvertToFloat", this ); }
+
                 var lastIndex = { };
                 return this.ConvertToFloat$1(chars, startIndex, length, lastIndex);
             },
@@ -15436,6 +16477,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             ConvertToFloat$1: function (chars, startIndex, length, lastIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ConvertToFloat$1", this ); }
+
                 if (startIndex === 0) {
                     lastIndex.v = 0;
                     return -9999;
@@ -15506,6 +16549,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             ValidateHtmlTag: function (chars, startIndex, endIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text#ValidateHtmlTag", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14;
                 var tagCharCount = 0;
                 var attributeFlag = 0;
@@ -17114,6 +18159,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             instanceID: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Asset#instanceID#get", this ); }
+
                     if (this.m_InstanceID === 0) {
                         this.m_InstanceID = this.GetInstanceID();
                     }
@@ -17154,6 +18201,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             elementType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#elementType#get", this ); }
+
                     return this.m_ElementType;
                 }
             },
@@ -17168,9 +18217,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             unicode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#unicode#get", this ); }
+
                     return this.m_Unicode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#unicode#set", this ); }
+
                     this.m_Unicode = value;
                 }
             },
@@ -17185,9 +18238,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#textAsset#get", this ); }
+
                     return this.m_TextAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#textAsset#set", this ); }
+
                     this.m_TextAsset = value;
                 }
             },
@@ -17202,9 +18259,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyph: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#glyph#get", this ); }
+
                     return this.m_Glyph;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#glyph#set", this ); }
+
                     this.m_Glyph = value;
                 }
             },
@@ -17219,9 +18280,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphIndex: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#glyphIndex#get", this ); }
+
                     return this.m_GlyphIndex;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#glyphIndex#set", this ); }
+
                     this.m_GlyphIndex = value;
                 }
             },
@@ -17236,9 +18301,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             scale: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#scale#get", this ); }
+
                     return this.m_Scale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextElement#scale#set", this ); }
+
                     this.m_Scale = value;
                 }
             }
@@ -17257,7 +18326,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_CharacterInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_CharacterInfo(); }
             }
         },
         fields: {
@@ -17313,6 +18384,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#init", this ); }
+
                 this.vertex_BL = new TMPro.TMP_Vertex();
                 this.vertex_TL = new TMPro.TMP_Vertex();
                 this.vertex_TR = new TMPro.TMP_Vertex();
@@ -17328,21 +18401,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.highlightState = new TMPro.HighlightState();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([6938714841, this.character, this.index, this.stringLength, this.elementType, this.textElement, this.fontAsset, this.spriteAsset, this.spriteIndex, this.material, this.materialReferenceIndex, this.isUsingAlternateTypeface, this.pointSize, this.lineNumber, this.pageNumber, this.vertexIndex, this.vertex_BL, this.vertex_TL, this.vertex_TR, this.vertex_BR, this.topLeft, this.bottomLeft, this.topRight, this.bottomRight, this.origin, this.xAdvance, this.ascender, this.baseLine, this.descender, this.adjustedAscender, this.adjustedDescender, this.aspectRatio, this.scale, this.color, this.underlineColor, this.underlineVertexIndex, this.strikethroughColor, this.strikethroughVertexIndex, this.highlightColor, this.highlightState, this.style, this.isVisible]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_CharacterInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.character, o.character) && Bridge.equals(this.index, o.index) && Bridge.equals(this.stringLength, o.stringLength) && Bridge.equals(this.elementType, o.elementType) && Bridge.equals(this.textElement, o.textElement) && Bridge.equals(this.fontAsset, o.fontAsset) && Bridge.equals(this.spriteAsset, o.spriteAsset) && Bridge.equals(this.spriteIndex, o.spriteIndex) && Bridge.equals(this.material, o.material) && Bridge.equals(this.materialReferenceIndex, o.materialReferenceIndex) && Bridge.equals(this.isUsingAlternateTypeface, o.isUsingAlternateTypeface) && Bridge.equals(this.pointSize, o.pointSize) && Bridge.equals(this.lineNumber, o.lineNumber) && Bridge.equals(this.pageNumber, o.pageNumber) && Bridge.equals(this.vertexIndex, o.vertexIndex) && Bridge.equals(this.vertex_BL, o.vertex_BL) && Bridge.equals(this.vertex_TL, o.vertex_TL) && Bridge.equals(this.vertex_TR, o.vertex_TR) && Bridge.equals(this.vertex_BR, o.vertex_BR) && Bridge.equals(this.topLeft, o.topLeft) && Bridge.equals(this.bottomLeft, o.bottomLeft) && Bridge.equals(this.topRight, o.topRight) && Bridge.equals(this.bottomRight, o.bottomRight) && Bridge.equals(this.origin, o.origin) && Bridge.equals(this.xAdvance, o.xAdvance) && Bridge.equals(this.ascender, o.ascender) && Bridge.equals(this.baseLine, o.baseLine) && Bridge.equals(this.descender, o.descender) && Bridge.equals(this.adjustedAscender, o.adjustedAscender) && Bridge.equals(this.adjustedDescender, o.adjustedDescender) && Bridge.equals(this.aspectRatio, o.aspectRatio) && Bridge.equals(this.scale, o.scale) && Bridge.equals(this.color, o.color) && Bridge.equals(this.underlineColor, o.underlineColor) && Bridge.equals(this.underlineVertexIndex, o.underlineVertexIndex) && Bridge.equals(this.strikethroughColor, o.strikethroughColor) && Bridge.equals(this.strikethroughVertexIndex, o.strikethroughVertexIndex) && Bridge.equals(this.highlightColor, o.highlightColor) && Bridge.equals(this.highlightState, o.highlightState) && Bridge.equals(this.style, o.style) && Bridge.equals(this.isVisible, o.isVisible);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_CharacterInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_CharacterInfo();
                 s.character = this.character;
                 s.index = this.index;
@@ -17401,6 +18482,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ColorGradient#init", this ); }
+
                     this.k_DefaultColor = new UnityEngine.Color();
                     this.k_DefaultColorMode = TMPro.ColorMode.FourCornersGradient;
                     this.k_DefaultColor = new pc.Color( 1, 1, 1, 1 );
@@ -17416,6 +18499,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ColorGradient#init", this ); }
+
                 this.topLeft = new UnityEngine.Color();
                 this.topRight = new UnityEngine.Color();
                 this.bottomLeft = new UnityEngine.Color();
@@ -17432,6 +18517,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ColorGradient#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.ScriptableObject.ctor.call(this);
                 this.colorMode = TMPro.TMP_ColorGradient.k_DefaultColorMode;
@@ -17451,6 +18538,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ColorGradient#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.ScriptableObject.ctor.call(this);
                 this.colorMode = TMPro.TMP_ColorGradient.k_DefaultColorMode;
@@ -17473,6 +18562,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (color0, color1, color2, color3) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ColorGradient#$ctor2", this ); }
+
                 this.$initialize();
                 UnityEngine.ScriptableObject.ctor.call(this);
                 this.colorMode = TMPro.TMP_ColorGradient.k_DefaultColorMode;
@@ -17501,6 +18592,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TextAlignmentOptions}
                  */
                 ConvertTextAlignmentEnumValues: function (oldValue) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Compatibility#ConvertTextAlignmentEnumValues", this ); }
+
                     switch (oldValue) {
                         case 0: 
                             return TMPro.TextAlignmentOptions.TopLeft;
@@ -17602,12 +18695,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#init", this ); }
+
                     this.s_NoOptionData = new TMPro.TMP_Dropdown.OptionData.ctor();
                 }
             },
             methods: {
                 /*TMPro.TMP_Dropdown.GetOrAddComponent:static start.*/
                 GetOrAddComponent: function (T, go) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#GetOrAddComponent", this ); }
+
                     var comp = go.GetComponent(T);
                     if (!comp) {
                         comp = go.AddComponent(T);
@@ -17649,9 +18746,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             template: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#template#get", this ); }
+
                     return this.m_Template;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#template#set", this ); }
+
                     this.m_Template = value;
                     this.RefreshShownValue();
                 }
@@ -17667,9 +18768,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             captionText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#captionText#get", this ); }
+
                     return this.m_CaptionText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#captionText#set", this ); }
+
                     this.m_CaptionText = value;
                     this.RefreshShownValue();
                 }
@@ -17685,9 +18790,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             captionImage: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#captionImage#get", this ); }
+
                     return this.m_CaptionImage;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#captionImage#set", this ); }
+
                     this.m_CaptionImage = value;
                     this.RefreshShownValue();
                 }
@@ -17703,9 +18812,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             placeholder: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#placeholder#get", this ); }
+
                     return this.m_Placeholder;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#placeholder#set", this ); }
+
                     this.m_Placeholder = value;
                     this.RefreshShownValue();
                 }
@@ -17721,9 +18834,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             itemText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#itemText#get", this ); }
+
                     return this.m_ItemText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#itemText#set", this ); }
+
                     this.m_ItemText = value;
                     this.RefreshShownValue();
                 }
@@ -17739,9 +18856,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             itemImage: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#itemImage#get", this ); }
+
                     return this.m_ItemImage;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#itemImage#set", this ); }
+
                     this.m_ItemImage = value;
                     this.RefreshShownValue();
                 }
@@ -17749,9 +18870,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             
             options: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#options#get", this ); }
+
                     return this.m_Options.options;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#options#set", this ); }
+
                     this.m_Options.options = value;
                     this.RefreshShownValue();
                 }
@@ -17767,32 +18892,46 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             alphaFadeSpeed: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#alphaFadeSpeed#get", this ); }
+
                     return this.m_AlphaFadeSpeed;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#alphaFadeSpeed#set", this ); }
+
                     this.m_AlphaFadeSpeed = value;
                 }
             },
             
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#onValueChanged#set", this ); }
+
                     this.m_OnValueChanged = value;
                 }
             },
             
             value: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#value#get", this ); }
+
                     return this.m_Value;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#value#set", this ); }
+
                     this.SetValue(value);
                 }
             },
             IsExpanded: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#IsExpanded#get", this ); }
+
                     return UnityEngine.GameObject.op_Inequality(this.m_Dropdown, null);
                 }
             }
@@ -17804,6 +18943,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#init", this ); }
+
                 this.m_Options = new TMPro.TMP_Dropdown.OptionDataList();
                 this.m_OnValueChanged = new TMPro.TMP_Dropdown.DropdownEvent();
                 this.m_AlphaFadeSpeed = 0.15;
@@ -17811,6 +18952,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.validTemplate = false;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
             }
@@ -17828,12 +18971,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetValueWithoutNotify: function (input) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#SetValueWithoutNotify", this ); }
+
                 this.SetValue(input, false);
             },
             /*TMPro.TMP_Dropdown.SetValueWithoutNotify end.*/
 
             /*TMPro.TMP_Dropdown.SetValue start.*/
             SetValue: function (value, sendCallback) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#SetValue", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 if (UnityEngine.Application.isPlaying && (value === this.m_Value || this.options.Count === 0)) {
                     return;
@@ -17851,6 +18998,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#Awake", this ); }
+
                 //#if UNITY_EDITOR
                 //if (!Application.isPlaying)
                 //    return;
@@ -17871,6 +19020,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.Start start.*/
             Start: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#Start", this ); }
+
                 UnityEngine.UI.Selectable.prototype.Start.call(this);
 
                 this.RefreshShownValue();
@@ -17879,6 +19030,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#OnDisable", this ); }
+
                 //Destroy dropdown and blocker in case user deactivates the dropdown when they click an option (case 935649)
                 this.ImmediateDestroyDropdownList();
 
@@ -17903,6 +19056,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             RefreshShownValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#RefreshShownValue", this ); }
+
                 var data = TMPro.TMP_Dropdown.s_NoOptionData;
 
                 if (this.options.Count > 0 && this.m_Value >= 0) {
@@ -17935,6 +19090,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_Dropdown.AddOptions$1 start.*/
             
             AddOptions$1: function (options) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AddOptions$1", this ); }
+
                 this.options.AddRange(options);
                 this.RefreshShownValue();
             },
@@ -17943,6 +19100,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_Dropdown.AddOptions start.*/
             
             AddOptions: function (options) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AddOptions", this ); }
+
                 for (var i = 0; i < options.Count; i++) {
                     this.options.add(new TMPro.TMP_Dropdown.OptionData.$ctor1(options.getItem(i)));
                 }
@@ -17954,6 +19113,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_Dropdown.AddOptions$2 start.*/
             
             AddOptions$2: function (options) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AddOptions$2", this ); }
+
                 for (var i = 0; i < options.Count; i++) {
                     this.options.add(new TMPro.TMP_Dropdown.OptionData.$ctor3(options.getItem(i)));
                 }
@@ -17973,6 +19134,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearOptions: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#ClearOptions", this ); }
+
                 this.options.clear();
                 this.m_Value = UnityEngine.Object.op_Implicit(this.m_Placeholder) ? -1 : 0;
                 this.RefreshShownValue();
@@ -17981,6 +19144,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.SetupTemplate start.*/
             SetupTemplate: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#SetupTemplate", this ); }
+
                 this.validTemplate = false;
 
                 if (!UnityEngine.Object.op_Implicit(this.m_Template)) {
@@ -18066,6 +19231,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#OnPointerClick", this ); }
+
                 this.Show();
             },
             /*TMPro.TMP_Dropdown.OnPointerClick end.*/
@@ -18082,6 +19249,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#OnSubmit", this ); }
+
                 this.Show();
             },
             /*TMPro.TMP_Dropdown.OnSubmit end.*/
@@ -18098,6 +19267,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnCancel: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#OnCancel", this ); }
+
                 this.Hide();
             },
             /*TMPro.TMP_Dropdown.OnCancel end.*/
@@ -18118,6 +19289,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Show: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#Show", this ); }
+
                 if (this.m_Coroutine != null) {
                     this.StopCoroutine$2(this.m_Coroutine);
                     this.ImmediateDestroyDropdownList();
@@ -18289,6 +19462,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.GameObject}                  The created blocker object
              */
             CreateBlocker: function (rootCanvas) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#CreateBlocker", this ); }
+
                 // Create blocker GameObject.
                 var blocker = new UnityEngine.GameObject.$ctor2("Blocker");
 
@@ -18356,6 +19531,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DestroyBlocker: function (blocker) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#DestroyBlocker", this ); }
+
                 UnityEngine.MonoBehaviour.Destroy(blocker);
             },
             /*TMPro.TMP_Dropdown.DestroyBlocker end.*/
@@ -18372,6 +19549,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.GameObject}                The created drop down list gameobject.
              */
             CreateDropdownList: function (template) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#CreateDropdownList", this ); }
+
                 return UnityEngine.Object.Instantiate(UnityEngine.GameObject, template);
             },
             /*TMPro.TMP_Dropdown.CreateDropdownList end.*/
@@ -18388,6 +19567,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DestroyDropdownList: function (dropdownList) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#DestroyDropdownList", this ); }
+
                 UnityEngine.MonoBehaviour.Destroy(dropdownList);
             },
             /*TMPro.TMP_Dropdown.DestroyDropdownList end.*/
@@ -18404,6 +19585,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_Dropdown.DropdownItem}                    The created dropdown item component
              */
             CreateItem: function (itemTemplate) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#CreateItem", this ); }
+
                 return UnityEngine.Object.Instantiate(TMPro.TMP_Dropdown.DropdownItem, itemTemplate);
             },
             /*TMPro.TMP_Dropdown.CreateItem end.*/
@@ -18419,11 +19602,15 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @param   {TMPro.TMP_Dropdown.DropdownItem}    item    The Item to destroy.
              * @return  {void}
              */
-            DestroyItem: function (item) { },
+            DestroyItem: function (item) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#DestroyItem", this ); }
+ },
             /*TMPro.TMP_Dropdown.DestroyItem end.*/
 
             /*TMPro.TMP_Dropdown.AddItem start.*/
             AddItem: function (data, selected, itemTemplate, items) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AddItem", this ); }
+
                 // Add a new item to the dropdown.
                 var item = this.CreateItem(itemTemplate);
                 item.rectTransform.SetParent(itemTemplate.rectTransform.parent, false);
@@ -18451,6 +19638,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.AlphaFadeList start.*/
             AlphaFadeList: function (duration, alpha) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AlphaFadeList", this ); }
+
                 var group = this.m_Dropdown.GetComponent(UnityEngine.CanvasGroup);
                 this.AlphaFadeList$1(duration, group.alpha, alpha);
             },
@@ -18458,6 +19647,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.AlphaFadeList$1 start.*/
             AlphaFadeList$1: function (duration, start, end) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#AlphaFadeList$1", this ); }
+
                 var $t;
                 if (end === start) {
                     return;
@@ -18472,6 +19663,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.SetAlpha start.*/
             SetAlpha: function (alpha) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#SetAlpha", this ); }
+
                 if (!UnityEngine.Object.op_Implicit(this.m_Dropdown)) {
                     return;
                 }
@@ -18491,6 +19684,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Hide: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#Hide", this ); }
+
                 if (this.m_Coroutine == null) {
                     if (UnityEngine.GameObject.op_Inequality(this.m_Dropdown, null)) {
                         this.AlphaFadeList(this.m_AlphaFadeSpeed, 0.0);
@@ -18513,6 +19708,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.DelayedDestroyDropdownList start.*/
             DelayedDestroyDropdownList: function (delay) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#DelayedDestroyDropdownList", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -18547,6 +19744,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.ImmediateDestroyDropdownList start.*/
             ImmediateDestroyDropdownList: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#ImmediateDestroyDropdownList", this ); }
+
                 for (var i = 0; i < this.m_Items.Count; i++) {
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.m_Items.getItem(i), null)) {
                         this.DestroyItem(this.m_Items.getItem(i));
@@ -18570,6 +19769,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Dropdown.OnSelectItem start.*/
             OnSelectItem: function (toggle) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown#OnSelectItem", this ); }
+
                 if (!toggle.isOn) {
                     toggle.isOn = true;
                 }
@@ -18631,33 +19832,49 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#text#set", this ); }
+
                     this.m_Text = value;
                 }
             },
             image: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#image#get", this ); }
+
                     return this.m_Image;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#image#set", this ); }
+
                     this.m_Image = value;
                 }
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#rectTransform#get", this ); }
+
                     return this.m_RectTransform;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#rectTransform#set", this ); }
+
                     this.m_RectTransform = value;
                 }
             },
             toggle: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#toggle#get", this ); }
+
                     return this.m_Toggle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#toggle#set", this ); }
+
                     this.m_Toggle = value;
                 }
             }
@@ -18669,12 +19886,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_Dropdown+DropdownItem.OnPointerEnter start.*/
             OnPointerEnter: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#OnPointerEnter", this ); }
+
                 UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(this.gameObject);
             },
             /*TMPro.TMP_Dropdown+DropdownItem.OnPointerEnter end.*/
 
             /*TMPro.TMP_Dropdown+DropdownItem.OnCancel start.*/
             OnCancel: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.DropdownItem#OnCancel", this ); }
+
                 var dropdown = this.GetComponentInParent(TMPro.TMP_Dropdown);
                 if (UnityEngine.Object.op_Implicit(dropdown)) {
                     dropdown.Hide();
@@ -18712,9 +19933,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#text#set", this ); }
+
                     this.m_Text = value;
                 }
             },
@@ -18729,22 +19954,32 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             image: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#image#get", this ); }
+
                     return this.m_Image;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#image#set", this ); }
+
                     this.m_Image = value;
                 }
             }
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#ctor", this ); }
+
                 this.$initialize();
             },
             $ctor1: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#$ctor1", this ); }
+
                 this.$initialize();
                 this.text = text;
             },
             $ctor3: function (image) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#$ctor3", this ); }
+
                 this.$initialize();
                 this.image = image;
             },
@@ -18760,6 +19995,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (text, image) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionData#$ctor2", this ); }
+
                 this.$initialize();
                 this.text = text;
                 this.image = image;
@@ -18792,15 +20029,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             options: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionDataList#options#get", this ); }
+
                     return this.m_Options;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionDataList#options#set", this ); }
+
                     this.m_Options = value;
                 }
             }
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Dropdown.OptionDataList#ctor", this ); }
+
                 this.$initialize();
                 this.options = new (System.Collections.Generic.List$1(TMPro.TMP_Dropdown.OptionData)).ctor();
             }
@@ -18837,15 +20080,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#instance#get", this ); }
+
                         return TMPro.TMP_FontAssetUtilities.s_Instance;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#init", this ); }
+
                     this.s_Instance = new TMPro.TMP_FontAssetUtilities();
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#ctor", this ); }
+
                 }
             },
             methods: {
@@ -18869,6 +20118,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Character}
                  */
                 GetCharacterFromFontAsset: function (unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAsset", this ); }
+
                     if (includeFallbacks) {
                         if (TMPro.TMP_FontAssetUtilities.k_SearchedAssets == null) {
                             TMPro.TMP_FontAssetUtilities.k_SearchedAssets = new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
@@ -18899,6 +20150,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Character}
                  */
                 GetCharacterFromFontAsset_Internal: function (unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAsset_Internal", this ); }
+
                     isAlternativeTypeface.v = false;
                     var character = { v : null };
 
@@ -19058,6 +20311,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Character}
                  */
                 GetCharacterFromFontAssets: function (unicode, sourceFontAsset, fontAssets, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#GetCharacterFromFontAssets", this ); }
+
                     isAlternativeTypeface.v = false;
 
                     // Make sure font asset list is valid
@@ -19107,6 +20362,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteCharacter}
                  */
                 GetSpriteCharacterFromSpriteAsset: function (unicode, spriteAsset, includeFallbacks) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#GetSpriteCharacterFromSpriteAsset", this ); }
+
                     // Make sure we have a valid sprite asset to search
                     if (spriteAsset == null) {
                         return null;
@@ -19174,6 +20431,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteCharacter}
                  */
                 GetSpriteCharacterFromSpriteAsset_Internal: function (unicode, spriteAsset, includeFallbacks) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAssetUtilities#GetSpriteCharacterFromSpriteAsset_Internal", this ); }
+
                     var spriteCharacter = { };
 
                     // Search sprite asset for potential sprite character for the given unicode value
@@ -19249,15 +20508,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphPairAdjustmentRecords: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontFeatureTable#glyphPairAdjustmentRecords#get", this ); }
+
                     return this.m_GlyphPairAdjustmentRecords;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontFeatureTable#glyphPairAdjustmentRecords#set", this ); }
+
                     this.m_GlyphPairAdjustmentRecords = value;
                 }
             }
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontFeatureTable#ctor", this ); }
+
                 this.$initialize();
                 this.m_GlyphPairAdjustmentRecords = new (System.Collections.Generic.List$1(TMPro.TMP_GlyphPairAdjustmentRecord)).ctor();
                 this.m_GlyphPairAdjustmentRecordLookupDictionary = new (System.Collections.Generic.Dictionary$2(System.UInt32,TMPro.TMP_GlyphPairAdjustmentRecord)).ctor();
@@ -19275,6 +20540,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortGlyphPairAdjustmentRecords: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontFeatureTable#SortGlyphPairAdjustmentRecords", this ); }
+
                 // Sort List of Kerning Info
                 if (this.m_GlyphPairAdjustmentRecords.Count > 0) {
                     this.m_GlyphPairAdjustmentRecords = System.Linq.Enumerable.from(this.m_GlyphPairAdjustmentRecords, TMPro.TMP_GlyphPairAdjustmentRecord).orderBy(function (s) {
@@ -19302,7 +20569,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_FontStyleStack(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#getDefaultValue", this ); }
+ return new TMPro.TMP_FontStyleStack(); }
             }
         },
         fields: {
@@ -19319,12 +20588,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.TMP_FontStyleStack.Copy start.*/
             Copy: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#Copy", this ); }
+
                 this.bold = other.bold;
                 this.italic = other.italic;
                 this.underline = other.underline;
@@ -19349,6 +20622,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#Clear", this ); }
+
                 this.bold = 0;
                 this.italic = 0;
                 this.underline = 0;
@@ -19364,6 +20639,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontStyleStack.Add start.*/
             Add: function (style) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#Add", this ); }
+
                 switch (style) {
                     case TMPro.FontStyles.Bold: 
                         this.bold++;
@@ -19394,6 +20671,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontStyleStack.Remove start.*/
             Remove: function (style) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#Remove", this ); }
+
                 switch (style) {
                     case TMPro.FontStyles.Bold: 
                         if (this.bold > 1) {
@@ -19451,16 +20730,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_FontStyleStack.Remove end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#getHashCode", this ); }
+
                 var h = Bridge.addHash([7007432629, this.bold, this.italic, this.underline, this.strikethrough, this.highlight, this.superscript, this.subscript, this.uppercase, this.lowercase, this.smallcaps]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_FontStyleStack)) {
                     return false;
                 }
                 return Bridge.equals(this.bold, o.bold) && Bridge.equals(this.italic, o.italic) && Bridge.equals(this.underline, o.underline) && Bridge.equals(this.strikethrough, o.strikethrough) && Bridge.equals(this.highlight, o.highlight) && Bridge.equals(this.superscript, o.superscript) && Bridge.equals(this.subscript, o.subscript) && Bridge.equals(this.uppercase, o.uppercase) && Bridge.equals(this.lowercase, o.lowercase) && Bridge.equals(this.smallcaps, o.smallcaps);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontStyleStack#$clone", this ); }
+
                 var s = to || new TMPro.TMP_FontStyleStack();
                 s.bold = this.bold;
                 s.italic = this.italic;
@@ -19499,6 +20784,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_FontAsset}
                  */
                 SearchForCharacter$1: function (font, unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontUtilities#SearchForCharacter$1", this ); }
+
                     if (TMPro.TMP_FontUtilities.k_searchedFontAssets == null) {
                         TMPro.TMP_FontUtilities.k_searchedFontAssets = new (System.Collections.Generic.List$1(System.Int32)).ctor();
                     }
@@ -19523,12 +20810,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_FontAsset}
                  */
                 SearchForCharacter: function (fonts, unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontUtilities#SearchForCharacter", this ); }
+
                     return TMPro.TMP_FontUtilities.SearchForCharacterInternal(fonts, unicode, character);
                 },
                 /*TMPro.TMP_FontUtilities.SearchForCharacter:static end.*/
 
                 /*TMPro.TMP_FontUtilities.SearchForCharacterInternal$1:static start.*/
                 SearchForCharacterInternal$1: function (font, unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontUtilities#SearchForCharacterInternal$1", this ); }
+
                     character.v = null;
 
                     if (font == null) {
@@ -19568,6 +20859,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_FontUtilities.SearchForCharacterInternal:static start.*/
                 SearchForCharacterInternal: function (fonts, unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontUtilities#SearchForCharacterInternal", this ); }
+
                     character.v = null;
 
                     if (fonts != null && fonts.Count > 0) {
@@ -19601,7 +20894,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_FontWeightPair(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontWeightPair#getDefaultValue", this ); }
+ return new TMPro.TMP_FontWeightPair(); }
             }
         },
         fields: {
@@ -19610,21 +20905,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontWeightPair#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontWeightPair#getHashCode", this ); }
+
                 var h = Bridge.addHash([6920145090, this.regularTypeface, this.italicTypeface]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontWeightPair#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_FontWeightPair)) {
                     return false;
                 }
                 return Bridge.equals(this.regularTypeface, o.regularTypeface) && Bridge.equals(this.italicTypeface, o.italicTypeface);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontWeightPair#$clone", this ); }
+
                 var s = to || new TMPro.TMP_FontWeightPair();
                 s.regularTypeface = this.regularTypeface;
                 s.italicTypeface = this.italicTypeface;
@@ -19667,7 +20970,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_GlyphAdjustmentRecord(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#getDefaultValue", this ); }
+ return new TMPro.TMP_GlyphAdjustmentRecord(); }
             }
         },
         fields: {
@@ -19686,9 +20991,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphIndex: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#glyphIndex#get", this ); }
+
                     return this.m_GlyphIndex;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#glyphIndex#set", this ); }
+
                     this.m_GlyphIndex = value;
                 }
             },
@@ -19703,15 +21012,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphValueRecord: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#glyphValueRecord#get", this ); }
+
                     return this.m_GlyphValueRecord.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#glyphValueRecord#set", this ); }
+
                     this.m_GlyphValueRecord = value.$clone();
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#init", this ); }
+
                 this.m_GlyphValueRecord = new TMPro.TMP_GlyphValueRecord();
             },
             /**
@@ -19726,31 +21041,43 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (glyphIndex, glyphValueRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#$ctor1", this ); }
+
                 this.$initialize();
                 this.m_GlyphIndex = glyphIndex;
                 this.m_GlyphValueRecord = glyphValueRecord.$clone();
             },
             $ctor2: function (adjustmentRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#$ctor2", this ); }
+
                 this.$initialize();
                 this.m_GlyphIndex = adjustmentRecord.glyphIndex;
                 this.m_GlyphValueRecord = new TMPro.TMP_GlyphValueRecord.$ctor3(adjustmentRecord.glyphValueRecord.$clone());
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#getHashCode", this ); }
+
                 var h = Bridge.addHash([10410672294, this.m_GlyphIndex, this.m_GlyphValueRecord]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_GlyphAdjustmentRecord)) {
                     return false;
                 }
                 return Bridge.equals(this.m_GlyphIndex, o.m_GlyphIndex) && Bridge.equals(this.m_GlyphValueRecord, o.m_GlyphValueRecord);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphAdjustmentRecord#$clone", this ); }
+
                 var s = to || new TMPro.TMP_GlyphAdjustmentRecord();
                 s.m_GlyphIndex = this.m_GlyphIndex;
                 s.m_GlyphValueRecord = this.m_GlyphValueRecord.$clone();
@@ -19785,9 +21112,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             firstAdjustmentRecord: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#firstAdjustmentRecord#get", this ); }
+
                     return this.m_FirstAdjustmentRecord.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#firstAdjustmentRecord#set", this ); }
+
                     this.m_FirstAdjustmentRecord = value.$clone();
                 }
             },
@@ -19802,9 +21133,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             secondAdjustmentRecord: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#secondAdjustmentRecord#get", this ); }
+
                     return this.m_SecondAdjustmentRecord.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#secondAdjustmentRecord#set", this ); }
+
                     this.m_SecondAdjustmentRecord = value.$clone();
                 }
             },
@@ -19817,15 +21152,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             featureLookupFlags: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#featureLookupFlags#get", this ); }
+
                     return this.m_FeatureLookupFlags;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#featureLookupFlags#set", this ); }
+
                     this.m_FeatureLookupFlags = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#init", this ); }
+
                 this.m_FirstAdjustmentRecord = new TMPro.TMP_GlyphAdjustmentRecord();
                 this.m_SecondAdjustmentRecord = new TMPro.TMP_GlyphAdjustmentRecord();
             },
@@ -19839,6 +21180,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#ctor", this ); }
+
                 this.$initialize();
             },
             /**
@@ -19853,6 +21196,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (firstAdjustmentRecord, secondAdjustmentRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#$ctor1", this ); }
+
                 this.$initialize();
                 this.m_FirstAdjustmentRecord = firstAdjustmentRecord.$clone();
                 this.m_SecondAdjustmentRecord = secondAdjustmentRecord.$clone();
@@ -19868,6 +21213,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (glyphPairAdjustmentRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphPairAdjustmentRecord#$ctor2", this ); }
+
                 this.$initialize();
                 this.m_FirstAdjustmentRecord = new TMPro.TMP_GlyphAdjustmentRecord.$ctor2(glyphPairAdjustmentRecord.firstAdjustmentRecord.$clone());
                 this.m_SecondAdjustmentRecord = new TMPro.TMP_GlyphAdjustmentRecord.$ctor2(glyphPairAdjustmentRecord.secondAdjustmentRecord.$clone());
@@ -19889,6 +21236,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         statics: {
             methods: {
                 op_Addition: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#op_Addition", this ); }
+
                     var c = new TMPro.TMP_GlyphValueRecord();
                     c.m_XPlacement = a.xPlacement + b.xPlacement;
                     c.m_YPlacement = a.yPlacement + b.yPlacement;
@@ -19897,7 +21246,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                     return c.$clone();
                 },
-                getDefaultValue: function () { return new TMPro.TMP_GlyphValueRecord(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#getDefaultValue", this ); }
+ return new TMPro.TMP_GlyphValueRecord(); }
             }
         },
         fields: {
@@ -19918,9 +21269,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             xPlacement: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#xPlacement#get", this ); }
+
                     return this.m_XPlacement;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#xPlacement#set", this ); }
+
                     this.m_XPlacement = value;
                 }
             },
@@ -19935,9 +21290,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             yPlacement: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#yPlacement#get", this ); }
+
                     return this.m_YPlacement;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#yPlacement#set", this ); }
+
                     this.m_YPlacement = value;
                 }
             },
@@ -19952,9 +21311,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             xAdvance: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#xAdvance#get", this ); }
+
                     return this.m_XAdvance;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#xAdvance#set", this ); }
+
                     this.m_XAdvance = value;
                 }
             },
@@ -19969,9 +21332,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             yAdvance: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#yAdvance#get", this ); }
+
                     return this.m_YAdvance;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#yAdvance#set", this ); }
+
                     this.m_YAdvance = value;
                 }
             }
@@ -19991,6 +21358,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (xPlacement, yPlacement, xAdvance, yAdvance) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#$ctor1", this ); }
+
                 this.$initialize();
                 this.m_XPlacement = xPlacement;
                 this.m_YPlacement = yPlacement;
@@ -19998,6 +21367,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_YAdvance = yAdvance;
             },
             $ctor2: function (valueRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#$ctor2", this ); }
+
                 this.$initialize();
                 this.m_XPlacement = valueRecord.xPlacement;
                 this.m_YPlacement = valueRecord.yPlacement;
@@ -20005,6 +21376,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_YAdvance = valueRecord.yAdvance;
             },
             $ctor3: function (valueRecord) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#$ctor3", this ); }
+
                 this.$initialize();
                 this.m_XPlacement = valueRecord.xPlacement;
                 this.m_YPlacement = valueRecord.yPlacement;
@@ -20012,21 +21385,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_YAdvance = valueRecord.yAdvance;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#getHashCode", this ); }
+
                 var h = Bridge.addHash([8689542363, this.m_XPlacement, this.m_YPlacement, this.m_XAdvance, this.m_YAdvance]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_GlyphValueRecord)) {
                     return false;
                 }
                 return Bridge.equals(this.m_XPlacement, o.m_XPlacement) && Bridge.equals(this.m_YPlacement, o.m_YPlacement) && Bridge.equals(this.m_XAdvance, o.m_XAdvance) && Bridge.equals(this.m_YAdvance, o.m_YAdvance);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_GlyphValueRecord#$clone", this ); }
+
                 var s = to || new TMPro.TMP_GlyphValueRecord();
                 s.m_XPlacement = this.m_XPlacement;
                 s.m_YPlacement = this.m_YPlacement;
@@ -20076,15 +21457,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             props: {
                 clipboard: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#clipboard#get", this ); }
+
                         return UnityEngine.GUIUtility.systemCopyBuffer;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#clipboard#set", this ); }
+
                         UnityEngine.GUIUtility.systemCopyBuffer = value;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#init", this ); }
+
                     this.kHScrollSpeed = 0.05;
                     this.kVScrollSpeed = 0.1;
                     this.kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
@@ -20386,11 +21773,15 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             compositionString: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#compositionString#get", this ); }
+
                     return UnityEngine.Input.compositionString;
                 }
             },
             compositionLength: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#compositionLength#get", this ); }
+
                     if (this.m_ReadOnly) {
                         return 0;
                     }
@@ -20400,6 +21791,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#mesh#get", this ); }
+
                     if (this.m_Mesh == null) {
                         this.m_Mesh = new UnityEngine.Mesh.ctor();
                     }
@@ -20417,6 +21810,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             shouldHideMobileInput: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#shouldHideMobileInput#get", this ); }
+
                     switch (UnityEngine.Application.platform) {
                         case UnityEngine.RuntimePlatform.Android: 
                         case UnityEngine.RuntimePlatform.IPhonePlayer: 
@@ -20427,6 +21822,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     }
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#shouldHideMobileInput#set", this ); }
+
                     switch (UnityEngine.Application.platform) {
                         case UnityEngine.RuntimePlatform.Android: 
                         case UnityEngine.RuntimePlatform.IPhonePlayer: 
@@ -20441,6 +21838,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             shouldHideSoftKeyboard: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#shouldHideSoftKeyboard#get", this ); }
+
                     switch (UnityEngine.Application.platform) {
                         case UnityEngine.RuntimePlatform.Android: 
                         case UnityEngine.RuntimePlatform.IPhonePlayer: 
@@ -20456,6 +21855,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     }
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#shouldHideSoftKeyboard#set", this ); }
+
                     switch (UnityEngine.Application.platform) {
                         case UnityEngine.RuntimePlatform.Android: 
                         case UnityEngine.RuntimePlatform.IPhonePlayer: 
@@ -20505,22 +21906,32 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#text#set", this ); }
+
                     this.SetText(value);
                 }
             },
             isFocused: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#isFocused#get", this ); }
+
                     return this.m_AllowInput;
                 }
             },
             caretBlinkRate: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretBlinkRate#get", this ); }
+
                     return this.m_CaretBlinkRate;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretBlinkRate#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_CaretBlinkRate"), value)) {
                         if (this.m_AllowInput) {
                             this.SetCaretActive();
@@ -20530,9 +21941,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             caretWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretWidth#get", this ); }
+
                     return this.m_CaretWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretWidth#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Int32, Bridge.ref(this, "m_CaretWidth"), value)) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20540,17 +21955,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             textViewport: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#textViewport#get", this ); }
+
                     return this.m_TextViewport;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#textViewport#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(UnityEngine.RectTransform, Bridge.ref(this, "m_TextViewport"), value);
                 }
             },
             textComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#textComponent#get", this ); }
+
                     return this.m_TextComponent;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#textComponent#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetClass(TMPro.TMP_Text, Bridge.ref(this, "m_TextComponent"), value)) {
                         this.SetTextComponentWrapMode();
                     }
@@ -20558,17 +21981,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             placeholder: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#placeholder#get", this ); }
+
                     return this.m_Placeholder;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#placeholder#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(UnityEngine.UI.Graphic, Bridge.ref(this, "m_Placeholder"), value);
                 }
             },
             verticalScrollbar: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#verticalScrollbar#get", this ); }
+
                     return this.m_VerticalScrollbar;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#verticalScrollbar#set", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.m_VerticalScrollbar, null)) {
                         this.m_VerticalScrollbar.onValueChanged.RemoveListener(Bridge.fn.cacheBind(this, this.OnScrollbarValueChange));
                     }
@@ -20583,9 +22014,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             scrollSensitivity: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#scrollSensitivity#get", this ); }
+
                     return this.m_ScrollSensitivity;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#scrollSensitivity#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_ScrollSensitivity"), value)) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20593,9 +22028,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             caretColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretColor#get", this ); }
+
                     return this.customCaretColor ? this.m_CaretColor.$clone() : this.textComponent.color.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretColor#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetColor(Bridge.ref(this, "m_CaretColor"), value.$clone())) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20603,9 +22042,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             customCaretColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#customCaretColor#get", this ); }
+
                     return this.m_CustomCaretColor;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#customCaretColor#set", this ); }
+
                     if (this.m_CustomCaretColor !== value) {
                         this.m_CustomCaretColor = value;
                         this.MarkGeometryAsDirty();
@@ -20614,9 +22057,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             selectionColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionColor#get", this ); }
+
                     return this.m_SelectionColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionColor#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetColor(Bridge.ref(this, "m_SelectionColor"), value.$clone())) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20624,81 +22071,121 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             onEndEdit: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onEndEdit#get", this ); }
+
                     return this.m_OnEndEdit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onEndEdit#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.SubmitEvent, Bridge.ref(this, "m_OnEndEdit"), value);
                 }
             },
             onSubmit: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onSubmit#get", this ); }
+
                     return this.m_OnSubmit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onSubmit#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.SubmitEvent, Bridge.ref(this, "m_OnSubmit"), value);
                 }
             },
             onSelect: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onSelect#get", this ); }
+
                     return this.m_OnSelect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onSelect#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.SelectionEvent, Bridge.ref(this, "m_OnSelect"), value);
                 }
             },
             onDeselect: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onDeselect#get", this ); }
+
                     return this.m_OnDeselect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onDeselect#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.SelectionEvent, Bridge.ref(this, "m_OnDeselect"), value);
                 }
             },
             onTextSelection: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onTextSelection#get", this ); }
+
                     return this.m_OnTextSelection;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onTextSelection#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.TextSelectionEvent, Bridge.ref(this, "m_OnTextSelection"), value);
                 }
             },
             onEndTextSelection: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onEndTextSelection#get", this ); }
+
                     return this.m_OnEndTextSelection;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onEndTextSelection#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.TextSelectionEvent, Bridge.ref(this, "m_OnEndTextSelection"), value);
                 }
             },
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onValueChanged#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.OnChangeEvent, Bridge.ref(this, "m_OnValueChanged"), value);
                 }
             },
             onTouchScreenKeyboardStatusChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onTouchScreenKeyboardStatusChanged#get", this ); }
+
                     return this.m_OnTouchScreenKeyboardStatusChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onTouchScreenKeyboardStatusChanged#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputField.TouchScreenKeyboardEvent, Bridge.ref(this, "m_OnTouchScreenKeyboardStatusChanged"), value);
                 }
             },
             onValidateInput: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onValidateInput#get", this ); }
+
                     return this.m_OnValidateInput;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onValidateInput#set", this ); }
+
                     TMPro.SetPropertyUtility.SetClass(Function, Bridge.ref(this, "m_OnValidateInput"), value);
                 }
             },
             characterLimit: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#characterLimit#get", this ); }
+
                     return this.m_CharacterLimit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#characterLimit#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Int32, Bridge.ref(this, "m_CharacterLimit"), Math.max(0, value))) {
                         this.UpdateLabel();
                         if (this.m_SoftKeyboard != null) {
@@ -20718,9 +22205,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             pointSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#pointSize#get", this ); }
+
                     return this.m_GlobalPointSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#pointSize#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_GlobalPointSize"), Math.max(0, value))) {
                         this.SetGlobalPointSize(this.m_GlobalPointSize);
                         this.UpdateLabel();
@@ -20738,9 +22229,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#fontAsset#get", this ); }
+
                     return this.m_GlobalFontAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#fontAsset#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetClass(TMPro.TMP_FontAsset, Bridge.ref(this, "m_GlobalFontAsset"), value)) {
                         this.SetGlobalFontAsset(this.m_GlobalFontAsset);
                         this.UpdateLabel();
@@ -20758,9 +22253,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             onFocusSelectAll: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onFocusSelectAll#get", this ); }
+
                     return this.m_OnFocusSelectAll;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#onFocusSelectAll#set", this ); }
+
                     this.m_OnFocusSelectAll = value;
                 }
             },
@@ -20775,9 +22274,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             resetOnDeActivation: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#resetOnDeActivation#get", this ); }
+
                     return this.m_ResetOnDeActivation;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#resetOnDeActivation#set", this ); }
+
                     this.m_ResetOnDeActivation = value;
                 }
             },
@@ -20792,9 +22295,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             restoreOriginalTextOnEscape: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#restoreOriginalTextOnEscape#get", this ); }
+
                     return this.m_RestoreOriginalTextOnEscape;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#restoreOriginalTextOnEscape#set", this ); }
+
                     this.m_RestoreOriginalTextOnEscape = value;
                 }
             },
@@ -20809,17 +22316,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isRichTextEditingAllowed: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#isRichTextEditingAllowed#get", this ); }
+
                     return this.m_isRichTextEditingAllowed;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#isRichTextEditingAllowed#set", this ); }
+
                     this.m_isRichTextEditingAllowed = value;
                 }
             },
             contentType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#contentType#get", this ); }
+
                     return this.m_ContentType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#contentType#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(TMPro.TMP_InputField.ContentType, Bridge.ref(this, "m_ContentType"), value)) {
                         this.EnforceContentType();
                     }
@@ -20827,9 +22342,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             lineType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#lineType#get", this ); }
+
                     return this.m_LineType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#lineType#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(TMPro.TMP_InputField.LineType, Bridge.ref(this, "m_LineType"), value)) {
                         this.SetToCustomIfContentTypeIsNot([TMPro.TMP_InputField.ContentType.Standard, TMPro.TMP_InputField.ContentType.Autocorrected]);
                         this.SetTextComponentWrapMode();
@@ -20847,9 +22366,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             lineLimit: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#lineLimit#get", this ); }
+
                     return this.m_LineLimit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#lineLimit#set", this ); }
+
                     if (this.m_LineType === TMPro.TMP_InputField.LineType.SingleLine) {
                         this.m_LineLimit = 1;
                     } else {
@@ -20860,9 +22383,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             inputType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#inputType#get", this ); }
+
                     return this.m_InputType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#inputType#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(TMPro.TMP_InputField.InputType, Bridge.ref(this, "m_InputType"), value)) {
                         this.SetToCustom();
                     }
@@ -20870,9 +22397,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             keyboardType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#keyboardType#get", this ); }
+
                     return this.m_KeyboardType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#keyboardType#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(UnityEngine.TouchScreenKeyboardType, Bridge.ref(this, "m_KeyboardType"), value)) {
                         this.SetToCustom();
                     }
@@ -20880,9 +22411,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             characterValidation: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#characterValidation#get", this ); }
+
                     return this.m_CharacterValidation;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#characterValidation#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(TMPro.TMP_InputField.CharacterValidation, Bridge.ref(this, "m_CharacterValidation"), value)) {
                         this.SetToCustom();
                     }
@@ -20899,9 +22434,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             inputValidator: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#inputValidator#get", this ); }
+
                     return this.m_InputValidator;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#inputValidator#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetClass(TMPro.TMP_InputValidator, Bridge.ref(this, "m_InputValidator"), value)) {
                         this.SetToCustom$1(TMPro.TMP_InputField.CharacterValidation.CustomValidator);
                     }
@@ -20909,31 +22448,45 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             readOnly: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#readOnly#get", this ); }
+
                     return this.m_ReadOnly;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#readOnly#set", this ); }
+
                     this.m_ReadOnly = value;
                 }
             },
             richText: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#richText#get", this ); }
+
                     return this.m_RichText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#richText#set", this ); }
+
                     this.m_RichText = value;
                     this.SetTextComponentRichTextMode();
                 }
             },
             multiLine: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#multiLine#get", this ); }
+
                     return this.m_LineType === TMPro.TMP_InputField.LineType.MultiLineNewline || this.lineType === TMPro.TMP_InputField.LineType.MultiLineSubmit;
                 }
             },
             asteriskChar: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#asteriskChar#get", this ); }
+
                     return this.m_AsteriskChar;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#asteriskChar#set", this ); }
+
                     if (TMPro.SetPropertyUtility.SetStruct(System.Char, Bridge.ref(this, "m_AsteriskChar"), value)) {
                         this.UpdateLabel();
                     }
@@ -20941,6 +22494,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             wasCanceled: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#wasCanceled#get", this ); }
+
                     return this.m_WasCanceled;
                 }
             },
@@ -20956,42 +22511,60 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             caretPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretPositionInternal#get", this ); }
+
                     return this.m_CaretPosition + this.compositionLength;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretPositionInternal#set", this ); }
+
                     this.m_CaretPosition = value;
                     this.ClampCaretPos(Bridge.ref(this, "m_CaretPosition"));
                 }
             },
             stringPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringPositionInternal#get", this ); }
+
                     return this.m_StringPosition + this.compositionLength;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringPositionInternal#set", this ); }
+
                     this.m_StringPosition = value;
                     this.ClampStringPos(Bridge.ref(this, "m_StringPosition"));
                 }
             },
             caretSelectPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretSelectPositionInternal#get", this ); }
+
                     return this.m_CaretSelectPosition + this.compositionLength;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretSelectPositionInternal#set", this ); }
+
                     this.m_CaretSelectPosition = value;
                     this.ClampCaretPos(Bridge.ref(this, "m_CaretSelectPosition"));
                 }
             },
             stringSelectPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringSelectPositionInternal#get", this ); }
+
                     return this.m_StringSelectPosition + this.compositionLength;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringSelectPositionInternal#set", this ); }
+
                     this.m_StringSelectPosition = value;
                     this.ClampStringPos(Bridge.ref(this, "m_StringSelectPosition"));
                 }
             },
             hasSelection$1: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#hasSelection$1#get", this ); }
+
                     return this.stringPositionInternal !== this.stringSelectPositionInternal;
                 }
             },
@@ -21007,9 +22580,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             caretPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretPosition#get", this ); }
+
                     return this.caretSelectPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#caretPosition#set", this ); }
+
                     this.selectionAnchorPosition = value;
                     this.selectionFocusPosition = value;
                     this.m_IsStringPositionDirty = true;
@@ -21027,9 +22604,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             selectionAnchorPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionAnchorPosition#get", this ); }
+
                     return this.caretPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionAnchorPosition#set", this ); }
+
                     if (this.compositionLength !== 0) {
                         return;
                     }
@@ -21050,9 +22631,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             selectionFocusPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionFocusPosition#get", this ); }
+
                     return this.caretSelectPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionFocusPosition#set", this ); }
+
                     if (this.compositionLength !== 0) {
                         return;
                     }
@@ -21070,9 +22655,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             stringPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringPosition#get", this ); }
+
                     return this.stringSelectPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#stringPosition#set", this ); }
+
                     this.selectionStringAnchorPosition = value;
                     this.selectionStringFocusPosition = value;
                     this.m_IsCaretPositionDirty = true;
@@ -21089,9 +22678,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             selectionStringAnchorPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionStringAnchorPosition#get", this ); }
+
                     return this.stringPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionStringAnchorPosition#set", this ); }
+
                     if (this.compositionLength !== 0) {
                         return;
                     }
@@ -21111,9 +22704,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             selectionStringFocusPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionStringFocusPosition#get", this ); }
+
                     return this.stringSelectPositionInternal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#selectionStringFocusPosition#set", this ); }
+
                     if (this.compositionLength !== 0) {
                         return;
                     }
@@ -21134,6 +22731,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#minWidth#get", this ); }
+
                     return 0;
                 }
             },
@@ -21149,6 +22748,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#preferredWidth#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.textComponent, null)) {
                         return 0;
                     }
@@ -21178,6 +22779,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#flexibleWidth#get", this ); }
+
                     return -1;
                 }
             },
@@ -21193,6 +22796,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#minHeight#get", this ); }
+
                     return 0;
                 }
             },
@@ -21208,6 +22813,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#preferredHeight#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.textComponent, null)) {
                         return 0;
                     }
@@ -21237,6 +22844,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#flexibleHeight#get", this ); }
+
                     return -1;
                 }
             },
@@ -21252,6 +22861,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#layoutPriority#get", this ); }
+
                     return 1;
                 }
             }
@@ -21284,6 +22895,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#init", this ); }
+
                 this.m_CachedViewportRect = new UnityEngine.Rect();
                 this.m_CaretColor = new UnityEngine.Color();
                 this.m_SelectionColor = new UnityEngine.Color();
@@ -21349,6 +22962,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_ProcessingEvent = new UnityEngine.Event();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
                 this.SetTextComponentWrapMode();
@@ -21357,6 +22972,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_InputField.isKeyboardUsingEvents start.*/
             isKeyboardUsingEvents: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#isKeyboardUsingEvents", this ); }
+
                 switch (UnityEngine.Application.platform) {
                     case UnityEngine.RuntimePlatform.Android: 
                     case UnityEngine.RuntimePlatform.IPhonePlayer: 
@@ -21381,12 +22998,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetTextWithoutNotify: function (input) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetTextWithoutNotify", this ); }
+
                 this.SetText(input, false);
             },
             /*TMPro.TMP_InputField.SetTextWithoutNotify end.*/
 
             /*TMPro.TMP_InputField.SetText start.*/
             SetText: function (value, sendCallback) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetText", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 if (Bridge.referenceEquals(this.text, value)) {
                     return;
@@ -21453,6 +23074,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ClampStringPos start.*/
             ClampStringPos: function (pos) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ClampStringPos", this ); }
+
                 if (pos.v < 0) {
                     pos.v = 0;
                 } else {
@@ -21465,6 +23088,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ClampCaretPos start.*/
             ClampCaretPos: function (pos) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ClampCaretPos", this ); }
+
                 if (pos.v < 0) {
                     pos.v = 0;
                 } else {
@@ -21477,6 +23102,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnEnable", this ); }
+
                 //Debug.Log("*** OnEnable() *** - " + this.name);
 
                 UnityEngine.UI.Selectable.prototype.OnEnable.call(this);
@@ -21548,6 +23175,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnDisable", this ); }
+
                 // the coroutine will be terminated, so this will ensure it restarts when we are next activated
                 this.m_BlinkCoroutine = null;
 
@@ -21592,6 +23221,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ON_TEXT_CHANGED: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ON_TEXT_CHANGED", this ); }
+
                 if (Bridge.referenceEquals(obj, this.m_TextComponent) && UnityEngine.Application.isPlaying && this.compositionLength === 0) {
                     this.caretPositionInternal = this.GetCaretPositionFromStringIndex(this.stringPositionInternal);
                     this.caretSelectPositionInternal = this.GetCaretPositionFromStringIndex(this.stringSelectPositionInternal);
@@ -21602,6 +23233,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.CaretBlink start.*/
             CaretBlink: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#CaretBlink", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -21671,6 +23304,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetCaretVisible start.*/
             SetCaretVisible: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetCaretVisible", this ); }
+
                 if (!this.m_AllowInput) {
                     return;
                 }
@@ -21683,6 +23318,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetCaretActive start.*/
             SetCaretActive: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetCaretActive", this ); }
+
                 if (!this.m_AllowInput) {
                     return;
                 }
@@ -21699,6 +23336,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnFocus start.*/
             OnFocus: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnFocus", this ); }
+
                 if (this.m_OnFocusSelectAll) {
                     this.SelectAll();
                 }
@@ -21707,6 +23346,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SelectAll start.*/
             SelectAll: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SelectAll", this ); }
+
                 this.m_isSelectAll = true;
                 this.stringPositionInternal = this.text.length;
                 this.stringSelectPositionInternal = 0;
@@ -21725,6 +23366,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             MoveTextEnd: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveTextEnd", this ); }
+
                 var $t;
                 if (this.m_isRichTextEditingAllowed) {
                     var position = this.text.length;
@@ -21763,6 +23406,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             MoveTextStart: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveTextStart", this ); }
+
                 var $t;
                 if (this.m_isRichTextEditingAllowed) {
                     var position = 0;
@@ -21802,6 +23447,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             MoveToEndOfLine: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveToEndOfLine", this ); }
+
                 var $t, $t1, $t2;
                 // Get the line the caret is currently located on.
                 var currentLine = ($t = this.m_TextComponent.textInfo.characterInfo)[this.caretPositionInternal].lineNumber;
@@ -21839,6 +23486,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             MoveToStartOfLine: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveToStartOfLine", this ); }
+
                 var $t, $t1, $t2, $t3;
                 // Get the line the caret is currently located on.
                 var currentLine = ($t = this.m_TextComponent.textInfo.characterInfo)[this.caretPositionInternal].lineNumber;
@@ -21868,6 +23517,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.InPlaceEditing start.*/
             InPlaceEditing: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#InPlaceEditing", this ); }
+
                 if (this.m_TouchKeyboardAllowsInPlaceEditing || (UnityEngine.TouchScreenKeyboard.isSupported && (UnityEngine.Application.platform === UnityEngine.RuntimePlatform.WSAPlayerX86 || UnityEngine.Application.platform === UnityEngine.RuntimePlatform.WSAPlayerX64 || UnityEngine.Application.platform === UnityEngine.RuntimePlatform.WSAPlayerARM))) {
                     return true;
                 }
@@ -21886,6 +23537,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.UpdateStringPositionFromKeyboard start.*/
             UpdateStringPositionFromKeyboard: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateStringPositionFromKeyboard", this ); }
+
                 // TODO: Might want to add null check here.
                 var selectionRange = this.m_SoftKeyboard.selection.$clone();
 
@@ -21930,6 +23583,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             LateUpdate: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#LateUpdate", this ); }
+
                 // Only activate if we are not already activated.
                 if (this.m_ShouldActivateNextUpdate) {
                     if (!this.isFocused) {
@@ -22124,12 +23779,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MayDrag start.*/
             MayDrag: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MayDrag", this ); }
+
                 return this.IsActive() && this.IsInteractable() && eventData.button === UnityEngine.EventSystems.PointerEventData.InputButton.Left && UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && (this.m_SoftKeyboard == null || this.shouldHideSoftKeyboard || this.shouldHideMobileInput);
             },
             /*TMPro.TMP_InputField.MayDrag end.*/
 
             /*TMPro.TMP_InputField.OnBeginDrag start.*/
             OnBeginDrag: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnBeginDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -22140,6 +23799,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnDrag start.*/
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnDrag", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7;
                 if (!this.MayDrag(eventData)) {
                     return;
@@ -22178,6 +23839,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MouseDragOutsideRect start.*/
             MouseDragOutsideRect: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MouseDragOutsideRect", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -22261,6 +23924,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnEndDrag start.*/
             OnEndDrag: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnEndDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -22271,6 +23936,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnPointerDown start.*/
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnPointerDown", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19, $t20, $t21, $t22, $t23, $t24, $t25, $t26, $t27;
                 if (!this.MayDrag(eventData)) {
                     return;
@@ -22372,6 +24039,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.KeyPressed start.*/
             KeyPressed: function (evt) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#KeyPressed", this ); }
+
                 var currentEventModifiers = evt.modifiers;
                 var ctrl = (currentEventModifiers & UnityEngine.EventModifiers.Control) !== 0;
                 var shift = (currentEventModifiers & UnityEngine.EventModifiers.Shift) !== 0;
@@ -22521,6 +24190,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.IsValidChar start.*/
             IsValidChar: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#IsValidChar", this ); }
+
                 // Null character
                 if (c === 0) {
                     return false;
@@ -22545,6 +24216,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ProcessEvent start.*/
             ProcessEvent: function (e) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ProcessEvent", this ); }
+
                 this.KeyPressed(e);
             },
             /*TMPro.TMP_InputField.ProcessEvent end.*/
@@ -22559,6 +24232,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnUpdateSelected: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnUpdateSelected", this ); }
+
                 if (!this.isFocused) {
                     return;
                 }
@@ -22632,6 +24307,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnScroll: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnScroll", this ); }
+
                 // Return if Single Line
                 if (this.m_LineType === TMPro.TMP_InputField.LineType.SingleLine) {
                     return;
@@ -22660,6 +24337,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.GetSelectedString start.*/
             GetSelectedString: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GetSelectedString", this ); }
+
                 if (!this.hasSelection$1) {
                     return "";
                 }
@@ -22686,6 +24365,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.FindNextWordBegin start.*/
             FindNextWordBegin: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#FindNextWordBegin", this ); }
+
                 if (this.stringSelectPositionInternal + 1 >= this.text.length) {
                     return this.text.length;
                 }
@@ -22704,6 +24385,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MoveRight start.*/
             MoveRight: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveRight", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6;
                 if (this.hasSelection$1 && !shift) {
                     // By convention, if we have a selection and move right without holding shift,
@@ -22748,6 +24431,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.FindPrevWordBegin start.*/
             FindPrevWordBegin: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#FindPrevWordBegin", this ); }
+
                 if (this.stringSelectPositionInternal - 2 < 0) {
                     return 0;
                 }
@@ -22766,6 +24451,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MoveLeft start.*/
             MoveLeft: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveLeft", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6;
                 if (this.hasSelection$1 && !shift) {
                     // By convention, if we have a selection and move left without holding shift,
@@ -22810,6 +24497,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.LineUpCharacterPosition start.*/
             LineUpCharacterPosition: function (originalPos, goToFirstChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#LineUpCharacterPosition", this ); }
+
                 var $t, $t1, $t2, $t3;
                 if (originalPos >= this.m_TextComponent.textInfo.characterCount) {
                     originalPos -= 1;
@@ -22868,6 +24557,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.LineDownCharacterPosition start.*/
             LineDownCharacterPosition: function (originalPos, goToLastChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#LineDownCharacterPosition", this ); }
+
                 var $t, $t1, $t2, $t3;
                 if (originalPos >= this.m_TextComponent.textInfo.characterCount) {
                     return this.m_TextComponent.textInfo.characterCount - 1;
@@ -22926,6 +24617,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.PageUpCharacterPosition start.*/
             PageUpCharacterPosition: function (originalPos, goToFirstChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#PageUpCharacterPosition", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (originalPos >= this.m_TextComponent.textInfo.characterCount) {
                     originalPos -= 1;
@@ -22994,6 +24687,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.PageDownCharacterPosition start.*/
             PageDownCharacterPosition: function (originalPos, goToLastChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#PageDownCharacterPosition", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (originalPos >= this.m_TextComponent.textInfo.characterCount) {
                     return this.m_TextComponent.textInfo.characterCount - 1;
@@ -23061,12 +24756,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MoveDown start.*/
             MoveDown: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveDown", this ); }
+
                 this.MoveDown$1(shift, true);
             },
             /*TMPro.TMP_InputField.MoveDown end.*/
 
             /*TMPro.TMP_InputField.MoveDown$1 start.*/
             MoveDown$1: function (shift, goToLastChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveDown$1", this ); }
+
                 var $t, $t1;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press down without shift,
@@ -23089,12 +24788,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MoveUp start.*/
             MoveUp: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveUp", this ); }
+
                 this.MoveUp$1(shift, true);
             },
             /*TMPro.TMP_InputField.MoveUp end.*/
 
             /*TMPro.TMP_InputField.MoveUp$1 start.*/
             MoveUp$1: function (shift, goToFirstChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MoveUp$1", this ); }
+
                 var $t, $t1;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press up without shift,
@@ -23117,12 +24820,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MovePageUp start.*/
             MovePageUp: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MovePageUp", this ); }
+
                 this.MovePageUp$1(shift, true);
             },
             /*TMPro.TMP_InputField.MovePageUp end.*/
 
             /*TMPro.TMP_InputField.MovePageUp$1 start.*/
             MovePageUp$1: function (shift, goToFirstChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MovePageUp$1", this ); }
+
                 var $t, $t1;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press up without shift,
@@ -23165,12 +24872,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.MovePageDown start.*/
             MovePageDown: function (shift) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MovePageDown", this ); }
+
                 this.MovePageDown$1(shift, true);
             },
             /*TMPro.TMP_InputField.MovePageDown end.*/
 
             /*TMPro.TMP_InputField.MovePageDown$1 start.*/
             MovePageDown$1: function (shift, goToLastChar) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MovePageDown$1", this ); }
+
                 var $t, $t1;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press down without shift,
@@ -23212,6 +24923,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.Delete start.*/
             Delete: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Delete", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5;
                 if (this.m_ReadOnly) {
                     return;
@@ -23266,6 +24979,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DeleteKey: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#DeleteKey", this ); }
+
                 var $t, $t1;
                 if (this.m_ReadOnly) {
                     return;
@@ -23322,6 +25037,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Backspace: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Backspace", this ); }
+
                 var $t, $t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8;
                 if (this.m_ReadOnly) {
                     return;
@@ -23390,6 +25107,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Append$1: function (input) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Append$1", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -23410,6 +25129,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.Append start.*/
             Append: function (input) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Append", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -23450,6 +25171,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.Insert start.*/
             Insert: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Insert", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -23478,6 +25201,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.UpdateTouchKeyboardFromEditChanges start.*/
             UpdateTouchKeyboardFromEditChanges: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateTouchKeyboardFromEditChanges", this ); }
+
                 // Update the TouchKeyboard's text from edit changes
                 // if in-place editing is allowed
                 if (this.m_SoftKeyboard != null && this.InPlaceEditing()) {
@@ -23488,6 +25213,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnValueChangedAndUpdateLabel start.*/
             SendOnValueChangedAndUpdateLabel: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnValueChangedAndUpdateLabel", this ); }
+
                 this.UpdateLabel();
                 this.SendOnValueChanged();
             },
@@ -23495,6 +25222,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnValueChanged start.*/
             SendOnValueChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnValueChanged", this ); }
+
                 if (this.onValueChanged != null) {
                     this.onValueChanged.Invoke(this.text);
                 }
@@ -23512,6 +25241,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SendOnEndEdit: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnEndEdit", this ); }
+
                 if (this.onEndEdit != null) {
                     this.onEndEdit.Invoke(this.m_Text);
                 }
@@ -23520,6 +25251,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnSubmit start.*/
             SendOnSubmit: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnSubmit", this ); }
+
                 if (this.onSubmit != null) {
                     this.onSubmit.Invoke(this.m_Text);
                 }
@@ -23528,6 +25261,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnFocus start.*/
             SendOnFocus: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnFocus", this ); }
+
                 if (this.onSelect != null) {
                     this.onSelect.Invoke(this.m_Text);
                 }
@@ -23536,6 +25271,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnFocusLost start.*/
             SendOnFocusLost: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnFocusLost", this ); }
+
                 if (this.onDeselect != null) {
                     this.onDeselect.Invoke(this.m_Text);
                 }
@@ -23544,6 +25281,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnTextSelection start.*/
             SendOnTextSelection: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnTextSelection", this ); }
+
                 this.m_isSelected = true;
 
                 if (this.onTextSelection != null) {
@@ -23554,6 +25293,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendOnEndTextSelection start.*/
             SendOnEndTextSelection: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendOnEndTextSelection", this ); }
+
                 if (!this.m_isSelected) {
                     return;
                 }
@@ -23568,6 +25309,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SendTouchScreenKeyboardStatusChanged start.*/
             SendTouchScreenKeyboardStatusChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SendTouchScreenKeyboardStatusChanged", this ); }
+
                 if (this.onTouchScreenKeyboardStatusChanged != null) {
                     this.onTouchScreenKeyboardStatusChanged.Invoke(this.m_SoftKeyboard.status);
                 }
@@ -23585,6 +25328,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateLabel: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateLabel", this ); }
+
                 var $t, $t1, $t2;
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && this.m_TextComponent.font != null && this.m_PreventCallback === false) {
                     // Prevent callback from the text component as we assign new text. This is to prevent a recursive call.
@@ -23667,6 +25412,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.UpdateScrollbar start.*/
             UpdateScrollbar: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateScrollbar", this ); }
+
                 var $t;
                 // Update Scrollbar
                 if (UnityEngine.Object.op_Implicit(this.m_VerticalScrollbar)) {
@@ -23697,6 +25444,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnScrollbarValueChange: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnScrollbarValueChange", this ); }
+
                 if (this.m_IsUpdatingScrollbarValues) {
                     this.m_IsUpdatingScrollbarValues = false;
                     return;
@@ -23716,6 +25465,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.UpdateMaskRegions start.*/
             UpdateMaskRegions: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateMaskRegions", this ); }
+
                 // TODO: Figure out a better way to handle adding an offset to the masking region
                 // This region is defined by the RectTransform of the GameObject that contains the RectMask2D component.
                 /* 
@@ -23757,6 +25508,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AdjustTextPositionRelativeToViewport: function (relativePosition) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#AdjustTextPositionRelativeToViewport", this ); }
+
                 //Debug.Log("- Adjusting vertical text position to " + relativePosition);
                 if (UnityEngine.Component.op_Equality(this.m_TextViewport, null)) {
                     return;
@@ -23780,6 +25533,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.GetCaretPositionFromStringIndex start.*/
             GetCaretPositionFromStringIndex: function (stringIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GetCaretPositionFromStringIndex", this ); }
+
                 var $t;
                 var count = this.m_TextComponent.textInfo.characterCount;
 
@@ -23805,6 +25560,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetMinCaretPositionFromStringIndex: function (stringIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GetMinCaretPositionFromStringIndex", this ); }
+
                 var $t, $t1;
                 var count = this.m_TextComponent.textInfo.characterCount;
 
@@ -23830,6 +25587,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetMaxCaretPositionFromStringIndex: function (stringIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GetMaxCaretPositionFromStringIndex", this ); }
+
                 var $t;
                 var count = this.m_TextComponent.textInfo.characterCount;
 
@@ -23845,6 +25604,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.GetStringIndexFromCaretPosition start.*/
             GetStringIndexFromCaretPosition: function (caretPosition) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GetStringIndexFromCaretPosition", this ); }
+
                 var $t;
                 caretPosition = {v:caretPosition};
                 // Clamp values between 0 and character count.
@@ -23856,12 +25617,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ForceLabelUpdate start.*/
             ForceLabelUpdate: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ForceLabelUpdate", this ); }
+
                 this.UpdateLabel();
             },
             /*TMPro.TMP_InputField.ForceLabelUpdate end.*/
 
             /*TMPro.TMP_InputField.MarkGeometryAsDirty start.*/
             MarkGeometryAsDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#MarkGeometryAsDirty", this ); }
+
 
                 UnityEngine.UI.CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(this);
             },
@@ -23869,6 +25634,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.Rebuild start.*/
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Rebuild", this ); }
+
                 switch (update) {
                     case UnityEngine.UI.CanvasUpdate.LatePreRender: 
                         this.UpdateGeometry();
@@ -23878,15 +25645,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_InputField.Rebuild end.*/
 
             /*TMPro.TMP_InputField.LayoutComplete start.*/
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#LayoutComplete", this ); }
+ },
             /*TMPro.TMP_InputField.LayoutComplete end.*/
 
             /*TMPro.TMP_InputField.GraphicUpdateComplete start.*/
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GraphicUpdateComplete", this ); }
+ },
             /*TMPro.TMP_InputField.GraphicUpdateComplete end.*/
 
             /*TMPro.TMP_InputField.UpdateGeometry start.*/
             UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#UpdateGeometry", this ); }
+
 
                 // No need to draw a cursor on mobile as its handled by the devices keyboard.
                 if (this.InPlaceEditing() === false) {
@@ -23914,6 +25687,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AssignPositioningIfNeeded: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#AssignPositioningIfNeeded", this ); }
+
                 var $t, $t1;
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && UnityEngine.Component.op_Inequality(this.caretRectTrans, null) && (!pc.Vec3.equals( this.caretRectTrans.localPosition, this.m_TextComponent.rectTransform$1.localPosition ) || ($t = this.caretRectTrans.localRotation, $t1 = this.m_TextComponent.rectTransform$1.localRotation, ( $t == null && $t1 != null ) || ( $t != null && $t1 == null ) || ( $t != null && !$t.equals( $t1 ) )) || !pc.Vec3.equals( this.caretRectTrans.localScale, this.m_TextComponent.rectTransform$1.localScale ) || !pc.Vec2.equals( this.caretRectTrans.anchorMin, this.m_TextComponent.rectTransform$1.anchorMin ) || !pc.Vec2.equals( this.caretRectTrans.anchorMax, this.m_TextComponent.rectTransform$1.anchorMax ) || !pc.Vec2.equals( this.caretRectTrans.anchoredPosition, this.m_TextComponent.rectTransform$1.anchoredPosition ) || !pc.Vec2.equals( this.caretRectTrans.sizeDelta, this.m_TextComponent.rectTransform$1.sizeDelta ) || !pc.Vec2.equals( this.caretRectTrans.pivot, this.m_TextComponent.rectTransform$1.pivot ))) {
                     this.caretRectTrans.localPosition = this.m_TextComponent.rectTransform$1.localPosition.$clone();
@@ -23933,6 +25708,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnFillVBO start.*/
             OnFillVBO: function (vbo) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnFillVBO", this ); }
+
                 var helper = new UnityEngine.UI.VertexHelper.ctor();
                 try {
                     if (!this.isFocused && !this.m_SelectionStillActive) {
@@ -23972,6 +25749,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.GenerateCaret start.*/
             GenerateCaret: function (vbo, roundingOffset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GenerateCaret", this ); }
+
                 var $t, $t1, $t2, $t3;
                 if (this.m_CaretVisible === false) {
                     return;
@@ -24086,6 +25865,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.CreateCursorVerts start.*/
             CreateCursorVerts: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#CreateCursorVerts", this ); }
+
                 this.m_CursorVerts = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
@@ -24099,6 +25880,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.GenerateHightlight start.*/
             GenerateHightlight: function (vbo, roundingOffset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#GenerateHightlight", this ); }
+
                 // Update Masking Region
                 this.UpdateMaskRegions();
 
@@ -24215,6 +25998,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AdjustRectTransformRelativeToViewport: function (startPosition, height, isCharVisible) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#AdjustRectTransformRelativeToViewport", this ); }
+
                 var $t, $t1;
                 if (UnityEngine.Component.op_Equality(this.m_TextViewport, null)) {
                     return;
@@ -24313,6 +26098,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             Validate: function (text, pos, ch) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#Validate", this ); }
+
                 text = {v:text};
                 pos = {v:pos};
                 // Validation is disabled
@@ -24433,6 +26220,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ActivateInputField start.*/
             ActivateInputField: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ActivateInputField", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null) || this.m_TextComponent.font == null || !this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -24450,6 +26239,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.ActivateInputFieldInternal start.*/
             ActivateInputFieldInternal: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ActivateInputFieldInternal", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(UnityEngine.EventSystems.EventSystem.current, null)) {
                     return;
                 }
@@ -24496,6 +26287,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnSelect start.*/
             OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnSelect", this ); }
+
                 //Debug.Log("OnSelect()");
 
                 UnityEngine.UI.Selectable.prototype.OnSelect.call(this, eventData);
@@ -24507,6 +26300,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnPointerClick start.*/
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnPointerClick", this ); }
+
                 //Debug.Log("Pointer Click Event...");
 
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
@@ -24519,12 +26314,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnControlClick start.*/
             OnControlClick: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnControlClick", this ); }
+
                 //Debug.Log("Input Field control click...");
             },
             /*TMPro.TMP_InputField.OnControlClick end.*/
 
             /*TMPro.TMP_InputField.ReleaseSelection start.*/
             ReleaseSelection: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#ReleaseSelection", this ); }
+
                 this.m_SelectionStillActive = false;
                 this.m_ReleaseSelection = false;
                 this.m_PreviouslySelectedObject = null;
@@ -24538,6 +26337,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.DeactivateInputField start.*/
             DeactivateInputField: function (clearSelection) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#DeactivateInputField", this ); }
+
                 if (clearSelection === void 0) { clearSelection = false; }
                 //Debug.Log("Deactivate Input Field...");
 
@@ -24590,6 +26391,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnDeselect start.*/
             OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnDeselect", this ); }
+
                 this.DeactivateInputField();
 
                 UnityEngine.UI.Selectable.prototype.OnDeselect.call(this, eventData);
@@ -24599,6 +26402,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.OnSubmit start.*/
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#OnSubmit", this ); }
+
                 //Debug.Log("OnSubmit()");
 
                 if (!this.IsActive() || !this.IsInteractable()) {
@@ -24615,6 +26420,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.EnforceContentType start.*/
             EnforceContentType: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#EnforceContentType", this ); }
+
                 switch (this.contentType) {
                     case TMPro.TMP_InputField.ContentType.Standard: 
                         {
@@ -24701,6 +26508,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetTextComponentWrapMode start.*/
             SetTextComponentWrapMode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetTextComponentWrapMode", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null)) {
                     return;
                 }
@@ -24715,6 +26524,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetTextComponentRichTextMode start.*/
             SetTextComponentRichTextMode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetTextComponentRichTextMode", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null)) {
                     return;
                 }
@@ -24725,6 +26536,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetToCustomIfContentTypeIsNot start.*/
             SetToCustomIfContentTypeIsNot: function (allowedContentTypes) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetToCustomIfContentTypeIsNot", this ); }
+
                 if (allowedContentTypes === void 0) { allowedContentTypes = []; }
                 if (this.contentType === TMPro.TMP_InputField.ContentType.Custom) {
                     return;
@@ -24742,6 +26555,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetToCustom start.*/
             SetToCustom: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetToCustom", this ); }
+
                 if (this.contentType === TMPro.TMP_InputField.ContentType.Custom) {
                     return;
                 }
@@ -24752,6 +26567,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.SetToCustom$1 start.*/
             SetToCustom$1: function (characterValidation) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetToCustom$1", this ); }
+
                 if (this.contentType === TMPro.TMP_InputField.ContentType.Custom) {
                     characterValidation = TMPro.TMP_InputField.CharacterValidation.CustomValidator;
                     return;
@@ -24764,6 +26581,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_InputField.DoStateTransition start.*/
             DoStateTransition: function (state, instant) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#DoStateTransition", this ); }
+
                 if (this.m_HasDoneFocusTransition) {
                     state = UnityEngine.UI.Selectable.SelectionState.Selected;
                 } else {
@@ -24786,7 +26605,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_InputField
              * @return  {void}
              */
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#CalculateLayoutInputHorizontal", this ); }
+ },
             /*TMPro.TMP_InputField.CalculateLayoutInputHorizontal end.*/
 
             /*TMPro.TMP_InputField.CalculateLayoutInputVertical start.*/
@@ -24799,7 +26620,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @memberof TMPro.TMP_InputField
              * @return  {void}
              */
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#CalculateLayoutInputVertical", this ); }
+ },
             /*TMPro.TMP_InputField.CalculateLayoutInputVertical end.*/
 
             /*TMPro.TMP_InputField.SetGlobalPointSize start.*/
@@ -24814,6 +26637,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetGlobalPointSize: function (pointSize) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetGlobalPointSize", this ); }
+
                 var placeholderTextComponent = Bridge.as(this.m_Placeholder, TMPro.TMP_Text);
 
                 if (UnityEngine.MonoBehaviour.op_Inequality(placeholderTextComponent, null)) {
@@ -24835,6 +26660,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetGlobalFontAsset: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_InputField#SetGlobalFontAsset", this ); }
+
                 var placeholderTextComponent = Bridge.as(this.m_Placeholder, TMPro.TMP_Text);
 
                 if (UnityEngine.MonoBehaviour.op_Inequality(placeholderTextComponent, null)) {
@@ -24997,7 +26824,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_LineInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_LineInfo(); }
             }
         },
         fields: {
@@ -25024,24 +26853,34 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#init", this ); }
+
                 this.lineExtents = new TMPro.Extents();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5169816809, this.controlCharacterCount, this.characterCount, this.visibleCharacterCount, this.spaceCount, this.wordCount, this.firstCharacterIndex, this.firstVisibleCharacterIndex, this.lastCharacterIndex, this.lastVisibleCharacterIndex, this.length, this.lineHeight, this.ascender, this.baseline, this.descender, this.maxAdvance, this.width, this.marginLeft, this.marginRight, this.alignment, this.lineExtents]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_LineInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.controlCharacterCount, o.controlCharacterCount) && Bridge.equals(this.characterCount, o.characterCount) && Bridge.equals(this.visibleCharacterCount, o.visibleCharacterCount) && Bridge.equals(this.spaceCount, o.spaceCount) && Bridge.equals(this.wordCount, o.wordCount) && Bridge.equals(this.firstCharacterIndex, o.firstCharacterIndex) && Bridge.equals(this.firstVisibleCharacterIndex, o.firstVisibleCharacterIndex) && Bridge.equals(this.lastCharacterIndex, o.lastCharacterIndex) && Bridge.equals(this.lastVisibleCharacterIndex, o.lastVisibleCharacterIndex) && Bridge.equals(this.length, o.length) && Bridge.equals(this.lineHeight, o.lineHeight) && Bridge.equals(this.ascender, o.ascender) && Bridge.equals(this.baseline, o.baseline) && Bridge.equals(this.descender, o.descender) && Bridge.equals(this.maxAdvance, o.maxAdvance) && Bridge.equals(this.width, o.width) && Bridge.equals(this.marginLeft, o.marginLeft) && Bridge.equals(this.marginRight, o.marginRight) && Bridge.equals(this.alignment, o.alignment) && Bridge.equals(this.lineExtents, o.lineExtents);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_LineInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_LineInfo();
                 s.controlCharacterCount = this.controlCharacterCount;
                 s.characterCount = this.characterCount;
@@ -25080,7 +26919,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_LinkInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_LinkInfo(); }
             }
         },
         fields: {
@@ -25094,12 +26935,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.TMP_LinkInfo.SetLinkID start.*/
             SetLinkID: function (text, startIndex, length) {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#SetLinkID", this ); }
+
                 if (this.linkID == null || this.linkID.length < length) {
                     this.linkID = System.Array.init(length, 0, System.Char);
                 }
@@ -25121,6 +26966,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {string}
              */
             GetLinkText: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#GetLinkText", this ); }
+
                 var text = "";
                 var textInfo = this.textComponent.textInfo;
 
@@ -25143,6 +26990,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {string}
              */
             GetLinkID: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#GetLinkID", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.textComponent, null)) {
                     return "";
                 }
@@ -25154,16 +27003,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_LinkInfo.GetLinkID end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5270480105, this.textComponent, this.hashCode, this.linkIdFirstCharacterIndex, this.linkIdLength, this.linkTextfirstCharacterIndex, this.linkTextLength, this.linkID]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_LinkInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.textComponent, o.textComponent) && Bridge.equals(this.hashCode, o.hashCode) && Bridge.equals(this.linkIdFirstCharacterIndex, o.linkIdFirstCharacterIndex) && Bridge.equals(this.linkIdLength, o.linkIdLength) && Bridge.equals(this.linkTextfirstCharacterIndex, o.linkTextfirstCharacterIndex) && Bridge.equals(this.linkTextLength, o.linkTextLength) && Bridge.equals(this.linkID, o.linkID);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_LinkInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_LinkInfo();
                 s.textComponent = this.textComponent;
                 s.hashCode = this.hashCode;
@@ -25186,6 +27041,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ListPool$1#init", this ); }
+
                     this.s_ListPool = new (TMPro.TMP_ObjectPool$1(System.Collections.Generic.List$1(T)))(null, function (l) {
                         l.clear();
                     });
@@ -25194,12 +27051,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMP_ListPool$1.Get:static start.*/
                 Get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ListPool$1#Get", this ); }
+
                     return TMPro.TMP_ListPool$1(T).s_ListPool.Get();
                 },
                 /*TMPro.TMP_ListPool$1.Get:static end.*/
 
                 /*TMPro.TMP_ListPool$1.Release:static start.*/
                 Release: function (toRelease) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ListPool$1#Release", this ); }
+
                     TMPro.TMP_ListPool$1(T).s_ListPool.Release(toRelease);
                 },
                 /*TMPro.TMP_ListPool$1.Release:static end.*/
@@ -25222,12 +27083,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#init", this ); }
+
                     this.m_materialList = new (System.Collections.Generic.List$1(TMPro.TMP_MaterialManager.MaskingMaterial)).ctor();
                     this.m_fallbackMaterials = new (System.Collections.Generic.Dictionary$2(System.Int64,TMPro.TMP_MaterialManager.FallbackMaterial)).ctor();
                     this.m_fallbackMaterialLookup = new (System.Collections.Generic.Dictionary$2(System.Int32,System.Int64)).ctor();
                     this.m_fallbackCleanupList = new (System.Collections.Generic.List$1(TMPro.TMP_MaterialManager.FallbackMaterial)).ctor();
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#ctor", this ); }
+
                     UnityEngine.Camera.addonPreRender(TMPro.TMP_MaterialManager.OnPreRender);
                     UnityEngine.Canvas.addwillRenderCanvases(TMPro.TMP_MaterialManager.OnPreRenderCanvas);
                 }
@@ -25235,6 +27100,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMP_MaterialManager.OnPreRender:static start.*/
                 OnPreRender: function (cam) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#OnPreRender", this ); }
+
                     if (TMPro.TMP_MaterialManager.isFallbackListDirty) {
                         //Debug.Log("1 - Cleaning up Fallback Materials.");
                         TMPro.TMP_MaterialManager.CleanupFallbackMaterials();
@@ -25245,6 +27112,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.OnPreRenderCanvas:static start.*/
                 OnPreRenderCanvas: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#OnPreRenderCanvas", this ); }
+
                     if (TMPro.TMP_MaterialManager.isFallbackListDirty) {
                         //Debug.Log("2 - Cleaning up Fallback Materials.");
                         TMPro.TMP_MaterialManager.CleanupFallbackMaterials();
@@ -25266,6 +27135,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {UnityEngine.Material}
                  */
                 GetStencilMaterial: function (baseMaterial, stencilID) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetStencilMaterial", this ); }
+
                     // Check if Material supports masking
                     if (!baseMaterial.HasProperty(TMPro.ShaderUtilities.ID_StencilID)) {
                         console.warn("Selected Shader does not support Stencil Masking. Please select the Distance Field or Mobile Distance Field Shader.");
@@ -25328,6 +27199,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 ReleaseStencilMaterial: function (stencilMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#ReleaseStencilMaterial", this ); }
+
                     var stencilMaterialID = stencilMaterial.GetInstanceID();
 
                     for (var i = 0; i < TMPro.TMP_MaterialManager.m_materialList.Count; i++) {
@@ -25350,6 +27223,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.GetBaseMaterial:static start.*/
                 GetBaseMaterial: function (stencilMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetBaseMaterial", this ); }
+
                     // Check if maskingMaterial already has a base material associated with it.
                     var index = TMPro.TMP_MaterialManager.m_materialList.FindIndex$2(function (item) {
                         return Bridge.referenceEquals(item.stencilMaterial, stencilMaterial);
@@ -25377,6 +27252,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {UnityEngine.Material}
                  */
                 SetStencil: function (material, stencilID) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#SetStencil", this ); }
+
                     material.SetFloat(TMPro.ShaderUtilities.ID_StencilID, stencilID);
 
                     if (stencilID === 0) {
@@ -25391,6 +27268,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.AddMaskingMaterial:static start.*/
                 AddMaskingMaterial: function (baseMaterial, stencilMaterial, stencilID) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#AddMaskingMaterial", this ); }
+
                     // Check if maskingMaterial already has a base material associated with it.
                     var index = TMPro.TMP_MaterialManager.m_materialList.FindIndex$2(function (item) {
                         return Bridge.referenceEquals(item.stencilMaterial, stencilMaterial);
@@ -25413,6 +27292,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.RemoveStencilMaterial:static start.*/
                 RemoveStencilMaterial: function (stencilMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#RemoveStencilMaterial", this ); }
+
                     // Check if maskingMaterial is already on the list.
                     var index = TMPro.TMP_MaterialManager.m_materialList.FindIndex$2(function (item) {
                         return Bridge.referenceEquals(item.stencilMaterial, stencilMaterial);
@@ -25427,6 +27308,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.ReleaseBaseMaterial:static start.*/
                 ReleaseBaseMaterial: function (baseMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#ReleaseBaseMaterial", this ); }
+
                     // Check if baseMaterial already has a masking material associated with it.
                     var index = TMPro.TMP_MaterialManager.m_materialList.FindIndex$2(function (item) {
                         return Bridge.referenceEquals(item.baseMaterial, baseMaterial);
@@ -25450,6 +27333,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.ClearMaterials:static start.*/
                 ClearMaterials: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#ClearMaterials", this ); }
+
                     if (TMPro.TMP_MaterialManager.m_materialList.Count === 0) {
                         console.log("Material List has already been cleared.");
                         return;
@@ -25477,6 +27362,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetStencilID: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetStencilID", this ); }
+
                     // Implementation is almost copied from Unity UI
 
                     var count = 0;
@@ -25513,6 +27400,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.GetMaterialForRendering:static start.*/
                 GetMaterialForRendering: function (graphic, baseMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetMaterialForRendering", this ); }
+
                     if (baseMaterial == null) {
                         return null;
                     }
@@ -25533,6 +27422,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.FindRootSortOverrideCanvas:static start.*/
                 FindRootSortOverrideCanvas: function (start) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#FindRootSortOverrideCanvas", this ); }
+
                     // Implementation is copied from Unity UI
 
                     var canvasList = TMPro.TMP_ListPool$1(UnityEngine.Canvas).Get();
@@ -25555,6 +27446,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_MaterialManager.GetFallbackMaterial$1:static start.*/
                 GetFallbackMaterial$1: function (fontAsset, sourceMaterial, atlasIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetFallbackMaterial$1", this ); }
+
                     var $t;
                     var sourceMaterialID = sourceMaterial.GetInstanceID();
                     var tex = ($t = fontAsset.atlasTextures)[atlasIndex];
@@ -25601,6 +27494,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {UnityEngine.Material}
                  */
                 GetFallbackMaterial: function (sourceMaterial, targetMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#GetFallbackMaterial", this ); }
+
                     var sourceID = sourceMaterial.GetInstanceID();
                     var tex = targetMaterial.GetTexture(TMPro.ShaderUtilities.ID_MainTex);
                     var texID = tex.GetInstanceID();
@@ -25655,6 +27550,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddFallbackMaterialReference: function (targetMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#AddFallbackMaterialReference", this ); }
+
                     if (targetMaterial == null) {
                         return;
                     }
@@ -25683,6 +27580,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RemoveFallbackMaterialReference: function (targetMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#RemoveFallbackMaterialReference", this ); }
+
                     if (targetMaterial == null) {
                         return;
                     }
@@ -25713,6 +27612,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 CleanupFallbackMaterials: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#CleanupFallbackMaterials", this ); }
+
                     // Return if the list is empty.
                     if (TMPro.TMP_MaterialManager.m_fallbackCleanupList.Count === 0) {
                         return;
@@ -25748,6 +27649,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 ReleaseFallbackMaterial: function (fallackMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#ReleaseFallbackMaterial", this ); }
+
                     if (fallackMaterial == null) {
                         return;
                     }
@@ -25786,6 +27689,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 CopyMaterialPresetProperties: function (source, destination) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialManager#CopyMaterialPresetProperties", this ); }
+
                     if (!source.HasProperty(TMPro.ShaderUtilities.ID_GradientScale) || !destination.HasProperty(TMPro.ShaderUtilities.ID_GradientScale)) {
                         return;
                     }
@@ -25850,7 +27755,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_MaterialReference(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialReference#getDefaultValue", this ); }
+ return new TMPro.TMP_MaterialReference(); }
             }
         },
         fields: {
@@ -25859,21 +27766,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialReference#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialReference#getHashCode", this ); }
+
                 var h = Bridge.addHash([8488936252, this.material, this.referenceCount]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialReference#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_MaterialReference)) {
                     return false;
                 }
                 return Bridge.equals(this.material, o.material) && Bridge.equals(this.referenceCount, o.referenceCount);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MaterialReference#$clone", this ); }
+
                 var s = to || new TMPro.TMP_MaterialReference();
                 s.material = this.material;
                 s.referenceCount = this.referenceCount;
@@ -25898,6 +27813,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Math#init", this ); }
+
                     this.MAX_16BIT = new UnityEngine.Vector2();
                     this.MIN_16BIT = new UnityEngine.Vector2();
                     this.FLOAT_MAX = 32767;
@@ -25913,12 +27830,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMP_Math.Approximately:static start.*/
                 Approximately: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Math#Approximately", this ); }
+
                     return (b - 0.0001) < a && a < (b + 0.0001);
                 },
                 /*TMPro.TMP_Math.Approximately:static end.*/
 
                 /*TMPro.TMP_Math.Mod:static start.*/
                 Mod: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Math#Mod", this ); }
+
                     var r = a % b;
                     return r < 0 ? r + b : r;
                 },
@@ -25948,6 +27869,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#init", this ); }
+
                     this.s_DefaultColor = new UnityEngine.Color32();
                     this.s_DefaultNormal = new UnityEngine.Vector3();
                     this.s_DefaultTangent = new UnityEngine.Vector4();
@@ -25958,7 +27881,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 }
             },
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_MeshInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_MeshInfo(); }
             }
         },
         fields: {
@@ -25976,9 +27901,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             vertexCount: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#vertexCount#get", this ); }
+
                     return this.xxx;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#vertexCount#set", this ); }
+
                     this.xxx = value;
                 }
             }
@@ -25996,6 +27925,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (mesh, size) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#$ctor1", this ); }
+
                 this.$initialize();
                 // Reference to the TMP Text Component.
                 //this.textComponent = null;
@@ -26035,6 +27966,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (mesh, size, isVolumetric) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#$ctor2", this ); }
+
                 this.$initialize();
                 // Reference to the TMP Text Component.
                 //this.textComponent = null;
@@ -26062,6 +27995,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.ResizeMeshInfo$1(size, isVolumetric);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
@@ -26078,6 +28013,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ResizeMeshInfo: function (size) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ResizeMeshInfo", this ); }
+
                 this.ResizeMeshInfo$1(size, false);
             },
             /*TMPro.TMP_MeshInfo.ResizeMeshInfo end.*/
@@ -26095,6 +28032,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ResizeMeshInfo$1: function (size, isVolumetric) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ResizeMeshInfo$1", this ); }
+
                 var s0 = !isVolumetric ? 4 : 8;
                 var s1 = !isVolumetric ? 6 : 36;
 
@@ -26236,6 +28175,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#Clear", this ); }
+
                 if (this.vertices == null) {
                     return;
                 }
@@ -26263,6 +28204,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Clear$1: function (uploadChanges) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#Clear$1", this ); }
+
                 if (this.vertices == null) {
                     return;
                 }
@@ -26293,6 +28236,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearUnusedVertices: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ClearUnusedVertices", this ); }
+
                 var length = this.vertices.length - this.vertexCount;
 
                 if (length > 0) {
@@ -26315,6 +28260,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearUnusedVertices$1: function (startIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ClearUnusedVertices$1", this ); }
+
                 var length = this.vertices.length - startIndex;
 
                 if (length > 0) {
@@ -26338,6 +28285,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearUnusedVertices$2: function (startIndex, updateMesh) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#ClearUnusedVertices$2", this ); }
+
                 var length = this.vertices.length - startIndex;
 
                 if (length > 0) {
@@ -26354,6 +28303,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_MeshInfo.SortGeometry$1 start.*/
             SortGeometry$1: function (order) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#SortGeometry$1", this ); }
+
                 switch (order) {
                     case TMPro.VertexSortingOrder.Normal: 
                         // Do nothing 
@@ -26386,6 +28337,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortGeometry: function (sortingOrder) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#SortGeometry", this ); }
+
                 // Make sure the sorting order array is not larger than the vertices array.
                 var indexCount = System.Array.getCount(sortingOrder, System.Int32);
 
@@ -26425,6 +28378,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SwapVertexData: function (src, dst) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#SwapVertexData", this ); }
+
                 var src_Index = src; //  * 4;
                 var dst_Index = dst; // * 4;
 
@@ -26503,16 +28458,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_MeshInfo.SwapVertexData end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5220475114, this.mesh, this.xxx, this.vertices, this.normals, this.tangents, this.uvs0, this.uvs2, this.colors32, this.triangles, this.material]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_MeshInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.mesh, o.mesh) && Bridge.equals(this.xxx, o.xxx) && Bridge.equals(this.vertices, o.vertices) && Bridge.equals(this.normals, o.normals) && Bridge.equals(this.tangents, o.tangents) && Bridge.equals(this.uvs0, o.uvs0) && Bridge.equals(this.uvs2, o.uvs2) && Bridge.equals(this.colors32, o.colors32) && Bridge.equals(this.triangles, o.triangles) && Bridge.equals(this.material, o.material);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_MeshInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_MeshInfo();
                 s.mesh = this.mesh;
                 s.xxx = this.xxx;
@@ -26548,20 +28509,28 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             countActive: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#countActive#get", this ); }
+
                     return this.countAll - this.countInactive;
                 }
             },
             countInactive: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#countInactive#get", this ); }
+
                     return this.m_Stack.Count;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#init", this ); }
+
                 this.m_Stack = new (System.Collections.Generic.Stack$1(T)).ctor();
             },
             ctor: function (actionOnGet, actionOnRelease) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#ctor", this ); }
+
                 this.$initialize();
                 this.m_ActionOnGet = actionOnGet;
                 this.m_ActionOnRelease = actionOnRelease;
@@ -26570,6 +28539,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_ObjectPool$1.Get start.*/
             Get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#Get", this ); }
+
                 var element;
                 if (this.m_Stack.Count === 0) {
                     element = Bridge.createInstance(T);
@@ -26586,6 +28557,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_ObjectPool$1.Release start.*/
             Release: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ObjectPool$1#Release", this ); }
+
                 if (this.m_Stack.Count > 0 && Bridge.referenceEquals(this.m_Stack.Peek(), element)) {
                     console.error("Internal error. Trying to destroy object that is already released to pool.");
                 }
@@ -26623,27 +28596,39 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 zero: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#zero#get", this ); }
+
                         return TMPro.TMP_Offset.k_ZeroOffset.$clone();
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#init", this ); }
+
                     this.k_ZeroOffset = new TMPro.TMP_Offset();
                     this.k_ZeroOffset = new TMPro.TMP_Offset.$ctor2(0.0, 0.0, 0.0, 0.0);
                 }
             },
             methods: {
                 op_Equality: function (lhs, rhs) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#op_Equality", this ); }
+
                     return lhs.m_Left === rhs.m_Left && lhs.m_Right === rhs.m_Right && lhs.m_Top === rhs.m_Top && lhs.m_Bottom === rhs.m_Bottom;
                 },
                 op_Inequality: function (lhs, rhs) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#op_Inequality", this ); }
+
                     return !(TMPro.TMP_Offset.op_Equality(lhs.$clone(), rhs.$clone()));
                 },
                 op_Multiply: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#op_Multiply", this ); }
+
                     return new TMPro.TMP_Offset.$ctor2(a.m_Left * b, a.m_Right * b, a.m_Top * b, a.m_Bottom * b);
                 },
-                getDefaultValue: function () { return new TMPro.TMP_Offset(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#getDefaultValue", this ); }
+ return new TMPro.TMP_Offset(); }
             }
         },
         fields: {
@@ -26655,50 +28640,74 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             left: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#left#get", this ); }
+
                     return this.m_Left;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#left#set", this ); }
+
                     this.m_Left = value;
                 }
             },
             right: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#right#get", this ); }
+
                     return this.m_Right;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#right#set", this ); }
+
                     this.m_Right = value;
                 }
             },
             top: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#top#get", this ); }
+
                     return this.m_Top;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#top#set", this ); }
+
                     this.m_Top = value;
                 }
             },
             bottom: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#bottom#get", this ); }
+
                     return this.m_Bottom;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#bottom#set", this ); }
+
                     this.m_Bottom = value;
                 }
             },
             horizontal: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#horizontal#get", this ); }
+
                     return this.m_Left;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#horizontal#set", this ); }
+
                     this.m_Left = value;
                     this.m_Right = value;
                 }
             },
             vertical: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#vertical#get", this ); }
+
                     return this.m_Top;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#vertical#set", this ); }
+
                     this.m_Top = value;
                     this.m_Bottom = value;
                 }
@@ -26717,6 +28726,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (left, right, top, bottom) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#$ctor2", this ); }
+
                 this.$initialize();
                 this.m_Left = left;
                 this.m_Right = right;
@@ -26733,6 +28744,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (horizontal, vertical) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#$ctor1", this ); }
+
                 this.$initialize();
                 this.m_Left = horizontal;
                 this.m_Right = horizontal;
@@ -26740,12 +28753,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_Bottom = vertical;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.TMP_Offset.Copy start.*/
             Copy: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#Copy", this ); }
+
                 this.m_Left = other.m_Left;
                 this.m_Right = other.m_Right;
                 this.m_Top = other.m_Top;
@@ -26755,23 +28772,31 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_Offset.getHashCode start.*/
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#getHashCode", this ); }
+
                 return Bridge.getHashCode(this);
             },
             /*TMPro.TMP_Offset.getHashCode end.*/
 
             /*TMPro.TMP_Offset.equals start.*/
             equals: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#equals", this ); }
+
                 return Bridge.equals(this, obj);
             },
             /*TMPro.TMP_Offset.equals end.*/
 
             /*TMPro.TMP_Offset.Equals start.*/
             Equals: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#Equals", this ); }
+
                 return Bridge.equals(this, other.$clone());
             },
             /*TMPro.TMP_Offset.Equals end.*/
 
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Offset#$clone", this ); }
+
                 var s = to || new TMPro.TMP_Offset();
                 s.m_Left = this.m_Left;
                 s.m_Right = this.m_Right;
@@ -26792,7 +28817,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_PageInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_PageInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_PageInfo(); }
             }
         },
         fields: {
@@ -26804,21 +28831,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_PageInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_PageInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5169356013, this.firstCharacterIndex, this.lastCharacterIndex, this.ascender, this.baseLine, this.descender]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_PageInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_PageInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.firstCharacterIndex, o.firstCharacterIndex) && Bridge.equals(this.lastCharacterIndex, o.lastCharacterIndex) && Bridge.equals(this.ascender, o.ascender) && Bridge.equals(this.baseLine, o.baseLine) && Bridge.equals(this.descender, o.descender);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_PageInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_PageInfo();
                 s.firstCharacterIndex = this.firstCharacterIndex;
                 s.lastCharacterIndex = this.lastCharacterIndex;
@@ -26846,16 +28881,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#init", this ); }
+
                     this.s_instance = new TMPro.TMP_ResourceManager();
                     this.s_FontAssetReferences = new (System.Collections.Generic.List$1(TMPro.TMP_FontAsset)).ctor();
                     this.s_FontAssetReferenceLookup = new (System.Collections.Generic.Dictionary$2(System.Int32,TMPro.TMP_FontAsset)).ctor();
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#ctor", this ); }
+
                 }
             },
             methods: {
                 /*TMPro.TMP_ResourceManager.GetTextSettings:static start.*/
                 GetTextSettings: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#GetTextSettings", this ); }
+
                     if (TMPro.TMP_ResourceManager.s_TextSettings == null) {
                         // Try loading the TMP Settings from a Resources folder in the user project.
                         TMPro.TMP_ResourceManager.s_TextSettings = UnityEngine.Resources.Load(TMPro.TMP_Settings, "TextSettings"); // ?? ScriptableObject.CreateInstance<TMP_Settings>();
@@ -26876,6 +28917,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 AddFontAsset: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#AddFontAsset", this ); }
+
                     var hashcode = fontAsset.hashCode;
 
                     if (TMPro.TMP_ResourceManager.s_FontAssetReferenceLookup.containsKey(hashcode)) {
@@ -26898,6 +28941,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 TryGetFontAsset: function (hashcode, fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#TryGetFontAsset", this ); }
+
                     fontAsset.v = null;
 
                     return TMPro.TMP_ResourceManager.s_FontAssetReferenceLookup.tryGetValue(hashcode, fontAsset);
@@ -26906,6 +28951,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_ResourceManager.RebuildFontAssetCache:static start.*/
                 RebuildFontAssetCache: function (instanceID) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ResourceManager#RebuildFontAssetCache", this ); }
+
                     // Iterate over loaded font assets to update affected font assets
                     for (var i = 0; i < TMPro.TMP_ResourceManager.s_FontAssetReferences.Count; i++) {
                         var fontAsset = TMPro.TMP_ResourceManager.s_FontAssetReferences.getItem(i);
@@ -26937,12 +28984,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_ScrollbarEventHandler.OnPointerClick start.*/
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ScrollbarEventHandler#OnPointerClick", this ); }
+
                 console.log("Scrollbar click...");
             },
             /*TMPro.TMP_ScrollbarEventHandler.OnPointerClick end.*/
 
             /*TMPro.TMP_ScrollbarEventHandler.OnSelect start.*/
             OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ScrollbarEventHandler#OnSelect", this ); }
+
                 console.log("Scrollbar selected");
                 this.isSelected = true;
             },
@@ -26950,6 +29001,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_ScrollbarEventHandler.OnDeselect start.*/
             OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "TMPro.TMP_ScrollbarEventHandler#OnDeselect", this ); }
+
                 console.log("Scrollbar De-Selected");
                 this.isSelected = false;
             },
@@ -26983,6 +29036,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SelectionCaret#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             }
@@ -27002,6 +29057,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Cull: function (clipRect, validRect) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SelectionCaret#Cull", this ); }
+
                 //Debug.Log("***** Cull (" + clipRect + ")   Valid Rect: " + validRect + "   Cull: " + canvasRenderer.cull + " *****");
 
                 if (validRect) {
@@ -27016,6 +29073,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SelectionCaret.UpdateGeometry start.*/
             UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SelectionCaret#UpdateGeometry", this ); }
+
                 // Function overridden as Caret and text Selection Highlight is controlled by the Input Field.
             },
             /*TMPro.TMP_SelectionCaret.UpdateGeometry end.*/
@@ -27045,6 +29104,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 version: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#version#get", this ); }
+
                         return "1.4.0";
                     }
                 },
@@ -27060,6 +29121,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableWordWrapping: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableWordWrapping#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableWordWrapping;
                     }
                 },
@@ -27075,6 +29138,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableKerning: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableKerning#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableKerning;
                     }
                 },
@@ -27090,6 +29155,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableExtraPadding: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableExtraPadding#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableExtraPadding;
                     }
                 },
@@ -27105,6 +29172,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableTintAllSprites: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableTintAllSprites#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableTintAllSprites;
                     }
                 },
@@ -27120,6 +29189,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableParseEscapeCharacters: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableParseEscapeCharacters#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableParseEscapeCharacters;
                     }
                 },
@@ -27135,6 +29206,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableRaycastTarget: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableRaycastTarget#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_EnableRaycastTarget;
                     }
                 },
@@ -27150,6 +29223,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 getFontFeaturesAtRuntime: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#getFontFeaturesAtRuntime#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_GetFontFeaturesAtRuntime;
                     }
                 },
@@ -27164,9 +29239,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 missingGlyphCharacter: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#missingGlyphCharacter#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_missingGlyphCharacter;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#missingGlyphCharacter#set", this ); }
+
                         TMPro.TMP_Settings.instance.m_missingGlyphCharacter = value;
                     }
                 },
@@ -27182,6 +29261,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 warningsDisabled: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#warningsDisabled#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_warningsDisabled;
                     }
                 },
@@ -27197,6 +29278,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultFontAsset: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultFontAsset#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultFontAsset;
                     }
                 },
@@ -27212,6 +29295,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultFontAssetPath: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultFontAssetPath#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultFontAssetPath;
                     }
                 },
@@ -27227,6 +29312,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultFontSize: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultFontSize#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultFontSize;
                     }
                 },
@@ -27242,6 +29329,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultTextAutoSizingMinRatio: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultTextAutoSizingMinRatio#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultAutoSizeMinRatio;
                     }
                 },
@@ -27257,6 +29346,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultTextAutoSizingMaxRatio: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultTextAutoSizingMaxRatio#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultAutoSizeMaxRatio;
                     }
                 },
@@ -27272,6 +29363,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultTextMeshProTextContainerSize: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultTextMeshProTextContainerSize#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultTextMeshProTextContainerSize.$clone();
                     }
                 },
@@ -27287,6 +29380,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultTextMeshProUITextContainerSize: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultTextMeshProUITextContainerSize#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultTextMeshProUITextContainerSize.$clone();
                     }
                 },
@@ -27302,6 +29397,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 autoSizeTextContainer: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#autoSizeTextContainer#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_autoSizeTextContainer;
                     }
                 },
@@ -27316,9 +29413,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 isTextObjectScaleStatic: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#isTextObjectScaleStatic#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_IsTextObjectScaleStatic;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#isTextObjectScaleStatic#set", this ); }
+
                         TMPro.TMP_Settings.instance.m_IsTextObjectScaleStatic = value;
                     }
                 },
@@ -27334,6 +29435,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 fallbackFontAssets: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#fallbackFontAssets#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_fallbackFontAssets;
                     }
                 },
@@ -27349,6 +29452,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 matchMaterialPreset: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#matchMaterialPreset#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_matchMaterialPreset;
                     }
                 },
@@ -27364,6 +29469,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultSpriteAsset: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultSpriteAsset#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultSpriteAsset;
                     }
                 },
@@ -27379,6 +29486,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultSpriteAssetPath: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultSpriteAssetPath#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultSpriteAssetPath;
                     }
                 },
@@ -27393,9 +29502,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 missingCharacterSpriteUnicode: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#missingCharacterSpriteUnicode#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_MissingCharacterSpriteUnicode;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#missingCharacterSpriteUnicode#set", this ); }
+
                         TMPro.TMP_Settings.instance.m_MissingCharacterSpriteUnicode = value;
                     }
                 },
@@ -27411,6 +29524,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultColorGradientPresetsPath: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultColorGradientPresetsPath#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultColorGradientPresetsPath;
                     }
                 },
@@ -27425,9 +29540,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 enableEmojiSupport: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableEmojiSupport#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_enableEmojiSupport;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#enableEmojiSupport#set", this ); }
+
                         TMPro.TMP_Settings.instance.m_enableEmojiSupport = value;
                     }
                 },
@@ -27443,6 +29562,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 defaultStyleSheet: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#defaultStyleSheet#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_defaultStyleSheet;
                     }
                 },
@@ -27458,6 +29579,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 styleSheetsResourcePath: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#styleSheetsResourcePath#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_StyleSheetsResourcePath;
                     }
                 },
@@ -27473,6 +29596,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 leadingCharacters: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#leadingCharacters#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_leadingCharacters;
                     }
                 },
@@ -27488,6 +29613,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 followingCharacters: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#followingCharacters#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_followingCharacters;
                     }
                 },
@@ -27501,6 +29628,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 linebreakingRules: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#linebreakingRules#get", this ); }
+
                         if (TMPro.TMP_Settings.instance.m_linebreakingRules == null) {
                             TMPro.TMP_Settings.LoadLinebreakingRules();
                         }
@@ -27519,9 +29648,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 useModernHangulLineBreakingRules: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#useModernHangulLineBreakingRules#get", this ); }
+
                         return TMPro.TMP_Settings.instance.m_UseModernHangulLineBreakingRules;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#useModernHangulLineBreakingRules#set", this ); }
+
                         TMPro.TMP_Settings.instance.m_UseModernHangulLineBreakingRules = value;
                     }
                 },
@@ -27537,6 +29670,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#instance#get", this ); }
+
                         if (TMPro.TMP_Settings.s_Instance == null) {
                             TMPro.TMP_Settings.s_Instance = UnityEngine.Resources.Load(TMPro.TMP_Settings, "TMP Settings");
 
@@ -27558,6 +29693,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Settings}
                  */
                 LoadDefaultSettings: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#LoadDefaultSettings", this ); }
+
                     if (TMPro.TMP_Settings.s_Instance == null) {
                         // Load settings from TMP_Settings file
                         var settings = UnityEngine.Resources.Load(TMPro.TMP_Settings, "TMP Settings");
@@ -27581,6 +29718,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Settings}
                  */
                 GetSettings: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#GetSettings", this ); }
+
                     if (TMPro.TMP_Settings.instance == null) {
                         return null;
                     }
@@ -27600,6 +29739,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_FontAsset}
                  */
                 GetFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#GetFontAsset", this ); }
+
                     if (TMPro.TMP_Settings.instance == null) {
                         return null;
                     }
@@ -27619,6 +29760,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 GetSpriteAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#GetSpriteAsset", this ); }
+
                     if (TMPro.TMP_Settings.instance == null) {
                         return null;
                     }
@@ -27638,6 +29781,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_StyleSheet}
                  */
                 GetStyleSheet: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#GetStyleSheet", this ); }
+
                     if (TMPro.TMP_Settings.instance == null) {
                         return null;
                     }
@@ -27648,6 +29793,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_Settings.LoadLinebreakingRules:static start.*/
                 LoadLinebreakingRules: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#LoadLinebreakingRules", this ); }
+
                     //Debug.Log("Loading Line Breaking Rules for Asian Languages.");
 
                     if (TMPro.TMP_Settings.instance == null) {
@@ -27675,6 +29822,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {System.Collections.Generic.Dictionary$2}
                  */
                 GetCharacters: function (file) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#GetCharacters", this ); }
+
                     var dict = new (System.Collections.Generic.Dictionary$2(System.Int32,System.Char)).ctor();
                     var text = file.text;
 
@@ -27731,6 +29880,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Settings#init", this ); }
+
                 this.m_defaultTextMeshProTextContainerSize = new UnityEngine.Vector2();
                 this.m_defaultTextMeshProUITextContainerSize = new UnityEngine.Vector2();
                 this.m_EnableRaycastTarget = true;
@@ -27759,30 +29910,40 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#init", this ); }
+
                 this.m_animations = new (System.Collections.Generic.Dictionary$2(System.Int32,System.Boolean)).$ctor4(16);
             }
         },
         methods: {
             /*TMPro.TMP_SpriteAnimator.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#Awake", this ); }
+
                 this.m_TextComponent = this.GetComponent(TMPro.TMP_Text);
             },
             /*TMPro.TMP_SpriteAnimator.Awake end.*/
 
             /*TMPro.TMP_SpriteAnimator.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#OnEnable", this ); }
+
                 //m_playAnimations = true;
             },
             /*TMPro.TMP_SpriteAnimator.OnEnable end.*/
 
             /*TMPro.TMP_SpriteAnimator.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#OnDisable", this ); }
+
                 //m_playAnimations = false;
             },
             /*TMPro.TMP_SpriteAnimator.OnDisable end.*/
 
             /*TMPro.TMP_SpriteAnimator.StopAllAnimations start.*/
             StopAllAnimations: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#StopAllAnimations", this ); }
+
                 this.StopAllCoroutines();
                 this.m_animations.clear();
             },
@@ -27790,6 +29951,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SpriteAnimator.DoSpriteAnimation start.*/
             DoSpriteAnimation: function (currentCharacter, spriteAsset, start, end, framerate) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#DoSpriteAnimation", this ); }
+
                 var isPlaying = { };
                 // Need to add tracking of coroutines that have been lunched for this text object.
                 if (!this.m_animations.tryGetValue(currentCharacter, isPlaying)) {
@@ -27801,6 +29964,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SpriteAnimator.DoSpriteAnimationInternal start.*/
             DoSpriteAnimationInternal: function (currentCharacter, spriteAsset, start, end, framerate) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAnimator#DoSpriteAnimationInternal", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -27991,6 +30156,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteGlyph#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.TextCore.Glyph.ctor.call(this);
             },
@@ -28009,6 +30176,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (index, metrics, glyphRect, scale, atlasIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteGlyph#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.TextCore.Glyph.ctor.call(this);
                 this.index = index;
@@ -28033,6 +30202,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (index, metrics, glyphRect, scale, atlasIndex, sprite) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteGlyph#$ctor2", this ); }
+
                 this.$initialize();
                 UnityEngine.TextCore.Glyph.ctor.call(this);
                 this.index = index;
@@ -28051,7 +30222,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_SpriteInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_SpriteInfo(); }
             }
         },
         fields: {
@@ -28061,21 +30234,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5218538113, this.spriteIndex, this.characterIndex, this.vertexIndex]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_SpriteInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.spriteIndex, o.spriteIndex) && Bridge.equals(this.characterIndex, o.characterIndex) && Bridge.equals(this.vertexIndex, o.vertexIndex);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_SpriteInfo();
                 s.spriteIndex = this.spriteIndex;
                 s.characterIndex = this.characterIndex;
@@ -28095,6 +30276,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             props: {
                 NormalStyle: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#NormalStyle#get", this ); }
+
                         if (TMPro.TMP_Style.k_NormalStyle == null) {
                             TMPro.TMP_Style.k_NormalStyle = new TMPro.TMP_Style("Normal", "", "");
                         }
@@ -28116,9 +30299,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             
             name: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#name#get", this ); }
+
                     return this.m_Name;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#name#set", this ); }
+
                     if (!Bridge.referenceEquals(value, this.m_Name)) {
                         this.m_Name = value;
                     }
@@ -28135,9 +30322,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             hashCode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#hashCode#get", this ); }
+
                     return this.m_HashCode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#hashCode#set", this ); }
+
                     if (value !== this.m_HashCode) {
                         this.m_HashCode = value;
                     }
@@ -28146,22 +30337,30 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             
             styleOpeningDefinition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#styleOpeningDefinition#get", this ); }
+
                     return this.m_OpeningDefinition;
                 }
             },
             
             styleClosingDefinition: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#styleClosingDefinition#get", this ); }
+
                     return this.m_ClosingDefinition;
                 }
             },
             styleOpeningTagArray: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#styleOpeningTagArray#get", this ); }
+
                     return this.m_OpeningTagArray;
                 }
             },
             styleClosingTagArray: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#styleClosingTagArray#get", this ); }
+
                     return this.m_ClosingTagArray;
                 }
             }
@@ -28179,6 +30378,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (styleName, styleOpeningDefinition, styleClosingDefinition) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#ctor", this ); }
+
                 this.$initialize();
                 this.m_Name = styleName;
                 this.m_HashCode = TMPro.TMP_TextParsingUtilities.GetHashCode(styleName);
@@ -28192,6 +30393,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_Style.RefreshStyle start.*/
             
             RefreshStyle: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Style#RefreshStyle", this ); }
+
                 this.m_HashCode = TMPro.TMP_TextUtilities.GetSimpleHashCode(this.m_Name);
 
                 this.m_OpeningTagArray = System.Array.init(this.m_OpeningDefinition.length, 0, System.Int32);
@@ -28225,12 +30428,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#init", this ); }
+
                 this.m_StyleList = new (System.Collections.Generic.List$1(TMPro.TMP_Style)).$ctor2(1);
             }
         },
         methods: {
             /*TMPro.TMP_StyleSheet.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#Reset", this ); }
+
                 this.LoadStyleDictionaryInternal();
             },
             /*TMPro.TMP_StyleSheet.Reset end.*/
@@ -28247,6 +30454,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_Style}                The style matching the hash code.
              */
             GetStyle: function (hashCode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#GetStyle", this ); }
+
                 if (this.m_StyleLookupDictionary == null) {
                     this.LoadStyleDictionaryInternal();
                 }
@@ -28273,6 +30482,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_Style}            The style if found.
              */
             GetStyle$1: function (name) {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#GetStyle$1", this ); }
+
                 if (this.m_StyleLookupDictionary == null) {
                     this.LoadStyleDictionaryInternal();
                 }
@@ -28299,6 +30510,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             RefreshStyles: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#RefreshStyles", this ); }
+
                 this.LoadStyleDictionaryInternal();
             },
             /*TMPro.TMP_StyleSheet.RefreshStyles end.*/
@@ -28312,6 +30525,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             LoadStyleDictionaryInternal: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_StyleSheet#LoadStyleDictionaryInternal", this ); }
+
                 if (this.m_StyleLookupDictionary == null) {
                     this.m_StyleLookupDictionary = new (System.Collections.Generic.Dictionary$2(System.Int32,TMPro.TMP_Style)).ctor();
                 } else {
@@ -28365,7 +30580,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_Text.CharacterSubstitution(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#getDefaultValue", this ); }
+ return new TMPro.TMP_Text.CharacterSubstitution(); }
             }
         },
         fields: {
@@ -28374,26 +30591,36 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (index, unicode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#$ctor1", this ); }
+
                 this.$initialize();
                 this.index = index;
                 this.unicode = unicode;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#getHashCode", this ); }
+
                 var h = Bridge.addHash([9095219308, this.index, this.unicode]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_Text.CharacterSubstitution)) {
                     return false;
                 }
                 return Bridge.equals(this.index, o.index) && Bridge.equals(this.unicode, o.unicode);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.CharacterSubstitution#$clone", this ); }
+
                 var s = to || new TMPro.TMP_Text.CharacterSubstitution();
                 s.index = this.index;
                 s.unicode = this.unicode;
@@ -28408,7 +30635,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_Text.SpecialCharacter(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#getDefaultValue", this ); }
+ return new TMPro.TMP_Text.SpecialCharacter(); }
             }
         },
         fields: {
@@ -28419,6 +30648,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             $ctor1: function (character, materialIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#$ctor1", this ); }
+
                 this.$initialize();
                 this.character = character;
                 this.fontAsset = Bridge.as(character.textAsset, TMPro.TMP_FontAsset);
@@ -28426,21 +30657,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.materialIndex = materialIndex;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#getHashCode", this ); }
+
                 var h = Bridge.addHash([6352906119, this.character, this.fontAsset, this.material, this.materialIndex]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_Text.SpecialCharacter)) {
                     return false;
                 }
                 return Bridge.equals(this.character, o.character) && Bridge.equals(this.fontAsset, o.fontAsset) && Bridge.equals(this.material, o.material) && Bridge.equals(this.materialIndex, o.materialIndex);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.SpecialCharacter#$clone", this ); }
+
                 var s = to || new TMPro.TMP_Text.SpecialCharacter();
                 s.character = this.character;
                 s.fontAsset = this.fontAsset;
@@ -28471,7 +30710,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_Text.UnicodeChar(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.UnicodeChar#getDefaultValue", this ); }
+ return new TMPro.TMP_Text.UnicodeChar(); }
             }
         },
         fields: {
@@ -28481,21 +30722,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.UnicodeChar#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.UnicodeChar#getHashCode", this ); }
+
                 var h = Bridge.addHash([2806068268, this.unicode, this.stringIndex, this.length]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.UnicodeChar#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_Text.UnicodeChar)) {
                     return false;
                 }
                 return Bridge.equals(this.unicode, o.unicode) && Bridge.equals(this.stringIndex, o.stringIndex) && Bridge.equals(this.length, o.length);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Text.UnicodeChar#$clone", this ); }
+
                 var s = to || new TMPro.TMP_Text.UnicodeChar();
                 s.unicode = this.unicode;
                 s.stringIndex = this.stringIndex;
@@ -28533,6 +30782,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#init", this ); }
+
                     this.k_InfinityVectorPositive = new UnityEngine.Vector2();
                     this.k_InfinityVectorNegative = new UnityEngine.Vector2();
                     this.k_InfinityVectorPositive = new pc.Vec2( 32767, 32767 );
@@ -28554,6 +30805,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 Resize: function (T, array, size) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#Resize", this ); }
+
                     // Allocated to the next power of two
                     var newSize = size > 1024 ? size + 256 : UnityEngine.Mathf.NextPowerOfTwo(size);
 
@@ -28578,6 +30831,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 Resize$1: function (T, array, size, isBlockAllocated) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#Resize$1", this ); }
+
                     if (isBlockAllocated) {
                         size = size > 1024 ? size + 256 : UnityEngine.Mathf.NextPowerOfTwo(size);
                     }
@@ -28615,6 +30870,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ctor", this ); }
+
                 this.$initialize();
                 this.characterInfo = System.Array.init(8, function (){
                     return new TMPro.TMP_CharacterInfo();
@@ -28637,6 +30894,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 }, TMPro.TMP_MeshInfo);
             },
             $ctor1: function (characterCount) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#$ctor1", this ); }
+
                 this.$initialize();
                 this.characterInfo = System.Array.init(characterCount, function (){
                     return new TMPro.TMP_CharacterInfo();
@@ -28659,6 +30918,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 }, TMPro.TMP_MeshInfo);
             },
             $ctor2: function (textComponent) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#$ctor2", this ); }
+
                 this.$initialize();
                 this.textComponent = textComponent;
 
@@ -28699,6 +30960,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#Clear", this ); }
+
                 this.characterCount = 0;
                 this.spaceCount = 0;
                 this.wordCount = 0;
@@ -28725,6 +30988,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearMeshInfo: function (updateMesh) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ClearMeshInfo", this ); }
+
                 for (var i = 0; i < this.meshInfo.length; i++) {
                     this.meshInfo[i].Clear$1(updateMesh);
                 }
@@ -28742,6 +31007,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearAllMeshInfo: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ClearAllMeshInfo", this ); }
+
                 for (var i = 0; i < this.meshInfo.length; i++) {
                     this.meshInfo[i].Clear$1(true);
                 }
@@ -28758,6 +31025,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ResetVertexLayout: function (isVolumetric) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ResetVertexLayout", this ); }
+
                 for (var i = 0; i < this.meshInfo.length; i++) {
                     this.meshInfo[i].ResizeMeshInfo$1(0, isVolumetric);
                 }
@@ -28776,6 +31045,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearUnusedVertices: function (materials) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ClearUnusedVertices", this ); }
+
                 for (var i = 0; i < this.meshInfo.length; i++) {
                     var start = 0; // materials[i].referenceCount * 4;
                     this.meshInfo[i].ClearUnusedVertices$1(start);
@@ -28794,6 +31065,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearLineInfo: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ClearLineInfo", this ); }
+
                 if (this.lineInfo == null) {
                     this.lineInfo = System.Array.init(2, function (){
                         return new TMPro.TMP_LineInfo();
@@ -28826,6 +31099,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_TextInfo.ClearPageInfo start.*/
             ClearPageInfo: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#ClearPageInfo", this ); }
+
                 if (this.pageInfo == null) {
                     this.pageInfo = System.Array.init(2, function (){
                         return new TMPro.TMP_PageInfo();
@@ -28855,6 +31130,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {Array.<TMPro.TMP_MeshInfo>}        A copy of the MeshInfo[]
              */
             CopyMeshInfoVertexData: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextInfo#CopyMeshInfoVertexData", this ); }
+
                 if (this.m_CachedMeshInfo == null || this.m_CachedMeshInfo.length !== this.meshInfo.length) {
                     this.m_CachedMeshInfo = System.Array.init(this.meshInfo.length, function (){
                         return new TMPro.TMP_MeshInfo();
@@ -28967,17 +31244,23 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#instance#get", this ); }
+
                         return TMPro.TMP_TextParsingUtilities.s_Instance;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#init", this ); }
+
                     this.k_LookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
                     this.k_LookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
                     this.s_Instance = new TMPro.TMP_TextParsingUtilities();
                 },
                 ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#ctor", this ); }
+
                 }
             },
             methods: {
@@ -28993,6 +31276,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetHashCode: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#GetHashCode", this ); }
+
                     var hashCode = 0;
 
                     for (var i = 0; i < s.length; i++) {
@@ -29005,6 +31290,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMP_TextParsingUtilities.GetHashCodeCaseSensitive:static start.*/
                 GetHashCodeCaseSensitive: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#GetHashCodeCaseSensitive", this ); }
+
                     var hashCode = 0;
 
                     for (var i = 0; i < s.length; i++) {
@@ -29027,6 +31314,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToLowerASCIIFast: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#ToLowerASCIIFast", this ); }
+
                     if (c > TMPro.TMP_TextParsingUtilities.k_LookupStringL.length - 1) {
                         return c;
                     }
@@ -29047,6 +31336,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToLowerASCIIFast$1: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#ToLowerASCIIFast$1", this ); }
+
                     if (System.Int64(c).gt(System.Int64(TMPro.TMP_TextParsingUtilities.k_LookupStringL.length - 1))) {
                         return c;
                     }
@@ -29067,6 +31358,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToUpperASCIIFast: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#ToUpperASCIIFast", this ); }
+
                     if (c > TMPro.TMP_TextParsingUtilities.k_LookupStringU.length - 1) {
                         return c;
                     }
@@ -29087,6 +31380,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToUpperASCIIFast$1: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#ToUpperASCIIFast$1", this ); }
+
                     if (System.Int64(c).gt(System.Int64(TMPro.TMP_TextParsingUtilities.k_LookupStringU.length - 1))) {
                         return c;
                     }
@@ -29107,6 +31402,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IsHighSurrogate: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#IsHighSurrogate", this ); }
+
                     return c > 55296 && c < 56319;
                 },
                 /*TMPro.TMP_TextParsingUtilities.IsHighSurrogate:static end.*/
@@ -29123,6 +31420,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IsLowSurrogate: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextParsingUtilities#IsLowSurrogate", this ); }
+
                     return c > 56320 && c < 57343;
                 },
                 /*TMPro.TMP_TextParsingUtilities.IsLowSurrogate:static end.*/
@@ -29149,11 +31448,15 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#init", this ); }
+
                     this.k_DefaultCapacity = 4;
                 }
             },
             methods: {
-                getDefaultValue: function () { return new (TMPro.TMP_TextProcessingStack$1(T))(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#getDefaultValue", this ); }
+ return new (TMPro.TMP_TextProcessingStack$1(T))(); }
             }
         },
         fields: {
@@ -29175,6 +31478,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             Count: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Count#get", this ); }
+
                     return this.m_Count;
                 }
             },
@@ -29190,6 +31495,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             current: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#current#get", this ); }
+
                     if (this.index > 0) {
                         return this.itemStack[this.index - 1];
                     }
@@ -29206,9 +31513,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             rolloverSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#rolloverSize#get", this ); }
+
                     return this.m_RolloverSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#rolloverSize#set", this ); }
+
                     this.m_RolloverSize = value;
 
                     //if (m_Capacity < m_RolloverSize)
@@ -29218,6 +31529,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#init", this ); }
+
                 this.m_DefaultItem = Bridge.getDefaultValue(T);
             },
             /**
@@ -29231,6 +31544,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (stack) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#$ctor1", this ); }
+
                 this.$initialize();
                 this.itemStack = stack;
                 this.m_Capacity = stack.length;
@@ -29251,6 +31566,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (capacity) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#$ctor2", this ); }
+
                 this.$initialize();
                 this.itemStack = System.Array.init(capacity, function (){
                     return Bridge.getDefaultValue(T);
@@ -29263,6 +31580,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_Count = 0;
             },
             $ctor3: function (capacity, rolloverSize) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#$ctor3", this ); }
+
                 this.$initialize();
                 this.itemStack = System.Array.init(capacity, function (){
                     return Bridge.getDefaultValue(T);
@@ -29275,12 +31594,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.m_Count = 0;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.TMP_TextProcessingStack$1.CopyBase start.*/
             CopyBase: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#CopyBase", this ); }
+
                 this.index = other.index;
                 this.m_Capacity = other.m_Capacity;
                 this.m_RolloverSize = other.m_RolloverSize;
@@ -29291,6 +31614,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_TextProcessingStack$1.Copy start.*/
             Copy: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Copy", this ); }
+
                 this.CopyBase(other);
                 this.m_DefaultItem = other.m_DefaultItem;
             },
@@ -29298,6 +31623,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_TextProcessingStack$1.CopyStruct start.*/
             CopyStruct: function (other) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#CopyStruct", this ); }
+
                 this.CopyBase(other);
                 this.m_DefaultItem.Copy( other.m_DefaultItem );
             },
@@ -29314,6 +31641,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Clear", this ); }
+
                 this.index = 0;
                 this.m_Count = 0;
             },
@@ -29331,6 +31660,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetDefault: function (item) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#SetDefault", this ); }
+
                 if (this.itemStack == null) {
                     this.m_Capacity = TMPro.TMP_TextProcessingStack$1(T).k_DefaultCapacity;
                     this.itemStack = System.Array.init(this.m_Capacity, function (){
@@ -29356,6 +31687,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Add: function (item) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Add", this ); }
+
                 if (this.index < this.itemStack.length) {
                     this.itemStack[this.index] = item;
                     this.index += 1;
@@ -29374,6 +31707,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {T}
              */
             Remove: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Remove", this ); }
+
                 this.index -= 1;
 
                 if (this.index <= 0) {
@@ -29388,6 +31723,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_TextProcessingStack$1.Push start.*/
             Push: function (item) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Push", this ); }
+
                 if (this.index === this.m_Capacity) {
                     this.m_Capacity *= 2;
                     if (this.m_Capacity === 0) {
@@ -29414,6 +31751,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_TextProcessingStack$1.Pop start.*/
             Pop: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Pop", this ); }
+
                 if (this.index === 0 && this.m_RolloverSize === 0) {
                     return Bridge.getDefaultValue(T);
                 }
@@ -29443,6 +31782,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {T}
              */
             Peek: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#Peek", this ); }
+
                 if (this.index === 0) {
                     return this.m_DefaultItem;
                 }
@@ -29454,6 +31795,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_TextProcessingStack$1.CurrentItem start.*/
             
             CurrentItem: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#CurrentItem", this ); }
+
                 if (this.index > 0) {
                     return this.itemStack[this.index - 1];
                 }
@@ -29473,6 +31816,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {T}
              */
             PreviousItem: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#PreviousItem", this ); }
+
                 if (this.index > 1) {
                     return this.itemStack[this.index - 2];
                 }
@@ -29482,16 +31827,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_TextProcessingStack$1.PreviousItem end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#getHashCode", this ); }
+
                 var h = Bridge.addHash([8949228332, this.itemStack, this.index, this.m_DefaultItem, this.m_Capacity, this.m_RolloverSize, this.m_Count]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_TextProcessingStack$1(T))) {
                     return false;
                 }
                 return Bridge.equals(this.itemStack, o.itemStack) && Bridge.equals(this.index, o.index) && Bridge.equals(this.m_DefaultItem, o.m_DefaultItem) && Bridge.equals(this.m_Capacity, o.m_Capacity) && Bridge.equals(this.m_RolloverSize, o.m_RolloverSize) && Bridge.equals(this.m_Count, o.m_Count);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextProcessingStack$1#$clone", this ); }
+
                 var s = to || new (TMPro.TMP_TextProcessingStack$1(T))();
                 s.itemStack = this.itemStack;
                 s.index = this.index;
@@ -29537,6 +31888,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#init", this ); }
+
                     this.k_lookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
                     this.k_lookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
                     this.m_rectWorldCorners = System.Array.init(4, function (){
@@ -29560,6 +31913,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetCursorIndexFromPosition: function (textComponent, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#GetCursorIndexFromPosition", this ); }
+
                     var $t;
                     position = {v:position};
                     var index = TMPro.TMP_TextUtilities.FindNearestCharacter(textComponent, position.v.$clone(), camera, false);
@@ -29602,6 +31957,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetCursorIndexFromPosition$1: function (textComponent, position, camera, cursor) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#GetCursorIndexFromPosition$1", this ); }
+
                     var $t, $t1;
                     position = {v:position};
                     var line = TMPro.TMP_TextUtilities.FindNearestLine(textComponent, position.v.$clone(), camera);
@@ -29651,6 +32008,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindNearestLine: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindNearestLine", this ); }
+
                     var $t;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -29703,6 +32062,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindNearestCharacterOnLine: function (text, position, line, camera, visibleOnly) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindNearestCharacterOnLine", this ); }
+
                     var $t, $t1, $t2;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -29767,6 +32128,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IsIntersectingRectTransform: function (rectTransform, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#IsIntersectingRectTransform", this ); }
+
                     position = {v:position};
                     // Convert position into Worldspace coordinates
                     TMPro.TMP_TextUtilities.ScreenPointToWorldPointInRectangle(rectTransform, UnityEngine.Vector2.FromVector3(position.v.$clone()), camera, position);
@@ -29796,6 +32159,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindIntersectingCharacter: function (text, position, camera, visibleOnly) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindIntersectingCharacter", this ); }
+
                     var $t;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -29841,6 +32206,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindNearestCharacter: function (text, position, camera, visibleOnly) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindNearestCharacter", this ); }
+
                     var $t;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -29904,6 +32271,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindIntersectingWord: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindIntersectingWord", this ); }
+
                     var $t, $t1, $t2;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -30033,6 +32402,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindNearestWord: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindNearestWord", this ); }
+
                     var $t, $t1, $t2;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -30175,6 +32546,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindIntersectingLine: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindIntersectingLine", this ); }
+
                     var $t;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -30215,6 +32588,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindIntersectingLink: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindIntersectingLink", this ); }
+
                     var $t, $t1, $t2;
                     position = {v:position};
                     var rectTransform = text.transform$1;
@@ -30319,6 +32694,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 FindNearestLink: function (text, position, camera) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#FindNearestLink", this ); }
+
                     var $t, $t1, $t2;
                     position = {v:position};
                     var rectTransform = text.rectTransform$1;
@@ -30469,6 +32846,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 PointIntersectRectangle: function (m, a, b, c, d) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#PointIntersectRectangle", this ); }
+
                     var ab = b.$clone().sub( a );
                     var am = m.$clone().sub( a );
                     var bc = c.$clone().sub( b );
@@ -30496,6 +32875,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 ScreenPointToWorldPointInRectangle: function (transform, screenPoint, cam, worldPoint) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#ScreenPointToWorldPointInRectangle", this ); }
+
                     worldPoint.v = UnityEngine.Vector3.FromVector2(pc.Vec2.ZERO.clone());
                     var ray = UnityEngine.RectTransformUtility.ScreenPointToRay(cam, screenPoint);
                     var enter = { };
@@ -30525,6 +32906,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IntersectLinePlane: function (line, point, normal, intersectingPoint) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#IntersectLinePlane", this ); }
+
                     intersectingPoint.v = pc.Vec3.ZERO.clone();
                     var u = line.Point2.$clone().sub( line.Point1 );
                     var w = line.Point1.$clone().sub( point );
@@ -30566,6 +32949,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 DistanceToLine: function (a, b, point) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#DistanceToLine", this ); }
+
                     var n = b.$clone().sub( a );
                     var pa = a.$clone().sub( point );
 
@@ -30602,6 +32987,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToLowerFast: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#ToLowerFast", this ); }
+
                     if (c > TMPro.TMP_TextUtilities.k_lookupStringL.length - 1) {
                         return c;
                     }
@@ -30622,6 +33009,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 ToUpperFast: function (c) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#ToUpperFast", this ); }
+
                     if (c > TMPro.TMP_TextUtilities.k_lookupStringU.length - 1) {
                         return c;
                     }
@@ -30642,6 +33031,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetHashCode: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#GetHashCode", this ); }
+
                     var hashCode = 0;
 
                     for (var i = 0; i < s.length; i++) {
@@ -30664,6 +33055,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetSimpleHashCode: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#GetSimpleHashCode", this ); }
+
                     var hashCode = 0; // 5381;
 
                     for (var i = 0; i < s.length; i++) {
@@ -30686,6 +33079,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 GetSimpleHashCodeLowercase: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#GetSimpleHashCodeLowercase", this ); }
+
                     var hashCode = 5381;
 
                     for (var i = 0; i < s.length; i++) {
@@ -30708,6 +33103,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 HexToInt: function (hex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#HexToInt", this ); }
+
                     switch (hex) {
                         case 48: 
                             return 0;
@@ -30770,6 +33167,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {number}
                  */
                 StringHexToInt: function (s) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities#StringHexToInt", this ); }
+
                     var value = 0;
 
                     for (var i = 0; i < s.length; i++) {
@@ -30791,7 +33190,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_TextUtilities.LineSegment(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#getDefaultValue", this ); }
+ return new TMPro.TMP_TextUtilities.LineSegment(); }
             }
         },
         fields: {
@@ -30800,30 +33201,42 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#init", this ); }
+
                 this.Point1 = new UnityEngine.Vector3();
                 this.Point2 = new UnityEngine.Vector3();
             },
             $ctor1: function (p1, p2) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#$ctor1", this ); }
+
                 this.$initialize();
                 this.Point1 = p1.$clone();
                 this.Point2 = p2.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#getHashCode", this ); }
+
                 var h = Bridge.addHash([3544857860, this.Point1, this.Point2]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_TextUtilities.LineSegment)) {
                     return false;
                 }
                 return Bridge.equals(this.Point1, o.Point1) && Bridge.equals(this.Point2, o.Point2);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_TextUtilities.LineSegment#$clone", this ); }
+
                 var s = to || new TMPro.TMP_TextUtilities.LineSegment();
                 s.Point1 = this.Point1.$clone();
                 s.Point2 = this.Point2.$clone();
@@ -30852,6 +33265,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#instance#get", this ); }
+
                         if (TMPro.TMP_UpdateManager.s_Instance == null) {
                             TMPro.TMP_UpdateManager.s_Instance = new TMPro.TMP_UpdateManager();
                         }
@@ -30871,6 +33286,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterTextObjectForUpdate: function (textObject) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#RegisterTextObjectForUpdate", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalRegisterTextObjectForUpdate(textObject);
                 },
                 /*TMPro.TMP_UpdateManager.RegisterTextObjectForUpdate:static end.*/
@@ -30887,6 +33304,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterTextElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#RegisterTextElementForLayoutRebuild", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalRegisterTextElementForLayoutRebuild(element);
                 },
                 /*TMPro.TMP_UpdateManager.RegisterTextElementForLayoutRebuild:static end.*/
@@ -30903,18 +33322,24 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterTextElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#RegisterTextElementForGraphicRebuild", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalRegisterTextElementForGraphicRebuild(element);
                 },
                 /*TMPro.TMP_UpdateManager.RegisterTextElementForGraphicRebuild:static end.*/
 
                 /*TMPro.TMP_UpdateManager.RegisterTextElementForCullingUpdate:static start.*/
                 RegisterTextElementForCullingUpdate: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#RegisterTextElementForCullingUpdate", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalRegisterTextElementForCullingUpdate(element);
                 },
                 /*TMPro.TMP_UpdateManager.RegisterTextElementForCullingUpdate:static end.*/
 
                 /*TMPro.TMP_UpdateManager.UnRegisterTextObjectForUpdate:static start.*/
                 UnRegisterTextObjectForUpdate: function (textObject) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#UnRegisterTextObjectForUpdate", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalUnRegisterTextObjectForUpdate(textObject);
                 },
                 /*TMPro.TMP_UpdateManager.UnRegisterTextObjectForUpdate:static end.*/
@@ -30931,6 +33356,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 UnRegisterTextElementForRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#UnRegisterTextElementForRebuild", this ); }
+
                     TMPro.TMP_UpdateManager.instance.InternalUnRegisterTextElementForGraphicRebuild(element);
                     TMPro.TMP_UpdateManager.instance.InternalUnRegisterTextElementForLayoutRebuild(element);
                     TMPro.TMP_UpdateManager.instance.InternalUnRegisterTextObjectForUpdate(element);
@@ -30952,6 +33379,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#init", this ); }
+
                 this.m_LayoutQueueLookup = new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
                 this.m_LayoutRebuildQueue = new (System.Collections.Generic.List$1(TMPro.TMP_Text)).ctor();
                 this.m_GraphicQueueLookup = new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
@@ -30971,6 +33400,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.Canvas.addwillRenderCanvases(Bridge.fn.cacheBind(this, this.DoRebuilds));
             }
@@ -30978,6 +33409,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_UpdateManager.InternalRegisterTextObjectForUpdate start.*/
             InternalRegisterTextObjectForUpdate: function (textObject) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalRegisterTextObjectForUpdate", this ); }
+
                 var id = textObject.GetInstanceID();
 
                 if (this.m_InternalUpdateLookup.contains(id)) {
@@ -30993,6 +33426,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalRegisterTextElementForLayoutRebuild start.*/
             InternalRegisterTextElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalRegisterTextElementForLayoutRebuild", this ); }
+
                 var id = element.GetInstanceID();
 
                 if (this.m_LayoutQueueLookup.contains(id)) {
@@ -31006,6 +33441,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalRegisterTextElementForGraphicRebuild start.*/
             InternalRegisterTextElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalRegisterTextElementForGraphicRebuild", this ); }
+
                 var id = element.GetInstanceID();
 
                 if (this.m_GraphicQueueLookup.contains(id)) {
@@ -31019,6 +33456,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalRegisterTextElementForCullingUpdate start.*/
             InternalRegisterTextElementForCullingUpdate: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalRegisterTextElementForCullingUpdate", this ); }
+
                 var id = element.GetInstanceID();
 
                 if (this.m_CullingUpdateLookup.contains(id)) {
@@ -31042,6 +33481,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnCameraPreCull: function (cam) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#OnCameraPreCull", this ); }
+
                 this.DoRebuilds();
             },
             /*TMPro.TMP_UpdateManager.OnCameraPreCull end.*/
@@ -31057,6 +33498,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DoRebuilds: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#DoRebuilds", this ); }
+
                 // Handle text objects the require an update either as a result of scale changes or legacy animation.
                 for (var i = 0; i < this.m_InternalUpdateQueue.Count; i++) {
                     this.m_InternalUpdateQueue.getItem(i).InternalUpdate();
@@ -31098,6 +33541,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalUnRegisterTextElementForGraphicRebuild start.*/
             InternalUnRegisterTextElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalUnRegisterTextElementForGraphicRebuild", this ); }
+
                 var id = element.GetInstanceID();
 
                 TMPro.TMP_UpdateManager.instance.m_GraphicRebuildQueue.remove(element);
@@ -31107,6 +33552,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalUnRegisterTextElementForLayoutRebuild start.*/
             InternalUnRegisterTextElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalUnRegisterTextElementForLayoutRebuild", this ); }
+
                 var id = element.GetInstanceID();
 
                 TMPro.TMP_UpdateManager.instance.m_LayoutRebuildQueue.remove(element);
@@ -31116,6 +33563,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateManager.InternalUnRegisterTextObjectForUpdate start.*/
             InternalUnRegisterTextObjectForUpdate: function (textObject) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateManager#InternalUnRegisterTextObjectForUpdate", this ); }
+
                 var id = textObject.GetInstanceID();
 
                 TMPro.TMP_UpdateManager.instance.m_InternalUpdateQueue.remove(textObject);
@@ -31153,6 +33602,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#instance#get", this ); }
+
                         if (TMPro.TMP_UpdateRegistry.s_Instance == null) {
                             TMPro.TMP_UpdateRegistry.s_Instance = new TMPro.TMP_UpdateRegistry();
                         }
@@ -31173,6 +33624,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterCanvasElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#RegisterCanvasElementForLayoutRebuild", this ); }
+
                     TMPro.TMP_UpdateRegistry.instance.InternalRegisterCanvasElementForLayoutRebuild(element);
                 },
                 /*TMPro.TMP_UpdateRegistry.RegisterCanvasElementForLayoutRebuild:static end.*/
@@ -31189,6 +33642,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterCanvasElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#RegisterCanvasElementForGraphicRebuild", this ); }
+
                     TMPro.TMP_UpdateRegistry.instance.InternalRegisterCanvasElementForGraphicRebuild(element);
                 },
                 /*TMPro.TMP_UpdateRegistry.RegisterCanvasElementForGraphicRebuild:static end.*/
@@ -31205,6 +33660,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 UnRegisterCanvasElementForRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#UnRegisterCanvasElementForRebuild", this ); }
+
                     TMPro.TMP_UpdateRegistry.instance.InternalUnRegisterCanvasElementForLayoutRebuild(element);
                     TMPro.TMP_UpdateRegistry.instance.InternalUnRegisterCanvasElementForGraphicRebuild(element);
                 },
@@ -31221,6 +33678,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#init", this ); }
+
                 this.m_LayoutRebuildQueue = new (System.Collections.Generic.List$1(UnityEngine.UI.ICanvasElement)).ctor();
                 this.m_LayoutQueueLookup = new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
                 this.m_GraphicRebuildQueue = new (System.Collections.Generic.List$1(UnityEngine.UI.ICanvasElement)).ctor();
@@ -31236,6 +33695,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#ctor", this ); }
+
                 this.$initialize();
                 //Debug.Log("Adding WillRenderCanvases");
                 UnityEngine.Canvas.addwillRenderCanvases(Bridge.fn.cacheBind(this, this.PerformUpdateForCanvasRendererObjects));
@@ -31244,6 +33705,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_UpdateRegistry.InternalRegisterCanvasElementForLayoutRebuild start.*/
             InternalRegisterCanvasElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#InternalRegisterCanvasElementForLayoutRebuild", this ); }
+
                 var id = (Bridge.as(element, UnityEngine.Object)).GetInstanceID();
 
                 if (this.m_LayoutQueueLookup.contains(id)) {
@@ -31259,6 +33722,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateRegistry.InternalRegisterCanvasElementForGraphicRebuild start.*/
             InternalRegisterCanvasElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#InternalRegisterCanvasElementForGraphicRebuild", this ); }
+
                 var id = (Bridge.as(element, UnityEngine.Object)).GetInstanceID();
 
                 if (this.m_GraphicQueueLookup.contains(id)) {
@@ -31283,6 +33748,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             PerformUpdateForCanvasRendererObjects: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#PerformUpdateForCanvasRendererObjects", this ); }
+
                 //Debug.Log("Performing update of CanvasRenderer objects at Frame: " + Time.frameCount);
 
                 // Processing elements that require a layout rebuild.
@@ -31327,6 +33794,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             PerformUpdateForMeshRendererObjects: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#PerformUpdateForMeshRendererObjects", this ); }
+
                 console.log("Perform update of MeshRenderer objects.");
 
             },
@@ -31334,6 +33803,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateRegistry.InternalUnRegisterCanvasElementForLayoutRebuild start.*/
             InternalUnRegisterCanvasElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#InternalUnRegisterCanvasElementForLayoutRebuild", this ); }
+
                 var id = (Bridge.as(element, UnityEngine.Object)).GetInstanceID();
 
                 //element.LayoutComplete();
@@ -31344,6 +33815,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_UpdateRegistry.InternalUnRegisterCanvasElementForGraphicRebuild start.*/
             InternalUnRegisterCanvasElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "TMPro.TMP_UpdateRegistry#InternalUnRegisterCanvasElementForGraphicRebuild", this ); }
+
                 var id = (Bridge.as(element, UnityEngine.Object)).GetInstanceID();
 
                 //element.GraphicUpdateComplete();
@@ -31367,17 +33840,23 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             props: {
                 zero: {
                     get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#zero#get", this ); }
+
                         return TMPro.TMP_Vertex.k_Zero.$clone();
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#init", this ); }
+
                     this.k_Zero = new TMPro.TMP_Vertex();
                 }
             },
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_Vertex(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#getDefaultValue", this ); }
+ return new TMPro.TMP_Vertex(); }
             }
         },
         fields: {
@@ -31389,6 +33868,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#init", this ); }
+
                 this.position = new UnityEngine.Vector3();
                 this.uv = new UnityEngine.Vector2();
                 this.uv2 = new UnityEngine.Vector2();
@@ -31396,21 +33877,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.color = new UnityEngine.Color32();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#getHashCode", this ); }
+
                 var h = Bridge.addHash([3552783119, this.position, this.uv, this.uv2, this.uv4, this.color]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_Vertex)) {
                     return false;
                 }
                 return Bridge.equals(this.position, o.position) && Bridge.equals(this.uv, o.uv) && Bridge.equals(this.uv2, o.uv2) && Bridge.equals(this.uv4, o.uv4) && Bridge.equals(this.color, o.color);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Vertex#$clone", this ); }
+
                 var s = to || new TMPro.TMP_Vertex();
                 s.position = this.position.$clone();
                 s.uv = this.uv.$clone();
@@ -31457,7 +33946,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.TMP_WordInfo(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#getDefaultValue", this ); }
+ return new TMPro.TMP_WordInfo(); }
             }
         },
         fields: {
@@ -31468,6 +33959,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#ctor", this ); }
+
                 this.$initialize();
             }
         },
@@ -31483,6 +33976,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {string}
              */
             GetWord: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#GetWord", this ); }
+
                 var word = "";
                 var charInfo = this.textComponent.textInfo.characterInfo;
 
@@ -31495,16 +33990,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             /*TMPro.TMP_WordInfo.GetWord end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#getHashCode", this ); }
+
                 var h = Bridge.addHash([5153303284, this.textComponent, this.firstCharacterIndex, this.lastCharacterIndex, this.characterCount]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.TMP_WordInfo)) {
                     return false;
                 }
                 return Bridge.equals(this.textComponent, o.textComponent) && Bridge.equals(this.firstCharacterIndex, o.firstCharacterIndex) && Bridge.equals(this.lastCharacterIndex, o.lastCharacterIndex) && Bridge.equals(this.characterCount, o.characterCount);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.TMP_WordInfo#$clone", this ); }
+
                 var s = to || new TMPro.TMP_WordInfo();
                 s.textComponent = this.textComponent;
                 s.firstCharacterIndex = this.firstCharacterIndex;
@@ -31535,6 +34036,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#init", this ); }
+
                     this.COMPUTE_DT_EVENT = new (TMPro.FastAction$2(System.Object,TMPro.Compute_DT_EventArgs))();
                     this.MATERIAL_PROPERTY_EVENT = new (TMPro.FastAction$2(System.Boolean,UnityEngine.Material))();
                     this.FONT_PROPERTY_EVENT = new (TMPro.FastAction$2(System.Boolean,UnityEngine.Object))();
@@ -31552,72 +34055,96 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMPro_EventManager.ON_MATERIAL_PROPERTY_CHANGED:static start.*/
                 ON_MATERIAL_PROPERTY_CHANGED: function (isChanged, mat) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_MATERIAL_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.MATERIAL_PROPERTY_EVENT.Call(isChanged, mat);
                 },
                 /*TMPro.TMPro_EventManager.ON_MATERIAL_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_FONT_PROPERTY_CHANGED:static start.*/
                 ON_FONT_PROPERTY_CHANGED: function (isChanged, obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_FONT_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.FONT_PROPERTY_EVENT.Call(isChanged, obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_FONT_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_SPRITE_ASSET_PROPERTY_CHANGED:static start.*/
                 ON_SPRITE_ASSET_PROPERTY_CHANGED: function (isChanged, obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_SPRITE_ASSET_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.SPRITE_ASSET_PROPERTY_EVENT.Call(isChanged, obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_SPRITE_ASSET_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_TEXTMESHPRO_PROPERTY_CHANGED:static start.*/
                 ON_TEXTMESHPRO_PROPERTY_CHANGED: function (isChanged, obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_TEXTMESHPRO_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.TEXTMESHPRO_PROPERTY_EVENT.Call(isChanged, obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_TEXTMESHPRO_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_DRAG_AND_DROP_MATERIAL_CHANGED:static start.*/
                 ON_DRAG_AND_DROP_MATERIAL_CHANGED: function (sender, currentMaterial, newMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_DRAG_AND_DROP_MATERIAL_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.DRAG_AND_DROP_MATERIAL_EVENT.Call(sender, currentMaterial, newMaterial);
                 },
                 /*TMPro.TMPro_EventManager.ON_DRAG_AND_DROP_MATERIAL_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_TEXT_STYLE_PROPERTY_CHANGED:static start.*/
                 ON_TEXT_STYLE_PROPERTY_CHANGED: function (isChanged) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_TEXT_STYLE_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.TEXT_STYLE_PROPERTY_EVENT.Call(isChanged);
                 },
                 /*TMPro.TMPro_EventManager.ON_TEXT_STYLE_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_COLOR_GRADIENT_PROPERTY_CHANGED:static start.*/
                 ON_COLOR_GRADIENT_PROPERTY_CHANGED: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_COLOR_GRADIENT_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.COLOR_GRADIENT_PROPERTY_EVENT.Call(obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_COLOR_GRADIENT_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_TEXT_CHANGED:static start.*/
                 ON_TEXT_CHANGED: function (obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_TEXT_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.TEXT_CHANGED_EVENT.Call(obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_TEXT_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_TMP_SETTINGS_CHANGED:static start.*/
                 ON_TMP_SETTINGS_CHANGED: function () {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_TMP_SETTINGS_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.TMP_SETTINGS_PROPERTY_EVENT.Call();
                 },
                 /*TMPro.TMPro_EventManager.ON_TMP_SETTINGS_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_RESOURCES_LOADED:static start.*/
                 ON_RESOURCES_LOADED: function () {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_RESOURCES_LOADED", this ); }
+
                     TMPro.TMPro_EventManager.RESOURCE_LOAD_EVENT.Call();
                 },
                 /*TMPro.TMPro_EventManager.ON_RESOURCES_LOADED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED:static start.*/
                 ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED: function (isChanged, obj) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED", this ); }
+
                     TMPro.TMPro_EventManager.TEXTMESHPRO_UGUI_PROPERTY_EVENT.Call(isChanged, obj);
                 },
                 /*TMPro.TMPro_EventManager.ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED:static end.*/
 
                 /*TMPro.TMPro_EventManager.ON_COMPUTE_DT_EVENT:static start.*/
                 ON_COMPUTE_DT_EVENT: function (Sender, e) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_EventManager#ON_COMPUTE_DT_EVENT", this ); }
+
                     TMPro.TMPro_EventManager.COMPUTE_DT_EVENT.Call(Sender, e);
                 },
                 /*TMPro.TMPro_EventManager.ON_COMPUTE_DT_EVENT:static end.*/
@@ -31645,6 +34172,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMPro_ExtensionMethods.ArrayToString:static start.*/
                 ArrayToString: function (chars) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#ArrayToString", this ); }
+
                     var s = "";
 
                     for (var i = 0; i < chars.length && chars[i] !== 0; i++) {
@@ -31657,6 +34186,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.IntToString:static start.*/
                 IntToString: function (unicodes) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#IntToString", this ); }
+
                     var chars = System.Array.init(unicodes.length, 0, System.Char);
 
                     for (var i = 0; i < unicodes.length; i++) {
@@ -31669,6 +34200,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.IntToString$1:static start.*/
                 IntToString$1: function (unicodes, start, length) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#IntToString$1", this ); }
+
                     if (start > unicodes.length) {
                         return "";
                     }
@@ -31689,6 +34222,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.UintToString:static start.*/
                 UintToString: function (unicodes) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#UintToString", this ); }
+
                     var chars = System.Array.init(unicodes.Count, 0, System.Char);
 
                     for (var i = 0; i < unicodes.Count; i++) {
@@ -31701,6 +34236,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.FindInstanceID:static start.*/
                 FindInstanceID: function (T, list, target) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#FindInstanceID", this ); }
+
                     var targetID = target.GetInstanceID();
 
                     for (var i = 0; i < list.Count; i++) {
@@ -31714,18 +34251,24 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.Compare$1:static start.*/
                 Compare$1: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Compare$1", this ); }
+
                     return a.r === b.r && a.g === b.g && a.b === b.b && a.a === b.a;
                 },
                 /*TMPro.TMPro_ExtensionMethods.Compare$1:static end.*/
 
                 /*TMPro.TMPro_ExtensionMethods.Compare:static start.*/
                 Compare: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Compare", this ); }
+
                     return a.r === b.r && a.g === b.g && a.b === b.b && a.a === b.a;
                 },
                 /*TMPro.TMPro_ExtensionMethods.Compare:static end.*/
 
                 /*TMPro.TMPro_ExtensionMethods.Compare$3:static start.*/
                 Compare$3: function (v1, v2, accuracy) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Compare$3", this ); }
+
                     var x = (v1.x * accuracy) === (v2.x * accuracy);
                     var y = (v1.y * accuracy) === (v2.y * accuracy);
                     var z = (v1.z * accuracy) === (v2.z * accuracy);
@@ -31736,6 +34279,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.Compare$2:static start.*/
                 Compare$2: function (q1, q2, accuracy) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Compare$2", this ); }
+
                     var x = (q1.x * accuracy) === (q2.x * accuracy);
                     var y = (q1.y * accuracy) === (q2.y * accuracy);
                     var z = (q1.z * accuracy) === (q2.z * accuracy);
@@ -31747,18 +34292,24 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.CompareRGB$1:static start.*/
                 CompareRGB$1: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#CompareRGB$1", this ); }
+
                     return a.r === b.r && a.g === b.g && a.b === b.b;
                 },
                 /*TMPro.TMPro_ExtensionMethods.CompareRGB$1:static end.*/
 
                 /*TMPro.TMPro_ExtensionMethods.CompareRGB:static start.*/
                 CompareRGB: function (a, b) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#CompareRGB", this ); }
+
                     return a.r === b.r && a.g === b.g && a.b === b.b;
                 },
                 /*TMPro.TMPro_ExtensionMethods.CompareRGB:static end.*/
 
                 /*TMPro.TMPro_ExtensionMethods.Multiply:static start.*/
                 Multiply: function (c1, c2) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Multiply", this ); }
+
                     var r = (c1.r / 255.0) * (c2.r / 255.0) * 255;
                     var g = (c1.g / 255.0) * (c2.g / 255.0) * 255;
                     var b = (c1.b / 255.0) * (c2.b / 255.0) * 255;
@@ -31770,6 +34321,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.Tint$1:static start.*/
                 Tint$1: function (c1, c2) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Tint$1", this ); }
+
                     var r = (c1.r / 255.0) * (c2.r / 255.0) * 255;
                     var g = (c1.g / 255.0) * (c2.g / 255.0) * 255;
                     var b = (c1.b / 255.0) * (c2.b / 255.0) * 255;
@@ -31781,6 +34334,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.Tint:static start.*/
                 Tint: function (c1, tint) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#Tint", this ); }
+
                     var r = Math.max(0, Math.min(c1.r / 255.0 * tint * 255, 255));
                     var g = Math.max(0, Math.min(c1.g / 255.0 * tint * 255, 255));
                     var b = Math.max(0, Math.min(c1.b / 255.0 * tint * 255, 255));
@@ -31792,6 +34347,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
                 /*TMPro.TMPro_ExtensionMethods.MinAlpha:static start.*/
                 MinAlpha: function (c1, c2) {
+if ( TRACE ) { TRACE( "TMPro.TMPro_ExtensionMethods#MinAlpha", this ); }
+
                     var a = c1.a < c2.a ? c1.a : c2.a;
 
                     return new pc.Color( c1.r, c1.g, c1.b, a );
@@ -31847,7 +34404,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.VertexGradient(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#getDefaultValue", this ); }
+ return new TMPro.VertexGradient(); }
             }
         },
         fields: {
@@ -31858,12 +34417,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#init", this ); }
+
                 this.topLeft = new UnityEngine.Color();
                 this.topRight = new UnityEngine.Color();
                 this.bottomLeft = new UnityEngine.Color();
                 this.bottomRight = new UnityEngine.Color();
             },
             $ctor1: function (color) {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#$ctor1", this ); }
+
                 this.$initialize();
                 this.topLeft = color.$clone();
                 this.topRight = color.$clone();
@@ -31884,6 +34447,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (color0, color1, color2, color3) {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#$ctor2", this ); }
+
                 this.$initialize();
                 this.topLeft = color0.$clone();
                 this.topRight = color1.$clone();
@@ -31891,21 +34456,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.bottomRight = color3.$clone();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#getHashCode", this ); }
+
                 var h = Bridge.addHash([5572376202, this.topLeft, this.topRight, this.bottomLeft, this.bottomRight]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.VertexGradient)) {
                     return false;
                 }
                 return Bridge.equals(this.topLeft, o.topLeft) && Bridge.equals(this.topRight, o.topRight) && Bridge.equals(this.bottomLeft, o.bottomLeft) && Bridge.equals(this.bottomRight, o.bottomRight);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.VertexGradient#$clone", this ); }
+
                 var s = to || new TMPro.VertexGradient();
                 s.topLeft = this.topLeft.$clone();
                 s.topRight = this.topRight.$clone();
@@ -31956,7 +34529,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.WordWrapState(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#getDefaultValue", this ); }
+ return new TMPro.WordWrapState(); }
             }
         },
         fields: {
@@ -32029,6 +34604,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#init", this ); }
+
                 this.lineInfo = new TMPro.TMP_LineInfo();
                 this.vertexColor = new UnityEngine.Color32();
                 this.underlineColor = new UnityEngine.Color32();
@@ -32053,21 +34630,29 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                 this.meshExtents = new TMPro.Extents();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#getHashCode", this ); }
+
                 var h = Bridge.addHash([5523199590, this.previous_WordBreak, this.total_CharacterCount, this.visible_CharacterCount, this.visible_SpriteCount, this.visible_LinkCount, this.firstCharacterIndex, this.firstVisibleCharacterIndex, this.lastCharacterIndex, this.lastVisibleCharIndex, this.lineNumber, this.maxCapHeight, this.maxAscender, this.startOfLineAscender, this.maxDescender, this.maxLineAscender, this.maxLineDescender, this.pageAscender, this.horizontalAlignment, this.marginLeft, this.marginRight, this.xAdvance, this.preferredWidth, this.preferredHeight, this.previousLineScale, this.wordCount, this.fontStyle, this.italicAngle, this.fontScale, this.fontScaleMultiplier, this.currentFontSize, this.baselineOffset, this.lineOffset, this.isDrivenLineSpacing, this.glyphHorizontalAdvanceAdjustment, this.cSpace, this.mSpace, this.textInfo, this.lineInfo, this.vertexColor, this.underlineColor, this.strikethroughColor, this.highlightColor, this.basicStyleStack, this.italicAngleStack, this.colorStack, this.underlineColorStack, this.strikethroughColorStack, this.highlightColorStack, this.highlightStateStack, this.colorGradientStack, this.sizeStack, this.indentStack, this.fontWeightStack, this.styleStack, this.baselineStack, this.actionStack, this.materialReferenceStack, this.lineJustificationStack, this.spriteAnimationID, this.currentFontAsset, this.currentSpriteAsset, this.currentMaterial, this.currentMaterialIndex, this.meshExtents, this.tagNoParsing, this.isNonBreakingSpace]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.WordWrapState)) {
                     return false;
                 }
                 return Bridge.equals(this.previous_WordBreak, o.previous_WordBreak) && Bridge.equals(this.total_CharacterCount, o.total_CharacterCount) && Bridge.equals(this.visible_CharacterCount, o.visible_CharacterCount) && Bridge.equals(this.visible_SpriteCount, o.visible_SpriteCount) && Bridge.equals(this.visible_LinkCount, o.visible_LinkCount) && Bridge.equals(this.firstCharacterIndex, o.firstCharacterIndex) && Bridge.equals(this.firstVisibleCharacterIndex, o.firstVisibleCharacterIndex) && Bridge.equals(this.lastCharacterIndex, o.lastCharacterIndex) && Bridge.equals(this.lastVisibleCharIndex, o.lastVisibleCharIndex) && Bridge.equals(this.lineNumber, o.lineNumber) && Bridge.equals(this.maxCapHeight, o.maxCapHeight) && Bridge.equals(this.maxAscender, o.maxAscender) && Bridge.equals(this.startOfLineAscender, o.startOfLineAscender) && Bridge.equals(this.maxDescender, o.maxDescender) && Bridge.equals(this.maxLineAscender, o.maxLineAscender) && Bridge.equals(this.maxLineDescender, o.maxLineDescender) && Bridge.equals(this.pageAscender, o.pageAscender) && Bridge.equals(this.horizontalAlignment, o.horizontalAlignment) && Bridge.equals(this.marginLeft, o.marginLeft) && Bridge.equals(this.marginRight, o.marginRight) && Bridge.equals(this.xAdvance, o.xAdvance) && Bridge.equals(this.preferredWidth, o.preferredWidth) && Bridge.equals(this.preferredHeight, o.preferredHeight) && Bridge.equals(this.previousLineScale, o.previousLineScale) && Bridge.equals(this.wordCount, o.wordCount) && Bridge.equals(this.fontStyle, o.fontStyle) && Bridge.equals(this.italicAngle, o.italicAngle) && Bridge.equals(this.fontScale, o.fontScale) && Bridge.equals(this.fontScaleMultiplier, o.fontScaleMultiplier) && Bridge.equals(this.currentFontSize, o.currentFontSize) && Bridge.equals(this.baselineOffset, o.baselineOffset) && Bridge.equals(this.lineOffset, o.lineOffset) && Bridge.equals(this.isDrivenLineSpacing, o.isDrivenLineSpacing) && Bridge.equals(this.glyphHorizontalAdvanceAdjustment, o.glyphHorizontalAdvanceAdjustment) && Bridge.equals(this.cSpace, o.cSpace) && Bridge.equals(this.mSpace, o.mSpace) && Bridge.equals(this.textInfo, o.textInfo) && Bridge.equals(this.lineInfo, o.lineInfo) && Bridge.equals(this.vertexColor, o.vertexColor) && Bridge.equals(this.underlineColor, o.underlineColor) && Bridge.equals(this.strikethroughColor, o.strikethroughColor) && Bridge.equals(this.highlightColor, o.highlightColor) && Bridge.equals(this.basicStyleStack, o.basicStyleStack) && Bridge.equals(this.italicAngleStack, o.italicAngleStack) && Bridge.equals(this.colorStack, o.colorStack) && Bridge.equals(this.underlineColorStack, o.underlineColorStack) && Bridge.equals(this.strikethroughColorStack, o.strikethroughColorStack) && Bridge.equals(this.highlightColorStack, o.highlightColorStack) && Bridge.equals(this.highlightStateStack, o.highlightStateStack) && Bridge.equals(this.colorGradientStack, o.colorGradientStack) && Bridge.equals(this.sizeStack, o.sizeStack) && Bridge.equals(this.indentStack, o.indentStack) && Bridge.equals(this.fontWeightStack, o.fontWeightStack) && Bridge.equals(this.styleStack, o.styleStack) && Bridge.equals(this.baselineStack, o.baselineStack) && Bridge.equals(this.actionStack, o.actionStack) && Bridge.equals(this.materialReferenceStack, o.materialReferenceStack) && Bridge.equals(this.lineJustificationStack, o.lineJustificationStack) && Bridge.equals(this.spriteAnimationID, o.spriteAnimationID) && Bridge.equals(this.currentFontAsset, o.currentFontAsset) && Bridge.equals(this.currentSpriteAsset, o.currentSpriteAsset) && Bridge.equals(this.currentMaterial, o.currentMaterial) && Bridge.equals(this.currentMaterialIndex, o.currentMaterialIndex) && Bridge.equals(this.meshExtents, o.meshExtents) && Bridge.equals(this.tagNoParsing, o.tagNoParsing) && Bridge.equals(this.isNonBreakingSpace, o.isNonBreakingSpace);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.WordWrapState#$clone", this ); }
+
                 var s = to || new TMPro.WordWrapState();
                 s.previous_WordBreak = this.previous_WordBreak;
                 s.total_CharacterCount = this.total_CharacterCount;
@@ -32147,7 +34732,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.ColorTween(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#getDefaultValue", this ); }
+ return new TMPro.ColorTween(); }
             }
         },
         fields: {
@@ -32161,41 +34748,61 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             startColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#startColor#get", this ); }
+
                     return this.m_StartColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#startColor#set", this ); }
+
                     this.m_StartColor = value.$clone();
                 }
             },
             targetColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#targetColor#get", this ); }
+
                     return this.m_TargetColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#targetColor#set", this ); }
+
                     this.m_TargetColor = value.$clone();
                 }
             },
             tweenMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#tweenMode#get", this ); }
+
                     return this.m_TweenMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#tweenMode#set", this ); }
+
                     this.m_TweenMode = value;
                 }
             },
             duration: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#duration#get", this ); }
+
                     return this.m_Duration;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#duration#set", this ); }
+
                     this.m_Duration = value;
                 }
             },
             ignoreTimeScale: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#ignoreTimeScale#get", this ); }
+
                     return this.m_IgnoreTimeScale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#ignoreTimeScale#set", this ); }
+
                     this.m_IgnoreTimeScale = value;
                 }
             }
@@ -32208,16 +34815,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#init", this ); }
+
                 this.m_StartColor = new UnityEngine.Color();
                 this.m_TargetColor = new UnityEngine.Color();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.ColorTween.TweenValue start.*/
             TweenValue: function (floatPercentage) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#TweenValue", this ); }
+
                 if (!this.ValidTarget()) {
                     return;
                 }
@@ -32237,6 +34850,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.ColorTween.AddOnChangedCallback start.*/
             AddOnChangedCallback: function (callback) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#AddOnChangedCallback", this ); }
+
                 if (this.m_Target == null) {
                     this.m_Target = new TMPro.ColorTween.ColorTweenCallback();
                 }
@@ -32247,33 +34862,45 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.ColorTween.GetIgnoreTimescale start.*/
             GetIgnoreTimescale: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#GetIgnoreTimescale", this ); }
+
                 return this.m_IgnoreTimeScale;
             },
             /*TMPro.ColorTween.GetIgnoreTimescale end.*/
 
             /*TMPro.ColorTween.GetDuration start.*/
             GetDuration: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#GetDuration", this ); }
+
                 return this.m_Duration;
             },
             /*TMPro.ColorTween.GetDuration end.*/
 
             /*TMPro.ColorTween.ValidTarget start.*/
             ValidTarget: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#ValidTarget", this ); }
+
                 return this.m_Target != null;
             },
             /*TMPro.ColorTween.ValidTarget end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#getHashCode", this ); }
+
                 var h = Bridge.addHash([3571724826, this.m_Target, this.m_StartColor, this.m_TargetColor, this.m_TweenMode, this.m_Duration, this.m_IgnoreTimeScale]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.ColorTween)) {
                     return false;
                 }
                 return Bridge.equals(this.m_Target, o.m_Target) && Bridge.equals(this.m_StartColor, o.m_StartColor) && Bridge.equals(this.m_TargetColor, o.m_TargetColor) && Bridge.equals(this.m_TweenMode, o.m_TweenMode) && Bridge.equals(this.m_Duration, o.m_Duration) && Bridge.equals(this.m_IgnoreTimeScale, o.m_IgnoreTimeScale);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.ColorTween#$clone", this ); }
+
                 var s = to || new TMPro.ColorTween();
                 s.m_Target = this.m_Target;
                 s.m_StartColor = this.m_StartColor.$clone();
@@ -32293,7 +34920,9 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new TMPro.FloatTween(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#getDefaultValue", this ); }
+ return new TMPro.FloatTween(); }
             }
         },
         fields: {
@@ -32306,33 +34935,49 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         props: {
             startValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#startValue#get", this ); }
+
                     return this.m_StartValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#startValue#set", this ); }
+
                     this.m_StartValue = value;
                 }
             },
             targetValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#targetValue#get", this ); }
+
                     return this.m_TargetValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#targetValue#set", this ); }
+
                     this.m_TargetValue = value;
                 }
             },
             duration: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#duration#get", this ); }
+
                     return this.m_Duration;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#duration#set", this ); }
+
                     this.m_Duration = value;
                 }
             },
             ignoreTimeScale: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#ignoreTimeScale#get", this ); }
+
                     return this.m_IgnoreTimeScale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#ignoreTimeScale#set", this ); }
+
                     this.m_IgnoreTimeScale = value;
                 }
             }
@@ -32345,12 +34990,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*TMPro.FloatTween.TweenValue start.*/
             TweenValue: function (floatPercentage) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#TweenValue", this ); }
+
                 if (!this.ValidTarget()) {
                     return;
                 }
@@ -32362,6 +35011,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FloatTween.AddOnChangedCallback start.*/
             AddOnChangedCallback: function (callback) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#AddOnChangedCallback", this ); }
+
                 if (this.m_Target == null) {
                     this.m_Target = new TMPro.FloatTween.FloatTweenCallback();
                 }
@@ -32372,33 +35023,45 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.FloatTween.GetIgnoreTimescale start.*/
             GetIgnoreTimescale: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#GetIgnoreTimescale", this ); }
+
                 return this.m_IgnoreTimeScale;
             },
             /*TMPro.FloatTween.GetIgnoreTimescale end.*/
 
             /*TMPro.FloatTween.GetDuration start.*/
             GetDuration: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#GetDuration", this ); }
+
                 return this.m_Duration;
             },
             /*TMPro.FloatTween.GetDuration end.*/
 
             /*TMPro.FloatTween.ValidTarget start.*/
             ValidTarget: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#ValidTarget", this ); }
+
                 return this.m_Target != null;
             },
             /*TMPro.FloatTween.ValidTarget end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#getHashCode", this ); }
+
                 var h = Bridge.addHash([3337039647, this.m_Target, this.m_StartValue, this.m_TargetValue, this.m_Duration, this.m_IgnoreTimeScale]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#equals", this ); }
+
                 if (!Bridge.is(o, TMPro.FloatTween)) {
                     return false;
                 }
                 return Bridge.equals(this.m_Target, o.m_Target) && Bridge.equals(this.m_StartValue, o.m_StartValue) && Bridge.equals(this.m_TargetValue, o.m_TargetValue) && Bridge.equals(this.m_Duration, o.m_Duration) && Bridge.equals(this.m_IgnoreTimeScale, o.m_IgnoreTimeScale);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "TMPro.FloatTween#$clone", this ); }
+
                 var s = to || new TMPro.FloatTween();
                 s.m_Target = this.m_Target;
                 s.m_StartValue = this.m_StartValue;
@@ -32468,6 +35131,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             sortingLayerID: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#sortingLayerID#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.renderer, null)) {
                         return 0;
                     }
@@ -32475,6 +35140,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_renderer.sortingLayerID;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#sortingLayerID#set", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.renderer, null)) {
                         return;
                     }
@@ -32494,6 +35161,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             sortingOrder: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#sortingOrder#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.renderer, null)) {
                         return 0;
                     }
@@ -32501,6 +35170,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_renderer.sortingOrder;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#sortingOrder#set", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.renderer, null)) {
                         return;
                     }
@@ -32521,9 +35192,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             autoSizeTextContainer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#autoSizeTextContainer#get", this ); }
+
                     return this.m_autoSizeTextContainer;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#autoSizeTextContainer#set", this ); }
+
                     if (this.m_autoSizeTextContainer === value) {
                         return;
                     }
@@ -32546,6 +35221,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textContainer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#textContainer#get", this ); }
+
                     return null;
                 }
             },
@@ -32561,6 +35238,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             transform$2: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#transform$2#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_transform, null)) {
                         this.m_transform = this.GetComponent(UnityEngine.Transform);
                     }
@@ -32580,6 +35259,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             renderer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#renderer#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_renderer, null)) {
                         this.m_renderer = this.GetComponent(UnityEngine.Renderer);
                     }
@@ -32600,6 +35281,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#mesh#get", this ); }
+
                     if (this.m_mesh == null) {
                         this.m_mesh = new UnityEngine.Mesh.ctor();
                         this.m_mesh.hideFlags = UnityEngine.HideFlags.HideAndDontSave;
@@ -32620,6 +35303,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             meshFilter: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#meshFilter#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_meshFilter, null)) {
                         this.m_meshFilter = this.GetComponent(UnityEngine.MeshFilter);
 
@@ -32643,9 +35328,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maskType: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#maskType#get", this ); }
+
                     return this.m_maskType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#maskType#set", this ); }
+
                     this.m_maskType = value;
                     this.SetMask$2(this.m_maskType);
                 }
@@ -32663,6 +35352,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             OrthographicScaleFactor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OrthographicScaleFactor#get", this ); }
+
                     return this.m_isOrthographic ? 1 : 0.1;
                 }
             }
@@ -32688,6 +35379,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#init", this ); }
+
                 this.m_EnvMapMatrix = new UnityEngine.Matrix4x4();
                 this.m_hasFontAssetChanged = false;
                 this.m_max_characters = 8;
@@ -32704,6 +35397,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#ctor", this ); }
+
                 this.$initialize();
                 TMPro.TMP_Text.ctor.call(this, handle);
             }
@@ -32722,6 +35417,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMask: function (type, maskCoords) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMask", this ); }
+
                 this.SetMask$2(type);
 
                 this.SetMaskCoordinates(maskCoords.$clone());
@@ -32743,6 +35440,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMask$1: function (type, maskCoords, softnessX, softnessY) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMask$1", this ); }
+
                 this.SetMask$2(type);
 
                 this.SetMaskCoordinates$1(maskCoords.$clone(), softnessX, softnessY);
@@ -32751,6 +35450,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetMask$2 start.*/
             SetMask$2: function (maskType) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMask$2", this ); }
+
                 switch (maskType) {
                     case TMPro.MaskingTypes.MaskOff: 
                         this.m_sharedMaterial.DisableKeyword(TMPro.ShaderUtilities.Keyword_MASK_SOFT);
@@ -32783,6 +35484,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetVerticesDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetVerticesDirty", this ); }
+
                 //Debug.Log("***** SetVerticesDirty() called on object [" + this.name + "] at frame [" + Time.frameCount + "] *****");
 
                 if (UnityEngine.MonoBehaviour.op_Equality(this, null) || !this.IsActive()) {
@@ -32803,6 +35506,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetLayoutDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetLayoutDirty", this ); }
+
                 this.m_isPreferredWidthDirty = true;
                 this.m_isPreferredHeightDirty = true;
 
@@ -32828,6 +35533,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMaterialDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMaterialDirty", this ); }
+
                 //Debug.Log("SetMaterialDirty()");
 
                 //if (!this.IsActive())
@@ -32849,6 +35556,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetAllDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetAllDirty", this ); }
+
                 this.m_isInputParsingRequired = true;
 
                 this.SetLayoutDirty();
@@ -32868,6 +35577,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#Rebuild", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this, null)) {
                     return;
                 }
@@ -32899,6 +35610,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateMaterial", this ); }
+
                 //Debug.Log("*** UpdateMaterial() ***");
 
                 //if (!this.IsActive())
@@ -32927,6 +35640,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMeshPadding: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateMeshPadding", this ); }
+
                 this.m_padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, this.m_enableExtraPadding, this.m_isUsingBold);
                 this.m_isMaskingEnabled = TMPro.ShaderUtilities.IsMaskingEnabled(this.m_sharedMaterial);
                 this.m_havePropertiesChanged = true;
@@ -32958,6 +35673,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ForceMeshUpdate: function (ignoreActiveState, forceTextReparsing) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#ForceMeshUpdate", this ); }
+
                 if (ignoreActiveState === void 0) { ignoreActiveState = false; }
                 if (forceTextReparsing === void 0) { forceTextReparsing = false; }
                 this.m_havePropertiesChanged = true;
@@ -32980,6 +35697,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_TextInfo}
              */
             GetTextInfo: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#GetTextInfo", this ); }
+
                 this.StringToInternalParsingBuffer(text, Bridge.ref(this, "m_InternalParsingBuffer"));
                 this.SetArraySizes(this.m_InternalParsingBuffer);
 
@@ -33008,6 +35727,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearMesh$1: function (updateMesh) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#ClearMesh$1", this ); }
+
                 var $t, $t1;
                 if (($t = this.m_textInfo.meshInfo)[0].mesh == null) {
                     ($t1 = this.m_textInfo.meshInfo)[0].mesh = this.m_mesh;
@@ -33031,6 +35752,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGeometry$1: function (mesh, index) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateGeometry$1", this ); }
+
                 mesh.RecalculateBounds();
             },
             /*TMPro.TextMeshPro.UpdateGeometry$1 end.*/
@@ -33048,6 +35771,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateVertexData$1: function (flags) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateVertexData$1", this ); }
+
                 var $t, $t1, $t2, $t3;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -33102,6 +35827,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateVertexData: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateVertexData", this ); }
+
                 var $t, $t1, $t2, $t3, $t4;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -33132,16 +35859,22 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.UpdateFontAsset start.*/
             UpdateFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateFontAsset", this ); }
+
                 this.LoadFontAsset();
             },
             /*TMPro.TextMeshPro.UpdateFontAsset end.*/
 
             /*TMPro.TextMeshPro.CalculateLayoutInputHorizontal start.*/
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#CalculateLayoutInputHorizontal", this ); }
+ },
             /*TMPro.TextMeshPro.CalculateLayoutInputHorizontal end.*/
 
             /*TMPro.TextMeshPro.CalculateLayoutInputVertical start.*/
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#CalculateLayoutInputVertical", this ); }
+ },
             /*TMPro.TextMeshPro.CalculateLayoutInputVertical end.*/
 
             /*TMPro.TextMeshPro.ComputeLossyScaleFactor start.*/
@@ -33157,24 +35890,32 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             ComputeLossyScaleFactor: function (lossyScale) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#ComputeLossyScaleFactor", this ); }
+
                 return lossyScale;
             },
             /*TMPro.TextMeshPro.ComputeLossyScaleFactor end.*/
 
             /*TMPro.TextMeshPro.AddSubTextObject start.*/
             AddSubTextObject: function (materialReference) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#AddSubTextObject", this ); }
+
                 return TMPro.TMP_SubMesh.AddSubTextObject(this, materialReference.$clone());
             },
             /*TMPro.TextMeshPro.AddSubTextObject end.*/
 
             /*TMPro.TextMeshPro.CleanUnusedMesh start.*/
             CleanUnusedMesh: function (m_subTextObject, meshInfo) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#CleanUnusedMesh", this ); }
+
                 meshInfo.ClearUnusedVertices$2(0, true);
             },
             /*TMPro.TextMeshPro.CleanUnusedMesh end.*/
 
             /*TMPro.TextMeshPro.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#Awake", this ); }
+
                 //Debug.Log("***** Awake() called on object ID " + GetInstanceID() + ". *****");
 
 
@@ -33250,6 +35991,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnEnable", this ); }
+
                 //Debug.Log("***** OnEnable() called on object ID " + GetInstanceID() + ". *****");
 
                 // Return if Awake() has not been called on the text object.
@@ -33282,6 +36025,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnDisable", this ); }
+
                 //Debug.Log("***** OnDisable() called on object ID " + GetInstanceID() + ". *****");
 
                 // Return if Awake() has not been called on the text object.
@@ -33299,6 +36044,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnDestroy start.*/
             OnDestroy: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnDestroy", this ); }
+
                 //Debug.Log("***** OnDestroy() called on object ID " + GetInstanceID() + ". *****");
 
                 // Destroy the mesh if we have one.
@@ -33316,6 +36063,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.LoadFontAsset start.*/
             LoadFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#LoadFontAsset", this ); }
+
                 //Debug.Log("TextMeshPro LoadFontAsset() has been called."); // Current Font Asset is " + (font != null ? font.name: "Null") );
 
                 TMPro.ShaderUtilities.GetShaderPropertyIDs(); // Initialize & Get shader property IDs.
@@ -33382,6 +36131,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.UpdateEnvMapMatrix start.*/
             UpdateEnvMapMatrix: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateEnvMapMatrix", this ); }
+
                 if (!this.m_sharedMaterial.HasProperty(TMPro.ShaderUtilities.ID_EnvMap) || this.m_sharedMaterial.GetTexture(TMPro.ShaderUtilities.ID_EnvMap) == null) {
                     return;
                 }
@@ -33396,12 +36147,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetMaskCoordinates start.*/
             SetMaskCoordinates: function (coords) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMaskCoordinates", this ); }
+
                 this.m_sharedMaterial.SetVector(TMPro.ShaderUtilities.ID_ClipRect, coords.$clone());
             },
             /*TMPro.TextMeshPro.SetMaskCoordinates end.*/
 
             /*TMPro.TextMeshPro.SetMaskCoordinates$1 start.*/
             SetMaskCoordinates$1: function (coords, softX, softY) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMaskCoordinates$1", this ); }
+
                 this.m_sharedMaterial.SetVector(TMPro.ShaderUtilities.ID_ClipRect, coords.$clone());
                 this.m_sharedMaterial.SetFloat(TMPro.ShaderUtilities.ID_MaskSoftnessX, softX);
                 this.m_sharedMaterial.SetFloat(TMPro.ShaderUtilities.ID_MaskSoftnessY, softY);
@@ -33410,6 +36165,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.EnableMasking$1 start.*/
             EnableMasking$1: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#EnableMasking$1", this ); }
+
                 if (this.m_sharedMaterial.HasProperty(TMPro.ShaderUtilities.ID_ClipRect)) {
                     this.m_sharedMaterial.EnableKeyword(TMPro.ShaderUtilities.Keyword_MASK_SOFT);
                     this.m_sharedMaterial.DisableKeyword(TMPro.ShaderUtilities.Keyword_MASK_HARD);
@@ -33423,6 +36180,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.DisableMasking$1 start.*/
             DisableMasking$1: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#DisableMasking$1", this ); }
+
                 if (this.m_sharedMaterial.HasProperty(TMPro.ShaderUtilities.ID_ClipRect)) {
                     this.m_sharedMaterial.DisableKeyword(TMPro.ShaderUtilities.Keyword_MASK_SOFT);
                     this.m_sharedMaterial.DisableKeyword(TMPro.ShaderUtilities.Keyword_MASK_HARD);
@@ -33436,6 +36195,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.UpdateMask start.*/
             UpdateMask: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateMask", this ); }
+
                 //Debug.Log("UpdateMask() called.");
 
                 if (!this.m_isMaskingEnabled) {
@@ -33508,6 +36269,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.GetMaterial start.*/
             GetMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#GetMaterial", this ); }
+
                 // Check in case Object is disabled. If so, we don't have a valid reference to the Renderer.
                 // This can occur when the Duplicate Material Context menu is used on an inactive object.
                 //if (m_renderer == null)
@@ -33531,6 +36294,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetSharedMaterial start.*/
             SetSharedMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetSharedMaterial", this ); }
+
                 // Check in case Object is disabled. If so, we don't have a valid reference to the Renderer.
                 // This can occur when the Duplicate Material Context menu is used on an inactive object.
                 //if (m_renderer == null)
@@ -33557,6 +36322,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetSharedMaterials: function (materials) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetSharedMaterials", this ); }
+
                 var $t, $t1;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -33598,6 +36365,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetOutlineThickness start.*/
             SetOutlineThickness: function (thickness) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetOutlineThickness", this ); }
+
                 thickness = Math.max(0, Math.min(1, thickness));
                 this.m_renderer.material.SetFloat(TMPro.ShaderUtilities.ID_OutlineWidth, thickness);
 
@@ -33613,6 +36382,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetFaceColor start.*/
             SetFaceColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetFaceColor", this ); }
+
                 this.m_renderer.material.SetColor(TMPro.ShaderUtilities.ID_FaceColor, UnityEngine.Color32.op_Implicit(color.$clone()));
 
                 if (this.m_fontMaterial == null) {
@@ -33625,6 +36396,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetOutlineColor start.*/
             SetOutlineColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetOutlineColor", this ); }
+
                 this.m_renderer.material.SetColor(TMPro.ShaderUtilities.ID_OutlineColor, UnityEngine.Color32.op_Implicit(color.$clone()));
 
                 if (this.m_fontMaterial == null) {
@@ -33638,6 +36411,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.CreateMaterialInstance$1 start.*/
             CreateMaterialInstance$1: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#CreateMaterialInstance$1", this ); }
+
                 var mat = new UnityEngine.Material.$ctor1(this.m_sharedMaterial);
                 mat.shaderKeywords = this.m_sharedMaterial.shaderKeywords;
 
@@ -33650,6 +36425,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetShaderDepth start.*/
             SetShaderDepth: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetShaderDepth", this ); }
+
                 if (this.m_isOverlay) {
                     // Changing these properties results in an instance of the material
                     this.m_sharedMaterial.SetFloat$1(TMPro.ShaderUtilities.ShaderTag_ZTestMode, 0);
@@ -33671,6 +36448,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetCulling start.*/
             SetCulling: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetCulling", this ); }
+
                 if (this.m_isCullingEnabled) {
                     this.m_renderer.material.SetFloat$1("_CullMode", 2);
 
@@ -33707,6 +36486,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ComputeMarginSize: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#ComputeMarginSize", this ); }
+
                 if (UnityEngine.Component.op_Inequality(this.rectTransform$1, null)) {
                     //Debug.Log("*** ComputeMarginSize() *** Current RectTransform's Width is " + m_rectTransform.rect.width + " and Height is " + m_rectTransform.rect.height); // + " and size delta is "  + m_rectTransform.sizeDelta);
                     var rect = this.m_rectTransform.rect.$clone();
@@ -33726,6 +36507,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnDidApplyAnimationProperties", this ); }
+
                 //Debug.Log("*** OnDidApplyAnimationProperties() ***");
                 this.m_havePropertiesChanged = true;
                 this.isMaskUpdateRequired$1 = true;
@@ -33736,6 +36519,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnTransformParentChanged", this ); }
+
                 //Debug.Log("*** OnTransformParentChanged() ***");
                 //ComputeMarginSize();
 
@@ -33746,6 +36531,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnRectTransformDimensionsChange", this ); }
+
                 //Debug.Log("*** OnRectTransformDimensionsChange() ***");
 
                 // Ignore changes to RectTransform SizeDelta that are very small and typically the result of rounding errors when using RectTransform in Anchor Stretch mode.
@@ -33771,6 +36558,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InternalUpdate: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#InternalUpdate", this ); }
+
                 // We need to update the SDF scale or possibly regenerate the text object if lossy scale has changed.
                 if (this.m_havePropertiesChanged === false) {
                     var lossyScaleY = this.m_rectTransform.lossyScale.y;
@@ -33806,6 +36595,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnPreRenderObject: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#OnPreRenderObject", this ); }
+
                 //Debug.Log("*** OnPreRenderObject() ***");
 
                 if (!this.m_isAwake || (this.IsActive() === false && this.m_ignoreActiveState === false)) {
@@ -33886,6 +36677,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMeshFilters: function (state) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetMeshFilters", this ); }
+
                 // Parent text object
                 if (UnityEngine.Component.op_Inequality(this.m_meshFilter, null)) {
                     if (state) {
@@ -33909,6 +36702,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshPro.SetActiveSubTextObjectRenderers start.*/
             SetActiveSubTextObjectRenderers: function (state) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#SetActiveSubTextObjectRenderers", this ); }
+
                 for (var i = 1; i < this.m_subTextObjects.length && this.m_subTextObjects[i] != null; i++) {
                     var renderer = this.m_subTextObjects[i].TMPro$TMP_SubMeshBase$renderer;
 
@@ -33932,6 +36727,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             DestroySubMeshObjects: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#DestroySubMeshObjects", this ); }
+
                 for (var i = 1; i < this.m_subTextObjects.length && this.m_subTextObjects[i] != null; i++) {
                     console.log("Destroying Sub Text object[" + i + "].");
                     UnityEngine.Object.DestroyImmediate(Bridge.cast(this.m_subTextObjects[i], UnityEngine.Object));
@@ -33952,6 +36749,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateSDFScale: function (scaleDelta) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshPro#UpdateSDFScale", this ); }
+
                 var $t, $t1, $t2;
                 if (scaleDelta === 0 || scaleDelta === Number.POSITIVE_INFINITY || scaleDelta === Number.NEGATIVE_INFINITY) {
                     this.m_havePropertiesChanged = true;
@@ -34066,6 +36865,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             materialForRendering: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#materialForRendering#get", this ); }
+
                     return TMPro.TMP_MaterialManager.GetMaterialForRendering(this, this.m_sharedMaterial);
                 }
             },
@@ -34081,9 +36882,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             autoSizeTextContainer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#autoSizeTextContainer#get", this ); }
+
                     return this.m_autoSizeTextContainer;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#autoSizeTextContainer#set", this ); }
+
                     if (this.m_autoSizeTextContainer === value) {
                         return;
                     }
@@ -34107,6 +36912,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#mesh#get", this ); }
+
                     return this.m_mesh;
                 }
             },
@@ -34122,6 +36929,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             canvasRenderer$1: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#canvasRenderer$1#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_canvasRenderer, null)) {
                         this.m_canvasRenderer = this.GetComponent(UnityEngine.CanvasRenderer);
                     }
@@ -34140,9 +36949,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             maskOffset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#maskOffset#get", this ); }
+
                     return this.m_maskOffset.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#maskOffset#set", this ); }
+
                     this.m_maskOffset = value.$clone();
                     this.UpdateMask();
                     this.m_havePropertiesChanged = true;
@@ -34161,6 +36974,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             OrthographicScaleFactor: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OrthographicScaleFactor#get", this ); }
+
                     return 1.0;
                 }
             }
@@ -34189,6 +37004,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#init", this ); }
+
                 this.m_ClipRect = new UnityEngine.Rect();
                 this.m_maskOffset = new UnityEngine.Vector4();
                 this.m_EnvMapMatrix = new UnityEngine.Matrix4x4();
@@ -34209,6 +37026,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#ctor", this ); }
+
                 this.$initialize();
                 TMPro.TMP_Text.ctor.call(this, handle);
             }
@@ -34225,6 +37044,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#CalculateLayoutInputHorizontal", this ); }
+
                 //Debug.Log("*** CalculateLayoutHorizontal() ***"); // at Frame: " + Time.frameCount); // called on Object ID " + GetInstanceID());
             },
             /*TMPro.TextMeshProUGUI.CalculateLayoutInputHorizontal end.*/
@@ -34240,12 +37061,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#CalculateLayoutInputVertical", this ); }
+
                 //Debug.Log("*** CalculateLayoutInputVertical() ***"); // at Frame: " + Time.frameCount); // called on Object ID " + GetInstanceID());
             },
             /*TMPro.TextMeshProUGUI.CalculateLayoutInputVertical end.*/
 
             /*TMPro.TextMeshProUGUI.SetVerticesDirty start.*/
             SetVerticesDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetVerticesDirty", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this, null) || !this.IsActive()) {
                     return;
                 }
@@ -34276,6 +37101,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetLayoutDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetLayoutDirty", this ); }
+
                 this.m_isPreferredWidthDirty = true;
                 this.m_isPreferredHeightDirty = true;
 
@@ -34303,6 +37130,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMaterialDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetMaterialDirty", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this, null) || !this.IsActive()) {
                     return;
                 }
@@ -34334,6 +37163,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetAllDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetAllDirty", this ); }
+
                 this.m_isInputParsingRequired = true;
 
                 this.SetLayoutDirty();
@@ -34353,6 +37184,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {System.Collections.IEnumerator}
              */
             DelayedGraphicRebuild: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#DelayedGraphicRebuild", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -34400,6 +37233,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {System.Collections.IEnumerator}
              */
             DelayedMaterialRebuild: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#DelayedMaterialRebuild", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -34448,6 +37283,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#Rebuild", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this, null)) {
                     return;
                 }
@@ -34480,6 +37317,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateSubObjectPivot: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateSubObjectPivot", this ); }
+
                 if (this.m_textInfo == null) {
                     return;
                 }
@@ -34502,6 +37341,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetModifiedMaterial: function (baseMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#GetModifiedMaterial", this ); }
+
                 var mat = baseMaterial;
 
                 if (this.m_ShouldRecalculateStencil) {
@@ -34531,6 +37372,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateMaterial", this ); }
+
                 //Debug.Log("*** UpdateMaterial() ***");
 
                 //if (!this.IsActive())
@@ -34558,6 +37401,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             RecalculateClipping: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#RecalculateClipping", this ); }
+
                 //Debug.Log("***** RecalculateClipping() *****");
 
                 TMPro.TMP_Text.prototype.RecalculateClipping.call(this);
@@ -34579,6 +37424,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Cull: function (clipRect, validRect) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#Cull", this ); }
+
                 // Delay culling check in the event the text layout is dirty and geometry has to be updated.
                 if (this.m_isLayoutDirty) {
                     TMPro.TMP_UpdateManager.RegisterTextElementForCullingUpdate(this);
@@ -34621,6 +37468,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateCulling: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateCulling", this ); }
+
                 // Get compound rect for the text object and sub text objects in local canvas space.
                 var rect = this.GetCanvasSpaceClippingRect();
 
@@ -34656,6 +37505,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMeshPadding: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateMeshPadding", this ); }
+
                 this.m_padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, this.m_enableExtraPadding, this.m_isUsingBold);
                 this.m_isMaskingEnabled = TMPro.ShaderUtilities.IsMaskingEnabled(this.m_sharedMaterial);
                 this.m_havePropertiesChanged = true;
@@ -34689,6 +37540,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InternalCrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#InternalCrossFadeColor", this ); }
+
                 if (this.m_textInfo == null) {
                     return;
                 }
@@ -34716,6 +37569,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InternalCrossFadeAlpha: function (alpha, duration, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#InternalCrossFadeAlpha", this ); }
+
                 if (this.m_textInfo == null) {
                     return;
                 }
@@ -34742,6 +37597,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ForceMeshUpdate: function (ignoreActiveState, forceTextReparsing) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#ForceMeshUpdate", this ); }
+
                 if (ignoreActiveState === void 0) { ignoreActiveState = false; }
                 if (forceTextReparsing === void 0) { forceTextReparsing = false; }
                 this.m_havePropertiesChanged = true;
@@ -34770,6 +37627,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {TMPro.TMP_TextInfo}
              */
             GetTextInfo: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#GetTextInfo", this ); }
+
                 this.StringToInternalParsingBuffer(text, Bridge.ref(this, "m_InternalParsingBuffer"));
                 this.SetArraySizes(this.m_InternalParsingBuffer);
 
@@ -34802,6 +37661,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearMesh: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#ClearMesh", this ); }
+
                 this.m_canvasRenderer.SetMesh(null);
 
                 for (var i = 1; i < this.m_subTextObjects.length && this.m_subTextObjects[i] != null; i++) {
@@ -34827,6 +37688,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGeometry$1: function (mesh, index) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateGeometry$1", this ); }
+
                 mesh.RecalculateBounds();
 
                 if (index === 0) {
@@ -34850,6 +37713,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateVertexData$1: function (flags) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateVertexData$1", this ); }
+
                 var $t, $t1, $t2, $t3;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -34908,6 +37773,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateVertexData: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateVertexData", this ); }
+
                 var $t, $t1, $t2, $t3, $t4;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -34943,6 +37810,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.UpdateFontAsset start.*/
             UpdateFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateFontAsset", this ); }
+
                 this.LoadFontAsset();
             },
             /*TMPro.TextMeshProUGUI.UpdateFontAsset end.*/
@@ -34960,6 +37829,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             ComputeLossyScaleFactor: function (lossyScale) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#ComputeLossyScaleFactor", this ); }
+
                 var isCameraAssigned = UnityEngine.Component.op_Equality(this.m_canvas.worldCamera, null) ? false : true;
                 var canvasRenderMode = this.m_canvas.renderMode;
                 var canvasScaleFactor = this.m_canvas.scaleFactor;
@@ -34985,6 +37856,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.EnableAdditionalVertexStreams start.*/
             EnableAdditionalVertexStreams: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#EnableAdditionalVertexStreams", this ); }
+
                 // Must ensure the Canvas support the additional vertex attributes used by TMP.
                 // This could be optimized based on canvas render mode settings but gets complicated to handle with multiple text objects using different material presets.
                 if (this.m_canvas.additionalShaderChannels !== 25) {
@@ -34995,6 +37868,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.UpdateMeshInRenderer start.*/
             UpdateMeshInRenderer: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateMeshInRenderer", this ); }
+
                 this.m_canvasRenderer.SetMesh(this.m_mesh);
                 var parentBaseColor = this.m_canvasRenderer.GetColor();
 
@@ -35018,12 +37893,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.AddSubTextObject start.*/
             AddSubTextObject: function (materialReference) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#AddSubTextObject", this ); }
+
                 return TMPro.TMP_SubMeshUI.AddSubTextObject(this, materialReference.$clone());
             },
             /*TMPro.TextMeshProUGUI.AddSubTextObject end.*/
 
             /*TMPro.TextMeshProUGUI.SetSubTextPivot start.*/
             SetSubTextPivot: function (m_subTextObject) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetSubTextPivot", this ); }
+
                 if (!pc.Vec2.equals( this.m_rectTransform.pivot, m_subTextObject.TMPro$TMP_SubMeshBase$rectTransform.pivot )) {
                     m_subTextObject.TMPro$TMP_SubMeshBase$rectTransform.pivot = this.m_rectTransform.pivot.$clone();
                 }
@@ -35032,12 +37911,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.CleanUnusedMesh start.*/
             CleanUnusedMesh: function (m_subTextObject, meshInfo) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#CleanUnusedMesh", this ); }
+
                 m_subTextObject.TMPro$TMP_SubMeshBase$canvasRenderer.SetMesh(null);
             },
             /*TMPro.TextMeshProUGUI.CleanUnusedMesh end.*/
 
             /*TMPro.TextMeshProUGUI.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#Awake", this ); }
+
                 //Debug.Log("***** Awake() called on object ID " + GetInstanceID() + ". *****");
 
 
@@ -35100,6 +37983,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnEnable", this ); }
+
                 //Debug.Log("***** OnEnable() called on object ID " + GetInstanceID() + ". *****");
 
                 // Return if Awake() has not been called on the text object.
@@ -35138,6 +38023,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnDisable", this ); }
+
                 //Debug.Log("***** OnDisable() called on object ID " + GetInstanceID() + ". *****");
 
                 // Return if Awake() has not been called on the text object.
@@ -35170,6 +38057,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnDestroy start.*/
             OnDestroy: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnDestroy", this ); }
+
                 //Debug.Log("***** OnDestroy() called on object ID " + GetInstanceID() + ". *****");
 
                 // UnRegister Graphic Component
@@ -35194,6 +38083,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.LoadFontAsset start.*/
             LoadFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#LoadFontAsset", this ); }
+
                 //Debug.Log("***** LoadFontAsset() *****"); //TextMeshPro LoadFontAsset() has been called."); // Current Font Asset is " + (font != null ? font.name: "Null") );
 
                 TMPro.ShaderUtilities.GetShaderPropertyIDs(); // Initialize & Get shader property IDs.
@@ -35258,6 +38149,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Canvas}
              */
             GetCanvas: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#GetCanvas", this ); }
+
                 var canvas = null;
                 var list = TMPro.TMP_ListPool$1(UnityEngine.Canvas).Get();
 
@@ -35289,6 +38182,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateEnvMapMatrix: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateEnvMapMatrix", this ); }
+
                 if (!this.m_sharedMaterial.HasProperty(TMPro.ShaderUtilities.ID_EnvMap) || this.m_sharedMaterial.GetTexture(TMPro.ShaderUtilities.ID_EnvMap) == null) {
                     return;
                 }
@@ -35303,6 +38198,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.EnableMasking$1 start.*/
             EnableMasking$1: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#EnableMasking$1", this ); }
+
                 if (this.m_fontMaterial == null) {
                     this.m_fontMaterial = this.CreateMaterialInstance(this.m_sharedMaterial);
                     this.m_canvasRenderer.SetMaterial$1(this.m_fontMaterial, this.m_sharedMaterial.GetTexture(TMPro.ShaderUtilities.ID_MainTex));
@@ -35341,6 +38238,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.DisableMasking$1 start.*/
             DisableMasking$1: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#DisableMasking$1", this ); }
+
                 //if ( m_fontMaterial != null ) {
                 //    if ( m_stencilID > 0 )
                 //        m_sharedMaterial = m_MaskMaterial;
@@ -35386,6 +38285,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.UpdateMask start.*/
             UpdateMask: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateMask", this ); }
+
                 //Debug.Log("Updating Mask...");
 
                 if (UnityEngine.Component.op_Inequality(this.m_rectTransform, null)) {
@@ -35428,6 +38329,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.GetMaterial start.*/
             GetMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#GetMaterial", this ); }
+
                 // Get Shader PropertyIDs if they haven't been cached already.
                 TMPro.ShaderUtilities.GetShaderPropertyIDs();
 
@@ -35455,6 +38358,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetSharedMaterial start.*/
             SetSharedMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetSharedMaterial", this ); }
+
                 // Check in case Object is disabled. If so, we don't have a valid reference to the Renderer.
                 // This can occur when the Duplicate Material Context menu is used on an inactive object. 
                 //if (m_canvasRenderer == null)
@@ -35481,6 +38386,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetSharedMaterials: function (materials) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetSharedMaterials", this ); }
+
                 var $t, $t1;
                 var materialCount = this.m_textInfo.materialCount;
 
@@ -35520,6 +38427,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetOutlineThickness start.*/
             SetOutlineThickness: function (thickness) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetOutlineThickness", this ); }
+
                 // Use material instance if one exists. Otherwise, create a new instance of the shared material.
                 if (this.m_fontMaterial != null && this.m_sharedMaterial.GetInstanceID() !== this.m_fontMaterial.GetInstanceID()) {
                     this.m_sharedMaterial = this.m_fontMaterial;
@@ -35538,6 +38447,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetFaceColor start.*/
             SetFaceColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetFaceColor", this ); }
+
                 // Use material instance if one exists. Otherwise, create a new instance of the shared material.
                 if (this.m_fontMaterial == null) {
                     this.m_fontMaterial = this.CreateMaterialInstance(this.m_sharedMaterial);
@@ -35552,6 +38463,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetOutlineColor start.*/
             SetOutlineColor: function (color) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetOutlineColor", this ); }
+
                 // Use material instance if one exists. Otherwise, create a new instance of the shared material.
                 if (this.m_fontMaterial == null) {
                     this.m_fontMaterial = this.CreateMaterialInstance(this.m_sharedMaterial);
@@ -35566,6 +38479,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetShaderDepth start.*/
             SetShaderDepth: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetShaderDepth", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_canvas, null) || this.m_sharedMaterial == null) {
                     return;
                 }
@@ -35581,6 +38496,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetCulling start.*/
             SetCulling: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetCulling", this ); }
+
                 if (this.m_isCullingEnabled) {
                     var mat = this.materialForRendering;
 
@@ -35615,6 +38532,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.SetMeshArrays start.*/
             SetMeshArrays: function (size) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#SetMeshArrays", this ); }
+
                 var $t, $t1;
                 ($t = this.m_textInfo.meshInfo)[0].ResizeMeshInfo(size);
 
@@ -35634,6 +38553,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ComputeMarginSize: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#ComputeMarginSize", this ); }
+
                 if (UnityEngine.Component.op_Inequality(this.rectTransform$1, null)) {
                     //Debug.Log("*** ComputeMarginSize() *** Current RectTransform's Width is " + m_rectTransform.rect.width + " and Height is " + m_rectTransform.rect.height); // + " and size delta is "  + m_rectTransform.sizeDelta);
                     var rect = this.m_rectTransform.rect.$clone();
@@ -35661,6 +38582,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnDidApplyAnimationProperties", this ); }
+
                 this.m_havePropertiesChanged = true;
                 this.SetVerticesDirty();
                 this.SetLayoutDirty();
@@ -35670,6 +38593,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnCanvasHierarchyChanged start.*/
             OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnCanvasHierarchyChanged", this ); }
+
                 TMPro.TMP_Text.prototype.OnCanvasHierarchyChanged.call(this);
 
                 this.m_canvas = this.canvas;
@@ -35691,6 +38616,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnTransformParentChanged", this ); }
+
                 //Debug.Log("***** OnTransformParentChanged *****");
 
                 TMPro.TMP_Text.prototype.OnTransformParentChanged.call(this);
@@ -35704,6 +38631,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnRectTransformDimensionsChange", this ); }
+
                 //Debug.Log("*** OnRectTransformDimensionsChange() *** ActiveInHierarchy: " + this.gameObject.activeInHierarchy + "  Frame: " + Time.frameCount); 
 
                 // Make sure object is active in Hierarchy
@@ -35736,6 +38665,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InternalUpdate: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#InternalUpdate", this ); }
+
                 // We need to update the SDF scale or possibly regenerate the text object if lossy scale has changed.
                 if (this.m_havePropertiesChanged === false) {
                     var lossyScaleY = this.m_rectTransform.lossyScale.y;
@@ -35762,6 +38693,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.OnPreRenderCanvas start.*/
             OnPreRenderCanvas: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#OnPreRenderCanvas", this ); }
+
                 //Debug.Log("*** OnPreRenderCanvas() *** Frame: " + Time.frameCount); 
 
                 // Make sure object is active and that we have a valid Canvas.
@@ -35836,6 +38769,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TextMeshProUGUI.GetCanvasSpaceClippingRect start.*/
             GetCanvasSpaceClippingRect: function () {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#GetCanvasSpaceClippingRect", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_canvas, null) || UnityEngine.Component.op_Equality(this.m_canvas.rootCanvas, null) || this.m_mesh == null) {
                     return UnityEngine.Rect.zero.$clone();
                 }
@@ -35864,6 +38799,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateSDFScale: function (scaleDelta) {
+if ( TRACE ) { TRACE( "TMPro.TextMeshProUGUI#UpdateSDFScale", this ); }
+
                 var $t, $t1, $t2;
 
                 if (scaleDelta === 0 || scaleDelta === Number.POSITIVE_INFINITY || scaleDelta === Number.NEGATIVE_INFINITY) {
@@ -35925,6 +38862,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Character#ctor", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Character;
@@ -35942,6 +38881,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor3: function (unicode, glyph) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Character#$ctor3", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Character;
@@ -35965,6 +38906,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (unicode, fontAsset, glyph) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Character#$ctor2", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Character;
@@ -35986,6 +38929,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (unicode, glyphIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Character#$ctor1", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Character;
@@ -36038,6 +38983,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#init", this ); }
+
                     this.s_DefaultMaterialSuffix = " Atlas Material";
                     this.k_FontAssets_FontFeaturesUpdateQueue = new (System.Collections.Generic.List$1(TMPro.TMP_FontAsset)).ctor();
                     this.k_FontAssets_FontFeaturesUpdateQueueLookup = new (System.Collections.Generic.HashSet$1(System.Int32)).ctor();
@@ -36060,6 +39007,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_FontAsset}
                  */
                 CreateFontAsset: function (font) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#CreateFontAsset", this ); }
+
                     return TMPro.TMP_FontAsset.CreateFontAsset$1(font, 90, 9, UnityEngine.TextCore.LowLevel.GlyphRenderMode.SDFAA, 1024, 1024, TMPro.AtlasPopulationMode.Dynamic);
                 },
                 /*TMPro.TMP_FontAsset.CreateFontAsset:static end.*/
@@ -36083,6 +39032,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_FontAsset}
                  */
                 CreateFontAsset$1: function (font, samplingPointSize, atlasPadding, renderMode, atlasWidth, atlasHeight, atlasPopulationMode, enableMultiAtlasSupport) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#CreateFontAsset$1", this ); }
+
                     if (atlasPopulationMode === void 0) { atlasPopulationMode = 1; }
                     if (enableMultiAtlasSupport === void 0) { enableMultiAtlasSupport = true; }
                     throw new System.NotImplementedException.ctor();
@@ -36101,6 +39052,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {string}
                  */
                 GetCharacters: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#GetCharacters", this ); }
+
                     var characters = "";
 
                     for (var i = 0; i < fontAsset.characterTable.Count; i++) {
@@ -36123,6 +39076,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {Array.<number>}
                  */
                 GetCharactersArray: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#GetCharactersArray", this ); }
+
                     var characters = System.Array.init(fontAsset.characterTable.Count, 0, System.Int32);
 
                     for (var i = 0; i < fontAsset.characterTable.Count; i++) {
@@ -36142,6 +39097,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterFontAssetForFontFeatureUpdate: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#RegisterFontAssetForFontFeatureUpdate", this ); }
+
                     var instanceID = fontAsset.instanceID;
 
                     if (TMPro.TMP_FontAsset.k_FontAssets_FontFeaturesUpdateQueueLookup.add(instanceID)) {
@@ -36161,6 +39118,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 UpdateFontFeaturesForFontAssetsInQueue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateFontFeaturesForFontAssetsInQueue", this ); }
+
                     var count = TMPro.TMP_FontAsset.k_FontAssets_FontFeaturesUpdateQueue.Count;
 
                     for (var i = 0; i < count; i++) {
@@ -36183,6 +39142,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterFontAssetForAtlasTextureUpdate: function (fontAsset) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#RegisterFontAssetForAtlasTextureUpdate", this ); }
+
                     var instanceID = fontAsset.instanceID;
 
                     if (TMPro.TMP_FontAsset.k_FontAssets_AtlasTexturesUpdateQueueLookup.add(instanceID)) {
@@ -36199,6 +39160,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {void}
                  */
                 UpdateAtlasTexturesForFontAssetsInQueue: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateAtlasTexturesForFontAssetsInQueue", this ); }
+
                     var count = TMPro.TMP_FontAsset.k_FontAssets_AtlasTexturesUpdateQueueLookup.Count;
 
                     for (var i = 0; i < count; i++) {
@@ -36379,9 +39342,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             version: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#version#get", this ); }
+
                     return this.m_Version;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#version#set", this ); }
+
                     this.m_Version = value;
                 }
             },
@@ -36396,17 +39363,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             sourceFontFile: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#sourceFontFile#get", this ); }
+
                     return this.m_SourceFontFile;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#sourceFontFile#set", this ); }
+
                     this.m_SourceFontFile = value;
                 }
             },
             atlasPopulationMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasPopulationMode#get", this ); }
+
                     return this.m_AtlasPopulationMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasPopulationMode#set", this ); }
+
                     this.m_AtlasPopulationMode = value;
 
                 }
@@ -36422,9 +39397,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             faceInfo: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#faceInfo#get", this ); }
+
                     return this.m_FaceInfo.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#faceInfo#set", this ); }
+
                     this.m_FaceInfo = value.$clone();
                 }
             },
@@ -36439,9 +39418,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#glyphTable#get", this ); }
+
                     return this.m_GlyphTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#glyphTable#set", this ); }
+
                     this.m_GlyphTable = value;
                 }
             },
@@ -36457,6 +39440,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             glyphLookupTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#glyphLookupTable#get", this ); }
+
                     if (this.m_GlyphLookupDictionary == null) {
                         this.ReadFontAssetDefinition();
                     }
@@ -36475,9 +39460,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             characterTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#characterTable#get", this ); }
+
                     return this.m_CharacterTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#characterTable#set", this ); }
+
                     this.m_CharacterTable = value;
                 }
             },
@@ -36493,6 +39482,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             characterLookupTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#characterLookupTable#get", this ); }
+
                     if (this.m_CharacterLookupDictionary == null) {
                         this.ReadFontAssetDefinition();
                     }
@@ -36514,6 +39505,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasTexture#get", this ); }
+
                     var $t;
                     if (this.m_AtlasTexture == null) {
                         this.m_AtlasTexture = ($t = this.atlasTextures)[0];
@@ -36533,6 +39526,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasTextures: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasTextures#get", this ); }
+
                     if (this.m_AtlasTextures == null) {
                         //
                     }
@@ -36540,6 +39535,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_AtlasTextures;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasTextures#set", this ); }
+
                     this.m_AtlasTextures = value;
                 }
             },
@@ -36555,6 +39552,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasTextureCount: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasTextureCount#get", this ); }
+
                     return this.m_AtlasTextureIndex + 1;
                 }
             },
@@ -36567,9 +39566,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isMultiAtlasTexturesEnabled: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#isMultiAtlasTexturesEnabled#get", this ); }
+
                     return this.m_IsMultiAtlasTexturesEnabled;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#isMultiAtlasTexturesEnabled#set", this ); }
+
                     this.m_IsMultiAtlasTexturesEnabled = value;
                 }
             },
@@ -36583,9 +39586,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             usedGlyphRects: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#usedGlyphRects#get", this ); }
+
                     return this.m_UsedGlyphRects;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#usedGlyphRects#set", this ); }
+
                     this.m_UsedGlyphRects = value;
                 }
             },
@@ -36599,9 +39606,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             freeGlyphRects: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#freeGlyphRects#get", this ); }
+
                     return this.m_FreeGlyphRects;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#freeGlyphRects#set", this ); }
+
                     this.m_FreeGlyphRects = value;
                 }
             },
@@ -36618,6 +39629,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontInfo: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fontInfo#get", this ); }
+
                     return this.m_fontInfo;
                 }
             },
@@ -36632,9 +39645,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasWidth#get", this ); }
+
                     return this.m_AtlasWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasWidth#set", this ); }
+
                     this.m_AtlasWidth = value;
                 }
             },
@@ -36649,9 +39666,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasHeight#get", this ); }
+
                     return this.m_AtlasHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasHeight#set", this ); }
+
                     this.m_AtlasHeight = value;
                 }
             },
@@ -36666,17 +39687,25 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             atlasPadding: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasPadding#get", this ); }
+
                     return this.m_AtlasPadding;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasPadding#set", this ); }
+
                     this.m_AtlasPadding = value;
                 }
             },
             atlasRenderMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasRenderMode#get", this ); }
+
                     return this.m_AtlasRenderMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#atlasRenderMode#set", this ); }
+
                     this.m_AtlasRenderMode = value;
                 }
             },
@@ -36691,9 +39720,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontFeatureTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fontFeatureTable#get", this ); }
+
                     return this.m_FontFeatureTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fontFeatureTable#set", this ); }
+
                     this.m_FontFeatureTable = value;
                 }
             },
@@ -36708,9 +39741,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fallbackFontAssetTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fallbackFontAssetTable#get", this ); }
+
                     return this.m_FallbackFontAssetTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fallbackFontAssetTable#set", this ); }
+
                     this.m_FallbackFontAssetTable = value;
                 }
             },
@@ -36725,9 +39762,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             creationSettings: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#creationSettings#get", this ); }
+
                     return this.m_CreationSettings.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#creationSettings#set", this ); }
+
                     this.m_CreationSettings = value.$clone();
                 }
             },
@@ -36742,15 +39783,21 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontWeightTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fontWeightTable#get", this ); }
+
                     return this.m_FontWeightTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#fontWeightTable#set", this ); }
+
                     this.m_FontWeightTable = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#init", this ); }
+
                 this.m_FaceInfo = new UnityEngine.TextCore.FaceInfo();
                 this.m_CreationSettings = new TMPro.FontAssetCreationSettings();
                 this.m_GlyphTable = new (System.Collections.Generic.List$1(UnityEngine.TextCore.Glyph)).ctor();
@@ -36777,6 +39824,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_FontAsset.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#Awake", this ); }
+
                 //Debug.Log("TMP Font Asset [" + this.name + "] with Version #" + m_Version + " has been enabled!");
 
                 // Check version number of font asset to see if it needs to be upgraded.
@@ -36788,6 +39837,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.ReadFontAssetDefinition start.*/
             ReadFontAssetDefinition: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#ReadFontAssetDefinition", this ); }
+
                 //Debug.Log("Reading Font Asset Definition for " + this.name + ".");
 
                 // Check version number of font asset to see if it needs to be upgraded.
@@ -36841,6 +39892,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             InitializeDictionaryLookupTables: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#InitializeDictionaryLookupTables", this ); }
+
                 // Initialize and populate glyph lookup dictionary
                 this.InitializeGlyphLookupDictionary();
 
@@ -36854,6 +39907,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.InitializeGlyphLookupDictionary start.*/
             InitializeGlyphLookupDictionary: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#InitializeGlyphLookupDictionary", this ); }
+
                 // Create new instance of the glyph lookup dictionary or clear the existing one.
                 if (this.m_GlyphLookupDictionary == null) {
                     this.m_GlyphLookupDictionary = new (System.Collections.Generic.Dictionary$2(System.UInt32,UnityEngine.TextCore.Glyph)).ctor();
@@ -36895,6 +39950,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.InitializeCharacterLookupDictionary start.*/
             InitializeCharacterLookupDictionary: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#InitializeCharacterLookupDictionary", this ); }
+
                 // Create new instance of the character lookup dictionary or clear the existing one.
                 if (this.m_CharacterLookupDictionary == null) {
                     this.m_CharacterLookupDictionary = new (System.Collections.Generic.Dictionary$2(System.UInt32,TMPro.TMP_Character)).ctor();
@@ -36928,6 +39985,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.InitializeGlyphPaidAdjustmentRecordsLookupDictionary start.*/
             InitializeGlyphPaidAdjustmentRecordsLookupDictionary: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#InitializeGlyphPaidAdjustmentRecordsLookupDictionary", this ); }
+
                 // Upgrade Glyph Adjustment Table to the new Font Feature table and Glyph Pair Adjustment Records
                 if (this.m_KerningTable != null && this.m_KerningTable.kerningPairs != null && this.m_KerningTable.kerningPairs.Count > 0) {
                     this.UpgradeGlyphAdjustmentTableToFontFeatureTable();
@@ -36963,6 +40022,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             AddSynthesizedCharactersAndFaceMetrics: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#AddSynthesizedCharactersAndFaceMetrics", this ); }
+
                 if (this.m_AtlasPopulationMode === TMPro.AtlasPopulationMode.Dynamic) {
                     UnityEngine.TextCore.LowLevel.FontEngine.LoadFontFace$5(this.sourceFontFile, this.m_FaceInfo.pointSize);
                 }
@@ -37022,6 +40083,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.AddSynthesizedCharacter start.*/
             AddSynthesizedCharacter: function (unicode, addImmediately) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#AddSynthesizedCharacter", this ); }
+
                 if (addImmediately === void 0) { addImmediately = false; }
                 // Check if unicode is already present in the font asset
                 if (this.m_CharacterLookupDictionary.containsKey(unicode)) {
@@ -37059,6 +40122,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.AddCharacterToLookupCache start.*/
             AddCharacterToLookupCache: function (unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#AddCharacterToLookupCache", this ); }
+
                 this.m_CharacterLookupDictionary.add(unicode, character);
 
                 // Add font asset to fallback references.
@@ -37076,6 +40141,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortCharacterTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#SortCharacterTable", this ); }
+
                 if (this.m_CharacterTable != null && this.m_CharacterTable.Count > 0) {
                     this.m_CharacterTable = System.Linq.Enumerable.from(this.m_CharacterTable, TMPro.TMP_Character).orderBy(function (c) {
                             return c.unicode;
@@ -37094,6 +40161,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortGlyphTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#SortGlyphTable", this ); }
+
                 if (this.m_GlyphTable != null && this.m_GlyphTable.Count > 0) {
                     this.m_GlyphTable = System.Linq.Enumerable.from(this.m_GlyphTable, UnityEngine.TextCore.Glyph).orderBy(function (c) {
                             return c.index;
@@ -37104,6 +40173,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.SortFontFeatureTable start.*/
             SortFontFeatureTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#SortFontFeatureTable", this ); }
+
                 this.m_FontFeatureTable.SortGlyphPairAdjustmentRecords();
             },
             /*TMPro.TMP_FontAsset.SortFontFeatureTable end.*/
@@ -37118,6 +40189,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortAllTables: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#SortAllTables", this ); }
+
                 this.SortGlyphTable();
                 this.SortCharacterTable();
                 this.SortFontFeatureTable();
@@ -37136,6 +40209,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacter$1: function (character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacter$1", this ); }
+
                 if (this.m_CharacterLookupDictionary == null) {
                     return false;
                 }
@@ -37162,6 +40237,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacter: function (character, searchFallbacks, tryAddCharacter) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacter", this ); }
+
                 if (searchFallbacks === void 0) { searchFallbacks = false; }
                 if (tryAddCharacter === void 0) { tryAddCharacter = false; }
                 // Read font asset definition if it hasn't already been done.
@@ -37250,6 +40327,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacter_Internal: function (character, searchFallbacks, tryAddCharacter) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacter_Internal", this ); }
+
                 if (searchFallbacks === void 0) { searchFallbacks = false; }
                 if (tryAddCharacter === void 0) { tryAddCharacter = false; }
                 // Read font asset definition if it hasn't already been done.
@@ -37310,6 +40389,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacters$1: function (text, missingCharacters) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacters$1", this ); }
+
                 if (this.m_CharacterLookupDictionary == null) {
                     missingCharacters.v = null;
                     return false;
@@ -37344,6 +40425,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacters$2: function (text, missingCharacters, searchFallbacks, tryAddCharacter) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacters$2", this ); }
+
                 if (searchFallbacks === void 0) { searchFallbacks = false; }
                 if (tryAddCharacter === void 0) { tryAddCharacter = false; }
                 missingCharacters.v = null;
@@ -37464,6 +40547,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}
              */
             HasCharacters: function (text) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#HasCharacters", this ); }
+
                 if (this.m_CharacterLookupDictionary == null) {
                     return false;
                 }
@@ -37489,6 +40574,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetGlyphIndex: function (unicode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#GetGlyphIndex", this ); }
+
                 // Check if glyph already exists in font asset.
                 if (this.m_CharacterLookupDictionary.containsKey(unicode)) {
                     return this.m_CharacterLookupDictionary.getItem(unicode).glyphIndex;
@@ -37516,6 +40603,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}                                  Returns true if all the characters were successfully added to the font asset. Return false otherwise.
              */
             TryAddCharacters$2: function (unicodes, includeFontFeatures) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddCharacters$2", this ); }
+
                 if (includeFontFeatures === void 0) { includeFontFeatures = false; }
                 var missingUnicodes = { };
                 return this.TryAddCharacters$3(unicodes, missingUnicodes);
@@ -37536,6 +40625,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}                                  Returns true if all the characters were successfully added to the font asset. Return false otherwise.
              */
             TryAddCharacters$3: function (unicodes, missingUnicodes, includeFontFeatures) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddCharacters$3", this ); }
+
                 if (includeFontFeatures === void 0) { includeFontFeatures = false; }
                 throw new System.NotImplementedException.ctor();
             },
@@ -37554,6 +40645,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}                           Returns true if all the characters were successfully added to the font asset. Return false otherwise.
              */
             TryAddCharacters: function (characters, includeFontFeatures) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddCharacters", this ); }
+
                 if (includeFontFeatures === void 0) { includeFontFeatures = false; }
                 var missingCharacters = { };
                 return this.TryAddCharacters$1(characters, missingCharacters, includeFontFeatures);
@@ -37574,6 +40667,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}                                 Returns true if all the characters were successfully added to the font asset. Return false otherwise.
              */
             TryAddCharacters$1: function (characters, missingCharacters, includeFontFeatures) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddCharacters$1", this ); }
+
                 if (includeFontFeatures === void 0) { includeFontFeatures = false; }
                 throw new System.NotImplementedException.ctor();
             },
@@ -37592,12 +40687,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {boolean}                             Returns true if the character has been added. False otherwise.
              */
             TryAddCharacterInternal: function (unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddCharacterInternal", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.TryAddCharacterInternal end.*/
 
             /*TMPro.TMP_FontAsset.TryGetCharacter_and_QueueRenderToTexture start.*/
             TryGetCharacter_and_QueueRenderToTexture: function (unicode, character) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryGetCharacter_and_QueueRenderToTexture", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.TryGetCharacter_and_QueueRenderToTexture end.*/
@@ -37612,30 +40711,40 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             TryAddGlyphsToAtlasTextures: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddGlyphsToAtlasTextures", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.TryAddGlyphsToAtlasTextures end.*/
 
             /*TMPro.TMP_FontAsset.TryAddGlyphsToNewAtlasTexture start.*/
             TryAddGlyphsToNewAtlasTexture: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#TryAddGlyphsToNewAtlasTexture", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.TryAddGlyphsToNewAtlasTexture end.*/
 
             /*TMPro.TMP_FontAsset.SetupNewAtlasTexture start.*/
             SetupNewAtlasTexture: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#SetupNewAtlasTexture", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.SetupNewAtlasTexture end.*/
 
             /*TMPro.TMP_FontAsset.UpdateAtlasTexture start.*/
             UpdateAtlasTexture: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateAtlasTexture", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateAtlasTexture end.*/
 
             /*TMPro.TMP_FontAsset.UpdateGlyphAdjustmentRecords start.*/
             UpdateGlyphAdjustmentRecords: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateGlyphAdjustmentRecords end.*/
@@ -37651,6 +40760,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGlyphAdjustmentRecords$3: function (glyphIndexes) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$3", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateGlyphAdjustmentRecords$3 end.*/
@@ -37666,6 +40777,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGlyphAdjustmentRecords$1: function (glyphIndexes) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$1", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateGlyphAdjustmentRecords$1 end.*/
@@ -37682,6 +40795,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGlyphAdjustmentRecords$2: function (newGlyphIndexes, allGlyphIndexes) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateGlyphAdjustmentRecords$2", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateGlyphAdjustmentRecords$2 end.*/
@@ -37700,6 +40815,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             CopyListDataToArray: function (T, srcList, dstArray) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#CopyListDataToArray", this ); }
+
                 var size = srcList.Count;
 
                 // Make sure destination array is appropriately sized.
@@ -37732,6 +40849,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearFontAssetData: function (setAtlasSizeToZero) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#ClearFontAssetData", this ); }
+
                 if (setAtlasSizeToZero === void 0) { setAtlasSizeToZero = false; }
                 throw new System.NotImplementedException.ctor();
             },
@@ -37739,12 +40858,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_FontAsset.UpdateFontAssetData start.*/
             UpdateFontAssetData: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpdateFontAssetData", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.UpdateFontAssetData end.*/
 
             /*TMPro.TMP_FontAsset.ClearFontAssetTables start.*/
             ClearFontAssetTables: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#ClearFontAssetTables", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_FontAsset.ClearFontAssetTables end.*/
@@ -37760,6 +40883,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ClearAtlasTextures: function (setAtlasSizeToZero) {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#ClearAtlasTextures", this ); }
+
                 if (setAtlasSizeToZero === void 0) { setAtlasSizeToZero = false; }
                 throw new System.NotImplementedException.ctor();
             },
@@ -37775,6 +40900,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpgradeFontAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpgradeFontAsset", this ); }
+
                 this.m_Version = "1.1.0";
 
                 console.log("Upgrading font asset [" + (this.name || "") + "] to version " + (this.m_Version || "") + ".");
@@ -37942,6 +41069,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpgradeGlyphAdjustmentTableToFontFeatureTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_FontAsset#UpgradeGlyphAdjustmentTableToFontFeatureTable", this ); }
+
                 console.log("Upgrading font asset [" + (this.name || "") + "] Glyph Adjustment Table.");
 
                 if (this.m_FontFeatureTable == null) {
@@ -38014,6 +41143,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_Glyph}
                  */
                 Clone: function (source) {
+if ( TRACE ) { TRACE( "TMPro.TMP_Glyph#Clone", this ); }
+
                     var copy = new TMPro.TMP_Glyph();
 
                     copy.id = source.id;
@@ -38048,6 +41179,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_Sprite#init", this ); }
+
                 this.pivot = new UnityEngine.Vector2();
             }
         }
@@ -38085,6 +41218,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 SearchForSpriteByUnicode: function (spriteAsset, unicode, includeFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByUnicode", this ); }
+
                     // Check to make sure sprite asset is not null
                     if (spriteAsset == null) {
                         spriteIndex.v = -1;
@@ -38140,6 +41275,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 SearchForSpriteByUnicodeInternal: function (spriteAssets, unicode, includeFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByUnicodeInternal", this ); }
+
                     for (var i = 0; i < spriteAssets.Count; i++) {
                         var temp = spriteAssets.getItem(i);
                         if (temp == null) {
@@ -38180,6 +41317,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 SearchForSpriteByUnicodeInternal$1: function (spriteAsset, unicode, includeFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByUnicodeInternal$1", this ); }
+
                     // Get sprite index for the given unicode
                     spriteIndex.v = spriteAsset.GetSpriteIndexFromUnicode(unicode);
 
@@ -38211,6 +41350,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}                        The Sprite Asset that contains the sprite
                  */
                 SearchForSpriteByHashCode: function (spriteAsset, hashCode, includeFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByHashCode", this ); }
+
                     // Make sure sprite asset is not null
                     if (spriteAsset == null) {
                         spriteIndex.v = -1;
@@ -38304,6 +41445,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 SearchForSpriteByHashCodeInternal: function (spriteAssets, hashCode, searchFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByHashCodeInternal", this ); }
+
                     // Search through the list of sprite assets
                     for (var i = 0; i < spriteAssets.Count; i++) {
                         var temp = spriteAssets.getItem(i);
@@ -38345,6 +41488,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SpriteAsset}
                  */
                 SearchForSpriteByHashCodeInternal$1: function (spriteAsset, hashCode, searchFallbacks, spriteIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SearchForSpriteByHashCodeInternal$1", this ); }
+
                     // Get the sprite for the given hash code.
                     spriteIndex.v = spriteAsset.GetSpriteIndexFromHashcode(hashCode);
                     if (spriteIndex.v !== -1) {
@@ -38398,9 +41543,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             version: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#version#get", this ); }
+
                     return this.m_Version;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#version#set", this ); }
+
                     this.m_Version = value;
                 }
             },
@@ -38415,9 +41564,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             faceInfo: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#faceInfo#get", this ); }
+
                     return this.m_FaceInfo.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#faceInfo#set", this ); }
+
                     this.m_FaceInfo = value.$clone();
                 }
             },
@@ -38430,6 +41583,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteCharacterTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteCharacterTable#get", this ); }
+
                     if (this.m_GlyphIndexLookup == null) {
                         this.UpdateLookupTables();
                     }
@@ -38437,6 +41592,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_SpriteCharacterTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteCharacterTable#set", this ); }
+
                     this.m_SpriteCharacterTable = value;
                 }
             },
@@ -38451,6 +41608,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteCharacterLookupTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteCharacterLookupTable#get", this ); }
+
                     if (this.m_SpriteCharacterLookup == null) {
                         this.UpdateLookupTables();
                     }
@@ -38458,20 +41617,28 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_SpriteCharacterLookup;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteCharacterLookupTable#set", this ); }
+
                     this.m_SpriteCharacterLookup = value;
                 }
             },
             spriteGlyphTable: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteGlyphTable#get", this ); }
+
                     return this.m_SpriteGlyphTable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#spriteGlyphTable#set", this ); }
+
                     this.m_SpriteGlyphTable = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#init", this ); }
+
                 this.m_FaceInfo = new UnityEngine.TextCore.FaceInfo();
                 this.m_SpriteCharacterTable = new (System.Collections.Generic.List$1(TMPro.TMP_SpriteCharacter)).ctor();
                 this.m_SpriteGlyphTable = new (System.Collections.Generic.List$1(TMPro.TMP_SpriteGlyph)).ctor();
@@ -38481,6 +41648,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_SpriteAsset.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#Awake", this ); }
+
                 // Check version number of sprite asset to see if it needs to be upgraded.
                 if (this.material != null && System.String.isNullOrEmpty(this.m_Version)) {
                     this.UpgradeSpriteAsset();
@@ -38499,6 +41668,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetDefaultSpriteMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#GetDefaultSpriteMaterial", this ); }
+
                 //isEditingAsset = true;
                 TMPro.ShaderUtilities.GetShaderPropertyIDs();
 
@@ -38526,6 +41697,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateLookupTables: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#UpdateLookupTables", this ); }
+
                 //Debug.Log("Updating [" + this.name + "] Lookup tables.");
 
                 // Check version number of sprite asset to see if it needs to be upgraded.
@@ -38624,6 +41797,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetSpriteIndexFromHashcode: function (hashCode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#GetSpriteIndexFromHashcode", this ); }
+
                 if (this.m_NameLookup == null) {
                     this.UpdateLookupTables();
                 }
@@ -38649,6 +41824,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetSpriteIndexFromUnicode: function (unicode) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#GetSpriteIndexFromUnicode", this ); }
+
                 if (this.m_SpriteCharacterLookup == null) {
                     this.UpdateLookupTables();
                 }
@@ -38675,6 +41852,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetSpriteIndexFromName: function (name) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#GetSpriteIndexFromName", this ); }
+
                 if (this.m_NameLookup == null) {
                     this.UpdateLookupTables();
                 }
@@ -38696,6 +41875,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortGlyphTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SortGlyphTable", this ); }
+
                 if (this.m_SpriteGlyphTable == null || this.m_SpriteGlyphTable.Count === 0) {
                     return;
                 }
@@ -38716,6 +41897,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortCharacterTable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SortCharacterTable", this ); }
+
                 if (this.m_SpriteCharacterTable != null && this.m_SpriteCharacterTable.Count > 0) {
                     this.m_SpriteCharacterTable = System.Linq.Enumerable.from(this.m_SpriteCharacterTable, TMPro.TMP_SpriteCharacter).orderBy(function (c) {
                             return c.unicode;
@@ -38734,6 +41917,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SortGlyphAndCharacterTables: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#SortGlyphAndCharacterTables", this ); }
+
                 this.SortGlyphTable();
                 this.SortCharacterTable();
             },
@@ -38750,6 +41935,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpgradeSpriteAsset: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteAsset#UpgradeSpriteAsset", this ); }
+
                 this.m_Version = "1.1.0";
 
                 console.log("Upgrading sprite asset [" + (this.name || "") + "] to version " + (this.m_Version || "") + ".");
@@ -38820,9 +42007,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             name: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#name#get", this ); }
+
                     return this.m_Name;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#name#set", this ); }
+
                     if (Bridge.referenceEquals(value, this.m_Name)) {
                         return;
                     }
@@ -38844,6 +42035,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             hashCode: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#hashCode#get", this ); }
+
                     return this.m_HashCode;
                 }
             }
@@ -38859,6 +42052,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#ctor", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Sprite;
@@ -38875,6 +42070,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor3: function (unicode, glyph) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#$ctor3", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Sprite;
@@ -38897,6 +42094,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (unicode, spriteAsset, glyph) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#$ctor2", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Sprite;
@@ -38916,6 +42115,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (unicode, glyphIndex) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SpriteCharacter#$ctor1", this ); }
+
                 this.$initialize();
                 TMPro.TMP_TextElement.ctor.call(this);
                 this.m_ElementType = TMPro.TextElementType.Sprite;
@@ -38943,6 +42144,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TMP_SubMesh.AddSubTextObject:static start.*/
                 AddSubTextObject: function (textComponent, materialReference) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#AddSubTextObject", this ); }
+
                     var go = new UnityEngine.GameObject.$ctor3("TMP SubMesh [" + (materialReference.material.name || "") + "]", TMPro.TMP_SubMesh);
                     go.hideFlags = UnityEngine.HideFlags.DontSave;
 
@@ -38999,9 +42202,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fontAsset#get", this ); }
+
                     return this.m_fontAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fontAsset#set", this ); }
+
                     this.m_fontAsset = value;
                 }
             },
@@ -39016,9 +42223,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#spriteAsset#get", this ); }
+
                     return this.m_spriteAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#spriteAsset#set", this ); }
+
                     this.m_spriteAsset = value;
                 }
             },
@@ -39033,9 +42244,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             material: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#material#get", this ); }
+
                     return this.GetMaterial(this.m_sharedMaterial);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#material#set", this ); }
+
                     if (this.m_sharedMaterial.GetInstanceID() === value.GetInstanceID()) {
                         return;
                     }
@@ -39059,9 +42274,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             sharedMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#sharedMaterial#get", this ); }
+
                     return this.m_sharedMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#sharedMaterial#set", this ); }
+
                     this.SetSharedMaterial(value);
                 }
             },
@@ -39076,9 +42295,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fallbackMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fallbackMaterial#get", this ); }
+
                     return this.m_fallbackMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fallbackMaterial#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_fallbackMaterial, value)) {
                         return;
                     }
@@ -39104,14 +42327,20 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fallbackSourceMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fallbackSourceMaterial#get", this ); }
+
                     return this.m_fallbackSourceMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#fallbackSourceMaterial#set", this ); }
+
                     this.m_fallbackSourceMaterial = value;
                 }
             },
             materialForRendering: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#materialForRendering#get", this ); }
+
                     throw new System.NotSupportedException.ctor();
                 }
             },
@@ -39126,9 +42355,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isDefaultMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#isDefaultMaterial#get", this ); }
+
                     return this.m_isDefaultMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#isDefaultMaterial#set", this ); }
+
                     this.m_isDefaultMaterial = value;
                 }
             },
@@ -39143,9 +42376,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             padding: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#padding#get", this ); }
+
                     return this.m_padding;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#padding#set", this ); }
+
                     this.m_padding = value;
                 }
             },
@@ -39161,6 +42398,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             renderer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#renderer#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_renderer, null)) {
                         this.m_renderer = this.GetComponent(UnityEngine.Renderer);
                     }
@@ -39170,6 +42409,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#rectTransform#get", this ); }
+
                     throw new System.NotSupportedException.ctor();
                 }
             },
@@ -39185,6 +42426,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             meshFilter: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#meshFilter#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_meshFilter, null)) {
                         this.m_meshFilter = this.GetComponent(UnityEngine.MeshFilter);
 
@@ -39208,6 +42451,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#mesh#get", this ); }
+
                     if (this.m_mesh == null) {
                         this.m_mesh = new UnityEngine.Mesh.ctor();
                         this.m_mesh.hideFlags = UnityEngine.HideFlags.HideAndDontSave;
@@ -39216,6 +42461,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_mesh;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#mesh#set", this ); }
+
                     this.m_mesh = value;
                 }
             },
@@ -39232,6 +42479,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#textComponent#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null)) {
                         this.m_TextComponent = this.GetComponentInParent(TMPro.TextMeshPro);
                     }
@@ -39265,6 +42514,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TMP_SubMesh.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#OnEnable", this ); }
+
                 // Register Callbacks for various events.
                 if (!this.m_isRegisteredForEvents) {
 
@@ -39288,6 +42539,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMesh.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#OnDisable", this ); }
+
                 // Hide the geometry when the object is disabled.
                 this.m_meshFilter.sharedMesh = null;
 
@@ -39300,6 +42553,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMesh.OnDestroy start.*/
             OnDestroy: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#OnDestroy", this ); }
+
                 // Destroy Mesh
                 if (this.m_mesh != null) {
                     UnityEngine.Object.DestroyImmediate(this.m_mesh);
@@ -39320,12 +42575,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMesh.DestroySelf start.*/
             DestroySelf: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#DestroySelf", this ); }
+
                 this.Destroy(this.gameObject, 1.0);
             },
             /*TMPro.TMP_SubMesh.DestroySelf end.*/
 
             /*TMPro.TMP_SubMesh.GetMaterial start.*/
             GetMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#GetMaterial", this ); }
+
                 // Check in case Object is disabled. If so, we don't have a valid reference to the Renderer.
                 // This can occur when the Duplicate Material Context menu is used on an inactive object.
                 if (UnityEngine.Component.op_Equality(this.m_renderer, null)) {
@@ -39361,6 +42620,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             CreateMaterialInstance: function (source) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#CreateMaterialInstance", this ); }
+
                 var mat = new UnityEngine.Material.$ctor1(source);
                 mat.shaderKeywords = source.shaderKeywords;
                 mat.name = (mat.name || "") + " (Instance)";
@@ -39380,6 +42641,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetSharedMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#GetSharedMaterial", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_renderer, null)) {
                     this.m_renderer = this.GetComponent(UnityEngine.Renderer);
                 }
@@ -39400,6 +42663,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetSharedMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#SetSharedMaterial", this ); }
+
                 //Debug.Log("*** SetSharedMaterial() *** FRAME (" + Time.frameCount + ")");
 
                 // Assign new material.
@@ -39424,6 +42689,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPaddingForMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#GetPaddingForMaterial", this ); }
+
                 var padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, this.m_TextComponent.extraPadding, this.m_TextComponent.isUsingBold);
 
                 return padding;
@@ -39443,24 +42710,32 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMeshPadding: function (isExtraPadding, isUsingBold) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#UpdateMeshPadding", this ); }
+
                 this.m_padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, isExtraPadding, isUsingBold);
             },
             /*TMPro.TMP_SubMesh.UpdateMeshPadding end.*/
 
             /*TMPro.TMP_SubMesh.SetPivotDirty start.*/
             SetPivotDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#SetPivotDirty", this ); }
+
                 throw new System.NotSupportedException.ctor();
             },
             /*TMPro.TMP_SubMesh.SetPivotDirty end.*/
 
             /*TMPro.TMP_SubMesh.CrossFadeColor start.*/
             CrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#CrossFadeColor", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*TMPro.TMP_SubMesh.CrossFadeColor end.*/
 
             /*TMPro.TMP_SubMesh.CrossFadeAlpha start.*/
             CrossFadeAlpha: function (alpha, duration, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#CrossFadeAlpha", this ); }
+
                 throw new System.NotSupportedException.ctor();
             },
             /*TMPro.TMP_SubMesh.CrossFadeAlpha end.*/
@@ -39474,6 +42749,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetVerticesDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#SetVerticesDirty", this ); }
+
                 if (!this.enabled) {
                     return;
                 }
@@ -39495,6 +42772,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMaterialDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#SetMaterialDirty", this ); }
+
                 //if (!this.enabled)
                 //    return;
 
@@ -39514,6 +42793,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMesh#UpdateMaterial", this ); }
+
                 //Debug.Log("*** STO - UpdateMaterial() *** FRAME (" + Time.frameCount + ")");
 
                 if (UnityEngine.Component.op_Equality(this.renderer, null) || this.m_sharedMaterial == null) {
@@ -39558,6 +42839,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                  * @return  {TMPro.TMP_SubMeshUI}
                  */
                 AddSubTextObject: function (textComponent, materialReference) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#AddSubTextObject", this ); }
+
                     var go = new UnityEngine.GameObject.$ctor3("TMP UI SubObject [" + (materialReference.material.name || "") + "]", UnityEngine.RectTransform);
                     go.hideFlags = UnityEngine.HideFlags.DontSave;
 
@@ -39620,14 +42903,20 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fontAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fontAsset#get", this ); }
+
                     return this.m_fontAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fontAsset#set", this ); }
+
                     this.m_fontAsset = value;
                 }
             },
             renderer: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#renderer#get", this ); }
+
                     throw new System.NotSupportedException.ctor();
                 }
             },
@@ -39642,9 +42931,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             spriteAsset: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#spriteAsset#get", this ); }
+
                     return this.m_spriteAsset;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#spriteAsset#set", this ); }
+
                     this.m_spriteAsset = value;
                 }
             },
@@ -39659,6 +42952,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mainTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#mainTexture#get", this ); }
+
                     if (this.sharedMaterial != null) {
                         return this.sharedMaterial.GetTexture(TMPro.ShaderUtilities.ID_MainTex);
                     }
@@ -39679,9 +42974,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             material: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#material#get", this ); }
+
                     return this.GetMaterial$1(this.m_sharedMaterial);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#material#set", this ); }
+
                     if (this.m_sharedMaterial != null && this.m_sharedMaterial.GetInstanceID() === value.GetInstanceID()) {
                         return;
                     }
@@ -39705,9 +43004,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             sharedMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#sharedMaterial#get", this ); }
+
                     return this.m_sharedMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#sharedMaterial#set", this ); }
+
                     this.SetSharedMaterial(value);
                 }
             },
@@ -39720,9 +43023,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fallbackMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fallbackMaterial#get", this ); }
+
                     return this.m_fallbackMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fallbackMaterial#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_fallbackMaterial, value)) {
                         return;
                     }
@@ -39748,9 +43055,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             fallbackSourceMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fallbackSourceMaterial#get", this ); }
+
                     return this.m_fallbackSourceMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#fallbackSourceMaterial#set", this ); }
+
                     this.m_fallbackSourceMaterial = value;
                 }
             },
@@ -39767,6 +43078,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             materialForRendering: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#materialForRendering#get", this ); }
+
                     return TMPro.TMP_MaterialManager.GetMaterialForRendering(this, this.m_sharedMaterial);
                 }
             },
@@ -39781,9 +43094,13 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             isDefaultMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#isDefaultMaterial#get", this ); }
+
                     return this.m_isDefaultMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#isDefaultMaterial#set", this ); }
+
                     this.m_isDefaultMaterial = value;
                 }
             },
@@ -39798,14 +43115,20 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             padding: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#padding#get", this ); }
+
                     return this.m_padding;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#padding#set", this ); }
+
                     this.m_padding = value;
                 }
             },
             meshFilter: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#meshFilter#get", this ); }
+
                     throw new System.NotSupportedException.ctor();
                 }
             },
@@ -39820,6 +43143,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#mesh#get", this ); }
+
                     if (this.m_mesh == null) {
                         this.m_mesh = new UnityEngine.Mesh.ctor();
                         this.m_mesh.hideFlags = UnityEngine.HideFlags.HideAndDontSave;
@@ -39828,6 +43153,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
                     return this.m_mesh;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#mesh#set", this ); }
+
                     this.m_mesh = value;
                 }
             },
@@ -39843,6 +43170,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              */
             textComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#textComponent#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null)) {
                         this.m_TextComponent = this.GetComponentInParent(TMPro.TextMeshProUGUI);
                     }
@@ -39891,6 +43220,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             }
@@ -39906,6 +43237,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnEnable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#OnEnable", this ); }
+
                 //Debug.Log("*** SubObject OnEnable() ***");
 
                 // Register Callbacks for various events.
@@ -39930,6 +43263,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMeshUI.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#OnDisable", this ); }
+
                 //Debug.Log("*** SubObject OnDisable() ***");
                 UnityEngine.UI.MaskableGraphic.prototype.OnDisable.call(this);
 
@@ -39952,6 +43287,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMeshUI.OnDestroy start.*/
             OnDestroy: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#OnDestroy", this ); }
+
                 //Debug.Log("*** OnDestroy() ***");
 
                 // Destroy Mesh
@@ -39989,6 +43326,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#OnTransformParentChanged", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -40012,6 +43351,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetModifiedMaterial: function (baseMaterial) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetModifiedMaterial", this ); }
+
                 var mat = baseMaterial;
 
                 if (this.m_ShouldRecalculateStencil) {
@@ -40042,6 +43383,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPaddingForMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetPaddingForMaterial", this ); }
+
                 var padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, this.m_TextComponent.extraPadding, this.m_TextComponent.isUsingBold);
 
                 return padding;
@@ -40060,6 +43403,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {number}
              */
             GetPaddingForMaterial$1: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetPaddingForMaterial$1", this ); }
+
                 var padding = TMPro.ShaderUtilities.GetPadding(mat, this.m_TextComponent.extraPadding, this.m_TextComponent.isUsingBold);
 
                 return padding;
@@ -40077,6 +43422,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMeshPadding: function (isExtraPadding, isUsingBold) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#UpdateMeshPadding", this ); }
+
                 this.m_padding = TMPro.ShaderUtilities.GetPadding(this.m_sharedMaterial, isExtraPadding, isUsingBold);
             },
             /*TMPro.TMP_SubMeshUI.UpdateMeshPadding end.*/
@@ -40091,6 +43438,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetAllDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetAllDirty", this ); }
+
                 //SetLayoutDirty();
                 //SetVerticesDirty();
                 //SetMaterialDirty();
@@ -40107,6 +43456,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetVerticesDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetVerticesDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -40129,6 +43480,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetLayoutDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetLayoutDirty", this ); }
+
 
             },
             /*TMPro.TMP_SubMeshUI.SetLayoutDirty end.*/
@@ -40143,6 +43496,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetMaterialDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetMaterialDirty", this ); }
+
                 //Debug.Log("*** STO-UI - SetMaterialDirty() *** FRAME (" + Time.frameCount + ")");
 
                 //if (!this.IsActive())
@@ -40172,6 +43527,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetPivotDirty: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetPivotDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -40182,6 +43539,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMeshUI.GetRootCanvasTransform start.*/
             GetRootCanvasTransform: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetRootCanvasTransform", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_RootCanvasTransform, null)) {
                     this.m_RootCanvasTransform = this.m_TextComponent.canvas.rootCanvas.transform;
                 }
@@ -40204,6 +43563,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Cull: function (clipRect, validRect) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#Cull", this ); }
+
                 // Do nothing as this functionality is handled by the parent text object.
             },
             /*TMPro.TMP_SubMeshUI.Cull end.*/
@@ -40218,6 +43579,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#UpdateGeometry", this ); }
+
                 // Need to override to prevent Unity from changing the geometry of the object.
                 //Debug.Log("UpdateGeometry()");
             },
@@ -40234,6 +43597,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#Rebuild", this ); }
+
                 if (update === UnityEngine.UI.CanvasUpdate.PreRender) {
                     if (!this.m_materialDirty) {
                         return;
@@ -40256,6 +43621,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             RefreshMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#RefreshMaterial", this ); }
+
                 this.UpdateMaterial();
             },
             /*TMPro.TMP_SubMeshUI.RefreshMaterial end.*/
@@ -40270,6 +43637,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             UpdateMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#UpdateMaterial", this ); }
+
                 //Debug.Log("*** STO-UI - UpdateMaterial() *** FRAME (" + Time.frameCount + ")");
 
                 if (this.m_sharedMaterial == null) {
@@ -40303,6 +43672,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             RecalculateClipping: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#RecalculateClipping", this ); }
+
                 //Debug.Log("*** RecalculateClipping() ***");
                 UnityEngine.UI.MaskableGraphic.prototype.RecalculateClipping.call(this);
             },
@@ -40320,6 +43691,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetMaterial", this ); }
+
                 // Make sure we have a valid reference to the renderer.
                 //if (m_renderer == null) m_renderer = GetComponent<Renderer>();
 
@@ -40338,6 +43711,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TMP_SubMeshUI.GetMaterial$1 start.*/
             GetMaterial$1: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetMaterial$1", this ); }
+
                 // Check in case Object is disabled. If so, we don't have a valid reference to the Renderer.
                 // This can occur when the Duplicate Material Context menu is used on an inactive object.
                 //if (m_renderer == null)
@@ -40372,6 +43747,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             CreateMaterialInstance: function (source) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#CreateMaterialInstance", this ); }
+
                 var mat = new UnityEngine.Material.$ctor1(source);
                 mat.shaderKeywords = source.shaderKeywords;
                 mat.name = (mat.name || "") + " (Instance)";
@@ -40391,6 +43768,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {UnityEngine.Material}
              */
             GetSharedMaterial: function () {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#GetSharedMaterial", this ); }
+
                 //if (m_canvasRenderer == null)
                 //    m_canvasRenderer = GetComponent<CanvasRenderer>();
 
@@ -40410,6 +43789,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
              * @return  {void}
              */
             SetSharedMaterial: function (mat) {
+if ( TRACE ) { TRACE( "TMPro.TMP_SubMeshUI#SetSharedMaterial", this ); }
+
                 //Debug.Log("*** SetSharedMaterial UI() *** FRAME (" + Time.frameCount + ")");
 
                 // Assign new material.
@@ -40444,6 +43825,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
             methods: {
                 /*TMPro.TweenRunner$1.Start:static start.*/
                 Start: function (tweenInfo) {
+if ( TRACE ) { TRACE( "TMPro.TweenRunner$1#Start", this ); }
+
                     var $step = 0,
                         $jumpFromFinally,
                         $returnValue,
@@ -40520,12 +43903,16 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
         methods: {
             /*TMPro.TweenRunner$1.Init start.*/
             Init: function (coroutineContainer) {
+if ( TRACE ) { TRACE( "TMPro.TweenRunner$1#Init", this ); }
+
                 this.m_CoroutineContainer = coroutineContainer;
             },
             /*TMPro.TweenRunner$1.Init end.*/
 
             /*TMPro.TweenRunner$1.StartTween start.*/
             StartTween: function (info) {
+if ( TRACE ) { TRACE( "TMPro.TweenRunner$1#StartTween", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_CoroutineContainer, null)) {
                     console.warn("Coroutine container not configured... did you forget to call Init?");
                     return;
@@ -40545,6 +43932,8 @@ Bridge.assembly("TextMeshPro", function ($asm, globals) {
 
             /*TMPro.TweenRunner$1.StopTween start.*/
             StopTween: function () {
+if ( TRACE ) { TRACE( "TMPro.TweenRunner$1#StopTween", this ); }
+
                 if (this.m_Tween != null) {
                     this.m_CoroutineContainer.StopCoroutine(this.m_Tween);
                     this.m_Tween = null;

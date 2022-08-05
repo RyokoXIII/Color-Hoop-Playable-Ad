@@ -1,5 +1,5 @@
 /**
- * @version   : 17.9.12-luna - Bridge.NET
+ * @version   : 17.9.13-luna - Bridge.NET
  * @author    : Object.NET, Inc. http://bridge.net/
  * @copyright : Copyright 2008-2021 Object.NET, Inc. http://object.net/
  * @license   : See license.txt and https://github.com/bridgedotnet/Bridge/blob/master/LICENSE.md

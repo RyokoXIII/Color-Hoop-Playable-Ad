@@ -5,8 +5,11 @@ public class ViewPortHandler : MonoBehaviour
     public new Camera camera;
     public RectTransform mask;
     public RectTransform mask2;
+    public GameObject hoopPosContainer;
+    public RectTransform hoopPosContainerTran;
 
     public BackgroundFitCamera bgFitCamera;
+
 
     private void Update()
     {
@@ -14,8 +17,11 @@ public class ViewPortHandler : MonoBehaviour
         if (screenRatio >= 1)
         {
             // landscape
-            camera.orthographicSize = 5f;
-            camera.transform.position = new Vector3(1.9f, 15f, -19.77f);
+            hoopPosContainerTran.anchoredPosition = new Vector3(0, -12f, 0);
+            hoopPosContainer.transform.localScale = new Vector3(0.8f,1,1);
+
+            camera.orthographicSize = 7f;
+            camera.transform.position = new Vector3(1.9f, 14f, -19.77f);
 
             if (mask.gameObject.activeInHierarchy == true)
                 mask.anchoredPosition = new Vector2(139, 55);
@@ -26,8 +32,11 @@ public class ViewPortHandler : MonoBehaviour
         else if (screenRatio < 1)
         {
             // portrait
+            hoopPosContainerTran.anchoredPosition = Vector3.zero;
+            hoopPosContainer.transform.localScale = Vector3.one;
+
             camera.orthographicSize = 7f;
-            camera.transform.position = new Vector3(1.9f, 13.28f, -19.77f);
+            camera.transform.position = new Vector3(1.9f, 14.6f, -19.77f);
 
             if (mask.gameObject.activeInHierarchy == true)
                 mask.anchoredPosition = new Vector2(130, 5);

@@ -1,5 +1,6 @@
+if ( TRACE ) { TRACE( JSON.parse( '["UnityEngine.EventSystems.AbstractEventData#used#get","UnityEngine.EventSystems.AbstractEventData#Reset","UnityEngine.EventSystems.AbstractEventData#Use","UnityEngine.EventSystems.UIBehaviour#ctor","UnityEngine.EventSystems.UIBehaviour#$ctor1","UnityEngine.EventSystems.UIBehaviour#IsActive","UnityEngine.EventSystems.UIBehaviour#Awake","UnityEngine.EventSystems.UIBehaviour#OnEnable","UnityEngine.EventSystems.UIBehaviour#OnDisable","UnityEngine.EventSystems.UIBehaviour#OnRectTransformDimensionsChange","UnityEngine.EventSystems.UIBehaviour#OnTransformParentChanged","UnityEngine.EventSystems.UIBehaviour#OnDestroy","UnityEngine.EventSystems.UIBehaviour#Start","UnityEngine.EventSystems.UIBehaviour#OnDidApplyAnimationProperties","UnityEngine.EventSystems.UIBehaviour#ConfigureForEntity","UnityEngine.EventSystems.UIBehaviour#OnCanvasHierarchyChanged","UnityEngine.EventSystems.UIBehaviour#OnCanvasGroupChanged","UnityEngine.EventSystems.UIBehaviour#IsDestroyed","UnityEngine.EventSystems.EventTrigger.Entry#init","UnityEngine.EventSystems.EventTrigger.Entry#ctor","UnityEngine.EventSystems.ExecuteEvents#pointerEnterHandler#get","UnityEngine.EventSystems.ExecuteEvents#pointerExitHandler#get","UnityEngine.EventSystems.ExecuteEvents#pointerDownHandler#get","UnityEngine.EventSystems.ExecuteEvents#pointerUpHandler#get","UnityEngine.EventSystems.ExecuteEvents#pointerClickHandler#get","UnityEngine.EventSystems.ExecuteEvents#initializePotentialDrag#get","UnityEngine.EventSystems.ExecuteEvents#beginDragHandler#get","UnityEngine.EventSystems.ExecuteEvents#dragHandler#get","UnityEngine.EventSystems.ExecuteEvents#endDragHandler#get","UnityEngine.EventSystems.ExecuteEvents#dropHandler#get","UnityEngine.EventSystems.ExecuteEvents#scrollHandler#get","UnityEngine.EventSystems.ExecuteEvents#updateSelectedHandler#get","UnityEngine.EventSystems.ExecuteEvents#selectHandler#get","UnityEngine.EventSystems.ExecuteEvents#deselectHandler#get","UnityEngine.EventSystems.ExecuteEvents#moveHandler#get","UnityEngine.EventSystems.ExecuteEvents#submitHandler#get","UnityEngine.EventSystems.ExecuteEvents#cancelHandler#get","UnityEngine.EventSystems.ExecuteEvents#init","UnityEngine.EventSystems.ExecuteEvents#ValidateEventData","UnityEngine.EventSystems.ExecuteEvents#Execute$11","UnityEngine.EventSystems.ExecuteEvents#Execute$12","UnityEngine.EventSystems.ExecuteEvents#Execute$10","UnityEngine.EventSystems.ExecuteEvents#Execute$13","UnityEngine.EventSystems.ExecuteEvents#Execute$9","UnityEngine.EventSystems.ExecuteEvents#Execute$7","UnityEngine.EventSystems.ExecuteEvents#Execute$1","UnityEngine.EventSystems.ExecuteEvents#Execute$4","UnityEngine.EventSystems.ExecuteEvents#Execute$6","UnityEngine.EventSystems.ExecuteEvents#Execute$5","UnityEngine.EventSystems.ExecuteEvents#Execute$14","UnityEngine.EventSystems.ExecuteEvents#Execute$17","UnityEngine.EventSystems.ExecuteEvents#Execute$15","UnityEngine.EventSystems.ExecuteEvents#Execute$3","UnityEngine.EventSystems.ExecuteEvents#Execute$8","UnityEngine.EventSystems.ExecuteEvents#Execute$16","UnityEngine.EventSystems.ExecuteEvents#Execute$2","UnityEngine.EventSystems.ExecuteEvents#Execute","UnityEngine.EventSystems.ExecuteEvents#GetEventChain","UnityEngine.EventSystems.ExecuteEvents#ExecuteHierarchy","UnityEngine.EventSystems.ExecuteEvents#ShouldSendToComponent","UnityEngine.EventSystems.ExecuteEvents#GetEventList","UnityEngine.EventSystems.ExecuteEvents#CanHandleEvent","UnityEngine.EventSystems.ExecuteEvents#GetEventHandler","UnityEngine.EventSystems.PointerInputModule.ButtonState#eventData#get","UnityEngine.EventSystems.PointerInputModule.ButtonState#eventData#set","UnityEngine.EventSystems.PointerInputModule.ButtonState#button#get","UnityEngine.EventSystems.PointerInputModule.ButtonState#button#set","UnityEngine.EventSystems.PointerInputModule.ButtonState#init","UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData#PressedThisFrame","UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData#ReleasedThisFrame","UnityEngine.EventSystems.PointerInputModule.MouseState#init","UnityEngine.EventSystems.PointerInputModule.MouseState#AnyPressesThisFrame","UnityEngine.EventSystems.PointerInputModule.MouseState#AnyReleasesThisFrame","UnityEngine.EventSystems.PointerInputModule.MouseState#GetButtonState","UnityEngine.EventSystems.PointerInputModule.MouseState#SetButtonState","UnityEngine.EventSystems.RaycasterManager#init","UnityEngine.EventSystems.RaycasterManager#AddRaycaster","UnityEngine.EventSystems.RaycasterManager#GetRaycasters","UnityEngine.EventSystems.RaycasterManager#RemoveRaycasters","UnityEngine.EventSystems.RaycastResult#getDefaultValue","UnityEngine.EventSystems.RaycastResult#isValid#get","UnityEngine.EventSystems.RaycastResult#init","UnityEngine.EventSystems.RaycastResult#ctor","UnityEngine.EventSystems.RaycastResult#Clear","UnityEngine.EventSystems.RaycastResult#SetFrom","UnityEngine.EventSystems.RaycastResult#getHashCode","UnityEngine.EventSystems.RaycastResult#equals","UnityEngine.EventSystems.RaycastResult#$clone","UnityEngine.UI.AnimationTriggers#init","UnityEngine.UI.AnimationTriggers#normalTrigger#get","UnityEngine.UI.AnimationTriggers#normalTrigger#set","UnityEngine.UI.AnimationTriggers#highlightedTrigger#get","UnityEngine.UI.AnimationTriggers#highlightedTrigger#set","UnityEngine.UI.AnimationTriggers#pressedTrigger#get","UnityEngine.UI.AnimationTriggers#pressedTrigger#set","UnityEngine.UI.AnimationTriggers#selectedTrigger#get","UnityEngine.UI.AnimationTriggers#selectedTrigger#set","UnityEngine.UI.AnimationTriggers#disabledTrigger#get","UnityEngine.UI.AnimationTriggers#disabledTrigger#set","UnityEngine.UI.AnimationTriggers#init","UnityEngine.UI.CanvasUpdateRegistry#instance#get","UnityEngine.UI.CanvasUpdateRegistry#RegisterCanvasElementForLayoutRebuild","UnityEngine.UI.CanvasUpdateRegistry#RegisterCanvasElementForGraphicRebuild","UnityEngine.UI.CanvasUpdateRegistry#UnRegisterCanvasElementForRebuild","UnityEngine.UI.CanvasUpdateRegistry#IsRebuildingLayout","UnityEngine.UI.CanvasUpdateRegistry#IsRebuildingGraphics","UnityEngine.UI.CanvasUpdateRegistry#GetKey","UnityEngine.UI.CanvasUpdateRegistry#init","UnityEngine.UI.CanvasUpdateRegistry#ctor","UnityEngine.UI.CanvasUpdateRegistry#PerformUpdate","UnityEngine.UI.CanvasUpdateRegistry#PerformLayoutRebuildPhases","UnityEngine.UI.CanvasUpdateRegistry#PerformGraphicsRebuildPhases","UnityEngine.UI.ClipperRegistry#instance#get","UnityEngine.UI.ClipperRegistry#Register","UnityEngine.UI.ClipperRegistry#Unregister","UnityEngine.UI.ClipperRegistry#init","UnityEngine.UI.ClipperRegistry#ctor","UnityEngine.UI.ClipperRegistry#Cull","UnityEngine.UI.Clipping#FindCullAndClipWorldRect","UnityEngine.UI.Collections.IndexedSet$1#Count#get","UnityEngine.UI.Collections.IndexedSet$1#IsReadOnly#get","UnityEngine.UI.Collections.IndexedSet$1#init","UnityEngine.UI.Collections.IndexedSet$1#getItem","UnityEngine.UI.Collections.IndexedSet$1#setItem","UnityEngine.UI.Collections.IndexedSet$1#add","UnityEngine.UI.Collections.IndexedSet$1#AddUnique","UnityEngine.UI.Collections.IndexedSet$1#remove","UnityEngine.UI.Collections.IndexedSet$1#GetEnumerator","UnityEngine.UI.Collections.IndexedSet$1#System$Collections$IEnumerable$GetEnumerator","UnityEngine.UI.Collections.IndexedSet$1#clear","UnityEngine.UI.Collections.IndexedSet$1#contains","UnityEngine.UI.Collections.IndexedSet$1#copyTo","UnityEngine.UI.Collections.IndexedSet$1#indexOf","UnityEngine.UI.Collections.IndexedSet$1#insert","UnityEngine.UI.Collections.IndexedSet$1#removeAt","UnityEngine.UI.Collections.IndexedSet$1#RemoveAll","UnityEngine.UI.Collections.IndexedSet$1#Sort","UnityEngine.UI.ColorBlock#inherits","UnityEngine.UI.ColorBlock#defaultColorBlock#get","UnityEngine.UI.ColorBlock#op_Equality","UnityEngine.UI.ColorBlock#op_Inequality","UnityEngine.UI.ColorBlock#getDefaultValue","UnityEngine.UI.ColorBlock#normalColor#get","UnityEngine.UI.ColorBlock#normalColor#set","UnityEngine.UI.ColorBlock#highlightedColor#get","UnityEngine.UI.ColorBlock#highlightedColor#set","UnityEngine.UI.ColorBlock#pressedColor#get","UnityEngine.UI.ColorBlock#pressedColor#set","UnityEngine.UI.ColorBlock#selectedColor#get","UnityEngine.UI.ColorBlock#selectedColor#set","UnityEngine.UI.ColorBlock#disabledColor#get","UnityEngine.UI.ColorBlock#disabledColor#set","UnityEngine.UI.ColorBlock#colorMultiplier#get","UnityEngine.UI.ColorBlock#colorMultiplier#set","UnityEngine.UI.ColorBlock#fadeDuration#get","UnityEngine.UI.ColorBlock#fadeDuration#set","UnityEngine.UI.ColorBlock#init","UnityEngine.UI.ColorBlock#ctor","UnityEngine.UI.ColorBlock#equalsT","UnityEngine.UI.ColorBlock#equals","UnityEngine.UI.ColorBlock#getHashCode","UnityEngine.UI.ColorBlock#$clone","UnityEngine.UI.DefaultControls#init","UnityEngine.UI.DefaultControls#CreateUIElementRoot","UnityEngine.UI.DefaultControls#CreateUIObject","UnityEngine.UI.DefaultControls#SetDefaultTextValues","UnityEngine.UI.DefaultControls#SetDefaultColorTransitionValues","UnityEngine.UI.DefaultControls#SetParentAndAlign","UnityEngine.UI.DefaultControls#SetLayerRecursively","UnityEngine.UI.DefaultControls#CreatePanel","UnityEngine.UI.DefaultControls#CreateButton","UnityEngine.UI.DefaultControls#CreateText","UnityEngine.UI.DefaultControls#CreateImage","UnityEngine.UI.DefaultControls#CreateRawImage","UnityEngine.UI.DefaultControls#CreateSlider","UnityEngine.UI.DefaultControls#CreateScrollbar","UnityEngine.UI.DefaultControls#CreateToggle","UnityEngine.UI.DefaultControls#CreateInputField","UnityEngine.UI.DefaultControls#CreateDropdown","UnityEngine.UI.DefaultControls#CreateScrollView","UnityEngine.UI.DefaultControls.Resources#getDefaultValue","UnityEngine.UI.DefaultControls.Resources#ctor","UnityEngine.UI.DefaultControls.Resources#getHashCode","UnityEngine.UI.DefaultControls.Resources#equals","UnityEngine.UI.DefaultControls.Resources#$clone","UnityEngine.UI.Dropdown.OptionData#text#get","UnityEngine.UI.Dropdown.OptionData#text#set","UnityEngine.UI.Dropdown.OptionData#image#get","UnityEngine.UI.Dropdown.OptionData#image#set","UnityEngine.UI.Dropdown.OptionData#ctor","UnityEngine.UI.Dropdown.OptionData#$ctor1","UnityEngine.UI.Dropdown.OptionData#$ctor3","UnityEngine.UI.Dropdown.OptionData#$ctor2","UnityEngine.UI.Dropdown.OptionDataList#options#get","UnityEngine.UI.Dropdown.OptionDataList#options#set","UnityEngine.UI.Dropdown.OptionDataList#ctor","UnityEngine.UI.FontData#defaultFontData#get","UnityEngine.UI.FontData#font#get","UnityEngine.UI.FontData#font#set","UnityEngine.UI.FontData#fontSize#get","UnityEngine.UI.FontData#fontSize#set","UnityEngine.UI.FontData#fontStyle#get","UnityEngine.UI.FontData#fontStyle#set","UnityEngine.UI.FontData#bestFit#get","UnityEngine.UI.FontData#bestFit#set","UnityEngine.UI.FontData#minSize#get","UnityEngine.UI.FontData#minSize#set","UnityEngine.UI.FontData#maxSize#get","UnityEngine.UI.FontData#maxSize#set","UnityEngine.UI.FontData#alignment#get","UnityEngine.UI.FontData#alignment#set","UnityEngine.UI.FontData#alignByGeometry#get","UnityEngine.UI.FontData#alignByGeometry#set","UnityEngine.UI.FontData#richText#get","UnityEngine.UI.FontData#richText#set","UnityEngine.UI.FontData#horizontalOverflow#get","UnityEngine.UI.FontData#horizontalOverflow#set","UnityEngine.UI.FontData#verticalOverflow#get","UnityEngine.UI.FontData#verticalOverflow#set","UnityEngine.UI.FontData#lineSpacing#get","UnityEngine.UI.FontData#lineSpacing#set","UnityEngine.UI.GraphicRegistry#init","UnityEngine.UI.GraphicRegistry#RegisterGraphicForCanvas","UnityEngine.UI.GraphicRegistry#UnregisterGraphicForCanvas","UnityEngine.UI.GraphicRegistry#GetGraphicsForCanvas","UnityEngine.UI.GraphicRegistry#GetGraphicsForCanvasInternal","UnityEngine.UI.GraphicRegistry#UnregisterGraphicsEverywhere","UnityEngine.UI.GraphicRegistry#init","UnityEngine.UI.GraphicRegistry#ctor","UnityEngine.UI.LayoutUtility#GetMinSize","UnityEngine.UI.LayoutUtility#GetPreferredSize","UnityEngine.UI.LayoutUtility#GetFlexibleSize","UnityEngine.UI.LayoutUtility#GetMinWidth","UnityEngine.UI.LayoutUtility#GetPreferredWidth","UnityEngine.UI.LayoutUtility#GetFlexibleWidth","UnityEngine.UI.LayoutUtility#GetMinHeight","UnityEngine.UI.LayoutUtility#GetPreferredHeight","UnityEngine.UI.LayoutUtility#GetFlexibleHeight","UnityEngine.UI.LayoutUtility#GetLayoutProperty","UnityEngine.UI.LayoutUtility#GetLayoutProperty$1","UnityEngine.UI.ListPool$1#init","UnityEngine.UI.ListPool$1#Clear","UnityEngine.UI.ListPool$1#Get","UnityEngine.UI.ListPool$1#Release","UnityEngine.UI.MaskUtilities#Notify2DMaskStateChanged","UnityEngine.UI.MaskUtilities#NotifyStencilStateChanged","UnityEngine.UI.MaskUtilities#FindRootSortOverrideCanvas","UnityEngine.UI.MaskUtilities#GetStencilDepth","UnityEngine.UI.MaskUtilities#IsDescendantOrSelf","UnityEngine.UI.MaskUtilities#GetRectMaskForClippable","UnityEngine.UI.MaskUtilities#GetRectMasksForClip","UnityEngine.UI.Misc#Destroy","UnityEngine.UI.Misc#DestroyImmediate","UnityEngine.UI.Navigation#inherits","UnityEngine.UI.Navigation#defaultNavigation#get","UnityEngine.UI.Navigation#getDefaultValue","UnityEngine.UI.Navigation#mode#get","UnityEngine.UI.Navigation#mode#set","UnityEngine.UI.Navigation#selectOnUp#get","UnityEngine.UI.Navigation#selectOnUp#set","UnityEngine.UI.Navigation#selectOnDown#get","UnityEngine.UI.Navigation#selectOnDown#set","UnityEngine.UI.Navigation#selectOnLeft#get","UnityEngine.UI.Navigation#selectOnLeft#set","UnityEngine.UI.Navigation#selectOnRight#get","UnityEngine.UI.Navigation#selectOnRight#set","UnityEngine.UI.Navigation#ctor","UnityEngine.UI.Navigation#equalsT","UnityEngine.UI.Navigation#getHashCode","UnityEngine.UI.Navigation#$clone","UnityEngine.UI.ObjectPool$1#countActive#get","UnityEngine.UI.ObjectPool$1#countInactive#get","UnityEngine.UI.ObjectPool$1#init","UnityEngine.UI.ObjectPool$1#ctor","UnityEngine.UI.ObjectPool$1#Get","UnityEngine.UI.ObjectPool$1#Release","UnityEngine.UI.RectangularVertexClipper#init","UnityEngine.UI.RectangularVertexClipper#GetCanvasRect","UnityEngine.UI.ReflectionMethodsCache#Singleton#get","UnityEngine.UI.ReflectionMethodsCache#ctor","UnityEngine.UI.SetPropertyUtility#SetColor","UnityEngine.UI.SetPropertyUtility#SetStruct","UnityEngine.UI.SetPropertyUtility#SetClass","UnityEngine.UI.SpriteState#inherits","UnityEngine.UI.SpriteState#getDefaultValue","UnityEngine.UI.SpriteState#highlightedSprite#get","UnityEngine.UI.SpriteState#highlightedSprite#set","UnityEngine.UI.SpriteState#pressedSprite#get","UnityEngine.UI.SpriteState#pressedSprite#set","UnityEngine.UI.SpriteState#selectedSprite#get","UnityEngine.UI.SpriteState#selectedSprite#set","UnityEngine.UI.SpriteState#disabledSprite#get","UnityEngine.UI.SpriteState#disabledSprite#set","UnityEngine.UI.SpriteState#ctor","UnityEngine.UI.SpriteState#equalsT","UnityEngine.UI.SpriteState#getHashCode","UnityEngine.UI.SpriteState#$clone","UnityEngine.UI.StencilMaterial#init","UnityEngine.UI.StencilMaterial#Add","UnityEngine.UI.StencilMaterial#Add$1","UnityEngine.UI.StencilMaterial#Add$2","UnityEngine.UI.StencilMaterial#Remove","UnityEngine.UI.StencilMaterial#ClearAll","UnityEngine.UI.StencilMaterial.MatEntry#init","UnityEngine.UI.VertexHelper#currentVertCount#get","UnityEngine.UI.VertexHelper#init","UnityEngine.UI.VertexHelper#ctor","UnityEngine.UI.VertexHelper#$ctor1","UnityEngine.UI.VertexHelper#AddTriangle","UnityEngine.UI.VertexHelper#AddVert","UnityEngine.UI.VertexHelper#AddVert$1","UnityEngine.UI.VertexHelper#AddVert$2","UnityEngine.UI.VertexHelper#GetUIVertexStream","UnityEngine.UI.VertexHelper#Clear","UnityEngine.UI.VertexHelper#AddUIVertexQuad","UnityEngine.UI.VertexHelper#Dispose","UnityEngine.UI.VertexHelper#PopulateUIVertex","UnityEngine.UI.VertexHelper#SetUIVertex","UnityEngine.UI.VertexHelper#AddUIVertexTriangleStream","UnityEngine.UI.VertexHelper#FillMesh","UnityEngine.UI.VertexHelper#FromMesh","UnityEngine.EventSystems.BaseEventData#ctor","UnityEngine.EventSystems.BaseInput#compositionString#get","UnityEngine.EventSystems.BaseInput#imeCompositionMode#get","UnityEngine.EventSystems.BaseInput#imeCompositionMode#set","UnityEngine.EventSystems.BaseInput#compositionCursorPos#get","UnityEngine.EventSystems.BaseInput#compositionCursorPos#set","UnityEngine.EventSystems.BaseInput#mousePresent#get","UnityEngine.EventSystems.BaseInput#mousePosition#get","UnityEngine.EventSystems.BaseInput#mouseScrollDelta#get","UnityEngine.EventSystems.BaseInput#touchSupported#get","UnityEngine.EventSystems.BaseInput#touchCount#get","UnityEngine.EventSystems.BaseInput#GetMouseButtonDown","UnityEngine.EventSystems.BaseInput#GetMouseButtonUp","UnityEngine.EventSystems.BaseInput#GetMouseButton","UnityEngine.EventSystems.BaseInput#GetTouch","UnityEngine.EventSystems.BaseInput#GetAxisRaw","UnityEngine.EventSystems.BaseInput#GetButtonDown","UnityEngine.EventSystems.BaseInputModule#FindFirstRaycast","UnityEngine.EventSystems.BaseInputModule#DetermineMoveDirection","UnityEngine.EventSystems.BaseInputModule#DetermineMoveDirection$1","UnityEngine.EventSystems.BaseInputModule#FindCommonRoot","UnityEngine.EventSystems.BaseInputModule#input#get","UnityEngine.EventSystems.BaseInputModule#inputOverride#get","UnityEngine.EventSystems.BaseInputModule#inputOverride#set","UnityEngine.EventSystems.BaseInputModule#eventSystem#get","UnityEngine.EventSystems.BaseInputModule#init","UnityEngine.EventSystems.BaseInputModule#OnEnable","UnityEngine.EventSystems.BaseInputModule#OnDisable","UnityEngine.EventSystems.BaseInputModule#HandlePointerExitAndEnter","UnityEngine.EventSystems.BaseInputModule#GetAxisEventData","UnityEngine.EventSystems.BaseInputModule#GetBaseEventData","UnityEngine.EventSystems.BaseInputModule#IsPointerOverGameObject","UnityEngine.EventSystems.BaseInputModule#ShouldActivateModule","UnityEngine.EventSystems.BaseInputModule#DeactivateModule","UnityEngine.EventSystems.BaseInputModule#ActivateModule","UnityEngine.EventSystems.BaseInputModule#UpdateModule","UnityEngine.EventSystems.BaseInputModule#IsModuleSupported","UnityEngine.EventSystems.BaseRaycaster#renderOrderPriority#get","UnityEngine.EventSystems.BaseRaycaster#sortOrderPriority#get","UnityEngine.EventSystems.BaseRaycaster#rootRaycaster#get","UnityEngine.EventSystems.BaseRaycaster#ConfigureForEntity","UnityEngine.EventSystems.BaseRaycaster#OnEnable","UnityEngine.EventSystems.BaseRaycaster#OnDisable","UnityEngine.EventSystems.BaseRaycaster#OnCanvasHierarchyChanged","UnityEngine.EventSystems.BaseRaycaster#OnTransformParentChanged","UnityEngine.EventSystems.EventSystem#current#get","UnityEngine.EventSystems.EventSystem#current#set","UnityEngine.EventSystems.EventSystem#init","UnityEngine.EventSystems.EventSystem#RaycastComparer","UnityEngine.EventSystems.EventSystem#sendNavigationEvents#get","UnityEngine.EventSystems.EventSystem#sendNavigationEvents#set","UnityEngine.EventSystems.EventSystem#pixelDragThreshold#get","UnityEngine.EventSystems.EventSystem#pixelDragThreshold#set","UnityEngine.EventSystems.EventSystem#currentInputModule#get","UnityEngine.EventSystems.EventSystem#firstSelectedGameObject#get","UnityEngine.EventSystems.EventSystem#firstSelectedGameObject#set","UnityEngine.EventSystems.EventSystem#currentSelectedGameObject#get","UnityEngine.EventSystems.EventSystem#lastSelectedGameObject#get","UnityEngine.EventSystems.EventSystem#isFocused#get","UnityEngine.EventSystems.EventSystem#alreadySelecting#get","UnityEngine.EventSystems.EventSystem#baseEventDataCache#get","UnityEngine.EventSystems.EventSystem#init","UnityEngine.EventSystems.EventSystem#ctor","UnityEngine.EventSystems.EventSystem#UpdateModules","UnityEngine.EventSystems.EventSystem#SetSelectedGameObject$1","UnityEngine.EventSystems.EventSystem#SetSelectedGameObject","UnityEngine.EventSystems.EventSystem#RaycastAll","UnityEngine.EventSystems.EventSystem#IsPointerOverGameObject","UnityEngine.EventSystems.EventSystem#IsPointerOverGameObject$1","UnityEngine.EventSystems.EventSystem#OnEnable","UnityEngine.EventSystems.EventSystem#OnDisable","UnityEngine.EventSystems.EventSystem#TickModules","UnityEngine.EventSystems.EventSystem#OnApplicationFocus","UnityEngine.EventSystems.EventSystem#Update","UnityEngine.EventSystems.EventSystem#ChangeEventModule","UnityEngine.EventSystems.EventSystem#toString","UnityEngine.UI.AspectRatioFitter#aspectMode#get","UnityEngine.UI.AspectRatioFitter#aspectMode#set","UnityEngine.UI.AspectRatioFitter#aspectRatio#get","UnityEngine.UI.AspectRatioFitter#aspectRatio#set","UnityEngine.UI.AspectRatioFitter#rectTransform#get","UnityEngine.UI.AspectRatioFitter#init","UnityEngine.UI.AspectRatioFitter#UpdateRect","UnityEngine.UI.AspectRatioFitter#GetSizeDeltaToProduceSize","UnityEngine.UI.AspectRatioFitter#GetParentSize","UnityEngine.UI.AspectRatioFitter#OnEnable","UnityEngine.UI.AspectRatioFitter#SetDirty","UnityEngine.UI.AspectRatioFitter#OnRectTransformDimensionsChange","UnityEngine.UI.BaseMeshEffect#graphic#get","UnityEngine.UI.BaseMeshEffect#OnEnable","UnityEngine.UI.BaseMeshEffect#OnDisable","UnityEngine.UI.BaseMeshEffect#OnDidApplyAnimationProperties","UnityEngine.UI.BaseMeshEffect#ModifyMesh","UnityEngine.UI.CanvasScaler#uiScaleMode#get","UnityEngine.UI.CanvasScaler#uiScaleMode#set","UnityEngine.UI.CanvasScaler#screenMatchMode#get","UnityEngine.UI.CanvasScaler#screenMatchMode#set","UnityEngine.UI.CanvasScaler#referenceResolution#get","UnityEngine.UI.CanvasScaler#referenceResolution#set","UnityEngine.UI.CanvasScaler#scaleFactor#get","UnityEngine.UI.CanvasScaler#scaleFactor#set","UnityEngine.UI.CanvasScaler#matchWidthOrHeight#get","UnityEngine.UI.CanvasScaler#matchWidthOrHeight#set","UnityEngine.UI.CanvasScaler#referencePixelsPerUnit#get","UnityEngine.UI.CanvasScaler#referencePixelsPerUnit#set","UnityEngine.UI.CanvasScaler#init","UnityEngine.UI.CanvasScaler#Awake","UnityEngine.UI.CanvasScaler#ConfigureForEntity","UnityEngine.UI.CanvasScaler#HandleScaleWithScreenSize","UnityEngine.UI.CanvasScaler#UpdateScreenMatchMode","UnityEngine.UI.CoroutineTween.ColorTween#getDefaultValue","UnityEngine.UI.CoroutineTween.ColorTween#startColor#get","UnityEngine.UI.CoroutineTween.ColorTween#startColor#set","UnityEngine.UI.CoroutineTween.ColorTween#targetColor#get","UnityEngine.UI.CoroutineTween.ColorTween#targetColor#set","UnityEngine.UI.CoroutineTween.ColorTween#tweenMode#get","UnityEngine.UI.CoroutineTween.ColorTween#tweenMode#set","UnityEngine.UI.CoroutineTween.ColorTween#duration#get","UnityEngine.UI.CoroutineTween.ColorTween#duration#set","UnityEngine.UI.CoroutineTween.ColorTween#ignoreTimeScale#get","UnityEngine.UI.CoroutineTween.ColorTween#ignoreTimeScale#set","UnityEngine.UI.CoroutineTween.ColorTween#init","UnityEngine.UI.CoroutineTween.ColorTween#ctor","UnityEngine.UI.CoroutineTween.ColorTween#TweenValue","UnityEngine.UI.CoroutineTween.ColorTween#AddOnChangedCallback","UnityEngine.UI.CoroutineTween.ColorTween#GetIgnoreTimescale","UnityEngine.UI.CoroutineTween.ColorTween#GetDuration","UnityEngine.UI.CoroutineTween.ColorTween#ValidTarget","UnityEngine.UI.CoroutineTween.ColorTween#getHashCode","UnityEngine.UI.CoroutineTween.ColorTween#equals","UnityEngine.UI.CoroutineTween.ColorTween#$clone","UnityEngine.UI.CoroutineTween.FloatTween#getDefaultValue","UnityEngine.UI.CoroutineTween.FloatTween#startValue#get","UnityEngine.UI.CoroutineTween.FloatTween#startValue#set","UnityEngine.UI.CoroutineTween.FloatTween#targetValue#get","UnityEngine.UI.CoroutineTween.FloatTween#targetValue#set","UnityEngine.UI.CoroutineTween.FloatTween#duration#get","UnityEngine.UI.CoroutineTween.FloatTween#duration#set","UnityEngine.UI.CoroutineTween.FloatTween#ignoreTimeScale#get","UnityEngine.UI.CoroutineTween.FloatTween#ignoreTimeScale#set","UnityEngine.UI.CoroutineTween.FloatTween#ctor","UnityEngine.UI.CoroutineTween.FloatTween#TweenValue","UnityEngine.UI.CoroutineTween.FloatTween#AddOnChangedCallback","UnityEngine.UI.CoroutineTween.FloatTween#GetIgnoreTimescale","UnityEngine.UI.CoroutineTween.FloatTween#GetDuration","UnityEngine.UI.CoroutineTween.FloatTween#ValidTarget","UnityEngine.UI.CoroutineTween.FloatTween#getHashCode","UnityEngine.UI.CoroutineTween.FloatTween#equals","UnityEngine.UI.CoroutineTween.FloatTween#$clone","UnityEngine.UI.CoroutineTween.TweenRunner$1#Start","UnityEngine.UI.CoroutineTween.TweenRunner$1#Init","UnityEngine.UI.CoroutineTween.TweenRunner$1#StartTween","UnityEngine.UI.CoroutineTween.TweenRunner$1#StopTween","UnityEngine.UI.Graphic#defaultGraphicMaterial#get","UnityEngine.UI.Graphic#init","UnityEngine.UI.Graphic#CreateColorFromAlpha","UnityEngine.UI.Graphic#canvas#get","UnityEngine.UI.Graphic#materialForRendering#get","UnityEngine.UI.Graphic#defaultMaterial#get","UnityEngine.UI.Graphic#canvasRenderer#get","UnityEngine.UI.Graphic#rectTransform#get","UnityEngine.UI.Graphic#rectTransform#set","UnityEngine.UI.Graphic#mainTexture#get","UnityEngine.UI.Graphic#depth#get","UnityEngine.UI.Graphic#material#get","UnityEngine.UI.Graphic#material#set","UnityEngine.UI.Graphic#raycastTarget#get","UnityEngine.UI.Graphic#raycastTarget#set","UnityEngine.UI.Graphic#color#get","UnityEngine.UI.Graphic#color#set","UnityEngine.UI.Graphic#init","UnityEngine.UI.Graphic#ctor","UnityEngine.UI.Graphic#$ctor1","UnityEngine.UI.Graphic#AssignDefaultFont","UnityEngine.UI.Graphic#Awake","UnityEngine.UI.Graphic#SetNativeSize","UnityEngine.UI.Graphic#OnPopulateMesh","UnityEngine.UI.Graphic#SetMaterialDirty","UnityEngine.UI.Graphic#SetAllDirty","UnityEngine.UI.Graphic#Rebuild","UnityEngine.UI.Graphic#GetPixelAdjustedRect","UnityEngine.UI.Graphic#OnSelect","UnityEngine.UI.Graphic#OnDeselect","UnityEngine.UI.Graphic#OnSubmit","UnityEngine.UI.Graphic#OnMove","UnityEngine.UI.Graphic#RegisterDirtyVerticesCallback","UnityEngine.UI.Graphic#UnregisterDirtyVerticesCallback","UnityEngine.UI.Graphic#RegisterDirtyMaterialCallback","UnityEngine.UI.Graphic#UnregisterDirtyMaterialCallback","UnityEngine.UI.Graphic#ConfigureForEntity","UnityEngine.UI.Graphic#CrossFadeAlpha","UnityEngine.UI.Graphic#CrossFadeColor","UnityEngine.UI.Graphic#CrossFadeColor$1","UnityEngine.UI.Graphic#SetLayoutDirty","UnityEngine.UI.Graphic#SetVerticesDirty","UnityEngine.UI.Graphic#UpdateGeometry","UnityEngine.UI.Graphic#UpdateMaterial","UnityEngine.UI.Graphic#OnCanvasGroupChanged","UnityEngine.UI.Graphic#Raycast","UnityEngine.UI.Graphic#LayoutComplete","UnityEngine.UI.Graphic#GraphicUpdateComplete","UnityEngine.UI.Graphic#OnRectTransformDimensionsChange","UnityEngine.UI.Graphic#OnDidApplyAnimationProperties","UnityEngine.UI.Graphic#OnTransformParentChanged","UnityEngine.UI.Graphic#OnEnable","UnityEngine.UI.Graphic#OnDisable","UnityEngine.UI.Graphic#OnCanvasChanged","UnityEngine.UI.Graphic#PixelAdjustPoint","UnityEngine.UI.LayoutElement#minWidth#get","UnityEngine.UI.LayoutElement#minWidth#set","UnityEngine.UI.LayoutElement#minHeight#get","UnityEngine.UI.LayoutElement#minHeight#set","UnityEngine.UI.LayoutElement#preferredWidth#get","UnityEngine.UI.LayoutElement#preferredWidth#set","UnityEngine.UI.LayoutElement#preferredHeight#get","UnityEngine.UI.LayoutElement#preferredHeight#set","UnityEngine.UI.LayoutElement#flexibleWidth#get","UnityEngine.UI.LayoutElement#flexibleWidth#set","UnityEngine.UI.LayoutElement#flexibleHeight#get","UnityEngine.UI.LayoutElement#flexibleHeight#set","UnityEngine.UI.LayoutElement#layoutPriority#get","UnityEngine.UI.LayoutElement#ignoreLayout#get","UnityEngine.UI.LayoutElement#ignoreLayout#set","UnityEngine.UI.LayoutElement#init","UnityEngine.UI.LayoutElement#OnEnable","UnityEngine.UI.LayoutElement#OnDisable","UnityEngine.UI.LayoutElement#OnDidApplyAnimationProperties","UnityEngine.UI.LayoutElement#OnTransformParentChanged","UnityEngine.UI.LayoutElement#CalculateLayoutInputHorizontal","UnityEngine.UI.LayoutElement#CalculateLayoutInputVertical","UnityEngine.UI.LayoutElement#SetDirty","UnityEngine.UI.LayoutRebuilder#init","UnityEngine.UI.LayoutRebuilder#MarkLayoutForRebuild","UnityEngine.UI.LayoutRebuilder#ForceRebuildLayoutImmediate","UnityEngine.UI.LayoutRebuilder#Allocate","UnityEngine.UI.LayoutRebuilder#MarkLayoutRootForRebuild","UnityEngine.UI.LayoutRebuilder#HasValidLayoutController","UnityEngine.UI.LayoutRebuilder#GetRectTransform","UnityEngine.UI.LayoutRebuilder#LayoutComplete","UnityEngine.UI.LayoutRebuilder#GraphicUpdateComplete","UnityEngine.UI.LayoutRebuilder#IsDestroyed","UnityEngine.UI.LayoutRebuilder#Rebuild","UnityEngine.UI.LayoutRebuilder#PerformCalculateLayoutInputHorizontal","UnityEngine.UI.LayoutRebuilder#PerformCalculateLayoutInputVertical","UnityEngine.UI.LayoutRebuilder#PerformSetLayoutHorizontal","UnityEngine.UI.LayoutRebuilder#PerformSetLayoutVertical","UnityEngine.UI.Mask#graphic#get","UnityEngine.UI.Mask#rectTransform#get","UnityEngine.UI.Mask#showMaskGraphic#get","UnityEngine.UI.Mask#showMaskGraphic#set","UnityEngine.UI.Mask#init","UnityEngine.UI.Mask#$ctor1","UnityEngine.UI.Mask#ctor","UnityEngine.UI.Mask#MaskEnabled","UnityEngine.UI.Mask#Awake","UnityEngine.UI.Mask#OnEnable","UnityEngine.UI.Mask#OnDisable","UnityEngine.UI.Mask#UpdateMaskGraphicSettings","UnityEngine.UI.Mask#GetModifiedMaterial","UnityEngine.UI.Mask#IsRaycastLocationValid","UnityEngine.UI.RectMask2D#Canvas#get","UnityEngine.UI.RectMask2D#canvasRect#get","UnityEngine.UI.RectMask2D#rectTransform#get","UnityEngine.UI.RectMask2D#rootCanvasRect#get","UnityEngine.UI.RectMask2D#init","UnityEngine.UI.RectMask2D#ctor","UnityEngine.UI.RectMask2D#OnEnable","UnityEngine.UI.RectMask2D#OnDisable","UnityEngine.UI.RectMask2D#IsRaycastLocationValid","UnityEngine.UI.RectMask2D#PerformClipping","UnityEngine.UI.RectMask2D#AddClippable","UnityEngine.UI.RectMask2D#RemoveClippable","UnityEngine.UI.RectMask2D#OnTransformParentChanged","UnityEngine.UI.RectMask2D#OnCanvasHierarchyChanged","UnityEngine.UI.ToggleGroup#allowSwitchOff#get","UnityEngine.UI.ToggleGroup#allowSwitchOff#set","UnityEngine.UI.ToggleGroup#init","UnityEngine.UI.ToggleGroup#ctor","UnityEngine.UI.ToggleGroup#ValidateToggleIsInGroup","UnityEngine.UI.ToggleGroup#NotifyToggleOn","UnityEngine.UI.ToggleGroup#UnregisterToggle","UnityEngine.UI.ToggleGroup#RegisterToggle","UnityEngine.UI.ToggleGroup#AnyTogglesOn","UnityEngine.UI.ToggleGroup#ActiveToggles","UnityEngine.UI.ToggleGroup#SetAllTogglesOff","UnityEngine.EventSystems.AxisEventData#init","UnityEngine.EventSystems.AxisEventData#ctor","UnityEngine.EventSystems.EventTrigger#triggers#get","UnityEngine.EventSystems.EventTrigger#triggers#set","UnityEngine.EventSystems.EventTrigger#init","UnityEngine.EventSystems.EventTrigger#OnPointerEnter","UnityEngine.EventSystems.EventTrigger#OnPointerExit","UnityEngine.EventSystems.EventTrigger#OnDrag","UnityEngine.EventSystems.EventTrigger#OnDrop","UnityEngine.EventSystems.EventTrigger#OnPointerDown","UnityEngine.EventSystems.EventTrigger#OnPointerUp","UnityEngine.EventSystems.EventTrigger#OnPointerClick","UnityEngine.EventSystems.EventTrigger#OnSelect","UnityEngine.EventSystems.EventTrigger#OnDeselect","UnityEngine.EventSystems.EventTrigger#OnScroll","UnityEngine.EventSystems.EventTrigger#OnMove","UnityEngine.EventSystems.EventTrigger#OnUpdateSelected","UnityEngine.EventSystems.EventTrigger#OnInitializePotentialDrag","UnityEngine.EventSystems.EventTrigger#OnBeginDrag","UnityEngine.EventSystems.EventTrigger#OnEndDrag","UnityEngine.EventSystems.EventTrigger#OnSubmit","UnityEngine.EventSystems.EventTrigger#OnCancel","UnityEngine.EventSystems.EventTrigger#Execute","UnityEngine.EventSystems.PhysicsRaycaster#init","UnityEngine.EventSystems.PhysicsRaycaster#eventCamera#get","UnityEngine.EventSystems.PhysicsRaycaster#depth#get","UnityEngine.EventSystems.PhysicsRaycaster#finalEventMask#get","UnityEngine.EventSystems.PhysicsRaycaster#eventMask#get","UnityEngine.EventSystems.PhysicsRaycaster#eventMask#set","UnityEngine.EventSystems.PhysicsRaycaster#maxRayIntersections#get","UnityEngine.EventSystems.PhysicsRaycaster#maxRayIntersections#set","UnityEngine.EventSystems.PhysicsRaycaster#init","UnityEngine.EventSystems.PhysicsRaycaster#ctor","UnityEngine.EventSystems.PhysicsRaycaster#ComputeRayAndDistance","UnityEngine.EventSystems.PhysicsRaycaster#Raycast","UnityEngine.EventSystems.PointerEventData#enterEventCamera#get","UnityEngine.EventSystems.PointerEventData#pressEventCamera#get","UnityEngine.EventSystems.PointerEventData#pointerPress#get","UnityEngine.EventSystems.PointerEventData#pointerPress#set","UnityEngine.EventSystems.PointerEventData#init","UnityEngine.EventSystems.PointerEventData#ctor","UnityEngine.EventSystems.PointerEventData#IsPointerMoving","UnityEngine.EventSystems.PointerEventData#IsScrolling","UnityEngine.EventSystems.PointerEventData#toString","UnityEngine.EventSystems.PointerInputModule#init","UnityEngine.EventSystems.PointerInputModule#ShouldStartDrag","UnityEngine.EventSystems.PointerInputModule#init","UnityEngine.EventSystems.PointerInputModule#GetPointerData","UnityEngine.EventSystems.PointerInputModule#RemovePointerData","UnityEngine.EventSystems.PointerInputModule#GetTouchPointerEventData","UnityEngine.EventSystems.PointerInputModule#CopyFromTo","UnityEngine.EventSystems.PointerInputModule#StateForMouseButton","UnityEngine.EventSystems.PointerInputModule#GetMousePointerEventData","UnityEngine.EventSystems.PointerInputModule#GetMousePointerEventData$1","UnityEngine.EventSystems.PointerInputModule#GetLastPointerEventData","UnityEngine.EventSystems.PointerInputModule#ProcessMove","UnityEngine.EventSystems.PointerInputModule#ProcessDrag","UnityEngine.EventSystems.PointerInputModule#IsPointerOverGameObject","UnityEngine.EventSystems.PointerInputModule#ClearSelection","UnityEngine.EventSystems.PointerInputModule#toString","UnityEngine.EventSystems.PointerInputModule#DeselectIfSelectionChanged","UnityEngine.UI.Selectable#allSelectablesArray#get","UnityEngine.UI.Selectable#allSelectableCount#get","UnityEngine.UI.Selectable#allSelectables#get","UnityEngine.UI.Selectable#init","UnityEngine.UI.Selectable#AllSelectablesNoAlloc","UnityEngine.UI.Selectable#RemoveInvalidSelectables","UnityEngine.UI.Selectable#GetPointOnRectEdge","UnityEngine.UI.Selectable#navigation#get","UnityEngine.UI.Selectable#navigation#set","UnityEngine.UI.Selectable#transition#get","UnityEngine.UI.Selectable#transition#set","UnityEngine.UI.Selectable#colors#get","UnityEngine.UI.Selectable#colors#set","UnityEngine.UI.Selectable#spriteState#get","UnityEngine.UI.Selectable#spriteState#set","UnityEngine.UI.Selectable#animationTriggers#get","UnityEngine.UI.Selectable#animationTriggers#set","UnityEngine.UI.Selectable#targetGraphic#get","UnityEngine.UI.Selectable#targetGraphic#set","UnityEngine.UI.Selectable#interactable#get","UnityEngine.UI.Selectable#interactable#set","UnityEngine.UI.Selectable#image#get","UnityEngine.UI.Selectable#image#set","UnityEngine.UI.Selectable#animator#get","UnityEngine.UI.Selectable#currentSelectionState#get","UnityEngine.UI.Selectable#init","UnityEngine.UI.Selectable#ctor","UnityEngine.UI.Selectable#$ctor1","UnityEngine.UI.Selectable#Awake","UnityEngine.UI.Selectable#OnCanvasGroupChanged","UnityEngine.UI.Selectable#IsInteractable","UnityEngine.UI.Selectable#OnDidApplyAnimationProperties","UnityEngine.UI.Selectable#OnEnable","UnityEngine.UI.Selectable#OnTransformParentChanged","UnityEngine.UI.Selectable#OnSetProperty","UnityEngine.UI.Selectable#OnDisable","UnityEngine.UI.Selectable#InstantClearState","UnityEngine.UI.Selectable#DoStateTransition","UnityEngine.UI.Selectable#FindSelectable","UnityEngine.UI.Selectable#Navigate","UnityEngine.UI.Selectable#FindSelectableOnLeft","UnityEngine.UI.Selectable#FindSelectableOnRight","UnityEngine.UI.Selectable#FindSelectableOnUp","UnityEngine.UI.Selectable#FindSelectableOnDown","UnityEngine.UI.Selectable#OnMove","UnityEngine.UI.Selectable#StartColorTween","UnityEngine.UI.Selectable#DoSpriteSwap","UnityEngine.UI.Selectable#TriggerAnimation","UnityEngine.UI.Selectable#IsHighlighted","UnityEngine.UI.Selectable#IsPressed","UnityEngine.UI.Selectable#EvaluateAndTransitionToSelectionState","UnityEngine.UI.Selectable#OnPointerDown","UnityEngine.UI.Selectable#OnPointerUp","UnityEngine.UI.Selectable#OnPointerEnter","UnityEngine.UI.Selectable#OnPointerExit","UnityEngine.UI.Selectable#OnSelect","UnityEngine.UI.Selectable#OnDeselect","UnityEngine.UI.Selectable#Select","UnityEngine.UI.ContentSizeFitter#horizontalFit#get","UnityEngine.UI.ContentSizeFitter#horizontalFit#set","UnityEngine.UI.ContentSizeFitter#verticalFit#get","UnityEngine.UI.ContentSizeFitter#verticalFit#set","UnityEngine.UI.ContentSizeFitter#rectTransform#get","UnityEngine.UI.ContentSizeFitter#init","UnityEngine.UI.ContentSizeFitter#ctor","UnityEngine.UI.ContentSizeFitter#OnEnable","UnityEngine.UI.ContentSizeFitter#OnDisable","UnityEngine.UI.ContentSizeFitter#OnRectTransformDimensionsChange","UnityEngine.UI.ContentSizeFitter#HandleSelfFittingAlongAxis","UnityEngine.UI.ContentSizeFitter#SetLayoutHorizontal","UnityEngine.UI.ContentSizeFitter#SetLayoutVertical","UnityEngine.UI.ContentSizeFitter#SetDirty","UnityEngine.UI.Dropdown.DropdownItem#text#get","UnityEngine.UI.Dropdown.DropdownItem#text#set","UnityEngine.UI.Dropdown.DropdownItem#image#get","UnityEngine.UI.Dropdown.DropdownItem#image#set","UnityEngine.UI.Dropdown.DropdownItem#rectTransform#get","UnityEngine.UI.Dropdown.DropdownItem#rectTransform#set","UnityEngine.UI.Dropdown.DropdownItem#toggle#get","UnityEngine.UI.Dropdown.DropdownItem#toggle#set","UnityEngine.UI.Dropdown.DropdownItem#OnPointerEnter","UnityEngine.UI.Dropdown.DropdownItem#OnCancel","UnityEngine.UI.GraphicRaycaster#init","UnityEngine.UI.GraphicRaycaster#Raycast","UnityEngine.UI.GraphicRaycaster#canvas#get","UnityEngine.UI.GraphicRaycaster#ignoreReversedGraphics#get","UnityEngine.UI.GraphicRaycaster#ignoreReversedGraphics#set","UnityEngine.UI.GraphicRaycaster#blockingObjects#get","UnityEngine.UI.GraphicRaycaster#blockingObjects#set","UnityEngine.UI.GraphicRaycaster#eventCamera#get","UnityEngine.UI.GraphicRaycaster#init","UnityEngine.UI.GraphicRaycaster#ctor","UnityEngine.UI.GraphicRaycaster#Raycast","UnityEngine.UI.GraphicRaycaster#GetMainCamera","UnityEngine.UI.LayoutGroup#childAlignment#get","UnityEngine.UI.LayoutGroup#childAlignment#set","UnityEngine.UI.LayoutGroup#padding#get","UnityEngine.UI.LayoutGroup#padding#set","UnityEngine.UI.LayoutGroup#minWidth#get","UnityEngine.UI.LayoutGroup#preferredWidth#get","UnityEngine.UI.LayoutGroup#flexibleWidth#get","UnityEngine.UI.LayoutGroup#minHeight#get","UnityEngine.UI.LayoutGroup#preferredHeight#get","UnityEngine.UI.LayoutGroup#flexibleHeight#get","UnityEngine.UI.LayoutGroup#layoutPriority#get","UnityEngine.UI.LayoutGroup#rectChildren#get","UnityEngine.UI.LayoutGroup#rectTransform#get","UnityEngine.UI.LayoutGroup#isRootLayoutGroup#get","UnityEngine.UI.LayoutGroup#init","UnityEngine.UI.LayoutGroup#OnEnable","UnityEngine.UI.LayoutGroup#OnDisable","UnityEngine.UI.LayoutGroup#CalculateLayoutInputHorizontal","UnityEngine.UI.LayoutGroup#SetChildAlongAxis","UnityEngine.UI.LayoutGroup#SetChildAlongAxis$1","UnityEngine.UI.LayoutGroup#SetLayoutInputForAxis","UnityEngine.UI.LayoutGroup#GetStartOffset","UnityEngine.UI.LayoutGroup#GetAlignmentOnAxis","UnityEngine.UI.LayoutGroup#GetTotalMinSize","UnityEngine.UI.LayoutGroup#GetTotalPreferredSize","UnityEngine.UI.LayoutGroup#GetTotalFlexibleSize","UnityEngine.UI.LayoutGroup#SetProperty","UnityEngine.UI.LayoutGroup#OnTransformChildrenChanged","UnityEngine.UI.LayoutGroup#OnRectTransformDimensionsChange","UnityEngine.UI.LayoutGroup#OnDidApplyAnimationProperties","UnityEngine.UI.LayoutGroup#SetDirty","UnityEngine.UI.LayoutGroup#DelayedSetDirty","UnityEngine.UI.MaskableGraphic#onCullStateChanged#get","UnityEngine.UI.MaskableGraphic#onCullStateChanged#set","UnityEngine.UI.MaskableGraphic#maskable#get","UnityEngine.UI.MaskableGraphic#maskable#set","UnityEngine.UI.MaskableGraphic#rootCanvasRect#get","UnityEngine.UI.MaskableGraphic#init","UnityEngine.UI.MaskableGraphic#$ctor1","UnityEngine.UI.MaskableGraphic#ctor","UnityEngine.UI.MaskableGraphic#GetModifiedMaterial","UnityEngine.UI.MaskableGraphic#Cull","UnityEngine.UI.MaskableGraphic#UpdateCull","UnityEngine.UI.MaskableGraphic#SetClipRect","UnityEngine.UI.MaskableGraphic#OnEnable","UnityEngine.UI.MaskableGraphic#OnDisable","UnityEngine.UI.MaskableGraphic#OnTransformParentChanged","UnityEngine.UI.MaskableGraphic#ParentMaskStateChanged","UnityEngine.UI.MaskableGraphic#OnCanvasHierarchyChanged","UnityEngine.UI.MaskableGraphic#UpdateClipParent","UnityEngine.UI.MaskableGraphic#RecalculateClipping","UnityEngine.UI.MaskableGraphic#RecalculateMasking","UnityEngine.UI.Shadow#init","UnityEngine.UI.Shadow#effectColor#get","UnityEngine.UI.Shadow#effectColor#set","UnityEngine.UI.Shadow#effectDistance#get","UnityEngine.UI.Shadow#effectDistance#set","UnityEngine.UI.Shadow#useGraphicAlpha#get","UnityEngine.UI.Shadow#useGraphicAlpha#set","UnityEngine.UI.Shadow#init","UnityEngine.UI.Shadow#ctor","UnityEngine.UI.Shadow#ApplyShadowZeroAlloc","UnityEngine.UI.Shadow#ApplyShadow","UnityEngine.UI.Shadow#ModifyMesh$1","UnityEngine.UI.ScrollRect#RubberDelta","UnityEngine.UI.ScrollRect#UpdateOneScrollbarVisibility","UnityEngine.UI.ScrollRect#AdjustBounds","UnityEngine.UI.ScrollRect#InternalGetBounds","UnityEngine.UI.ScrollRect#InternalCalculateOffset","UnityEngine.UI.ScrollRect#content#get","UnityEngine.UI.ScrollRect#content#set","UnityEngine.UI.ScrollRect#horizontal#get","UnityEngine.UI.ScrollRect#horizontal#set","UnityEngine.UI.ScrollRect#vertical#get","UnityEngine.UI.ScrollRect#vertical#set","UnityEngine.UI.ScrollRect#movementType#get","UnityEngine.UI.ScrollRect#movementType#set","UnityEngine.UI.ScrollRect#elasticity#get","UnityEngine.UI.ScrollRect#elasticity#set","UnityEngine.UI.ScrollRect#inertia#get","UnityEngine.UI.ScrollRect#inertia#set","UnityEngine.UI.ScrollRect#decelerationRate#get","UnityEngine.UI.ScrollRect#decelerationRate#set","UnityEngine.UI.ScrollRect#scrollSensitivity#get","UnityEngine.UI.ScrollRect#scrollSensitivity#set","UnityEngine.UI.ScrollRect#viewport#get","UnityEngine.UI.ScrollRect#viewport#set","UnityEngine.UI.ScrollRect#horizontalScrollbar#get","UnityEngine.UI.ScrollRect#horizontalScrollbar#set","UnityEngine.UI.ScrollRect#verticalScrollbar#get","UnityEngine.UI.ScrollRect#verticalScrollbar#set","UnityEngine.UI.ScrollRect#horizontalScrollbarVisibility#get","UnityEngine.UI.ScrollRect#horizontalScrollbarVisibility#set","UnityEngine.UI.ScrollRect#verticalScrollbarVisibility#get","UnityEngine.UI.ScrollRect#verticalScrollbarVisibility#set","UnityEngine.UI.ScrollRect#horizontalScrollbarSpacing#get","UnityEngine.UI.ScrollRect#horizontalScrollbarSpacing#set","UnityEngine.UI.ScrollRect#verticalScrollbarSpacing#get","UnityEngine.UI.ScrollRect#verticalScrollbarSpacing#set","UnityEngine.UI.ScrollRect#onValueChanged#get","UnityEngine.UI.ScrollRect#onValueChanged#set","UnityEngine.UI.ScrollRect#viewRect#get","UnityEngine.UI.ScrollRect#velocity#get","UnityEngine.UI.ScrollRect#velocity#set","UnityEngine.UI.ScrollRect#rectTransform#get","UnityEngine.UI.ScrollRect#normalizedPosition#get","UnityEngine.UI.ScrollRect#normalizedPosition#set","UnityEngine.UI.ScrollRect#horizontalNormalizedPosition#get","UnityEngine.UI.ScrollRect#horizontalNormalizedPosition#set","UnityEngine.UI.ScrollRect#verticalNormalizedPosition#get","UnityEngine.UI.ScrollRect#verticalNormalizedPosition#set","UnityEngine.UI.ScrollRect#hScrollingNeeded#get","UnityEngine.UI.ScrollRect#vScrollingNeeded#get","UnityEngine.UI.ScrollRect#minWidth#get","UnityEngine.UI.ScrollRect#preferredWidth#get","UnityEngine.UI.ScrollRect#flexibleWidth#get","UnityEngine.UI.ScrollRect#minHeight#get","UnityEngine.UI.ScrollRect#preferredHeight#get","UnityEngine.UI.ScrollRect#flexibleHeight#get","UnityEngine.UI.ScrollRect#layoutPriority#get","UnityEngine.UI.ScrollRect#init","UnityEngine.UI.ScrollRect#ctor","UnityEngine.UI.ScrollRect#Rebuild","UnityEngine.UI.ScrollRect#LayoutComplete","UnityEngine.UI.ScrollRect#GraphicUpdateComplete","UnityEngine.UI.ScrollRect#UpdateCachedData","UnityEngine.UI.ScrollRect#OnEnable","UnityEngine.UI.ScrollRect#OnDisable","UnityEngine.UI.ScrollRect#IsActive","UnityEngine.UI.ScrollRect#EnsureLayoutHasRebuilt","UnityEngine.UI.ScrollRect#StopMovement","UnityEngine.UI.ScrollRect#OnScroll","UnityEngine.UI.ScrollRect#OnInitializePotentialDrag","UnityEngine.UI.ScrollRect#OnBeginDrag","UnityEngine.UI.ScrollRect#OnEndDrag","UnityEngine.UI.ScrollRect#OnDrag","UnityEngine.UI.ScrollRect#SetContentAnchoredPosition","UnityEngine.UI.ScrollRect#LateUpdate","UnityEngine.UI.ScrollRect#UpdatePrevData","UnityEngine.UI.ScrollRect#UpdateScrollbars","UnityEngine.UI.ScrollRect#SetHorizontalNormalizedPosition","UnityEngine.UI.ScrollRect#SetVerticalNormalizedPosition","UnityEngine.UI.ScrollRect#SetNormalizedPosition","UnityEngine.UI.ScrollRect#OnRectTransformDimensionsChange","UnityEngine.UI.ScrollRect#CalculateLayoutInputHorizontal","UnityEngine.UI.ScrollRect#CalculateLayoutInputVertical","UnityEngine.UI.ScrollRect#SetLayoutHorizontal","UnityEngine.UI.ScrollRect#SetLayoutVertical","UnityEngine.UI.ScrollRect#UpdateScrollbarVisibility","UnityEngine.UI.ScrollRect#UpdateScrollbarLayout","UnityEngine.UI.ScrollRect#UpdateBounds","UnityEngine.UI.ScrollRect#GetBounds","UnityEngine.UI.ScrollRect#CalculateOffset","UnityEngine.UI.ScrollRect#SetDirty","UnityEngine.UI.ScrollRect#SetDirtyCaching","UnityEngine.EventSystems.Physics2DRaycaster#ctor","UnityEngine.EventSystems.Physics2DRaycaster#Raycast","UnityEngine.EventSystems.StandaloneInputModule#inputMode#get","UnityEngine.EventSystems.StandaloneInputModule#allowActivationOnMobileDevice#get","UnityEngine.EventSystems.StandaloneInputModule#allowActivationOnMobileDevice#set","UnityEngine.EventSystems.StandaloneInputModule#forceModuleActive#get","UnityEngine.EventSystems.StandaloneInputModule#forceModuleActive#set","UnityEngine.EventSystems.StandaloneInputModule#inputActionsPerSecond#get","UnityEngine.EventSystems.StandaloneInputModule#inputActionsPerSecond#set","UnityEngine.EventSystems.StandaloneInputModule#repeatDelay#get","UnityEngine.EventSystems.StandaloneInputModule#repeatDelay#set","UnityEngine.EventSystems.StandaloneInputModule#horizontalAxis#get","UnityEngine.EventSystems.StandaloneInputModule#horizontalAxis#set","UnityEngine.EventSystems.StandaloneInputModule#verticalAxis#get","UnityEngine.EventSystems.StandaloneInputModule#verticalAxis#set","UnityEngine.EventSystems.StandaloneInputModule#submitButton#get","UnityEngine.EventSystems.StandaloneInputModule#submitButton#set","UnityEngine.EventSystems.StandaloneInputModule#cancelButton#get","UnityEngine.EventSystems.StandaloneInputModule#cancelButton#set","UnityEngine.EventSystems.StandaloneInputModule#init","UnityEngine.EventSystems.StandaloneInputModule#ctor","UnityEngine.EventSystems.StandaloneInputModule#ShouldIgnoreEventsOnNoFocus","UnityEngine.EventSystems.StandaloneInputModule#UpdateModule","UnityEngine.EventSystems.StandaloneInputModule#ReleaseMouse","UnityEngine.EventSystems.StandaloneInputModule#IsModuleSupported","UnityEngine.EventSystems.StandaloneInputModule#ShouldActivateModule","UnityEngine.EventSystems.StandaloneInputModule#ActivateModule","UnityEngine.EventSystems.StandaloneInputModule#DeactivateModule","UnityEngine.EventSystems.StandaloneInputModule#Process","UnityEngine.EventSystems.StandaloneInputModule#ProcessTouchEvents","UnityEngine.EventSystems.StandaloneInputModule#ProcessTouchPress","UnityEngine.EventSystems.StandaloneInputModule#SendSubmitEventToSelectedObject","UnityEngine.EventSystems.StandaloneInputModule#GetRawMoveVector","UnityEngine.EventSystems.StandaloneInputModule#SendMoveEventToSelectedObject","UnityEngine.EventSystems.StandaloneInputModule#ProcessMouseEvent","UnityEngine.EventSystems.StandaloneInputModule#ProcessMouseEvent$1","UnityEngine.EventSystems.StandaloneInputModule#ForceAutoSelect","UnityEngine.EventSystems.StandaloneInputModule#SendUpdateEventToSelectedObject","UnityEngine.EventSystems.StandaloneInputModule#ProcessMousePress","UnityEngine.EventSystems.StandaloneInputModule#GetCurrentFocusedGameObject","UnityEngine.UI.Button#onClick#get","UnityEngine.UI.Button#onClick#set","UnityEngine.UI.Button#init","UnityEngine.UI.Button#$ctor1","UnityEngine.UI.Button#ctor","UnityEngine.UI.Button#OnPointerClick","UnityEngine.UI.Button#OnSubmit","UnityEngine.UI.Button#Press","UnityEngine.UI.Button#OnFinishSubmit","UnityEngine.UI.Button#ConfigureForEntity","UnityEngine.UI.Dropdown#init","UnityEngine.UI.Dropdown#GetOrAddComponent","UnityEngine.UI.Dropdown#template#get","UnityEngine.UI.Dropdown#template#set","UnityEngine.UI.Dropdown#captionText#get","UnityEngine.UI.Dropdown#captionText#set","UnityEngine.UI.Dropdown#captionImage#get","UnityEngine.UI.Dropdown#captionImage#set","UnityEngine.UI.Dropdown#itemText#get","UnityEngine.UI.Dropdown#itemText#set","UnityEngine.UI.Dropdown#itemImage#get","UnityEngine.UI.Dropdown#itemImage#set","UnityEngine.UI.Dropdown#options#get","UnityEngine.UI.Dropdown#options#set","UnityEngine.UI.Dropdown#onValueChanged#get","UnityEngine.UI.Dropdown#onValueChanged#set","UnityEngine.UI.Dropdown#alphaFadeSpeed#get","UnityEngine.UI.Dropdown#alphaFadeSpeed#set","UnityEngine.UI.Dropdown#value#get","UnityEngine.UI.Dropdown#value#set","UnityEngine.UI.Dropdown#init","UnityEngine.UI.Dropdown#$ctor1","UnityEngine.UI.Dropdown#ctor","UnityEngine.UI.Dropdown#SetValueWithoutNotify","UnityEngine.UI.Dropdown#Set","UnityEngine.UI.Dropdown#Awake","UnityEngine.UI.Dropdown#Start","UnityEngine.UI.Dropdown#OnDisable","UnityEngine.UI.Dropdown#RefreshShownValue","UnityEngine.UI.Dropdown#AddOptions$2","UnityEngine.UI.Dropdown#AddOptions","UnityEngine.UI.Dropdown#AddOptions$1","UnityEngine.UI.Dropdown#ClearOptions","UnityEngine.UI.Dropdown#SetupTemplate","UnityEngine.UI.Dropdown#OnPointerClick","UnityEngine.UI.Dropdown#OnSubmit","UnityEngine.UI.Dropdown#OnCancel","UnityEngine.UI.Dropdown#Show","UnityEngine.UI.Dropdown#CreateBlocker","UnityEngine.UI.Dropdown#DestroyBlocker","UnityEngine.UI.Dropdown#CreateDropdownList","UnityEngine.UI.Dropdown#DestroyDropdownList","UnityEngine.UI.Dropdown#CreateItem","UnityEngine.UI.Dropdown#DestroyItem","UnityEngine.UI.Dropdown#AddItem","UnityEngine.UI.Dropdown#AlphaFadeList","UnityEngine.UI.Dropdown#AlphaFadeList$1","UnityEngine.UI.Dropdown#SetAlpha","UnityEngine.UI.Dropdown#Hide","UnityEngine.UI.Dropdown#DelayedDestroyDropdownList","UnityEngine.UI.Dropdown#ImmediateDestroyDropdownList","UnityEngine.UI.Dropdown#OnSelectItem","UnityEngine.UI.GridLayoutGroup#startCorner#get","UnityEngine.UI.GridLayoutGroup#startCorner#set","UnityEngine.UI.GridLayoutGroup#startAxis#get","UnityEngine.UI.GridLayoutGroup#startAxis#set","UnityEngine.UI.GridLayoutGroup#cellSize#get","UnityEngine.UI.GridLayoutGroup#cellSize#set","UnityEngine.UI.GridLayoutGroup#spacing#get","UnityEngine.UI.GridLayoutGroup#spacing#set","UnityEngine.UI.GridLayoutGroup#constraint#get","UnityEngine.UI.GridLayoutGroup#constraint#set","UnityEngine.UI.GridLayoutGroup#constraintCount#get","UnityEngine.UI.GridLayoutGroup#constraintCount#set","UnityEngine.UI.GridLayoutGroup#init","UnityEngine.UI.GridLayoutGroup#CalculateLayoutInputHorizontal","UnityEngine.UI.GridLayoutGroup#CalculateLayoutInputVertical","UnityEngine.UI.GridLayoutGroup#SetLayoutHorizontal","UnityEngine.UI.GridLayoutGroup#SetLayoutVertical","UnityEngine.UI.GridLayoutGroup#SetCellsAlongAxis","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#spacing#get","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#spacing#set","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandWidth#get","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandWidth#set","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandHeight#get","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandHeight#set","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlWidth#get","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlWidth#set","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlHeight#get","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlHeight#set","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#init","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#CalcAlongAxis","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#SetChildrenAlongAxis","UnityEngine.UI.HorizontalOrVerticalLayoutGroup#GetChildSizes","UnityEngine.UI.Image#sprite#get","UnityEngine.UI.Image#sprite#set","UnityEngine.UI.Image#overrideSprite#get","UnityEngine.UI.Image#overrideSprite#set","UnityEngine.UI.Image#activeSprite#get","UnityEngine.UI.Image#type#get","UnityEngine.UI.Image#type#set","UnityEngine.UI.Image#fillMethod#get","UnityEngine.UI.Image#fillMethod#set","UnityEngine.UI.Image#fillCenter#get","UnityEngine.UI.Image#fillCenter#set","UnityEngine.UI.Image#fillOrigin#get","UnityEngine.UI.Image#fillOrigin#set","UnityEngine.UI.Image#fillClockwise#get","UnityEngine.UI.Image#fillClockwise#set","UnityEngine.UI.Image#fillAmount#get","UnityEngine.UI.Image#fillAmount#set","UnityEngine.UI.Image#preserveAspect#get","UnityEngine.UI.Image#preserveAspect#set","UnityEngine.UI.Image#material#get","UnityEngine.UI.Image#material#set","UnityEngine.UI.Image#enabled#get","UnityEngine.UI.Image#enabled#set","UnityEngine.UI.Image#pixelsPerUnitMultiplier#get","UnityEngine.UI.Image#pixelsPerUnitMultiplier#set","UnityEngine.UI.Image#pixelsPerUnit#get","UnityEngine.UI.Image#multipliedPixelsPerUnit#get","UnityEngine.UI.Image#mainTexture#get","UnityEngine.UI.Image#hasBorder#get","UnityEngine.UI.Image#minWidth#get","UnityEngine.UI.Image#preferredWidth#get","UnityEngine.UI.Image#flexibleWidth#get","UnityEngine.UI.Image#minHeight#get","UnityEngine.UI.Image#preferredHeight#get","UnityEngine.UI.Image#flexibleHeight#get","UnityEngine.UI.Image#layoutPriority#get","UnityEngine.UI.Image#alphaHitTestMinimumThreshold#get","UnityEngine.UI.Image#alphaHitTestMinimumThreshold#set","UnityEngine.UI.Image#init","UnityEngine.UI.Image#$ctor1","UnityEngine.UI.Image#ctor","UnityEngine.UI.Image#DisableSpriteOptimizations","UnityEngine.UI.Image#Awake","UnityEngine.UI.Image#OnEnable","UnityEngine.UI.Image#OnDisable","UnityEngine.UI.Image#ConfigureForEntity","UnityEngine.UI.Image#OnDidApplyAnimationProperties","UnityEngine.UI.Image#CalculateLayoutInputHorizontal","UnityEngine.UI.Image#CalculateLayoutInputVertical","UnityEngine.UI.Image#SetNativeSize","UnityEngine.UI.Image#IsRaycastLocationValid","UnityEngine.UI.Image#MapCoordinate","UnityEngine.UI.Image#GetAdjustedBorders","UnityEngine.UI.InputField#clipboard#get","UnityEngine.UI.InputField#clipboard#set","UnityEngine.UI.InputField#init","UnityEngine.UI.InputField#GetLineStartPosition","UnityEngine.UI.InputField#GetLineEndPosition","UnityEngine.UI.InputField#input#get","UnityEngine.UI.InputField#compositionString#get","UnityEngine.UI.InputField#mesh#get","UnityEngine.UI.InputField#cachedInputTextGenerator#get","UnityEngine.UI.InputField#shouldHideMobileInput#get","UnityEngine.UI.InputField#shouldHideMobileInput#set","UnityEngine.UI.InputField#shouldActivateOnSelect#get","UnityEngine.UI.InputField#text#get","UnityEngine.UI.InputField#text#set","UnityEngine.UI.InputField#isFocused#get","UnityEngine.UI.InputField#caretBlinkRate#get","UnityEngine.UI.InputField#caretBlinkRate#set","UnityEngine.UI.InputField#caretWidth#get","UnityEngine.UI.InputField#caretWidth#set","UnityEngine.UI.InputField#textComponent#get","UnityEngine.UI.InputField#textComponent#set","UnityEngine.UI.InputField#placeholder#get","UnityEngine.UI.InputField#placeholder#set","UnityEngine.UI.InputField#caretColor#get","UnityEngine.UI.InputField#caretColor#set","UnityEngine.UI.InputField#customCaretColor#get","UnityEngine.UI.InputField#customCaretColor#set","UnityEngine.UI.InputField#selectionColor#get","UnityEngine.UI.InputField#selectionColor#set","UnityEngine.UI.InputField#onEndEdit#get","UnityEngine.UI.InputField#onEndEdit#set","UnityEngine.UI.InputField#onValueChange#get","UnityEngine.UI.InputField#onValueChange#set","UnityEngine.UI.InputField#onValueChanged#get","UnityEngine.UI.InputField#onValueChanged#set","UnityEngine.UI.InputField#onValidateInput#get","UnityEngine.UI.InputField#onValidateInput#set","UnityEngine.UI.InputField#characterLimit#get","UnityEngine.UI.InputField#characterLimit#set","UnityEngine.UI.InputField#contentType#get","UnityEngine.UI.InputField#contentType#set","UnityEngine.UI.InputField#lineType#get","UnityEngine.UI.InputField#lineType#set","UnityEngine.UI.InputField#inputType#get","UnityEngine.UI.InputField#inputType#set","UnityEngine.UI.InputField#touchScreenKeyboard#get","UnityEngine.UI.InputField#keyboardType#get","UnityEngine.UI.InputField#keyboardType#set","UnityEngine.UI.InputField#characterValidation#get","UnityEngine.UI.InputField#characterValidation#set","UnityEngine.UI.InputField#readOnly#get","UnityEngine.UI.InputField#readOnly#set","UnityEngine.UI.InputField#multiLine#get","UnityEngine.UI.InputField#asteriskChar#get","UnityEngine.UI.InputField#asteriskChar#set","UnityEngine.UI.InputField#wasCanceled#get","UnityEngine.UI.InputField#caretPositionInternal#get","UnityEngine.UI.InputField#caretPositionInternal#set","UnityEngine.UI.InputField#caretSelectPositionInternal#get","UnityEngine.UI.InputField#caretSelectPositionInternal#set","UnityEngine.UI.InputField#hasSelection$1#get","UnityEngine.UI.InputField#caretPosition#get","UnityEngine.UI.InputField#caretPosition#set","UnityEngine.UI.InputField#selectionAnchorPosition#get","UnityEngine.UI.InputField#selectionAnchorPosition#set","UnityEngine.UI.InputField#selectionFocusPosition#get","UnityEngine.UI.InputField#selectionFocusPosition#set","UnityEngine.UI.InputField#minWidth#get","UnityEngine.UI.InputField#preferredWidth#get","UnityEngine.UI.InputField#flexibleWidth#get","UnityEngine.UI.InputField#minHeight#get","UnityEngine.UI.InputField#preferredHeight#get","UnityEngine.UI.InputField#flexibleHeight#get","UnityEngine.UI.InputField#layoutPriority#get","UnityEngine.UI.InputField#init","UnityEngine.UI.InputField#ctor","UnityEngine.UI.InputField#ClampPos","UnityEngine.UI.InputField#OnEnable","UnityEngine.UI.InputField#OnDisable","UnityEngine.UI.InputField#CaretBlink","UnityEngine.UI.InputField#SetCaretVisible","UnityEngine.UI.InputField#SetCaretActive","UnityEngine.UI.InputField#UpdateCaretMaterial","UnityEngine.UI.InputField#OnFocus","UnityEngine.UI.InputField#SelectAll","UnityEngine.UI.InputField#MoveTextEnd","UnityEngine.UI.InputField#MoveTextStart","UnityEngine.UI.InputField#InPlaceEditing","UnityEngine.UI.InputField#UpdateCaretFromKeyboard","UnityEngine.UI.InputField#LateUpdate","UnityEngine.UI.InputField#GetUnclampedCharacterLineFromPosition","UnityEngine.UI.InputField#GetCharacterIndexFromPosition","UnityEngine.UI.InputField#MayDrag","UnityEngine.UI.InputField#OnBeginDrag","UnityEngine.UI.InputField#OnDrag","UnityEngine.UI.InputField#MouseDragOutsideRect","UnityEngine.UI.InputField#OnEndDrag","UnityEngine.UI.InputField#OnPointerDown","UnityEngine.UI.InputField#KeyPressed","UnityEngine.UI.InputField#IsValidChar","UnityEngine.UI.InputField#ProcessEvent","UnityEngine.UI.InputField#OnUpdateSelected","UnityEngine.UI.InputField#GetSelectedString","UnityEngine.UI.InputField#FindtNextWordBegin","UnityEngine.UI.InputField#MoveRight","UnityEngine.UI.InputField#FindtPrevWordBegin","UnityEngine.UI.InputField#MoveLeft","UnityEngine.UI.InputField#DetermineCharacterLine","UnityEngine.UI.InputField#LineUpCharacterPosition","UnityEngine.UI.InputField#LineDownCharacterPosition","UnityEngine.UI.InputField#MoveDown","UnityEngine.UI.InputField#MoveDown$1","UnityEngine.UI.InputField#MoveUp","UnityEngine.UI.InputField#MoveUp$1","UnityEngine.UI.InputField#Delete","UnityEngine.UI.InputField#ForwardSpace","UnityEngine.UI.InputField#Backspace","UnityEngine.UI.InputField#Insert","UnityEngine.UI.InputField#SendOnValueChangedAndUpdateLabel","UnityEngine.UI.InputField#SendOnValueChanged","UnityEngine.UI.InputField#SendOnSubmit","UnityEngine.UI.InputField#Append$1","UnityEngine.UI.InputField#Append","UnityEngine.UI.InputField#UpdateLabel","UnityEngine.UI.InputField#IsSelectionVisible","UnityEngine.UI.InputField#SetDrawRangeToContainCaretPosition","UnityEngine.UI.InputField#ForceLabelUpdate","UnityEngine.UI.InputField#MarkGeometryAsDirty","UnityEngine.UI.InputField#Rebuild","UnityEngine.UI.InputField#LayoutComplete","UnityEngine.UI.InputField#GraphicUpdateComplete","UnityEngine.UI.InputField#UpdateGeometry","UnityEngine.UI.InputField#AssignPositioningIfNeeded","UnityEngine.UI.InputField#OnFillVBO","UnityEngine.UI.InputField#GenerateCaret","UnityEngine.UI.InputField#CreateCursorVerts","UnityEngine.UI.InputField#GenerateHightlight","UnityEngine.UI.InputField#Validate","UnityEngine.UI.InputField#ActivateInputField","UnityEngine.UI.InputField#ActivateInputFieldInternal","UnityEngine.UI.InputField#OnSelect","UnityEngine.UI.InputField#OnPointerClick","UnityEngine.UI.InputField#DeactivateInputField","UnityEngine.UI.InputField#OnDeselect","UnityEngine.UI.InputField#OnSubmit","UnityEngine.UI.InputField#EnforceContentType","UnityEngine.UI.InputField#EnforceTextHOverflow","UnityEngine.UI.InputField#SetToCustomIfContentTypeIsNot","UnityEngine.UI.InputField#SetToCustom","UnityEngine.UI.InputField#DoStateTransition","UnityEngine.UI.InputField#CalculateLayoutInputHorizontal","UnityEngine.UI.InputField#CalculateLayoutInputVertical","UnityEngine.UI.InputField#Awake","UnityEngine.UI.InputField#OnCanvasHierarchyChanged","UnityEngine.UI.InputField#OnEnableWebInput","UnityEngine.UI.InputField#OnRectTransformDimensionsChange","UnityEngine.UI.InputField#AllCanvasedEnabled","UnityEngine.UI.InputField#Update","UnityEngine.UI.InputField#OnDisableWebInput","UnityEngine.UI.InputField#ResizeWebInput","UnityEngine.UI.Outline#ctor","UnityEngine.UI.Outline#ModifyMesh$1","UnityEngine.UI.RawImage#texture#get","UnityEngine.UI.RawImage#texture#set","UnityEngine.UI.RawImage#mainTexture#get","UnityEngine.UI.RawImage#uvRect#get","UnityEngine.UI.RawImage#uvRect#set","UnityEngine.UI.RawImage#enabled#get","UnityEngine.UI.RawImage#enabled#set","UnityEngine.UI.RawImage#init","UnityEngine.UI.RawImage#ctor","UnityEngine.UI.RawImage#Awake","UnityEngine.UI.RawImage#OnDidApplyAnimationProperties","UnityEngine.UI.RawImage#ConfigureForEntity","UnityEngine.UI.Scrollbar#handleRect#get","UnityEngine.UI.Scrollbar#handleRect#set","UnityEngine.UI.Scrollbar#direction#get","UnityEngine.UI.Scrollbar#direction#set","UnityEngine.UI.Scrollbar#value#get","UnityEngine.UI.Scrollbar#value#set","UnityEngine.UI.Scrollbar#size#get","UnityEngine.UI.Scrollbar#size#set","UnityEngine.UI.Scrollbar#numberOfSteps#get","UnityEngine.UI.Scrollbar#numberOfSteps#set","UnityEngine.UI.Scrollbar#stepSize#get","UnityEngine.UI.Scrollbar#axis#get","UnityEngine.UI.Scrollbar#reverseValue#get","UnityEngine.UI.Scrollbar#init","UnityEngine.UI.Scrollbar#ctor","UnityEngine.UI.Scrollbar#Update","UnityEngine.UI.Scrollbar#OnEnable","UnityEngine.UI.Scrollbar#OnDisable","UnityEngine.UI.Scrollbar#OnRectTransformDimensionsChange","UnityEngine.UI.Scrollbar#OnBeginDrag","UnityEngine.UI.Scrollbar#Rebuild","UnityEngine.UI.Scrollbar#LayoutComplete","UnityEngine.UI.Scrollbar#GraphicUpdateComplete","UnityEngine.UI.Scrollbar#OnDrag","UnityEngine.UI.Scrollbar#OnInitializePotentialDrag","UnityEngine.UI.Scrollbar#SetValueWithoutNotify","UnityEngine.UI.Scrollbar#UpdateCachedReferences","UnityEngine.UI.Scrollbar#Set","UnityEngine.UI.Scrollbar#UpdateVisuals","UnityEngine.UI.Scrollbar#UpdateDrag","UnityEngine.UI.Scrollbar#DoUpdateDrag","UnityEngine.UI.Scrollbar#MayDrag","UnityEngine.UI.Scrollbar#OnPointerDown","UnityEngine.UI.Scrollbar#ClickRepeat","UnityEngine.UI.Scrollbar#OnPointerUp","UnityEngine.UI.Scrollbar#OnMove","UnityEngine.UI.Scrollbar#FindSelectableOnLeft","UnityEngine.UI.Scrollbar#FindSelectableOnRight","UnityEngine.UI.Scrollbar#FindSelectableOnUp","UnityEngine.UI.Scrollbar#FindSelectableOnDown","UnityEngine.UI.Scrollbar#SetDirection","UnityEngine.UI.Slider#fillRect#get","UnityEngine.UI.Slider#fillRect#set","UnityEngine.UI.Slider#handleRect#get","UnityEngine.UI.Slider#handleRect#set","UnityEngine.UI.Slider#direction#get","UnityEngine.UI.Slider#direction#set","UnityEngine.UI.Slider#minValue#get","UnityEngine.UI.Slider#minValue#set","UnityEngine.UI.Slider#maxValue#get","UnityEngine.UI.Slider#maxValue#set","UnityEngine.UI.Slider#wholeNumbers#get","UnityEngine.UI.Slider#wholeNumbers#set","UnityEngine.UI.Slider#value#get","UnityEngine.UI.Slider#value#set","UnityEngine.UI.Slider#normalizedValue#get","UnityEngine.UI.Slider#normalizedValue#set","UnityEngine.UI.Slider#onValueChanged#get","UnityEngine.UI.Slider#onValueChanged#set","UnityEngine.UI.Slider#stepSize#get","UnityEngine.UI.Slider#axis#get","UnityEngine.UI.Slider#reverseValue#get","UnityEngine.UI.Slider#init","UnityEngine.UI.Slider#ctor","UnityEngine.UI.Slider#$ctor1","UnityEngine.UI.Slider#SetValueWithoutNotify","UnityEngine.UI.Slider#Rebuild","UnityEngine.UI.Slider#LayoutComplete","UnityEngine.UI.Slider#GraphicUpdateComplete","UnityEngine.UI.Slider#OnEnable","UnityEngine.UI.Slider#OnDisable","UnityEngine.UI.Slider#Update","UnityEngine.UI.Slider#OnDidApplyAnimationProperties","UnityEngine.UI.Slider#UpdateCachedReferences","UnityEngine.UI.Slider#ClampValue","UnityEngine.UI.Slider#Set","UnityEngine.UI.Slider#OnRectTransformDimensionsChange","UnityEngine.UI.Slider#UpdateVisuals","UnityEngine.UI.Slider#UpdateDrag","UnityEngine.UI.Slider#MayDrag","UnityEngine.UI.Slider#OnPointerDown","UnityEngine.UI.Slider#OnDrag","UnityEngine.UI.Slider#OnMove","UnityEngine.UI.Slider#FindSelectableOnLeft","UnityEngine.UI.Slider#FindSelectableOnRight","UnityEngine.UI.Slider#FindSelectableOnUp","UnityEngine.UI.Slider#FindSelectableOnDown","UnityEngine.UI.Slider#OnInitializePotentialDrag","UnityEngine.UI.Slider#SetDirection","UnityEngine.UI.Slider#ConfigureForEntity","UnityEngine.UI.Text#material#get","UnityEngine.UI.Text#material#set","UnityEngine.UI.Text#fontData#get","UnityEngine.UI.Text#fontData#set","UnityEngine.UI.Text#mainTexture#get","UnityEngine.UI.Text#alignment#get","UnityEngine.UI.Text#alignment#set","UnityEngine.UI.Text#text#get","UnityEngine.UI.Text#text#set","UnityEngine.UI.Text#font#get","UnityEngine.UI.Text#font#set","UnityEngine.UI.Text#fontSize#get","UnityEngine.UI.Text#fontSize#set","UnityEngine.UI.Text#fontStyle#get","UnityEngine.UI.Text#fontStyle#set","UnityEngine.UI.Text#resizeTextMaxSize#get","UnityEngine.UI.Text#resizeTextMaxSize#set","UnityEngine.UI.Text#resizeTextMinSize#get","UnityEngine.UI.Text#resizeTextMinSize#set","UnityEngine.UI.Text#textGenerator#get","UnityEngine.UI.Text#cachedTextGenerator#get","UnityEngine.UI.Text#resizeTextForBestFit#get","UnityEngine.UI.Text#resizeTextForBestFit#set","UnityEngine.UI.Text#flexibleHeight#get","UnityEngine.UI.Text#flexibleWidth#get","UnityEngine.UI.Text#layoutPriority#get","UnityEngine.UI.Text#minHeight#get","UnityEngine.UI.Text#minWidth#get","UnityEngine.UI.Text#preferredWidth#get","UnityEngine.UI.Text#preferredHeight#get","UnityEngine.UI.Text#horizontalOverflow#get","UnityEngine.UI.Text#horizontalOverflow#set","UnityEngine.UI.Text#verticalOverflow#get","UnityEngine.UI.Text#verticalOverflow#set","UnityEngine.UI.Text#supportRichText#get","UnityEngine.UI.Text#supportRichText#set","UnityEngine.UI.Text#pixelsPerUnit#get","UnityEngine.UI.Text#init","UnityEngine.UI.Text#$ctor1","UnityEngine.UI.Text#ctor","UnityEngine.UI.Text#ConfigureForEntity","UnityEngine.UI.Text#Awake","UnityEngine.UI.Text#OnEnable","UnityEngine.UI.Text#OnDisable","UnityEngine.UI.Text#ApplyFontDataChanges","UnityEngine.UI.Text#CalculateLayoutInputHorizontal","UnityEngine.UI.Text#CalculateLayoutInputVertical","UnityEngine.UI.Text#OnDidApplyAnimationProperties","UnityEngine.UI.Text#OnRectTransformDimensionsChange","UnityEngine.UI.Text#GetGenerationSettings","UnityEngine.UI.Toggle#group#get","UnityEngine.UI.Toggle#group#set","UnityEngine.UI.Toggle#isOn#get","UnityEngine.UI.Toggle#isOn#set","UnityEngine.UI.Toggle#init","UnityEngine.UI.Toggle#ctor","UnityEngine.UI.Toggle#Start","UnityEngine.UI.Toggle#OnEnable","UnityEngine.UI.Toggle#OnDisable","UnityEngine.UI.Toggle#OnDidApplyAnimationProperties","UnityEngine.UI.Toggle#Rebuild","UnityEngine.UI.Toggle#LayoutComplete","UnityEngine.UI.Toggle#GraphicUpdateComplete","UnityEngine.UI.Toggle#OnPointerClick","UnityEngine.UI.Toggle#OnSubmit","UnityEngine.UI.Toggle#SetToggleGroup","UnityEngine.UI.Toggle#SetIsOnWithoutNotify","UnityEngine.UI.Toggle#Set","UnityEngine.UI.Toggle#PlayEffect","UnityEngine.UI.Toggle#InternalToggle","UnityEngine.UI.HorizontalLayoutGroup#ctor","UnityEngine.UI.HorizontalLayoutGroup#CalculateLayoutInputHorizontal","UnityEngine.UI.HorizontalLayoutGroup#CalculateLayoutInputVertical","UnityEngine.UI.HorizontalLayoutGroup#SetLayoutHorizontal","UnityEngine.UI.HorizontalLayoutGroup#SetLayoutVertical","UnityEngine.UI.VerticalLayoutGroup#ctor","UnityEngine.UI.VerticalLayoutGroup#CalculateLayoutInputHorizontal","UnityEngine.UI.VerticalLayoutGroup#CalculateLayoutInputVertical","UnityEngine.UI.VerticalLayoutGroup#SetLayoutHorizontal","UnityEngine.UI.VerticalLayoutGroup#SetLayoutVertical"]' ) ); }
 /**
- * @compiler Bridge.NET 17.9.11-luna
+ * @compiler Bridge.NET 17.9.13-luna
  */
 Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
     "use strict";
@@ -12,6 +13,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             used: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.AbstractEventData#used#get", this ); }
+
                     return this.m_Used;
                 }
             }
@@ -19,12 +22,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         methods: {
             /*UnityEngine.EventSystems.AbstractEventData.Reset start.*/
             Reset: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.AbstractEventData#Reset", this ); }
+
                 this.m_Used = false;
             },
             /*UnityEngine.EventSystems.AbstractEventData.Reset end.*/
 
             /*UnityEngine.EventSystems.AbstractEventData.Use start.*/
             Use: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.AbstractEventData#Use", this ); }
+
                 this.m_Used = true;
             },
             /*UnityEngine.EventSystems.AbstractEventData.Use end.*/
@@ -39,6 +46,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         inherits: [UnityEngine.MonoBehaviour],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.MonoBehaviour.ctor.call(this);
             },
@@ -53,6 +62,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.MonoBehaviour.ctor.call(this, handle);
             }
@@ -69,6 +80,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}        <pre><code>true</code></pre>, if active was ised, <pre><code>false</code></pre> otherwise.
              */
             IsActive: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#IsActive", this ); }
+
                 return this.handle.enabled;
             },
             /*UnityEngine.EventSystems.UIBehaviour.IsActive end.*/
@@ -83,7 +96,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            Awake: function () { },
+            Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#Awake", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.Awake end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnEnable start.*/
@@ -96,7 +111,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnEnable: function () { },
+            OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnEnable", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnEnable end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnDisable start.*/
@@ -109,7 +126,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnDisable: function () { },
+            OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnDisable", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnDisable end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnRectTransformDimensionsChange start.*/
@@ -122,7 +141,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnRectTransformDimensionsChange: function () { },
+            OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnRectTransformDimensionsChange", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnRectTransformDimensionsChange end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnTransformParentChanged start.*/
@@ -135,7 +156,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnTransformParentChanged: function () { },
+            OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnTransformParentChanged", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnTransformParentChanged end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnDestroy start.*/
@@ -148,7 +171,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnDestroy: function () { },
+            OnDestroy: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnDestroy", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnDestroy end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.Start start.*/
@@ -161,7 +186,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            Start: function () { },
+            Start: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#Start", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.Start end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnDidApplyAnimationProperties start.*/
@@ -174,7 +201,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnDidApplyAnimationProperties: function () { },
+            OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnDidApplyAnimationProperties", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnDidApplyAnimationProperties end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.ConfigureForEntity start.*/
@@ -190,6 +219,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#ConfigureForEntity", this ); }
+
                 UnityEngine.MonoBehaviour.prototype.ConfigureForEntity.call(this, entity);
 
                 if (entity.element == null) {
@@ -237,11 +268,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.UIBehaviour
              * @return  {void}
              */
-            OnCanvasHierarchyChanged: function () { },
+            OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnCanvasHierarchyChanged", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnCanvasHierarchyChanged end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged start.*/
-            OnCanvasGroupChanged: function () { },
+            OnCanvasGroupChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#OnCanvasGroupChanged", this ); }
+ },
             /*UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged end.*/
 
             /*UnityEngine.EventSystems.UIBehaviour.IsDestroyed start.*/
@@ -255,6 +290,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}        <p>True if Destroyed.</p>
              */
             IsDestroyed: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.UIBehaviour#IsDestroyed", this ); }
+
                 return Bridge.referenceEquals(Bridge.cast(this, UnityEngine.Object), null);
             },
             /*UnityEngine.EventSystems.UIBehaviour.IsDestroyed end.*/
@@ -287,9 +324,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger.Entry#init", this ); }
+
                 this.callback = new UnityEngine.EventSystems.EventTrigger.TriggerEvent();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger.Entry#ctor", this ); }
+
                 this.$initialize();
             }
         }
@@ -359,92 +400,128 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             props: {
                 pointerEnterHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#pointerEnterHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._pointerEnterHandler;
                     }
                 },
                 pointerExitHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#pointerExitHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._pointerExitHandler;
                     }
                 },
                 pointerDownHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#pointerDownHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._pointerDownHandler;
                     }
                 },
                 pointerUpHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#pointerUpHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._pointerUpHandler;
                     }
                 },
                 pointerClickHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#pointerClickHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._pointerClickHandler;
                     }
                 },
                 initializePotentialDrag: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#initializePotentialDrag#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._initializePotentialDragHandler;
                     }
                 },
                 beginDragHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#beginDragHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._beginDragHandler;
                     }
                 },
                 dragHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#dragHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._dragHandler;
                     }
                 },
                 endDragHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#endDragHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._endDragHandler;
                     }
                 },
                 dropHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#dropHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._dropHandler;
                     }
                 },
                 scrollHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#scrollHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._scrollHandler;
                     }
                 },
                 updateSelectedHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#updateSelectedHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._updateSelectedHandler;
                     }
                 },
                 selectHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#selectHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._selectHandler;
                     }
                 },
                 deselectHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#deselectHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._deselectHandler;
                     }
                 },
                 moveHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#moveHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._moveHandler;
                     }
                 },
                 submitHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#submitHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._submitHandler;
                     }
                 },
                 cancelHandler: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#cancelHandler#get", this ); }
+
                         return UnityEngine.EventSystems.ExecuteEvents._cancelHandler;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#init", this ); }
+
                     this._pointerEnterHandler = UnityEngine.EventSystems.ExecuteEvents.Execute$11;
                     this._pointerExitHandler = UnityEngine.EventSystems.ExecuteEvents.Execute$12;
                     this._pointerDownHandler = UnityEngine.EventSystems.ExecuteEvents.Execute$10;
@@ -471,6 +548,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.EventSystems.ExecuteEvents.ValidateEventData:static start.*/
                 ValidateEventData: function (T, data) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#ValidateEventData", this ); }
+
                     if (Bridge.as(data, T) == null) {
                         throw new System.ArgumentException.$ctor1(System.String.format("Invalid type: {0} passed to event expecting {1}", Bridge.getType(data), T));
                     }
@@ -481,108 +560,144 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$11:static start.*/
                 Execute$11: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$11", this ); }
+
                     handler.UnityEngine$EventSystems$IPointerEnterHandler$OnPointerEnter(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$11:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$12:static start.*/
                 Execute$12: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$12", this ); }
+
                     handler.UnityEngine$EventSystems$IPointerExitHandler$OnPointerExit(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$12:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$10:static start.*/
                 Execute$10: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$10", this ); }
+
                     handler.UnityEngine$EventSystems$IPointerDownHandler$OnPointerDown(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$10:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$13:static start.*/
                 Execute$13: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$13", this ); }
+
                     handler.UnityEngine$EventSystems$IPointerUpHandler$OnPointerUp(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$13:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$9:static start.*/
                 Execute$9: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$9", this ); }
+
                     handler.UnityEngine$EventSystems$IPointerClickHandler$OnPointerClick(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$9:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$7:static start.*/
                 Execute$7: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$7", this ); }
+
                     handler.UnityEngine$EventSystems$IInitializePotentialDragHandler$OnInitializePotentialDrag(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$7:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$1:static start.*/
                 Execute$1: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$1", this ); }
+
                     handler.UnityEngine$EventSystems$IBeginDragHandler$OnBeginDrag(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$1:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$4:static start.*/
                 Execute$4: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$4", this ); }
+
                     handler.UnityEngine$EventSystems$IDragHandler$OnDrag(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$4:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$6:static start.*/
                 Execute$6: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$6", this ); }
+
                     handler.UnityEngine$EventSystems$IEndDragHandler$OnEndDrag(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$6:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$5:static start.*/
                 Execute$5: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$5", this ); }
+
                     handler.UnityEngine$EventSystems$IDropHandler$OnDrop(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$5:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$14:static start.*/
                 Execute$14: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$14", this ); }
+
                     handler.UnityEngine$EventSystems$IScrollHandler$OnScroll(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.PointerEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$14:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$17:static start.*/
                 Execute$17: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$17", this ); }
+
                     handler.UnityEngine$EventSystems$IUpdateSelectedHandler$OnUpdateSelected(eventData);
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$17:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$15:static start.*/
                 Execute$15: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$15", this ); }
+
                     handler.UnityEngine$EventSystems$ISelectHandler$OnSelect(eventData);
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$15:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$3:static start.*/
                 Execute$3: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$3", this ); }
+
                     handler.UnityEngine$EventSystems$IDeselectHandler$OnDeselect(eventData);
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$3:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$8:static start.*/
                 Execute$8: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$8", this ); }
+
                     handler.UnityEngine$EventSystems$IMoveHandler$OnMove(UnityEngine.EventSystems.ExecuteEvents.ValidateEventData(UnityEngine.EventSystems.AxisEventData, eventData));
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$8:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$16:static start.*/
                 Execute$16: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$16", this ); }
+
                     handler.UnityEngine$EventSystems$ISubmitHandler$OnSubmit(eventData);
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$16:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$2:static start.*/
                 Execute$2: function (handler, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute$2", this ); }
+
                     handler.UnityEngine$EventSystems$ICancelHandler$OnCancel(eventData);
                 },
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute$2:static end.*/
 
                 /*UnityEngine.EventSystems.ExecuteEvents.Execute:static start.*/
                 Execute: function (T, target, eventData, functor) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#Execute", this ); }
+
                     var internalHandlers = UnityEngine.EventSystems.ExecuteEvents._handlerListPool.Get();
                     UnityEngine.EventSystems.ExecuteEvents.GetEventList(T, target, internalHandlers);
                     //  if (s_InternalHandlers.Count > 0)
@@ -615,6 +730,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.EventSystems.ExecuteEvents.GetEventChain:static start.*/
                 GetEventChain: function (root, eventChain) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#GetEventChain", this ); }
+
                     System.Array.clear(eventChain, UnityEngine.Transform);
                     if (UnityEngine.GameObject.op_Equality(root, null)) {
                         return;
@@ -630,6 +747,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.EventSystems.ExecuteEvents.ExecuteHierarchy:static start.*/
                 ExecuteHierarchy: function (T, root, eventData, callbackFunction) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#ExecuteHierarchy", this ); }
+
                     UnityEngine.EventSystems.ExecuteEvents.GetEventChain(root, UnityEngine.EventSystems.ExecuteEvents._internalTransformList);
 
                     for (var i = 0; i < UnityEngine.EventSystems.ExecuteEvents._internalTransformList.Count; i++) {
@@ -645,6 +764,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.EventSystems.ExecuteEvents.ShouldSendToComponent:static start.*/
                 ShouldSendToComponent: function (T, component) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#ShouldSendToComponent", this ); }
+
                     var valid = Bridge.is(component, T);
                     if (!valid) {
                         return false;
@@ -673,6 +794,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 GetEventList: function (T, go, results) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#GetEventList", this ); }
+
                     
                 if ( results == null ) {
                     throw new System.ArgumentException.$ctor3('Results array is null', 'results');
@@ -711,6 +834,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 CanHandleEvent: function (T, go) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#CanHandleEvent", this ); }
+
                     var internalHandlers = UnityEngine.EventSystems.ExecuteEvents._handlerListPool.Get();
                     UnityEngine.EventSystems.ExecuteEvents.GetEventList(T, go, internalHandlers);
                     var handlerCount = internalHandlers.Count;
@@ -732,6 +857,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.GameObject}
                  */
                 GetEventHandler: function (T, root) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.ExecuteEvents#GetEventHandler", this ); }
+
                     if (UnityEngine.GameObject.op_Equality(root, null)) {
                         return null;
                     }
@@ -889,23 +1016,33 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             eventData: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.ButtonState#eventData#get", this ); }
+
                     return this.m_EventData;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.ButtonState#eventData#set", this ); }
+
                     this.m_EventData = value;
                 }
             },
             button: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.ButtonState#button#get", this ); }
+
                     return this.m_Button;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.ButtonState#button#set", this ); }
+
                     this.m_Button = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.ButtonState#init", this ); }
+
                 this.m_Button = UnityEngine.EventSystems.PointerEventData.InputButton.Left;
             }
         }
@@ -953,6 +1090,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             PressedThisFrame: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData#PressedThisFrame", this ); }
+
                 return this.buttonState === UnityEngine.EventSystems.PointerEventData.FramePressState.Pressed || this.buttonState === UnityEngine.EventSystems.PointerEventData.FramePressState.PressedAndReleased;
             },
             /*UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData.PressedThisFrame end.*/
@@ -968,6 +1107,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             ReleasedThisFrame: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseButtonEventData#ReleasedThisFrame", this ); }
+
                 return this.buttonState === UnityEngine.EventSystems.PointerEventData.FramePressState.Released || this.buttonState === UnityEngine.EventSystems.PointerEventData.FramePressState.PressedAndReleased;
             },
             /*UnityEngine.EventSystems.PointerInputModule+MouseButtonEventData.ReleasedThisFrame end.*/
@@ -985,12 +1126,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseState#init", this ); }
+
                 this.m_TrackedButtons = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.PointerInputModule.ButtonState)).ctor();
             }
         },
         methods: {
             /*UnityEngine.EventSystems.PointerInputModule+MouseState.AnyPressesThisFrame start.*/
             AnyPressesThisFrame: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseState#AnyPressesThisFrame", this ); }
+
                 for (var i = 0; i < this.m_TrackedButtons.Count; i++) {
                     if (this.m_TrackedButtons.getItem(i).eventData.PressedThisFrame()) {
                         return true;
@@ -1003,6 +1148,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.PointerInputModule+MouseState.AnyReleasesThisFrame start.*/
             AnyReleasesThisFrame: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseState#AnyReleasesThisFrame", this ); }
+
                 for (var i = 0; i < this.m_TrackedButtons.Count; i++) {
                     if (this.m_TrackedButtons.getItem(i).eventData.ReleasedThisFrame()) {
                         return true;
@@ -1015,6 +1162,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.PointerInputModule+MouseState.GetButtonState start.*/
             GetButtonState: function (button) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseState#GetButtonState", this ); }
+
                 var $t;
                 var tracked = null;
                 for (var i = 0; i < this.m_TrackedButtons.Count; i++) {
@@ -1035,6 +1184,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.PointerInputModule+MouseState.SetButtonState start.*/
             SetButtonState: function (button, stateForMouseButton, data) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule.MouseState#SetButtonState", this ); }
+
                 var toModify = this.GetButtonState(button);
                 toModify.eventData.buttonState = stateForMouseButton;
                 toModify.eventData.buttonData = data;
@@ -1054,12 +1205,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycasterManager#init", this ); }
+
                     this.s_Raycasters = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.BaseRaycaster)).ctor();
                 }
             },
             methods: {
                 /*UnityEngine.EventSystems.RaycasterManager.AddRaycaster:static start.*/
                 AddRaycaster: function (baseRaycaster) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycasterManager#AddRaycaster", this ); }
+
                     if (UnityEngine.EventSystems.RaycasterManager.s_Raycasters.contains(baseRaycaster)) {
                         return;
                     }
@@ -1070,12 +1225,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.EventSystems.RaycasterManager.GetRaycasters:static start.*/
                 GetRaycasters: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycasterManager#GetRaycasters", this ); }
+
                     return UnityEngine.EventSystems.RaycasterManager.s_Raycasters;
                 },
                 /*UnityEngine.EventSystems.RaycasterManager.GetRaycasters:static end.*/
 
                 /*UnityEngine.EventSystems.RaycasterManager.RemoveRaycasters:static start.*/
                 RemoveRaycasters: function (baseRaycaster) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycasterManager#RemoveRaycasters", this ); }
+
                     if (!UnityEngine.EventSystems.RaycasterManager.s_Raycasters.contains(baseRaycaster)) {
                         return;
                     }
@@ -1095,7 +1254,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new UnityEngine.EventSystems.RaycastResult(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#getDefaultValue", this ); }
+ return new UnityEngine.EventSystems.RaycastResult(); }
             }
         },
         fields: {
@@ -1204,17 +1365,23 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             isValid: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#isValid#get", this ); }
+
                     return !Bridge.referenceEquals(Bridge.cast(this.module, UnityEngine.Object), null) && !Bridge.referenceEquals(Bridge.cast(this.gameObject, UnityEngine.Object), null);
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#init", this ); }
+
                 this.screenPosition = new UnityEngine.Vector2();
                 this.worldNormal = new UnityEngine.Vector3();
                 this.worldPosition = new UnityEngine.Vector3();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#ctor", this ); }
+
                 this.$initialize();
             }
         },
@@ -1230,6 +1397,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#Clear", this ); }
+
                 this.gameObject = null;
                 this.module = null;
                 this.distance = 0.0;
@@ -1245,6 +1414,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.RaycastResult.SetFrom start.*/
             SetFrom: function (other) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#SetFrom", this ); }
+
                 this.gameObject = other.gameObject;
                 this.module = other.module;
                 this.distance = other.distance;
@@ -1260,16 +1431,22 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             /*UnityEngine.EventSystems.RaycastResult.SetFrom end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#getHashCode", this ); }
+
                 var h = Bridge.addHash([4871899276, this.screenPosition, this.worldNormal, this.worldPosition, this.sortingOrder, this.distance, this.index, this.depth, this.sortingLayer, this.module, this.gameObject]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#equals", this ); }
+
                 if (!Bridge.is(o, UnityEngine.EventSystems.RaycastResult)) {
                     return false;
                 }
                 return Bridge.equals(this.screenPosition, o.screenPosition) && Bridge.equals(this.worldNormal, o.worldNormal) && Bridge.equals(this.worldPosition, o.worldPosition) && Bridge.equals(this.sortingOrder, o.sortingOrder) && Bridge.equals(this.distance, o.distance) && Bridge.equals(this.index, o.index) && Bridge.equals(this.depth, o.depth) && Bridge.equals(this.sortingLayer, o.sortingLayer) && Bridge.equals(this.module, o.module) && Bridge.equals(this.gameObject, o.gameObject);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.RaycastResult#$clone", this ); }
+
                 var s = to || new UnityEngine.EventSystems.RaycastResult();
                 s.screenPosition = this.screenPosition.$clone();
                 s.worldNormal = this.worldNormal.$clone();
@@ -1317,6 +1494,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#init", this ); }
+
                     this.DefaultNormalAnimName = "Normal";
                     this.DefaultHighlightedAnimName = "Highlighted";
                     this.DefaultPressedAnimName = "Pressed";
@@ -1344,9 +1523,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             normalTrigger: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#normalTrigger#get", this ); }
+
                     return this.m_NormalTrigger;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#normalTrigger#set", this ); }
+
                     this.m_NormalTrigger = value;
                 }
             },
@@ -1361,9 +1544,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             highlightedTrigger: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#highlightedTrigger#get", this ); }
+
                     return this.m_HighlightedTrigger;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#highlightedTrigger#set", this ); }
+
                     this.m_HighlightedTrigger = value;
                 }
             },
@@ -1378,9 +1565,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             pressedTrigger: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#pressedTrigger#get", this ); }
+
                     return this.m_PressedTrigger;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#pressedTrigger#set", this ); }
+
                     this.m_PressedTrigger = value;
                 }
             },
@@ -1395,9 +1586,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             selectedTrigger: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#selectedTrigger#get", this ); }
+
                     return this.m_SelectedTrigger;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#selectedTrigger#set", this ); }
+
                     this.m_SelectedTrigger = value;
                 }
             },
@@ -1412,15 +1607,21 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             disabledTrigger: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#disabledTrigger#get", this ); }
+
                     return this.m_DisabledTrigger;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#disabledTrigger#set", this ); }
+
                     this.m_DisabledTrigger = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AnimationTriggers#init", this ); }
+
                 this.m_NormalTrigger = "Normal";
                 this.m_HighlightedTrigger = "Highlighted";
                 this.m_PressedTrigger = "Pressed";
@@ -1533,6 +1734,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#instance#get", this ); }
+
                         UnityEngine.UI.CanvasUpdateRegistry.s_Instance = UnityEngine.UI.CanvasUpdateRegistry.s_Instance || new UnityEngine.UI.CanvasUpdateRegistry();
                         return UnityEngine.UI.CanvasUpdateRegistry.s_Instance;
                     }
@@ -1551,6 +1754,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterCanvasElementForLayoutRebuild: function (element) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#RegisterCanvasElementForLayoutRebuild", this ); }
+
                     if (element.entity && element.entity.isPrefab) {
                         return;
                     }
@@ -1577,6 +1782,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterCanvasElementForGraphicRebuild: function (element) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#RegisterCanvasElementForGraphicRebuild", this ); }
+
                     if (element.entity && element.entity.isPrefab) {
                         return;
                     }
@@ -1603,6 +1810,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 UnRegisterCanvasElementForRebuild: function (element) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#UnRegisterCanvasElementForRebuild", this ); }
+
                     // IMPORTANT: we don't touch the array - we will validate the items later during out update pass,
                     // so let's save some cycles by only marking elements within the set
                     var key = UnityEngine.UI.CanvasUpdateRegistry.GetKey(element);
@@ -1622,6 +1831,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IsRebuildingLayout: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#IsRebuildingLayout", this ); }
+
                     return UnityEngine.UI.CanvasUpdateRegistry.instance.m_PerformingLayoutUpdate;
                 },
                 /*UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingLayout:static end.*/
@@ -1637,12 +1848,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {boolean}
                  */
                 IsRebuildingGraphics: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#IsRebuildingGraphics", this ); }
+
                     return UnityEngine.UI.CanvasUpdateRegistry.instance.m_PerformingGraphicUpdate;
                 },
                 /*UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingGraphics:static end.*/
 
                 /*UnityEngine.UI.CanvasUpdateRegistry.GetKey:static start.*/
                 GetKey: function (element) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#GetKey", this ); }
+
                     // ICanvasElement could be LayoutRebuilder, RectTransform or for example ScrollRect
                     // But when we compare LayoutRebuilder == RectTransform, Layout rebuilder has override for getHashCode
                     // But ScrollRect doesn't have such override, and could be pushed to queue, even if transform are already there
@@ -1717,6 +1932,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#init", this ); }
+
                 this.m_PerformingLayoutUpdate = false;
                 this.m_PerformingGraphicUpdate = false;
                 this.layoutRebuildQueue = System.Array.init(0, null, UnityEngine.UI.ICanvasElement);
@@ -1732,6 +1949,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.Canvas.addwillRenderCanvases(Bridge.fn.cacheBind(this, this.PerformUpdate));
 
@@ -1751,6 +1970,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             PerformUpdate: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#PerformUpdate", this ); }
+
                 // mark the start of rebuild
                 this.m_PerformingLayoutUpdate = true;
 
@@ -1782,6 +2003,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             PerformLayoutRebuildPhases: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#PerformLayoutRebuildPhases", this ); }
+
                 
                 // gather items
                 var items = this.layoutRebuildQueue;
@@ -1819,6 +2042,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             PerformGraphicsRebuildPhases: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasUpdateRegistry#PerformGraphicsRebuildPhases", this ); }
+
                 
                 // gather items
                 var items = this.graphicsRebuildQueue;
@@ -1871,6 +2096,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  */
                 instance: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#instance#get", this ); }
+
                         if (UnityEngine.UI.ClipperRegistry.s_Instance == null) {
                             UnityEngine.UI.ClipperRegistry.s_Instance = new UnityEngine.UI.ClipperRegistry();
                         }
@@ -1892,6 +2119,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 Register: function (c) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#Register", this ); }
+
                     if (c == null) {
                         return;
                     }
@@ -1912,6 +2141,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 Unregister: function (c) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#Unregister", this ); }
+
                     UnityEngine.UI.ClipperRegistry.instance.m_Clippers.remove(c);
                 },
                 /*UnityEngine.UI.ClipperRegistry.Unregister:static end.*/
@@ -1924,9 +2155,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#init", this ); }
+
                 this.m_Clippers = new (UnityEngine.UI.Collections.IndexedSet$1(UnityEngine.UI.IClipper))();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#ctor", this ); }
+
                 this.$initialize();
                 // This is needed for AOT platforms. Without it the compile doesn't get the definition of the Dictionarys
                 var emptyIClipperDic;
@@ -1944,6 +2179,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             Cull: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ClipperRegistry#Cull", this ); }
+
                 for (var i = 0; i < this.m_Clippers.Count; ++i) {
                     this.m_Clippers.getItem(i).UnityEngine$UI$IClipper$PerformClipping();
                 }
@@ -1981,6 +2218,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.Rect}                                        The final compounded overlapping rect
                  */
                 FindCullAndClipWorldRect: function (rectMaskParents, validRect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Clipping#FindCullAndClipWorldRect", this ); }
+
                     if (rectMaskParents.Count === 0) {
                         validRect.v = false;
                         return new UnityEngine.Rect.ctor();
@@ -2035,11 +2274,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             Count: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#Count#get", this ); }
+
                     return this.m_List.Count;
                 }
             },
             IsReadOnly: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#IsReadOnly#get", this ); }
+
                     return false;
                 }
             }
@@ -2061,15 +2304,21 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#init", this ); }
+
                 this.m_List = new (System.Collections.Generic.List$1(T)).ctor();
                 this.m_Dictionary = new (System.Collections.Generic.Dictionary$2(T,System.Int32)).ctor();
             }
         },
         methods: {
             getItem: function (index) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#getItem", this ); }
+
                 return Bridge.rValue(this.m_List.getItem(index));
             },
             setItem: function (index, value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#setItem", this ); }
+
                 var item = Bridge.rValue(this.m_List.getItem(index));
                 this.m_Dictionary.remove(Bridge.rValue(item));
                 this.m_List.setItem(index, Bridge.rValue(value));
@@ -2077,6 +2326,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             /*UnityEngine.UI.Collections.IndexedSet$1.add start.*/
             add: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#add", this ); }
+
                 this.m_List.add(Bridge.rValue(item));
                 this.m_Dictionary.add(Bridge.rValue(item), this.m_List.Count - 1);
             },
@@ -2084,6 +2335,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.AddUnique start.*/
             AddUnique: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#AddUnique", this ); }
+
                 if (this.m_Dictionary.containsKey(Bridge.rValue(item))) {
                     return false;
                 }
@@ -2097,6 +2350,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.remove start.*/
             remove: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#remove", this ); }
+
                 var index = { v : -1 };
                 if (!this.m_Dictionary.tryGetValue(Bridge.rValue(item), index)) {
                     return false;
@@ -2109,18 +2364,24 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.GetEnumerator start.*/
             GetEnumerator: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#GetEnumerator", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*UnityEngine.UI.Collections.IndexedSet$1.GetEnumerator end.*/
 
             /*UnityEngine.UI.Collections.IndexedSet$1.System$Collections$IEnumerable$GetEnumerator start.*/
             System$Collections$IEnumerable$GetEnumerator: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#System$Collections$IEnumerable$GetEnumerator", this ); }
+
                 return this.GetEnumerator();
             },
             /*UnityEngine.UI.Collections.IndexedSet$1.System$Collections$IEnumerable$GetEnumerator end.*/
 
             /*UnityEngine.UI.Collections.IndexedSet$1.clear start.*/
             clear: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#clear", this ); }
+
                 this.m_List.clear();
                 this.m_Dictionary.clear();
             },
@@ -2128,18 +2389,24 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.contains start.*/
             contains: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#contains", this ); }
+
                 return this.m_Dictionary.containsKey(Bridge.rValue(item));
             },
             /*UnityEngine.UI.Collections.IndexedSet$1.contains end.*/
 
             /*UnityEngine.UI.Collections.IndexedSet$1.copyTo start.*/
             copyTo: function (array, arrayIndex) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#copyTo", this ); }
+
                 this.m_List.copyTo(array, arrayIndex);
             },
             /*UnityEngine.UI.Collections.IndexedSet$1.copyTo end.*/
 
             /*UnityEngine.UI.Collections.IndexedSet$1.indexOf start.*/
             indexOf: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#indexOf", this ); }
+
                 var index = { v : -1 };
                 if (this.m_Dictionary.tryGetValue(Bridge.rValue(item), index)) {
                     return index.v;
@@ -2151,6 +2418,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.insert start.*/
             insert: function (index, item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#insert", this ); }
+
                 //We could support this, but the semantics would be weird. Order is not guaranteed..
                 throw new System.NotSupportedException.$ctor1("Random Insertion is semantically invalid, since this structure does not guarantee ordering.");
             },
@@ -2158,6 +2427,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.removeAt start.*/
             removeAt: function (index) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#removeAt", this ); }
+
                 var item = Bridge.rValue(this.m_List.getItem(index));
                 this.m_Dictionary.remove(Bridge.rValue(item));
                 if (index === this.m_List.Count - 1) {
@@ -2174,6 +2445,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.RemoveAll start.*/
             RemoveAll: function (match) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#RemoveAll", this ); }
+
                 //I guess this could be optmized by instead of removing the items from the list immediatly,
                 //We move them to the end, and then remove all in one go.
                 //But I don't think this is going to be the bottleneck, so leaving as is for now.
@@ -2191,6 +2464,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.Collections.IndexedSet$1.Sort start.*/
             Sort: function (sortLayoutFunction) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Collections.IndexedSet$1#Sort", this ); }
+
                 //There might be better ways to sort and keep the dictionary index up to date.
                 this.m_List.Sort$2(sortLayoutFunction);
                 //Rebuild the dictionary index.
@@ -2218,7 +2493,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
     /*UnityEngine.UI.ColorBlock start.*/
     Bridge.define("UnityEngine.UI.ColorBlock", {
-        inherits: function () { return [System.IEquatable$1(UnityEngine.UI.ColorBlock)]; },
+        inherits: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#inherits", this ); }
+ return [System.IEquatable$1(UnityEngine.UI.ColorBlock)]; },
         $kind: "struct",
         statics: {
             props: {
@@ -2234,6 +2511,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  */
                 defaultColorBlock: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#defaultColorBlock#get", this ); }
+
                         var $t;
                         var c = ($t = new UnityEngine.UI.ColorBlock(), $t.m_NormalColor = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(255, 255, 255, 255)), $t.m_HighlightedColor = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(245, 245, 245, 255)), $t.m_PressedColor = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(200, 200, 200, 255)), $t.m_SelectedColor = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(245, 245, 245, 255)), $t.m_DisabledColor = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(200, 200, 200, 128)), $t.colorMultiplier = 1.0, $t.fadeDuration = 0.1, $t);
                         return c.$clone();
@@ -2242,12 +2521,18 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             methods: {
                 op_Equality: function (point1, point2) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#op_Equality", this ); }
+
                     return point1.equalsT(point2.$clone());
                 },
                 op_Inequality: function (point1, point2) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#op_Inequality", this ); }
+
                     return !point1.equalsT(point2.$clone());
                 },
-                getDefaultValue: function () { return new UnityEngine.UI.ColorBlock(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#getDefaultValue", this ); }
+ return new UnityEngine.UI.ColorBlock(); }
             }
         },
         fields: {
@@ -2271,9 +2556,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             normalColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#normalColor#get", this ); }
+
                     return this.m_NormalColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#normalColor#set", this ); }
+
                     this.m_NormalColor = value.$clone();
                 }
             },
@@ -2288,9 +2577,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             highlightedColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#highlightedColor#get", this ); }
+
                     return this.m_HighlightedColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#highlightedColor#set", this ); }
+
                     this.m_HighlightedColor = value.$clone();
                 }
             },
@@ -2305,9 +2598,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             pressedColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#pressedColor#get", this ); }
+
                     return this.m_PressedColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#pressedColor#set", this ); }
+
                     this.m_PressedColor = value.$clone();
                 }
             },
@@ -2322,9 +2619,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             selectedColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#selectedColor#get", this ); }
+
                     return this.m_SelectedColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#selectedColor#set", this ); }
+
                     this.m_SelectedColor = value.$clone();
                 }
             },
@@ -2339,9 +2640,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             disabledColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#disabledColor#get", this ); }
+
                     return this.m_DisabledColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#disabledColor#set", this ); }
+
                     this.m_DisabledColor = value.$clone();
                 }
             },
@@ -2356,9 +2661,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             colorMultiplier: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#colorMultiplier#get", this ); }
+
                     return this.m_ColorMultiplier;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#colorMultiplier#set", this ); }
+
                     this.m_ColorMultiplier = value;
                 }
             },
@@ -2373,9 +2682,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             fadeDuration: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#fadeDuration#get", this ); }
+
                     return this.m_FadeDuration;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#fadeDuration#set", this ); }
+
                     this.m_FadeDuration = value;
                 }
             }
@@ -2383,6 +2696,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         alias: ["equalsT", "System$IEquatable$1$UnityEngine$UI$ColorBlock$equalsT"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#init", this ); }
+
                 this.m_DisabledColor = new UnityEngine.Color();
                 this.m_HighlightedColor = new UnityEngine.Color();
                 this.m_NormalColor = new UnityEngine.Color();
@@ -2390,18 +2705,24 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                 this.m_SelectedColor = new UnityEngine.Color();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*UnityEngine.UI.ColorBlock.equalsT start.*/
             equalsT: function (other) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#equalsT", this ); }
+
                 return pc.Color.equals( this.normalColor, other.normalColor ) && pc.Color.equals( this.highlightedColor, other.highlightedColor ) && pc.Color.equals( this.pressedColor, other.pressedColor ) && pc.Color.equals( this.selectedColor, other.selectedColor ) && pc.Color.equals( this.disabledColor, other.disabledColor ) && this.colorMultiplier === other.colorMultiplier && this.fadeDuration === other.fadeDuration;
             },
             /*UnityEngine.UI.ColorBlock.equalsT end.*/
 
             /*UnityEngine.UI.ColorBlock.equals start.*/
             equals: function (obj) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#equals", this ); }
+
                 if (!(Bridge.is(obj, UnityEngine.UI.ColorBlock))) {
                     return false;
                 }
@@ -2412,11 +2733,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.ColorBlock.getHashCode start.*/
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#getHashCode", this ); }
+
                 return Bridge.getHashCode(this);
             },
             /*UnityEngine.UI.ColorBlock.getHashCode end.*/
 
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ColorBlock#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.ColorBlock();
                 s.m_ColorMultiplier = this.m_ColorMultiplier;
                 s.m_DisabledColor = this.m_DisabledColor.$clone();
@@ -2511,6 +2836,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#init", this ); }
+
                     this.s_ThickElementSize = new UnityEngine.Vector2();
                     this.s_ThinElementSize = new UnityEngine.Vector2();
                     this.s_ImageElementSize = new UnityEngine.Vector2();
@@ -2531,6 +2858,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.UI.DefaultControls.CreateUIElementRoot:static start.*/
                 CreateUIElementRoot: function (name, size) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateUIElementRoot", this ); }
+
                     var gameObject = new UnityEngine.GameObject.$ctor2(name);
                     gameObject.AddComponent(UnityEngine.RectTransform).sizeDelta = size.$clone();
                     return gameObject;
@@ -2539,6 +2868,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateUIObject:static start.*/
                 CreateUIObject: function (name, parent) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateUIObject", this ); }
+
                     var child = new UnityEngine.GameObject.$ctor2(name);
                     child.AddComponent(UnityEngine.RectTransform);
                     UnityEngine.UI.DefaultControls.SetParentAndAlign(child, parent);
@@ -2548,6 +2879,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.SetDefaultTextValues:static start.*/
                 SetDefaultTextValues: function (lbl) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#SetDefaultTextValues", this ); }
+
                     lbl.color = UnityEngine.UI.DefaultControls.s_TextColor.$clone();
                     lbl.AssignDefaultFont();
                 },
@@ -2555,6 +2888,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.SetDefaultColorTransitionValues:static start.*/
                 SetDefaultColorTransitionValues: function (slider) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#SetDefaultColorTransitionValues", this ); }
+
                     var colors = slider.colors.$clone();
                     colors.highlightedColor = new pc.Color( 0.882, 0.882, 0.882, 1 );
                     colors.pressedColor = new pc.Color( 0.698, 0.698, 0.698, 1 );
@@ -2564,6 +2899,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.SetParentAndAlign:static start.*/
                 SetParentAndAlign: function (child, parent) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#SetParentAndAlign", this ); }
+
                     if (Bridge.referenceEquals(Bridge.cast(parent, UnityEngine.Object), null)) {
                         return;
                     }
@@ -2575,6 +2912,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.SetLayerRecursively:static start.*/
                 SetLayerRecursively: function (go, layer) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#SetLayerRecursively", this ); }
+
                     go.layer = layer;
                     var transform = go.transform;
                     for (var index = 0; index < transform.childCount; ++index) {
@@ -2585,6 +2924,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreatePanel:static start.*/
                 CreatePanel: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreatePanel", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Panel", UnityEngine.UI.DefaultControls.s_ThickElementSize.$clone());
                     var component = uiElementRoot.GetComponent(UnityEngine.RectTransform);
                     component.anchorMin = pc.Vec2.ZERO.clone();
@@ -2601,6 +2942,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateButton:static start.*/
                 CreateButton: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateButton", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Button", UnityEngine.UI.DefaultControls.s_ThickElementSize.$clone());
                     var child = new UnityEngine.GameObject.$ctor2("Text");
                     child.AddComponent(UnityEngine.RectTransform);
@@ -2624,6 +2967,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateText:static start.*/
                 CreateText: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateText", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Text", UnityEngine.UI.DefaultControls.s_ThickElementSize.$clone());
                     var lbl = uiElementRoot.AddComponent(UnityEngine.UI.Text);
                     lbl.text = "New Text";
@@ -2634,6 +2979,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateImage:static start.*/
                 CreateImage: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateImage", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Image", UnityEngine.UI.DefaultControls.s_ImageElementSize.$clone());
                     uiElementRoot.AddComponent(UnityEngine.UI.Image);
                     return uiElementRoot;
@@ -2642,6 +2989,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateRawImage:static start.*/
                 CreateRawImage: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateRawImage", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("RawImage", UnityEngine.UI.DefaultControls.s_ImageElementSize.$clone());
                     uiElementRoot.AddComponent(UnityEngine.UI.RawImage);
                     return uiElementRoot;
@@ -2650,6 +2999,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateSlider:static start.*/
                 CreateSlider: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateSlider", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Slider", UnityEngine.UI.DefaultControls.s_ThinElementSize.$clone());
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Background", uiElementRoot);
                     var uiObject2 = UnityEngine.UI.DefaultControls.CreateUIObject("Fill Area", uiElementRoot);
@@ -2694,6 +3045,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateScrollbar:static start.*/
                 CreateScrollbar: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateScrollbar", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Scrollbar", UnityEngine.UI.DefaultControls.s_ThinElementSize.$clone());
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Sliding Area", uiElementRoot);
                     var uiObject2 = UnityEngine.UI.DefaultControls.CreateUIObject("Handle", uiObject1);
@@ -2721,6 +3074,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateToggle:static start.*/
                 CreateToggle: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateToggle", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Toggle", UnityEngine.UI.DefaultControls.s_ThinElementSize.$clone());
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Background", uiElementRoot);
                     var uiObject2 = UnityEngine.UI.DefaultControls.CreateUIObject("Checkmark", uiObject1);
@@ -2760,6 +3115,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateInputField:static start.*/
                 CreateInputField: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateInputField", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("InputField", UnityEngine.UI.DefaultControls.s_ThickElementSize.$clone());
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Placeholder", uiElementRoot);
                     var uiObject2 = UnityEngine.UI.DefaultControls.CreateUIObject("Text", uiElementRoot);
@@ -2799,6 +3156,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateDropdown:static start.*/
                 CreateDropdown: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateDropdown", this ); }
+
                     var $t;
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Dropdown", UnityEngine.UI.DefaultControls.s_ThickElementSize.$clone());
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Label", uiElementRoot);
@@ -2917,6 +3276,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.DefaultControls.CreateScrollView:static start.*/
                 CreateScrollView: function (resources) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls#CreateScrollView", this ); }
+
                     var uiElementRoot = UnityEngine.UI.DefaultControls.CreateUIElementRoot("Scroll View", new pc.Vec2( 200.0, 200.0 ));
                     var uiObject1 = UnityEngine.UI.DefaultControls.CreateUIObject("Viewport", uiElementRoot);
                     var uiObject2 = UnityEngine.UI.DefaultControls.CreateUIObject("Content", uiObject1);
@@ -2979,7 +3340,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         $kind: "nested struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new UnityEngine.UI.DefaultControls.Resources(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls.Resources#getDefaultValue", this ); }
+ return new UnityEngine.UI.DefaultControls.Resources(); }
             }
         },
         fields: {
@@ -2993,21 +3356,29 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls.Resources#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls.Resources#getHashCode", this ); }
+
                 var h = Bridge.addHash([3570849850, this.standard, this.background, this.inputField, this.knob, this.checkmark, this.dropdown, this.mask]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls.Resources#equals", this ); }
+
                 if (!Bridge.is(o, UnityEngine.UI.DefaultControls.Resources)) {
                     return false;
                 }
                 return Bridge.equals(this.standard, o.standard) && Bridge.equals(this.background, o.background) && Bridge.equals(this.inputField, o.inputField) && Bridge.equals(this.knob, o.knob) && Bridge.equals(this.checkmark, o.checkmark) && Bridge.equals(this.dropdown, o.dropdown) && Bridge.equals(this.mask, o.mask);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.DefaultControls.Resources#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.DefaultControls.Resources();
                 s.standard = this.standard;
                 s.background = this.background;
@@ -3061,9 +3432,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#text#set", this ); }
+
                     this.m_Text = value;
                 }
             },
@@ -3078,22 +3453,32 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             image: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#image#get", this ); }
+
                     return this.m_Image;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#image#set", this ); }
+
                     this.m_Image = value;
                 }
             }
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#ctor", this ); }
+
                 this.$initialize();
             },
             $ctor1: function (text) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#$ctor1", this ); }
+
                 this.$initialize();
                 this.text = text;
             },
             $ctor3: function (image) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#$ctor3", this ); }
+
                 this.$initialize();
                 this.image = image;
             },
@@ -3109,6 +3494,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             $ctor2: function (text, image) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionData#$ctor2", this ); }
+
                 this.$initialize();
                 this.text = text;
                 this.image = image;
@@ -3141,15 +3528,21 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             options: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionDataList#options#get", this ); }
+
                     return this.m_Options;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionDataList#options#set", this ); }
+
                     this.m_Options = value;
                 }
             }
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.OptionDataList#ctor", this ); }
+
                 this.$initialize();
                 this.options = new (System.Collections.Generic.List$1(UnityEngine.UI.Dropdown.OptionData)).ctor();
             }
@@ -3179,6 +3572,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  */
                 defaultFontData: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#defaultFontData#get", this ); }
+
                         var $t;
                         return ($t = new UnityEngine.UI.FontData(), $t.m_FontSize = 14, $t.m_LineSpacing = 1.0, $t.m_FontStyle = UnityEngine.FontStyle.Normal, $t.m_BestFit = false, $t.m_MinSize = 10, $t.m_MaxSize = 40, $t.m_Alignment = UnityEngine.TextAnchor.UpperLeft, $t.m_HorizontalOverflow = UnityEngine.HorizontalWrapMode.Wrap, $t.m_VerticalOverflow = UnityEngine.VerticalWrapMode.Truncate, $t.m_RichText = true, $t.m_AlignByGeometry = false, $t);
                     }
@@ -3211,9 +3606,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             font: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#font#get", this ); }
+
                     return this.m_Font;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#font#set", this ); }
+
                     this.m_Font = value;
                 }
             },
@@ -3228,9 +3627,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             fontSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#fontSize#get", this ); }
+
                     return this.m_FontSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#fontSize#set", this ); }
+
                     this.m_FontSize = value;
                 }
             },
@@ -3245,9 +3648,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             fontStyle: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#fontStyle#get", this ); }
+
                     return this.m_FontStyle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#fontStyle#set", this ); }
+
                     this.m_FontStyle = value;
                 }
             },
@@ -3262,9 +3669,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             bestFit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#bestFit#get", this ); }
+
                     return this.m_BestFit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#bestFit#set", this ); }
+
                     this.m_BestFit = value;
                 }
             },
@@ -3279,9 +3690,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             minSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#minSize#get", this ); }
+
                     return this.m_MinSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#minSize#set", this ); }
+
                     this.m_MinSize = value;
                 }
             },
@@ -3296,9 +3711,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             maxSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#maxSize#get", this ); }
+
                     return this.m_MaxSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#maxSize#set", this ); }
+
                     this.m_MaxSize = value;
                 }
             },
@@ -3313,9 +3732,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             alignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#alignment#get", this ); }
+
                     return this.m_Alignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#alignment#set", this ); }
+
                     this.m_Alignment = value;
                 }
             },
@@ -3331,9 +3754,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             alignByGeometry: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#alignByGeometry#get", this ); }
+
                     return this.m_AlignByGeometry;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#alignByGeometry#set", this ); }
+
                     this.m_AlignByGeometry = value;
                 }
             },
@@ -3348,9 +3775,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             richText: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#richText#get", this ); }
+
                     return this.m_RichText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#richText#set", this ); }
+
                     this.m_RichText = value;
                 }
             },
@@ -3365,9 +3796,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             horizontalOverflow: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#horizontalOverflow#get", this ); }
+
                     return this.m_HorizontalOverflow;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#horizontalOverflow#set", this ); }
+
                     this.m_HorizontalOverflow = value;
                 }
             },
@@ -3382,9 +3817,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             verticalOverflow: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#verticalOverflow#get", this ); }
+
                     return this.m_VerticalOverflow;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#verticalOverflow#set", this ); }
+
                     this.m_VerticalOverflow = value;
                 }
             },
@@ -3399,9 +3838,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             lineSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#lineSpacing#get", this ); }
+
                     return this.m_LineSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.FontData#lineSpacing#set", this ); }
+
                     this.m_LineSpacing = value;
                 }
             }
@@ -3509,6 +3952,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#init", this ); }
+
                     this.s_EmptyList = new (System.Collections.Generic.List$1(UnityEngine.UI.Graphic)).ctor();
                     this.instance = new UnityEngine.UI.GraphicRegistry();
                 }
@@ -3527,6 +3972,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 RegisterGraphicForCanvas: function (canvas, graphic) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#RegisterGraphicForCanvas", this ); }
+
                     if (UnityEngine.Component.op_Inequality(canvas, null)) {
                         var set = { v : null };
                         UnityEngine.UI.GraphicRegistry.instance.m_Graphics.tryGetValue(canvas, set);
@@ -3556,6 +4003,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 UnregisterGraphicForCanvas: function (canvas, graphic) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#UnregisterGraphicForCanvas", this ); }
+
                     var set = { v : null };
 
                     if (UnityEngine.Component.op_Inequality(canvas, null) && UnityEngine.UI.GraphicRegistry.instance.m_Graphics.tryGetValue(canvas, set)) {
@@ -3581,6 +4030,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {System.Collections.Generic.IList$1}
                  */
                 GetGraphicsForCanvas: function (canvas) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#GetGraphicsForCanvas", this ); }
+
                     var $t;
                     var result = { v : null };
 
@@ -3603,6 +4054,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {Set}
                  */
                 GetGraphicsForCanvasInternal: function (canvas) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#GetGraphicsForCanvasInternal", this ); }
+
                     var result = { v : null };
 
                     if (canvas.enabled && UnityEngine.UI.GraphicRegistry.instance.m_Graphics.tryGetValue(canvas, result)) {
@@ -3625,6 +4078,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 UnregisterGraphicsEverywhere: function (graphic) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#UnregisterGraphicsEverywhere", this ); }
+
                     var $t;
                     if (UnityEngine.MonoBehaviour.op_Equality(graphic, null)) {
                         return;
@@ -3661,6 +4116,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#init", this ); }
+
                 this.m_Graphics = new (System.Collections.Generic.Dictionary$2(UnityEngine.Canvas,Set)).ctor();
             },
             /**
@@ -3673,6 +4130,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRegistry#ctor", this ); }
+
                 this.$initialize();
             }
         }
@@ -4182,6 +4641,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The minimum size.
                  */
                 GetMinSize: function (rect, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetMinSize", this ); }
+
                     if (rect.handle._layoutElements.length === 0) {
                         return 0;
                     }
@@ -4213,6 +4674,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The preferred size.
                  */
                 GetPreferredSize: function (rect, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetPreferredSize", this ); }
+
                     var $t;
                     if (rect.handle._layoutElements.length === 0) {
                         return 0;
@@ -4245,6 +4708,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The flexible size.
                  */
                 GetFlexibleSize: function (rect, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetFlexibleSize", this ); }
+
                     if (rect.handle._layoutElements.length === 0) {
                         return 0;
                     }
@@ -4275,6 +4740,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The minimum width.
                  */
                 GetMinWidth: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetMinWidth", this ); }
+
                     return UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$minWidth;
                     }, 0);
@@ -4293,6 +4760,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The preferred width.
                  */
                 GetPreferredWidth: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetPreferredWidth", this ); }
+
                     return UnityEngine.Mathf.Max(UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$minWidth;
                     }, 0), UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
@@ -4313,6 +4782,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The flexible width.
                  */
                 GetFlexibleWidth: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetFlexibleWidth", this ); }
+
                     return UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$flexibleWidth;
                     }, 0);
@@ -4331,6 +4802,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The minimum height.
                  */
                 GetMinHeight: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetMinHeight", this ); }
+
                     return UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$minHeight;
                     }, 0);
@@ -4349,6 +4822,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The preferred height.
                  */
                 GetPreferredHeight: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetPreferredHeight", this ); }
+
                     return UnityEngine.Mathf.Max(UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$minHeight;
                     }, 0), UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
@@ -4369,6 +4844,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                               The flexible height.
                  */
                 GetFlexibleHeight: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetFlexibleHeight", this ); }
+
                     return UnityEngine.UI.LayoutUtility.GetLayoutProperty(rect, function (e) {
                         return e.UnityEngine$UI$ILayoutElement$flexibleHeight;
                     }, 0);
@@ -4389,6 +4866,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                                       The layout property.
                  */
                 GetLayoutProperty: function (rect, property, defaultValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetLayoutProperty", this ); }
+
                     var dummy = { };
                     return UnityEngine.UI.LayoutUtility.GetLayoutProperty$1(rect, property, defaultValue, dummy);
                 },
@@ -4409,6 +4888,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                                           The layout property.
                  */
                 GetLayoutProperty$1: function (rect, property, defaultValue, source) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutUtility#GetLayoutProperty$1", this ); }
+
                     source.v = null;
 
                     if (UnityEngine.Component.op_Equality(rect, null)) {
@@ -4470,24 +4951,32 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ListPool$1#init", this ); }
+
                     this.s_ListPool = new (UnityEngine.UI.ObjectPool$1(System.Collections.Generic.List$1(T)))(null, UnityEngine.UI.ListPool$1(T).Clear);
                 }
             },
             methods: {
                 /*UnityEngine.UI.ListPool$1.Clear:static start.*/
                 Clear: function (l) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ListPool$1#Clear", this ); }
+
                     l.clear();
                 },
                 /*UnityEngine.UI.ListPool$1.Clear:static end.*/
 
                 /*UnityEngine.UI.ListPool$1.Get:static start.*/
                 Get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ListPool$1#Get", this ); }
+
                     return UnityEngine.UI.ListPool$1(T).s_ListPool.Get();
                 },
                 /*UnityEngine.UI.ListPool$1.Get:static end.*/
 
                 /*UnityEngine.UI.ListPool$1.Release:static start.*/
                 Release: function (toRelease) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ListPool$1#Release", this ); }
+
                     UnityEngine.UI.ListPool$1(T).s_ListPool.Release(toRelease);
                 },
                 /*UnityEngine.UI.ListPool$1.Release:static end.*/
@@ -4527,6 +5016,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 Notify2DMaskStateChanged: function (mask) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#Notify2DMaskStateChanged", this ); }
+
                     var components = UnityEngine.UI.ListPool$1(UnityEngine.Component).Get();
                     mask.GetComponentsInChildren$3(UnityEngine.Component, components);
                     for (var i = 0; i < components.Count; i++) {
@@ -4556,6 +5047,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 NotifyStencilStateChanged: function (mask) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#NotifyStencilStateChanged", this ); }
+
                     var components = UnityEngine.UI.ListPool$1(UnityEngine.Component).Get();
                     mask.GetComponentsInChildren$3(UnityEngine.Component, components);
                     for (var i = 0; i < components.Count; i++) {
@@ -4585,6 +5078,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.Transform}             Finds either the most root canvas, or the first canvas that overrides sorting.
                  */
                 FindRootSortOverrideCanvas: function (start) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#FindRootSortOverrideCanvas", this ); }
+
                     var canvasList = UnityEngine.UI.ListPool$1(UnityEngine.Canvas).Get();
                     start.GetComponentsInParent$2(UnityEngine.Canvas, false, canvasList);
                     var canvas = null;
@@ -4617,6 +5112,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {number}                                What the proper stencil buffer index should be.
                  */
                 GetStencilDepth: function (transform, stopAfter) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#GetStencilDepth", this ); }
+
                     var depth = 0;
                     if (UnityEngine.Component.op_Equality(transform, stopAfter)) {
                         return depth;
@@ -4658,6 +5155,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {boolean}                            Is child equal to father or is a descendant.
                  */
                 IsDescendantOrSelf: function (father, child) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#IsDescendantOrSelf", this ); }
+
                     if (UnityEngine.Component.op_Equality(father, null) || UnityEngine.Component.op_Equality(child, null)) {
                         return false;
                     }
@@ -4690,6 +5189,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.UI.RectMask2D}                 The Correct RectMask2D
                  */
                 GetRectMaskForClippable: function (clippable) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#GetRectMaskForClippable", this ); }
+
                     var rectMaskComponents = UnityEngine.UI.ListPool$1(UnityEngine.UI.RectMask2D).Get();
                     var canvasComponents = UnityEngine.UI.ListPool$1(UnityEngine.Canvas).Get();
                     var componentToReturn = null;
@@ -4741,6 +5242,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 GetRectMasksForClip: function (clipper, masks) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskUtilities#GetRectMasksForClip", this ); }
+
                     masks.clear();
 
                     var canvasComponents = UnityEngine.UI.ListPool$1(UnityEngine.Canvas).Get();
@@ -4785,6 +5288,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.UI.Misc.Destroy:static start.*/
                 Destroy: function (obj) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Misc#Destroy", this ); }
+
                     if (!(!Bridge.referenceEquals(obj, null))) {
                         return;
                     }
@@ -4803,6 +5308,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.Misc.DestroyImmediate:static start.*/
                 DestroyImmediate: function (obj) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Misc#DestroyImmediate", this ); }
+
                     if (!(!Bridge.referenceEquals(obj, null))) {
                         return;
                     }
@@ -4823,12 +5330,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
     /*UnityEngine.UI.Navigation start.*/
     Bridge.define("UnityEngine.UI.Navigation", {
-        inherits: function () { return [System.IEquatable$1(UnityEngine.UI.Navigation)]; },
+        inherits: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#inherits", this ); }
+ return [System.IEquatable$1(UnityEngine.UI.Navigation)]; },
         $kind: "struct",
         statics: {
             props: {
                 defaultNavigation: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#defaultNavigation#get", this ); }
+
                         var result = Bridge.getDefaultValue(UnityEngine.UI.Navigation);
                         result.m_Mode = UnityEngine.UI.Navigation.Mode.Automatic;
                         return result.$clone();
@@ -4836,7 +5347,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                 }
             },
             methods: {
-                getDefaultValue: function () { return new UnityEngine.UI.Navigation(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#getDefaultValue", this ); }
+ return new UnityEngine.UI.Navigation(); }
             }
         },
         fields: {
@@ -4849,41 +5362,61 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             mode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#mode#get", this ); }
+
                     return this.m_Mode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#mode#set", this ); }
+
                     this.m_Mode = value;
                 }
             },
             selectOnUp: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnUp#get", this ); }
+
                     return this.m_SelectOnUp;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnUp#set", this ); }
+
                     this.m_SelectOnUp = value;
                 }
             },
             selectOnDown: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnDown#get", this ); }
+
                     return this.m_SelectOnDown;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnDown#set", this ); }
+
                     this.m_SelectOnDown = value;
                 }
             },
             selectOnLeft: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnLeft#get", this ); }
+
                     return this.m_SelectOnLeft;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnLeft#set", this ); }
+
                     this.m_SelectOnLeft = value;
                 }
             },
             selectOnRight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnRight#get", this ); }
+
                     return this.m_SelectOnRight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#selectOnRight#set", this ); }
+
                     this.m_SelectOnRight = value;
                 }
             }
@@ -4891,21 +5424,29 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         alias: ["equalsT", "System$IEquatable$1$UnityEngine$UI$Navigation$equalsT"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*UnityEngine.UI.Navigation.equalsT start.*/
             equalsT: function (other) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#equalsT", this ); }
+
                 return this.mode === other.mode && Bridge.referenceEquals(Bridge.cast(this.selectOnUp, UnityEngine.Object), Bridge.cast(other.selectOnUp, UnityEngine.Object)) && Bridge.referenceEquals(Bridge.cast(this.selectOnDown, UnityEngine.Object), Bridge.cast(other.selectOnDown, UnityEngine.Object)) && Bridge.referenceEquals(Bridge.cast(this.selectOnLeft, UnityEngine.Object), Bridge.cast(other.selectOnLeft, UnityEngine.Object)) && Bridge.referenceEquals(Bridge.cast(this.selectOnRight, UnityEngine.Object), Bridge.cast(other.selectOnRight, UnityEngine.Object));
             },
             /*UnityEngine.UI.Navigation.equalsT end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#getHashCode", this ); }
+
                 var h = Bridge.addHash([3538628900, this.m_Mode, this.m_SelectOnUp, this.m_SelectOnDown, this.m_SelectOnLeft, this.m_SelectOnRight]);
                 return h;
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Navigation#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.Navigation();
                 s.m_Mode = this.m_Mode;
                 s.m_SelectOnUp = this.m_SelectOnUp;
@@ -4948,20 +5489,28 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             countActive: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#countActive#get", this ); }
+
                     return this.countAll - this.countInactive;
                 }
             },
             countInactive: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#countInactive#get", this ); }
+
                     return this.m_Stack.Count;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#init", this ); }
+
                 this.m_Stack = new (System.Collections.Generic.Stack$1(T)).ctor();
             },
             ctor: function (actionOnGet, actionOnRelease) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#ctor", this ); }
+
                 this.$initialize();
                 this.m_ActionOnGet = actionOnGet;
                 this.m_ActionOnRelease = actionOnRelease;
@@ -4970,6 +5519,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         methods: {
             /*UnityEngine.UI.ObjectPool$1.Get start.*/
             Get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#Get", this ); }
+
                 var element;
                 if (this.m_Stack.Count === 0) {
                     element = Bridge.createInstance(T);
@@ -4988,6 +5539,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.ObjectPool$1.Release start.*/
             Release: function (element) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ObjectPool$1#Release", this ); }
+
                 if (this.m_Stack.Count > 0 && Bridge.referenceEquals(Bridge.rValue(this.m_Stack.Peek()), Bridge.rValue(element))) {
                     UnityEngine.Debug.LogError$2("Internal error. Trying to destroy object that is already released to pool.");
                 }
@@ -5013,6 +5566,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectangularVertexClipper#init", this ); }
+
                 this.m_WorldCorners = System.Array.init(4, function (){
                     return new UnityEngine.Vector3();
                 }, UnityEngine.Vector3);
@@ -5024,6 +5579,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         methods: {
             /*UnityEngine.UI.RectangularVertexClipper.GetCanvasRect start.*/
             GetCanvasRect: function (t, c) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectangularVertexClipper#GetCanvasRect", this ); }
+
                 if (UnityEngine.Component.op_Equality(c, null)) {
                     return new UnityEngine.Rect.ctor();
                 }
@@ -5052,6 +5609,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             props: {
                 Singleton: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ReflectionMethodsCache#Singleton#get", this ); }
+
                         if (UnityEngine.UI.ReflectionMethodsCache.s_ReflectionMethodsCache == null) {
                             UnityEngine.UI.ReflectionMethodsCache.s_ReflectionMethodsCache = new UnityEngine.UI.ReflectionMethodsCache();
                         }
@@ -5071,6 +5630,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ReflectionMethodsCache#ctor", this ); }
+
                 this.$initialize();
                 // See task EN-750
                 /* var raycast3DMethodInfo = typeof( Physics ).GetMethod( "Raycast",
@@ -5443,6 +6004,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.UI.SetPropertyUtility.SetColor:static start.*/
                 SetColor: function (currentValue, newValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SetPropertyUtility#SetColor", this ); }
+
                     if (currentValue.v.r === newValue.r && currentValue.v.g === newValue.g && currentValue.v.b === newValue.b && currentValue.v.a === newValue.a) {
                         return false;
                     }
@@ -5454,6 +6017,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.SetPropertyUtility.SetStruct:static start.*/
                 SetStruct: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SetPropertyUtility#SetStruct", this ); }
+
                     if (System.Collections.Generic.EqualityComparer$1(T).def.equals2(Bridge.rValue(currentValue.v), Bridge.rValue(newValue))) {
                         return false;
                     }
@@ -5465,6 +6030,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.SetPropertyUtility.SetClass:static start.*/
                 SetClass: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SetPropertyUtility#SetClass", this ); }
+
                     if (Bridge.rValue(currentValue.v) == null && Bridge.rValue(newValue) == null || Bridge.rValue(currentValue.v) != null && Bridge.equals(Bridge.rValue(currentValue.v), Bridge.rValue(newValue))) {
                         return false;
                     }
@@ -5575,11 +6142,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
      * @implements  System.IEquatable$1
      */
     Bridge.define("UnityEngine.UI.SpriteState", {
-        inherits: function () { return [System.IEquatable$1(UnityEngine.UI.SpriteState)]; },
+        inherits: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#inherits", this ); }
+ return [System.IEquatable$1(UnityEngine.UI.SpriteState)]; },
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new UnityEngine.UI.SpriteState(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#getDefaultValue", this ); }
+ return new UnityEngine.UI.SpriteState(); }
             }
         },
         fields: {
@@ -5600,9 +6171,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             highlightedSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#highlightedSprite#get", this ); }
+
                     return this.m_HighlightedSprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#highlightedSprite#set", this ); }
+
                     this.m_HighlightedSprite = value;
                 }
             },
@@ -5617,9 +6192,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             pressedSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#pressedSprite#get", this ); }
+
                     return this.m_PressedSprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#pressedSprite#set", this ); }
+
                     this.m_PressedSprite = value;
                 }
             },
@@ -5634,9 +6213,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             selectedSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#selectedSprite#get", this ); }
+
                     return this.m_SelectedSprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#selectedSprite#set", this ); }
+
                     this.m_SelectedSprite = value;
                 }
             },
@@ -5651,9 +6234,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             disabledSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#disabledSprite#get", this ); }
+
                     return this.m_DisabledSprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#disabledSprite#set", this ); }
+
                     this.m_DisabledSprite = value;
                 }
             }
@@ -5661,21 +6248,29 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         alias: ["equalsT", "System$IEquatable$1$UnityEngine$UI$SpriteState$equalsT"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*UnityEngine.UI.SpriteState.equalsT start.*/
             equalsT: function (other) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#equalsT", this ); }
+
                 return Bridge.referenceEquals(this.highlightedSprite, other.highlightedSprite) && Bridge.referenceEquals(this.pressedSprite, other.pressedSprite) && Bridge.referenceEquals(this.selectedSprite, other.selectedSprite) && Bridge.referenceEquals(this.disabledSprite, other.disabledSprite);
             },
             /*UnityEngine.UI.SpriteState.equalsT end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#getHashCode", this ); }
+
                 var h = Bridge.addHash([3727378984, this.m_HighlightedSprite, this.m_PressedSprite, this.m_SelectedSprite, this.m_DisabledSprite]);
                 return h;
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.SpriteState#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.SpriteState();
                 s.m_HighlightedSprite = this.m_HighlightedSprite;
                 s.m_PressedSprite = this.m_PressedSprite;
@@ -5707,12 +6302,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#init", this ); }
+
                     this.m_List = new (System.Collections.Generic.List$1(UnityEngine.UI.StencilMaterial.MatEntry)).ctor();
                 }
             },
             methods: {
                 /*UnityEngine.UI.StencilMaterial.Add:static start.*/
                 Add: function (baseMat, stencilID) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#Add", this ); }
+
                     return null;
                 },
                 /*UnityEngine.UI.StencilMaterial.Add:static end.*/
@@ -5733,6 +6332,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.Material}
                  */
                 Add$1: function (baseMat, stencilID, operation, compareFunction, colorWriteMask) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#Add$1", this ); }
+
                     return UnityEngine.UI.StencilMaterial.Add$2(baseMat, stencilID, operation, compareFunction, colorWriteMask, 255, 255);
                 },
                 /*UnityEngine.UI.StencilMaterial.Add$1:static end.*/
@@ -5755,6 +6356,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.Material}
                  */
                 Add$2: function (baseMat, stencilID, operation, compareFunction, colorWriteMask, readMask, writeMask) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#Add$2", this ); }
+
                     if (stencilID <= 0 && colorWriteMask === UnityEngine.Rendering.ColorWriteMask.All || baseMat == null) {
                         return baseMat;
                     }
@@ -5844,6 +6447,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {void}
                  */
                 Remove: function (customMat) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#Remove", this ); }
+
                     if (customMat == null) {
                         return;
                     }
@@ -5868,6 +6473,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
                 /*UnityEngine.UI.StencilMaterial.ClearAll:static start.*/
                 ClearAll: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial#ClearAll", this ); }
+
                     for (var i = 0; i < UnityEngine.UI.StencilMaterial.m_List.Count; ++i) {
                         var ent = UnityEngine.UI.StencilMaterial.m_List.getItem(i);
 
@@ -5902,6 +6509,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.StencilMaterial.MatEntry#init", this ); }
+
                 this.operation = UnityEngine.Rendering.StencilOp.Keep;
                 this.compareFunction = UnityEngine.Rendering.CompareFunction.Always;
             }
@@ -5987,6 +6596,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             currentVertCount: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#currentVertCount#get", this ); }
+
                     return this.vertices.Count;
                 }
             }
@@ -5994,6 +6605,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         alias: ["Dispose", "System$IDisposable$Dispose"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#init", this ); }
+
                 this.vertices = new (System.Collections.Generic.List$1(UnityEngine.UIVertex)).ctor();
                 this.triangles = new (System.Collections.Generic.List$1(System.Int32)).ctor();
             },
@@ -6007,6 +6620,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#ctor", this ); }
+
                 this.$initialize();
             },
             /**
@@ -6020,6 +6635,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             $ctor1: function (mesh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#$ctor1", this ); }
+
                 this.$initialize();
             }
         },
@@ -6038,6 +6655,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddTriangle: function (idx0, idx1, idx2) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddTriangle", this ); }
+
                 this.triangles.add(idx0);
                 this.triangles.add(idx1);
                 this.triangles.add(idx2);
@@ -6056,6 +6675,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddVert: function (v) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddVert", this ); }
+
                 // the vertex is already cloned here - so, let's take a shortcut :)
                 this.vertices.add( v );
             },
@@ -6075,6 +6696,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddVert$1: function (position, color, uv0) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddVert$1", this ); }
+
                 var $t;
                 this.AddVert(($t = new UnityEngine.UIVertex(), $t.position = position.$clone(), $t.color = color.$clone(), $t.uv0 = uv0.$clone(), $t));
             },
@@ -6097,6 +6720,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddVert$2: function (position, color, uv0, uv1, normal, tangent) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddVert$2", this ); }
+
                 var $t;
                 this.AddVert(($t = new UnityEngine.UIVertex(), $t.position = position.$clone(), $t.color = color.$clone(), $t.uv0 = uv0.$clone(), $t.uv1 = uv1.$clone(), $t.normal = normal.$clone(), $t.tangent = tangent.$clone(), $t));
             },
@@ -6114,6 +6739,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             GetUIVertexStream: function (vertexList) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#GetUIVertexStream", this ); }
+
                 vertexList.clear();
                 vertexList.AddRange(this.vertices);
             },
@@ -6130,6 +6757,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             Clear: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#Clear", this ); }
+
                 this.vertices.clear();
                 this.triangles.clear();
             },
@@ -6147,6 +6776,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddUIVertexQuad: function (verts) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddUIVertexQuad", this ); }
+
                 // memoize index of the first vertex we are about to add
                 var firstVertex = this.vertices.Count;
 
@@ -6171,7 +6802,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.UI.VertexHelper
              * @return  {void}
              */
-            Dispose: function () { },
+            Dispose: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#Dispose", this ); }
+ },
             /*UnityEngine.UI.VertexHelper.Dispose end.*/
 
             /*UnityEngine.UI.VertexHelper.PopulateUIVertex start.*/
@@ -6187,6 +6820,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             PopulateUIVertex: function (vertex, i) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#PopulateUIVertex", this ); }
+
                 // As we use pure C# Color32 struct we should use its 'Copy' method instead of 'copy'
                 
                 var original = this.vertices.getItem( i );
@@ -6213,6 +6848,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             SetUIVertex: function (vertex, i) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#SetUIVertex", this ); }
+
                 // we are cloned here already, so, let's simply put it
                 this.vertices.setItem( i, vertex );
             },
@@ -6230,6 +6867,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             AddUIVertexTriangleStream: function (vertexList) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#AddUIVertexTriangleStream", this ); }
+
                 var lastVertex = this.vertices.Count;
                 this.vertices.AddRange(vertexList);
 
@@ -6251,12 +6890,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             FillMesh: function (mesh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#FillMesh", this ); }
+
                 mesh.handle.setUIVertexStream(this.vertices, this.triangles);
             },
             /*UnityEngine.UI.VertexHelper.FillMesh end.*/
 
             /*UnityEngine.UI.VertexHelper.FromMesh start.*/
             FromMesh: function (mesh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VertexHelper#FromMesh", this ); }
+
                 this.vertices.clear();
                 this.triangles.clear();
 
@@ -6295,6 +6938,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             ctor: function (eventSystem) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseEventData#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.AbstractEventData.ctor.call(this);
             }
@@ -6318,6 +6963,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             compositionString: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#compositionString#get", this ); }
+
                     return UnityEngine.Input.compositionString;
                 }
             },
@@ -6332,9 +6979,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             imeCompositionMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#imeCompositionMode#get", this ); }
+
                     return UnityEngine.Input.imeCompositionMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#imeCompositionMode#set", this ); }
+
                     UnityEngine.Input.imeCompositionMode = value;
                 }
             },
@@ -6349,9 +7000,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             compositionCursorPos: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#compositionCursorPos#get", this ); }
+
                     return UnityEngine.Input.compositionCursorPos.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#compositionCursorPos#set", this ); }
+
                     UnityEngine.Input.compositionCursorPos = value.$clone();
                 }
             },
@@ -6367,6 +7022,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             mousePresent: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#mousePresent#get", this ); }
+
                     return UnityEngine.Input.mousePresent;
                 }
             },
@@ -6378,10 +7035,12 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @readonly
              * @memberof UnityEngine.EventSystems.BaseInput
              * @function mousePosition
-             * @type UnityEngine.Vector2
+             * @type UnityEngine.Vector3
              */
             mousePosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#mousePosition#get", this ); }
+
                     return UnityEngine.Input.mousePosition.$clone();
                 }
             },
@@ -6397,6 +7056,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             mouseScrollDelta: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#mouseScrollDelta#get", this ); }
+
                     return UnityEngine.Input.mouseScrollDelta.$clone();
                 }
             },
@@ -6412,6 +7073,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             touchSupported: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#touchSupported#get", this ); }
+
                     return UnityEngine.Input.touchSupported;
                 }
             },
@@ -6427,6 +7090,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             touchCount: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#touchCount#get", this ); }
+
                     return UnityEngine.Input.touchCount;
                 }
             }
@@ -6444,6 +7109,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             GetMouseButtonDown: function (button) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetMouseButtonDown", this ); }
+
                 return UnityEngine.Input.GetMouseButtonDown(button);
             },
             /*UnityEngine.EventSystems.BaseInput.GetMouseButtonDown end.*/
@@ -6460,6 +7127,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             GetMouseButtonUp: function (button) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetMouseButtonUp", this ); }
+
                 return UnityEngine.Input.GetMouseButtonUp(button);
             },
             /*UnityEngine.EventSystems.BaseInput.GetMouseButtonUp end.*/
@@ -6476,6 +7145,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             GetMouseButton: function (button) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetMouseButton", this ); }
+
                 return UnityEngine.Input.GetMouseButton(button);
             },
             /*UnityEngine.EventSystems.BaseInput.GetMouseButton end.*/
@@ -6492,6 +7163,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {UnityEngine.Touch}
              */
             GetTouch: function (index) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetTouch", this ); }
+
                 return UnityEngine.Input.GetTouch(index);
             },
             /*UnityEngine.EventSystems.BaseInput.GetTouch end.*/
@@ -6508,6 +7181,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {number}
              */
             GetAxisRaw: function (axisName) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetAxisRaw", this ); }
+
                 return UnityEngine.Input.GetAxisRaw(axisName);
             },
             /*UnityEngine.EventSystems.BaseInput.GetAxisRaw end.*/
@@ -6524,6 +7199,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             GetButtonDown: function (buttonName) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInput#GetButtonDown", this ); }
+
                 return UnityEngine.Input.GetButtonDown(buttonName);
             },
             /*UnityEngine.EventSystems.BaseInput.GetButtonDown end.*/
@@ -6550,6 +7227,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.EventSystems.RaycastResult}
                  */
                 FindFirstRaycast: function (candidates) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#FindFirstRaycast", this ); }
+
                     for (var i = 0; i < candidates.Count; ++i) {
                         if (UnityEngine.GameObject.op_Equality(candidates.getItem(i).$clone().gameObject, null)) {
                             continue;
@@ -6575,6 +7254,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.EventSystems.MoveDirection}
                  */
                 DetermineMoveDirection: function (x, y) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#DetermineMoveDirection", this ); }
+
                     return UnityEngine.EventSystems.BaseInputModule.DetermineMoveDirection$1(x, y, 0.6);
                 },
                 /*UnityEngine.EventSystems.BaseInputModule.DetermineMoveDirection:static end.*/
@@ -6593,6 +7274,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.EventSystems.MoveDirection}
                  */
                 DetermineMoveDirection$1: function (x, y, deadZone) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#DetermineMoveDirection$1", this ); }
+
                     // if vector is too small... just return
                     if (new pc.Vec2( x, y ).lengthSq() < deadZone * deadZone) {
                         return UnityEngine.EventSystems.MoveDirection.None;
@@ -6627,6 +7310,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  * @return  {UnityEngine.GameObject}
                  */
                 FindCommonRoot: function (g1, g2) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#FindCommonRoot", this ); }
+
                     if (UnityEngine.GameObject.op_Equality(g1, null) || UnityEngine.GameObject.op_Equality(g2, null)) {
                         return null;
                     }
@@ -6673,6 +7358,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             input: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#input#get", this ); }
+
                     var $t;
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.m_InputOverride, null)) {
                         return this.m_InputOverride;
@@ -6715,26 +7402,36 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             inputOverride: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#inputOverride#get", this ); }
+
                     return this.m_InputOverride;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#inputOverride#set", this ); }
+
                     this.m_InputOverride = value;
                 }
             },
             eventSystem: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#eventSystem#get", this ); }
+
                     return this.m_EventSystem;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#init", this ); }
+
                 this.m_RaycastResultCache = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.RaycastResult)).ctor();
             }
         },
         methods: {
             /*UnityEngine.EventSystems.BaseInputModule.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.m_EventSystem = this.GetComponent(UnityEngine.EventSystems.EventSystem);
                 this.m_EventSystem.UpdateModules();
@@ -6743,6 +7440,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.BaseInputModule.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#OnDisable", this ); }
+
                 this.m_EventSystem.UpdateModules();
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnDisable.call(this);
             },
@@ -6750,6 +7449,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter start.*/
             HandlePointerExitAndEnter: function (currentPointerData, newEnterTarget) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#HandlePointerExitAndEnter", this ); }
+
                 // if we have no target / pointerEnter has been deleted
                 // just send exit events to anything we are tracking
                 // then exit
@@ -6819,6 +7520,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {UnityEngine.EventSystems.AxisEventData}
              */
             GetAxisEventData: function (x, y, moveDeadZone) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#GetAxisEventData", this ); }
+
                 if (this.m_AxisEventData == null) {
                     this.m_AxisEventData = new UnityEngine.EventSystems.AxisEventData(this.eventSystem);
                 }
@@ -6841,6 +7544,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {UnityEngine.EventSystems.BaseEventData}
              */
             GetBaseEventData: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#GetBaseEventData", this ); }
+
                 if (this.m_BaseEventData == null) {
                     this.m_BaseEventData = new UnityEngine.EventSystems.BaseEventData(this.eventSystem);
                 }
@@ -6862,6 +7567,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}                 Is the given pointer over an event system object?
              */
             IsPointerOverGameObject: function (pointerId) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#IsPointerOverGameObject", this ); }
+
                 return false;
             },
             /*UnityEngine.EventSystems.BaseInputModule.IsPointerOverGameObject end.*/
@@ -6877,6 +7584,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             ShouldActivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#ShouldActivateModule", this ); }
+
                 return this.enabled && this.gameObject.activeInHierarchy;
             },
             /*UnityEngine.EventSystems.BaseInputModule.ShouldActivateModule end.*/
@@ -6891,7 +7600,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.BaseInputModule
              * @return  {void}
              */
-            DeactivateModule: function () { },
+            DeactivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#DeactivateModule", this ); }
+ },
             /*UnityEngine.EventSystems.BaseInputModule.DeactivateModule end.*/
 
             /*UnityEngine.EventSystems.BaseInputModule.ActivateModule start.*/
@@ -6904,7 +7615,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.BaseInputModule
              * @return  {void}
              */
-            ActivateModule: function () { },
+            ActivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#ActivateModule", this ); }
+ },
             /*UnityEngine.EventSystems.BaseInputModule.ActivateModule end.*/
 
             /*UnityEngine.EventSystems.BaseInputModule.UpdateModule start.*/
@@ -6917,7 +7630,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @memberof UnityEngine.EventSystems.BaseInputModule
              * @return  {void}
              */
-            UpdateModule: function () { },
+            UpdateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#UpdateModule", this ); }
+ },
             /*UnityEngine.EventSystems.BaseInputModule.UpdateModule end.*/
 
             /*UnityEngine.EventSystems.BaseInputModule.IsModuleSupported start.*/
@@ -6931,6 +7646,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}        Is the module supported.
              */
             IsModuleSupported: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseInputModule#IsModuleSupported", this ); }
+
                 return true;
             },
             /*UnityEngine.EventSystems.BaseInputModule.IsModuleSupported end.*/
@@ -6967,6 +7684,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             renderOrderPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#renderOrderPriority#get", this ); }
+
                     var $t;
                     if ((($t = this.handle.entity) != null ? $t.screen : null) == null) {
                         return -1;
@@ -6987,6 +7706,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             sortOrderPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#sortOrderPriority#get", this ); }
+
                     var $t;
                     if ((($t = this.handle.entity) != null ? $t.screen : null) == null) {
                         return -1;
@@ -7007,6 +7728,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             rootRaycaster: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#rootRaycaster#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this._rootRaycaster, null)) {
                         var baseRaycasters = this.GetComponentsInParent(UnityEngine.EventSystems.BaseRaycaster);
                         if (baseRaycasters.length !== 0) {
@@ -7032,12 +7755,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#ConfigureForEntity", this ); }
+
                 this.entity = entity;
             },
             /*UnityEngine.EventSystems.BaseRaycaster.ConfigureForEntity end.*/
 
             /*UnityEngine.EventSystems.BaseRaycaster.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 UnityEngine.EventSystems.RaycasterManager.AddRaycaster(this);
             },
@@ -7045,6 +7772,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.BaseRaycaster.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#OnDisable", this ); }
+
                 UnityEngine.EventSystems.RaycasterManager.RemoveRaycasters(this);
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnDisable.call(this);
             },
@@ -7052,6 +7781,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.BaseRaycaster.OnCanvasHierarchyChanged start.*/
             OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#OnCanvasHierarchyChanged", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnCanvasHierarchyChanged.call(this);
                 this._rootRaycaster = null;
             },
@@ -7059,6 +7790,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.BaseRaycaster.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.BaseRaycaster#OnTransformParentChanged", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnTransformParentChanged.call(this);
                 this._rootRaycaster = null;
             },
@@ -7089,9 +7822,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
                  */
                 current: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#current#get", this ); }
+
                         return UnityEngine.EventSystems.EventSystem.eventSystems.Count > 0 ? UnityEngine.EventSystems.EventSystem.eventSystems.getItem(0) : null;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#current#set", this ); }
+
                         var index = UnityEngine.EventSystems.EventSystem.eventSystems.indexOf(value);
                         if (index >= 0) {
                             UnityEngine.EventSystems.EventSystem.eventSystems.removeAt(index);
@@ -7102,6 +7839,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#init", this ); }
+
                     this.eventSystems = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.EventSystem)).ctor();
                     this.raycastComparer = UnityEngine.EventSystems.EventSystem.RaycastComparer;
                 }
@@ -7109,6 +7848,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.EventSystems.EventSystem.RaycastComparer:static start.*/
                 RaycastComparer: function (lhs, rhs) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#RaycastComparer", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Inequality(lhs.module, rhs.module)) {
                         var lhsEventCamera = lhs.module.eventCamera;
                         var rhsEventCamera = rhs.module.eventCamera;
@@ -7184,9 +7925,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             sendNavigationEvents: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#sendNavigationEvents#get", this ); }
+
                     return this._sendNavigationEvents;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#sendNavigationEvents#set", this ); }
+
                     this._sendNavigationEvents = value;
                 }
             },
@@ -7201,9 +7946,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             pixelDragThreshold: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#pixelDragThreshold#get", this ); }
+
                     return this.dragThreshold;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#pixelDragThreshold#set", this ); }
+
                     this.dragThreshold = value;
                 }
             },
@@ -7219,6 +7968,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             currentInputModule: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#currentInputModule#get", this ); }
+
                     return this._currentInputModule;
                 }
             },
@@ -7233,9 +7984,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             firstSelectedGameObject: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#firstSelectedGameObject#get", this ); }
+
                     return this.firstSelected;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#firstSelectedGameObject#set", this ); }
+
                     this.firstSelected = value;
                 }
             },
@@ -7251,11 +8006,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             currentSelectedGameObject: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#currentSelectedGameObject#get", this ); }
+
                     return this.currentSelected;
                 }
             },
             lastSelectedGameObject: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#lastSelectedGameObject#get", this ); }
+
                     return null;
                 }
             },
@@ -7271,6 +8030,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             isFocused: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#isFocused#get", this ); }
+
                     return this.hasFocus;
                 }
             },
@@ -7286,11 +8047,15 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             alreadySelecting: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#alreadySelecting#get", this ); }
+
                     return this.selectionGuard;
                 }
             },
             baseEventDataCache: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#baseEventDataCache#get", this ); }
+
                     if (this.dummyData == null) {
                         this.dummyData = new UnityEngine.EventSystems.BaseEventData(this);
                     }
@@ -7301,12 +8066,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#init", this ); }
+
                 this.systemInputModules = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.BaseInputModule)).ctor();
                 this._sendNavigationEvents = true;
                 this.dragThreshold = 10;
                 this.hasFocus = true;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             }
@@ -7323,6 +8092,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             UpdateModules: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#UpdateModules", this ); }
+
                 this.GetComponents$2(UnityEngine.EventSystems.BaseInputModule, this.systemInputModules);
                 for (var i = this.systemInputModules.Count - 1; i >= 0; i--) {
                     if (UnityEngine.Object.op_Implicit(this.systemInputModules.getItem(i)) && this.systemInputModules.getItem(i).IsActive()) {
@@ -7347,6 +8118,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             SetSelectedGameObject$1: function (selected, pointer) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#SetSelectedGameObject$1", this ); }
+
                 if (this.selectionGuard) {
                     UnityEngine.Debug.LogError$2(System.String.concat("Attempting to select ", selected) + "while already selecting an object.");
                     return;
@@ -7378,6 +8151,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             SetSelectedGameObject: function (selected) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#SetSelectedGameObject", this ); }
+
                 this.SetSelectedGameObject$1(selected, this.baseEventDataCache);
             },
             /*UnityEngine.EventSystems.EventSystem.SetSelectedGameObject end.*/
@@ -7395,6 +8170,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             RaycastAll: function (eventData, raycastResults) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#RaycastAll", this ); }
+
                 raycastResults.clear();
                 var modules = UnityEngine.EventSystems.RaycasterManager.GetRaycasters();
                 for (var i = 0; i < modules.Count; ++i) {
@@ -7421,6 +8198,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             IsPointerOverGameObject: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#IsPointerOverGameObject", this ); }
+
                 return this.IsPointerOverGameObject$1(UnityEngine.EventSystems.PointerInputModule.kMouseLeftId);
             },
             /*UnityEngine.EventSystems.EventSystem.IsPointerOverGameObject end.*/
@@ -7460,6 +8239,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {boolean}
              */
             IsPointerOverGameObject$1: function (pointerId) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#IsPointerOverGameObject$1", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this._currentInputModule, null)) {
                     return false;
                 }
@@ -7470,6 +8251,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 UnityEngine.EventSystems.EventSystem.eventSystems.add(this);
             },
@@ -7477,6 +8260,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#OnDisable", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this._currentInputModule, null)) {
                     this._currentInputModule.DeactivateModule();
                     this._currentInputModule = null;
@@ -7490,6 +8275,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.TickModules start.*/
             TickModules: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#TickModules", this ); }
+
                 for (var i = 0; i < this.systemInputModules.Count; i++) {
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.systemInputModules.getItem(i), null)) {
                         this.systemInputModules.getItem(i).UpdateModule();
@@ -7500,12 +8287,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.OnApplicationFocus start.*/
             OnApplicationFocus: function (hasFocus) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#OnApplicationFocus", this ); }
+
                 this.hasFocus = hasFocus;
             },
             /*UnityEngine.EventSystems.EventSystem.OnApplicationFocus end.*/
 
             /*UnityEngine.EventSystems.EventSystem.Update start.*/
             Update: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#Update", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(UnityEngine.EventSystems.EventSystem.current, this)) {
                     return;
                 }
@@ -7545,6 +8336,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.ChangeEventModule start.*/
             ChangeEventModule: function (module) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#ChangeEventModule", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this._currentInputModule, module)) {
                     return;
                 }
@@ -7563,6 +8356,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.EventSystems.EventSystem.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventSystem#toString", this ); }
+
                 var sb = new System.Text.StringBuilder();
                 sb.appendLine(System.String.concat("<b>Selected:</b>", this.currentSelectedGameObject));
                 sb.appendLine();
@@ -7762,9 +8557,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             aspectMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#aspectMode#get", this ); }
+
                     return this.m_AspectMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#aspectMode#set", this ); }
+
                     this.m_AspectMode = value;
                 }
             },
@@ -7779,9 +8578,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             aspectRatio: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#aspectRatio#get", this ); }
+
                     return this.m_AspectRatio;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#aspectRatio#set", this ); }
+
                     this.m_AspectRatio = value;
                 }
             },
@@ -7797,6 +8600,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#rectTransform#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_Rect, null)) {
                         this.m_Rect = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -7807,6 +8612,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#init", this ); }
+
                 this.m_AspectMode = UnityEngine.UI.AspectRatioFitter.AspectMode.None;
                 this.m_AspectRatio = 1.0;
             }
@@ -7823,6 +8630,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             UpdateRect: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#UpdateRect", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -7874,6 +8683,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {number}            The size delta to produce size.
              */
             GetSizeDeltaToProduceSize: function (size, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#GetSizeDeltaToProduceSize", this ); }
+
                 return size - this.GetParentSize().getitem(axis) * (this.rectTransform.anchorMax.getitem(axis) - this.rectTransform.anchorMin.getitem(axis));
             },
             /*UnityEngine.UI.AspectRatioFitter.GetSizeDeltaToProduceSize end.*/
@@ -7889,6 +8700,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {UnityEngine.Vector2}        The parent size.
              */
             GetParentSize: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#GetParentSize", this ); }
+
                 var parent = Bridge.as(this.rectTransform.parent, UnityEngine.RectTransform);
 
                 if (!UnityEngine.Object.op_Implicit(parent)) {
@@ -7911,6 +8724,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.SetDirty();
             },
@@ -7927,6 +8742,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             SetDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#SetDirty", this ); }
+
                 this.UpdateRect();
             },
             /*UnityEngine.UI.AspectRatioFitter.SetDirty end.*/
@@ -7943,6 +8760,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.AspectRatioFitter#OnRectTransformDimensionsChange", this ); }
+
                 this.UpdateRect();
             },
             /*UnityEngine.UI.AspectRatioFitter.OnRectTransformDimensionsChange end.*/
@@ -7971,6 +8790,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             graphic: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.BaseMeshEffect#graphic#get", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Equality(this.m_Graphic, null)) {
                         this.m_Graphic = this.GetComponent(UnityEngine.UI.Graphic);
                     }
@@ -7983,6 +8804,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         methods: {
             /*UnityEngine.UI.BaseMeshEffect.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.BaseMeshEffect#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                     this.graphic.SetVerticesDirty();
@@ -7992,6 +8815,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.BaseMeshEffect.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.BaseMeshEffect#OnDisable", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                     this.graphic.SetVerticesDirty();
                 }
@@ -8012,6 +8837,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.BaseMeshEffect#OnDidApplyAnimationProperties", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                     this.graphic.SetVerticesDirty();
                 }
@@ -8032,6 +8859,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ModifyMesh: function (mesh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.BaseMeshEffect#ModifyMesh", this ); }
+
                 var vh = new UnityEngine.UI.VertexHelper.$ctor1(mesh);
                 try {
                     this.ModifyMesh$1(vh);
@@ -8114,9 +8943,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             uiScaleMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#uiScaleMode#get", this ); }
+
                     return this.m_UiScaleMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#uiScaleMode#set", this ); }
+
                     this.m_UiScaleMode = value;
                     this.UpdateScreenMatchMode();
                 }
@@ -8132,9 +8965,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             screenMatchMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#screenMatchMode#get", this ); }
+
                     return this.m_ScreenMatchMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#screenMatchMode#set", this ); }
+
                     this.m_ScreenMatchMode = value;
                     this.UpdateScreenMatchMode();
                 }
@@ -8150,9 +8987,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             referenceResolution: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#referenceResolution#get", this ); }
+
                     return this.m_ReferenceResolution.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#referenceResolution#set", this ); }
+
                     this.m_ReferenceResolution = value.$clone();
                     this.handle.entity.screen.referenceResolution = value.$clone();
                 }
@@ -8168,9 +9009,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             scaleFactor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#scaleFactor#get", this ); }
+
                     return this.handle.entity.screen.scale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#scaleFactor#set", this ); }
+
                     this.m_ScaleFactor = value;
                     this.handle.entity.screen.scaleFactor = value;
                 }
@@ -8186,9 +9031,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             matchWidthOrHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#matchWidthOrHeight#get", this ); }
+
                     return this.m_MatchWidthOrHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#matchWidthOrHeight#set", this ); }
+
                     this.m_MatchWidthOrHeight = value;
                     this.handle.entity.screen.scaleBlend = this.m_ScreenMatchMode === UnityEngine.UI.CanvasScaler.ScreenMatchMode.MatchWidthOrHeight ? value : 0;
                 }
@@ -8204,9 +9053,13 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              */
             referencePixelsPerUnit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#referencePixelsPerUnit#get", this ); }
+
                     return this.m_ReferencePixelsPerUnit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#referencePixelsPerUnit#set", this ); }
+
                     this.m_ReferencePixelsPerUnit = value;
                     this.handle.entity.screen.referencePixelsPerUnit = value;
                 }
@@ -8214,6 +9067,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#init", this ); }
+
                 this.m_ReferenceResolution = new UnityEngine.Vector2();
                 this.m_ReferenceResolution = pc.Vec2.ZERO.clone();
                 this.m_ScaleFactor = 1;
@@ -8234,6 +9089,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#Awake", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.Awake.call(this);
 
                 this.handle.entity.screen.referenceResolution = this.m_ReferenceResolution.$clone();
@@ -8258,6 +9115,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#ConfigureForEntity", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.ConfigureForEntity.call(this, entity);
                 this.entity.element["__UnityEngine.UI.CanvasScaler"] = this;
             },
@@ -8274,6 +9133,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             HandleScaleWithScreenSize: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#HandleScaleWithScreenSize", this ); }
+
                 throw new System.NotImplementedException.ctor();
             },
             /*UnityEngine.UI.CanvasScaler.HandleScaleWithScreenSize end.*/
@@ -8289,6 +9150,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
              * @return  {void}
              */
             UpdateScreenMatchMode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CanvasScaler#UpdateScreenMatchMode", this ); }
+
                 if (this.m_UiScaleMode !== UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize) {
                     this.handle.entity.screen.scaleMode = pc.ScreenComponent.SCALEMODE_NONE;
                     return;
@@ -8340,7 +9203,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new UnityEngine.UI.CoroutineTween.ColorTween(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#getDefaultValue", this ); }
+ return new UnityEngine.UI.CoroutineTween.ColorTween(); }
             }
         },
         fields: {
@@ -8354,41 +9219,61 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             startColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#startColor#get", this ); }
+
                     return this.m_StartColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#startColor#set", this ); }
+
                     this.m_StartColor = value.$clone();
                 }
             },
             targetColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#targetColor#get", this ); }
+
                     return this.m_TargetColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#targetColor#set", this ); }
+
                     this.m_TargetColor = value.$clone();
                 }
             },
             tweenMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#tweenMode#get", this ); }
+
                     return this.m_TweenMode;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#tweenMode#set", this ); }
+
                     this.m_TweenMode = value;
                 }
             },
             duration: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#duration#get", this ); }
+
                     return this.m_Duration;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#duration#set", this ); }
+
                     this.m_Duration = value;
                 }
             },
             ignoreTimeScale: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#ignoreTimeScale#get", this ); }
+
                     return this.m_IgnoreTimeScale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#ignoreTimeScale#set", this ); }
+
                     this.m_IgnoreTimeScale = value;
                 }
             }
@@ -8401,16 +9286,22 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#init", this ); }
+
                 this.m_StartColor = new UnityEngine.Color();
                 this.m_TargetColor = new UnityEngine.Color();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*UnityEngine.UI.CoroutineTween.ColorTween.TweenValue start.*/
             TweenValue: function (floatPercentage) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#TweenValue", this ); }
+
                 if (!this.ValidTarget()) {
                     return;
                 }
@@ -8430,6 +9321,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.CoroutineTween.ColorTween.AddOnChangedCallback start.*/
             AddOnChangedCallback: function (callback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#AddOnChangedCallback", this ); }
+
                 if (this.m_Target == null) {
                     this.m_Target = new UnityEngine.UI.CoroutineTween.ColorTween.ColorTweenCallback();
                 }
@@ -8440,33 +9333,45 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.CoroutineTween.ColorTween.GetIgnoreTimescale start.*/
             GetIgnoreTimescale: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#GetIgnoreTimescale", this ); }
+
                 return this.m_IgnoreTimeScale;
             },
             /*UnityEngine.UI.CoroutineTween.ColorTween.GetIgnoreTimescale end.*/
 
             /*UnityEngine.UI.CoroutineTween.ColorTween.GetDuration start.*/
             GetDuration: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#GetDuration", this ); }
+
                 return this.m_Duration;
             },
             /*UnityEngine.UI.CoroutineTween.ColorTween.GetDuration end.*/
 
             /*UnityEngine.UI.CoroutineTween.ColorTween.ValidTarget start.*/
             ValidTarget: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#ValidTarget", this ); }
+
                 return this.m_Target != null;
             },
             /*UnityEngine.UI.CoroutineTween.ColorTween.ValidTarget end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#getHashCode", this ); }
+
                 var h = Bridge.addHash([3571724826, this.m_Target, this.m_StartColor, this.m_TargetColor, this.m_TweenMode, this.m_Duration, this.m_IgnoreTimeScale]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#equals", this ); }
+
                 if (!Bridge.is(o, UnityEngine.UI.CoroutineTween.ColorTween)) {
                     return false;
                 }
                 return Bridge.equals(this.m_Target, o.m_Target) && Bridge.equals(this.m_StartColor, o.m_StartColor) && Bridge.equals(this.m_TargetColor, o.m_TargetColor) && Bridge.equals(this.m_TweenMode, o.m_TweenMode) && Bridge.equals(this.m_Duration, o.m_Duration) && Bridge.equals(this.m_IgnoreTimeScale, o.m_IgnoreTimeScale);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.ColorTween#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.CoroutineTween.ColorTween();
                 s.m_Target = this.m_Target;
                 s.m_StartColor = this.m_StartColor.$clone();
@@ -8486,7 +9391,9 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         $kind: "struct",
         statics: {
             methods: {
-                getDefaultValue: function () { return new UnityEngine.UI.CoroutineTween.FloatTween(); }
+                getDefaultValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#getDefaultValue", this ); }
+ return new UnityEngine.UI.CoroutineTween.FloatTween(); }
             }
         },
         fields: {
@@ -8499,33 +9406,49 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         props: {
             startValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#startValue#get", this ); }
+
                     return this.m_StartValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#startValue#set", this ); }
+
                     this.m_StartValue = value;
                 }
             },
             targetValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#targetValue#get", this ); }
+
                     return this.m_TargetValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#targetValue#set", this ); }
+
                     this.m_TargetValue = value;
                 }
             },
             duration: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#duration#get", this ); }
+
                     return this.m_Duration;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#duration#set", this ); }
+
                     this.m_Duration = value;
                 }
             },
             ignoreTimeScale: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#ignoreTimeScale#get", this ); }
+
                     return this.m_IgnoreTimeScale;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#ignoreTimeScale#set", this ); }
+
                     this.m_IgnoreTimeScale = value;
                 }
             }
@@ -8538,12 +9461,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         ],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#ctor", this ); }
+
                 this.$initialize();
             }
         },
         methods: {
             /*UnityEngine.UI.CoroutineTween.FloatTween.TweenValue start.*/
             TweenValue: function (floatPercentage) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#TweenValue", this ); }
+
                 if (!this.ValidTarget()) {
                     return;
                 }
@@ -8554,6 +9481,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.CoroutineTween.FloatTween.AddOnChangedCallback start.*/
             AddOnChangedCallback: function (callback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#AddOnChangedCallback", this ); }
+
                 if (this.m_Target == null) {
                     this.m_Target = new UnityEngine.UI.CoroutineTween.FloatTween.FloatTweenCallback();
                 }
@@ -8564,33 +9493,45 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
 
             /*UnityEngine.UI.CoroutineTween.FloatTween.GetIgnoreTimescale start.*/
             GetIgnoreTimescale: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#GetIgnoreTimescale", this ); }
+
                 return this.m_IgnoreTimeScale;
             },
             /*UnityEngine.UI.CoroutineTween.FloatTween.GetIgnoreTimescale end.*/
 
             /*UnityEngine.UI.CoroutineTween.FloatTween.GetDuration start.*/
             GetDuration: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#GetDuration", this ); }
+
                 return this.m_Duration;
             },
             /*UnityEngine.UI.CoroutineTween.FloatTween.GetDuration end.*/
 
             /*UnityEngine.UI.CoroutineTween.FloatTween.ValidTarget start.*/
             ValidTarget: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#ValidTarget", this ); }
+
                 return this.m_Target != null;
             },
             /*UnityEngine.UI.CoroutineTween.FloatTween.ValidTarget end.*/
 
             getHashCode: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#getHashCode", this ); }
+
                 var h = Bridge.addHash([3337039647, this.m_Target, this.m_StartValue, this.m_TargetValue, this.m_Duration, this.m_IgnoreTimeScale]);
                 return h;
             },
             equals: function (o) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#equals", this ); }
+
                 if (!Bridge.is(o, UnityEngine.UI.CoroutineTween.FloatTween)) {
                     return false;
                 }
                 return Bridge.equals(this.m_Target, o.m_Target) && Bridge.equals(this.m_StartValue, o.m_StartValue) && Bridge.equals(this.m_TargetValue, o.m_TargetValue) && Bridge.equals(this.m_Duration, o.m_Duration) && Bridge.equals(this.m_IgnoreTimeScale, o.m_IgnoreTimeScale);
             },
             $clone: function (to) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.FloatTween#$clone", this ); }
+
                 var s = to || new UnityEngine.UI.CoroutineTween.FloatTween();
                 s.m_Target = this.m_Target;
                 s.m_StartValue = this.m_StartValue;
@@ -8609,6 +9550,8 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
             methods: {
                 /*UnityEngine.UI.CoroutineTween.TweenRunner$1.Start:static start.*/
                 Start: function (tweenInfo) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.TweenRunner$1#Start", this ); }
+
                     var $step = 0,
                         $jumpFromFinally,
                         $returnValue,
@@ -8685,12 +9628,16 @@ Bridge.assembly("UnityEngine.UI", function ($asm, globals) {
         methods: {
             /*UnityEngine.UI.CoroutineTween.TweenRunner$1.Init start.*/
             Init: function (coroutineContainer) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.TweenRunner$1#Init", this ); }
+
                 this.m_CoroutineContainer = coroutineContainer;
             },
             /*UnityEngine.UI.CoroutineTween.TweenRunner$1.Init end.*/
 
             /*UnityEngine.UI.CoroutineTween.TweenRunner$1.StartTween start.*/
             StartTween: function (info) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.TweenRunner$1#StartTween", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_CoroutineContainer, null)) {
                     UnityEngine.Debug.LogWarning$1("Coroutine container not configured... did you forget to call Init?");
                     return;
@@ -8710,6 +9657,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.CoroutineTween.TweenRunner$1.StopTween start.*/
             StopTween: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.CoroutineTween.TweenRunner$1#StopTween", this ); }
+
                 if (this.m_Tween != null) {
                     this.m_CoroutineContainer.StopCoroutine(this.m_Tween);
                     this.m_Tween = null;
@@ -8752,6 +9701,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  */
                 defaultGraphicMaterial: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#defaultGraphicMaterial#get", this ); }
+
                         if (this.s_DefaultUI === null) {
                             UnityEngine.UI.Graphic.s_DefaultUI = UnityEngine.Canvas.GetDefaultCanvasMaterial();
                         }
@@ -8762,6 +9713,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#init", this ); }
+
                     this.s_DefaultUI = null;
                     this.s_WhiteTexture = null;
                     this.s_VertexHelper = new UnityEngine.UI.VertexHelper.ctor();
@@ -8770,6 +9723,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             methods: {
                 /*UnityEngine.UI.Graphic.CreateColorFromAlpha:static start.*/
                 CreateColorFromAlpha: function (alpha) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#CreateColorFromAlpha", this ); }
+
                     var black = new pc.Color( 0, 0, 0, 1 );
                     black.a = alpha;
                     return black.$clone();
@@ -8826,6 +9781,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             canvas: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#canvas#get", this ); }
+
                     return UnityEngine.Object.FromHandle(UnityEngine.Canvas, this.handle.entity.element._nearestScreen);
                 }
             },
@@ -8841,6 +9798,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             materialForRendering: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#materialForRendering#get", this ); }
+
                     var modifiedMaterial = this.material;
 
                     
@@ -8869,6 +9828,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             defaultMaterial: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#defaultMaterial#get", this ); }
+
                     return UnityEngine.UI.Graphic.defaultGraphicMaterial;
                 }
             },
@@ -8884,6 +9845,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             canvasRenderer: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#canvasRenderer#get", this ); }
+
                     if (this.m_CanvasRenderer === null) {
                         this.m_CanvasRenderer = this.GetComponent(UnityEngine.CanvasRenderer);
                     }
@@ -8902,9 +9865,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#rectTransform#get", this ); }
+
                     return UnityEngine.Object.FromHandle(UnityEngine.RectTransform, this.handle.entity);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#rectTransform#set", this ); }
+
                     throw new System.NotImplementedException.ctor();
                 }
             },
@@ -8920,6 +9887,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             mainTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#mainTexture#get", this ); }
+
                     return this.defaultMaterial.mainTexture;
                 }
             },
@@ -8946,6 +9915,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             depth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#depth#get", this ); }
+
                     return this.canvasRenderer.absoluteDepth;
                 }
             },
@@ -8960,9 +9931,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             material: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#material#get", this ); }
+
                     return this.m_Material != null ? this.m_Material : this.defaultMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#material#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_Material, value)) {
                         return;
                     }
@@ -8983,9 +9958,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             raycastTarget: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#raycastTarget#get", this ); }
+
                     return this.m_RaycastTarget && this.groupBlocksRaycasts;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#raycastTarget#set", this ); }
+
                     this.m_RaycastTarget = value;
                 }
             },
@@ -9000,9 +9979,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             color: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#color#get", this ); }
+
                     return this.m_Color.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#color#set", this ); }
+
                     this.lastSetColor.copy( value.$clone() );
                     this.m_Color.copy( value.$clone() );
                     this.entity.element.color = this.m_Color.$clone();
@@ -9019,6 +10002,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#init", this ); }
+
                 this.m_Color = new UnityEngine.Color();
                 this.lastSetColor = new UnityEngine.Color();
                 this.m_VertsDirty = false;
@@ -9038,6 +10023,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.$ctor1.call(this, null);
                 if (this.m_ColorTweenRunner == null) {
@@ -9058,6 +10045,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.$ctor1.call(this, handle);
                 if (this.m_ColorTweenRunner == null) {
@@ -9071,12 +10060,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.Graphic.AssignDefaultFont start.*/
             AssignDefaultFont: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#AssignDefaultFont", this ); }
+
                 UnityEngine.Debug.LogWarning$1("Not Implement In Luna");
             },
             /*UnityEngine.UI.Graphic.AssignDefaultFont end.*/
 
             /*UnityEngine.UI.Graphic.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#Awake", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.Awake.call(this);
                 var isImageOrText = !!( this.entity.element._image || this.entity.element._text );
                 if (isImageOrText) {
@@ -9101,6 +10094,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetNativeSize: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#SetNativeSize", this ); }
+
                 UnityEngine.Debug.LogWarning$1("Not Implemented In Luna");
                 //throw new NotImplementedException();
             },
@@ -9118,6 +10113,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPopulateMesh: function (vh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnPopulateMesh", this ); }
+
                 // we skip this method in UpdateGeometry - but use that as default method for derived types
                 var pixelAdjustedRect = this.GetPixelAdjustedRect();
                 var vector4 = new pc.Vec4( pixelAdjustedRect.x, pixelAdjustedRect.y, pixelAdjustedRect.x + pixelAdjustedRect.width, pixelAdjustedRect.y + pixelAdjustedRect.height );
@@ -9143,6 +10140,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetMaterialDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#SetMaterialDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -9167,6 +10166,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetAllDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#SetAllDirty", this ); }
+
                 // Optimization: Graphic layout doesn't need recalculation if
                 // the underlying Sprite is the same size with the same texture.
                 // (e.g. Sprite sheet texture animation)
@@ -9189,6 +10190,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Graphic.Rebuild start.*/
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#Rebuild", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.canvasRenderer, null) || this.canvasRenderer.cull) {
                     return;
                 }
@@ -9223,6 +10226,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.Rect}        The pixel adjusted rect.
              */
             GetPixelAdjustedRect: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#GetPixelAdjustedRect", this ); }
+
                 if (!UnityEngine.Object.op_Implicit(this.canvas) || this.canvas.renderMode === UnityEngine.RenderMode.WorldSpace || this.canvas.scaleFactor === 0.0 || !this.canvas.pixelPerfect) {
                     return this.rectTransform.rect.$clone();
                 } else {
@@ -9242,7 +10247,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @param   {UnityEngine.EventSystems.BaseEventData}    eventData    Event data.
              * @return  {void}
              */
-            OnSelect: function (eventData) { },
+            OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnSelect", this ); }
+ },
             /*UnityEngine.UI.Graphic.OnSelect end.*/
 
             /*UnityEngine.UI.Graphic.OnDeselect start.*/
@@ -9256,7 +10263,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @param   {UnityEngine.EventSystems.BaseEventData}    eventData    Event data.
              * @return  {void}
              */
-            OnDeselect: function (eventData) { },
+            OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnDeselect", this ); }
+ },
             /*UnityEngine.UI.Graphic.OnDeselect end.*/
 
             /*UnityEngine.UI.Graphic.OnSubmit start.*/
@@ -9270,7 +10279,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @param   {UnityEngine.EventSystems.BaseEventData}    eventData    Event data.
              * @return  {void}
              */
-            OnSubmit: function (eventData) { },
+            OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnSubmit", this ); }
+ },
             /*UnityEngine.UI.Graphic.OnSubmit end.*/
 
             /*UnityEngine.UI.Graphic.OnMove start.*/
@@ -9284,7 +10295,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @param   {UnityEngine.EventSystems.AxisEventData}    eventData    Event data.
              * @return  {void}
              */
-            OnMove: function (eventData) { },
+            OnMove: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnMove", this ); }
+ },
             /*UnityEngine.UI.Graphic.OnMove end.*/
 
             /*UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback start.*/
@@ -9299,6 +10312,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RegisterDirtyVerticesCallback: function (action) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#RegisterDirtyVerticesCallback", this ); }
+
                 this.m_OnDirtyVertsCallback = Bridge.fn.combine(this.m_OnDirtyVertsCallback, action);
             },
             /*UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback end.*/
@@ -9315,6 +10330,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UnregisterDirtyVerticesCallback: function (action) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#UnregisterDirtyVerticesCallback", this ); }
+
                 this.m_OnDirtyVertsCallback = Bridge.fn.remove(this.m_OnDirtyVertsCallback, action);
             },
             /*UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback end.*/
@@ -9331,6 +10348,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RegisterDirtyMaterialCallback: function (action) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#RegisterDirtyMaterialCallback", this ); }
+
                 this.m_OnDirtyMaterialCallback = Bridge.fn.combine(this.m_OnDirtyMaterialCallback, action);
             },
             /*UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback end.*/
@@ -9347,6 +10366,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UnregisterDirtyMaterialCallback: function (action) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#UnregisterDirtyMaterialCallback", this ); }
+
                 this.m_OnDirtyMaterialCallback = Bridge.fn.remove(this.m_OnDirtyMaterialCallback, action);
             },
             /*UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback end.*/
@@ -9364,6 +10385,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#ConfigureForEntity", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.ConfigureForEntity.call(this, entity);
                 entity.element["UnityEngine.UI.Graphic"] = this;
             },
@@ -9383,6 +10406,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             CrossFadeAlpha: function (alpha, duration, ignoreTimeScale) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#CrossFadeAlpha", this ); }
+
                 this.CrossFadeColor$1(UnityEngine.UI.Graphic.CreateColorFromAlpha(alpha), duration, ignoreTimeScale, true, false);
             },
             /*UnityEngine.UI.Graphic.CrossFadeAlpha end.*/
@@ -9402,12 +10427,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             CrossFadeColor: function (targetColor, duration, ignoreTimeScale, useAlpha) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#CrossFadeColor", this ); }
+
                 this.CrossFadeColor$1(targetColor.$clone(), duration, ignoreTimeScale, useAlpha, true);
             },
             /*UnityEngine.UI.Graphic.CrossFadeColor end.*/
 
             /*UnityEngine.UI.Graphic.CrossFadeColor$1 start.*/
             CrossFadeColor$1: function (targetColor, duration, ignoreTimeScale, useAlpha, useRGB) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#CrossFadeColor$1", this ); }
+
                 var $t;
                 if (UnityEngine.Component.op_Equality(this.canvasRenderer, null) || !useRGB && !useAlpha) {
                     return;
@@ -9438,6 +10467,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetLayoutDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#SetLayoutDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -9461,6 +10492,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetVerticesDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#SetVerticesDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -9485,6 +10518,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#UpdateGeometry", this ); }
+
                 this.handle.entity.element.setVerticesDirty();
                 
                 var modifyMeshMethods = this.gameObject.handle._magicMethods ? this.gameObject.handle._magicMethods[ 'UnityEngine$UI$IMeshModifier$ModifyMesh$1' ] : null;
@@ -9535,6 +10570,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdateMaterial: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#UpdateMaterial", this ); }
+
                 this.canvasRenderer.materialCount = 1;
                 this.canvasRenderer.SetMaterial(this.materialForRendering, 0);
                 this.canvasRenderer.SetTexture(this.mainTexture);
@@ -9553,6 +10590,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnCanvasGroupChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnCanvasGroupChanged", this ); }
+
                 this.groupBlocksRaycasts = UnityEngine.CanvasGroup.ExtractBlocksRaycast(this.handle.entity.element._canvasGroups);
                 this.SetVerticesDirty();
             },
@@ -9571,6 +10610,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}                               True if the provided point is a valid location for GraphicRaycaster raycasts.
              */
             Raycast: function (screenPoint, eventCamera) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#Raycast", this ); }
+
                 
                 if (!this.isActiveAndEnabled) {
                     return false;
@@ -9625,11 +10666,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Graphic.Raycast end.*/
 
             /*UnityEngine.UI.Graphic.LayoutComplete start.*/
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.Graphic.LayoutComplete end.*/
 
             /*UnityEngine.UI.Graphic.GraphicUpdateComplete start.*/
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.Graphic.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.Graphic.OnRectTransformDimensionsChange start.*/
@@ -9644,6 +10689,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnRectTransformDimensionsChange", this ); }
+
                 if (this.gameObject.activeInHierarchy) {
                     // prevent double dirtying...
                     if (UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingLayout()) {
@@ -9658,6 +10705,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Graphic.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnDidApplyAnimationProperties", this ); }
+
                 // [EN-1288] Graphic.OnDidApplyAnimationProperty check all fields update. Check called every frame by animator, even if rect is not changed
                 // SetAllDirty();
                 if (!this.lastSetColor.strictEquals( this.m_Color )) {
@@ -9680,6 +10729,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnTransformParentChanged", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnTransformParentChanged.call(this);
 
                 if (!this.IsActive()) {
@@ -9693,6 +10744,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Graphic.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 UnityEngine.UI.GraphicRegistry.RegisterGraphicForCanvas(this.canvas, this);
                 this.SetAllDirty();
@@ -9701,6 +10754,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Graphic.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnDisable", this ); }
+
                 UnityEngine.UI.GraphicRegistry.UnregisterGraphicForCanvas(this.canvas, this);
                 UnityEngine.UI.CanvasUpdateRegistry.UnRegisterCanvasElementForRebuild(this);
 
@@ -9723,6 +10778,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnCanvasChanged: function (previousCanvas, newCanvas) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#OnCanvasChanged", this ); }
+
                 UnityEngine.UI.GraphicRegistry.UnregisterGraphicForCanvas(previousCanvas, this);
                 UnityEngine.UI.GraphicRegistry.RegisterGraphicForCanvas(newCanvas, this);
 
@@ -9742,6 +10799,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.Vector2}             Pixel perfect adjusted point.
              */
             PixelAdjustPoint: function (point) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Graphic#PixelAdjustPoint", this ); }
+
                 if (!UnityEngine.Object.op_Implicit(this.canvas) || this.canvas.renderMode === UnityEngine.RenderMode.WorldSpace || this.canvas.scaleFactor === 0.0 || !this.canvas.pixelPerfect) {
                     return point.$clone();
                 } else {
@@ -9788,9 +10847,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#minWidth#get", this ); }
+
                     return this.m_MinWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#minWidth#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_MinWidth"), value)) {
                         this.SetDirty();
                     }
@@ -9798,9 +10861,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#minHeight#get", this ); }
+
                     return this.m_MinHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#minHeight#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_MinHeight"), value)) {
                         this.SetDirty();
                     }
@@ -9808,9 +10875,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#preferredWidth#get", this ); }
+
                     return this.m_PreferredWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#preferredWidth#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_PreferredWidth"), value)) {
                         this.SetDirty();
                     }
@@ -9818,9 +10889,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#preferredHeight#get", this ); }
+
                     return this.m_PreferredHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#preferredHeight#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_PreferredHeight"), value)) {
                         this.SetDirty();
                     }
@@ -9828,9 +10903,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#flexibleWidth#get", this ); }
+
                     return this.m_FlexibleWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#flexibleWidth#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_FlexibleWidth"), value)) {
                         this.SetDirty();
                     }
@@ -9838,9 +10917,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#flexibleHeight#get", this ); }
+
                     return this.m_FlexibleHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#flexibleHeight#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_FlexibleHeight"), value)) {
                         this.SetDirty();
                     }
@@ -9848,14 +10931,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#layoutPriority#get", this ); }
+
                     return 1;
                 }
             },
             ignoreLayout: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#ignoreLayout#get", this ); }
+
                     return this.m_IgnoreLayout;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#ignoreLayout#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Boolean, Bridge.ref(this, "m_IgnoreLayout"), value)) {
                         this.SetDirty();
                     }
@@ -9876,6 +10965,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#init", this ); }
+
                 this.m_FlexibleHeight = -1;
                 this.m_FlexibleWidth = -1;
                 this.m_MinHeight = -1;
@@ -9887,6 +10978,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.LayoutElement.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.SetDirty();
             },
@@ -9894,6 +10987,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutElement.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#OnDisable", this ); }
+
                 this.SetDirty();
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnDisable.call(this);
             },
@@ -9901,26 +10996,36 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutElement.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#OnDidApplyAnimationProperties", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.LayoutElement.OnDidApplyAnimationProperties end.*/
 
             /*UnityEngine.UI.LayoutElement.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#OnTransformParentChanged", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.LayoutElement.OnTransformParentChanged end.*/
 
             /*UnityEngine.UI.LayoutElement.CalculateLayoutInputHorizontal start.*/
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#CalculateLayoutInputHorizontal", this ); }
+ },
             /*UnityEngine.UI.LayoutElement.CalculateLayoutInputHorizontal end.*/
 
             /*UnityEngine.UI.LayoutElement.CalculateLayoutInputVertical start.*/
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#CalculateLayoutInputVertical", this ); }
+ },
             /*UnityEngine.UI.LayoutElement.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.LayoutElement.SetDirty start.*/
             SetDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutElement#SetDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -9951,6 +11056,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#init", this ); }
+
                     this.rebuilderPool = System.Array.init(0, null, UnityEngine.UI.LayoutRebuilder);
                 }
             },
@@ -9967,6 +11074,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {void}
                  */
                 MarkLayoutForRebuild: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#MarkLayoutForRebuild", this ); }
+
                     // check that the recttransform is a valid one.
                     if (UnityEngine.Component.op_Equality(rect, null)) {
                         return;
@@ -10024,6 +11133,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {void}
                  */
                 ForceRebuildLayoutImmediate: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#ForceRebuildLayoutImmediate", this ); }
+
                     // gather rebuilder instance
                     var rebuilder = UnityEngine.UI.LayoutRebuilder.Allocate(rect);
 
@@ -10047,6 +11158,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {UnityEngine.UI.LayoutRebuilder}
                  */
                 Allocate: function (root) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#Allocate", this ); }
+
                     var rebuilder = UnityEngine.UI.LayoutRebuilder.rebuilderPool.length > 0 ? UnityEngine.UI.LayoutRebuilder.rebuilderPool[UnityEngine.UI.LayoutRebuilder.rebuilderPool.length - 1] : new UnityEngine.UI.LayoutRebuilder();
                     UnityEngine.UI.LayoutRebuilder.rebuilderPool.length = Math.max( 0, UnityEngine.UI.LayoutRebuilder.rebuilderPool.length - 1 );
 
@@ -10068,6 +11181,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {void}
                  */
                 MarkLayoutRootForRebuild: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#MarkLayoutRootForRebuild", this ); }
+
                     // gather rebuilder instance
                     var rebuilder = UnityEngine.UI.LayoutRebuilder.Allocate(rect);
                     UnityEngine.UI.CanvasUpdateRegistry.RegisterCanvasElementForLayoutRebuild(rebuilder);
@@ -10086,6 +11201,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {boolean}
                  */
                 HasValidLayoutController: function (rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#HasValidLayoutController", this ); }
+
                     // unpack arrays
                     var layoutSelfControllers = rect.handle._layoutSelfControllers;
                     var layoutControllers = rect.handle._layoutControllers;
@@ -10128,6 +11245,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {UnityEngine.RectTransform}
                  */
                 GetRectTransform: function (maybeRectTransform) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#GetRectTransform", this ); }
+
                     return ( maybeRectTransform && maybeRectTransform.handle.element ) ? maybeRectTransform : null;
                 },
                 /*UnityEngine.UI.LayoutRebuilder.GetRectTransform:static end.*/
@@ -10166,6 +11285,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#LayoutComplete", this ); }
+
                 this.transform = null;
                 UnityEngine.UI.LayoutRebuilder.rebuilderPool.push(this);
             },
@@ -10181,11 +11302,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.LayoutRebuilder
              * @return  {void}
              */
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.LayoutRebuilder.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.LayoutRebuilder.IsDestroyed start.*/
             IsDestroyed: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#IsDestroyed", this ); }
+
                 return false;
             },
             /*UnityEngine.UI.LayoutRebuilder.IsDestroyed end.*/
@@ -10202,6 +11327,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Rebuild: function (phase) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#Rebuild", this ); }
+
                 
                 if ( phase !== UnityEngine.UI.CanvasUpdate.Layout ) {
                     return;
@@ -10217,6 +11344,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutRebuilder.PerformCalculateLayoutInputHorizontal start.*/
             PerformCalculateLayoutInputHorizontal: function (root) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#PerformCalculateLayoutInputHorizontal", this ); }
+
                 
                 // leave if no elements attached or the root is disabled
                 if ( !root.enabled || root._layoutElements.length === 0 ) {
@@ -10240,6 +11369,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutRebuilder.PerformCalculateLayoutInputVertical start.*/
             PerformCalculateLayoutInputVertical: function (root) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#PerformCalculateLayoutInputVertical", this ); }
+
                 
                 // leave if no elements attached or the root is disabled
                 if ( !root.enabled || root._layoutElements.length === 0 ) {
@@ -10263,6 +11394,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutRebuilder.PerformSetLayoutHorizontal start.*/
             PerformSetLayoutHorizontal: function (root) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#PerformSetLayoutHorizontal", this ); }
+
                 
                 if ( !root.enabled || ( root._layoutSelfControllers.length + root._layoutControllers.length ) === 0 ) {
                     return;
@@ -10290,6 +11423,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutRebuilder.PerformSetLayoutVertical start.*/
             PerformSetLayoutVertical: function (root) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutRebuilder#PerformSetLayoutVertical", this ); }
+
                 
                 if ( !root.enabled || ( root._layoutSelfControllers.length + root._layoutControllers.length ) === 0 ) {
                     return;
@@ -10342,11 +11477,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             graphic: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#graphic#get", this ); }
+
                     return this.m_Graphic || ((this.m_Graphic = this.GetComponent(UnityEngine.UI.Graphic)));
                 }
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#rectTransform#get", this ); }
+
                     return this.m_RectTransform || ((this.m_RectTransform = this.GetComponent(UnityEngine.RectTransform)));
                 }
             },
@@ -10361,9 +11500,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             showMaskGraphic: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#showMaskGraphic#get", this ); }
+
                     return this.m_ShowMaskGraphic;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#showMaskGraphic#set", this ); }
+
                     this.m_ShowMaskGraphic = value;
                     this.UpdateMaskGraphicSettings();
                 }
@@ -10375,6 +11518,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#init", this ); }
+
                 this.m_ShowMaskGraphic = false;
             },
             /**
@@ -10388,10 +11533,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.$ctor1.call(this, handle);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.$ctor1.call(this, null);
             }
@@ -10408,6 +11557,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}        <pre><code>true</code></pre>, if enabled, <pre><code>false</code></pre> otherwise.
              */
             MaskEnabled: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#MaskEnabled", this ); }
+
                 return this.IsActive() && UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null);
             },
             /*UnityEngine.UI.Mask.MaskEnabled end.*/
@@ -10424,6 +11575,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#Awake", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.Awake.call(this);
 
                 if (this.handle._activeSelf) {
@@ -10439,6 +11592,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Mask.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
 
                 // if mask is detroyed - reset image state to be able to render plain graphics
@@ -10457,6 +11612,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Mask.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#OnDisable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnDisable.call(this);
 
                 // if mask is detroyed - reset image state to be able to render plain graphics
@@ -10484,6 +11641,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdateMaskGraphicSettings: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#UpdateMaskGraphicSettings", this ); }
+
                 this.handle.entity.element.showMaskGraphics = this.m_ShowMaskGraphic;
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                     this.graphic.SetMaterialDirty();
@@ -10501,6 +11660,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.Material}
              */
             GetModifiedMaterial: function (baseMaterial) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#GetModifiedMaterial", this ); }
+
                 if (!this.MaskEnabled()) {
                     return baseMaterial;
                 }
@@ -10548,6 +11709,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Mask.IsRaycastLocationValid start.*/
             IsRaycastLocationValid: function (sp, eventCamera) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Mask#IsRaycastLocationValid", this ); }
+
                 if (!this.isActiveAndEnabled) {
                     return true;
                 }
@@ -10585,6 +11748,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             Canvas: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#Canvas#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_Canvas, null)) {
                         var list = UnityEngine.UI.ListPool$1(UnityEngine.Canvas).Get();
                         this.gameObject.GetComponentsInParent$1(UnityEngine.Canvas, false, list);
@@ -10612,6 +11777,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             canvasRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#canvasRect#get", this ); }
+
                     return this.m_VertexClipper.GetCanvasRect(this.rectTransform, this.Canvas);
                 }
             },
@@ -10627,11 +11794,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#rectTransform#get", this ); }
+
                     return this.m_RectTransform || ((this.m_RectTransform = this.GetComponent(UnityEngine.RectTransform)));
                 }
             },
             rootCanvasRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#rootCanvasRect#get", this ); }
+
                     this.rectTransform.GetWorldCorners(this.m_Corners);
 
                     if (!Bridge.referenceEquals(this.Canvas, null)) {
@@ -10651,6 +11822,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#init", this ); }
+
                 this.m_LastClipRectCanvasSpace = new UnityEngine.Rect();
                 this.m_VertexClipper = new UnityEngine.UI.RectangularVertexClipper();
                 this.m_MaskableTargets = new (System.Collections.Generic.HashSet$1(UnityEngine.UI.MaskableGraphic)).ctor();
@@ -10661,6 +11834,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 }, UnityEngine.Vector3);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             }
@@ -10668,6 +11843,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.RectMask2D.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.m_ShouldRecalculateClipRects = true;
                 UnityEngine.UI.ClipperRegistry.Register(this);
@@ -10677,6 +11854,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.RectMask2D.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#OnDisable", this ); }
+
                 // we call base OnDisable first here
                 // as we need to have the IsActive return the
                 // correct value when we notify the children
@@ -10692,6 +11871,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.RectMask2D.IsRaycastLocationValid start.*/
             IsRaycastLocationValid: function (sp, eventCamera) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#IsRaycastLocationValid", this ); }
+
                 if (!this.isActiveAndEnabled) {
                     return true;
                 }
@@ -10702,6 +11883,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.RectMask2D.PerformClipping start.*/
             PerformClipping: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#PerformClipping", this ); }
+
                 var $t, $t1, $t2, $t3, $t4;
                 if (Bridge.referenceEquals(this.Canvas, null)) {
                     return;
@@ -10821,6 +12004,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             AddClippable: function (clippable) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#AddClippable", this ); }
+
                 if (clippable == null) {
                     return;
                 }
@@ -10850,6 +12035,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RemoveClippable: function (clippable) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#RemoveClippable", this ); }
+
                 if (clippable == null) {
                     return;
                 }
@@ -10871,6 +12058,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.RectMask2D.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#OnTransformParentChanged", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnTransformParentChanged.call(this);
                 this.m_ShouldRecalculateClipRects = true;
             },
@@ -10878,6 +12067,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.RectMask2D.OnCanvasHierarchyChanged start.*/
             OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RectMask2D#OnCanvasHierarchyChanged", this ); }
+
                 this.m_Canvas = null;
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnCanvasHierarchyChanged.call(this);
                 this.m_ShouldRecalculateClipRects = true;
@@ -10915,19 +12106,27 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             allowSwitchOff: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#allowSwitchOff#get", this ); }
+
                     return this.m_AllowSwitchOff;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#allowSwitchOff#set", this ); }
+
                     this.m_AllowSwitchOff = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#init", this ); }
+
                 this.m_AllowSwitchOff = false;
                 this._toggles = new (System.Collections.Generic.List$1(UnityEngine.UI.Toggle)).ctor();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             }
@@ -10935,6 +12134,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.ToggleGroup.ValidateToggleIsInGroup start.*/
             ValidateToggleIsInGroup: function (toggle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#ValidateToggleIsInGroup", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(toggle, null) || !this._toggles.contains(toggle)) {
                     throw new System.ArgumentException.$ctor1(System.String.format.apply(System.String, ["Toggle {0} is not part of ToggleGroup {1}"].concat(System.Array.init([toggle, this], System.Object))));
                 }
@@ -10954,6 +12155,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             NotifyToggleOn: function (toggle, sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#NotifyToggleOn", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 this.ValidateToggleIsInGroup(toggle);
                 // disable all toggles in the group
@@ -10983,6 +12186,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UnregisterToggle: function (toggle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#UnregisterToggle", this ); }
+
                 if (this._toggles.contains(toggle)) {
                     this._toggles.remove(toggle);
                 }
@@ -11006,6 +12211,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RegisterToggle: function (toggle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#RegisterToggle", this ); }
+
                 if (!this._toggles.contains(toggle)) {
                     this._toggles.add(toggle);
                 }
@@ -11028,6 +12235,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}        Are and of the toggles on?
              */
             AnyTogglesOn: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#AnyTogglesOn", this ); }
+
                 return UnityEngine.MonoBehaviour.op_Inequality(this._toggles.Find(function (x) {
                     return x.isOn;
                 }), null);
@@ -11045,6 +12254,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {System.Collections.Generic.IEnumerable$1}        The active toggles in the group.
              */
             ActiveToggles: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#ActiveToggles", this ); }
+
                 return System.Linq.Enumerable.from(this._toggles, UnityEngine.UI.Toggle).where(function (x) {
                         return x.isOn;
                     });
@@ -11063,6 +12274,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetAllTogglesOff: function (sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ToggleGroup#SetAllTogglesOff", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 var oldAllowSwitchOff = this.m_AllowSwitchOff;
                 this.m_AllowSwitchOff = true;
@@ -11113,6 +12326,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.AxisEventData#init", this ); }
+
                 this.moveVector = new UnityEngine.Vector2();
             },
             /**
@@ -11126,6 +12341,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ctor: function (eventSystem) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.AxisEventData#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.BaseEventData.ctor.call(this, eventSystem);
             }
@@ -11167,9 +12384,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             triggers: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#triggers#get", this ); }
+
                     return this.m_Delegates || ((this.m_Delegates = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.EventTrigger.Entry)).ctor()));
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#triggers#set", this ); }
+
                     this.m_Delegates = value || new (System.Collections.Generic.List$1(UnityEngine.EventSystems.EventTrigger.Entry)).ctor();
                 }
             }
@@ -11195,114 +12416,152 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#init", this ); }
+
                 this.m_Delegates = new (System.Collections.Generic.List$1(UnityEngine.EventSystems.EventTrigger.Entry)).ctor();
             }
         },
         methods: {
             /*UnityEngine.EventSystems.EventTrigger.OnPointerEnter start.*/
             OnPointerEnter: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnPointerEnter", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.PointerEnter, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnPointerEnter end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnPointerExit start.*/
             OnPointerExit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnPointerExit", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.PointerExit, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnPointerExit end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnDrag start.*/
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnDrag", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Drag, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnDrag end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnDrop start.*/
             OnDrop: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnDrop", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Drop, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnDrop end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnPointerDown start.*/
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnPointerDown", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.PointerDown, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnPointerDown end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnPointerUp start.*/
             OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnPointerUp", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.PointerUp, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnPointerUp end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnPointerClick start.*/
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnPointerClick", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.PointerClick, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnPointerClick end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnSelect start.*/
             OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnSelect", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Select, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnSelect end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnDeselect start.*/
             OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnDeselect", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Deselect, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnDeselect end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnScroll start.*/
             OnScroll: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnScroll", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Scroll, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnScroll end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnMove start.*/
             OnMove: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnMove", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Move, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnMove end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnUpdateSelected start.*/
             OnUpdateSelected: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnUpdateSelected", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.UpdateSelected, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnUpdateSelected end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnInitializePotentialDrag start.*/
             OnInitializePotentialDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnInitializePotentialDrag", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.InitializePotentialDrag, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnInitializePotentialDrag end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnBeginDrag start.*/
             OnBeginDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnBeginDrag", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.BeginDrag, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnBeginDrag end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnEndDrag start.*/
             OnEndDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnEndDrag", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.EndDrag, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnEndDrag end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnSubmit start.*/
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnSubmit", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Submit, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnSubmit end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.OnCancel start.*/
             OnCancel: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#OnCancel", this ); }
+
                 this.Execute(UnityEngine.EventSystems.EventTriggerType.Cancel, eventData);
             },
             /*UnityEngine.EventSystems.EventTrigger.OnCancel end.*/
 
             /*UnityEngine.EventSystems.EventTrigger.Execute start.*/
             Execute: function (id, eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.EventTrigger#Execute", this ); }
+
                 for (var i = 0, imax = this.triggers.Count; i < imax; ++i) {
                     var ent = { v : this.triggers.getItem(i) };
                     if (ent.v.eventID === id) {
@@ -11343,6 +12602,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#init", this ); }
+
                     this.kNoEventMaskSet = -1;
                 }
             }
@@ -11374,6 +12635,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             eventCamera: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#eventCamera#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_EventCamera, null)) {
                         this.m_EventCamera = this.GetComponent(UnityEngine.Camera);
                     }
@@ -11393,6 +12656,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             depth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#depth#get", this ); }
+
                     return UnityEngine.Component.op_Inequality(this.eventCamera, null) ? this.eventCamera.depth : 16777215;
                 }
             },
@@ -11408,7 +12673,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             finalEventMask: {
                 get: function () {
-                    return UnityEngine.Component.op_Inequality(this.eventCamera, null) ? this.eventCamera.cullingMask & UnityEngine.LayerMask.op_Implicit(this.m_EventMask) : UnityEngine.EventSystems.PhysicsRaycaster.kNoEventMaskSet;
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#finalEventMask#get", this ); }
+
+                    return UnityEngine.Component.op_Inequality(this.eventCamera, null) ? UnityEngine.LayerMask.op_Implicit((UnityEngine.LayerMask.op_BitwiseAnd(UnityEngine.LayerMask.op_Implicit$1(this.eventCamera.cullingMask), this.m_EventMask.$clone()))) : UnityEngine.EventSystems.PhysicsRaycaster.kNoEventMaskSet;
                 }
             },
             /**
@@ -11422,9 +12689,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             eventMask: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#eventMask#get", this ); }
+
                     return this.m_EventMask.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#eventMask#set", this ); }
+
                     this.m_EventMask = value.$clone();
                 }
             },
@@ -11439,21 +12710,29 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             maxRayIntersections: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#maxRayIntersections#get", this ); }
+
                     return this.m_MaxRayIntersections;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#maxRayIntersections#set", this ); }
+
                     this.m_MaxRayIntersections = value;
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#init", this ); }
+
                 this.m_EventMask = new UnityEngine.LayerMask();
                 this.m_EventMask = UnityEngine.LayerMask.op_Implicit$1(-1);
                 this.m_MaxRayIntersections = 0;
                 this.m_LastMaxRayIntersections = 0;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.BaseRaycaster.ctor.call(this);
             }
@@ -11473,6 +12752,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}                                                             True if the operation was successful. false if it was not possible to compute, such as the eventPosition being outside of the view.
              */
             ComputeRayAndDistance: function (eventData, ray, distanceToClipPlane) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#ComputeRayAndDistance", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.eventCamera, null)) {
                     return false;
                 }
@@ -11507,6 +12788,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.PhysicsRaycaster.Raycast start.*/
             Raycast: function (eventData, resultAppendList) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PhysicsRaycaster#Raycast", this ); }
+
                 var $t;
                 var ray = { v : new UnityEngine.Ray.ctor() };
                 var distanceToClipPlane = { v : 0 };
@@ -11780,6 +13063,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             enterEventCamera: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#enterEventCamera#get", this ); }
+
                     return UnityEngine.MonoBehaviour.op_Equality(this.pointerCurrentRaycast.module, null) ? null : this.pointerCurrentRaycast.module.eventCamera;
                 }
             },
@@ -11795,6 +13080,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             pressEventCamera: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#pressEventCamera#get", this ); }
+
                     return UnityEngine.MonoBehaviour.op_Equality(this.pointerPressRaycast.module, null) ? null : this.pointerPressRaycast.module.eventCamera;
                 }
             },
@@ -11809,9 +13096,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             pointerPress: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#pointerPress#get", this ); }
+
                     return this._pointerPress;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#pointerPress#set", this ); }
+
                     if (UnityEngine.GameObject.op_Equality(this._pointerPress, value)) {
                         return;
                     }
@@ -11823,6 +13114,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#init", this ); }
+
                 this.pointerCurrentRaycast = new UnityEngine.EventSystems.RaycastResult();
                 this.pointerPressRaycast = new UnityEngine.EventSystems.RaycastResult();
                 this.position = new UnityEngine.Vector2();
@@ -11834,6 +13127,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this.hovered = new (System.Collections.Generic.List$1(UnityEngine.GameObject)).ctor();
             },
             ctor: function (eventSystem) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.BaseEventData.ctor.call(this, eventSystem);
                 this.eligibleForClick = false;
@@ -11863,6 +13158,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsPointerMoving: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#IsPointerMoving", this ); }
+
                 return this.delta.lengthSq() > 0.0;
             },
             /*UnityEngine.EventSystems.PointerEventData.IsPointerMoving end.*/
@@ -11878,12 +13175,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsScrolling: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#IsScrolling", this ); }
+
                 return this.scrollDelta.lengthSq() > 0.0;
             },
             /*UnityEngine.EventSystems.PointerEventData.IsScrolling end.*/
 
             /*UnityEngine.EventSystems.PointerEventData.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerEventData#toString", this ); }
+
                 var sb = new System.Text.StringBuilder();
                 sb.appendLine("<b>Position</b>: " + this.position);
                 sb.appendLine("<b>delta</b>: " + this.delta);
@@ -11961,6 +13262,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#init", this ); }
+
                     this.kMouseLeftId = -1;
                     this.kMouseRightId = -2;
                     this.kMouseMiddleId = -3;
@@ -11970,6 +13273,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             methods: {
                 /*UnityEngine.EventSystems.PointerInputModule.ShouldStartDrag:static start.*/
                 ShouldStartDrag: function (pressPos, currentPos, threshold, useDragThreshold) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#ShouldStartDrag", this ); }
+
                     if (!useDragThreshold) {
                         return true;
                     }
@@ -11987,6 +13292,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#init", this ); }
+
                 this.m_PointerData = new (System.Collections.Generic.Dictionary$2(System.Int32,UnityEngine.EventSystems.PointerEventData)).ctor();
                 this.m_MouseState = new UnityEngine.EventSystems.PointerInputModule.MouseState();
             }
@@ -12006,6 +13313,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}                                                True if pointer is found.
              */
             GetPointerData: function (id, data, create) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#GetPointerData", this ); }
+
                 var $t;
                 if (!this.m_PointerData.tryGetValue(id, data) && create) {
                     data.v = ($t = new UnityEngine.EventSystems.PointerEventData(this.eventSystem), $t.pointerId = id, $t);
@@ -12029,6 +13338,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RemovePointerData: function (data) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#RemovePointerData", this ); }
+
                 this.m_PointerData.remove(data.pointerId);
             },
             /*UnityEngine.EventSystems.PointerInputModule.RemovePointerData end.*/
@@ -12047,6 +13358,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.EventSystems.PointerEventData}
              */
             GetTouchPointerEventData: function (input, pressed, released) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#GetTouchPointerEventData", this ); }
+
                 var pointerData = { };
                 var created = this.GetPointerData(input.fingerId, pointerData, true);
 
@@ -12096,6 +13409,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             CopyFromTo: function (from, to) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#CopyFromTo", this ); }
+
                 to.position.copy( from.position );
                 to.delta.copy( from.delta );
                 to.scrollDelta.copy( from.scrollDelta );
@@ -12116,6 +13431,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}
              */
             StateForMouseButton: function (buttonId) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#StateForMouseButton", this ); }
+
                 var pressed = this.input.GetMouseButtonDown(buttonId);
                 var released = this.input.GetMouseButtonUp(buttonId);
                 if (pressed && released) {
@@ -12145,6 +13462,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.EventSystems.PointerInputModule.MouseState}
              */
             GetMousePointerEventData: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#GetMousePointerEventData", this ); }
+
                 return this.GetMousePointerEventData$1(0);
             },
             /*UnityEngine.EventSystems.PointerInputModule.GetMousePointerEventData end.*/
@@ -12161,6 +13480,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.EventSystems.PointerInputModule.MouseState}
              */
             GetMousePointerEventData$1: function (id) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#GetMousePointerEventData$1", this ); }
+
+                var $t;
                 // Populate the left button...
                 var leftData = { };
                 var created = this.GetPointerData(UnityEngine.EventSystems.PointerInputModule.kMouseLeftId, leftData, true);
@@ -12168,7 +13490,7 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 leftData.v.Reset();
 
                 if (created) {
-                    leftData.v.position = this.input.mousePosition.$clone();
+                    leftData.v.position = UnityEngine.Vector2.FromVector3(this.input.mousePosition.$clone());
                 }
 
                 var pos = this.input.mousePosition.$clone();
@@ -12177,8 +13499,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     leftData.v.position = new pc.Vec2( -1.0, -1.0 );
                     leftData.v.delta = pc.Vec2.ZERO.clone();
                 } else {
-                    leftData.v.delta = pos.$clone().sub( leftData.v.position );
-                    leftData.v.position = pos.$clone();
+                    leftData.v.delta = UnityEngine.Vector2.FromVector3(($t = leftData.v.position, pos.$clone().subScalars( $t.x, $t.y, 0 )));
+                    leftData.v.position = UnityEngine.Vector2.FromVector3(pos.$clone());
                 }
 
                 leftData.v.scrollDelta = this.input.mouseScrollDelta.$clone();
@@ -12219,6 +13541,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.EventSystems.PointerEventData}
              */
             GetLastPointerEventData: function (id) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#GetLastPointerEventData", this ); }
+
                 var data = { };
                 this.GetPointerData(id, data, false);
                 return data.v;
@@ -12237,6 +13561,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessMove: function (pointerEvent) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#ProcessMove", this ); }
+
                 var targetGO = UnityEngine.Cursor.lockState === UnityEngine.CursorLockMode.Locked ? null : pointerEvent.pointerCurrentRaycast.gameObject;
                 this.HandlePointerExitAndEnter(pointerEvent, targetGO);
             },
@@ -12254,6 +13580,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessDrag: function (pointerEvent) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#ProcessDrag", this ); }
+
                 if (!pointerEvent.IsPointerMoving() || UnityEngine.Cursor.lockState === UnityEngine.CursorLockMode.Locked || UnityEngine.GameObject.op_Equality(pointerEvent.pointerDrag, null)) {
                     return;
                 }
@@ -12282,6 +13610,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.PointerInputModule.IsPointerOverGameObject start.*/
             IsPointerOverGameObject: function (pointerId) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#IsPointerOverGameObject", this ); }
+
                 var lastPointer = this.GetLastPointerEventData(pointerId);
                 if (lastPointer != null) {
                     return UnityEngine.GameObject.op_Inequality(lastPointer.pointerEnter, null);
@@ -12302,6 +13632,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ClearSelection: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#ClearSelection", this ); }
+
                 var $t;
                 var baseEventData = this.GetBaseEventData();
 
@@ -12325,6 +13657,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.PointerInputModule.toString start.*/
             toString: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#toString", this ); }
+
                 var $t;
                 var sb = new System.Text.StringBuilder(System.String.concat("<b>Pointer Input Module of type: </b>", Bridge.getTypeName(Bridge.getType(this))));
                 sb.appendLine();
@@ -12362,6 +13696,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DeselectIfSelectionChanged: function (currentOverGo, pointerEvent) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.PointerInputModule#DeselectIfSelectionChanged", this ); }
+
                 // Selection tracking
                 var selectHandlerGO = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler(UnityEngine.EventSystems.ISelectHandler, currentOverGo);
                 // If we have clicked something new, deselect the old thing
@@ -12417,6 +13753,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  */
                 allSelectablesArray: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#allSelectablesArray#get", this ); }
+
                         if (UnityEngine.UI.Selectable.isDirty) {
                             UnityEngine.UI.Selectable.RemoveInvalidSelectables();
                         }
@@ -12438,6 +13776,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  */
                 allSelectableCount: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#allSelectableCount#get", this ); }
+
                         return UnityEngine.UI.Selectable.selectableCount;
                     }
                 },
@@ -12453,12 +13793,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  */
                 allSelectables: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#allSelectables#get", this ); }
+
                         return new (System.Collections.Generic.List$1(UnityEngine.UI.Selectable)).$ctor1(UnityEngine.UI.Selectable.allSelectablesArray);
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#init", this ); }
+
                     this.selectables = System.Array.init(10, null, UnityEngine.UI.Selectable);
                     this.selectableCount = 0;
                     this.isDirty = false;
@@ -12479,6 +13823,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {number}                                              The number of element copied.
                  */
                 AllSelectablesNoAlloc: function (selectables) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#AllSelectablesNoAlloc", this ); }
+
                     if (UnityEngine.UI.Selectable.isDirty) {
                         UnityEngine.UI.Selectable.RemoveInvalidSelectables();
                     }
@@ -12492,6 +13838,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.Selectable.RemoveInvalidSelectables:static start.*/
                 RemoveInvalidSelectables: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#RemoveInvalidSelectables", this ); }
+
                     for (var i = UnityEngine.UI.Selectable.selectableCount - 1; i >= 0; --i) {
                         // Swap last element in array with element to be removed
                         if (UnityEngine.MonoBehaviour.op_Equality(UnityEngine.UI.Selectable.selectables[i], null) || UnityEngine.UI.Selectable.selectables[i]._willRemove) {
@@ -12505,6 +13853,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.Selectable.GetPointOnRectEdge:static start.*/
                 GetPointOnRectEdge: function (rect, dir) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#GetPointOnRectEdge", this ); }
+
                     var $t, $t1;
                     if (UnityEngine.Component.op_Equality(rect, null)) {
                         return pc.Vec3.ZERO.clone();
@@ -12548,9 +13898,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             navigation: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#navigation#get", this ); }
+
                     return this.m_Navigation.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#navigation#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.Navigation, Bridge.ref(this, "m_Navigation"), value.$clone())) {
                         this.OnSetProperty();
                     }
@@ -12567,9 +13921,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             transition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#transition#get", this ); }
+
                     return this.m_Transition;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#transition#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.Selectable.Transition, Bridge.ref(this, "m_Transition"), value)) {
                         this.OnSetProperty();
                     }
@@ -12586,9 +13944,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             colors: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#colors#get", this ); }
+
                     return this.m_Colors.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#colors#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.ColorBlock, Bridge.ref(this, "m_Colors"), value.$clone())) {
                         this.OnSetProperty();
                     }
@@ -12605,9 +13967,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             spriteState: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#spriteState#get", this ); }
+
                     return this.m_SpriteState.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#spriteState#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.SpriteState, Bridge.ref(this, "m_SpriteState"), value.$clone())) {
                         this.OnSetProperty();
                     }
@@ -12624,9 +13990,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             animationTriggers: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#animationTriggers#get", this ); }
+
                     return this.m_AnimationTriggers;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#animationTriggers#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.UI.AnimationTriggers, Bridge.ref(this, "m_AnimationTriggers"), value)) {
                         this.OnSetProperty();
                     }
@@ -12643,9 +14013,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             targetGraphic: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#targetGraphic#get", this ); }
+
                     return this.m_TargetGraphic;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#targetGraphic#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.UI.Graphic, Bridge.ref(this, "m_TargetGraphic"), value)) {
                         this.OnSetProperty();
                     }
@@ -12662,9 +14036,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             interactable: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#interactable#get", this ); }
+
                     return this.IsInteractable();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#interactable#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Boolean, Bridge.ref(this, "m_Interactable"), value)) {
                         if (!this.m_Interactable && UnityEngine.MonoBehaviour.op_Inequality(UnityEngine.EventSystems.EventSystem.current, null) && UnityEngine.GameObject.op_Equality(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject, this.gameObject)) {
                             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
@@ -12685,9 +14063,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             image: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#image#get", this ); }
+
                     return Bridge.as(this.m_TargetGraphic, UnityEngine.UI.Image);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#image#set", this ); }
+
                     this.m_TargetGraphic = value;
                 }
             },
@@ -12703,11 +14085,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             animator: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#animator#get", this ); }
+
                     return this.GetComponent(UnityEngine.Animator);
                 }
             },
             currentSelectionState: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#currentSelectionState#get", this ); }
+
                     if (!this.IsInteractable()) {
                         return UnityEngine.UI.Selectable.SelectionState.Disabled;
                     }
@@ -12739,6 +14125,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#init", this ); }
+
                 this.m_Navigation = new UnityEngine.UI.Navigation();
                 this.m_Colors = new UnityEngine.UI.ColorBlock();
                 this.m_SpriteState = new UnityEngine.UI.SpriteState();
@@ -12751,6 +14139,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this._willRemove = false;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             },
@@ -12765,6 +14155,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.$ctor1.call(this, handle);
             }
@@ -12772,6 +14164,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.Selectable.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#Awake", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TargetGraphic, null)) {
                     this.m_TargetGraphic = this.GetComponent(UnityEngine.UI.Graphic);
                 }
@@ -12784,6 +14178,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.OnCanvasGroupChanged start.*/
             OnCanvasGroupChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnCanvasGroupChanged", this ); }
+
                 // Figure out if parent groups allow interaction
                 // If no interaction is allowed... then we need
                 // to not do that :)
@@ -12807,18 +14203,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsInteractable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#IsInteractable", this ); }
+
                 return this._groupsAllowInteraction && this.m_Interactable;
             },
             /*UnityEngine.UI.Selectable.IsInteractable end.*/
 
             /*UnityEngine.UI.Selectable.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnDidApplyAnimationProperties", this ); }
+
                 this.OnSetProperty();
             },
             /*UnityEngine.UI.Selectable.OnDidApplyAnimationProperties end.*/
 
             /*UnityEngine.UI.Selectable.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
 
                 if (UnityEngine.UI.Selectable.isDirty) {
@@ -12841,6 +14243,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnTransformParentChanged", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnTransformParentChanged.call(this);
 
                 // If our parenting changes figure out if we are under a new CanvasGroup.
@@ -12850,12 +14254,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.OnSetProperty start.*/
             OnSetProperty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnSetProperty", this ); }
+
                 this.DoStateTransition(this.currentSelectionState, false);
             },
             /*UnityEngine.UI.Selectable.OnSetProperty end.*/
 
             /*UnityEngine.UI.Selectable.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnDisable", this ); }
+
                 this._willRemove = true;
                 UnityEngine.UI.Selectable.isDirty = true;
 
@@ -12866,6 +14274,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.InstantClearState start.*/
             InstantClearState: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#InstantClearState", this ); }
+
                 var triggerName = this.m_AnimationTriggers.normalTrigger;
 
                 this.isPointerInside = false;
@@ -12899,6 +14309,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DoStateTransition: function (state, instant) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#DoStateTransition", this ); }
+
                 var $t;
                 if (!this.gameObject.activeInHierarchy) {
                     return;
@@ -12975,6 +14387,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}           The neighbouring Selectable object. Null if none found.
              */
             FindSelectable: function (dir) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#FindSelectable", this ); }
+
                 dir = dir.clone().normalize().$clone();
                 var localDir = this.transform.rotation.clone().invert().transformVector( dir );
                 var pos = this.transform.TransformPoint$1(UnityEngine.UI.Selectable.GetPointOnRectEdge(Bridge.as(this.transform, UnityEngine.RectTransform), UnityEngine.Vector2.FromVector3(localDir.$clone())));
@@ -13037,6 +14451,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.Navigate start.*/
             Navigate: function (eventData, sel) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#Navigate", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(sel, null) && sel.IsActive()) {
                     eventData.selectedObject = sel.gameObject;
                 }
@@ -13054,6 +14470,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnLeft: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#FindSelectableOnLeft", this ); }
+
                 if (this.m_Navigation.mode === UnityEngine.UI.Navigation.Mode.Explicit) {
                     return this.m_Navigation.selectOnLeft;
                 }
@@ -13077,6 +14495,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnRight: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#FindSelectableOnRight", this ); }
+
                 if (this.m_Navigation.mode === UnityEngine.UI.Navigation.Mode.Explicit) {
                     return this.m_Navigation.selectOnRight;
                 }
@@ -13100,6 +14520,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnUp: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#FindSelectableOnUp", this ); }
+
                 if (this.m_Navigation.mode === UnityEngine.UI.Navigation.Mode.Explicit) {
                     return this.m_Navigation.selectOnUp;
                 }
@@ -13123,6 +14545,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnDown: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#FindSelectableOnDown", this ); }
+
                 if (this.m_Navigation.mode === UnityEngine.UI.Navigation.Mode.Explicit) {
                     return this.m_Navigation.selectOnDown;
                 }
@@ -13147,6 +14571,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnMove: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnMove", this ); }
+
                 switch (eventData.moveDir) {
                     case UnityEngine.EventSystems.MoveDirection.Right: 
                         this.Navigate(eventData, this.FindSelectableOnRight());
@@ -13166,6 +14592,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.StartColorTween start.*/
             StartColorTween: function (targetColor, instant) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#StartColorTween", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TargetGraphic, null)) {
                     return;
                 }
@@ -13176,6 +14604,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.DoSpriteSwap start.*/
             DoSpriteSwap: function (newSprite) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#DoSpriteSwap", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.image, null)) {
                     return;
                 }
@@ -13186,6 +14616,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.TriggerAnimation start.*/
             TriggerAnimation: function (triggername) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#TriggerAnimation", this ); }
+
                 if (this.transition !== UnityEngine.UI.Selectable.Transition.Animation || UnityEngine.Component.op_Equality(this.animator, null) || !this.animator.isActiveAndEnabled || !this.animator.hasBoundPlayables || System.String.isNullOrEmpty(triggername)) {
                     return;
                 }
@@ -13211,6 +14643,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsHighlighted: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#IsHighlighted", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return false;
                 }
@@ -13230,6 +14664,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsPressed: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#IsPressed", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return false;
                 }
@@ -13240,6 +14676,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Selectable.EvaluateAndTransitionToSelectionState start.*/
             EvaluateAndTransitionToSelectionState: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#EvaluateAndTransitionToSelectionState", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -13260,6 +14698,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnPointerDown", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -13286,6 +14726,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnPointerUp", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -13308,6 +14750,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerEnter: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnPointerEnter", this ); }
+
                 this.isPointerInside = true;
                 this.EvaluateAndTransitionToSelectionState();
             },
@@ -13325,6 +14769,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerExit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnPointerExit", this ); }
+
                 this.isPointerInside = false;
                 this.EvaluateAndTransitionToSelectionState();
             },
@@ -13342,6 +14788,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnSelect", this ); }
+
                 this.hasSelection = true;
                 this.EvaluateAndTransitionToSelectionState();
             },
@@ -13359,6 +14807,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#OnDeselect", this ); }
+
                 this.hasSelection = false;
                 this.EvaluateAndTransitionToSelectionState();
             },
@@ -13375,6 +14825,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Select: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Selectable#Select", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(UnityEngine.EventSystems.EventSystem.current, null) || UnityEngine.EventSystems.EventSystem.current.alreadySelecting) {
                     return;
                 }
@@ -13400,9 +14852,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             horizontalFit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#horizontalFit#get", this ); }
+
                     return this.m_HorizontalFit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#horizontalFit#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.ContentSizeFitter.FitMode, Bridge.ref(this, "m_HorizontalFit"), value)) {
                         this.SetDirty();
                     }
@@ -13410,9 +14866,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             verticalFit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#verticalFit#get", this ); }
+
                     return this.m_VerticalFit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#verticalFit#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.ContentSizeFitter.FitMode, Bridge.ref(this, "m_VerticalFit"), value)) {
                         this.SetDirty();
                     }
@@ -13420,6 +14880,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#rectTransform#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this.m_Rect, null)) {
                         this.m_Rect = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -13434,11 +14896,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#init", this ); }
+
                 this.m_Tracker = new UnityEngine.DrivenRectTransformTracker();
                 this.m_HorizontalFit = UnityEngine.UI.ContentSizeFitter.FitMode.Unconstrained;
                 this.m_VerticalFit = UnityEngine.UI.ContentSizeFitter.FitMode.Unconstrained;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             }
@@ -13446,6 +14912,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.ContentSizeFitter.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.SetDirty();
             },
@@ -13453,6 +14921,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ContentSizeFitter.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#OnDisable", this ); }
+
                 UnityEngine.UI.LayoutRebuilder.MarkLayoutForRebuild(this.rectTransform);
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnDisable.call(this);
             },
@@ -13460,12 +14930,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ContentSizeFitter.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#OnRectTransformDimensionsChange", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.ContentSizeFitter.OnRectTransformDimensionsChange end.*/
 
             /*UnityEngine.UI.ContentSizeFitter.HandleSelfFittingAlongAxis start.*/
             HandleSelfFittingAlongAxis: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#HandleSelfFittingAlongAxis", this ); }
+
                 var fitting = axis === 0 ? this.horizontalFit : this.verticalFit;
 
                 if (fitting === UnityEngine.UI.ContentSizeFitter.FitMode.Unconstrained) {
@@ -13483,18 +14957,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ContentSizeFitter.SetLayoutHorizontal start.*/
             SetLayoutHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#SetLayoutHorizontal", this ); }
+
                 this.HandleSelfFittingAlongAxis(0);
             },
             /*UnityEngine.UI.ContentSizeFitter.SetLayoutHorizontal end.*/
 
             /*UnityEngine.UI.ContentSizeFitter.SetLayoutVertical start.*/
             SetLayoutVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#SetLayoutVertical", this ); }
+
                 this.HandleSelfFittingAlongAxis(1);
             },
             /*UnityEngine.UI.ContentSizeFitter.SetLayoutVertical end.*/
 
             /*UnityEngine.UI.ContentSizeFitter.SetDirty start.*/
             SetDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ContentSizeFitter#SetDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -13521,33 +15001,49 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#text#set", this ); }
+
                     this.m_Text = value;
                 }
             },
             image: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#image#get", this ); }
+
                     return this.m_Image;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#image#set", this ); }
+
                     this.m_Image = value;
                 }
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#rectTransform#get", this ); }
+
                     return this.m_RectTransform;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#rectTransform#set", this ); }
+
                     this.m_RectTransform = value;
                 }
             },
             toggle: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#toggle#get", this ); }
+
                     return this.m_Toggle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#toggle#set", this ); }
+
                     this.m_Toggle = value;
                 }
             }
@@ -13559,12 +15055,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.Dropdown+DropdownItem.OnPointerEnter start.*/
             OnPointerEnter: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#OnPointerEnter", this ); }
+
                 UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(this.gameObject);
             },
             /*UnityEngine.UI.Dropdown+DropdownItem.OnPointerEnter end.*/
 
             /*UnityEngine.UI.Dropdown+DropdownItem.OnCancel start.*/
             OnCancel: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown.DropdownItem#OnCancel", this ); }
+
                 var dropdown = this.GetComponentInParent(UnityEngine.UI.Dropdown);
                 if (UnityEngine.Object.op_Implicit(dropdown)) {
                     dropdown.Hide();
@@ -13596,6 +15096,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#init", this ); }
+
                     this.kNoEventMaskSet = -1;
                     this.sortedGraphics = new (System.Collections.Generic.List$1(UnityEngine.UI.Graphic)).ctor();
                 }
@@ -13619,6 +15121,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                  * @return  {void}
                  */
                 Raycast: function (canvas, eventCamera, pointerPosition, foundGraphics, results) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#Raycast", this ); }
+
                     
             var hasCamera = eventCamera !== null;
             var sortedGraphics = UnityEngine.UI.GraphicRaycaster.sortedGraphics;
@@ -13668,6 +15172,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             canvas: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#canvas#get", this ); }
+
                     if (UnityEngine.Component.op_Inequality(this._canvas, null)) {
                         return this._canvas;
                     }
@@ -13678,9 +15184,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ignoreReversedGraphics: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#ignoreReversedGraphics#get", this ); }
+
                     return this._ignoreReversedGraphics;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#ignoreReversedGraphics#set", this ); }
+
                     this._ignoreReversedGraphics = value;
                 }
             },
@@ -13695,14 +15205,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             blockingObjects: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#blockingObjects#get", this ); }
+
                     return this._blockingObjects;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#blockingObjects#set", this ); }
+
                     this._blockingObjects = value;
                 }
             },
             eventCamera: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#eventCamera#get", this ); }
+
                     // red
                     if (this.canvas.renderMode === 0 || this.canvas.renderMode === 1 && UnityEngine.Component.op_Equality(this.canvas.worldCamera, null)) {
                         return null;
@@ -13714,6 +15230,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#init", this ); }
+
                 this.m_BlockingMask = new UnityEngine.LayerMask();
                 this._blockingObjects = UnityEngine.UI.GraphicRaycaster.BlockingObjects.None;
                 this._ignoreReversedGraphics = true;
@@ -13721,6 +15239,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this._raycastResults = new (System.Collections.Generic.List$1(UnityEngine.UI.Graphic)).ctor();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.BaseRaycaster.ctor.call(this);
             }
@@ -13740,6 +15260,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Raycast: function (eventData, resultAppendList) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#Raycast", this ); }
+
                 var $t;
                 var canvas = this.canvas;
                 if (UnityEngine.Component.op_Equality(canvas, null)) {
@@ -13888,6 +15410,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.GraphicRaycaster.GetMainCamera start.*/
             GetMainCamera: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GraphicRaycaster#GetMainCamera", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.cachedMainCamera, null) || !this.cachedMainCamera.enabled) {
                     this.cachedMainCamera = UnityEngine.Camera.main;
                 }
@@ -13917,63 +15441,89 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             childAlignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#childAlignment#get", this ); }
+
                     return this.m_ChildAlignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#childAlignment#set", this ); }
+
                     this.m_ChildAlignment = value;
                 }
             },
             padding: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#padding#get", this ); }
+
                     return this.m_Padding;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#padding#set", this ); }
+
                     this.m_Padding = value;
                 }
             },
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#minWidth#get", this ); }
+
                     return this.GetTotalMinSize(0);
                 }
             },
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#preferredWidth#get", this ); }
+
                     return this.GetTotalPreferredSize(0);
                 }
             },
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#flexibleWidth#get", this ); }
+
                     return this.GetTotalFlexibleSize(0);
                 }
             },
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#minHeight#get", this ); }
+
                     return this.GetTotalMinSize(1);
                 }
             },
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#preferredHeight#get", this ); }
+
                     return this.GetTotalPreferredSize(1);
                 }
             },
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#flexibleHeight#get", this ); }
+
                     return this.GetTotalFlexibleSize(1);
                 }
             },
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#layoutPriority#get", this ); }
+
                     return 0;
                 }
             },
             rectChildren: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#rectChildren#get", this ); }
+
                     var $t;
                     return ($t = UnityEngine.RectTransform, System.Linq.Enumerable.from(this.m_RectChildren, $t).toList($t));
                 }
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#rectTransform#get", this ); }
+
                     if (Bridge.referenceEquals(Bridge.cast(this.m_Rect, UnityEngine.Object), null)) {
                         this.m_Rect = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -13993,6 +15543,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             isRootLayoutGroup: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#isRootLayoutGroup#get", this ); }
+
                     var parent = this.transform.parent;
 
                     if (UnityEngine.Component.op_Equality(parent, null)) {
@@ -14018,6 +15570,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#init", this ); }
+
                 this.m_Tracker = new UnityEngine.DrivenRectTransformTracker();
                 this.m_TotalMinSize = new UnityEngine.Vector2();
                 this.m_TotalPreferredSize = new UnityEngine.Vector2();
@@ -14033,6 +15587,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.LayoutGroup.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
                 this.SetDirty();
             },
@@ -14040,6 +15596,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutGroup.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#OnDisable", this ); }
+
                 this.m_RectChildren.length = 0;
                 UnityEngine.UI.LayoutRebuilder.MarkLayoutForRebuild(this.rectTransform);
 
@@ -14058,6 +15616,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#CalculateLayoutInputHorizontal", this ); }
+
                 this.m_RectChildren.length = 0;
 
                 var children = this.handle.entity.children;
@@ -14106,6 +15666,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetChildAlongAxis: function (rect, axis, pos) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#SetChildAlongAxis", this ); }
+
                 if (UnityEngine.Component.op_Equality(rect, null)) {
                     return;
                 }
@@ -14129,6 +15691,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetChildAlongAxis$1: function (rect, axis, pos, size) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#SetChildAlongAxis$1", this ); }
+
                 if (UnityEngine.Component.op_Equality(rect, null)) {
                     return;
                 }
@@ -14152,6 +15716,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetLayoutInputForAxis: function (totalMin, totalPreferred, totalFlexible, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#SetLayoutInputForAxis", this ); }
+
                 this.m_TotalMinSize.setitem(axis, totalMin);
                 this.m_TotalPreferredSize.setitem(axis, totalPreferred);
                 this.m_TotalFlexibleSize.setitem(axis, totalFlexible);
@@ -14160,6 +15726,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutGroup.GetStartOffset start.*/
             GetStartOffset: function (axis, requiredSpaceWithoutPadding) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#GetStartOffset", this ); }
+
                 var requiredSpace = requiredSpaceWithoutPadding + (axis === 0 ? this.padding.horizontal : this.padding.vertical);
                 var availableSpace = this.rectTransform.rect.size.getitem(axis);
                 var surplusSpace = availableSpace - requiredSpace;
@@ -14171,6 +15739,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutGroup.GetAlignmentOnAxis start.*/
             GetAlignmentOnAxis: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#GetAlignmentOnAxis", this ); }
+
                 if (axis === 0) {
                     return this.m_ChildAlignment % 3 * 0.5;
                 } else {
@@ -14181,24 +15751,32 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutGroup.GetTotalMinSize start.*/
             GetTotalMinSize: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#GetTotalMinSize", this ); }
+
                 return this.m_TotalMinSize.getitem(axis);
             },
             /*UnityEngine.UI.LayoutGroup.GetTotalMinSize end.*/
 
             /*UnityEngine.UI.LayoutGroup.GetTotalPreferredSize start.*/
             GetTotalPreferredSize: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#GetTotalPreferredSize", this ); }
+
                 return this.m_TotalPreferredSize.getitem(axis);
             },
             /*UnityEngine.UI.LayoutGroup.GetTotalPreferredSize end.*/
 
             /*UnityEngine.UI.LayoutGroup.GetTotalFlexibleSize start.*/
             GetTotalFlexibleSize: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#GetTotalFlexibleSize", this ); }
+
                 return this.m_TotalFlexibleSize.getitem(axis);
             },
             /*UnityEngine.UI.LayoutGroup.GetTotalFlexibleSize end.*/
 
             /*UnityEngine.UI.LayoutGroup.SetProperty start.*/
             SetProperty: function (T, currentValue, newValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#SetProperty", this ); }
+
                 if (Bridge.rValue(currentValue.v) == null && Bridge.rValue(newValue) == null || Bridge.rValue(currentValue.v) != null && Bridge.equals(Bridge.rValue(currentValue.v), Bridge.rValue(newValue))) {
                     return;
                 }
@@ -14211,12 +15789,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.LayoutGroup.OnTransformChildrenChanged start.*/
             OnTransformChildrenChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#OnTransformChildrenChanged", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.LayoutGroup.OnTransformChildrenChanged end.*/
 
             /*UnityEngine.UI.LayoutGroup.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#OnRectTransformDimensionsChange", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnRectTransformDimensionsChange.call(this);
 
                 if (this.isRootLayoutGroup) {
@@ -14237,6 +15819,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#OnDidApplyAnimationProperties", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.LayoutGroup.OnDidApplyAnimationProperties end.*/
@@ -14252,6 +15836,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#SetDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -14278,6 +15864,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {System.Collections.IEnumerator}
              */
             DelayedSetDirty: function (rectTransform) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.LayoutGroup#DelayedSetDirty", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -14355,9 +15943,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onCullStateChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#onCullStateChanged#get", this ); }
+
                     return this.m_OnCullStateChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#onCullStateChanged#set", this ); }
+
                     this.m_OnCullStateChanged = value;
                 }
             },
@@ -14372,9 +15964,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             maskable: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#maskable#get", this ); }
+
                     return this.m_Maskable;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#maskable#set", this ); }
+
                     if (value === this.m_Maskable) {
                         return;
                     }
@@ -14386,6 +15982,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             rootCanvasRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#rootCanvasRect#get", this ); }
+
                     this.rectTransform.GetWorldCorners(this.m_Corners);
 
                     if (UnityEngine.Object.op_Implicit(this.canvas)) {
@@ -14421,6 +16019,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#init", this ); }
+
                 this.m_ShouldRecalculateStencil = true;
                 this.m_Maskable = true;
                 this.m_IncludeForMasking = false;
@@ -14431,10 +16031,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 }, UnityEngine.Vector3);
             },
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Graphic.$ctor1.call(this, handle);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Graphic.$ctor1.call(this, null);
             }
@@ -14452,6 +16056,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.Material}
              */
             GetModifiedMaterial: function (baseMaterial) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#GetModifiedMaterial", this ); }
+
                 var toUse = baseMaterial;
 
                 if (this.m_ShouldRecalculateStencil) {
@@ -14488,6 +16094,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Cull: function (clipRect, validRect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#Cull", this ); }
+
                 var cull = !validRect || !clipRect.Overlaps$1(this.rootCanvasRect.$clone(), true);
                 this.UpdateCull(cull);
             },
@@ -14495,6 +16103,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.MaskableGraphic.UpdateCull start.*/
             UpdateCull: function (cull) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#UpdateCull", this ); }
+
                 if (this.canvasRenderer.cull !== cull) {
                     this.canvasRenderer.cull = cull;
                     this.m_OnCullStateChanged.Invoke(cull);
@@ -14516,6 +16126,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetClipRect: function (clipRect, validRect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#SetClipRect", this ); }
+
                 if (validRect) {
                     // canvasRenderer.EnableRectClipping(clipRect); // TODO
                 } else {
@@ -14526,6 +16138,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.MaskableGraphic.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#OnEnable", this ); }
+
                 UnityEngine.UI.Graphic.prototype.OnEnable.call(this);
                 this.m_ShouldRecalculateStencil = true;
                 this.UpdateClipParent();
@@ -14539,6 +16153,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.MaskableGraphic.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#OnDisable", this ); }
+
                 UnityEngine.UI.Graphic.prototype.OnDisable.call(this);
                 this.m_ShouldRecalculateStencil = true;
                 this.SetMaterialDirty();
@@ -14554,6 +16170,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.MaskableGraphic.OnTransformParentChanged start.*/
             OnTransformParentChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#OnTransformParentChanged", this ); }
+
                 UnityEngine.UI.Graphic.prototype.OnTransformParentChanged.call(this);
 
                 if (!this.isActiveAndEnabled) {
@@ -14567,11 +16185,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.MaskableGraphic.OnTransformParentChanged end.*/
 
             /*UnityEngine.UI.MaskableGraphic.ParentMaskStateChanged start.*/
-            ParentMaskStateChanged: function () { },
+            ParentMaskStateChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#ParentMaskStateChanged", this ); }
+ },
             /*UnityEngine.UI.MaskableGraphic.ParentMaskStateChanged end.*/
 
             /*UnityEngine.UI.MaskableGraphic.OnCanvasHierarchyChanged start.*/
             OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#OnCanvasHierarchyChanged", this ); }
+
                 UnityEngine.UI.Graphic.prototype.OnCanvasHierarchyChanged.call(this);
 
                 if (!this.isActiveAndEnabled) {
@@ -14586,6 +16208,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.MaskableGraphic.UpdateClipParent start.*/
             UpdateClipParent: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#UpdateClipParent", this ); }
+
                 var newParent = this.maskable && this.IsActive() ? UnityEngine.UI.MaskUtilities.GetRectMaskForClippable(this) : null;
 
                 // if the new parent is different OR is now inactive
@@ -14614,6 +16238,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RecalculateClipping: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#RecalculateClipping", this ); }
+
                 this.UpdateClipParent();
             },
             /*UnityEngine.UI.MaskableGraphic.RecalculateClipping end.*/
@@ -14629,6 +16255,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RecalculateMasking: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.MaskableGraphic#RecalculateMasking", this ); }
+
                 // Remove the material reference as either the graphic of the mask has been enable/ disabled.
                 // This will cause the material to be repopulated from the original if need be. (case 994413)
                 UnityEngine.UI.StencilMaterial.Remove(this.m_MaskMaterial);
@@ -14652,6 +16280,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#init", this ); }
+
                     this.kMaxEffectDistance = 600.0;
                 }
             }
@@ -14673,9 +16303,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             effectColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#effectColor#get", this ); }
+
                     return this.m_EffectColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#effectColor#set", this ); }
+
                     this.m_EffectColor = value.$clone();
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                         this.graphic.SetVerticesDirty();
@@ -14693,9 +16327,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             effectDistance: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#effectDistance#get", this ); }
+
                     return this.m_EffectDistance.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#effectDistance#set", this ); }
+
                     if (value.x > UnityEngine.UI.Shadow.kMaxEffectDistance) {
                         value.x = UnityEngine.UI.Shadow.kMaxEffectDistance;
                     }
@@ -14733,9 +16371,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             useGraphicAlpha: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#useGraphicAlpha#get", this ); }
+
                     return this.m_UseGraphicAlpha;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#useGraphicAlpha#set", this ); }
+
                     this.m_UseGraphicAlpha = value;
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
                         this.graphic.SetVerticesDirty();
@@ -14746,6 +16388,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         alias: ["ModifyMesh$1", "UnityEngine$UI$IMeshModifier$ModifyMesh$1"],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#init", this ); }
+
                 this.m_EffectColor = new UnityEngine.Color();
                 this.m_EffectDistance = new UnityEngine.Vector2();
                 this.m_EffectColor = new pc.Color( 0.0, 0.0, 0.0, 0.5 );
@@ -14753,6 +16397,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this.m_UseGraphicAlpha = true;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.BaseMeshEffect.ctor.call(this);
             }
@@ -14760,6 +16406,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.Shadow.ApplyShadowZeroAlloc start.*/
             ApplyShadowZeroAlloc: function (verts, color, start, end, x, y) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#ApplyShadowZeroAlloc", this ); }
+
                 var vt = new UnityEngine.UIVertex();
 
                 var neededCapacity = verts.Count + end - start;
@@ -14803,12 +16451,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ApplyShadow: function (verts, color, start, end, x, y) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#ApplyShadow", this ); }
+
                 this.ApplyShadowZeroAlloc(verts, color.$clone(), start, end, x, y);
             },
             /*UnityEngine.UI.Shadow.ApplyShadow end.*/
 
             /*UnityEngine.UI.Shadow.ModifyMesh$1 start.*/
             ModifyMesh$1: function (vh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Shadow#ModifyMesh$1", this ); }
+
                 return;
                 // if (!IsActive())
                 //     return;
@@ -14853,12 +16505,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             methods: {
                 /*UnityEngine.UI.ScrollRect.RubberDelta:static start.*/
                 RubberDelta: function (overStretching, viewSize) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#RubberDelta", this ); }
+
                     return (1 - 1 / (Math.abs(overStretching) * 0.55 / viewSize + 1)) * viewSize * (overStretching === 0 ? 1 : Math.sign(overStretching));
                 },
                 /*UnityEngine.UI.ScrollRect.RubberDelta:static end.*/
 
                 /*UnityEngine.UI.ScrollRect.UpdateOneScrollbarVisibility:static start.*/
                 UpdateOneScrollbarVisibility: function (xScrollingNeeded, xAxisEnabled, scrollbarVisibility, scrollbar) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateOneScrollbarVisibility", this ); }
+
                     if (UnityEngine.Object.op_Implicit(scrollbar)) {
                         if (scrollbarVisibility === UnityEngine.UI.ScrollRect.ScrollbarVisibility.Permanent) {
                             if (scrollbar.gameObject.activeSelf !== xAxisEnabled) {
@@ -14875,6 +16531,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.ScrollRect.AdjustBounds:static start.*/
                 AdjustBounds: function (viewBounds, contentPivot, contentSize, contentPos) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#AdjustBounds", this ); }
+
                     // Make sure content bounds are at least as large as view by adding padding if not.
                     // One might think at first that if the content is smaller than the view, scrolling should be allowed.
                     // However, that's not how scroll views normally work.
@@ -14897,6 +16555,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.ScrollRect.InternalGetBounds:static start.*/
                 InternalGetBounds: function (corners, viewWorldToLocalMatrix, bounds) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#InternalGetBounds", this ); }
+
                     var vMin = new pc.Vec3( 3.40282347E+38, 3.40282347E+38, 3.40282347E+38 );
                     var vMax = new pc.Vec3( -3.40282347E+38, -3.40282347E+38, -3.40282347E+38 );
 
@@ -14915,6 +16575,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.ScrollRect.InternalCalculateOffset:static start.*/
                 InternalCalculateOffset: function (viewBounds, contentBounds, horizontal, vertical, movementType, delta) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#InternalCalculateOffset", this ); }
+
                     var offset = pc.Vec2.ZERO.clone();
                     if (movementType === UnityEngine.UI.ScrollRect.MovementType.Unrestricted) {
                         return offset;
@@ -15010,9 +16672,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             content: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#content#get", this ); }
+
                     return this.m_Content;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#content#set", this ); }
+
                     this.m_Content = value;
                 }
             },
@@ -15027,9 +16693,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontal: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontal#get", this ); }
+
                     return this.m_Horizontal;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontal#set", this ); }
+
                     this.m_Horizontal = value;
                 }
             },
@@ -15044,9 +16714,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             vertical: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#vertical#get", this ); }
+
                     return this.m_Vertical;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#vertical#set", this ); }
+
                     this.m_Vertical = value;
                 }
             },
@@ -15061,9 +16735,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             movementType: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#movementType#get", this ); }
+
                     return this.m_MovementType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#movementType#set", this ); }
+
                     this.m_MovementType = value;
                 }
             },
@@ -15078,9 +16756,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             elasticity: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#elasticity#get", this ); }
+
                     return this.m_Elasticity;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#elasticity#set", this ); }
+
                     this.m_Elasticity = value;
                 }
             },
@@ -15095,9 +16777,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             inertia: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#inertia#get", this ); }
+
                     return this.m_Inertia;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#inertia#set", this ); }
+
                     this.m_Inertia = value;
                 }
             },
@@ -15112,9 +16798,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             decelerationRate: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#decelerationRate#get", this ); }
+
                     return this.m_DecelerationRate;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#decelerationRate#set", this ); }
+
                     this.m_DecelerationRate = value;
                 }
             },
@@ -15129,9 +16819,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             scrollSensitivity: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#scrollSensitivity#get", this ); }
+
                     return this.m_ScrollSensitivity;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#scrollSensitivity#set", this ); }
+
                     this.m_ScrollSensitivity = value;
                 }
             },
@@ -15146,9 +16840,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             viewport: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#viewport#get", this ); }
+
                     return this.m_Viewport;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#viewport#set", this ); }
+
                     this.m_Viewport = value;
                     this.SetDirtyCaching();
                 }
@@ -15164,9 +16862,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalScrollbar: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbar#get", this ); }
+
                     return this.m_HorizontalScrollbar;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbar#set", this ); }
+
                     if (UnityEngine.Object.op_Implicit(this.m_HorizontalScrollbar)) {
                         this.m_HorizontalScrollbar.onValueChanged.RemoveListener(Bridge.fn.cacheBind(this, this.SetHorizontalNormalizedPosition));
                     }
@@ -15190,9 +16892,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalScrollbar: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbar#get", this ); }
+
                     return this.m_VerticalScrollbar;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbar#set", this ); }
+
                     if (UnityEngine.Object.op_Implicit(this.m_VerticalScrollbar)) {
                         this.m_VerticalScrollbar.onValueChanged.RemoveListener(Bridge.fn.cacheBind(this, this.SetVerticalNormalizedPosition));
                     }
@@ -15216,9 +16922,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalScrollbarVisibility: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbarVisibility#get", this ); }
+
                     return this.m_HorizontalScrollbarVisibility;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbarVisibility#set", this ); }
+
                     this.m_HorizontalScrollbarVisibility = value;
                     this.SetDirtyCaching();
                 }
@@ -15234,9 +16944,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalScrollbarVisibility: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbarVisibility#get", this ); }
+
                     return this.m_VerticalScrollbarVisibility;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbarVisibility#set", this ); }
+
                     this.m_VerticalScrollbarVisibility = value;
                     this.SetDirtyCaching();
                 }
@@ -15252,9 +16966,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalScrollbarSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbarSpacing#get", this ); }
+
                     return this.m_HorizontalScrollbarSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalScrollbarSpacing#set", this ); }
+
                     this.m_HorizontalScrollbarSpacing = value;
                     this.SetDirty();
                 }
@@ -15270,9 +16988,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalScrollbarSpacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbarSpacing#get", this ); }
+
                     return this.m_VerticalScrollbarSpacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalScrollbarSpacing#set", this ); }
+
                     this.m_VerticalScrollbarSpacing = value;
                     this.SetDirty();
                 }
@@ -15288,14 +17010,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#onValueChanged#set", this ); }
+
                     this.m_OnValueChanged = value;
                 }
             },
             viewRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#viewRect#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this._viewRect, null)) {
                         this._viewRect = this.m_Viewport;
                     }
@@ -15318,14 +17046,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             velocity: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#velocity#get", this ); }
+
                     return this._velocity.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#velocity#set", this ); }
+
                     this._velocity = value.$clone();
                 }
             },
             rectTransform: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#rectTransform#get", this ); }
+
                     if (UnityEngine.Component.op_Equality(this._rect, null)) {
                         this._rect = this.GetComponent(UnityEngine.RectTransform);
                     }
@@ -15344,9 +17078,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             normalizedPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#normalizedPosition#get", this ); }
+
                     return new pc.Vec2( this.horizontalNormalizedPosition, this.verticalNormalizedPosition );
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#normalizedPosition#set", this ); }
+
                     this.SetNormalizedPosition(value.x, 0);
                     this.SetNormalizedPosition(value.y, 1);
                 }
@@ -15362,6 +17100,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalNormalizedPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalNormalizedPosition#get", this ); }
+
                     this.UpdateBounds();
                     if (this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x <= this._viewBounds.halfExtents.$clone().scale( 2 ).x || UnityEngine.Mathf.Approximately(this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x, this._viewBounds.halfExtents.$clone().scale( 2 ).x)) {
                         return this._viewBounds.min.x > this.m_ContentBounds.min.x ? 1 : 0;
@@ -15370,6 +17110,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return (this._viewBounds.min.x - this.m_ContentBounds.min.x) / (this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x - this._viewBounds.halfExtents.$clone().scale( 2 ).x);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#horizontalNormalizedPosition#set", this ); }
+
                     this.SetNormalizedPosition(value, 0);
                 }
             },
@@ -15384,6 +17126,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalNormalizedPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalNormalizedPosition#get", this ); }
+
                     this.UpdateBounds();
                     if (this.m_ContentBounds.halfExtents.$clone().scale( 2 ).y <= this._viewBounds.halfExtents.$clone().scale( 2 ).y || UnityEngine.Mathf.Approximately(this.m_ContentBounds.halfExtents.$clone().scale( 2 ).y, this._viewBounds.halfExtents.$clone().scale( 2 ).y)) {
                         return this._viewBounds.min.y > this.m_ContentBounds.min.y ? 1 : 0;
@@ -15392,11 +17136,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return (this._viewBounds.min.y - this.m_ContentBounds.min.y) / (this.m_ContentBounds.halfExtents.$clone().scale( 2 ).y - this._viewBounds.halfExtents.$clone().scale( 2 ).y);
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#verticalNormalizedPosition#set", this ); }
+
                     this.SetNormalizedPosition(value, 1);
                 }
             },
             hScrollingNeeded: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#hScrollingNeeded#get", this ); }
+
                     if (UnityEngine.Application.isPlaying) {
                         return this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x > this._viewBounds.halfExtents.$clone().scale( 2 ).x + 0.01;
                     }
@@ -15406,6 +17154,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             vScrollingNeeded: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#vScrollingNeeded#get", this ); }
+
                     if (UnityEngine.Application.isPlaying) {
                         return this.m_ContentBounds.halfExtents.$clone().scale( 2 ).y > this._viewBounds.halfExtents.$clone().scale( 2 ).y + 0.01;
                     }
@@ -15425,6 +17175,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#minWidth#get", this ); }
+
                     return -1;
                 }
             },
@@ -15440,6 +17192,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#preferredWidth#get", this ); }
+
                     return -1;
                 }
             },
@@ -15455,6 +17209,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#flexibleWidth#get", this ); }
+
                     return -1;
                 }
             },
@@ -15470,6 +17226,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#minHeight#get", this ); }
+
                     return -1;
                 }
             },
@@ -15485,6 +17243,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#preferredHeight#get", this ); }
+
                     return -1;
                 }
             },
@@ -15500,6 +17260,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#flexibleHeight#get", this ); }
+
                     return -1;
                 }
             },
@@ -15515,6 +17277,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#layoutPriority#get", this ); }
+
                     return -1;
                 }
             }
@@ -15544,6 +17308,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#init", this ); }
+
                 this._pointerStartLocalCursor = new UnityEngine.Vector2();
                 this.m_ContentStartPosition = new UnityEngine.Vector2();
                 this.m_ContentBounds = new UnityEngine.Bounds();
@@ -15570,6 +17336,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 }, UnityEngine.Vector3);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.UIBehaviour.ctor.call(this);
             }
@@ -15577,6 +17345,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.ScrollRect.Rebuild start.*/
             Rebuild: function (executing) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#Rebuild", this ); }
+
                 if (executing === UnityEngine.UI.CanvasUpdate.Prelayout) {
                     this.UpdateCachedData();
                 }
@@ -15592,15 +17362,21 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.ScrollRect.Rebuild end.*/
 
             /*UnityEngine.UI.ScrollRect.LayoutComplete start.*/
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.ScrollRect.LayoutComplete end.*/
 
             /*UnityEngine.UI.ScrollRect.GraphicUpdateComplete start.*/
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.ScrollRect.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.ScrollRect.UpdateCachedData start.*/
             UpdateCachedData: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateCachedData", this ); }
+
                 var transform = this.transform;
                 this._horizontalScrollbarRect = UnityEngine.MonoBehaviour.op_Equality(this.m_HorizontalScrollbar, null) ? null : Bridge.as(this.m_HorizontalScrollbar.transform, UnityEngine.RectTransform);
                 this._verticalScrollbarRect = UnityEngine.MonoBehaviour.op_Equality(this.m_VerticalScrollbar, null) ? null : Bridge.as(this.m_VerticalScrollbar.transform, UnityEngine.RectTransform);
@@ -15620,6 +17396,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnEnable", this ); }
+
                 UnityEngine.EventSystems.UIBehaviour.prototype.OnEnable.call(this);
 
                 if (UnityEngine.Object.op_Implicit(this.m_HorizontalScrollbar)) {
@@ -15637,6 +17415,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnDisable", this ); }
+
                 UnityEngine.UI.CanvasUpdateRegistry.UnRegisterCanvasElementForRebuild(this);
 
                 if (UnityEngine.Object.op_Implicit(this.m_HorizontalScrollbar)) {
@@ -15669,12 +17449,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}
              */
             IsActive: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#IsActive", this ); }
+
                 return UnityEngine.EventSystems.UIBehaviour.prototype.IsActive.call(this) && UnityEngine.Component.op_Inequality(this.m_Content, null);
             },
             /*UnityEngine.UI.ScrollRect.IsActive end.*/
 
             /*UnityEngine.UI.ScrollRect.EnsureLayoutHasRebuilt start.*/
             EnsureLayoutHasRebuilt: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#EnsureLayoutHasRebuilt", this ); }
+
                 if (!this._hasRebuiltLayout && !UnityEngine.UI.CanvasUpdateRegistry.IsRebuildingLayout()) {
                     UnityEngine.Canvas.ForceUpdateCanvases();
                 }
@@ -15692,12 +17476,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             StopMovement: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#StopMovement", this ); }
+
                 this._velocity = pc.Vec2.ZERO.clone();
             },
             /*UnityEngine.UI.ScrollRect.StopMovement end.*/
 
             /*UnityEngine.UI.ScrollRect.OnScroll start.*/
             OnScroll: function (data) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnScroll", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -15741,6 +17529,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.OnInitializePotentialDrag start.*/
             OnInitializePotentialDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnInitializePotentialDrag", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -15761,6 +17551,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnBeginDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnBeginDrag", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -15790,6 +17582,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnEndDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnEndDrag", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -15810,6 +17604,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnDrag", this ); }
+
                 if (!this._dragging) {
                     return;
                 }
@@ -15861,6 +17657,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetContentAnchoredPosition: function (position) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetContentAnchoredPosition", this ); }
+
                 if (!this.m_Horizontal) {
                     position.x = this.m_Content.anchoredPosition.x;
                 }
@@ -15878,6 +17676,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.LateUpdate start.*/
             LateUpdate: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#LateUpdate", this ); }
+
                 if (!UnityEngine.Object.op_Implicit(this.m_Content)) {
                     return;
                 }
@@ -15950,6 +17750,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdatePrevData: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdatePrevData", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_Content, null)) {
                     this._prevPosition = pc.Vec2.ZERO.clone();
                 } else {
@@ -15963,6 +17765,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.UpdateScrollbars start.*/
             UpdateScrollbars: function (offset) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateScrollbars", this ); }
+
                 if (UnityEngine.Object.op_Implicit(this.m_HorizontalScrollbar)) {
                     if (this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x > 0) {
                         this.m_HorizontalScrollbar.size = Math.max(0, Math.min(1, (this._viewBounds.halfExtents.$clone().scale( 2 ).x - Math.abs(offset.x)) / this.m_ContentBounds.halfExtents.$clone().scale( 2 ).x));
@@ -15987,12 +17791,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.SetHorizontalNormalizedPosition start.*/
             SetHorizontalNormalizedPosition: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetHorizontalNormalizedPosition", this ); }
+
                 this.SetNormalizedPosition(value, 0);
             },
             /*UnityEngine.UI.ScrollRect.SetHorizontalNormalizedPosition end.*/
 
             /*UnityEngine.UI.ScrollRect.SetVerticalNormalizedPosition start.*/
             SetVerticalNormalizedPosition: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetVerticalNormalizedPosition", this ); }
+
                 this.SetNormalizedPosition(value, 1);
             },
             /*UnityEngine.UI.ScrollRect.SetVerticalNormalizedPosition end.*/
@@ -16010,6 +17818,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetNormalizedPosition: function (value, axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetNormalizedPosition", this ); }
+
                 this.EnsureLayoutHasRebuilt();
                 this.UpdateBounds();
                 // How much the content is larger than the view.
@@ -16031,6 +17841,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#OnRectTransformDimensionsChange", this ); }
+
                 this.SetDirty();
             },
             /*UnityEngine.UI.ScrollRect.OnRectTransformDimensionsChange end.*/
@@ -16045,7 +17857,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.ScrollRect
              * @return  {void}
              */
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#CalculateLayoutInputHorizontal", this ); }
+ },
             /*UnityEngine.UI.ScrollRect.CalculateLayoutInputHorizontal end.*/
 
             /*UnityEngine.UI.ScrollRect.CalculateLayoutInputVertical start.*/
@@ -16058,11 +17872,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.ScrollRect
              * @return  {void}
              */
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#CalculateLayoutInputVertical", this ); }
+ },
             /*UnityEngine.UI.ScrollRect.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.ScrollRect.SetLayoutHorizontal start.*/
             SetLayoutHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetLayoutHorizontal", this ); }
+
                 this._tracker.Clear();
 
                 if (pc.BoundingBox.equals( this.m_ContentBounds, null )) {
@@ -16117,6 +17935,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.SetLayoutVertical start.*/
             SetLayoutVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetLayoutVertical", this ); }
+
                 this.UpdateScrollbarLayout();
                 this._viewBounds = new pc.BoundingBox( UnityEngine.Vector3.FromVector2(this.viewRect.rect.center.$clone()), UnityEngine.Vector3.FromVector2(this.viewRect.rect.size.$clone()).scale( 0.5 ) );
                 if (pc.BoundingBox.equals( this.m_ContentBounds, null )) {
@@ -16129,6 +17949,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.UpdateScrollbarVisibility start.*/
             UpdateScrollbarVisibility: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateScrollbarVisibility", this ); }
+
                 UnityEngine.UI.ScrollRect.UpdateOneScrollbarVisibility(this.vScrollingNeeded, this.m_Vertical, this.m_VerticalScrollbarVisibility, this.m_VerticalScrollbar);
                 UnityEngine.UI.ScrollRect.UpdateOneScrollbarVisibility(this.hScrollingNeeded, this.m_Horizontal, this.m_HorizontalScrollbarVisibility, this.m_HorizontalScrollbar);
             },
@@ -16136,6 +17958,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.UpdateScrollbarLayout start.*/
             UpdateScrollbarLayout: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateScrollbarLayout", this ); }
+
                 if (this._vSliderExpand && UnityEngine.Object.op_Implicit(this.m_HorizontalScrollbar)) {
                     this._tracker.Add(this, this._horizontalScrollbarRect, 5378);
                     this._horizontalScrollbarRect.anchorMin = new pc.Vec2( 0, this._horizontalScrollbarRect.anchorMin.y );
@@ -16173,6 +17997,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdateBounds: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#UpdateBounds", this ); }
+
                 if (pc.BoundingBox.equals( this._viewBounds, null )) {
                     this._viewBounds = new pc.BoundingBox.ctor();
                 }
@@ -16235,6 +18061,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.GetBounds start.*/
             GetBounds: function (bounds) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#GetBounds", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.m_Content, null)) {
                     return new pc.BoundingBox.ctor();
                 }
@@ -16247,6 +18075,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.ScrollRect.CalculateOffset start.*/
             CalculateOffset: function (delta) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#CalculateOffset", this ); }
+
                 delta = {v:delta};
                 return UnityEngine.UI.ScrollRect.InternalCalculateOffset(Bridge.ref(this, "_viewBounds"), Bridge.ref(this, "m_ContentBounds"), this.m_Horizontal, this.m_Vertical, this.m_MovementType, delta);
             },
@@ -16263,6 +18093,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetDirty", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -16282,6 +18114,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetDirtyCaching: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.ScrollRect#SetDirtyCaching", this ); }
+
                 if (!this.IsActive()) {
                     return;
                 }
@@ -16304,6 +18138,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.Physics2DRaycaster#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.PhysicsRaycaster.ctor.call(this);
             }
@@ -16311,6 +18147,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.EventSystems.Physics2DRaycaster.Raycast start.*/
             Raycast: function (eventData, resultAppendList) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.Physics2DRaycaster#Raycast", this ); }
+
                 var $t;
                 if (UnityEngine.Component.op_Equality(this.eventCamera, null)) {
                     return;
@@ -16409,14 +18247,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             inputMode: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#inputMode#get", this ); }
+
                     return UnityEngine.EventSystems.StandaloneInputModule.InputMode.Mouse;
                 }
             },
             allowActivationOnMobileDevice: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#allowActivationOnMobileDevice#get", this ); }
+
                     return this._forceModuleActive;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#allowActivationOnMobileDevice#set", this ); }
+
                     this._forceModuleActive = value;
                 }
             },
@@ -16431,9 +18275,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             forceModuleActive: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#forceModuleActive#get", this ); }
+
                     return this._forceModuleActive;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#forceModuleActive#set", this ); }
+
                     this._forceModuleActive = value;
                 }
             },
@@ -16448,9 +18296,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             inputActionsPerSecond: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#inputActionsPerSecond#get", this ); }
+
                     return this._inputActionsPerSecond;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#inputActionsPerSecond#set", this ); }
+
                     this._inputActionsPerSecond = value;
                 }
             },
@@ -16465,9 +18317,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             repeatDelay: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#repeatDelay#get", this ); }
+
                     return this._repeatDelay;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#repeatDelay#set", this ); }
+
                     this._repeatDelay = value;
                 }
             },
@@ -16482,9 +18338,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalAxis: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#horizontalAxis#get", this ); }
+
                     return this._horizontalAxis;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#horizontalAxis#set", this ); }
+
                     this._horizontalAxis = value;
                 }
             },
@@ -16499,9 +18359,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalAxis: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#verticalAxis#get", this ); }
+
                     return this._verticalAxis;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#verticalAxis#set", this ); }
+
                     this._verticalAxis = value;
                 }
             },
@@ -16516,9 +18380,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             submitButton: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#submitButton#get", this ); }
+
                     return this._submitButton;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#submitButton#set", this ); }
+
                     this._submitButton = value;
                 }
             },
@@ -16533,18 +18401,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             cancelButton: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#cancelButton#get", this ); }
+
                     return this._cancelButton;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#cancelButton#set", this ); }
+
                     this._cancelButton = value;
                 }
             }
         },
         ctors: {
             init: function () {
-                this.lastMoveVector = new UnityEngine.Vector2();
-                this.lastMousePosition = new UnityEngine.Vector2();
-                this.mousePosition = new UnityEngine.Vector2();
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#init", this ); }
+
+                this.lastMoveVector = new UnityEngine.Vector3();
+                this.lastMousePosition = new UnityEngine.Vector3();
+                this.mousePosition = new UnityEngine.Vector3();
                 this.consecutiveMoveCount = 0;
                 this._horizontalAxis = "Horizontal";
                 this._verticalAxis = "Vertical";
@@ -16554,6 +18428,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this._repeatDelay = 0.5;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.EventSystems.PointerInputModule.ctor.call(this);
             }
@@ -16561,6 +18437,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.EventSystems.StandaloneInputModule.ShouldIgnoreEventsOnNoFocus start.*/
             ShouldIgnoreEventsOnNoFocus: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ShouldIgnoreEventsOnNoFocus", this ); }
+
                 // Unity set this property based on OS type.
                 // Because we always want to ignore event on no focus - we just set it to true;
                 return true;
@@ -16569,6 +18447,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.UpdateModule start.*/
             UpdateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#UpdateModule", this ); }
+
                 if (!this.eventSystem.isFocused && this.ShouldIgnoreEventsOnNoFocus()) {
                     if (this.inputPointerEvent != null && UnityEngine.GameObject.op_Inequality(this.inputPointerEvent.pointerDrag, null) && this.inputPointerEvent.dragging) {
                         this.ReleaseMouse(this.inputPointerEvent, this.inputPointerEvent.pointerCurrentRaycast.gameObject);
@@ -16586,6 +18466,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.ReleaseMouse start.*/
             ReleaseMouse: function (pointerEvent, currentOverGo) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ReleaseMouse", this ); }
+
                 UnityEngine.EventSystems.ExecuteEvents.Execute(UnityEngine.EventSystems.IPointerUpHandler, pointerEvent.pointerPress, pointerEvent, UnityEngine.EventSystems.ExecuteEvents.pointerUpHandler);
 
                 var pointerUpHandler = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler(UnityEngine.EventSystems.IPointerClickHandler, currentOverGo);
@@ -16623,12 +18505,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.IsModuleSupported start.*/
             IsModuleSupported: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#IsModuleSupported", this ); }
+
                 return this._forceModuleActive || this.input.mousePresent || this.input.touchSupported;
             },
             /*UnityEngine.EventSystems.StandaloneInputModule.IsModuleSupported end.*/
 
             /*UnityEngine.EventSystems.StandaloneInputModule.ShouldActivateModule start.*/
             ShouldActivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ShouldActivateModule", this ); }
+
                 if (!UnityEngine.EventSystems.PointerInputModule.prototype.ShouldActivateModule.call(this)) {
                     return false;
                 }
@@ -16661,6 +18547,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ActivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ActivateModule", this ); }
+
                 if (!this.eventSystem.isFocused && this.ShouldIgnoreEventsOnNoFocus()) {
                     return;
                 }
@@ -16690,6 +18578,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DeactivateModule: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#DeactivateModule", this ); }
+
                 UnityEngine.EventSystems.PointerInputModule.prototype.DeactivateModule.call(this);
                 this.ClearSelection();
             },
@@ -16697,6 +18587,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.Process start.*/
             Process: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#Process", this ); }
+
                 if (!this.eventSystem.isFocused && this.ShouldIgnoreEventsOnNoFocus()) {
                     return;
                 }
@@ -16725,6 +18617,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchEvents start.*/
             ProcessTouchEvents: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ProcessTouchEvents", this ); }
+
                 for (var i = 0; i < this.input.touchCount; ++i) {
                     var touch = this.input.GetTouch(i);
 
@@ -16764,6 +18658,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessTouchPress: function (pointerEvent, pressed, released) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ProcessTouchPress", this ); }
+
                 var currentOverGo = pointerEvent.pointerCurrentRaycast.gameObject;
 
                 // PointerDown notification
@@ -16873,6 +18769,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}        If the submit event was used by the selected object.
              */
             SendSubmitEventToSelectedObject: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#SendSubmitEventToSelectedObject", this ); }
+
                 if (UnityEngine.GameObject.op_Equality(this.eventSystem.currentSelectedGameObject, null)) {
                     return false;
                 }
@@ -16892,6 +18790,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.GetRawMoveVector start.*/
             GetRawMoveVector: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#GetRawMoveVector", this ); }
+
                 var move = pc.Vec2.ZERO.clone();
                 move.x = this.input.GetAxisRaw(this._horizontalAxis);
                 move.y = this.input.GetAxisRaw(this._verticalAxis);
@@ -16931,6 +18831,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {boolean}        If the move event was used by the selected object.
              */
             SendMoveEventToSelectedObject: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#SendMoveEventToSelectedObject", this ); }
+
                 var time = UnityEngine.Time.unscaledTime;
 
                 var movement = this.GetRawMoveVector();
@@ -16939,7 +18841,7 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return false;
                 }
 
-                var similarDir = movement.dot( this.lastMoveVector ) > 0;
+                var similarDir = movement.dot( UnityEngine.Vector2.FromVector3(this.lastMoveVector) ) > 0;
 
                 // If direction didn't change at least 90 degrees, wait for delay before allowing consequtive event.
                 if (similarDir && this.consecutiveMoveCount === 1) {
@@ -16962,7 +18864,7 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                     this.consecutiveMoveCount++;
                     this.prevActionTime = time;
-                    this.lastMoveVector = movement.$clone();
+                    this.lastMoveVector = UnityEngine.Vector3.FromVector2(movement.$clone());
                 } else {
                     this.consecutiveMoveCount = 0;
                 }
@@ -16973,6 +18875,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent start.*/
             ProcessMouseEvent: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ProcessMouseEvent", this ); }
+
                 this.ProcessMouseEvent$1(0);
             },
             /*UnityEngine.EventSystems.StandaloneInputModule.ProcessMouseEvent end.*/
@@ -16989,6 +18893,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessMouseEvent$1: function (id) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ProcessMouseEvent$1", this ); }
+
                 var mouseData = this.GetMousePointerEventData$1(id);
                 var leftButtonData = mouseData.GetButtonState(UnityEngine.EventSystems.PointerEventData.InputButton.Left).eventData;
 
@@ -17014,12 +18920,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.ForceAutoSelect start.*/
             ForceAutoSelect: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ForceAutoSelect", this ); }
+
                 return false;
             },
             /*UnityEngine.EventSystems.StandaloneInputModule.ForceAutoSelect end.*/
 
             /*UnityEngine.EventSystems.StandaloneInputModule.SendUpdateEventToSelectedObject start.*/
             SendUpdateEventToSelectedObject: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#SendUpdateEventToSelectedObject", this ); }
+
                 if (UnityEngine.GameObject.op_Equality(this.eventSystem.currentSelectedGameObject, null)) {
                     return false;
                 }
@@ -17042,6 +18952,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessMousePress: function (data) {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#ProcessMousePress", this ); }
+
                 var pointerEvent = data.buttonData;
                 var currentOverGo = pointerEvent.pointerCurrentRaycast.gameObject;
 
@@ -17107,6 +19019,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.EventSystems.StandaloneInputModule.GetCurrentFocusedGameObject start.*/
             GetCurrentFocusedGameObject: function () {
+if ( TRACE ) { TRACE( "UnityEngine.EventSystems.StandaloneInputModule#GetCurrentFocusedGameObject", this ); }
+
                 return this.currentFocusedGameObject;
             },
             /*UnityEngine.EventSystems.StandaloneInputModule.GetCurrentFocusedGameObject end.*/
@@ -17145,9 +19059,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onClick: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#onClick#get", this ); }
+
                     return this.m_OnClick;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#onClick#set", this ); }
+
                     this.m_OnClick = value;
                 }
             }
@@ -17158,6 +19076,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#init", this ); }
+
                 this.m_OnClick = new UnityEngine.UI.Button.ButtonClickedEvent();
             },
             /**
@@ -17171,6 +19091,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.$ctor1.call(this, handle);
             },
@@ -17184,6 +19106,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
             }
@@ -17201,6 +19125,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#OnPointerClick", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -17211,6 +19137,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Button.OnSubmit start.*/
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#OnSubmit", this ); }
+
                 this.Press();
 
                 // if we get set disabled during the press
@@ -17226,6 +19154,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Button.Press start.*/
             Press: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#Press", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -17236,6 +19166,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Button.OnFinishSubmit start.*/
             OnFinishSubmit: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#OnFinishSubmit", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -17303,6 +19235,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Button#ConfigureForEntity", this ); }
+
                 UnityEngine.UI.Selectable.prototype.ConfigureForEntity.call(this, entity);
                 entity.element["UnityEngine.UI.Button"] = this;
             },
@@ -17332,12 +19266,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#init", this ); }
+
                     this.s_NoOptionData = new UnityEngine.UI.Dropdown.OptionData.ctor();
                 }
             },
             methods: {
                 /*UnityEngine.UI.Dropdown.GetOrAddComponent:static start.*/
                 GetOrAddComponent: function (T, go) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#GetOrAddComponent", this ); }
+
                     var comp = Bridge.rValue(go.GetComponent(T));
                     if (!Bridge.rValue(comp)) {
                         comp = Bridge.rValue(go.AddComponent(T));
@@ -17378,9 +19316,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             template: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#template#get", this ); }
+
                     return this.m_Template;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#template#set", this ); }
+
                     this.m_Template = value;
                     this.RefreshShownValue();
                 }
@@ -17396,9 +19338,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             captionText: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#captionText#get", this ); }
+
                     return this.m_CaptionText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#captionText#set", this ); }
+
                     this.m_CaptionText = value;
                     this.RefreshShownValue();
                 }
@@ -17414,9 +19360,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             captionImage: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#captionImage#get", this ); }
+
                     return this.m_CaptionImage;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#captionImage#set", this ); }
+
                     this.m_CaptionImage = value;
                     this.RefreshShownValue();
                 }
@@ -17432,9 +19382,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             itemText: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#itemText#get", this ); }
+
                     return this.m_ItemText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#itemText#set", this ); }
+
                     this.m_ItemText = value;
                     this.RefreshShownValue();
                 }
@@ -17450,9 +19404,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             itemImage: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#itemImage#get", this ); }
+
                     return this.m_ItemImage;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#itemImage#set", this ); }
+
                     this.m_ItemImage = value;
                     this.RefreshShownValue();
                 }
@@ -17460,9 +19418,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             
             options: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#options#get", this ); }
+
                     return this.m_Options.options;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#options#set", this ); }
+
                     this.m_Options.options = value;
                     this.RefreshShownValue();
                 }
@@ -17470,9 +19432,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#onValueChanged#set", this ); }
+
                     this.m_OnValueChanged = value;
                 }
             },
@@ -17487,18 +19453,26 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             alphaFadeSpeed: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#alphaFadeSpeed#get", this ); }
+
                     return this.m_AlphaFadeSpeed;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#alphaFadeSpeed#set", this ); }
+
                     this.m_AlphaFadeSpeed = value;
                 }
             },
             
             value: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#value#get", this ); }
+
                     return this.m_Value;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#value#set", this ); }
+
                     this.Set(value);
                 }
             }
@@ -17510,6 +19484,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#init", this ); }
+
                 this.m_Options = new UnityEngine.UI.Dropdown.OptionDataList();
                 this.m_OnValueChanged = new UnityEngine.UI.Dropdown.DropdownEvent();
                 this.m_AlphaFadeSpeed = 0.15;
@@ -17517,10 +19493,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this.validTemplate = false;
             },
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.$ctor1.call(this, handle);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.$ctor1.call(this, null);
             }
@@ -17538,12 +19518,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetValueWithoutNotify: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#SetValueWithoutNotify", this ); }
+
                 this.Set(input, false);
             },
             /*UnityEngine.UI.Dropdown.SetValueWithoutNotify end.*/
 
             /*UnityEngine.UI.Dropdown.Set start.*/
             Set: function (value, sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#Set", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 if (UnityEngine.Application.isPlaying && (value === this.m_Value || this.options.Count === 0)) {
                     return;
@@ -17561,6 +19545,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#Awake", this ); }
+
 
                 this.m_AlphaTweenRunner = new (UnityEngine.UI.CoroutineTween.TweenRunner$1(UnityEngine.UI.CoroutineTween.FloatTween))();
                 this.m_AlphaTweenRunner.Init(this);
@@ -17577,6 +19563,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.Start start.*/
             Start: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#Start", this ); }
+
                 UnityEngine.UI.Selectable.prototype.Start.call(this);
 
                 this.RefreshShownValue();
@@ -17585,6 +19573,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#OnDisable", this ); }
+
                 //Destroy dropdown and blocker in case user deactivates the dropdown when they click an option (case 935649)
                 this.ImmediateDestroyDropdownList();
 
@@ -17609,6 +19599,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             RefreshShownValue: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#RefreshShownValue", this ); }
+
                 var data = UnityEngine.UI.Dropdown.s_NoOptionData;
 
                 if (this.options.Count > 0) {
@@ -17638,6 +19630,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Dropdown.AddOptions$2 start.*/
             
             AddOptions$2: function (options) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AddOptions$2", this ); }
+
                 this.options.AddRange(options);
                 this.RefreshShownValue();
             },
@@ -17646,6 +19640,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Dropdown.AddOptions start.*/
             
             AddOptions: function (options) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AddOptions", this ); }
+
                 for (var i = 0; i < options.Count; i++) {
                     this.options.add(new UnityEngine.UI.Dropdown.OptionData.$ctor1(options.getItem(i)));
                 }
@@ -17657,6 +19653,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Dropdown.AddOptions$1 start.*/
             
             AddOptions$1: function (options) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AddOptions$1", this ); }
+
                 for (var i = 0; i < options.Count; i++) {
                     this.options.add(new UnityEngine.UI.Dropdown.OptionData.$ctor3(options.getItem(i)));
                 }
@@ -17676,6 +19674,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ClearOptions: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#ClearOptions", this ); }
+
                 this.options.clear();
                 this.m_Value = 0;
                 this.RefreshShownValue();
@@ -17684,6 +19684,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.SetupTemplate start.*/
             SetupTemplate: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#SetupTemplate", this ); }
+
                 this.validTemplate = false;
 
                 if (!UnityEngine.Object.op_Implicit(this.m_Template)) {
@@ -17769,6 +19771,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#OnPointerClick", this ); }
+
                 this.Show();
             },
             /*UnityEngine.UI.Dropdown.OnPointerClick end.*/
@@ -17785,6 +19789,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#OnSubmit", this ); }
+
                 this.Show();
             },
             /*UnityEngine.UI.Dropdown.OnSubmit end.*/
@@ -17801,6 +19807,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnCancel: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#OnCancel", this ); }
+
                 this.Hide();
             },
             /*UnityEngine.UI.Dropdown.OnCancel end.*/
@@ -17821,6 +19829,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Show: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#Show", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable() || UnityEngine.GameObject.op_Inequality(this.m_Dropdown, null)) {
                     return;
                 }
@@ -17990,6 +20000,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.GameObject}                  The created blocker object
              */
             CreateBlocker: function (rootCanvas) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#CreateBlocker", this ); }
+
                 // Create blocker GameObject.
                 var blocker = new UnityEngine.GameObject.$ctor2("Blocker");
 
@@ -18058,6 +20070,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DestroyBlocker: function (blocker) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#DestroyBlocker", this ); }
+
                 UnityEngine.MonoBehaviour.Destroy(blocker);
             },
             /*UnityEngine.UI.Dropdown.DestroyBlocker end.*/
@@ -18074,6 +20088,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.GameObject}                The created drop down list gameobject.
              */
             CreateDropdownList: function (template) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#CreateDropdownList", this ); }
+
                 return UnityEngine.Object.Instantiate(UnityEngine.GameObject, template);
             },
             /*UnityEngine.UI.Dropdown.CreateDropdownList end.*/
@@ -18090,6 +20106,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DestroyDropdownList: function (dropdownList) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#DestroyDropdownList", this ); }
+
                 UnityEngine.MonoBehaviour.Destroy(dropdownList);
             },
             /*UnityEngine.UI.Dropdown.DestroyDropdownList end.*/
@@ -18106,6 +20124,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Dropdown.DropdownItem}                    The created dropdown item component
              */
             CreateItem: function (itemTemplate) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#CreateItem", this ); }
+
                 return UnityEngine.Object.Instantiate(UnityEngine.UI.Dropdown.DropdownItem, itemTemplate);
             },
             /*UnityEngine.UI.Dropdown.CreateItem end.*/
@@ -18121,11 +20141,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @param   {UnityEngine.UI.Dropdown.DropdownItem}    item    The Item to destroy.
              * @return  {void}
              */
-            DestroyItem: function (item) { },
+            DestroyItem: function (item) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#DestroyItem", this ); }
+ },
             /*UnityEngine.UI.Dropdown.DestroyItem end.*/
 
             /*UnityEngine.UI.Dropdown.AddItem start.*/
             AddItem: function (data, selected, itemTemplate, items) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AddItem", this ); }
+
                 // Add a new item to the dropdown.
                 var item = this.CreateItem(itemTemplate);
                 item.rectTransform.SetParent(itemTemplate.rectTransform.parent, false);
@@ -18154,6 +20178,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.AlphaFadeList start.*/
             AlphaFadeList: function (duration, alpha) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AlphaFadeList", this ); }
+
                 var group = this.m_Dropdown.GetComponent(UnityEngine.CanvasGroup);
                 this.AlphaFadeList$1(duration, group.alpha, alpha);
             },
@@ -18161,6 +20187,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.AlphaFadeList$1 start.*/
             AlphaFadeList$1: function (duration, start, end) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#AlphaFadeList$1", this ); }
+
                 var $t;
                 if (end === start) {
                     return;
@@ -18175,6 +20203,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.SetAlpha start.*/
             SetAlpha: function (alpha) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#SetAlpha", this ); }
+
                 if (!UnityEngine.Object.op_Implicit(this.m_Dropdown)) {
                     return;
                 }
@@ -18195,6 +20225,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Hide: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#Hide", this ); }
+
                 if (UnityEngine.GameObject.op_Inequality(this.m_Dropdown, null)) {
                     this.AlphaFadeList(this.m_AlphaFadeSpeed, 0.0);
 
@@ -18215,6 +20247,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.DelayedDestroyDropdownList start.*/
             DelayedDestroyDropdownList: function (delay) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#DelayedDestroyDropdownList", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -18249,6 +20283,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.ImmediateDestroyDropdownList start.*/
             ImmediateDestroyDropdownList: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#ImmediateDestroyDropdownList", this ); }
+
                 for (var i = 0; i < this.m_Items.Count; i++) {
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.m_Items.getItem(i), null)) {
                         this.DestroyItem(this.m_Items.getItem(i));
@@ -18266,6 +20302,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Dropdown.OnSelectItem start.*/
             OnSelectItem: function (toggle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Dropdown#OnSelectItem", this ); }
+
                 if (!toggle.isOn) {
                     toggle.isOn = true;
                 }
@@ -18314,49 +20352,73 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             startCorner: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#startCorner#get", this ); }
+
                     return this.m_StartCorner;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#startCorner#set", this ); }
+
                     this.m_StartCorner = value;
                 }
             },
             startAxis: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#startAxis#get", this ); }
+
                     return this.m_StartAxis;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#startAxis#set", this ); }
+
                     this.m_StartAxis = value;
                 }
             },
             cellSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#cellSize#get", this ); }
+
                     return this.m_CellSize.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#cellSize#set", this ); }
+
                     this.m_CellSize = value.$clone();
                 }
             },
             spacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#spacing#get", this ); }
+
                     return this.m_Spacing.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#spacing#set", this ); }
+
                     this.m_Spacing = value.$clone();
                 }
             },
             constraint: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#constraint#get", this ); }
+
                     return this.m_Constraint;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#constraint#set", this ); }
+
                     this.m_Constraint = value;
                 }
             },
             constraintCount: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#constraintCount#get", this ); }
+
                     return this.m_ConstraintCount;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#constraintCount#set", this ); }
+
                     this.m_ConstraintCount = UnityEngine.Mathf.Max(1, value);
                 }
             }
@@ -18369,6 +20431,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#init", this ); }
+
                 this.m_CellSize = new UnityEngine.Vector2();
                 this.m_Spacing = new UnityEngine.Vector2();
                 this.m_StartCorner = UnityEngine.UI.GridLayoutGroup.Corner.UpperLeft;
@@ -18382,6 +20446,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.GridLayoutGroup.CalculateLayoutInputHorizontal start.*/
             CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#CalculateLayoutInputHorizontal", this ); }
+
                 UnityEngine.UI.LayoutGroup.prototype.CalculateLayoutInputHorizontal.call(this);
 
                 var minColumns = 0;
@@ -18402,6 +20468,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.GridLayoutGroup.CalculateLayoutInputVertical start.*/
             CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#CalculateLayoutInputVertical", this ); }
+
                 var minRows = 0;
 
                 if (this.m_Constraint === UnityEngine.UI.GridLayoutGroup.Constraint.FixedColumnCount) {
@@ -18422,18 +20490,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.GridLayoutGroup.SetLayoutHorizontal start.*/
             SetLayoutHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#SetLayoutHorizontal", this ); }
+
                 this.SetCellsAlongAxis(0);
             },
             /*UnityEngine.UI.GridLayoutGroup.SetLayoutHorizontal end.*/
 
             /*UnityEngine.UI.GridLayoutGroup.SetLayoutVertical start.*/
             SetLayoutVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#SetLayoutVertical", this ); }
+
                 this.SetCellsAlongAxis(1);
             },
             /*UnityEngine.UI.GridLayoutGroup.SetLayoutVertical end.*/
 
             /*UnityEngine.UI.GridLayoutGroup.SetCellsAlongAxis start.*/
             SetCellsAlongAxis: function (axis) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.GridLayoutGroup#SetCellsAlongAxis", this ); }
+
                 if (axis === 0) {
                     // Only set the sizes when invoked for horizontal axis, not the positions.
                     for (var i = 0; i < this.m_RectChildren.length; i++) {
@@ -18556,47 +20630,69 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             spacing: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#spacing#get", this ); }
+
                     return this.m_Spacing;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#spacing#set", this ); }
+
                     this.SetProperty(System.Single, Bridge.ref(this, "m_Spacing"), value);
                 }
             },
             childForceExpandWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandWidth#get", this ); }
+
                     return this.m_ChildForceExpandWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandWidth#set", this ); }
+
                     this.SetProperty(System.Boolean, Bridge.ref(this, "m_ChildForceExpandWidth"), value);
                 }
             },
             childForceExpandHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandHeight#get", this ); }
+
                     return this.m_ChildForceExpandHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childForceExpandHeight#set", this ); }
+
                     this.SetProperty(System.Boolean, Bridge.ref(this, "m_ChildForceExpandHeight"), value);
                 }
             },
             childControlWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlWidth#get", this ); }
+
                     return this.m_ChildControlWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlWidth#set", this ); }
+
                     this.SetProperty(System.Boolean, Bridge.ref(this, "m_ChildControlWidth"), value);
                 }
             },
             childControlHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlHeight#get", this ); }
+
                     return this.m_ChildControlHeight;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#childControlHeight#set", this ); }
+
                     this.SetProperty(System.Boolean, Bridge.ref(this, "m_ChildControlHeight"), value);
                 }
             }
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#init", this ); }
+
                 this.m_ChildControlHeight = true;
                 this.m_ChildControlWidth = true;
                 this.m_ChildForceExpandHeight = true;
@@ -18617,6 +20713,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             CalcAlongAxis: function (axis, isVertical) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#CalcAlongAxis", this ); }
+
                 var combinedPadding = axis === 0 ? this.padding.horizontal : this.padding.vertical;
                 var controlSize = axis === 0 ? this.m_ChildControlWidth : this.m_ChildControlHeight;
                 var childForceExpandSize = axis === 0 ? this.childForceExpandWidth : this.childForceExpandHeight;
@@ -18672,6 +20770,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetChildrenAlongAxis: function (axis, isVertical) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#SetChildrenAlongAxis", this ); }
+
                 var size = this.rectTransform.rect.size.getitem(axis);
                 var controlSize = axis === 0 ? this.m_ChildControlWidth : this.m_ChildControlHeight;
                 var childForceExpandSize = axis === 0 ? this.childForceExpandWidth : this.childForceExpandHeight;
@@ -18763,6 +20863,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             GetChildSizes: function (child, axis, controlSize, childForceExpand, min, preferred, flexible) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalOrVerticalLayoutGroup#GetChildSizes", this ); }
+
                 if (!controlSize) {
                     min.v = child.sizeDelta.getitem(axis);
                     preferred.v = min.v;
@@ -18891,9 +20993,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             sprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#sprite#get", this ); }
+
                     return this.m_Sprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#sprite#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_Sprite, value)) {
                         return;
                     }
@@ -18930,9 +21036,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             overrideSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#overrideSprite#get", this ); }
+
                     return this.m_OverrideSprite;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#overrideSprite#set", this ); }
+
                     if (Bridge.referenceEquals(this.m_OverrideSprite, value)) {
                         return;
                     }
@@ -18956,6 +21066,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             activeSprite: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#activeSprite#get", this ); }
+
                     return !(!Bridge.referenceEquals(Bridge.cast(this.m_OverrideSprite, UnityEngine.Object), null)) ? this.sprite : this.m_OverrideSprite;
                 }
             },
@@ -18970,9 +21082,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             type: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#type#get", this ); }
+
                     return this.m_Type;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#type#set", this ); }
+
                     this.m_Type = value;
                     this.handle.entity.element._image.spriteType = value;
                 }
@@ -18988,9 +21104,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillMethod: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillMethod#get", this ); }
+
                     return this.m_FillMethod;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillMethod#set", this ); }
+
                     this.m_FillMethod = value;
                     this.handle.entity.element._image.fillMethod = value;
                 }
@@ -19006,9 +21126,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillCenter: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillCenter#get", this ); }
+
                     return this.m_FillCenter;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillCenter#set", this ); }
+
                     this.m_FillCenter = value;
                     this.handle.entity.element._image.fillCenter = value;
                 }
@@ -19024,9 +21148,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillOrigin: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillOrigin#get", this ); }
+
                     return this.m_FillOrigin;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillOrigin#set", this ); }
+
                     this.m_FillOrigin = value;
                     this.handle.entity.element._image.fillOrigin = value;
                 }
@@ -19042,9 +21170,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillClockwise: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillClockwise#get", this ); }
+
                     return this.m_FillClockwise;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillClockwise#set", this ); }
+
                     this.m_FillClockwise = value;
                     this.handle.entity.element._image.fillClockwise = value;
                 }
@@ -19060,9 +21192,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillAmount: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillAmount#get", this ); }
+
                     return this.m_FillAmount;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#fillAmount#set", this ); }
+
                     value = Math.max(0, Math.min(1, value));
                     this.m_FillAmount = value;
                     this.handle.entity.element._image.fillAmount = value;
@@ -19079,9 +21215,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preserveAspect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#preserveAspect#get", this ); }
+
                     return this.m_PreserveAspect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#preserveAspect#set", this ); }
+
                     this.m_PreserveAspect = value;
                     this.handle.entity.element._image.preserveAspect = value;
                 }
@@ -19098,6 +21238,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             material: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#material#get", this ); }
+
                     if (this.m_Material != null) {
                         return this.m_Material;
                     }
@@ -19107,6 +21249,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return this.defaultMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#material#set", this ); }
+
                     Bridge.ensureBaseProperty(this, "material").$UnityEngine$UI$Graphic$material = value;
                 }
             },
@@ -19122,9 +21266,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             enabled: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#enabled#get", this ); }
+
                     return this.handle.entity.element._image.enabled && this.handle.enabled;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#enabled#set", this ); }
+
                     this.handle.entity.element._image.enabled = value;
                     this.handle.enabled = value;
                 }
@@ -19140,9 +21288,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             pixelsPerUnitMultiplier: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#pixelsPerUnitMultiplier#get", this ); }
+
                     return this.m_PixelsPerUnitMultiplier;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#pixelsPerUnitMultiplier#set", this ); }
+
                     this.m_PixelsPerUnitMultiplier = UnityEngine.Mathf.Max(0.01, value);
                     this.handle.entity.element._image.pixelsPerUnitMultiplier = value;
                 }
@@ -19159,6 +21311,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             pixelsPerUnit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#pixelsPerUnit#get", this ); }
+
                     var spritePixelsPerUnit = 100;
                     if (UnityEngine.Object.op_Implicit(this.activeSprite)) {
                         spritePixelsPerUnit = this.activeSprite.pixelsPerUnit;
@@ -19173,11 +21327,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             multipliedPixelsPerUnit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#multipliedPixelsPerUnit#get", this ); }
+
                     return this.pixelsPerUnit * this.m_PixelsPerUnitMultiplier;
                 }
             },
             mainTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#mainTexture#get", this ); }
+
                     if (this.activeSprite == null) {
                         if (this.material != null && this.material.mainTexture != null) {
                             return this.material.mainTexture;
@@ -19191,6 +21349,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             hasBorder: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#hasBorder#get", this ); }
+
                     if (this.activeSprite != null) {
                         var v = this.activeSprite.border.$clone();
                         return v.lengthSq() > 0.0;
@@ -19211,6 +21371,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#minWidth#get", this ); }
+
                     return 0.0;
                 }
             },
@@ -19226,6 +21388,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#preferredWidth#get", this ); }
+
                     if (Bridge.referenceEquals(Bridge.cast(this.activeSprite, UnityEngine.Object), null)) {
                         return 0.0;
                     }
@@ -19245,12 +21409,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#flexibleWidth#get", this ); }
+
                     return -1.0;
                 }
             },
             
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#minHeight#get", this ); }
+
                     return 0.0;
                 }
             },
@@ -19266,6 +21434,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#preferredHeight#get", this ); }
+
                     if (Bridge.referenceEquals(Bridge.cast(this.activeSprite, UnityEngine.Object), null)) {
                         return 0.0;
                     }
@@ -19285,6 +21455,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#flexibleHeight#get", this ); }
+
                     return -1.0;
                 }
             },
@@ -19300,14 +21472,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#layoutPriority#get", this ); }
+
                     return 0;
                 }
             },
             alphaHitTestMinimumThreshold: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#alphaHitTestMinimumThreshold#get", this ); }
+
                     return this.m_AlphaHitTestMinimumThreshold;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#alphaHitTestMinimumThreshold#set", this ); }
+
                     this.m_AlphaHitTestMinimumThreshold = value;
                 }
             }
@@ -19326,6 +21504,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#init", this ); }
+
                 this.m_Type = UnityEngine.UI.Image.Type.Sliced;
                 this.m_FillMethod = 0;
                 this.m_FillCenter = true;
@@ -19348,10 +21528,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, null);
             }
@@ -19368,6 +21552,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DisableSpriteOptimizations: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#DisableSpriteOptimizations", this ); }
+
                 this.m_SkipLayoutUpdate = false;
                 this.m_SkipMaterialUpdate = false;
             },
@@ -19385,6 +21571,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#Awake", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.Awake.call(this);
 
                 this.handle.entity.element.setupParametersFromImage(this, this.m_Sprite != null ? this.m_Sprite.handle : null, this.m_Type, this.m_FillMethod, this.m_FillOrigin, this.m_FillAmount, this.m_FillCenter, this.m_PixelsPerUnitMultiplier, this.m_PreserveAspect, this._dontMask, this.handle.enabled, this.m_Material != null ? this.m_Material.handle : null);
@@ -19393,6 +21581,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Image.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#OnEnable", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnEnable.call(this);
                 if (this.handle.entity.element != null) {
                     this.handle.entity.element._image.enabled = true;
@@ -19402,6 +21592,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Image.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#OnDisable", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnDisable.call(this);
                 if (this.handle.entity.element != null) {
                     this.handle.entity.element._image.enabled = false;
@@ -19422,6 +21614,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#ConfigureForEntity", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.ConfigureForEntity.call(this, entity);
                 entity.element.type = "image";
             },
@@ -19439,6 +21633,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#OnDidApplyAnimationProperties", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnDidApplyAnimationProperties.call(this);
                 this.handle.entity.element._image.synchornizeProperties( this, false );
             },
@@ -19454,7 +21650,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Image
              * @return  {void}
              */
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#CalculateLayoutInputHorizontal", this ); }
+ },
             /*UnityEngine.UI.Image.CalculateLayoutInputHorizontal end.*/
 
             /*UnityEngine.UI.Image.CalculateLayoutInputVertical start.*/
@@ -19467,7 +21665,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Image
              * @return  {void}
              */
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#CalculateLayoutInputVertical", this ); }
+ },
             /*UnityEngine.UI.Image.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.Image.SetNativeSize start.*/
@@ -19482,6 +21682,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetNativeSize: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#SetNativeSize", this ); }
+
                 if (this.sprite == null) {
                     UnityEngine.Debug.LogWarning$1("Missing sprite, can't set size to native.");
                     return;
@@ -19500,6 +21702,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Image.IsRaycastLocationValid start.*/
             IsRaycastLocationValid: function (screenPoint, eventCamera) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#IsRaycastLocationValid", this ); }
+
                 if (this.alphaHitTestMinimumThreshold <= 0) {
                     return true;
                 }
@@ -19522,7 +21726,6 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 // Convert to have lower left corner as reference point.
                 local.v.x += this.rectTransform.pivot.x * rect.width;
                 local.v.y += this.rectTransform.pivot.y * rect.height;
-
                 local.v = this.MapCoordinate(local.v.$clone(), rect.$clone());
 
                 // Convert local coordinates to texture space.
@@ -19548,6 +21751,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Image.MapCoordinate start.*/
             MapCoordinate: function (local, rect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#MapCoordinate", this ); }
+
                 var $t, $t1, $t2, $t3;
                 var spriteRect = this.activeSprite.rect.$clone();
                 if (this.type === UnityEngine.UI.Image.Type.Simple || this.type === UnityEngine.UI.Image.Type.Filled) {
@@ -19585,6 +21790,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Image.GetAdjustedBorders start.*/
             GetAdjustedBorders: function (border, adjustedRect) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Image#GetAdjustedBorders", this ); }
+
                 var originalRect = this.rectTransform.rect.$clone();
 
                 for (var axis = 0; axis <= 1; axis++) {
@@ -19648,6 +21855,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         inherits: [UnityEngine.UI.Selectable,UnityEngine.EventSystems.IUpdateSelectedHandler,UnityEngine.EventSystems.IBeginDragHandler,UnityEngine.EventSystems.IDragHandler,UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.ISubmitHandler,UnityEngine.UI.ICanvasElement,UnityEngine.UI.ILayoutElement],
         statics: {
             fields: {
+                StyleDisplayBlock: null,
+                StyleDisplayNone: null,
                 kHScrollSpeed: 0,
                 kVScrollSpeed: 0,
                 kEmailSpecialCharacters: null,
@@ -19658,15 +21867,23 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             props: {
                 clipboard: {
                     get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#clipboard#get", this ); }
+
                         return UnityEngine.GUIUtility.systemCopyBuffer;
                     },
                     set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#clipboard#set", this ); }
+
                         UnityEngine.GUIUtility.systemCopyBuffer = value;
                     }
                 }
             },
             ctors: {
                 init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#init", this ); }
+
+                    this.StyleDisplayBlock = "block";
+                    this.StyleDisplayNone = "none";
                     this.kHScrollSpeed = 0.05;
                     this.kVScrollSpeed = 0.1;
                     this.kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
@@ -19684,6 +21901,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             methods: {
                 /*UnityEngine.UI.InputField.GetLineStartPosition:static start.*/
                 GetLineStartPosition: function (gen, line) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GetLineStartPosition", this ); }
+
                     line = Math.max(0, Math.min(line, gen.lines.Count - 1));
                     return gen.lines.getItem(line).startCharIdx;
                 },
@@ -19691,6 +21910,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
                 /*UnityEngine.UI.InputField.GetLineEndPosition:static start.*/
                 GetLineEndPosition: function (gen, line) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GetLineEndPosition", this ); }
+
                     line = UnityEngine.Mathf.Max(line, 0);
                     if (line + 1 < gen.lines.Count) {
                         return gen.lines.getItem(line + 1).startCharIdx - 1;
@@ -19705,6 +21926,7 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         fields: {
             m_Keyboard: null,
+            shouldBeShown: false,
             /**
              * Text Text used to display the input's value.
              *
@@ -19773,6 +21995,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         props: {
             input: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#input#get", this ); }
+
                     if (UnityEngine.Object.op_Implicit(UnityEngine.EventSystems.EventSystem.current) && UnityEngine.Object.op_Implicit(UnityEngine.EventSystems.EventSystem.current.currentInputModule)) {
                         return UnityEngine.EventSystems.EventSystem.current.currentInputModule.input;
                     }
@@ -19782,11 +22006,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             compositionString: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#compositionString#get", this ); }
+
                     return UnityEngine.MonoBehaviour.op_Inequality(this.input, null) ? this.input.compositionString : UnityEngine.Input.compositionString;
                 }
             },
             mesh: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#mesh#get", this ); }
+
                     if (this.m_Mesh == null) {
                         this.m_Mesh = new UnityEngine.Mesh.ctor();
                     }
@@ -19796,6 +22024,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             cachedInputTextGenerator: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#cachedInputTextGenerator#get", this ); }
+
                     if (this.m_InputTextCache == null) {
                         this.m_InputTextCache = new UnityEngine.TextGenerator.ctor();
                     }
@@ -19814,14 +22044,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             shouldHideMobileInput: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#shouldHideMobileInput#get", this ); }
+
                     return true;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#shouldHideMobileInput#set", this ); }
+
                     UnityEngine.UI.SetPropertyUtility.SetStruct(System.Boolean, Bridge.ref(this, "m_HideMobileInput"), value);
                 }
             },
             shouldActivateOnSelect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#shouldActivateOnSelect#get", this ); }
+
                     return UnityEngine.Application.platform !== UnityEngine.RuntimePlatform.tvOS;
                 }
             },
@@ -19836,9 +22072,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#text#set", this ); }
+
                     if (Bridge.referenceEquals(this.text, value)) {
                         return;
                     }
@@ -19893,6 +22133,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             isFocused: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#isFocused#get", this ); }
+
                     return this.m_AllowInput;
                 }
             },
@@ -19907,9 +22149,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             caretBlinkRate: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretBlinkRate#get", this ); }
+
                     return this.m_CaretBlinkRate;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretBlinkRate#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_CaretBlinkRate"), value)) {
                         if (this.m_AllowInput) {
                             this.SetCaretActive();
@@ -19928,9 +22174,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             caretWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretWidth#get", this ); }
+
                     return this.m_CaretWidth;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretWidth#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Int32, Bridge.ref(this, "m_CaretWidth"), value)) {
                         this.MarkGeometryAsDirty();
                     }
@@ -19947,9 +22197,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             textComponent: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#textComponent#get", this ); }
+
                     return this.m_TextComponent;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#textComponent#set", this ); }
+
                     if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null)) {
                         this.m_TextComponent.UnregisterDirtyVerticesCallback(Bridge.fn.cacheBind(this, this.MarkGeometryAsDirty));
                         this.m_TextComponent.UnregisterDirtyVerticesCallback(Bridge.fn.cacheBind(this, this.UpdateLabel));
@@ -19978,9 +22232,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             placeholder: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#placeholder#get", this ); }
+
                     return this.m_Placeholder;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#placeholder#set", this ); }
+
                     UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.UI.Graphic, Bridge.ref(this, "m_Placeholder"), value);
                 }
             },
@@ -19995,9 +22253,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             caretColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretColor#get", this ); }
+
                     return this.customCaretColor ? this.m_CaretColor.$clone() : this.textComponent.color.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretColor#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetColor(Bridge.ref(this, "m_CaretColor"), value.$clone())) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20014,9 +22276,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             customCaretColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#customCaretColor#get", this ); }
+
                     return this.m_CustomCaretColor;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#customCaretColor#set", this ); }
+
                     if (this.m_CustomCaretColor !== value) {
                         this.m_CustomCaretColor = value;
                         this.MarkGeometryAsDirty();
@@ -20034,9 +22300,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             selectionColor: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionColor#get", this ); }
+
                     return this.m_SelectionColor.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionColor#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetColor(Bridge.ref(this, "m_SelectionColor"), value.$clone())) {
                         this.MarkGeometryAsDirty();
                     }
@@ -20053,17 +22323,25 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onEndEdit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onEndEdit#get", this ); }
+
                     return this.m_OnEndEdit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onEndEdit#set", this ); }
+
                     UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.UI.InputField.SubmitEvent, Bridge.ref(this, "m_OnEndEdit"), value);
                 }
             },
             onValueChange: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValueChange#get", this ); }
+
                     return this.onValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValueChange#set", this ); }
+
                     this.onValueChanged = value;
                 }
             },
@@ -20078,9 +22356,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValueChanged#set", this ); }
+
                     UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.UI.InputField.OnChangeEvent, Bridge.ref(this, "m_OnValueChanged"), value);
                 }
             },
@@ -20095,9 +22377,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onValidateInput: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValidateInput#get", this ); }
+
                     return this.m_OnValidateInput;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#onValidateInput#set", this ); }
+
                     UnityEngine.UI.SetPropertyUtility.SetClass(Function, Bridge.ref(this, "m_OnValidateInput"), value);
                 }
             },
@@ -20112,9 +22398,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             characterLimit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#characterLimit#get", this ); }
+
                     return this.m_CharacterLimit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#characterLimit#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Int32, Bridge.ref(this, "m_CharacterLimit"), Math.max(0, value))) {
                         this.UpdateLabel();
                         if (this.m_Keyboard != null) {
@@ -20134,9 +22424,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             contentType: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#contentType#get", this ); }
+
                     return this.m_ContentType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#contentType#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.InputField.ContentType, Bridge.ref(this, "m_ContentType"), value)) {
                         this.EnforceContentType();
                     }
@@ -20153,9 +22447,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             lineType: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#lineType#get", this ); }
+
                     return this.m_LineType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#lineType#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.InputField.LineType, Bridge.ref(this, "m_LineType"), value)) {
                         this.SetToCustomIfContentTypeIsNot([UnityEngine.UI.InputField.ContentType.Standard, UnityEngine.UI.InputField.ContentType.Autocorrected]);
                         this.EnforceTextHOverflow();
@@ -20173,9 +22471,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             inputType: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#inputType#get", this ); }
+
                     return this.m_InputType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#inputType#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.InputField.InputType, Bridge.ref(this, "m_InputType"), value)) {
                         this.SetToCustom();
                     }
@@ -20193,6 +22495,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             touchScreenKeyboard: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#touchScreenKeyboard#get", this ); }
+
                     return this.m_Keyboard;
                 }
             },
@@ -20207,9 +22511,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             keyboardType: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#keyboardType#get", this ); }
+
                     return this.m_KeyboardType;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#keyboardType#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.TouchScreenKeyboardType, Bridge.ref(this, "m_KeyboardType"), value)) {
                         this.SetToCustom();
                     }
@@ -20226,9 +22534,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             characterValidation: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#characterValidation#get", this ); }
+
                     return this.m_CharacterValidation;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#characterValidation#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.InputField.CharacterValidation, Bridge.ref(this, "m_CharacterValidation"), value)) {
                         this.SetToCustom();
                     }
@@ -20245,9 +22557,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             readOnly: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#readOnly#get", this ); }
+
                     return this.m_ReadOnly;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#readOnly#set", this ); }
+
                     this.m_ReadOnly = value;
                 }
             },
@@ -20263,6 +22579,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             multiLine: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#multiLine#get", this ); }
+
                     return this.m_LineType === UnityEngine.UI.InputField.LineType.MultiLineNewline || this.lineType === UnityEngine.UI.InputField.LineType.MultiLineSubmit;
                 }
             },
@@ -20277,9 +22595,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             asteriskChar: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#asteriskChar#get", this ); }
+
                     return this.m_AsteriskChar;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#asteriskChar#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Char, Bridge.ref(this, "m_AsteriskChar"), value)) {
                         this.UpdateLabel();
                     }
@@ -20297,6 +22619,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             wasCanceled: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#wasCanceled#get", this ); }
+
                     return this.m_WasCanceled;
                 }
             },
@@ -20312,24 +22636,34 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             caretPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretPositionInternal#get", this ); }
+
                     return this.m_CaretPosition + this.compositionString.length;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretPositionInternal#set", this ); }
+
                     this.m_CaretPosition = value;
                     this.ClampPos(Bridge.ref(this, "m_CaretPosition"));
                 }
             },
             caretSelectPositionInternal: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretSelectPositionInternal#get", this ); }
+
                     return this.m_CaretSelectPosition + this.compositionString.length;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretSelectPositionInternal#set", this ); }
+
                     this.m_CaretSelectPosition = value;
                     this.ClampPos(Bridge.ref(this, "m_CaretSelectPosition"));
                 }
             },
             hasSelection$1: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#hasSelection$1#get", this ); }
+
                     return this.caretPositionInternal !== this.caretSelectPositionInternal;
                 }
             },
@@ -20345,9 +22679,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             caretPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretPosition#get", this ); }
+
                     return this.m_CaretSelectPosition + this.compositionString.length;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#caretPosition#set", this ); }
+
                     this.selectionAnchorPosition = value;
                     this.selectionFocusPosition = value;
                 }
@@ -20363,9 +22701,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             selectionAnchorPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionAnchorPosition#get", this ); }
+
                     return this.m_CaretPosition + this.compositionString.length;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionAnchorPosition#set", this ); }
+
                     if (this.compositionString.length !== 0) {
                         return;
                     }
@@ -20385,9 +22727,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             selectionFocusPosition: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionFocusPosition#get", this ); }
+
                     return this.m_CaretSelectPosition + this.compositionString.length;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#selectionFocusPosition#set", this ); }
+
                     if (this.compositionString.length !== 0) {
                         return;
                     }
@@ -20408,6 +22754,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#minWidth#get", this ); }
+
                     return 0;
                 }
             },
@@ -20423,6 +22771,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#preferredWidth#get", this ); }
+
                     return Bridge.getDefaultValue(System.Single);
                 }
             },
@@ -20438,6 +22788,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#flexibleWidth#get", this ); }
+
                     return -1;
                 }
             },
@@ -20453,6 +22805,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#minHeight#get", this ); }
+
                     return 0;
                 }
             },
@@ -20468,6 +22822,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#preferredHeight#get", this ); }
+
                     return Bridge.getDefaultValue(System.Single);
                 }
             },
@@ -20483,6 +22839,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#flexibleHeight#get", this ); }
+
                     return -1;
                 }
             },
@@ -20498,6 +22856,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#layoutPriority#get", this ); }
+
                     return 1;
                 }
             }
@@ -20529,6 +22889,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#init", this ); }
+
                 this.m_CaretColor = new UnityEngine.Color();
                 this.m_SelectionColor = new UnityEngine.Color();
                 this.m_ContentType = UnityEngine.UI.InputField.ContentType.Standard;
@@ -20570,6 +22932,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 }, UnityEngine.Vector3);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
                 this.EnforceTextHOverflow();
@@ -20588,6 +22952,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ClampPos: function (pos) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ClampPos", this ); }
+
                 if (pos.v < 0) {
                     pos.v = 0;
                 } else if (pos.v > this.text.length) {
@@ -20598,6 +22964,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnEnable", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnEnable.call(this);
                 if (this.m_Text == null) {
                     this.m_Text = "";
@@ -20624,6 +22992,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnDisable", this ); }
+
                 // the coroutine will be terminated, so this will ensure it restarts when we are next activated
                 this.m_BlinkCoroutine = null;
 
@@ -20654,6 +23024,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.CaretBlink start.*/
             CaretBlink: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#CaretBlink", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -20723,6 +23095,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SetCaretVisible start.*/
             SetCaretVisible: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SetCaretVisible", this ); }
+
                 if (!this.m_AllowInput) {
                     return;
                 }
@@ -20735,6 +23109,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SetCaretActive start.*/
             SetCaretActive: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SetCaretActive", this ); }
+
                 if (!this.m_AllowInput) {
                     return;
                 }
@@ -20751,6 +23127,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.UpdateCaretMaterial start.*/
             UpdateCaretMaterial: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#UpdateCaretMaterial", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && UnityEngine.Component.op_Inequality(this.m_CachedInputRenderer, null)) {
                     this.m_CachedInputRenderer.SetMaterial$1(this.m_TextComponent.GetModifiedMaterial(UnityEngine.UI.Graphic.defaultGraphicMaterial), UnityEngine.Texture2D.whiteTexture);
                 }
@@ -20768,6 +23146,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnFocus: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnFocus", this ); }
+
                 this.SelectAll();
             },
             /*UnityEngine.UI.InputField.OnFocus end.*/
@@ -20783,6 +23163,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SelectAll: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SelectAll", this ); }
+
                 this.caretPositionInternal = this.text.length;
                 this.caretSelectPositionInternal = 0;
             },
@@ -20800,6 +23182,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             MoveTextEnd: function (shift) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveTextEnd", this ); }
+
                 var position = this.text.length;
 
                 if (shift) {
@@ -20825,6 +23209,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             MoveTextStart: function (shift) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveTextStart", this ); }
+
                 var position = 0;
 
                 if (shift) {
@@ -20840,12 +23226,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.InPlaceEditing start.*/
             InPlaceEditing: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#InPlaceEditing", this ); }
+
                 return !UnityEngine.TouchScreenKeyboard.isSupported;
             },
             /*UnityEngine.UI.InputField.InPlaceEditing end.*/
 
             /*UnityEngine.UI.InputField.UpdateCaretFromKeyboard start.*/
             UpdateCaretFromKeyboard: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#UpdateCaretFromKeyboard", this ); }
+
                 var selectionRange = this.m_Keyboard.selection.$clone();
 
                 var selectionStart = selectionRange.start;
@@ -20882,6 +23272,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             LateUpdate: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#LateUpdate", this ); }
+
                 var $t;
                 // Only activate if we are not already activated.
                 if (this.m_ShouldActivateNextUpdate) {
@@ -20988,6 +23380,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.GetUnclampedCharacterLineFromPosition start.*/
             GetUnclampedCharacterLineFromPosition: function (pos, generator) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GetUnclampedCharacterLineFromPosition", this ); }
+
                 if (!this.multiLine) {
                     return 0;
                 }
@@ -21035,6 +23429,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}                        Character index with in value.
              */
             GetCharacterIndexFromPosition: function (pos) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GetCharacterIndexFromPosition", this ); }
+
                 var gen = this.m_TextComponent.cachedTextGenerator;
 
                 if (gen.lineCount === 0) {
@@ -21074,6 +23470,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MayDrag start.*/
             MayDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MayDrag", this ); }
+
                 return this.IsActive() && this.IsInteractable() && eventData.button === UnityEngine.EventSystems.PointerEventData.InputButton.Left && UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && (this.m_Keyboard == null || this.m_HideMobileInput);
             },
             /*UnityEngine.UI.InputField.MayDrag end.*/
@@ -21090,6 +23488,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnBeginDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnBeginDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -21110,6 +23510,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -21131,6 +23533,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MouseDragOutsideRect start.*/
             MouseDragOutsideRect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MouseDragOutsideRect", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -21218,6 +23622,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnEndDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnEndDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -21228,6 +23634,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnPointerDown start.*/
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnPointerDown", this ); }
+
                 var $t;
                 if (!this.MayDrag(eventData)) {
                     return;
@@ -21270,6 +23678,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}                      If we should continue processing events or we have hit an end condition.
              */
             KeyPressed: function (evt) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#KeyPressed", this ); }
+
                 var currentEventModifiers = evt.modifiers;
                 UnityEngine.Debug.LogWarning$1("Not Implemented In Luna");
                 var ctrl = false; //SystemInfo.operatingSystemFamily == OperatingSystemFamily.MacOSX ? (currentEventModifiers & EventModifiers.Command) != 0 : (currentEventModifiers & EventModifiers.Control) != 0;
@@ -21409,6 +23819,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.IsValidChar start.*/
             IsValidChar: function (c) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#IsValidChar", this ); }
+
                 // Delete key on mac
                 if (c === 127) {
                     return false;
@@ -21436,6 +23848,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ProcessEvent: function (e) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ProcessEvent", this ); }
+
                 this.KeyPressed(e);
             },
             /*UnityEngine.UI.InputField.ProcessEvent end.*/
@@ -21452,6 +23866,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnUpdateSelected: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnUpdateSelected", this ); }
+
                 if (!this.isFocused) {
                     return;
                 }
@@ -21490,6 +23906,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.GetSelectedString start.*/
             GetSelectedString: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GetSelectedString", this ); }
+
                 if (!this.hasSelection$1) {
                     return "";
                 }
@@ -21510,6 +23928,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.FindtNextWordBegin start.*/
             FindtNextWordBegin: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#FindtNextWordBegin", this ); }
+
                 if (this.caretSelectPositionInternal + 1 >= this.text.length) {
                     return this.text.length;
                 }
@@ -21528,6 +23948,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MoveRight start.*/
             MoveRight: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveRight", this ); }
+
                 var $t;
                 if (this.hasSelection$1 && !shift) {
                     // By convention, if we have a selection and move right without holding shift,
@@ -21553,6 +23975,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.FindtPrevWordBegin start.*/
             FindtPrevWordBegin: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#FindtPrevWordBegin", this ); }
+
                 if (this.caretSelectPositionInternal - 2 < 0) {
                     return 0;
                 }
@@ -21571,6 +23995,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MoveLeft start.*/
             MoveLeft: function (shift, ctrl) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveLeft", this ); }
+
                 var $t;
                 if (this.hasSelection$1 && !shift) {
                     // By convention, if we have a selection and move left without holding shift,
@@ -21596,6 +24022,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.DetermineCharacterLine start.*/
             DetermineCharacterLine: function (charPos, generator) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#DetermineCharacterLine", this ); }
+
                 for (var i = 0; i < generator.lineCount - 1; ++i) {
                     if (generator.lines.getItem(i + 1).startCharIdx > charPos) {
                         return i;
@@ -21619,6 +24047,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}
              */
             LineUpCharacterPosition: function (originalPos, goToFirstChar) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#LineUpCharacterPosition", this ); }
+
                 if (originalPos >= this.cachedInputTextGenerator.characters.Count) {
                     return 0;
                 }
@@ -21656,6 +24086,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}
              */
             LineDownCharacterPosition: function (originalPos, goToLastChar) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#LineDownCharacterPosition", this ); }
+
                 if (originalPos >= this.cachedInputTextGenerator.characterCountVisible) {
                     return this.text.length;
                 }
@@ -21683,12 +24115,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MoveDown start.*/
             MoveDown: function (shift) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveDown", this ); }
+
                 this.MoveDown$1(shift, true);
             },
             /*UnityEngine.UI.InputField.MoveDown end.*/
 
             /*UnityEngine.UI.InputField.MoveDown$1 start.*/
             MoveDown$1: function (shift, goToLastChar) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveDown$1", this ); }
+
                 var $t;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press down without shift,
@@ -21708,12 +24144,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.MoveUp start.*/
             MoveUp: function (shift) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveUp", this ); }
+
                 this.MoveUp$1(shift, true);
             },
             /*UnityEngine.UI.InputField.MoveUp end.*/
 
             /*UnityEngine.UI.InputField.MoveUp$1 start.*/
             MoveUp$1: function (shift, goToFirstChar) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MoveUp$1", this ); }
+
                 var $t;
                 if (this.hasSelection$1 && !shift) {
                     // If we have a selection and press up without shift,
@@ -21733,6 +24173,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.Delete start.*/
             Delete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Delete", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -21753,6 +24195,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.ForwardSpace start.*/
             ForwardSpace: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ForwardSpace", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -21771,6 +24215,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.Backspace start.*/
             Backspace: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Backspace", this ); }
+
                 var $t;
                 if (this.m_ReadOnly) {
                     return;
@@ -21791,6 +24237,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.Insert start.*/
             Insert: function (c) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Insert", this ); }
+
                 var $t;
                 if (this.m_ReadOnly) {
                     return;
@@ -21813,6 +24261,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SendOnValueChangedAndUpdateLabel start.*/
             SendOnValueChangedAndUpdateLabel: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SendOnValueChangedAndUpdateLabel", this ); }
+
                 this.SendOnValueChanged();
                 this.UpdateLabel();
             },
@@ -21820,6 +24270,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SendOnValueChanged start.*/
             SendOnValueChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SendOnValueChanged", this ); }
+
                 // UISystemProfilerApi.AddMarker("InputField.value", this);
                 if (this.onValueChanged != null) {
                     this.onValueChanged.Invoke(this.text);
@@ -21838,6 +24290,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SendOnSubmit: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SendOnSubmit", this ); }
+
                 // UISystemProfilerApi.AddMarker("InputField.onSubmit", this);
                 if (this.onEndEdit != null) {
                     this.onEndEdit.Invoke(this.m_Text);
@@ -21857,6 +24311,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Append$1: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Append$1", this ); }
+
                 if (this.m_ReadOnly) {
                     return;
                 }
@@ -21887,6 +24343,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Append: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Append", this ); }
+
                 // We do not currently support surrogate pairs
                 if (System.Char.isSurrogate(input)) {
                     return;
@@ -21929,6 +24387,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             UpdateLabel: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#UpdateLabel", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && this.m_TextComponent.font != null && !this.m_PreventFontCallback) {
                     // TextGenerator.Populate invokes a callback that's called for anything
                     // that needs to be updated when the data for that font has changed.
@@ -21998,6 +24458,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.IsSelectionVisible start.*/
             IsSelectionVisible: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#IsSelectionVisible", this ); }
+
                 if (this.m_DrawStart > this.caretPositionInternal || this.m_DrawStart > this.caretSelectPositionInternal) {
                     return false;
                 }
@@ -22012,6 +24474,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SetDrawRangeToContainCaretPosition start.*/
             SetDrawRangeToContainCaretPosition: function (caretPos) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SetDrawRangeToContainCaretPosition", this ); }
+
                 // We don't have any generated lines generation is not valid.
                 if (this.cachedInputTextGenerator.lineCount <= 0) {
                     return;
@@ -22139,12 +24603,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ForceLabelUpdate: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ForceLabelUpdate", this ); }
+
                 this.UpdateLabel();
             },
             /*UnityEngine.UI.InputField.ForceLabelUpdate end.*/
 
             /*UnityEngine.UI.InputField.MarkGeometryAsDirty start.*/
             MarkGeometryAsDirty: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#MarkGeometryAsDirty", this ); }
+
 
                 UnityEngine.UI.CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(this);
             },
@@ -22162,6 +24630,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Rebuild: function (update) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Rebuild", this ); }
+
                 switch (update) {
                     case UnityEngine.UI.CanvasUpdate.LatePreRender: 
                         this.UpdateGeometry();
@@ -22180,7 +24650,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.InputField
              * @return  {void}
              */
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.InputField.LayoutComplete end.*/
 
             /*UnityEngine.UI.InputField.GraphicUpdateComplete start.*/
@@ -22193,11 +24665,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.InputField
              * @return  {void}
              */
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.InputField.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.InputField.UpdateGeometry start.*/
             UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#UpdateGeometry", this ); }
+
                 // No need to draw a cursor on mobile as its handled by the devices keyboard.
                 if (!this.shouldHideMobileInput) {
                     return;
@@ -22231,6 +24707,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.AssignPositioningIfNeeded start.*/
             AssignPositioningIfNeeded: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#AssignPositioningIfNeeded", this ); }
+
                 var $t, $t1;
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null) && UnityEngine.Component.op_Inequality(this.caretRectTrans, null) && (!pc.Vec3.equals( this.caretRectTrans.localPosition, this.m_TextComponent.rectTransform.localPosition ) || ($t = this.caretRectTrans.localRotation, $t1 = this.m_TextComponent.rectTransform.localRotation, ( $t == null && $t1 != null ) || ( $t != null && $t1 == null ) || ( $t != null && !$t.equals( $t1 ) )) || !pc.Vec3.equals( this.caretRectTrans.localScale, this.m_TextComponent.rectTransform.localScale ) || !pc.Vec2.equals( this.caretRectTrans.anchorMin, this.m_TextComponent.rectTransform.anchorMin ) || !pc.Vec2.equals( this.caretRectTrans.anchorMax, this.m_TextComponent.rectTransform.anchorMax ) || !pc.Vec2.equals( this.caretRectTrans.anchoredPosition, this.m_TextComponent.rectTransform.anchoredPosition ) || !pc.Vec2.equals( this.caretRectTrans.sizeDelta, this.m_TextComponent.rectTransform.sizeDelta ) || !pc.Vec2.equals( this.caretRectTrans.pivot, this.m_TextComponent.rectTransform.pivot ))) {
                     this.caretRectTrans.localPosition = this.m_TextComponent.rectTransform.localPosition.$clone();
@@ -22247,6 +24725,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnFillVBO start.*/
             OnFillVBO: function (vbo) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnFillVBO", this ); }
+
                 var helper = new UnityEngine.UI.VertexHelper.ctor();
                 try {
                     if (!this.isFocused) {
@@ -22273,6 +24753,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.GenerateCaret start.*/
             GenerateCaret: function (vbo, roundingOffset) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GenerateCaret", this ); }
+
                 if (!this.m_CaretVisible) {
                     return;
                 }
@@ -22358,6 +24840,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.CreateCursorVerts start.*/
             CreateCursorVerts: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#CreateCursorVerts", this ); }
+
                 this.m_CursorVerts = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
@@ -22371,6 +24855,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.GenerateHightlight start.*/
             GenerateHightlight: function (vbo, roundingOffset) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#GenerateHightlight", this ); }
+
                 var startChar = UnityEngine.Mathf.Max(0, this.caretPositionInternal - this.m_DrawStart);
                 var endChar = UnityEngine.Mathf.Max(0, this.caretSelectPositionInternal - this.m_DrawStart);
 
@@ -22450,6 +24936,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {number}            The character that should be inserted.
              */
             Validate: function (text, pos, ch) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Validate", this ); }
+
                 // Validation is disabled
                 if (this.characterValidation === UnityEngine.UI.InputField.CharacterValidation.None || !this.enabled) {
                     return ch;
@@ -22598,6 +25086,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ActivateInputField: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ActivateInputField", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.m_TextComponent, null) || this.m_TextComponent.font == null || !this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -22615,6 +25105,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.ActivateInputFieldInternal start.*/
             ActivateInputFieldInternal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ActivateInputFieldInternal", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(UnityEngine.EventSystems.EventSystem.current, null)) {
                     return;
                 }
@@ -22665,6 +25157,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnSelect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnSelect", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnSelect.call(this, eventData);
 
                 if (this.shouldActivateOnSelect) {
@@ -22685,6 +25179,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnPointerClick", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -22721,6 +25217,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             DeactivateInputField: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#DeactivateInputField", this ); }
+
                 // Not activated do nothing.
                 if (!this.m_AllowInput) {
                     return;
@@ -22768,6 +25266,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDeselect: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnDeselect", this ); }
+
                 // DeactivateInputField();
                 // base.OnDeselect(eventData);
             },
@@ -22775,6 +25275,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnSubmit start.*/
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnSubmit", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -22787,6 +25289,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.EnforceContentType start.*/
             EnforceContentType: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#EnforceContentType", this ); }
+
                 switch (this.contentType) {
                     case UnityEngine.UI.InputField.ContentType.Standard: 
                         {
@@ -22873,6 +25377,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.EnforceTextHOverflow start.*/
             EnforceTextHOverflow: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#EnforceTextHOverflow", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_TextComponent, null)) {
                     if (this.multiLine) {
                         this.m_TextComponent.horizontalOverflow = UnityEngine.HorizontalWrapMode.Wrap;
@@ -22885,6 +25391,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SetToCustomIfContentTypeIsNot start.*/
             SetToCustomIfContentTypeIsNot: function (allowedContentTypes) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SetToCustomIfContentTypeIsNot", this ); }
+
                 if (allowedContentTypes === void 0) { allowedContentTypes = []; }
                 if (this.contentType === UnityEngine.UI.InputField.ContentType.Custom) {
                     return;
@@ -22902,6 +25410,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.SetToCustom start.*/
             SetToCustom: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#SetToCustom", this ); }
+
                 if (this.contentType === UnityEngine.UI.InputField.ContentType.Custom) {
                     return;
                 }
@@ -22912,6 +25422,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.DoStateTransition start.*/
             DoStateTransition: function (state, instant) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#DoStateTransition", this ); }
+
                 if (this.m_HasDoneFocusTransition) {
                     state = UnityEngine.UI.Selectable.SelectionState.Highlighted;
                 } else if (state === UnityEngine.UI.Selectable.SelectionState.Pressed) {
@@ -22932,7 +25444,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.InputField
              * @return  {void}
              */
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#CalculateLayoutInputHorizontal", this ); }
+ },
             /*UnityEngine.UI.InputField.CalculateLayoutInputHorizontal end.*/
 
             /*UnityEngine.UI.InputField.CalculateLayoutInputVertical start.*/
@@ -22945,15 +25459,18 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.InputField
              * @return  {void}
              */
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#CalculateLayoutInputVertical", this ); }
+ },
             /*UnityEngine.UI.InputField.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.InputField.Awake start.*/
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Awake", this ); }
+
                 UnityEngine.UI.Selectable.prototype.Awake.call(this);
                 this.rt = Bridge.as(this.m_TextComponent.transform, UnityEngine.RectTransform); // we want our
 
-                // webInput = Document.CreateElement<HTMLInputElement>("textarea"); // multiline
                 this.webInput = document.createElement("input"); // single line
                 this.webInput.style.position = "absolute";
                 this.webInput.style.background = "transparent";
@@ -22967,14 +25484,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this.webInput.style.margin = "0";
                 this.webInput.style.left = "0px";
                 this.webInput.style.top = "0px";
-                this.webInput.style.width = "500px";
-                this.webInput.style.height = "100px";
                 this.webInput.style.fontSize = System.String.format("{0}px", [this.textComponent.fontSize]);
                 this.webInput.spellcheck = false;
+                this.webInput.style[ '-webkit-tap-highlight-color' ] = 'initial';
+                this.webInput.style[ '-webkit-touch-callout' ] = 'initial';
+                this.webInput.style[ '-webkit-user-select' ] = 'initial';
+                this.webInput.style[ 'user-select' ] = 'initial';
                 this.webInput.style.zIndex = Bridge.toString(2147483647);
-                // webInput.AutoComplete = Browser.IsSafari ? "one-time-code" : "off";
                 this.webInput.autocomplete = "one-time-code";
-                // webInput.Style.Cursor = "none";
                 this.webInput.maxLength = this.characterLimit === 0 ? 524288 : this.characterLimit; // according to docs, 0 => infinity, 524288 is max value for maxLength
                 this.webInput.readOnly = this.readOnly; // readonly
 
@@ -23043,7 +25560,7 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             
                 }
 
-                this.webInput.hidden = true;
+                this.webInput.style.display = UnityEngine.UI.InputField.StyleDisplayNone;
 
                 //DEBUG RED
                 // webInput.Style.BackgroundColor = "#FF00002F";
@@ -23079,17 +25596,22 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnCanvasHierarchyChanged start.*/
             OnCanvasHierarchyChanged: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnCanvasHierarchyChanged", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnCanvasHierarchyChanged.call(this);
                 var allEnable = this.AllCanvasedEnabled();
-                this.webInput.hidden = !allEnable;
+                this.webInput.style.display = allEnable ? UnityEngine.UI.InputField.StyleDisplayBlock : UnityEngine.UI.InputField.StyleDisplayNone;
             },
             /*UnityEngine.UI.InputField.OnCanvasHierarchyChanged end.*/
 
             /*UnityEngine.UI.InputField.OnEnableWebInput start.*/
             OnEnableWebInput: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnEnableWebInput", this ); }
+
                 this.canvases = this.GetComponentsInParent$1(UnityEngine.Canvas, true);
                 var allEnable = this.AllCanvasedEnabled();
-                this.webInput.hidden = !allEnable;
+                this.shouldBeShown = allEnable;
+                this.webInput.style.display = allEnable ? UnityEngine.UI.InputField.StyleDisplayBlock : UnityEngine.UI.InputField.StyleDisplayNone;
 
                 this.ResizeWebInput();
             },
@@ -23097,12 +25619,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnRectTransformDimensionsChange", this ); }
+
                 this.ResizeWebInput();
             },
             /*UnityEngine.UI.InputField.OnRectTransformDimensionsChange end.*/
 
             /*UnityEngine.UI.InputField.AllCanvasedEnabled start.*/
             AllCanvasedEnabled: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#AllCanvasedEnabled", this ); }
+
                 var allEnable = this.canvases.length !== 0;
                 for (var i = 0; i < this.canvases.length; i++) {
                     if (!this.canvases[i].enabled) {
@@ -23117,11 +25643,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.Update start.*/
             Update: function () {
-                var allEnable = this.AllCanvasedEnabled();
-                var shouldBeHidden = !allEnable;
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#Update", this ); }
 
-                if (this.webInput.hidden !== shouldBeHidden) {
-                    this.webInput.hidden = shouldBeHidden;
+                var allEnable = this.AllCanvasedEnabled();
+
+                if (this.shouldBeShown !== allEnable) {
+                    this.shouldBeShown = allEnable;
+                    this.webInput.style.display = allEnable ? UnityEngine.UI.InputField.StyleDisplayBlock : UnityEngine.UI.InputField.StyleDisplayNone;
                 }
 
                 if (allEnable) {
@@ -23132,17 +25660,21 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.InputField.OnDisableWebInput start.*/
             OnDisableWebInput: function () {
-                this.webInput.hidden = false;
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#OnDisableWebInput", this ); }
+
+                this.webInput.style.display = UnityEngine.UI.InputField.StyleDisplayNone;
             },
             /*UnityEngine.UI.InputField.OnDisableWebInput end.*/
 
             /*UnityEngine.UI.InputField.ResizeWebInput start.*/
             ResizeWebInput: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.InputField#ResizeWebInput", this ); }
+
                 if (UnityEngine.Component.op_Equality(this.rt, null) || this.webInput == null) {
                     return;
                 }
-                var screenSize = new pc.Vec2( UnityEngine.Screen.width, UnityEngine.Screen.height );
 
+                var screenSize = new pc.Vec2( UnityEngine.Screen.width, UnityEngine.Screen.height );
                 this.rt.GetWorldCorners(this.corners); // 4 vertices is clockwise : LB LT RT RB
                 for (var i = 0; i < 4; i++) {
                     this.cornersScreen[i] = UnityEngine.Vector3.FromVector2(UnityEngine.RectTransformUtility.WorldToScreenPoint(null, this.corners[i].$clone()));
@@ -23178,6 +25710,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         alias: ["ModifyMesh$1", "UnityEngine$UI$IMeshModifier$ModifyMesh$1"],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Outline#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Shadow.ctor.call(this);
             }
@@ -23185,6 +25719,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.Outline.ModifyMesh$1 start.*/
             ModifyMesh$1: function (vh) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Outline#ModifyMesh$1", this ); }
+
                 return;
                 // if (!IsActive())
                 //     return;
@@ -23261,15 +25797,21 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             texture: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#texture#get", this ); }
+
                     return this.m_Texture;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#texture#set", this ); }
+
                     this.m_Texture = value;
                     this.handle.entity.element.texture = (value != null ? value.handle : null) != null ? value.handle : null;
                 }
             },
             mainTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#mainTexture#get", this ); }
+
                     return this.m_Texture;
                 }
             },
@@ -23284,9 +25826,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             uvRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#uvRect#get", this ); }
+
                     return this.m_UVRect.$clone();
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#uvRect#set", this ); }
+
                     this.m_UVRect = value.$clone();
                     this.handle.entity.element._image.rect = new pc.Vec4( value.x, value.y, value.width, value.height );
                 }
@@ -23303,9 +25849,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             enabled: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#enabled#get", this ); }
+
                     return this.handle.entity.element._image.enabled;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#enabled#set", this ); }
+
                     this.handle.entity.element._image.enabled = value;
                     this.handle.enabled = value;
                 }
@@ -23313,6 +25863,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         },
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#init", this ); }
+
                 this.m_UVRect = new UnityEngine.Rect();
                 this.m_UVRect = new UnityEngine.Rect.$ctor1(0, 0, 1, 1);
             },
@@ -23327,6 +25879,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ctor: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             }
@@ -23344,6 +25898,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#Awake", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.Awake.call(this);
 
                 this.handle.entity.element["UnityEngine.UI.RawImage"] = this;
@@ -23369,6 +25925,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#OnDidApplyAnimationProperties", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnDidApplyAnimationProperties.call(this);
                 this.handle.entity.element._image.synchornizeProperties( this, true );
             },
@@ -23387,6 +25945,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.RawImage#ConfigureForEntity", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.ConfigureForEntity.call(this, entity);
                 entity.element.type = "image";
             },
@@ -23446,9 +26006,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             handleRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#handleRect#get", this ); }
+
                     return this.m_HandleRect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#handleRect#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.RectTransform, Bridge.ref(this, "m_HandleRect"), value)) {
                         this.UpdateCachedReferences();
                         this.UpdateVisuals();
@@ -23466,9 +26030,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             direction: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#direction#get", this ); }
+
                     return this.m_Direction;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#direction#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.Scrollbar.Direction, Bridge.ref(this, "m_Direction"), value)) {
                         this.UpdateVisuals();
                     }
@@ -23485,6 +26053,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             value: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#value#get", this ); }
+
                     var val = this.m_Value;
                     if (this.m_NumberOfSteps > 1) {
                         val = Math.round(val * (this.m_NumberOfSteps - 1)) / (this.m_NumberOfSteps - 1);
@@ -23493,6 +26063,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return val;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#value#set", this ); }
+
                     this.Set(value);
                 }
             },
@@ -23507,9 +26079,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             size: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#size#get", this ); }
+
                     return this.m_Size;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#size#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_Size"), Math.max(0, Math.min(1, value)))) {
                         this.UpdateVisuals();
                     }
@@ -23526,9 +26102,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             numberOfSteps: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#numberOfSteps#get", this ); }
+
                     return this.m_NumberOfSteps;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#numberOfSteps#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Int32, Bridge.ref(this, "m_NumberOfSteps"), value)) {
                         this.Set(this.m_Value);
                         this.UpdateVisuals();
@@ -23537,16 +26117,22 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             stepSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#stepSize#get", this ); }
+
                     return this.m_NumberOfSteps > 1 ? 1.0 / (this.m_NumberOfSteps - 1) : 0.1;
                 }
             },
             axis: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#axis#get", this ); }
+
                     return this.m_Direction === UnityEngine.UI.Scrollbar.Direction.LeftToRight || this.m_Direction === UnityEngine.UI.Scrollbar.Direction.RightToLeft ? UnityEngine.UI.Scrollbar.Axis.Horizontal : UnityEngine.UI.Scrollbar.Axis.Vertical;
                 }
             },
             reverseValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#reverseValue#get", this ); }
+
                     return this.m_Direction === UnityEngine.UI.Scrollbar.Direction.RightToLeft || this.m_Direction === UnityEngine.UI.Scrollbar.Direction.TopToBottom;
                 }
             }
@@ -23566,6 +26152,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#init", this ); }
+
                 this._offset = new UnityEngine.Vector2();
                 this._tracker = new UnityEngine.DrivenRectTransformTracker();
                 this._offset = pc.Vec2.ZERO.clone();
@@ -23574,6 +26162,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this.onValueChanged = new UnityEngine.UI.Scrollbar.ScrollEvent();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
             }
@@ -23591,6 +26181,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Update: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#Update", this ); }
+
                 if (this._delayedUpdateVisuals) {
                     this._delayedUpdateVisuals = false;
                     this.UpdateVisuals();
@@ -23600,6 +26192,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnEnable", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnEnable.call(this);
                 this.UpdateCachedReferences();
                 this.Set(this.m_Value, false);
@@ -23610,6 +26204,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnDisable", this ); }
+
                 this._tracker.Clear();
                 UnityEngine.UI.Selectable.prototype.OnDisable.call(this);
             },
@@ -23617,6 +26213,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnRectTransformDimensionsChange", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnRectTransformDimensionsChange.call(this);
 
                 //This can be invoked before OnEnabled is called. So we shouldn't be accessing other objects, before OnEnable is called.
@@ -23640,6 +26238,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnBeginDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnBeginDrag", this ); }
+
                 this._isPointerDownAndNotDragging = false;
 
                 if (!this.MayDrag(eventData)) {
@@ -23661,7 +26261,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Scrollbar.OnBeginDrag end.*/
 
             /*UnityEngine.UI.Scrollbar.Rebuild start.*/
-            Rebuild: function (executing) { },
+            Rebuild: function (executing) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#Rebuild", this ); }
+ },
             /*UnityEngine.UI.Scrollbar.Rebuild end.*/
 
             /*UnityEngine.UI.Scrollbar.LayoutComplete start.*/
@@ -23674,7 +26276,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Scrollbar
              * @return  {void}
              */
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.Scrollbar.LayoutComplete end.*/
 
             /*UnityEngine.UI.Scrollbar.GraphicUpdateComplete start.*/
@@ -23687,7 +26291,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Scrollbar
              * @return  {void}
              */
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.Scrollbar.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.Scrollbar.OnDrag start.*/
@@ -23702,6 +26308,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -23724,6 +26332,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnInitializePotentialDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnInitializePotentialDrag", this ); }
+
                 eventData.useDragThreshold = false;
             },
             /*UnityEngine.UI.Scrollbar.OnInitializePotentialDrag end.*/
@@ -23740,12 +26350,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetValueWithoutNotify: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#SetValueWithoutNotify", this ); }
+
                 this.Set(input, false);
             },
             /*UnityEngine.UI.Scrollbar.SetValueWithoutNotify end.*/
 
             /*UnityEngine.UI.Scrollbar.UpdateCachedReferences start.*/
             UpdateCachedReferences: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#UpdateCachedReferences", this ); }
+
                 if (UnityEngine.Object.op_Implicit(this.m_HandleRect) && UnityEngine.Component.op_Inequality(this.m_HandleRect.parent, null)) {
                     this._containerRect = this.m_HandleRect.parent.GetComponent(UnityEngine.RectTransform);
                 } else {
@@ -23756,6 +26370,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.Set start.*/
             Set: function (input, sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#Set", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 var currentValue = this.m_Value;
 
@@ -23776,6 +26392,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.UpdateVisuals start.*/
             UpdateVisuals: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#UpdateVisuals", this ); }
+
                 this._tracker.Clear();
 
                 if (UnityEngine.Component.op_Inequality(this._containerRect, null)) {
@@ -23800,6 +26418,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.UpdateDrag start.*/
             UpdateDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#UpdateDrag", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -23828,6 +26448,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.DoUpdateDrag start.*/
             DoUpdateDrag: function (handleCorner, remainingSize) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#DoUpdateDrag", this ); }
+
                 switch (this.m_Direction) {
                     case UnityEngine.UI.Scrollbar.Direction.LeftToRight: 
                         this.Set(Math.max(0, Math.min(1, handleCorner.x / remainingSize)));
@@ -23847,6 +26469,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Scrollbar.MayDrag start.*/
             MayDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#MayDrag", this ); }
+
                 return this.IsActive() && this.IsInteractable() && eventData.button === UnityEngine.EventSystems.PointerEventData.InputButton.Left;
             },
             /*UnityEngine.UI.Scrollbar.MayDrag end.*/
@@ -23864,6 +26488,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnPointerDown", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -23886,6 +26512,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {System.Collections.IEnumerator}
              */
             ClickRepeat: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#ClickRepeat", this ); }
+
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
@@ -23959,6 +26587,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnPointerUp", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnPointerUp.call(this, eventData);
                 this._isPointerDownAndNotDragging = false;
             },
@@ -23977,6 +26607,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnMove: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#OnMove", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     UnityEngine.UI.Selectable.prototype.OnMove.call(this, eventData);
                     return;
@@ -24027,6 +26659,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnLeft: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#FindSelectableOnLeft", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Scrollbar.Axis.Horizontal) {
                     return null;
                 }
@@ -24047,6 +26681,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnRight: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#FindSelectableOnRight", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Scrollbar.Axis.Horizontal) {
                     return null;
                 }
@@ -24067,6 +26703,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnUp: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#FindSelectableOnUp", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Scrollbar.Axis.Vertical) {
                     return null;
                 }
@@ -24087,6 +26725,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnDown: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#FindSelectableOnDown", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Scrollbar.Axis.Vertical) {
                     return null;
                 }
@@ -24108,6 +26748,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetDirection: function (direction, includeRectLayouts) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Scrollbar#SetDirection", this ); }
+
                 var oldAxis = this.axis;
                 var oldReverse = this.reverseValue;
                 this.direction = direction;
@@ -24174,9 +26816,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fillRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#fillRect#get", this ); }
+
                     return this.m_FillRect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#fillRect#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.RectTransform, Bridge.ref(this, "m_FillRect"), value)) {
                         this.UpdateCachedReferences();
                         this.UpdateVisuals();
@@ -24194,9 +26840,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             handleRect: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#handleRect#get", this ); }
+
                     return this.m_HandleRect;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#handleRect#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetClass(UnityEngine.RectTransform, Bridge.ref(this, "m_HandleRect"), value)) {
                         this.UpdateCachedReferences();
                         this.UpdateVisuals();
@@ -24214,9 +26864,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             direction: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#direction#get", this ); }
+
                     return this.m_Direction;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#direction#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(UnityEngine.UI.Slider.Direction, Bridge.ref(this, "m_Direction"), value)) {
                         this.UpdateVisuals();
                     }
@@ -24233,9 +26887,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#minValue#get", this ); }
+
                     return this.m_MinValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#minValue#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_MinValue"), value)) {
                         this.Set(this.m_Value);
                         this.UpdateVisuals();
@@ -24253,9 +26911,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             maxValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#maxValue#get", this ); }
+
                     return this.m_MaxValue;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#maxValue#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Single, Bridge.ref(this, "m_MaxValue"), value)) {
                         this.Set(this.m_Value);
                         this.UpdateVisuals();
@@ -24273,9 +26935,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             wholeNumbers: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#wholeNumbers#get", this ); }
+
                     return this.m_WholeNumbers;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#wholeNumbers#set", this ); }
+
                     if (UnityEngine.UI.SetPropertyUtility.SetStruct(System.Boolean, Bridge.ref(this, "m_WholeNumbers"), value)) {
                         this.Set(this.m_Value);
                         this.UpdateVisuals();
@@ -24293,6 +26959,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             value: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#value#get", this ); }
+
                     if (this.wholeNumbers) {
                         return Math.round(this.m_Value);
                     }
@@ -24300,6 +26968,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return this.m_Value;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#value#set", this ); }
+
                     this.Set(value);
                 }
             },
@@ -24314,6 +26984,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             normalizedValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#normalizedValue#get", this ); }
+
                     var $t, $t1;
                     if (UnityEngine.Mathf.Approximately(this.minValue, this.maxValue)) {
                         return 0;
@@ -24322,6 +26994,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return ($t = this.maxValue, $t1 = this.minValue, ( $t - $t1 ) === 0 ? 0 : ( ((this.value - $t1) / ($t - $t1)) ));
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#normalizedValue#set", this ); }
+
                     this.value = pc.math.lerp(this.minValue, this.maxValue, value);
                 }
             },
@@ -24336,24 +27010,34 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             onValueChanged: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#onValueChanged#get", this ); }
+
                     return this.m_OnValueChanged;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#onValueChanged#set", this ); }
+
                     this.m_OnValueChanged = value;
                 }
             },
             stepSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#stepSize#get", this ); }
+
                     return this.wholeNumbers ? 1 : (this.maxValue - this.minValue) * 0.1;
                 }
             },
             axis: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#axis#get", this ); }
+
                     return this.m_Direction === UnityEngine.UI.Slider.Direction.LeftToRight || this.m_Direction === UnityEngine.UI.Slider.Direction.RightToLeft ? UnityEngine.UI.Slider.Axis.Horizontal : UnityEngine.UI.Slider.Axis.Vertical;
                 }
             },
             reverseValue: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#reverseValue#get", this ); }
+
                     return this.m_Direction === UnityEngine.UI.Slider.Direction.RightToLeft || this.m_Direction === UnityEngine.UI.Slider.Direction.TopToBottom;
                 }
             }
@@ -24371,6 +27055,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#init", this ); }
+
                 this._offset = new UnityEngine.Vector2();
                 this._tracker = new UnityEngine.DrivenRectTransformTracker();
                 this.m_Direction = UnityEngine.UI.Slider.Direction.LeftToRight;
@@ -24382,10 +27068,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                 this._delayedUpdateVisuals = false;
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
             },
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.$ctor1.call(this, handle);
             }
@@ -24403,12 +27093,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetValueWithoutNotify: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#SetValueWithoutNotify", this ); }
+
                 this.Set(input, false);
             },
             /*UnityEngine.UI.Slider.SetValueWithoutNotify end.*/
 
             /*UnityEngine.UI.Slider.Rebuild start.*/
-            Rebuild: function (executing) { },
+            Rebuild: function (executing) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#Rebuild", this ); }
+ },
             /*UnityEngine.UI.Slider.Rebuild end.*/
 
             /*UnityEngine.UI.Slider.LayoutComplete start.*/
@@ -24421,7 +27115,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Slider
              * @return  {void}
              */
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.Slider.LayoutComplete end.*/
 
             /*UnityEngine.UI.Slider.GraphicUpdateComplete start.*/
@@ -24434,11 +27130,15 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Slider
              * @return  {void}
              */
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.Slider.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.Slider.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnEnable", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnEnable.call(this);
                 this.UpdateCachedReferences();
                 this.Set(this.m_Value, false);
@@ -24449,6 +27149,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnDisable", this ); }
+
                 this._tracker.Clear();
                 UnityEngine.UI.Selectable.prototype.OnDisable.call(this);
             },
@@ -24466,6 +27168,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Update: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#Update", this ); }
+
                 if (this._delayedUpdateVisuals) {
                     this._delayedUpdateVisuals = false;
                     this.UpdateVisuals();
@@ -24475,6 +27179,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnDidApplyAnimationProperties", this ); }
+
                 // Has value changed? Various elements of the slider have the old normalisedValue assigned, we can use this to perform a comparison.
                 // We also need to ensure the value stays within min/max.
                 this.m_Value = this.ClampValue(this.m_Value);
@@ -24499,6 +27205,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.UpdateCachedReferences start.*/
             UpdateCachedReferences: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#UpdateCachedReferences", this ); }
+
                 if (UnityEngine.Object.op_Implicit(this.m_FillRect) && UnityEngine.Component.op_Inequality(this.m_FillRect, Bridge.cast(this.transform, UnityEngine.RectTransform))) {
                     this._fillTransform = this.m_FillRect.transform;
                     this._fillImage = this.m_FillRect.GetComponent(UnityEngine.UI.Image);
@@ -24525,6 +27233,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.ClampValue start.*/
             ClampValue: function (input) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#ClampValue", this ); }
+
                 var newValue = Math.max(this.minValue, Math.min(input, this.maxValue));
                 if (this.wholeNumbers) {
                     newValue = Math.round(newValue);
@@ -24547,6 +27257,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Set: function (input, sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#Set", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 // Clamp the input
                 var newValue = this.ClampValue(input);
@@ -24566,6 +27278,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnRectTransformDimensionsChange start.*/
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnRectTransformDimensionsChange", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnRectTransformDimensionsChange.call(this);
 
                 //This can be invoked before OnEnabled is called. So we shouldn't be accessing other objects, before OnEnable is called.
@@ -24579,6 +27293,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.UpdateVisuals start.*/
             UpdateVisuals: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#UpdateVisuals", this ); }
+
                 var $t;
                 this._tracker.Clear();
 
@@ -24614,6 +27330,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.UpdateDrag start.*/
             UpdateDrag: function (eventData, cam) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#UpdateDrag", this ); }
+
                 var clickRect = this._handleContainerRect || this._fillContainerRect;
                 if (UnityEngine.Component.op_Inequality(clickRect, null) && clickRect.rect.size.getitem(this.axis) > 0) {
                     var localCursor = { v : new UnityEngine.Vector2() };
@@ -24631,12 +27349,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.MayDrag start.*/
             MayDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#MayDrag", this ); }
+
                 return this.IsActive() && this.IsInteractable() && eventData.button === UnityEngine.EventSystems.PointerEventData.InputButton.Left;
             },
             /*UnityEngine.UI.Slider.MayDrag end.*/
 
             /*UnityEngine.UI.Slider.OnPointerDown start.*/
             OnPointerDown: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnPointerDown", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -24658,6 +27380,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnDrag start.*/
             OnDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnDrag", this ); }
+
                 if (!this.MayDrag(eventData)) {
                     return;
                 }
@@ -24668,6 +27392,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnMove start.*/
             OnMove: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnMove", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     UnityEngine.UI.Selectable.prototype.OnMove.call(this, eventData);
                     return;
@@ -24718,6 +27444,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnLeft: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#FindSelectableOnLeft", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Slider.Axis.Horizontal) {
                     return null;
                 }
@@ -24738,6 +27466,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnRight: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#FindSelectableOnRight", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Slider.Axis.Horizontal) {
                     return null;
                 }
@@ -24758,6 +27488,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnUp: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#FindSelectableOnUp", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Slider.Axis.Vertical) {
                     return null;
                 }
@@ -24778,6 +27510,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.UI.Selectable}
              */
             FindSelectableOnDown: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#FindSelectableOnDown", this ); }
+
                 if (this.navigation.mode === UnityEngine.UI.Navigation.Mode.Automatic && this.axis === UnityEngine.UI.Slider.Axis.Vertical) {
                     return null;
                 }
@@ -24788,6 +27522,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Slider.OnInitializePotentialDrag start.*/
             OnInitializePotentialDrag: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#OnInitializePotentialDrag", this ); }
+
                 eventData.useDragThreshold = false;
             },
             /*UnityEngine.UI.Slider.OnInitializePotentialDrag end.*/
@@ -24805,6 +27541,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetDirection: function (direction, includeRectLayouts) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#SetDirection", this ); }
+
                 var oldAxis = this.axis;
                 var oldReverse = this.reverseValue;
                 this.direction = direction;
@@ -24836,6 +27574,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Slider#ConfigureForEntity", this ); }
+
                 UnityEngine.UI.Selectable.prototype.ConfigureForEntity.call(this, entity);
                 entity.element["UnityEngine.UI.Slider"] = this;
             },
@@ -24883,6 +27623,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             material: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#material#get", this ); }
+
                     if (this.m_Material != null) {
                         return this.m_Material;
                     }
@@ -24890,6 +27632,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
                     return this.defaultMaterial;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#material#set", this ); }
+
                     Bridge.ensureBaseProperty(this, "material").$UnityEngine$UI$Graphic$material = value;
                 }
             },
@@ -24904,9 +27648,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fontData: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontData#get", this ); }
+
                     return this.m_FontData;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontData#set", this ); }
+
                     this.m_FontData = value;
                     this.ApplyFontDataChanges();
                 }
@@ -24924,6 +27672,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             mainTexture: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#mainTexture#get", this ); }
+
                     if (this.fontData != null && this.fontData.font != null && this.fontData.font.handle != null) {
                         return UnityEngine.Object.FromHandle(UnityEngine.Texture, this.fontData.font.handle.texture);
                     }
@@ -24946,9 +27696,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             alignment: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#alignment#get", this ); }
+
                     return this.m_FontData.alignment;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#alignment#set", this ); }
+
                     this.m_FontData.alignment = value;
                     this.ApplyFontDataChanges();
                 }
@@ -24964,9 +27718,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             text: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#text#get", this ); }
+
                     return this.m_Text;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#text#set", this ); }
+
                     if (System.String.isNullOrEmpty(value)) {
                         if (System.String.isNullOrEmpty(this.m_Text)) {
                             return;
@@ -24994,9 +27752,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             font: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#font#get", this ); }
+
                     return this.m_FontData.font;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#font#set", this ); }
+
                     this.m_FontData.font = value;
                     this.ApplyFontDataChanges();
                 }
@@ -25012,9 +27774,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fontSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontSize#get", this ); }
+
                     return this.m_FontData.fontSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontSize#set", this ); }
+
                     this.m_FontData.fontSize = value;
                     this.ApplyFontDataChanges();
                 }
@@ -25030,9 +27796,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             fontStyle: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontStyle#get", this ); }
+
                     return this.m_FontData.fontStyle;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#fontStyle#set", this ); }
+
                     if (this.m_FontData.fontStyle === value) {
                         return;
                     }
@@ -25053,9 +27823,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             resizeTextMaxSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextMaxSize#get", this ); }
+
                     return this.m_FontData.maxSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextMaxSize#set", this ); }
+
                     this.m_FontData.maxSize = value;
                     this.ApplyFontDataChanges();
                 }
@@ -25071,9 +27845,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             resizeTextMinSize: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextMinSize#get", this ); }
+
                     return this.m_FontData.minSize;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextMinSize#set", this ); }
+
                     this.m_FontData.minSize = value;
                     this.ApplyFontDataChanges();
                 }
@@ -25090,6 +27868,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             textGenerator: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#textGenerator#get", this ); }
+
                     return this.entity.element._text._textGenerator;
                 }
             },
@@ -25105,6 +27885,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             cachedTextGenerator: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#cachedTextGenerator#get", this ); }
+
                     return UnityEngine.Object.FromHandle(UnityEngine.TextGenerator, this.textGenerator);
                 }
             },
@@ -25119,9 +27901,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             resizeTextForBestFit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextForBestFit#get", this ); }
+
                     return this.m_FontData.bestFit;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#resizeTextForBestFit#set", this ); }
+
                     this.m_FontData.bestFit = value;
                     this.ApplyFontDataChanges();
                 }
@@ -25138,6 +27924,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#flexibleHeight#get", this ); }
+
                     return -1.0;
                 }
             },
@@ -25153,6 +27941,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             flexibleWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#flexibleWidth#get", this ); }
+
                     return -1.0;
                 }
             },
@@ -25168,6 +27958,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             layoutPriority: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#layoutPriority#get", this ); }
+
                     return 0;
                 }
             },
@@ -25183,6 +27975,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#minHeight#get", this ); }
+
                     return 0;
                 }
             },
@@ -25198,6 +27992,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             minWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#minWidth#get", this ); }
+
                     return 0;
                 }
             },
@@ -25213,6 +28009,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredWidth: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#preferredWidth#get", this ); }
+
                     return this.textGenerator.measureText(this.m_Text, 1E+15, this.entity.element._text).x;
                 }
             },
@@ -25228,6 +28026,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             preferredHeight: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#preferredHeight#get", this ); }
+
                     return this.textGenerator.measureText(this.m_Text, this.rectTransform.rect.width, this.entity.element._text).y;
                 }
             },
@@ -25242,9 +28042,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             horizontalOverflow: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#horizontalOverflow#get", this ); }
+
                     return this.m_FontData.horizontalOverflow;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#horizontalOverflow#set", this ); }
+
                     if (this.m_FontData.horizontalOverflow === value) {
                         return;
                     }
@@ -25265,9 +28069,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             verticalOverflow: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#verticalOverflow#get", this ); }
+
                     return this.m_FontData.verticalOverflow;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#verticalOverflow#set", this ); }
+
                     if (this.m_FontData.verticalOverflow === value) {
                         return;
                     }
@@ -25279,9 +28087,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             },
             supportRichText: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#supportRichText#get", this ); }
+
                     return this.m_FontData.richText;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#supportRichText#set", this ); }
+
                     if (this.m_FontData.richText === value) {
                         return;
                     }
@@ -25303,6 +28115,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             pixelsPerUnit: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#pixelsPerUnit#get", this ); }
+
                     return 1;
                 }
             }
@@ -25320,14 +28134,20 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#init", this ); }
+
                 this.m_FontData = UnityEngine.UI.FontData.defaultFontData;
                 this.m_Text = "";
             },
             $ctor1: function (handle) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#$ctor1", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, handle);
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.MaskableGraphic.$ctor1.call(this, null);
             }
@@ -25346,6 +28166,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ConfigureForEntity: function (entity) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#ConfigureForEntity", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.ConfigureForEntity.call(this, entity);
                 entity.element.type = "text";
             },
@@ -25363,6 +28185,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Awake: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#Awake", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.Awake.call(this);
 
                 this.handle.entity.element["UnityEngine.UI.Text"] = this;
@@ -25374,6 +28198,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Text.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#OnEnable", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnEnable.call(this);
 
                 if (this.handle.entity.element != null) {
@@ -25385,6 +28211,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Text.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#OnDisable", this ); }
+
                 if (this.handle.entity.element != null) {
                     this.handle.entity.element._text.enabled = false;
                     this.SetAllDirty();
@@ -25405,6 +28233,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             ApplyFontDataChanges: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#ApplyFontDataChanges", this ); }
+
                 var $t;
                 var element = this.handle.entity.element;
                 element._text.font = ($t = this.m_FontData.font) != null ? $t.handle : null;
@@ -25474,7 +28304,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Text
              * @return  {void}
              */
-            CalculateLayoutInputHorizontal: function () { },
+            CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#CalculateLayoutInputHorizontal", this ); }
+ },
             /*UnityEngine.UI.Text.CalculateLayoutInputHorizontal end.*/
 
             /*UnityEngine.UI.Text.CalculateLayoutInputVertical start.*/
@@ -25487,7 +28319,9 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @memberof UnityEngine.UI.Text
              * @return  {void}
              */
-            CalculateLayoutInputVertical: function () { },
+            CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#CalculateLayoutInputVertical", this ); }
+ },
             /*UnityEngine.UI.Text.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.Text.OnDidApplyAnimationProperties start.*/
@@ -25502,6 +28336,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#OnDidApplyAnimationProperties", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnDidApplyAnimationProperties.call(this);
                 this.handle.entity.element._text.synchornizeProperties( this );
             },
@@ -25519,6 +28355,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnRectTransformDimensionsChange: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#OnRectTransformDimensionsChange", this ); }
+
                 UnityEngine.UI.MaskableGraphic.prototype.OnRectTransformDimensionsChange.call(this);
                 this.SetAllDirty();
             },
@@ -25536,6 +28374,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {UnityEngine.TextGenerationSettings}               Generated settings.
              */
             GetGenerationSettings: function (extents) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Text#GetGenerationSettings", this ); }
+
                 var settings = new UnityEngine.TextGenerationSettings();
 
                 settings.generationExtents = extents.$clone();
@@ -25625,9 +28465,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             group: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#group#get", this ); }
+
                     return this.m_Group;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#group#set", this ); }
+
                     this.m_Group = value;
                     this.SetToggleGroup(this.m_Group, true);
                     this.PlayEffect(true);
@@ -25644,9 +28488,13 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              */
             isOn: {
                 get: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#isOn#get", this ); }
+
                     return this.m_IsOn;
                 },
                 set: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#isOn#set", this ); }
+
                     this.Set(value);
                 }
             }
@@ -25662,10 +28510,14 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             init: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#init", this ); }
+
                 this.toggleTransition = UnityEngine.UI.Toggle.ToggleTransition.Fade;
                 this.onValueChanged = new UnityEngine.UI.Toggle.ToggleEvent();
             },
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.Selectable.ctor.call(this);
             }
@@ -25683,12 +28535,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             Start: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#Start", this ); }
+
                 this.PlayEffect(true);
             },
             /*UnityEngine.UI.Toggle.Start end.*/
 
             /*UnityEngine.UI.Toggle.OnEnable start.*/
             OnEnable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#OnEnable", this ); }
+
                 UnityEngine.UI.Selectable.prototype.OnEnable.call(this);
                 this.SetToggleGroup(this.m_Group, false);
                 this.PlayEffect(true);
@@ -25697,6 +28553,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Toggle.OnDisable start.*/
             OnDisable: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#OnDisable", this ); }
+
                 this.SetToggleGroup(null, false);
                 UnityEngine.UI.Selectable.prototype.OnDisable.call(this);
             },
@@ -25704,6 +28562,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Toggle.OnDidApplyAnimationProperties start.*/
             OnDidApplyAnimationProperties: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#OnDidApplyAnimationProperties", this ); }
+
                 // Check if isOn has been changed by the animation.
                 // Unfortunately there is no way to check if we don�t have a graphic.
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.graphic, null)) {
@@ -25719,15 +28579,21 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
             /*UnityEngine.UI.Toggle.OnDidApplyAnimationProperties end.*/
 
             /*UnityEngine.UI.Toggle.Rebuild start.*/
-            Rebuild: function (executing) { },
+            Rebuild: function (executing) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#Rebuild", this ); }
+ },
             /*UnityEngine.UI.Toggle.Rebuild end.*/
 
             /*UnityEngine.UI.Toggle.LayoutComplete start.*/
-            LayoutComplete: function () { },
+            LayoutComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#LayoutComplete", this ); }
+ },
             /*UnityEngine.UI.Toggle.LayoutComplete end.*/
 
             /*UnityEngine.UI.Toggle.GraphicUpdateComplete start.*/
-            GraphicUpdateComplete: function () { },
+            GraphicUpdateComplete: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#GraphicUpdateComplete", this ); }
+ },
             /*UnityEngine.UI.Toggle.GraphicUpdateComplete end.*/
 
             /*UnityEngine.UI.Toggle.OnPointerClick start.*/
@@ -25742,6 +28608,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             OnPointerClick: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#OnPointerClick", this ); }
+
                 if (eventData.button !== UnityEngine.EventSystems.PointerEventData.InputButton.Left) {
                     return;
                 }
@@ -25752,12 +28620,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Toggle.OnSubmit start.*/
             OnSubmit: function (eventData) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#OnSubmit", this ); }
+
                 this.InternalToggle();
             },
             /*UnityEngine.UI.Toggle.OnSubmit end.*/
 
             /*UnityEngine.UI.Toggle.SetToggleGroup start.*/
             SetToggleGroup: function (newGroup, setMemberValue) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#SetToggleGroup", this ); }
+
                 // Sometimes IsActive returns false in OnDisable so don't check for it.
                 // Rather remove the toggle too often than too little.
                 if (UnityEngine.MonoBehaviour.op_Inequality(this.m_Group, null)) {
@@ -25795,12 +28667,16 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             SetIsOnWithoutNotify: function (value) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#SetIsOnWithoutNotify", this ); }
+
                 this.Set(value, false);
             },
             /*UnityEngine.UI.Toggle.SetIsOnWithoutNotify end.*/
 
             /*UnityEngine.UI.Toggle.Set start.*/
             Set: function (value, sendCallback) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#Set", this ); }
+
                 if (sendCallback === void 0) { sendCallback = true; }
                 if (this.m_IsOn === value) {
                     return;
@@ -25838,6 +28714,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
              * @return  {void}
              */
             PlayEffect: function (instant) {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#PlayEffect", this ); }
+
                 if (UnityEngine.MonoBehaviour.op_Equality(this.graphic, null)) {
                     return;
                 }
@@ -25848,6 +28726,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.Toggle.InternalToggle start.*/
             InternalToggle: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.Toggle#InternalToggle", this ); }
+
                 if (!this.IsActive() || !this.IsInteractable()) {
                     return;
                 }
@@ -25872,6 +28752,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalLayoutGroup#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.HorizontalOrVerticalLayoutGroup.ctor.call(this);
             }
@@ -25879,6 +28761,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.HorizontalLayoutGroup.CalculateLayoutInputHorizontal start.*/
             CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalLayoutGroup#CalculateLayoutInputHorizontal", this ); }
+
                 UnityEngine.UI.HorizontalOrVerticalLayoutGroup.prototype.CalculateLayoutInputHorizontal.call(this);
                 this.CalcAlongAxis(0, false);
             },
@@ -25886,18 +28770,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.HorizontalLayoutGroup.CalculateLayoutInputVertical start.*/
             CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalLayoutGroup#CalculateLayoutInputVertical", this ); }
+
                 this.CalcAlongAxis(1, false);
             },
             /*UnityEngine.UI.HorizontalLayoutGroup.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.HorizontalLayoutGroup.SetLayoutHorizontal start.*/
             SetLayoutHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalLayoutGroup#SetLayoutHorizontal", this ); }
+
                 this.SetChildrenAlongAxis(0, false);
             },
             /*UnityEngine.UI.HorizontalLayoutGroup.SetLayoutHorizontal end.*/
 
             /*UnityEngine.UI.HorizontalLayoutGroup.SetLayoutVertical start.*/
             SetLayoutVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.HorizontalLayoutGroup#SetLayoutVertical", this ); }
+
                 this.SetChildrenAlongAxis(1, false);
             },
             /*UnityEngine.UI.HorizontalLayoutGroup.SetLayoutVertical end.*/
@@ -25918,6 +28808,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         ],
         ctors: {
             ctor: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VerticalLayoutGroup#ctor", this ); }
+
                 this.$initialize();
                 UnityEngine.UI.HorizontalOrVerticalLayoutGroup.ctor.call(this);
             }
@@ -25925,6 +28817,8 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
         methods: {
             /*UnityEngine.UI.VerticalLayoutGroup.CalculateLayoutInputHorizontal start.*/
             CalculateLayoutInputHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VerticalLayoutGroup#CalculateLayoutInputHorizontal", this ); }
+
                 UnityEngine.UI.HorizontalOrVerticalLayoutGroup.prototype.CalculateLayoutInputHorizontal.call(this);
                 this.CalcAlongAxis(0, true);
             },
@@ -25932,18 +28826,24 @@ Bridge.rValue(                    info).UnityEngine$UI$CoroutineTween$ITweenValu
 
             /*UnityEngine.UI.VerticalLayoutGroup.CalculateLayoutInputVertical start.*/
             CalculateLayoutInputVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VerticalLayoutGroup#CalculateLayoutInputVertical", this ); }
+
                 this.CalcAlongAxis(1, true);
             },
             /*UnityEngine.UI.VerticalLayoutGroup.CalculateLayoutInputVertical end.*/
 
             /*UnityEngine.UI.VerticalLayoutGroup.SetLayoutHorizontal start.*/
             SetLayoutHorizontal: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VerticalLayoutGroup#SetLayoutHorizontal", this ); }
+
                 this.SetChildrenAlongAxis(0, true);
             },
             /*UnityEngine.UI.VerticalLayoutGroup.SetLayoutHorizontal end.*/
 
             /*UnityEngine.UI.VerticalLayoutGroup.SetLayoutVertical start.*/
             SetLayoutVertical: function () {
+if ( TRACE ) { TRACE( "UnityEngine.UI.VerticalLayoutGroup#SetLayoutVertical", this ); }
+
                 this.SetChildrenAlongAxis(1, true);
             },
             /*UnityEngine.UI.VerticalLayoutGroup.SetLayoutVertical end.*/
