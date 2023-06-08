@@ -88,8 +88,9 @@ public class UIManager : MonoBehaviour
     public void ButtonDirectToStore()
     {
         ctaClick++;
-        Luna.Unity.Playable.InstallFullGame();
-        Luna.Unity.Analytics.LogEvent("cta_click", ctaClick);
+        Debug.Log("CTA!");
+        //Luna.Unity.Playable.InstallFullGame();
+        //Luna.Unity.Analytics.LogEvent("cta_click", ctaClick);
     }
 
     public void CompleteRound1()
@@ -112,7 +113,8 @@ public class UIManager : MonoBehaviour
     public void ButtonDownload()
     {
         installClick++;
-        Luna.Unity.Playable.InstallFullGame();
-        Luna.Unity.Analytics.LogEvent("download_click", installClick);
+        //Luna.Unity.Playable.InstallFullGame();
+        //Luna.Unity.Analytics.LogEvent("download_click", installClick);
+        Debug.Log("CTA!");
     }
 }

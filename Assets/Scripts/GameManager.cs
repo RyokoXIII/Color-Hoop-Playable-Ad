@@ -435,12 +435,12 @@ public class GameManager : MonoBehaviour
                 //SoundManager.instance.PlayStickFinish();
                 if (CheckCompleted())
                 {
-                    Luna.Unity.LifeCycle.GameEnded();
+                    //Luna.Unity.LifeCycle.GameEnded();
                     EndGame();
                 }
                 else if (stickFinish >= 2)
                 {
-                    Luna.Unity.LifeCycle.GameEnded();
+                    //Luna.Unity.LifeCycle.GameEnded();
                     EndGame();
                 }
             }
@@ -462,7 +462,7 @@ public class GameManager : MonoBehaviour
         {
             //StartCoroutine(ShowRewardCallBack());
             EndGame();
-            Luna.Unity.LifeCycle.GameEnded();
+            //Luna.Unity.LifeCycle.GameEnded();
             //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
         }
     }
@@ -492,12 +492,12 @@ public class GameManager : MonoBehaviour
                     //SoundManager.instance.PlayStickFinish();
                     if (CheckCompleted())
                     {
-                        Luna.Unity.LifeCycle.GameEnded();
+                        //Luna.Unity.LifeCycle.GameEnded();
                         EndGame();
                     }
                     else if (stickFinish >= 2)
                     {
-                        Luna.Unity.LifeCycle.GameEnded();
+                        //Luna.Unity.LifeCycle.GameEnded();
                         EndGame();
                     }
                 }
@@ -521,7 +521,7 @@ public class GameManager : MonoBehaviour
             //StartCoroutine(ShowRewardCallBack());
 
             EndGame();
-            Luna.Unity.LifeCycle.GameEnded();
+            //Luna.Unity.LifeCycle.GameEnded();
             //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
         }
     }
@@ -537,7 +537,7 @@ public class GameManager : MonoBehaviour
         {
             uiManager.ctaUI.SetActive(true);
             uiManager.downloadButton.SetActive(false);
-            Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+            //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
         }
 
 
@@ -633,7 +633,7 @@ public class GameManager : MonoBehaviour
         if (uiManager.ctaUI.activeInHierarchy == false)
         {
             uiManager.ctaUI.SetActive(true);
-            Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
+            //Luna.Unity.Analytics.LogEvent(Luna.Unity.Analytics.EventType.EndCardShown);
         }
     }
 }
